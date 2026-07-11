@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon filename="panzerschreck.weapon" key="panzerschreck_ai.weapon" drop_count_factor_on_death="0.0">
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="panzerschreck.weapon" min_amount="0" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+	<specification slot="1" />
+</weapon>

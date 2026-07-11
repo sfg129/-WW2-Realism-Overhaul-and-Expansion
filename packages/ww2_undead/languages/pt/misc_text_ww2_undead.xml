@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<translation>
+
+	<text key="Shambler" text="Andador"/>
+	<text key="Brute Shambler" text="Andador Bruto"/>
+	<text key="Runner" text="Corredor"/>		<!-- probably ununsed -->
+	<text key="Kriegshund" text="Kriegshund"/>
+	<text key="Zombie Hund" text="Hund Zumbi"/>
+	<text key="Zombie Bear" text="Urso Zumbi"/>
+	<text key="Resurrector" text="Ressuscitador"/>
+	<text key="Necromancer" text="Necromante"/>
+
+	<!-- we won't translate the german ranks for now, keep them as is -->	
+	<text key="Soldat" text="Soldat"/>
+	<text key="Obersoldat" text="Obersoldat"/>
+	<text key="Untote" text="Untote"/>
+
+	<text key="MG 131 - Mobile" text="MG 131 - Móvel" />
+
+</translation>

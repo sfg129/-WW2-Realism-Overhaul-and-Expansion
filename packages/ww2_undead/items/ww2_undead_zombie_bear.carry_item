@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="ww2_undead_zombie_bear.carry_item" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_2" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.55" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_2" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_3" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.2" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_3" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_4" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_4" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_5" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_5" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_6" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_6" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_7" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_7" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_8" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_8" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_9" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_9" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_10" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_10" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_11" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_11" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_12" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_12" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_13" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_13" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_14" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_14" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_15" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_16" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_16" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_17" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_17" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_18" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_18" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_19" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_19" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_20" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_20" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_21" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.3" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_21" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_22" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.2" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_22" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_23" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.15" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_23" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_24" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_24" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_25" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_25" name="" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ===== -->
+	<!-- these still will exist but are no longer in use for now -->
+	<!-- ===== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <carry_item key="ww2_undead_zombie_bear_26" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_27" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_27" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_28" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_28" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_29" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_29" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_30" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_30" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_31" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_31" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_32" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_32" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_33" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_33" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_34" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_34" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_35" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_35" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_36" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_36" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_37" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_37" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_38" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_38" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_39" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_39" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_40" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.4" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_40" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_41" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.25" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_41" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_42" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.15" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_42" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_43" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="+0.0" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_43" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_44" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_44" name="" slot="1" transform_on_consume="ww2_undead_zombie_bear_45" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0"/>
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.3" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_zombie_bear_45" name="" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<modifier class="speed" value="-0.4" />
+    </carry_item>
+
+
+
+	<!-- ===== -->
+	<!-- remember, 25 is the final layer for the time being, the rest are just preserved for ease of re-implementing if needed -->
+	<!-- ===== -->
+
+
+
+</carry_items>

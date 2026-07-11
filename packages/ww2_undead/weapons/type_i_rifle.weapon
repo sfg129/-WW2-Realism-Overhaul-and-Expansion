@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="type_i_rifle.weapon">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="1"
+	stance_accuracy_rate="8.5"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" name="Type I Carcano" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="130.0" 
+	barrel_offset="0.65" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.1"
+	/>
+
+	<!-- recoil is higher than Type 38 but does not actually affect accurate-rate of fire, thus is for aesthetic only -->
+
+	<next_in_chain key="type_i_rifle_b.weapon" share_ammo="1" />
+
+	<stance state_key="standing" accuracy="0.935" />
+	<stance state_key="crouching" accuracy="0.975" />
+	
+	<!-- the Type "I" Carcano was a Japanese-contracted weapon built in Italy, issued primarily to their Naval Troops -->
+	<!-- it is nearly identical to the Type 38, but uses the Carcano action instead -->
+	<!-- after some heavy research, it has a few mild differences from the Type 38: -->
+	<!-- barrel length is 780mm vs. 800mm (20mm shorter) -->
+	<!-- overall length was 0.5" longer when sent to the IJN, but the IJN cut the stocks on many of them by a full 1" -->
+	<!-- this then resulted in overall length being 0.5" shorter than the Type 38 -->
+	<!-- accuracy on Type I's is usually superior to the Type 38's, possibly related to the more hardened-wood -->
+	<!-- and possibly a stronger bolt-construction, or maybe it's the trigger pull weight; but I am unsure of if the lattermost -->
+	<!-- is actually different. -->
+	<!-- lastly, the Type I's bolt is located more forward of the trigger rather than above it, which might slow down cycle time -->
+	<!-- and its iron sights are rear v-sights with a bare front-sight post -->
+	<!-- while early Type 38's have the same style sights, later production Type 38's featured an aperture rear-sight -->
+	<!-- and protective ribs surrounding the front sight, which in theory should be superior to the Type I, and yet -->
+	<!-- according to what tests I could find online the Type I tends to deliver better accuracy. -->
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_01.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="weapon_type_i_carcano.xml" />
+	<hud_icon filename="hud_type_i_carcano.png" />
+	
+	<commonness value="0.2" />
+	<inventory encumbrance="8.0" price="2.0" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+
+	<!-- damage range is higher than Type 38; this is 'explained' by the weapon being more accurate -->
+	<!-- so let's suppose that means more likely to hit vital areas too -->	
+
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.3" 
+		kill_decay_start_time="0.4" 
+		kill_decay_end_time="0.94"
+		/>
+	</projectile>
+	
+</weapon>

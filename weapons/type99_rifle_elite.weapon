@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="type99_rifle_elite.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+		<tag name="has_bayonet" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.98" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="1"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 99 - Hi-Grade" 
+	class="2" 
+	reload_one_at_a_time="0" 
+projectile_speed="125.0" 
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.1"
+	/>
+
+	<next_in_chain key="type99_rifle_elite_b.weapon" share_ammo="1" />
+		<stance state_key="prone" accuracy="1.2" /> 
+	<stance state_key="over_wall" accuracy="1.2" />
+	<!--<addon_model filename="backpack_small.xml" />-->
+
+<!-- high quality Type 99 with its AA optics up, monopod attached, bolt cover equipped, and high quality finish. -->
+<!-- has a bayonet as well. -->
+<!-- would have used Trench Mag too if I could have found more about it, but it seems to have got itself lost... -->
+<!-- anyhow due to its quality improvements it offers up superior accuracy and faster cycle time. -->
+
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_01.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="weapon_type99_rifle_elite.xml" />
+	<hud_icon filename="hud_type99_rifle_elite.png" />
+	
+	<commonness value="0.025" can_respawn_with="0"/>
+	<inventory encumbrance="8.0" price="100.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+	kill_probability="1.5"
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary_pistol.weapon" key="sw_model10.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+   
+<access_tag name="ww2" />
+
+	<specification
+	retrigger_time="0.55"
+	accuracy_factor="0.95"
+	sustained_fire_grow_step="3.75"
+	sustained_fire_diminish_rate="1.6"
+	magazine_size="6"
+	carry_in_two_hands="0"
+	can_shoot_standing="1"
+	suppressed="0"
+	name="Model 10"
+	class="4"
+	reload_one_at_a_time="1"
+	projectile_speed="90.0"
+	barrel_offset="0.1"
+	projectiles_per_shot="1"
+	burst_shots="1"
+	slot="1"
+	/>
+	<!-- accuracy was 0.965 -->
+
+	<!-- Apparently, Model 10 was the name given to this weapon only in 1957, prior to that it was known as a variety of things, -->
+	<!-- But the simple name is Model 1899. -->
+	<!-- This is handled in Language files, not in this weapon's name, so don't change this weapon's name! -->
+
+	<!-- revolvers are less accurate when moving -->
+
+	
+	<weak_hand_hold offset="0.1" />
+
+	<!-- note: figure out a way to clear all previous animations from a base file if possible-->
+	<animation state_key="reload" animation_key="reloading, reichsrevolver" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, reichsrevolver, prone" />
+	
+	<sound key="fire" fileref="weapon_revolver_sw_m10.wav" pitch_variety="0.05" volume="2.33" />
+	<sound key="reload_one" fileref="revolver_magazine_in.wav" volume="1.0" />    
+	
+	<model filename="weapon_sw_model10.xml" />
+	<hud_icon filename="hud_model10_revolver.png" />
+	
+	<commonness value="0.2" can_respawn_with="0"/>
+	<inventory encumbrance="1.0" price="200.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result class="hit"
+		kill_probability="0.7"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8" />
+	</projectile>
+	
+</weapon>

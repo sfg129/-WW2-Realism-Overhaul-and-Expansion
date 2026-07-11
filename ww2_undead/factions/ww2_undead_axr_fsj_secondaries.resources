@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+		
+	<carry_item key='ww2_undead_axr_nachtjaeger.carry_item' enabled="1" />
+	
+	<weapon key="panzerfaust.weapon" />
+	
+	<weapon key="p08.weapon" />
+	
+	<projectile key="stielhandgranate.projectile" />
+
+</resources>

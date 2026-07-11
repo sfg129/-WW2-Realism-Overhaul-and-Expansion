@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Photograph" key="photo9.carry_item">
+    <hud_icon filename="hud_photo9.png" />
+    <inventory encumbrance="0" price="100" />
+
+    <model mesh_filename="photo.mesh" texture_filename="photo9.png" />
+
+    <commonness value="5.0" in_stock="0" />
+</carry_item>

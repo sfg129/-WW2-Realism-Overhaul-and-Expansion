@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+
+	<weapon key="m2hb_hmg_resource.weapon" />
+	<weapon key="piat.weapon" />
+	<weapon key="smle_rifle_grenade_at.weapon" />
+<weapon key="light_mortar_resource.weapon" />
+	<weapon key="browning_hp.weapon" />
+	<weapon key="bofors_resource.weapon" />
+	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
+		<weapon key="m1919_hmg_resource.weapon" />
+	<projectile key="mills_bomb_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
+<weapon key="morphine.weapon" />
+
+	
+</resources>

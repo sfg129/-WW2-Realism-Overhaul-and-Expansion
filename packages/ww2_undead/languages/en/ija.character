@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <sound key="death" fileref="ija_death_01.wav" volume="1.1" />
+	<sound key="death" fileref="ija_death_02.wav" volume="1.1" />
+	<!--<sound key="death" fileref="ija_death_03.wav" volume="1.1" />-->
+	<!--<sound key="death" fileref="ija_death_04.wav" volume="0.95" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_05.wav" volume="1.1" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_06.wav" volume="0.95" pitch_variety="0.025"/>-->
+    <!--<sound key="death" fileref="ija_death_07.wav" volume="0.95" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />	<!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_10.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="ija_death_12.wav" volume="1.05" pitch_variety="0.05"/>
+	<!--<sound key="death" fileref="ija_death_13.wav" volume="1.0" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_12.wav" volume="1.1" pitch_variety="0.05"/> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_16.wav" volume="1.1" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+	
+	<comment key="We surrender!" text="We have surrendered!" />
+	<comment key="We surrender!" text="This is disgraceful..." />
+	
+	<comment key="Reloading" text="I must reload!" />  
+	
+
+	<comment key="hostile vehicle takeover" text="Hey! That's unfair!" /> 
+	<comment key="hostile vehicle takeover" text="What? NO!!" />    
+
+	<comment key="enemy seen, vehicle tag = tank" text="Get down, TANK!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Contact with enemy armor!" />  
+	<comment key="enemy seen, vehicle tag = tank" text="Enemy tank spotted!" />     
+	
+
+	<comment key="enemy seen, vehicle tag = truck" text="Enemy convoy!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Shoot that truck!" />                  
+	
+	<comment key="celebrating" text="We have won a great victory."	/>
+	<comment key="celebrating" text="Fight harder next time." />
+	<comment key="celebrating" text="We have survived this battle." />
+	<comment key="celebrating" text="We live to fight another great battle." />
+	<comment key="celebrating" text="Washington is next, yankee!" />
+	<comment key="celebrating" text="Giving up so easily? You yankees have no backbone." />
+	<comment key="celebrating" text="Surrender is a great dishonor - you yankees are shameful." />
+	<comment key="celebrating" text="Well done men, they didn't stand a chance!" />
+	<comment key="celebrating" text="How's that for an industrial super power!" />
+	<comment key="celebrating" text="The Emperor will be pleased." />
+	<comment key="celebrating" text="The Empire gratefully accepts this new territory, yankee" />
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="You know what my favorite sport is?" />
+		<comment text="What?" />
+		<comment text="Hot potato" />
+		<comment text="That's not a sport" />       
+		<comment text="It is when you use satchel charges." />         
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="This American unit is known for conducting raids." />
+		<comment text="I thought that was more our strongsuit. We should remain alert." />
+	</dialogue>   
+	
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="We could be chilling at home" />
+		<comment text="Drinking some fine Sake" />
+		<comment text="Playing some Sudoku" />
+		<comment text="But nooo, we have to serve our nation instead" />    
+	</dialogue>       
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Might have to go back to the armory" />
+		<comment text="Why?" />
+		<comment text="I forgot my pistol" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Did they give you new equipment?" />
+		<comment text="Yeah" />
+		<comment text="I wonder when the rest of the unit will be re-armed..." /> 
+   	    <comment text="Probably after the war is over." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="What are we going to name the tank?" />
+		<comment text="Great Destroyer of American Yankee Dog-Pigs." />
+		<comment text="That's a bit complicated. Is it supposed to rhyme?" />
+		<comment text="No. It is supposed to destroy American Yankee Dog-Pigs." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Is it true that man descended from a monkey?" />  
+		<comment text="Yes, the Yankee Dog-Pigs did." />            
+		<comment text="But if they're Dog-Pigs, how did they descend from monkeys?" />             	
+		<comment text="Be quiet." />             	
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Why did our own guys retreat the past few days?" />  
+		<comment text="They didn't retreat, they just advanced in the opposite direction" />  
+		<comment text="Ah, I am sure the Emperor was pleased with this news." />                                       
+	</dialogue>  
+	
+   <!-- commander comments -->
+	<comment key="we captured a base" text="We've captured %base_name, crush any remaining resistance" />
+	<comment key="we captured a base" text="Our men have captured %base_name, secure the area" />
+	<comment key="enemy captured a base" text="%base_name has been captured by the Americans" />
+	<comment key="enemy captured a base" text="%faction_name have taken %base_name from us" />
+	<comment key="enemy captured a base" text="Those Americans have overrun %base_name!" />
+	
+	
+	<comment key="we won by map conquer" text="Our faction is victorious! We have taken over all the bases in this area!" />
+	<comment key="we won by defense timer" text="Our faction is victorious!" />
+	
+	<comment key="we are attacking a base" text="Our forces are invading %base_name" />
+	
+	<comment key="fighting near a base" text="Battle erupted near %base_name" />
+	<comment key="fighting near a base" text="Gun shots fired near %base_name" />
+	
+	<comment key="defense timer started" text="%faction_name hold all the bases, %time_left seconds to go!" />
+	
+   <!-- adventure mode -->
+	<comment key="guadalcanal, part 1" text="Attention soldiers! The commander wishes to speak." />
+	<comment key="guadalcanal, part 2" text="We've pinned the enemy at their ill-acquired airfield here at %map_name." />
+	<comment key="guadalcanal, part 3" text="Their cowardly navy has abandoned them and they have few reinforcements." />
+	<comment key="guadalcanal, part 4" text="The goal is to take it back. Prepare to attack!" />
+	
+	<comment key="map start with 1 base, part 1" text="Attention soldiers! The commander wishes to speak." />
+	<comment key="map start with 1 base, part 2" text="As you can see, we're in a bit of a tight spot here." />
+	<comment key="map start with 1 base, part 3" text="We arrived only just in time to reinforce their last position." />
+	<comment key="map start with 1 base, part 4" text="However, the enemy hesitates with our arrival, attack!" />
+	
+	<comment key="uncapturable_last_base_end_timer, start" text="We've pushed the enemy off our territory, but they seem intent on taking it back." />
+	<comment key="uncapturable_last_base_end_timer, cancel" text="The enemy captured a base! They must not keep it!" />
+	
+	<comment key="map start with 1 base, capture" text="Now that the reinforcements are here, the objective is to push the %faction_name off of %map_name completely" />
+	
+	<comment key="map advance, held by enemy" text="the intelligence officer reports the %faction_name are preparing a landing force at %map_name" />
+	<comment key="map advance, new map" text="We have to reinforce their positions before they're completely wiped out!" />
+
+	
+	<comment key="final map, part 1" text="Attention soldiers! The commander wishes to speak." />
+	<comment key="final map, part 2" text="We have defended our land valiantly and heroicly." />
+	<comment key="final map, part 3" text="The enemy has paid dearly in blood for every step they took on our islands." />
+	<comment key="final map, part 5" text="And now we return the favor, we invade their homes as they did to us!" />
+	<comment key="final map, part 6" text="Strike at the heart and destroy the beast!" />
+	<comment key="final map, part 7" text="Long live the Emperor, forward!" />
+	
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=ija_inf.call" text="Banzai charge massing at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_inf.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle.call" text="Ha-Go deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle1.call" text="Ho-Ha deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle1.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle2.call" text="Ka-Tsu deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle2.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle_armoury_marine.call" text="Type 4 Su-Ki Armory deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle_armoury_marine.call" text="No valid deployment points found, capture a base!" />
+
+   <!-- character specific animation override table -->
+	
+</character>

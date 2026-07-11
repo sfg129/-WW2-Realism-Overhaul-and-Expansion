@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Pillboxes can be quickly knocked out with a precision dive bomber strike or Demolition Charges."/>
+    <text key="Hint" text="Carrying too much in your backpack will reduce your weapon's accuracy and your movement speed."/> 
+    <text key="Hint" text="Going prone or diving can save your life from the effects of Explosives."/> 
+    <text key="Hint" text="Killing enemies in melee combat rewards additional experience."/> 
+    <text key="Hint" text="The crosshair gives a good estimate of accuracy, but your weapon's muzzle velocity has an additional impact as the range to your target increases."/> 
+    <text key="Hint" text="Capturing a base requires a majority of troops, shown as 2/3 bars in the capture progress indicator."/> 
+    <text key="Hint" text="Light Machine Guns are best fired from prone or over cover, and some of these weapons can only fire from those stances."/> 
+    <text key="Hint" text="Selling briefcases at the Armoury will unlock rare weapons and equipment, but what you get is random!"/> 
+    <text key="Hint" text="Rifles are deadly and accurate, but fire slowly. Use caution when fighting in close range against better armed enemies. Bayonets can help!"/>
+    <text key="Hint" text="Sniper Rifles are excellent at taking out the heavily-armoured Sentry soldiers from a distance."/> 
+    <text key="Hint" text="Sniper Rifles have excellent accuracy when crouching, prone, or firing over cover; the standing posture does not offer superb precision."/> 
+    <text key="Hint" text="Sniper Rifles extend your vision sight while standing still, but have several disadvantages, such as slow recoil recovery and poor accuracy when standing upright. Crouch or use cover!"/> 
+    <text key="Hint" text="Carbines offer decent long-range performance for a sidearm weapon, but often don't pack as much short-range power as Pistols."/>
+    <text key="Hint" text="Medium MGs usually offer a lot of long-range firepower, but since they can only be fired while laying prone or over cover, are better suited for 'bite-and-hold' tactics."/>
+    <text key="Hint" text="Weapons with an icon that shows a bayonet can mount one. Bayonets extend melee range, but also worsen your accuracy when standing still. Use wisely!"/>
+    <text key="Hint" text="Valuables that are dropped by dead soldiers can be looted and stored in Stashes to sell later."/> 
+    <text key="Hint" text="Sub-Machine Guns are unparalleled in close-quarters fighting and firing on the move, but suffer at long range."/>
+    <text key="Hint" text="In general, the heavier the weapon, the lower your movement speed."/>
+    <text key="Hint" text="Flamethrowers excel at clearing out strongpoints and well-defended emplacements, including pillboxes, and can even damage most vehicles."/>
+    <text key="Hint" text="Landing Craft have spawn points, provided that enemies aren't nearby."/>   
+    <text key="Hint" text="The enemy will often utilize emplaced AA Guns on the map - destroy all of them to gain access to air support calls!"/>
+    <text key="Hint" text="The enemy will often utilize emplaced Coastal Guns - destroy all of them gain access to naval artillery calls!"/>
+    <text key="Hint" text="Armories have changed from Running with Rifles - they now visually resemble half-length 'Quonset Huts.'"/>
+    <text key="Hint" text="Be on the lookout for enemy Specialist soldiers - they're tougher and come armed with better weapons. Their appearances will be distinct from regular infantry."/>
+    <text key="Hint" text="When a beach landing gets tough, look for the supporting guns on the Attack Ship - use them to bombard the beach defenses!"/>
+    <text key="Hint" text="There are Armories and Stashes located on both the Aircraft Carrier and the Attack Ship, be sure to find their locations!"/>
+    <text key="Hint" text="The specialized Assault Troops rush towards their enemy with no regard for cover, firing on the move and trying to get into melee range."/>
+    <text key="Hint" text="Banzai Chargers are ferocious Assault Troops lead be a Katana-wielding Officer, operating as a squad."/>
+    <text key="Hint" text="Enemy Flamethrower Operators are resilient against small arms, but are vulnerable to grenades, explosives, melee attacks, and even anti-tank rifles."/> 
+    <text key="Hint" text="Bayonets extend melee range at a slight cost to long-range accuracy, as a result of the extra weight on the front of the gun."/>         
+    <text key="Hint" text="The valued price of a weapon is often a good estimator as to both its rarity and combat effectiveness."/>       
+    <text key="Hint" text="Binoculars are a great tool for high-ranking Officers - allowing them to command troops and call in Artillery on more distant locations."/>       
+    <text key="Hint" text="The PT Boat is excellent in providing supporting fire on a beachhead with its vast array of weapons systems."/>   
+    <text key="Hint" text="Destroy any enemy structures to decrease their fighting capacity."/>   
+    <text key="Hint" text="Friendly soldiers and players you kill will not drop their gear. And, if you are accidently teamkilled, you will respawn with all of what you died with!"/>   
+    <text key="Hint" text="Eventually, rare weapons and gear on the ground will vanish - but rare weapons will stay on the field far longer."/>   
+    <text key="Hint" text="Not all weapons have a 100% chance to drop when an enemy soldier is killed."/>   
+    <text key="Hint" text="Sentry soldiers are rare specialist troops that spawn with a hip-fired Machine Gun and a thick set of Body Armour. They are highly-resistant to small-arms, and to some extent, explosives."/>   
+    <text key="Hint" text="There are various items available in the 'Vest' category, each offering unique advantages. However if you die wearing a vest, you will not respawn with it!"/>   
+    <text key="Hint" text="The Veteran 'vest' grants additional resilience to enemy fire, and when you run out of 'luck', you might still enter a wounded state from which comrades can revive you."/>   
+    <text key="Hint" text="The Banzai and Assault 'vests' grant additional resilience and a large bonus to movement speed, but unlike the higher-tier Veteran 'vest', you will die instead of entering a wounded state."/>   
+    <text key="Hint" text="The Sniper 'vest' makes you harder to detect, and very slightly harder to hit. This bonus is of course particularly useful when using a Sniper Rifle."/>   
+    <text key="Hint" text="The Sentry 'vest' is a heavy set of Body Armour. It offers good protection and enables you to become wounded instead of dying, but impairs movement speed and is markedly expensive."/>   
+    <text key="Hint" text="You can always open the map when you die to select your spawn point."/>   
+    <text key="Hint" text="In missions in which your faction is able to paradrop onto the field, you can open the map after dying and spawn behind enemy lines."/>   
+    <text key="Hint" text="Anti-Tank Rifle Grenades have infinite ammo but only provide minimum damage. They can be used as a long-term anti-armour solution, but do little up front."/>   
+    <text key="Hint" text="Some Anti-Tank Grenades explode on impact, while others stick to the target and explode after a few seconds."/>   
+    <text key="Hint" text="While most Rocket Launchers perform about the same, some trade velocity for extra damage and blast radius."/>   
+    <text key="Hint" text="Radio Jammers, Coastal Guns, and Anti-Air Guns block certain call-ins. Destroy them for a reward and to be able to call in power support fire!"/>   
+    <text key="Hint" text="Certain Missions may prevent calling in Air Support or Paratroopers, such as in the winter conditions at Bastogne."/> 
+    <text key="Hint" text="Certain enemy assets like Water Towers or docked Submarines offer large XP and RP rewards for destroying them."/>   
+    <text key="Hint" text="You can repair vehicles with a wrench by equipping it, standing close to the vehicle, and holding the 'attack' key until the work is done."/>   
+    <text key="Hint" text="Anti-Tank Guns, though only encountered on certain Missions, do what they say on the tin - and excel at it."/>   
+</intro> 

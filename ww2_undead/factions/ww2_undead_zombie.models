@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<!-- basic -->
+	<!-- -------------------------- -->	
+	<model filename="ww2_undead_zombie_shambler_vs_opentunic_fieldcap.xml" />
+	<model filename="ww2_undead_zombie_shambler_vs_overcoat_fieldcap.xml" />
+
+	<model filename="ww2_undead_zombie_shambler_wh_tunic_stahlhelm.xml" />
+	<model filename="ww2_undead_zombie_shambler_wh_opentunic_stahlhelm.xml" />
+	<model filename="ww2_undead_zombie_shambler_wh_overcoat_stahlhelm.xml" />
+
+	<model filename="ww2_undead_zombie_shambler_pzg_assault.xml" />
+
+	<model filename="ww2_undead_zombie_shambler_usf_varsity_opentunic_helmet.xml" />
+	<model filename="ww2_undead_zombie_shambler_usf_varsity_veteran.xml" />
+
+</models>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_sniper.weapon" key="kar43_s.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0" >
+    <tag name="sniper" />
+	
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.25" 
+	accuracy_factor="0.955" 
+	spread_range="0.28"
+	sustained_fire_grow_step="1.1" 
+	sustained_fire_diminish_rate="0.8"
+	stance_accuracy_rate="1.15"
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Scoped Gewehr 43" 
+	class="4" 
+	burst_shots="1"
+	projectile_speed="130.0"  
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.75"
+	/>
+
+	<!-- recoil recovery is *0.815 normal rifle -->
+
+	<!-- scope power is 4x for the ZF4 scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+	
+	<!-- semi-auto snipers need 1.0 prone/overwall instead of 1.1 like other snipers -->
+	<!-- this is because for some reason recoil recovers more quickly down to 1.1, so they end up firing faster than unscoped-->
+	<stance state_key="prone" accuracy="1.1" /> 
+	<stance state_key="over_wall" accuracy="1.1" />		
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation key="reload" animation_key="reloading, g43" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, g43, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<!-- the Kar43 is one of the rare weapons that has a unique sound for its sniper variant, since the 3D model is very hard to tell apart when held by a soldier. -->
+	<sound key="fire" fileref="weapon_rifle_kar43_sniper.wav" pitch_variety="0.05" volume="1.83"/>
+    	<sound key="reload_one" fileref="park_off.wav" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="weapon_k43_sniper.xml" />
+	<hud_icon filename="hud_kar43_sniper.png" />
+	
+	<commonness value="0.05" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="175.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5"
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

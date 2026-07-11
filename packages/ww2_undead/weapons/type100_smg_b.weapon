@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="type100_smg_b.weapon">
+   	<tag name="has_bayonet" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.133" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.16" 
+			sustained_fire_diminish_rate="1.6"
+	stance_accuracy_rate="2"
+	magazine_size="30" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 100 Bayonet" 
+	class="0" 
+	projectile_speed="95.0"
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+
+	<next_in_chain key="type100_smg.weapon" share_ammo="1" />
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	
+	<!-- grow step was 0.25 -->
+	  
+	<!-- Type 100 SMG was possible to mount a bipod, granted minor cover / prone bonus as result -->
+	<!-- Whatever the default was, it wasn't 1.0. This provides a slight bonus compared to existing SMGs. -->
+	<stance state_key="prone" accuracy="0.95" />
+	<stance state_key="over_wall" accuracy="0.95" />     
+	
+	<!-- because the gun fires so slowly, it seems to be fairly useless fired while moving. this should help. -->
+	<stance state_key="running" accuracy="0.55" />
+	<stance state_key="walking" accuracy="0.71" />
+	<stance state_key="crouch_moving" accuracy="0.71" />
+	<stance state_key="prone_moving" accuracy="0.71" />
+		
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, type 100" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, type 100, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="smg_03_type100-44.wav" pitch_variety="0.05" volume="1.13"/> 	<!-- vol was 1.15 -->
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	
+	<model filename="weapon_type100_40_b.xml" />
+	<hud_icon filename="hud_type100_b.png" />
+	
+	<commonness value="0.02" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="5.0" price="30"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- start decay was 0.27 -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.65"
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.6"
+		/>
+	</projectile>
+	
+</weapon>

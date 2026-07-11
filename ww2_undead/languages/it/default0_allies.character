@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, medico!"/> 
+	
+	<comment key="Reloading" text="Copritemi, ricarico!"/>
+	<comment key="Reloading" text="Devo ricaricare!"/>  
+	
+	<comment key="We surrender!" text="Non sparate!"/>
+	<comment key="We surrender!" text="Mi arrendo!"/>
+	<comment key="We surrender!" text="Ne ho avuto abbastanza!"/>
+
+	<comment key="initiate radio call" text="Quartier Generale, qui è la Compagnia Able, mi ricevete?"/>
+	<comment key="commander radio response" text="Ti riceviamo Able."/>
+
+	<comment key="hostile vehicle takeover" text="Hey! Quello è - "/> 
+	<comment key="hostile vehicle takeover" text="Cosa? No no NO!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Trovatelo, dannazione!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Carrarmatooo!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Cristo, state giù! CARROARMATOOO!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Hanno portato un mezzo corazzato!"/>     
+
+	<comment key="Hold on!" text="Resisti, amico!"/>  
+
+	<comment key="celebrating" text="Bel lavoro ragazzi."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Ragazzi avevate un gran bel carrarmato, penso proprio che me lo terrò."/>
+	<comment key="celebrating" text="Wow, che fortuna."/>
+	<comment key="celebrating" text="Wooo! Ben fatto ragazzi."/>
+	<comment key="celebrating" text="Li abbiamo presi a calci nel culo!"/>
+	<comment key="celebrating" text="Vi arrendete così facilmente?"/>
+	<comment key="celebrating" text="Devo trovare una luger"/>
+	<comment key="celebrating" text="devo trovare la pistola di un ufficiale"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Hai una sigaretta?"/>
+		<comment text="Certo amico, tieni."/>
+		<comment text="Oh. Peccato per Taylor."/>
+		<comment text="Sì. Ho sentito che hanno dovuto ripulirlo dai battistrada con la canna dell'acqua."/>
+		<comment text="Accidenti. Dobbiamo fare attenzione ai carriarmati, soprattutto a quelli delle nostre truppe."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ti hanno dato equipaggiamento nuovo?"/>
+		<comment text="Sì"/>
+		<comment text="Dannazione, mi serve nuovo equipaggiamento."/> 
+		<comment text="Beccati questa, amico"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Che nome possiamo dare al carrarmato?"/>
+		<comment text="Skiaccia Krauti."/>
+		<comment text="Oh sì."/>
+	</dialogue>
+
+ </character>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_base.character">
+
+	<comment key="Open fire" text="!"/>
+	<comment key="Open fire" text="graaaahh!"/>  
+	<comment key="Open fire" text="grrrrrrr!"/>  
+	<comment key="Open fire" text="roaaagh!!"/>
+	<comment key="Open fire" text=""/>
+	<comment key="Open fire" text=""/>
+  
+	<comment key="enemy seen" text="!" /> 
+	<comment key="enemy seen" text="ur!" />
+	<comment key="enemy seen" text="ra-" />   
+    	<comment key="enemy seen" text="hur?" />
+	<comment key="enemy seen" text="" />  
+      	<comment key="enemy seen" text="" />  
+	<comment key="enemy seen" text="" />  
+
+	<parameter class="can_use_inventory" value="0" />  
+	<parameter class="can_use_vehicles" value="0" />  
+
+	<parameter class="detectability_prone" value="0.8" />
+	<parameter class="detectability_wounded" value="0.8" />
+	<parameter class="detectability_crouching" value="0.8" />
+	<parameter class="detectability_crouch_moving" value="0.8" />
+	<parameter class="detectability_walking" value="0.9" />
+	<parameter class="detectability_still" value="0.8" />
+	<parameter class="detectability_running" value="1.0" />
+
+</character>

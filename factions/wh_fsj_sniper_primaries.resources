@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="kar98k_s.weapon" />
+	<weapon key="kar43_s.weapon" />
+	<weapon key="kar98k_s_elite.weapon" />
+
+	<weapon key="fg42_late_s.weapon" />
+	<!-- Luftwaffe Drilling has now replaced Kar 43 Sniper on FSJ Sniper and has same commonness that it had -->
+	<weapon key="luftwaffe_drilling_rifle.weapon" />
+	<weapon key="wz35_ai.weapon" />
+</resources>

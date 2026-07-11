@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Casamatas podem ser destruídas rapidamente com um ataque preciso de bombardeiro ou cargas de demolição."/>
+    <text key="Hint" text="Carregar muito peso na sua mochila irá reduzir a sua precisão com armas."/> 
+    <text key="Hint" text="Se deitar ou pular no chão pode salvar sua vida dos efeitos de explosivos."/> 
+    <text key="Hint" text="Eliminar inimigos com facas concede experiência adicional."/> 
+    <text key="Hint" text="A mira da uma boa estimativa da sua precisão, mas a velocidade da bala quando ela deixa o cano da arma tem um impacto maior comforme a distância do alvo aumenta."/> 
+    <text key="Hint" text="Para capturar uma base é necessário que 66% (2/3) de todas as tropas na base sejam aliadas."/> 
+    <text key="Hint" text="Metralhadoras leves são melhores usadas quando deitado ou sobre proteção."/> 
+    <text key="Hint" text="Vender maletas no arsenal irá liberar armas únicas."/> 
+    <text key="Hint" text="Rifles são letais e precisos, mas atiram devagar. Tenha cuidado quando combater em ambientes confinados contra inimigos bem armados. A baioneta pode ajudar"/>
+    <text key="Hint" text="Rifles de franco atirador são excelentes para eliminar combatentes de elite de uma distância segura."/> 
+<!--    <text key="Hint" text="Rifles de franco atirador tem precisão perfeita quando agachado, deitado, ou atirando sobre proteção."/> -->
+    <text key="Hint" text="Objetos de valor largados por soldados mortos podem ser saqueados e vendidos por RP, ou mesmo armazenados nos esconderijos para vender mais tarde."/> 
+<!--    <text key="Hint" text="Submetralhadoras são incontestáveis em combates em ambientes confinados e em combate ofensivo, mas sofrem com precisão, velocidade (abilidade de acertar alvos móveis) e dano em distâncias maiores."/>-->
+    <text key="Hint" text="Em geral, quanto mais pesada a arma, menor a velocidade de movimento."/>
+<!--    <text key="Hint" text="Lança chamas são excelentes em limpar pontos fortes e locais bem defendidos."/>
+    <text key="Hint" text="A granada Type 97 tem um tempo de explosão curto de 3 segundos, mas tem uma área de explosão reduzida também."/>            
+    <text key="Hint" text="Baionetas podem transformar um Rifle de longo alcance em uma arma poderosa e letal em combate confinado."/>         
+    <text key="Hint" text="O valor de uma arma é uma boa estimativa de sua raridade e eficácia em combate."/>       
+    <text key="Hint" text="Binóculos são uma ótima ferramenta para oficiais de alta patente; permitindo-os comandar tropas e chamar artilharia em lugares mais longes."/>       
+    <text key="Hint" text="A Type STE (MP-34) serviu como uma submetralhadora para o IJA no começo da guerra, e é bem equilibrada em proporcionar dano moderado e controle."/>       
+    <text key="Hint" text="A submetralhadora Type 100 sofre de uma baixa cadência de tiros e dano, mas foi frequentemente equipada com um bipé, que melhora o controle quando atirada deitada or sobre proteção."/>       
+    <text key="Hint" text="A submetralhadora Type 100/44 foi introduzida tarde na guerra, e oferece maior cadência de tiros do que sua antecessora."/>       
+    <text key="Hint" text="A submetralhadora M1A1 Thompson tem um alto poder de fogo e cadência de tiros, mas tem mais recuo de que seu homólogo."/>       
+    <text key="Hint" text="A submetralhadora M1928 Thompson tem um carregador com 50 balas que permite muito mais poder de fogo, e uma empunhadura vertical e compensador para melhor controle."/>       
+    <text key="Hint" text="A pistola M1911 é poderosa e fiável para defesa em combate em ambientes confinadas."/>    
+    <text key="Hint" text="A Type 14 Nambu é reltivamente fraca, mas pode atirar rapidamente, sendo eficaz como uma arma de defesa pessoal barata."/>
+    <text key="Hint" text="A Carabina M1 é leve o suficiente para ser carregada como uma pistola, e é eficaz em média distância para ser usada por equipes de Bazucas e de Metralhadoras."/>
+    <text key="Hint" text="A Carabina Type MO (Mauser C96) é usada pelas forças do IJA, e é leve o suficiente para ser carregada como uma pistola. É eficaz para ser carregada por Granadeiros de Rifles, ou Soldados anti blindados."/>
+    <text key="Hint" text="O Type 38 serve como um Rifle de Ação de Ferrolho básico no começo da guerra. Não é tão poderoso quanto os seus homólogos, mas é bem preciso e possuí pouco recuo."/>
+    <text key="Hint" text="O Rifle Type 99 foi mais comum no fim da guerra, gradualmente substituindo o Rifle Type 38, e atira uma cartucho mais poderoso."/>
+    <text key="Hint" text="A Carabina de Cavalaria Type 44 foi introduzida em 1912, feita como uma versão encurtecida do Rifle Type 38. O seu tamanho compacto ajuda em combates em ambientes confinados, e possuí uma baioneta dobrável."/>
+    <text key="Hint" text="O M1903A3 Springfield é um Rifle básico de Ação de Ferrolho no começo da guerra, sendo substituído pelo M1 Garand mais tarde. É poderoso e preciso."/>
+    <text key="Hint" text="O M1 Garand é um poderoso e fiável Rifle Semi Automático, rapidamente tornando-se o principal rifle de combate do CFNEU e substituindo o M1903 Springfield."/>   
+    <text key="Hint" text="O Rifle Type 4 é um rifle Semi Automático bem raro, baseado bastante no M1 Garand, mas notavelmente possuindo um carregador interno com capacidade para 10 cartuchos."/>   
+    <text key="Hint" text="O Rifle M1941 Johnson é um rifle Semi Automático bem raro, possuindo um carregador e sendo notável por sua alta precisão."/>   
+    <text key="Hint" text="A Carabina M2 é uma arma bem rara, e diferentemente da Carabina M1, é carregada no espaço primário - possuí um carregador com 30 cartuchos e fogo completamente automático."/>   
+    <text key="Hint" text="O Rifle M1903A1 de franco atirador é eficaz em eliminar inimigos com metralhadoras ou infantaria imóvel em altas distâncias."/>   
+    <text key="Hint" text="O Rifle M1 Garand tem uma variação rara de franco atirador oferecendo a capacidade de tiros de longa distância do M1903A4, enquanto possuindo mais alta cadência de tiros."/>   
+    <text key="Hint" text="A Rifle Type 97 de franco atirador é baseado no Rifle Type 38. Diferentemente do M1903A4 Rifle de franco atirado, pode ser recarregado mais rapidamente com o uso de stripper clipes."/>   
+    <text key="Hint" text="O Rifle Anti Blindado Type 97 é uma poderosa arma Semi Automática em 20mm, mas é excessivamente pesada, e a precisão não é muito boa contra alvos pequenos como soldados."/>   
+    <text key="Hint" text="A M12 Trench Gun é uma arma letal em ambientes confinados, sendo usada com grande êxito para limpar trincheiras, mas possuí capacidade de cartuchos baixa."/>   
+    <text key="Hint" text="A M1918A2 BAR foi um melhoramento desenvolvido sobre sua versão da Primeira Guerra Mundial, possuindo um bipé e cadência de tiros ajustável."/>
+    <text key="Hint" text="A M1918A2 BAR é leve o suficiente para ser disparado do ombro, mas é melhor usada com o seu bipé, atirando enquanto deitado ou sobre proteção."/>   
+    <text key="Hint" text="A Metralhadora Leve M1919A6 é uma melhoria sobre seus modelos antigos, inicialmente desenvolvida em resposta às novas metralhadoras Alemãs."/>   
+    <text key="Hint" text="A Metralhadora Leve M1919A6 é capaz de produzir uma parede de cartuchos, mas só pode ser disparada quando usando seu bipé - deitado ou sobre proteção."/>   
+    <text key="Hint" text="A Stinger é uma versão modificada da metralhadora M1919A4 com uma coronha e bipé - e uma cadência de tiros extrema."/>
+    <text key="Hint" text="A Metralhadora Leve Type 11 é uma desatualizada, porem letalmente precisa metralhadora de suporte. A sua maior falha é seu recarregamento demorado, por usar somente stipper clipes para rifles."/>   
+    <text key="Hint" text="A Metralhadora Leve Type 96 é uma metralhadora de suporte básica, com controle excelente e precisão decente, porém não é tão poderosa quanto seus homólogos."/>   
+    <text key="Hint" text="A Metralhadora Leve Type 99 é a mais moderna metralhadora de suporte do IJA. Tem maior cadência de tiros de que sua antecessora e atira um cartucho mais poderoso."/>   
+    <text key="Hint" text="A Metralhadora Leve M1941 Johnson funciona de forma similar à da BAR como uma arma suporte para o esquadrão, mas tem uma cadência de tiros muito maior."/>   
+    <text key="Hint" text="O Lança Chamas M2 é o lança chamas padrão do CFNEU, equipado com um regulador para maior controle e vida."/>   
+    <text key="Hint" text="O Lança Chamas Type 93 é um lança chamas influenciado pelos europeus, usado pelo IJA."/>   
+    <text key="Hint" text="O Type 100 Grenade Discharger é o rifle Type 38 padrão equipado com um copo para granadas e carregado com cartuchos de festim, e atira granadas de mão padrão, que explodem depois de um tempo."/>   
+    <text key="Hint" text="O M1 Bazooka foi o primeiro lança foguetes desenvolvido por qualquer nação, e atirava um foguere de 60mm capaz de destruir blindados leves e fortificações."/>   
+    <text key="Hint" text="O Type 4 Lança Foquetes foi desenvolvido e produzido no final da Segunda Guerra Mundial, e foi feito com a intenção de defender o solo Japonês. Funicona de forma similar a o M1 Bazooka."/>   
+    <text key="Hint" text="A Granada de Rifle Anti Blindados M9 podia ser atirada do lançador M1 montado em um Rifle M1903, e é útil contra veículos leves."/>   
+    <text key="Hint" text="O barco PT é excelente em fornecer fogo de suporte numa praia com seu vasto sistema de armas."/>   
+    <text key="Hint" text="O Type 100 tem uma variação com coronha dobrável, é uma arma rara designada para tropas Pára-quedistas. É compacta o suficiente para ser carregado como uma pistola."/>
+    <text key="Hint" text="A Type 1 é uma submetralhadora extremamente rara desenvolvida antes da guerra. Foi apelidade de 'Bullpup' pelos Soldados Americanos que a encontraram."/>       
+    <text key="Hint" text="A Type 1 possuí um grande carregador com 50 cartuchos e uma alta cadência de tiros, tornando-a uma eficaz arma em ambientes comfinados."/>   -->
+    <text key="Hint" text="Barcos de desembarque possuem pontos de reaparecimento, desde que os inimgos não estivam próximos."/>   
+    <text key="Hint" text="Inimigos frequentemente terão Armas Antiaéreas posicionadas - destrua-as para ter acesso ao suporte aéreo!"/>
+    <text key="Hint" text="Inimigos frequentemente terão Armas Costeiras posicionadas - destrua-as para ter acesso a Artilharia Naval!"/>
+    <text key="Hint" text="Arsenais mudaram de como eram em Running with Rifles - agora são semelhantes à metade de uma Cabana Quonset."/>
+    <text key="Hint" text="Fique atento para veteranos inimigos - Eles são mais fortes e vem armados com armas melhores, seu visiual é bem distinto da infantaria regular."/>
+    <text key="Hint" text="Quando o desembarque na praia ficar difícil, procure por armas de suporte no Návio de Ataque - use-as para bombardear as defesas da praia!"/>
+    <text key="Hint" text="Existem arsenais e esconderijos localizados no porta-aviões e no navio de ataque, localize-os!"/>
+    <text key="Hint" text="Atacantes Banzai são ferozes tropas de assalto, liderados por um oficial com katana e determinados a continuar seu ataque não importando o preço."/>
+    <text key="Hint" text="Os soldados inimigos com lança-chamas são resistentes contra armas de fogo,%EOLmas são vulneráveis a granadas, explosivos, ataques corpo a corpo e até mesmo rifles anti-tanque."/>
+    <text key="Hint" text="Os binóculos são uma ótima ferramenta para soldados de alta patente - permitindo-lhes comandar tropas e chamar a artilharia em locais mais distantes."/>
+	<text key="Hint" text="O Patrol Boat é excelente em fornecer apoio de fogo em uma cabeça de praia com sua vasta gama de sistemas de armas."/>
+	<text key="Hint" text="Destrua todas as estruturas inimigas para diminuir sua capacidade de combate e ganhar recompensas."/>
+	<text key="Hint" text="Soldados do seu time ??e jogadores que você matar acidentalmente não deixarão equipamentos no chão.%EOLE, se você for acidentalmente morto pela equipe, você não perderá nada quando reaparecer!"/>
+	<text key="Hint" text="Eventualmente, armas e equipamentos raros no solo desaparecerão - mas as armas raras permanecerão no campo por muito mais tempo."/>   
+    <text key="Hint" text="Nem todas as armas têm 100% de chance de cair quando um soldado inimigo é morto."/>   
+    <text key="Hint" text="Os soldados sentinelas são tropas especializadas raras que aparecem com uma metralhadora móvel e um conjunto pesado de armadura corporal.%EOLEles são altamente resistentes a armas de fogo, e são resistentes até certo ponto a explosivos."/>   
+    <text key="Hint" text="Há vários itens disponíveis na categoria 'Colete', cada um oferecendo vantagens únicas.%EOLNo entanto, se você morrer usando um colete, você não reaparecer com ele!"/>   
+    <text key="Hint" text="O 'colete' veterano concede resistência adicional ao fogo inimigo, e quando você fica sem 'sorte', você ainda pode entrar em um estado ferido do qual os camaradas podem reanimá-lo."/>   
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Enquanto a maioria dos Lançadores de Foguetes possuem a mesma performance,%EOLalguns abrem mão da velocidade do projetil para ter uma ogiva maior resultando em maior dano e raio de explosão."/>   
+    <text key="Hint" text="Você pode reparar os veículos com uma chave inglesa depois de equipa-la, basta chegar perto do veículo, e segurar o botão de 'atirar' até terminar o reparo.%EOLVocê também pode carregar várias chaves inglesas!"/>   
+	<text key="Hint" text="Roubar tanques Médios e Pesados não é possível nas Expansões da Segunda Guerra Mundial."/>   
+	<text key="Hint" text="Baionetas ampliam o alcance corpo a corpo por um pequeno custo de precisão a longo alcance, devido ao peso adicional na frente da arma."/>
+    <text key="Hint" text="Tanques, halftracks e alguns veículos leves podem derrubar a maioria das cercas nos mapas das Expansões da Segunda Guerra Mundial."/>   
+    <text key="Hint" text="O valor de uma arma é muitas vezes uma boa estimativa tanto para sua raridade quanto para sua eficácia em combate."/>       
+    <text key="Hint" text="Em missões em que sua facção estiver conduzindo operações aerotransportadas massivas,%EOLvocê poderá abrir o mapa depois de morrer e renascer atrás das linhas inimigas."/>   
+    <text key="Hint" text="Rifle com Granadas Anti-Tanque possui munição infinita mas causa pouco dano. Pode ser utilizado como uma solução anti-blindado a longo prazo,%EOLmas é um pouco fraco quando muito poder de fogo é necessário em um curto período de tempo."/>   
+    <text key="Hint" text="Algumas Granadas Anti-Tanque de mão explodem com o impacto, enquanto outras se fixam no alvo e explodem após alguns segundos."/>   
+    <text key="Hint" text="Bloqueadores de Rádio, Armas costeiras, e Armas Antiaéreas bloqueiam certas requisições por rádio.%EOLDestrua-os para receber uma recompensa e ser capaz de solicitar apoios!"/>   
+    <text key="Hint" text="Certas Missões podem impedir a chamada de Apoio Aéreo ou Paraquedistas, como nas condições de neve em Bastogne."/> 
+    <text key="Hint" text="Certos bens inimigos como as Torres de Água ou Submarinos atracados oferecem grandes recompensas de EXP e RP por destruí-los."/>   
+    <text key="Hint" text="Armas Anti-Tanque, embora sejam encontradas apenas em certas Missões, fazem o que dizem na lata - e se destacam nisso. Esteja avisado!"/>   
+    <text key="Hint" text="Rifles de Precisão estendem sua visão enquanto estiver parado, mas recuperam do recuo mais lentamente."/> 
+    <text key="Hint" text="Carabinas oferecem um desempenho decente de longo alcance para uma arma secundária,%EOLmas geralmente não causam muito dano de curto alcance comparado com as Pistolas."/>
+    <text key="Hint" text="Metralhadoras de porte médio geralmente oferecem muito poder de fogo de longo alcance,%EOLmas como só podem ser disparadas enquanto deitado ou sobre cobertura, são mais adequadas para a defesa."/>
+    <text key="Hint" text="Armas com dois pontos na parte inferior do seu ícone têm um modo alternativo (ver controles).%EOLPara muitas armas, consiste em acrescentar a Baioneta."/>
+    <text key="Hint" text="Submetralhadoras são incomparáveis em combates próximos e disparando em movimento, mas sofrem a longo alcance."/> 
+    <text key="Hint" text="Lança-chamas são excelentes para limpar pontos fortes e posições bem protegidas, incluindo casamatas, e podem até mesmo danificar a maioria dos veículos."/>
+    <text key="Hint" text="Os 'coletes' Banzai e de Assalto concedem saúde adicional e um grande bônus à velocidade de movimento,%EOLmas ao contrário do 'colete' Veterano, você não poderá ficar caído e ser revivido."/>   
+    <text key="Hint" text="O 'colete' de Atirador torna você mais difícil de ser detectado e um pouco mais difícil de ser acertado.%EOLEsses bônus são particularmente úteis ao usar um Rifle de Precisão."/>   
+    <text key="Hint" text="O 'colete' do Sentinela é um conjunto pesado de armadura corporal. Oferece boa proteção e permite que você fique caído em vez de morrer,%EOLmas prejudica a velocidade de movimento além de ser extremamente caro."/>   
+    <text key="Hint" text="Você pode sempre abrir o mapa quando morrer para selecionar o ponto de ressurgimento."/>   
+
+</intro>

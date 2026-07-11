@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	
+	<call key="mortar.call" />
+	<call key="artillery2.call" />
+	<call key="artillery3.call" />
+	<!-- no planes can fly on this map -->
+	<!--<call key="airstrike.call" />-->
+	<!--<call key="airstrike1.call" />-->
+	<!--<call key="airstrike2.call" />-->
+	<!-- artillery support IS available -->
+	
+	<call key="usf_para_no_parachuting_ai.call" />
+
+	<call key="usf_vehicle_m3_halftrack.call" />
+	<call key="vehicle_stuart_recce.call" />
+	<call key="usmc_vehicle.call" />
+	<call key="vehicle_m3_mortar.call" />
+
+
+	<!--<call key="usf_para_armoury.call" />-->
+	
+</resources>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<translation>
+	<!-- we won't translate the german ranks for now, keep them as is -->	
+	<!-- yes there's a lot of variants for the first couple of ranks -->
+	<text key="Panzergrenadier" text="Panzergrenadier"/>
+	<text key="Volksgrenadier" text="Volksgrenadier"/>
+	<text key="Grenadier" text="Grenadier"/>
+	<text key="Soldat" text="Soldat"/>
+	<text key="Panzerobergrenadier" text="Panzerobergrenadier"/>
+	<text key="Volksobergrenadier" text="Volksobergrenadier"/>
+	<text key="Obergrenadier" text="Obergrenadier"/>
+	<text key="Obersoldat" text="Obersoldat"/>
+	<text key="Gefreiter" text="Gefreiter"/>
+	<text key="Unteroffizier" text="Unteroffizier"/>
+	<text key="Feldwebel" text="Feldwebel"/>
+	<text key="Leutnant" text="Leutnant"/>
+	<text key="Oberleutnant" text="Oberleutnant"/>
+	<text key="Hauptmann" text="Hauptmann"/>
+	<text key="Oberstleutnant" text="Oberstleutnant"/>
+	<text key="Oberst" text="Oberst"/>
+	<text key="Generalmajor" text="Generalmajor"/>
+	<text key="Generalleutnant" text="Generalleutnant"/>
+	<text key="General der Waffengattung" text="General der Waffengattung"/>
+	<text key="Generaloberst" text="Generaloberst"/>
+	<text key="General-feldmarschall" text="General-feldmarschall"/>
+	<text key="Reichsmarschall" text="Reichsmarschall"/>
+	
+	<!-- unique british ranks -->
+	<text key="Guardsman" text="Guardsman"/>
+	<text key="Airtrooper" text="Airtrooper"/>
+	<text key="Lance Corporal" text="Lance Corporal"/>
+	<text key="Warrant Officer Class I" text="Warrant Officer Class I"/>
+
+	<!-- absolutely everything else -->
+	<text key="M4 Sherman cannon" text="Canhão do M4 Sherman"/>
+	<text key="M1919A4 Sherman Tank MG" text="MG M1919A4 do Tanque Sherman"/>
+	<text key="M2HB" text="M2HB"/>
+	<text key="MG 34 Sdkfz251" text="MG 34 do Sdkfz251"/>
+	<text key="King Tiger Cannon" text="Canhão do King Tiger"/>
+	<text key="MG 34 King Tiger MG" text="MG 34 do King Tiger"/>
+	<text key="MG 34 King Tiger Cupola MG" text="MG 34 da Torre do King Tiger"/>
+	<text key="20mm King Tiger Cupola MG" text="MG de 20mm da Torre do King Tiger"/>
+	<text key="Recoilless Rifle" text="Rifle sem Recuo"/>
+	<text key="m18 recoilless rifle shell" text="Munição M18 de Rifle sem Recuo"/>
+	<text key="MG 34 Tank MG" text="MG 34 de Tanque"/>
+	<text key="Panzer IV cannon" text="Canhão do Panzer IV"/>
+	<text key="M5 Anti-Tank Gun" text="M5 Anti-Tanque"/>
+	<text key="at gun shell" text="Cápsula de arma Anti-Tanque"/>
+	<text key="Pak 40 Anti-Tank Gun" text="Pak 40 Anti-Tanque"/>
+	<text key="M2HB M3 Halftrack" text="M2HB do M3 Halftrack"/>
+	<text key="StuG III cannon" text="Canhão do StuG III"/>
+	<text key="Tiger Cannon" text="Canhão do Tiger"/>
+	<text key="Flak 38" text="Flak 38"/>
+	<text key="Maus Main Cannon" text="Canhão Principal do Maus"/>
+	<text key="Maus Secondary Cannon" text="Canhão Secundário do Maus"/>
+	<text key="TOG II Tank MG" text="MG do Tanque TOG II"/>
+	<text key="MG 34" text="MG 34"/>
+	<text key="Karabiner 98k" text="Karabiner 98k"/>
+	<text key="Karabiner 98k Bayonet" text="Karabiner 98k com Baioneta"/>
+	<text key="Karabiner 98k - Scout" text="Karabiner 98k - de Batedor"/>
+	<text key="Karabiner 98k - Scout Bayonet" text="Karabiner 98k - de Batedor com Baioneta"/>
+	<text key="Karabiner 98k - Hi-Grade" text="Karabiner 98k - Hi-Grade"/>
+	<text key="Karabiner 98k - Hi-Grade Bayonet" text="Karabiner 98k - Hi-Grade com Baioneta"/>
+	<text key="Gewehr 43" text="Gewehr 43"/>
+	<text key="Gewehr 43 w/ large magazine" text="Gewehr 43 c/ carregador estendido"/>
+	<text key="Scoped Karabiner 98k" text="Karabiner 98k com Luneta"/>
+	<text key="Scoped Karabiner 98k - Hi-Grade" text="Karabiner 98k - Hi-Grade com Luneta"/>
+	<text key="Scoped Gewehr 98" text="Gewehr 98 com Luneta"/>
+	<text key="Scoped Gewehr 43" text="Gewehr 43 com Luneta"/>
+	
+	<!-- "ostveteran" in this context means "east veteran", or veteran from fighting on the eastern front -->
+	<text key="Scoped Gew 43 Ostveteran" text="Gew 43 Ostveteran com Luneta"/>
+	<text key="sniper explosive bullet" text="Bala explosiva de atirador"/>
+	
+	<text key="Schiessbecher HE Rifle Grenade" text="Schiessbecher Granada de Rifle HE"/>
+	<text key="Schiessbecher AT Rifle Grenade" text="Schiessbecher Granada de Rifle AT"/>
+	<text key="Panzerfaust 60" text="Panzerfaust 60"/>
+	<text key="panzerfaust rocket" text="Foguete do panzerfaust"/>
+	<text key="Panzerschreck" text="Panzerschreck"/>
+	<text key="panzerschreck rocket" text="Foguete do panzerschreck"/>
+	<text key="MP 40" text="MP 40"/>
+	<text key="MP 34(o)" text="MP 34(o)"/>
+	<text key="MP 34(o) Bayonet" text="MP 34(o) com Baioneta"/>
+	<text key="MP 717(r)" text="MP 717(r)"/>
+	<text key="Beretta M38" text="MP 738(i)"/>
+	<text key="MP 40 Folded" text="MP 40 coronha dobrável"/>
+	<text key="M 712 'Schnellfeuer'" text="M 712 'Schnellfeuer'"/>
+	<text key="StG 44" text="StG 44"/>
+	<text key="Scoped StG 44" text="StG 44 com Luneta"/>
+	<text key="Vampir StG 44" text="Vampir StG 44"/>
+	<text key="MG 26(t)" text="MG 26(t)"/>
+	<text key="MG 34 w/ belt" text="MG 34 c/ cinto"/>
+	<text key="MG 42" text="MG 42"/>
+	<text key="MG 42 w/ belt" text="MG 42 c/ cinto"/>
+	<text key="MG 34 - Mobile" text="MG 34 - Móvel"/>
+	<text key="MG 42 - Mobile" text="MG 42 - Móvel"/>
+	<text key="MG 34 HMG" text="MG 34 HMG"/>
+	<text key="MG 42 HMG" text="MG 42 HMG"/>
+	<text key="MG 34 HMG deploy" text="MG 34 HMG Estática"/>
+	<text key="MG 42 HMG deploy" text="MG 42 HMG Estática"/>
+	<text key="Luger P 08" text="Luger P 08"/>
+	<text key="Officer's Engraved Luger P 08" text="Luger Gravada de Oficial P 08"/>
+	<text key="Luger LP 08 Carbine" text="Luger LP 08 Carabina"/>
+	<text key="Enfield No.4 Mk I" text="Enfield No.4 Mk I"/>
+	<text key="Enfield No.4 Mk I Bayonet" text="Enfield No.4 Mk I com Baioneta"/>
+	<text key="Scoped No.4 Mk I(T)" text="No.4 Mk I(T) com Luneta"/>
+	<text key="No. 1 Mk I HE Rifle Grenade" text="No. 1 Mk I Granada de Rifle HE"/>
+	<text key="No. 68 AT Rifle Grenade" text="No. 68 Granada de Rifle AT"/>
+	<text key="PIAT" text="PIAT"/>
+	<text key="projectile infantry anti-tank" text="Projectile infantry anti-tank"/>
+	<text key="Sten Mk II" text="Sten Mk II"/>
+	<text key="Sten Mk IIS" text="Sten Mk IIS"/>
+	<text key="Sten Mk V" text="Sten Mk V"/>
+	<text key="Sten Mk V Bayonet" text="Sten Mk V com Baioneta"/>
+	<text key="Sterling" text="Sterling"/>
+	<text key="Lanchester" text="Lanchester"/>
+	<text key="Lanchester Bayonet" text="Lanchester com Baioneta"/>
+	<text key="Austen Mk I Folded" text="Austen Mk I coronha dobrável"/>
+	<text key="Bren Mk II LMG" text="Bren Mk II LMG"/>
+	<text key="Vickers Mk VI - Bipod" text="Vickers Mk VI - com Bipé"/>
+	<text key="VGO No.2 Mk I - Mobile" text="VGO No.2 Mk I - Móvel"/>
+	<text key="Vickers Mk VI - Mobile" text="Vickers Mk VI - Móvel"/>
+	<text key="Vickers Mk I HMG" text="Vickers Mk I HMG"/>
+	<text key="Vicker Mk I HMG deploy" text="Vicker Mk I HMG Estática"/>
+	<text key="Browning Hi-Power" text="Browning Hi-Power"/>
+	<text key="Browning Hi-Power Carbine" text="Browning Hi-Power Carabina"/>
+	<text key="M1903A4 Sniper Rifle" text="Rifle de precisão M1903A4"/>
+	<text key="M18 Recoilless Rifle" text="Rifle sem recuo M18"/>
+	<text key="M1918A2 BAR Lightweight" text="M1918A2 BAR Lightweight"/>
+	<text key="M1919A6 LMG Lightweight" text="M1919A6 LMG Lightweight"/>
+	<text key="M3 'Greasegun'" text="M3 'Greasegun'"/>
+	<text key="M1928A1 Thompson" text="M1928A1 Thompson"/>
+	<text key="M2 Hyde" text="M2 Hyde"/>
+	<text key="M3 'Greasegun' Folded" text="M3 'Greasegun' coronha dobrável"/>
+	<text key="Winchester Automatic Rifle (WAR)" text="Winchester Automatic Rifle (WAR)"/>
+	<text key="M1A1 Carbine" text="Carabina M1A1"/>
+	<text key="M2HB HMG deploy" text="M2HB HMG Estática"/>
+	<text key="M17 HE Rifle Grenade" text="M17 HE Rifle Grenade"/>
+	<text key="M43 Stielhandgranate" text="Granada de mão M43"/>
+	<text key="Panzerwurfmine" text="Panzerwurfmine"/>
+	<text key="strafing run" text="Strafing run"/>
+	<text key="Mills Bomb Grenade" text="Granada Mills Bomb"/>
+	<text key="FG 42-G" text="FG 42-G"/>
+	<text key="FG 42-G Bayonet" text="FG 42-G com Baioneta"/>
+	<text key="Scoped FG 42-G" text="FG 42-G com Luneta"/>
+	<text key="Scoped FG 42-G Bayonet" text="FG 42-G com Luneta e Baioneta"/>
+	<text key="T22 Garand Bayonet" text="T22 Garand com Baioneta"/>    
+	
+	<!-- unseen, non-player facing items - maybe we don't need to translate it?
+	<text key="Tank Hunter" />
+	<text key="Tank Hunter, Lightly Injured" />
+	<text key="Tank Hunter, Moderately Injured" />
+	<text key="Tank Hunter, Severely Injured" />
+	<text key="Operator" />
+	<text key="Operator Veteran" />
+	<text key="Operator Veteran, Injured" />
+	<text key="Operator Veteran, Severely Injured" /> -->
+	
+	<text key="Assault Trooper Zeal" text="Assalto"/>
+	<text key="Assault Trooper Zeal, Lightly Injured" text="Assalto, Ligeiramente Ferido"/>
+	<text key="Assault Trooper Zeal, Severely Injured" text="Assalto, Gravemente Ferido"/>
+	<text key="War Photograph" text="Fotografia de Guerra"/>
+	<text key="J. S. Bauck Record" text="J. S. Bauck Record"/>
+	<text key="Benny Badman Record" text="Benny Badman Record"/>
+	<text key="Bing Crossbye Record" text="Bing Crossbye Record"/>
+	<text key="Franz Shoebert Record" text="Franz Shoebert Record"/>
+	<text key="W. A. Schmozart Record" text="W. A. Schmozart Record"/>
+	<text key="Schnapps" text="Schnapps"/>
+	<text key="Tea Cup" text="Tea Cup"/>
+	<text key="Box of Tea" text="Box of Tea"/>
+	<text key="Victoria Cross" text="Cruz Vitória"/>
+	<text key="Iron Cross" text="Cruz de Ferro"/>
+	<text key="Opel Blitz" text="Opel Blitz"/>
+	<text key="Opel Blitz Armory" text="Opel Blitz Arsenal"/>
+	<text key="M4A3 Sherman" text="M4A3 Sherman"/>
+	<text key="LeFH 18" text="LeFH 18"/>
+	<text key="Sdkfz 251 Halftrack" text="Sdkfz 251 Halftrack"/>
+	<text key="Tiger I" text="Tiger I"/>
+	<text key="Tiger II" text="Tiger II"/>
+	<text key="Elite Tiger II" text="Elite Tiger II"/>
+	<text key="Kubelwagen" text="Kubelwagen"/>
+	<text key="Willys MB" text="Willys MB"/>
+	<text key="Willys MB AT" text="Willys MB AT"/>
+	<text key="Panzer IV" text="Panzer IV"/>
+	<text key="StuG III" text="StuG III"/>
+	<text key="Universal Carrier" text="Universal Carrier"/>
+	<text key="Vickers Mk I HMG" text="Vickers Mk I HMG"/>
+	<text key="M2HB HMG" text="M2HB HMG"/>
+	
+	<text key="Austin K5" text="Austin K5"/>
+	<text key="Austin K5 Armory" text="Austin K5 Arsenal"/>
+	<text key="M3 Halftrack" text="M3 Halftrack"/>
+	<text key="M4A4 Sherman V" text="M4A4 Sherman V"/>
+	<text key="M4A3 Sherman Rhino" text="M4A3 Sherman Rhino"/>
+	<text key="Sherman Firefly" text="Sherman Firefly"/>
+	<text key="SdKfz 251/17 Flak" text="SdKfz 251/17 Flak"/>
+	<text key="Bergetiger" text="Bergetiger"/>
+	<text key="Maus" text="Maus"/>
+	<text key="TOG II*" text="TOG II*"/>
+	<text key="Repair Kit" text="Kit de reparo"/>
+
+	<text key="strafing run advised" text="Strafing run requisitado"/>
+
+	<text key="Nebelwerfer Barrage" text="Barragem de Nebelwerfer"/>
+	<text key="Nebelwerfers" text="Nebelwerfers"/>
+
+	<text key="Heavy Howitzers" text="Howitzers Pesados"/>
+	<text key="Field Guns, Saturation Bombardment" text="Armas de Campo, Bombardeamento de Saturação"/>
+	<text key="Roger, wait five." text="Entendido, aguarde cinco."/>
+	
+	<text key="Reinforcements - Infantry Squad" text="Reforços - Esquadrão de Infantaria"/>
+	<text key="Requesting reinforcements, infantry squad" text="Solicitando reforços, esquadrão de infantaria"/>
+	<text key="infantry squad deployed" text="Esquadrão de infantaria mobilizado"/>
+
+	<text key="Reinforcements - Grounded Paratroopers" text="Reforços - Paraquedistas em Solo"/>
+	<text key="Reinforcements - Grounded Paratrooper Squad" text="Reforços - Esquadrão de Paraquedistas em Solo"/>
+	<text key="Requesting reinforcements, paratroopers from nearby areas" text="Solicitando reforços, paraquedistas das proximidades"/>
+	<text key="nearby paratroopers deploying" text="Paraquedistas das proximidades destacados"/>
+	<text key="Paratroopers deployed" text="Paraquedistas mobilizados"/>
+
+	<text key="Reinforcements - M4A4 Sherman V" text="Reforços - M4A4 Sherman V"/>
+	<text key="Requesting reinforcements, M4A4 Sherman V" text="Solicitando reforços, M4A4 Sherman V"/>
+	<text key="M4A4 Sherman V deployed" text="M4A4 Sherman V mobilizado"/>
+	
+	<text key="Reinforcements - Sherman Firefly" text="Reforços - Sherman Firefly"/>
+	<text key="Requesting reinforcements, Sherman Firefly" text="Solicitando reforços, Sherman Firefly"/>
+	<text key="Sherman Firefly deployed" text="Sherman Firefly mobilizado"/>
+	
+	<text key="Reinforcements - Paratroopers" text="Reforços - Paraquedistas"/>
+	<text key="Reinforcements - Paratrooper Squad" text="Reforços - Esquadrão de Paraquedistas"/>
+	<text key="Requesting reinforcements, paratroopers" text="Solicitando reforços, paraquedistas"/>
+	
+	<text key="Airdropped Armory" text="Arsenal via Transporte aéreo"/>
+	<text key="Airdropping supplies now." text="Lançando os suprimentos agora."/>
+	
+	<text key="Reinforcements - .50 Cal Jeep" text="Reforços - Jeep Calibre .50"/>
+	<text key="Requesting reinforcements, jeep!" text="Solicitando reforços, jipe!"/>
+	<text key=".50 cal jeep deployed" text="jeep calibre .50 mobilizado"/>
+	
+	<text key="Reinforcements - Recoilless Rifle Jeep" text="Reforços - Jeep com Rifle sem Recuo"/>
+	<text key="Requesting reinforcements, recoilless rifle jeep!" text="Solicitando reforços, jeep com rifle sem recuo!"/>
+	<text key="recoilless rifle jeep deployed" text="Jeep com rifle sem recuo mobilizado"/>
+	
+	<text key="Reinforcements - M3 Halftrack" text="Reforços - M3 Halftrack"/>
+	<text key="Requesting reinforcements, M3 Halftrack" text="Solicitando reforços, M3 Halftrack"/>
+	<text key="M3 Halftrack deployed" text="M3 Halftrack mobilizado"/>
+
+	<text key="Reinforcements - Panzer IV" text="Reforços - Panzer IV"/>
+	<text key="Requesting reinforcements, Panzer IV" text="Solicitando reforços, Panzer IV"/>
+	<text key="Panzer IV deployed" text="Panzer IV mobilizado"/>
+
+	<text key="Reinforcements - StuG III" text="Reforços - StuG III"/>
+	<text key="Requesting reinforcements, StuG III" text="Solicitando reforços, StuG III"/>
+	<text key="StuG III deployed" text="StuG III mobilizado"/>
+	
+	<text key="Reinforcements - Sdkfz 251" text="Reforços - Sdkfz 251"/>
+	<text key="Requesting reinforcements, Sdkfz 251" text="Solicitando reforços, Sdkfz 251"/>
+	<text key="Sdkfz 251 deployed" text="Sdkfz 251 mobilizado"/>
+	
+	<!-- Edel May 2021 Update -->
+	<text key="M10 GMC" text= "M10 GMC"/>
+	
+	<text key="Boys Mk I Anti-Tank Rifle" text="Rifle Anti-tanque Boys Mk I"/>
+	<text key="Scoped P14" text="P14 com Luneta"/>
+	<text key="Beardmore-Farquhar LMG" text="Beardmore-Farquhar LMG"/>
+	<text key="M9A1 Bazooka" text="M9A1 Bazooka"/>
+	
+	<text key="Type 44 Carbine Bayonet" text="Type 44 com Baioneta"/>
+	<text key="M1941 Johnson Rifle Bayonet" text="M1941 Johnson com Baioneta"/>
+	
+	<text key="Reinforcements - M4A3 Sherman" text="Reforços - M4A3 Sherman"/>
+	<text key="Requesting reinforcements, M4A3 Sherman" text="Solicitando reforços, M4A3 Sherman"/>
+	<text key="M4A3 Sherman deployed" text="M4A3 Sherman mobilizado"/>
+	
+	<text key="Reinforcements - M10 GMC" text="Reforços - M10 GMC"/>
+	<text key="Requesting reinforcements, M10 GMC" text="Solicitando reforços, M10 GMC"/>
+	<text key="M10 GMC deployed" text="M10 GMC mobilizado"/>
+	
+	<!-- 1.87 -->
+	<text key="Type 26 Revolver" text="Type 26 Revólver"/>
+	<text key="C96 Red 9" text="C96 Nove Vermelho"/>
+	<text key="M1917 Revolver" text="M1917 Revólver"/>
+	<text key="Reichsrevolver M1879"/>
+	<text key="Model 10" text="Modelo 1899"/>
+	<text key="Enfield No.2 Mk I"/>
+	<text key="Officer's Engraved Enfield No.2 Mk I" text="Enfield Gravada de Oficial No.2 Mk I"/>
+	<text key="De Lisle Commando" text="De Lisle Comando"/>
+
+	<!-- 1.89 -->
+	<text key="Sauer M30 Luftwaffe" />
+	<text key="Sauer M30 Luftwaffe - Rifle Mode" text="Sauer M30 Luftwaffe - Rifle"/>
+
+	<!-- 1.95 -->
+	<text key="Flammenwerfer 41" text="Lança Chamas FW41"/>
+	<text key="Beardmore-Farquhar .50 - Mobile" text="Beardmore-Farquhar .50 - Móvel"/>
+
+	<!-- 1.96 -->
+	<text key="Danuvia 43M"/>
+	<text key="Danuvia 43M Folded"/>
+	<text key="Browning Auto 5 Sawn-Off"/>
+	<text key="Browning Auto 5"/>
+
+	<!-- 1.98 -->
+	<text key="Panzer II Luchs" text="Panzer II Luchs"/>
+	<text key="Reinforcements - Panzer II Luchs" text="Reforços - Panzer II Luchs"/>
+	<text key="Requesting reinforcements, Panzer II Luchs" text="Solicitando reforços, Panzer II Luchs"/>
+	<text key="Panzer II Luchs deployed" text="Panzer II Luchs mobilizado"/>
+
+	<text key="Churchill Mk VII" text="Churchill Mk VII"/>
+	<text key="Reinforcements - Churchill Mk VII" text="Reforços - Churchill Mk VII"/>
+	<text key="Requesting reinforcements, Churchill Mk VII" text="Solicitando reforços, Churchill Mk VII"/>
+	<text key="Churchill Mk VII deployed" text="Churchill Mk VII mobilizado"/>
+	
+</translation>

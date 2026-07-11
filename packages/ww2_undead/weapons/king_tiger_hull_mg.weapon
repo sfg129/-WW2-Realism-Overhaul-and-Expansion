@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="king_tiger_hull_mg.weapon"
+	ai_burst_time="0.65" 
+	ai_burst_time_variance="0.15" 
+	ai_burst_wait_time="0.5" 
+	ai_burst_wait_time_variance="0.15">
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	<!-- using these as default values for normal vehicle-born machine guns -->
+	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
+
+
+    <specification slot="2" 
+    retrigger_time="0.0775" 
+    accuracy_factor="0.75" 
+    sustained_fire_grow_step="0.012" 
+    sustained_fire_diminish_rate="0.1"  
+    sight_range_modifier="2.2"
+    ai_sight_range_modifier="1"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="MG 34 King Tiger MG" 
+    class="0" 
+    projectile_speed="120"
+    cooldown_start="0.8"
+    cooldown_end="0.0"/>
+
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+	
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation key="reload" ref="33" />
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation key="walking" ref="31" />
+
+	<sound class="operation" key="fire" fileref="weapon_mg_mg34.wav" pitch_variety="0.05" volume="1.75"/>
+
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <model filename="" />
+
+    <hud_icon filename="hud_mg34_assault.png" />
+    <commonness value="0.05" />
+
+    <weak_hand_hold offset="0.4" />
+
+	<projectile file="bullet.projectile">
+        <result
+		class="hit"
+		kill_probability="0.7"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.84"
+		/>
+	</projectile>
+
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+
+</weapon>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<weapon key="type38_rifle.weapon" />
+	<weapon key="type38_rifle_b.weapon" />
+
+	<weapon key="type44_carbine.weapon" />
+	<weapon key="type44_carbine_b.weapon" />
+<weapon key="type_be.weapon" />
+<weapon key="type_be_b.weapon" />
+	<weapon key="type100_smg.weapon" />
+	<weapon key="type100_smg_b.weapon" />
+<weapon key="type11_lmg.weapon" />
+	<weapon key="type96_lmg.weapon" />
+	<weapon key="type96_lmg_b.weapon" />
+	<weapon key="type38_rifle_launcher.weapon" />
+<weapon key="type38_rifle_launcher_at.weapon" />
+	<weapon key="type97_s.weapon" />
+
+	<weapon key="type97_is.weapon" />
+	<weapon key="type97_at_rifle.weapon" />
+	<!--<weapon key="type38_rifle_launcher.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
+	
+</resources>

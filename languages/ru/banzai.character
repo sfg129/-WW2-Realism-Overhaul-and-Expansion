@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="ija.character">
+	<comment key="Quickly!" text="Тэннохэйка Бандзай!" />  
+	
+	<comment key="fire opened, weapon tag = sniper" text="Банзай!" />
+	
+	<comment key="grenade alert, grenade tag = grenade" text="Банзай!" />
+		
+	<comment key="grenade alert, grenade tag = rocket" text="Банзай!" />
+	
+	<comment key="enemy seen" text="Тэннохэйка Бандзай!" />
+	<comment key="enemy seen" text="Банзай!" />
+	
+	<comment key="Move out" text="Банзай!" />
+	<comment key="Move out" text="Тэннохэйка Бандзай!" />
+	
+   <!-- character specific animation override table -->
+	<animation key="walking" target_key="walking, bayonet" />
+	<animation key="running" target_key="running, bayonet" />
+	
+</character>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" slot="0" pulldown_in_air="10" key="ww2_undead_ground_spawn_zombie_shambler.projectile" time_to_live_out_in_the_open="0" drop_count_factor_on_death="0">
+	
+	<sound class="result" key="other" fileref="thunder.wav" volume="2.0" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<animation key="throw" animation_key="summon, resurrector" />
+	
+	<trigger class="time" time_to_live="0.92"/>
+
+	<result class="spawn" 
+	instance_class="soldier" 
+	instance_key="shambler_default" 
+	min_amount="2" 
+	max_amount="5" 
+	offset="0 0.25 0" 
+	position_spread="3 3" 
+	direction_spread="0 0" 
+	/>
+	
+	<model />
+	
+	<commonness value="1.0" />
+
+	<capacity value="120" source="rank" source_value="0.0" />
+	<inventory encumbrance="3.0" price="1.0" />	
+	
+	<rotation class="none" />
+	
+    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+    <effect class="result" key="other" copy="terrain" />
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+	
+</projectile>

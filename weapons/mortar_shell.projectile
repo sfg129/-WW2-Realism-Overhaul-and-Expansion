@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="light mortar shell" slot="2" key="mortar_shell.projectile" >
+	
+	<sound class="result" key="other" fileref="mortar_01.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="mortar_02.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="mortar_03.wav" volume="2.45" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="8"
+	damage="2.4"
+	push="1"
+	decal="1"
+	/>
+	
+	<model mesh_filename="mortar_shell.xml" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	<effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="terrain" ref="OstvetHitSparks" />
+    <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
+	<effect class="result" key="terrain" ref="HitTank" lighting="1" />
+   	<effect class="result" key="terrain" ref="HitTankSparks" />
+
+    	<effect class="result" key="vehicle" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="vehicle" ref="OstvetHitSparks" />
+    <effect class="result" key="vehicle" ref="OstvetBurstShine" lighting="0" />
+	<effect class="result" key="vehicle" ref="HitTank" lighting="1" />
+   	<effect class="result" key="vehicle" ref="HitTankSparks" />
+
+    	<effect class="result" key="other" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="other" ref="OstvetHitSparks" />
+    <effect class="result" key="other" ref="OstvetBurstShine" lighting="0" />
+	<effect class="result" key="other" ref="HitTank" lighting="1" />
+   	<effect class="result" key="other" ref="HitTankSparks" />
+
+	<effect class="result" key="vehicle" ref="BurstShine" lighting="0" />
+    <effect class="result" key="vehicle" ref="Godray" lighting="0" />
+	<effect class="result" key="other" ref="BurstShine" lighting="0" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+     <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="BurstShine" shadow="1" />
+    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+    <effect class="result" key="other" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+	
+
+	
+</projectile>

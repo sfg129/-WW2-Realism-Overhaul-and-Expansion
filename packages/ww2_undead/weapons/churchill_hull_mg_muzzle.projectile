@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="default" slot="1" time_to_live="0.0" pulldown_in_air="4">
+    <result class="hit" />
+	<trigger class="time" time_to_live="0.0" />
+    <rotation class="motion" />
+
+</projectile>

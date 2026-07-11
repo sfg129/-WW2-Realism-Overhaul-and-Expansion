@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="아악, 의무병!"/> 
+	
+	<comment key="Reloading" text="재장전 중이야, 엄호해!"/>
+	<comment key="Reloading" text="재장전해야돼!"/>  
+	
+	<comment key="We surrender!" text="포기할래!"/>
+	<comment key="We surrender!" text="항복한다!"/>
+	<comment key="We surrender!" text="글렀어!"/>
+
+	<comment key="initiate radio call" text="본부 응답하라, 여기는 에이블 중대, 듣고 있나?"/>
+	<comment key="commander radio response" text="여기는 본부, 듣고 있다 에이블 중대, 계속 하라."/>
+
+	<comment key="hostile vehicle takeover" text="야! 그거- "/> 
+	<comment key="hostile vehicle takeover" text="뭐야? 안돼 안돼 안돼!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="젠장, 놈을 찾아내!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="전차아!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="세상에, 엎드려! 전차다!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="놈들이 전차를 끌고왔다!"/>     
+
+	<comment key="Hold on!" text="좀만 버텨 친구!"/>  
+
+	<comment key="celebrating" text="잘했다, 제군들."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="너희들 전차 좋네, 내가 가질게."/>
+	<comment key="celebrating" text="와, 운좋았다."/>
+	<comment key="celebrating" text="와! 잘했어 얘들아."/>
+	<comment key="celebrating" text="쟤들 엉덩이 한번 제대로 걷어찼다!"/>
+	<comment key="celebrating" text="너무 쉽게 포기하는거 아냐?"/>
+	<comment key="celebrating" text="가서 루거 하나 찾아봐야겠다"/>
+	<comment key="celebrating" text="장교 권총 하나 있는지 찾아봐야겠다"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="담배 있어?"/>
+		<comment text="당근이지, 여기."/>
+		<comment text="에휴, 불쌍한 타일러."/>
+		<comment text="그러니까. 궤도에 붙은거 애들이 호스로 열심히 떼어냈다더라."/>
+		<comment text="으.. 전차 주변에 있을 때는 조심해야돼, 특히나 아군 전차 주변에서."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="새로운 장비 지급 받았나?"/>
+		<comment text="응"/>
+		<comment text="내 것도 새 거였으면.."/> 
+		<comment text="있는 거나 써라, 짜식아"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="전차 이름을 뭐라고 할까?"/>
+		<comment text="크라우트 분쇄기."/>
+		<comment text="존나좋군."/>
+	</dialogue>
+
+ </character>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="mg34_hmg_t.weapon"
+	ai_burst_time="0.75" 
+	ai_burst_time_variance="0.25" 
+	ai_burst_wait_time="0.25" 
+	ai_burst_wait_time_variance="0.2">
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	<!-- using these as default values for normal vehicle-born machine guns -->
+	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
+
+    <specification
+	retrigger_time="0.0775"
+	accuracy_factor="0.85"
+	spread_range="0.325"
+    sustained_fire_grow_step="0.012" 
+    sustained_fire_diminish_rate="0.1"  
+	sight_range_modifier="2"
+  	ai_sight_range_modifier="0.7"
+	magazine_size="-1"
+	can_shoot_standing="0"
+	an_shoot_crouching="0"
+	suppressed="0"
+	name="MG 34 HMG"
+	class="0"
+	projectile_speed="130.0"
+	slot="2"
+	barrel_offset="0.45"
+	projectiles_per_shot="1"
+	sight_height_offset="2.0"
+	cooldown_start="0.8"
+	cooldown_end="0.0"/>
+
+	<!-- stats prior to 1.87: accuracy 0.8, spread not overwritten, recoil 0.125, recovery 0.95, velocity 110, damage 0.55 -->
+	
+	<model filename="mg34_hmg.mesh" texture_filename="mg42_hmg.png"/>
+    <hud_icon filename="hud_mg34_assault.png" />
+	
+    <commonness value="0.0" />
+	
+	<!-- damage was 0.525 -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.9"
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+
+	<sound class="operation" key="fire" fileref="weapon_mg_mg34.wav" pitch_variety="0.05" volume="1.82"/>
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+
+</weapon>

@@ -1,0 +1,59 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="WW2 언데드에 대한 안내" />
+		<text value="WW2 언데드 모드에 오신 걸 환영합니다! 이 모드에서는 정찰이 없는 상태에서 성을 찾아서 점령함으로 이길 수가 있습니다. 성문은 잠겨 있으며 기지들에 있는 맵에 흩어진 오컬트 팬타그램을 작동 시켜 열 수가 있습니다, 그리고 죽을 때 마다 낙하산 스폰 지점을 사용할 수 있습니다" />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="적 차량"/>
+		<text value="에델바이스와 퍼시픽의 특정 중장갑 적 차량들은 노획할 수 없습니다. 이는 온전히 밸런스와 게임플레이를 위한 조치입니다. 다른 경차량들은 노획할 수 있습니다!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="대검"/>
+		<text value="에델바이스와 퍼시픽에서는 대검을 착검할 수 있습니다. 무기 아이콘 아래에 점 두개가 있는 무기들이 이러한 기능을 가지고 있습니다. %control_next_weapon_in_chain키를 눌러 착검 탈부착이 가능합니다. 대검은 근접공격 범위를 상당히 늘려주지만 명중률을 하락시킵니다."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="생울타리 및 울타리 파괴"/>
+		<text value="에델바이스에서는 폭발물이나 차량으로 대부분의 울타리가 파괴 가능합니다. 또한 생울타리는 폭파장약으로 파괴하거나 셔먼 라이노같은 특수한 차량으로 부술 수 있습니다."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="보스"/>
+		<text value="적의 보스 전차는 특정 맵에서 승리하기 위해서는 무슨 수를 쓰더라도 반드시 격파해야합니다. 그들은 체력이 더욱 많고 화력이 강하기 때문에 상당한 도전이 될 것입니다!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="벙커와 특화점"/>
+		<text value="특화점은 강력히 요새화된 기관총 진지로 퍼시픽에서 조우할 수 있습니다. 통상적인 수류탄에는 강하지만 중형 폭발물이나 화염방사기에는 큰 피해를 입습니다."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="무전 방해기, 해안포, 대공포"/>
+		<text value="적 무전 방해기는 주변 일대에서 지원요청을 하지 못하게 막습니다. 가까이 다가갈 수 있다면 폭파장약에 취약합니다. 해안포와 대공포는 맵 전체에 대해 특정 지원요청을 막습니다. 이들을 파괴하면 강력한 해군 함포사격이나 항공지원을 받을 수 있습니다."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="베르게티거 호송대" />
+		<text value= "베르게티거에 커서를 올리고 %control_shoot을 눌러 잠시동안 정지 명령을 내릴 수 있습니다. 또한 렌치로 수리를 해도 정차합니다. %PS 이러한 기능은 호송대 진격속도를 낮추어 병력과 합류하는 등 전술적으로 사용하기 용이합니다." />
+		<image filename="journal_convoy.png" />
+	</entry>	
+
+</journal>

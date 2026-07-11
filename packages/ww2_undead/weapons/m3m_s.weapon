@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="m3m_s.weapon">
+	
+	<specification
+	slot="2" 
+	retrigger_time="-1" 
+	accuracy_factor="0.85" 
+    sustained_fire_grow_step="0.012" 
+    sustained_fire_diminish_rate="0.1"  
+	sight_range_modifier="1.5"
+	ai_sight_range_modifier="1"  
+	magazine_size="0" 
+	can_shoot_standing="0" 
+	can_shoot_crouching="0" 
+	suppressed="0" 
+	name="shield" 
+	class="0" 
+	barrel_offset="0.6"
+	projectile_speed="110.0"
+	projectiles_per_shot="2"
+	cooldown_start="0.8"
+	cooldown_end="0.0"/>
+	
+ 
+	<model mesh_filename="" texture_filename="" />	
+	<hud_icon filename="hud_tank_mg.png" />
+	<commonness value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+
+		/>
+	</projectile>
+
+
+<!-- front plate -->	
+	<shield offset="0.0 0.0 0.0" extent="1 0.65 1" />
+	
+</weapon>

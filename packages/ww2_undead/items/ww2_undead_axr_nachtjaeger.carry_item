@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+
+
+	<!-- note on SS Soldat / Nachtjaegers / Fallschirmjaegers and Undead Shamblers -->
+	<!-- SS Soldats reduce hit success but only have 1 hitpoint. This makes them a bit more resistant to SMG weapons -->
+	<!-- they are slightly more vulnerable to Rifle type weapons as a result -->
+	<!-- meanwhile, Shamblers have two layers of reliable vest with zero reduction against weapons -->
+	<!-- this makes them more vulnerable to SMG style weapons, but reliably resist two rifle shots, for example. -->
+
+
+
+    <carry_item key="ww2_undead_axr_nachtjaeger.carry_item" name="" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+
+	<modifier class="speed" value="-0.0" />
+    <modifier class="hit_success_probability" value="-0.2" />	
+    </carry_item>
+
+</carry_items>

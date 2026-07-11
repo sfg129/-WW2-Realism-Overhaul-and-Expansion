@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="0" clear_grenades="1" clear_calls="0" clear_carry_items="1">	
+	
+	<weapon key='ww2_undead_claw_light.weapon' /> 
+	<weapon key='ww2_undead_common_zombie_at_spit_launcher.weapon' /> 
+
+	<!-- <weapon key='ww2_undead_claw_anti_tank.weapon' />  -->
+	
+	<carry_item key='ww2_undead_zombie_shambler.carry_item' enabled="1" />
+	
+</resources>

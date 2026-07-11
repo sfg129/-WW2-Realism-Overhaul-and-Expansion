@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+
+
+	<weapon key="light_mortar_resource.weapon" />
+	<projectile key="mkii_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+	<weapon key="morphine.weapon" />
+	<weapon key="m1911.weapon" />
+	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1917_hmg_resource.weapon" />
+	<!-- moved to briefcase unlocks -->
+	<weapon key="m2hb_hmg_resource.weapon" />
+	<weapon key="bofors_resource.weapon" />
+	<projectile key="mk3_grenade.projectile" />
+	<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
+</resources>

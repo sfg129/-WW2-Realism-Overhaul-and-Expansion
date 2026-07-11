@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<weapon key="m1903_rifle.weapon" />
+	<weapon key="m1903_rifle_b.weapon" />
+	<weapon key="m1_garand.weapon" />
+	<weapon key="m1_garand_b.weapon" />
+	<weapon key="m1a1_thompson.weapon" />
+		<weapon key="m1928_thompson_mag.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+	<weapon key="m1918_bar.weapon" />
+<weapon key="m12_trench_gun_b.weapon" />	
+	<weapon key="m12_trench_gun.weapon" />
+	<weapon key="m1918_bar_heavy.weapon" />
+	<weapon key="m1919_lmg.weapon" />  
+<weapon key="m3_greasegun.weapon" />
+	<weapon key="m1903_rifle_s.weapon" />
+<weapon key="m1903_rifle_grenade_he.weapon" />	
+<weapon key="m1903_rifle_grenade_at.weapon" />
+
+<weapon key="boys_at_rifle.weapon" />
+	<weapon key="m1_carbine_p.weapon" />
+<weapon key="m1_garand_s.weapon" />
+<weapon key="m1_garand_is.weapon" />
+	<!--
+	
+	<weapon key="m1941_johnson_rifle.weapon" />
+	<weapon key="m1_garand_large_mag.weapon" />
+	<weapon key="kar98k_elite.weapon" />
+	<weapon key="type100_smg.weapon" />
+	<weapon key="type100_44_smg.weapon" />
+	<weapon key="type_be.weapon" />
+	<weapon key="sten_mkv.weapon" />
+	<weapon key="mp34_o.weapon" />
+	<weapon key="mp34.weapon" />
+	<weapon key="lanchester_smg.weapon" />
+	<weapon key="type2_model_b_machinepistol.weapon" />
+	<weapon key="type100_smg.weapon" />
+	<weapon key="mp40.weapon" />
+	<weapon key="m55_reising.weapon" />
+	<weapon key="m3_greasegun.weapon" />
+	<weapon key="m1_thompson.weapon" />
+	<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="sten_mkii.weapon" />
+	-->
+
+</resources>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="type38_rifle_launcher_at.weapon">
+	<tag name="assault" />
+
+<access_tag name="pacific" />
+	
+	<specification 
+	retrigger_time="-1" 
+	spread_range="0.1"
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="3.0" 
+	sustained_fire_diminish_rate="1.0" 
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	can_shoot_prone="1"
+	suppressed="0" 
+	name="Type 2 AT Rifle Grenade" 
+	class="2" 
+	slot="0"
+	projectile_speed="45.0" 
+	sight_range_modifier="1.5" 
+	barrel_offset="1.05" 
+	/>
+	<next_in_chain key="type38_rifle_launcher.weapon" share_ammo="1" />
+
+		<animation key="crouching" animation_key="rifle grenade crouch" />
+	<animation key="recoil" animation_key="rifle grenade recoil" />
+	<animation key="recoil" stance_key="over_wall" ref="27" />
+	<animation key="cycle" animation_key="launcher reload" />
+	<animation key="cycle" stance_key="prone" animation_key="launcher reload" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	<animation state_key="next_in_chain_in" animation_key="reloading, m1 garand grenade launcher" />
+	
+	<weak_hand_hold offset="0.4" />
+	
+	<sound key="fire" fileref="rifle_grenade.wav" pitch_variety="0.05" volume="2.44"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_kar98k.wav" pitch_variety="0.05" volume="2.6"/>
+	
+	<model filename="type38_rifle_at_launcher.xml" />
+	<hud_icon filename="hud_type38_rifle_at_launcher.png" />
+	
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="60.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="type38_rifle_at_grenade.projectile" />
+	<ballistics
+near_far_distance="20.0"
+    speed_estimation_near="10.0"
+    speed_estimation_far="16.0"
+   max_speed="45.0"
+	curve_height="2" 
+    randomness="0.0"
+	tweak_factor="1.55"
+	/> 
+			<modifier class="speed" value="-0.05" />
+	
+	<effect class="muzzle" ref="LawMuzzle" />
+	<effect class="muzzle" ref="UpDust" />
+	
+</weapon>

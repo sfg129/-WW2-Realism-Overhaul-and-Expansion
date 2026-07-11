@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduzione a WW2 Undead" />
+		<text value="Benvenuto nella modalità WW2 Undead! In questa modalità si vince mettendo in sicurezza il Castello, che si trova sulla mappa nell'area indicata con No Recon. Il cancello del castello è bloccato e può essere aperto solo interagendo con i pentacoli occulti sparsi sulla mappa, situati all'interno delle basi. Inoltre, ogni volta che muori, puoi selezionare il punto di paracadutaggio tra quelli disponibili da cui fare respawn." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Veicoli nemici"/>
+		<text value="Alcuni veicoli pesanti dei nemici in EDELWEISS e PACIFIC non possono essere rubati. Le motivazioni sono puramente di equilibrio e giocabilità. Altri veicoli leggeri possono invece essere rubati!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Baionette"/>
+		<text value="In EDELWEISS e PACIFIC è possibile attivare le baionette. Le armi che hanno due puntini nella parte inferiore sono quelle con cui è possibile farlo. E' possibile attivarle premendo %control_next_weapon_in_chain. Le baionette estendono notevolmente il vostro raggio d'azione nel combattimento corpo a corpo, ma diminuiscono la precisione di fuoco dell'arma."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Distruzione di siepi e recinzioni"/>
+		<text value="In EDELWEISS, la maggior parte delle recinzioni può essere distrutta da ESPLOSIVI o schiacciata dalla maggior parte dei veicoli. Inoltre, le siepi possono essere sia distrutte da cariche di demolizione sia schiacciate da veicoli speciali come lo Sherman RHINO."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Boss"/>
+		<text value="I carrarmati BOSS dei nemici devono essere distrutti con qualsiasi mezzo necessario al fine di ottenere la VITTORIA su alcune mappe. Hanno resistenza aggiuntiva e notevole potenza di fuoco per rendere il vostro compito più impegnativo!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Bunker e casematte"/>
+		<text value="Le casematte si possono trovare in PACIFIC e sono postazioni difensive fortificate per mitragliatrici. Non sono particolarmente vulnerabili alle granate standard, ma possono subire danni importanti da esplosivi ad alto potenziale e lanciafiamme."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Disturbatori radio, cannoni costieri, contraeree"/>
+		<text value="I disturbatori radio dei nemici bloccheranno la possibilità di utilizzare qualsiasi chiamata radio in un'area circoscritta. Sono vulnerabili alle cariche di demolizione nel caso possiate avvicinarvi abbastanza. I cannoni costieri e le contraeree bloccano le chiamate radio specifiche su tutta la mappa, la loro distruzione vi garantirà rispettivamente la potenza di fuoco navale e aerea."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Convoglio Bergetiger" />
+		<text value= "Puoi ordinare al Bergetiger di fermarsi per un breve periodo puntandolo con il cursore e premendo %control_shoot. Anche ripararlo con una chiave inglese lo farà fermare.%PS Ciò può anche essere usato tatticamente per rallentare il convoglio al fine di raggruppare le tue truppe" />
+		<image filename="journal_convoy.png" />
+	</entry>		
+	
+
+</journal>

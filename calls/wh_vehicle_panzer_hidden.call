@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="panzer iv" key="wh_vehicle_panzer_hidden.call"
+	initiation_comment1="you shouldn't see this"
+	acknowledge_comment="back to the other team you"
+	launch_comment="go on, shoo">
+	
+	<round
+		instances="1"
+		instance_class="vehicle"
+		instance_tag="tank" 
+		instance_spread="0 0 0" 
+		common_spread="0 0 0" 
+		launch_time="0.0"
+		spawn_time="1.5"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="0.0"
+		initial_speed_to_target="0.0">
+	</round>
+	
+	<hud_icon filename="hud_paratroopers2.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="10.0" />
+	<inventory encumbrance="0.0" price="10000.0" />
+	
+</call>

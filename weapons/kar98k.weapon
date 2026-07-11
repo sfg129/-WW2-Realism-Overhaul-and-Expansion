@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="kar98k.weapon">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.98" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="1"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Karabiner 98k" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="130.0" 
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.1"
+	/>
+
+	<next_in_chain key="kar98k_b.weapon" share_ammo="1" />
+	<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+	<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+
+	<!--<addon_model filename="backpack_small.xml" />-->
+
+
+	
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="weapon_rifle_kar98k.wav" pitch_variety="0.05" volume="2.6"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="weapon_kar98k.xml" />
+	<hud_icon filename="hud_kar98k.png" />
+	
+	<commonness value="0.1" />
+	<inventory encumbrance="8.0" price="5.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.5"
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

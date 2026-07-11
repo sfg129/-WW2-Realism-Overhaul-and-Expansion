@@ -1,0 +1,61 @@
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduction to WW2 Undead" />
+		<text value="Welcome to WW2 Undead mode! In this mode you win by securing the Castle, located on the map in the area with No Recon. The Castle Gate is locked, and can only be opened by interacting with occult pentagrams scattered across the map, located within the bases. Also, any time you die, you can select an available parachute spawn node." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Enemy vehicles" />
+		<text value="Certain heavier ENEMY VEHICLES in EDELWEISS and PACIFIC cannot be stolen. This is done entirely for balance and gameplay reasons. Other lighter vehicles can still be stolen!" />
+		<image filename="journal_cannot_steal.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Bayonets" />
+		<text value="BAYONETS can be toggled in EDELWEISS and PACIFIC. Weapons with two dots at the bottom of their icon can do this. They can be toggled by pressing %control_next_weapon_in_chain. Bayonets greatly extend your melee range but at the cost of some accuracy." />
+		<image filename="journal_bayonets.png" />
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Hedgerows and Fences Destruction" />
+		<text value="In EDELWEISS, most fences can be destroyed by EXPLOSIVES or driven over by most VEHICLES. Additionally, Hedgerows can be destroyed by DEMOLITIONS CHARGES as well as crushed by special vehicles such as the Sherman RHINO." />
+		<image filename="journal_fences.png" />
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Bosses" />
+		<text value="Enemy BOSS TANKS must be killed through any means necessary in order to secure VICTORY on certain maps. They have additional health and a lot of firepower to make your task a challenge!" />
+		<image filename="journal_bosses.png" />
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Bunkers and Pillboxes" />
+		<text value="PILLBOXES can be encountered in PACIFIC and are heavily fortified machinegun positions. They are not very vulnerable to standard Grenades, but take a lot of damage from HEAVY EXPLOSIVES and FLAMETHROWERS." />
+		<image filename="journal_pillboxes.png" />
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Radio Jammers, Coastal Guns, AA Guns" />
+		<text value="Enemy RADIO JAMMERS will block your ability to use any call-ins in a certain area around it. They are vulnerable to DEMOLITIONS CHARGES if you can get close enough. COASTAL GUNS and AA GUNS block specific call-ins on the entire map, and destroying them will grant you powerful NAVAL ARTILLERY and AIRPOWER respectively." />
+		<image filename="journal_destroy.png" />
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Bergetiger convoy" />
+		<text value= "You can order the Bergetiger to stop for a short time by pressing %control_shoot when aiming at it. Also repairing it with a wrench will cause it to stop.%PSThis can also be used tactically to slow down the convoy in order to regroup your troops" />
+		<image filename="journal_convoy.png" />
+	</entry>	
+
+</journal>
+
+

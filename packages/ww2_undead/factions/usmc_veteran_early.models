@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- USMC Veteran Early -->
+
+
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="soldier_usmc_veteran_early.xml" /> 
+
+	<!-- ----- -->
+	<!-- vests -->
+	<!-- ----- -->
+	
+	<!-- ------- -->
+	<!-- weapons -->
+	<!-- ------- -->
+
+	<!-- ----------------- -->
+	<!-- vests with weapon -->
+	<!-- ----------------- -->
+
+	<!-- ---- -->
+	<!-- rank -->
+	<!-- ---- -->
+	
+</models>

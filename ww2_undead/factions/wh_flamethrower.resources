@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="flammenwerfer_41.weapon" />
+
+	<weapon key="p08.weapon" />
+	<weapon key="p08_carbine.weapon" />
+	<weapon key="c96_pistol.weapon" />
+	<weapon key="mp40_folded.weapon" />
+	
+	<carry_item key='vest_assault_webbing_for_ai.carry_item' enabled="1" />
+	
+	
+	<projectile key="panzerwurfmine.projectile" />
+
+</resources>

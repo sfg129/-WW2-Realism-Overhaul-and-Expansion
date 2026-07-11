@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_shotgun.weapon" key="luftwaffe_drilling.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
+	<tag name="assault" />
+
+	<access_tag name="edelweiss" />
+	
+	<specification 
+	retrigger_time="0.01" 
+	accuracy_factor="0.85" 
+	sustained_fire_grow_step="4.0" 
+
+	magazine_size="2" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Sauer M30 Luftwaffe" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="1" 
+	projectile_speed="100" 
+	projectiles_per_shot="9"
+	barrel_offset="0.55" 
+	/>
+
+	<next_in_chain key="luftwaffe_drilling_rifle.weapon" share_ammo="0" />
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation key="reload" animation_key="reloading, m30 drilling" />
+	<animation key="reload" stance_key="prone" animation_key="reloading,  m30 drilling, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="weapon_luftwaffe_m30_shotgunmode.wav" pitch_variety="0.05" volume="1.62"/>
+	<sound key="cycle" fileref="mossberg500_cycle.wav" />
+	<sound key="reload_one" fileref="mossberg500_reload.wav" />
+	
+	<model filename="weapon_luftwaffe_drilling.xml" />
+	<hud_icon filename="hud_luftwaffe_m30_shotgun.png" />
+	
+	<commonness value="0.01" can_respawn_with="0" />
+	<inventory encumbrance="8.0" price="150.0" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- instead of capping this gun at same max range as M12 Trench Gun, we'll allow its extra velocity to slightly extend it -->
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit"
+		kill_probability="0.7"
+		kill_decay_start_time="0.2"
+		kill_decay_end_time="0.7"
+		/>
+	</projectile>
+	
+</weapon>

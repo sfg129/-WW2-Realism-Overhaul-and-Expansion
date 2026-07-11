@@ -1,0 +1,47 @@
+<vehicle file="repair_tank_base.vehicle" key="repair_tank.vehicle" 
+    respawn_time="600" 
+
+    allow_ai_to_use="0">
+
+  	<tag name="repair_tank" />
+   
+
+	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="11.0" max_reverse_speed="6.5" min_health_to_steer="1.5"/>
+
+    	<physics 
+    max_health="30.0" 
+    blast_damage_threshold="1.02"
+    mass="400.0" 
+    broken_mass="20"    
+    extent="6.0 0.0 7.8" 
+    offset="0 0.0 0" 
+    top_offset="0 2.0 0" 
+    collision_model_pos="0 1.0 0.0" 
+    collision_model_extent="5.0 2.2 7.8" 
+    visual_offset="0 0.43 0.0" /> 
+
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0 2.12 -0.1" weapon_key="repair_tank_crane.weapon" weapon_offset="-0.08 0.58 3.75" weapon_recoil="0.2" max_rotation_step="0.00004" rotation="-1.57" rotation_range="1.0" />
+	<turret offset="-0.68 1.9 2.7" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0004" rotation_range="0.5" /> 
+
+    <character_slot type="driver" position="1.5 0.5 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+<!--	<character_slot type="gunner" position="-1.5 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="0" />  
+	</character_slot>         -->
+	<character_slot type="gunner" position="-1.5 0.7 4.0" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+		<turret index="1" />
+	</character_slot>
+	
+  
+	<effect event_key="health" value="7.5" ref="SmallSmokeVehicle" offset="-1.0 2.0 -3.3" /> 
+	<effect event_key="health" value="7.5" ref="SmallSmokeVehicle" offset="1.0 2.0 -3.3" />
+    
+	<effect event_key="health" value="1.5" ref="SmallSmokeVehicle" offset="-1.0 2.0 -3.3" /> 
+	<effect event_key="health" value="1.5" ref="SmallSmokeVehicle" offset="1.0 2.0 -3.3" />
+	<effect event_key="health" value="1.5" ref="BrokenSparkle" post_processing="0" offset="-1.0 1.8 -3.3" />   
+	<effect event_key="health" value="1.5" ref="BrokenSparkle" post_processing="0" offset="1.0 1.8 -3.3" />     
+     
+  
+</vehicle>

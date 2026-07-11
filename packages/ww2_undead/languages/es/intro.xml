@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Los fortines pueden ser rápidamente eliminados mediante bombardeos de precisión, o cargas explosivas."/>
+    <text key="Hint" text="Cargar demasiado peso en tu mochila reducirá la precisión de tu arma."/> 
+    <text key="Hint" text="Tumbarte a tierra o bucear, puede salvarte de los efectos de los Explosivos."/> 
+    <text key="Hint" text="Las bajas realizadas en combate melee procuraran experiencia extra."/> 
+    <text key="Hint" text="El retículo proporciona una buena estimación de la precisión, pero la velocidad de salida de la bala también gana influencia a medida que aumenta la distancia."/> 
+    <text key="Hint" text="Capturar una base implica tener en ella una mayoria del 66%, (2/3), de las tropas."/> 
+    <text key="Hint" text="Las Ametralladoras Ligeras se disparan mejor desde una posición de cuerpo a tierra o tras una cobertura."/> 
+    <text key="Hint" text="Vender maletines en una Armeria desbloqueara armas únicas."/> 
+    <text key="Hint" text="Los Rifles son mortales y precisos, pero tienen una cadencia baja. Actua con precaución cuando intercambies disparos a corto alcance con enemigos mejor armados."/>
+    <text key="Hint" text="Los Rifles de Francotirador son útiles para abatir Ametralladores enemigos desde una distancia segura."/> 
+<!--    <text key="Hint" text="Los Rifles de Francotirador tienen una precisión perfecta cuando disparas agachado, tumbado o tras una cobertura."/> -->
+    <text key="Hint" text="Los Items Valiosos que dejen caer los soldado muertos, pueden ser recogidos y guardados en alijos, para posteriormente venderlos."/> 
+<!--    <text key="Hint" text="Los Subfusiles son excelentes en combate cercano y asaltos, pero pierden en precisión, velocidad (habilidad para atinar a objetivos en movimiento) y daño a largo alcance."/> -->
+    <text key="Hint" text="Generalmente, cuanto más pesada sea el arma, más baja será la velocidad de movimiento."/>
+<!--    <text key="Hint" text="Los Lanzallamas son excelentes limpiando puntos fuertes y emplazamientos enemigos."/>
+    <text key="Hint" text="La granada Type 79 tiene una mecha corta de 3 segundos, pero se retracta de tener un pequeño radio de explosión."/>            
+    <text key="Hint" text="Las Bayonetas pueden convertir un rifle de largo alcance en una temida arma de combate cercano."/>         
+    <text key="Hint" text="El precio de un arma, es un buen estimador tanto de su efectividad en combate como de su rareza."/>       
+    <text key="Hint" text="Los Binoculares son una excelente herramienta para los oficiales de alto rango; les permite tanto comandar tropas como solicitar ataques de Artilleria desde posiciones lejanas."/>       
+    <text key="Hint" text="El Subfusil Type STE (MP-34) sirvió a la IJA a principios de guerra, ofrece unas buenas capacidades de daño y control."/>       
+    <text key="Hint" text="El Subfusil Type 100 sufre de una baja cadencia y daño, pero solía estar equipado con un bípode, que incrementa el control tumbado o tras una cobertura."/>       
+    <text key="Hint" text="El Subfusil Type 100/44 fue introducido posteriormente en la guerra, ofrece mayor cadencia que su pariente mas viejo."/>       
+    <text key="Hint" text="El Subfusil M1A1 Thomson hace gala de un alto daño y cadencia, pero tiene mayor retroceso que sus contrapartes."/>       
+    <text key="Hint" text="El Subfusil M1928 Thomson, dispone de un cargador de 50 balas, también dispone de una empuñadura vertical que aumenta el control del arma."/>       
+    <text key="Hint" text="La Pistola M1911 es poderosa y confiable para defenderse en combate cercano."/>    
+    <text key="Hint" text="La Pistola Type 14 Nambu es relativamente débil, pero puede disparar rápidamente, destacando como arma de defensa personal barata."/>
+    <text key="Hint" text="La Carabina M1 es lo suficientemente ligera para usarla como arma secundaria, y es un útil recurso a medio alcance para un Equipo de Bazooka o Ametralladores."/>
+    <text key="Hint" text="La Carabina Type MO (M96 Mauser) es utilizada por las fuerzas IJA, es lo suficientemente ligera para usarla como arma secundaria. Es un útil recurso para Granaderos y soldados Anti Tanque."/>
+    <text key="Hint" text="El Rifle Type 38 sirvió como rifle de cerrojo a principios de guerra. No es tan poderoso como sus contrapartes, pero destaca por su precisión y bajo retroceso."/>
+    <text key="Hint" text="El Rifle Type 99 se volvio común más tarde en la guerra, sustituyendo gradualmente al Type 38, dispara munición más poderosa."/>
+    <text key="Hint" text="La Carabina de Caballeria Type 44 fue introducida en 1912, como versión recortada del Type 38. Su tamaño compacto destaca en combate cercano, además dispone de una bayoneta plegable."/>
+    <text key="Hint" text="El M1903A3 Springfield es un rifle de cerrojo básico de principios de guerra, fue reemplazado más tarde por el M1 Garand. Es poderoso y preciso."/>
+    <text key="Hint" text="El M1 Garand es un poderoso y confiable rifle semiautomático, rápidamente se convirtió en el rifle por excelencia del USMC reemplazando el M1903 Springfield."/>   
+    <text key="Hint" text="El Rifle Type 4 es un raro rifle semiautomático, basado enormemente en el M1 Garand, pero disponiendo de un cargador interno de 10 balas."/>   
+    <text key="Hint" text="El Rifle M1941 Johnson es un rifle semiautomático muy poco común, dispone de un cargador de 10 balas y hace gala de una más que notable precisión."/>   
+    <text key="Hint" text="La Carabina M2 es un arma poco común, que a diferencia de la Carabina M1 se utiliza como arma primaria - dispone de un cargador de 30 balas y es totalmente automática."/>   
+    <text key="Hint" text="El Rifle de Francotirador M1903A1 es efectivo eliminando Ametralladores o Infanteria Estática enemiga."/>   
+    <text key="Hint" text="El M1 Garant dispone de una rara versión de francotirador, hace gala de la precisión del M1903A4, pero con la cadencia del M1 Garand."/>   
+    <text key="Hint" text="El Rifle de Francotirador Type 97 esta basado en el Rifle Type 38. A diferencia del Rifle de Francotirador M1903A4, puede ser recargado rápidamente gracias a sus peines."/>   
+    <text key="Hint" text="El Rifle Anti-Tanque Type-97 es un poderoso rifle semiautomático de 20mm, es excesivamente pesado, y su precisión es pobre contra objetivos individuales, como Soldados aislados."/>   
+    <text key="Hint" text="La Escopeta M12 es mortífera, destaca limpiando trincheras, pero sufre en cuanto a capacidad de munición."/>   
+    <text key="Hint" text="El M1918A2 BAR consiste en una mejora respecto a su version de la primera guerra mundial, dispone de un bípode y modos de fuego ajustables."/>
+    <text key="Hint" text="El M1918A2 BAR es lo suficientemente ligero como para dispararlo desde la cadera, pero destaca cuando se usa su bipode, disparando tumbado o tras cobertura."/>   
+    <text key="Hint" text="La Ametralladora Ligera M1919A6 es una mejora respecto a modelos anteriores, se desarrollo como respuesta a las novedosas GPMG alemanas."/>   
+    <text key="Hint" text="La Ametralladora Ligera M1919A6 es capaz de dispersar un mortal torrente de balas, pero solo puede ser disparada si se usa su bipode - o tumbado o tras una cobertura."/>   
+    <text key="Hint" text="La Stinger es una adaptación para los aviones de la Ametralladora M1919A4 con culata y bípode - y una cadencia de fuego extrema."/>
+    <text key="Hint" text="La Ametralladora Ligera Type 11 es un modelo viejo, aunque mortalmente preciso de ametralladora de apoyo. Su única desventaja es su larga recarga, realizada mediante cargadores de rifle estándares."/>   
+    <text key="Hint" text="La Ametralladora Ligera Type 96 es una ametralladora de apoyo básica, con un control excelente y aceptable precisión, aún así no es tan poderosa como sus contrapartes."/>   
+    <text key="Hint" text="La Ametralladora Ligera Type 99 se trata de la ametralladora de apoyo más moderna del IJA. Tiene una cadencia de fuego más rapida que sus antecesores así como más potencia de fuego."/>   
+    <text key="Hint" text="La Ametralladora Ligera M1941 Johnson funciona de forma similar al BAR, pero en forma de arma de apoyo, aún así dispone de una cadencia de fuego mucho más alta."/>   
+    <text key="Hint" text="El Lanzallamas M2 es el lanzallamas estandar del USMC, dispone de un regulador para un mayor control."/>   
+    <text key="Hint" text="El Lanzallamas Type 93 es un modelo de influencia Europea utilizado por el IJA ."/>   
+    <text key="Hint" text="El Lanzagranadas Type 100 es un Type 38 estandar con un tubo descargado y con cartuchos de polvora, dispara granadas normales, que explotan tras acabar su mecha."/>   
+    <text key="Hint" text="El Bazooka M1 es el primer Lanzacohetes desarrollado por una nación, dispara cohetes de 60mm capaces de destruir tanques ligeros y fortificaciones."/>   
+    <text key="Hint" text="El Lanzacohetes Type 4 fue desarrollado y producido hacia el final de la segunda guerra mundial, su función fue defender el territorio Japonés, funciona de forma similar al M1."/>   
+    <text key="Hint" text="La Granada Anti-Tanque de Rifle M9 puede ser disparada desde el Lanzador M1 montado en el rifle M1903, y destaca en trabajos contra vehículos ligeros."/>   
+    <text key="Hint" text="El Barco PT destaca proporcionando fuego de apoyo en la playa, dispone de un gran surtido de armas."/>   
+    <text key="Hint" text="El Subfusil Type 100 dispone de una versión con Culata Plegable, se trata de una arma muy poco común diseñada para Paracaidistas. Es lo suficientemente compacta como para ser usada como arma secundaria."/>
+    <text key="Hint" text="El Type 1 es un Subfusil extremadamente raro, que se desarrollo antes de la guerra. Los Solados Americanos que se cruzaron con el lo denominaron 'Bullpup'."/>       
+    <text key="Hint" text="El Type 1 dispone de un gran cargador de 50 balas, y alta cadencia de fuego, convirtiendolo en una eficiente arma de combate cercano."/>  -->  
+    <text key="Hint" text="Las Barcas de Desembarco disponen de puntos de Reaparición, suponiendo que no haya enemigos cerca."/>  
+    <text key="Hint" text="Los enemigos usualmente dispondran de emplazamientos AA - destruyelos todos para disponer de apoyo aereo!"/>
+    <text key="Hint" text="Los enemigos usualmente dispondran de emplazamientos de Cañones Navales - destruyelos todos para disponer de apoyo naval!"/>
+    <text key="Hint" text="Las armerias son distintas a las de Running with Rifles - ahora se parecen a Barracas Militares más cortas."/>
+    <text key="Hint" text="Anda con ojo de los Veteranos enemigos - són más duros de lo normal y disponen de mejores armas."/>
+    <text key="Hint" text="Cuando un desembarco se empiece a poner difícil, busca las armas de apoyo del Barco de Ataque - bombardea las defensas costeras con ellas!"/>
+    <text key="Hint" text="Hay armerias y alijos tanto en el Portaviones como en el Barco de Ataque, asegurate de conocer su posición!"/>
+    <text key="Hint" text="Los soldados Banzai son peligrosos, determinados a llevar a cabo su asalto sin importar las consecuencias.%EOLSon difíciles de matar, pero no conocen el término cobertura."/>
+    <text key="Hint" text="Los soldados Banzai son liderados por un Oficial, liderandolos heróicamente en sus Asaltos, armados solamente con una Katana."/>
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Mientras que la mayoria de lanzacohetes funcionan de forma similar, algunos intercambian velocidad por una mayor cabeza explosiva, con más daño y radio explosivo."/>   
+    <text key="Hint" text="Puedes reparar vehículos con una llave inglesa, equípate con ella, acercate a un vehículo y manten el botón de &quot;disparar&quot; hasta que esté arreglado.%EOLPuedes llevar varias de ellas!"/>   
+	<text key="Hint" text="Robar tanques medios y pesados no es posible en los DLCs de la segunda guerra mundial."/>   
+	<text key="Hint" text="Las bayonetas extienden el rango de ataque cuerpo a cuerpo a costa de precisión a larga distancia, esto es debido al peso extra."/>
+    <text key="Hint" text="Tanques, semiorugas y algunos vehículos más ligeros, pueden destrozar la mayoria de vallas de los mapas de los DLCs de la segunda guerra mundial."/>   
+    <text key="Hint" text="El precio de un arma suele ser una buena estimación tanto de su rareza como de su potencia."/>       
+    <text key="Hint" text="En las misiones donde tu facción esté realizando una operación aérea masiva, puedes abrir el mapa tras morir, y reaparecer tras la lineas enemigas."/>   
+    <text key="Hint" text="Las granadas de fusil AT, tienen munición ilimitada, a cambio de realizar daños mínimos.%EOLPueden ser utilizadas como una solución a largo plazo contra el blindaje enemigo, pero no tendrá mucho que hacer en el frente."/>   
+    <text key="Hint" text="Algunas granadas de mano AT, explotan al impactar, mientras otras se pegan al objetivo y explotan más tarde."/>   
+    <text key="Hint" text="Los inhibidores de radio, cañones costeros y cañones anti-aereos bloquean ciertos apoyos.%EOLDestruyelos a cambio de una recompensa y la posibilidad de solicitar fuego de apoyo!"/>   
+    <text key="Hint" text="Ciertas misiones imposibilitan solicitar apoyo aéreo o paracaidistas, como el tiempo nevado de Bastogne."/> 
+    <text key="Hint" text="Ciertos activos como las torres de agua o los submarinos atracados, ofrecen grandes cantidades de XP y de RP al ser destruidos."/>   
+    <text key="Hint" text="Los cañones AT, a pesar de solo encontrarse en ciertas misiones, cumplen muy bien su cometido. Tenlo presente!"/>   
+    <text key="Hint" text="Los rifles de francotirador extienden el rango de visión al estar quieto, pero tardan más en recuperar su retroceso."/> 
+    <text key="Hint" text="Las carabinas tienen buenas prestaciones a larga distancia para ser armas secundarias, pero no tienen tanta potencia a corta distancia como las pistolas."/>
+    <text key="Hint" text="Las ametralladoras medias ofrecen mucha potencia de fuego a larga distancia, pero dado que solo se pueden disparar tumbado o a cubierto, son más útiles para la defensa."/>
+    <text key="Hint" text="Las armas con dos puntos debajo de su icono, disponen de modos alternaticos (mirar controles). Para muchas armas, esto activa la bayoneta."/>
+    <text key="Hint" text="Los subfusiles son imparables a corta distancia y disparando en movimiento, pero carecen de efectividad a larga distancia."/> 
+    <text key="Hint" text="Los lanzallamas son excelentes para despejar emplazamientos enemigos, incluyendo bunqueres, incluso pueden dañar muchos vehículos."/>
+    <text key="Hint" text="Los &quot;chalecos&quot; de Banzai y Asalto, proporcionan salud extra, y un gran bonus en la velocidad de movimiento,%EOLpero a diferencia del &quot;chaleco&quot; de veterano, no puedes ser revivido despues de ser herido."/>   
+    <text key="Hint" text="El &quot;chaleco&quot; de francotirador, te hace más dificil de detectarm y lijeramente más dificil de atinar.%EOLEstos bonuses son especialmente útiles cuando usas un rifle de francotirador."/>   
+    <text key="Hint" text="El &quot;chaleco&quot; de guardia, es un chaleco antibalas pesado. Ofrece buena protección y la posibilidad de revivirte,%EOLpero reduce tu velocidad de movimiento y es muy caro."/>   
+    <text key="Hint" text="Puedes abrir el mapa siempre que mueras, para seleccionar tu punto de reaparición."/>   
+
+</intro>

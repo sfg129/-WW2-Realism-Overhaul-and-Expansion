@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- bolt rifles are very poor in this game mode, so they're cut from the armoury -->
+
+	<weapon key="svt40.weapon" />
+	<weapon key="svt40.weapon" />
+	<weapon key="svt40_b.weapon" />
+	<weapon key="ppsh41s.weapon" />
+	<weapon key="ppsh41s_stick.weapon" />
+	<weapon key="dp28.weapon" />
+	<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="mn9130_s.weapon" />
+	<weapon key="stg44.weapon" />
+
+
+</resources>

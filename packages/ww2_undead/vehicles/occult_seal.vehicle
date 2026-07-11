@@ -1,0 +1,26 @@
+<vehicle name="" key="occult_seal.vehicle" map_view_atlas_index="-1" protectors="5" usable_for_cover="0" respawn_time="36000.0">
+  <tag name="sandbag" />
+<!--	<tag name="target" />   we don't want the sandbags to be processed by fov anymore (1.76) -->
+	<tire_set offset="0.1 0.0 0.1" radius="0.1" />
+	<tire_set offset="0.1 0.0 -0.1" radius="0.1" />
+
+	<control max_speed="1" acceleration="1" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<physics 
+	max_health="22.0" 
+	blast_damage_threshold="10000.0"
+	mass="10000.0" 
+	extent="0.1 0.0 0.1" 
+	offset="0 0.0 0" 
+	top_offset="0 0.1 0" 
+	collision_model_pos="0 100.1 0" 
+	collision_model_extent="0.1 0.1 0.1" 
+	visual_offset="0 0.2 0" 
+	collision_response_factor="0.2" 
+	blast_push_threshold="1000.0" 
+	vehicle_collision_damage_factor="2.0" /> 
+
+	<visual class="chassis" mesh_filename="" texture_filename="" />
+	<visual class="chassis" key="broken" mesh_filename="" texture_filename="" />
+
+</vehicle>

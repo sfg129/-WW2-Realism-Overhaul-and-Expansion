@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+
+	<!-- October 2025 -->
+	<weapon file="m3m_s.weapon" /> 
+
+<weapon file="stuart_recce_s.weapon" /> 
+	<weapon file="sidecar_german_mg.weapon" /> 
+	<weapon file="sidecar_german_mg_dummy.weapon" /> 
+<weapon file="boys_at_rifle_un.weapon" /> 
+	<!-- June 2024 -->
+<weapon file="vickers_k_un.weapon" /> 
+	<weapon file="churchill_75_cannon.weapon" />
+	<weapon file="luchs_cannon.weapon" />
+	<weapon file="soukoutei_mg.weapon" />
+	<weapon file="soukoutei_cannon.weapon" />
+	<weapon file="normandy_turret.weapon" />
+	<weapon file="flak_88.weapon" />
+	<weapon file="churchill_hull_mg_muzzle.weapon" />
+	<weapon file="churchill_crocodile_flamedrive_muzzle.weapon" />
+	<weapon file="churchill_crocodile_flamedrive.weapon" />
+	<weapon file="churchill_hull_mg.weapon" />
+	<weapon file="churchill_coax_mg.weapon" />
+	<weapon file="m1917_hmg_resource.weapon" />
+<weapon file="m1917_hmg.weapon"/>
+
+
+
+<weapon file="wz35_ai.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+<weapon file="boys_at_rifle_ai.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+
+<weapon file="bandage.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+<weapon file="m1928a1_thompson_drum.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+<weapon file="wz35.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+
+<weapon file="m1928_thompson_mag.weapon">
+<capacity source="rank" source_value="0.0" value="1" />
+</weapon>
+<weapon file="lefh18.weapon">
+</weapon>
+	<weapon file="type97_at_rifle_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+
+</weapon>
+	<weapon file="bofors_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+	<weapon file="lefh18_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+<weapon file="m5_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+<weapon file="pak40_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+
+	<weapon file="dp28.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+		<weapon file="mn9130_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+		<weapon file="ppsh41s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>		
+	<weapon file="ppsh41s_stick.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+<weapon file="tt33.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+<weapon file="svt40_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+						<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="svt40.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+						<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="m1918.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="m1918_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<!-- Oct 2023 -->
+
+	<weapon file="charlton_automatic_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<!-- March 2023 -->
+
+	<weapon file="danuvia_43m.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="danuvia_43m_folded.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="danuvia_43m_folded_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="browning_auto5_cut_down.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="browning_auto5_cut_down_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="browning_auto5_ext.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		</weapon>
+			<weapon file="browning_auto5_ext_4.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		</weapon>
+
+
+		<weapon file="light_mortar_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		</weapon>
+    <weapon file="g41w.weapon">
+        <capacity source="rank" source_value="0.0" value="1" />
+        <capacity source="rank" source_value="1.0" value="1" />
+				<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+    </weapon>
+    <weapon file="g41w_b.weapon">
+        <capacity source="rank" source_value="0.0" value="1" />
+        <capacity source="rank" source_value="1.0" value="1" />
+				<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+
+    </weapon>
+	<weapon file="m4_75_cannon.weapon" />
+	<weapon file="m4_firefly_cannon.weapon" />
+	<weapon file="m4_hull_mg.weapon" />
+	<weapon file="m4_m2.weapon" />
+	<weapon file="sdkfz251_mg.weapon" />
+	<weapon file="king_tiger_cannon.weapon" />
+	<weapon file="king_tiger_hull_mg.weapon" />
+	<weapon file="king_tiger_cupola_mg.weapon" />
+	<weapon file="king_tiger_cupola_mg_20mm.weapon" />
+	<weapon file="willys_mb_mg.weapon" />
+	<weapon file="willys_mb_recoilless_rifle.weapon" />
+	<weapon file="panzer_iv_hull_mg.weapon" />
+	<weapon file="panzer_iv_cannon.weapon" />
+	<weapon file="universal_carrier_mg.weapon" />
+	<weapon file="universal_carrier_mg_dummy.weapon" />
+	<weapon file="at_gun_m5.weapon" />
+	<weapon file="at_gun_pak40.weapon" />
+	<weapon file="at_gun_pak40_2.weapon" />    
+	<weapon file="m3_halftrack_mg.weapon" />
+	<weapon file="stug_iii_cannon.weapon" />
+	<weapon file="stug_iii_shield.weapon" />
+	<weapon file="tiger_cannon.weapon" />
+	<weapon file="sdkfz251_flak.weapon" />
+	<weapon file="sdkfz251_flak_shield.weapon" />
+	<weapon file="maus_main_cannon.weapon" />
+	<weapon file="maus_secondary_cannon.weapon" />
+	<weapon file="tog2_cannon.weapon" />
+	<weapon file="tog2_mg.weapon" />
+	<weapon file="maus_mg_turret.weapon" />
+	<weapon file="m10_cannon.weapon" />
+	<weapon file="m10_mg_dummy.weapon" />
+	<weapon file="at_gun_fortified_turret_cannon_chi_ha.weapon" />
+	<weapon file="at_gun_fortified_turret_cannon_sherman.weapon" />
+	<weapon file="at_gun_fortified_turret_grenade_launcher.weapon" />
+	<weapon file="wasp_flamethrower.weapon" />
+	
+	<weapon file="chute_medium.weapon" />
+
+
+
+	<weapon file="wrench.weapon"/>
+	<weapon file="wrench_small.weapon">
+    	<commonness value="0.0" in_stock="1" />  
+    	<capacity source="rank" source_value="0.0" value="1" />
+  	</weapon>
+
+	<weapon file="medikit.weapon" />
+	<weapon file="morphine.weapon">
+		<capacity source="rank" source_value="0.0" value="12" />
+
+	</weapon>
+	<weapon file="cover_resource.weapon" />
+	<weapon file="binoculars.weapon" />
+	<weapon file="type98_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.5" value="1" />
+	</weapon>
+		
+	<weapon file="heavy_mortar.weapon" />
+	<weapon file="aa_gun.weapon" />
+	<weapon file="coastal_gun.weapon" />
+	<weapon file="oerlikon.weapon" />
+	<weapon file="type98.weapon" />
+	<weapon file="pt_boat_mg.weapon" />
+	<weapon file="pt_boat_shield.weapon" />
+	<weapon file="daihatsu_shield.weapon" />
+	<weapon file="5inch_gun.weapon" />
+	<weapon file="bofors_gun.weapon" />
+	<weapon file="stuart_cannon.weapon" />
+	<weapon file="stuart_mg.weapon" />
+	<weapon file="higgins_mg.weapon" />
+	<weapon file="m1919_hmg.weapon" />
+	<weapon file="lvt4_m2.weapon" />
+	<weapon file="lvt4_m1919.weapon" />
+	<weapon file="hago_cannon.weapon" />
+	<weapon file="hago_mg.weapon" />
+	<weapon file="katsu_mg.weapon" />
+	<weapon file="katsu_shield.weapon" />
+	<weapon file="hoha_mg.weapon" />
+	<weapon file="hoha_shield.weapon" />   
+	<weapon file="type92_hmg.weapon" />
+	<weapon file="b29_turret.weapon" />
+	<weapon file="b29_turret2.weapon" />
+	<weapon file="b29_turret_20mm.weapon" />
+	<weapon file="b29_blank.weapon" />
+	<weapon file="light_mortar.weapon" />
+	<weapon file="chi_ha_cannon.weapon" />
+
+	<weapon file="ppsh41.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+			</weapon>
+			<weapon file="ppsh41_stick.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		
+	</weapon>
+	
+	<!-- German Wehrmacht -->
+		<weapon file="kar98k2.weapon" />
+	<weapon file="kar98k2_b.weapon" />
+	<weapon file="kar98k.weapon" />
+	<weapon file="kar98k_b.weapon" />
+	<weapon file="kar98k_ai.weapon" />
+	<weapon file="kar98k_b_ai.weapon" />
+
+	<weapon file="luftwaffe_drilling.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="luftwaffe_drilling_rifle.weapon" share_ammo="0" />
+		<animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+	</weapon>
+	<weapon file="luftwaffe_drilling_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="luftwaffe_drilling.weapon" share_ammo="0" />
+		<animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+	</weapon>
+	
+	<weapon file="kar98k_small_optic.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+		<next_in_chain key="kar98k_small_optic_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="kar98k_small_optic_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+		<next_in_chain key="kar98k_small_optic.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="kar98k_elite.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="kar98k_elite_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="kar98k_elite_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="kar98k_elite.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<weapon file="kar43.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="kar43_large_mag.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+
+	<weapon file="kar98k_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="kar98k_s_elite.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="gew98_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="kar43_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+	<weapon file="kar43_s_explosive.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="kar98k_rifle_grenade_he.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+		
+	</weapon>
+	<weapon file="kar98k_rifle_grenade_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1903_rifle_grenade_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+
+			</weapon>
+			<weapon file="smle_rifle_grenade_launcher_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+			</weapon>
+			<weapon file="type38_rifle_launcher_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+			</weapon>
+			<weapon file="kar98k_rifle_grenade_launcher_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+		
+	
+	</weapon>
+
+
+	<weapon file="panzerfaust.weapon">
+		<capacity source="rank" source_value="0.0" value="3" />
+	</weapon>
+	<weapon file="panzerschreck.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+	<weapon file="panzerschreck_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	<weapon file="mp40.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+	</weapon>
+	
+	<weapon file="mp34_o.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="mp34_o_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="mp34_o_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="mp34_o.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="mp34_o_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	
+	<weapon file="beretta_m38.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="mp40_folded.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	<weapon file="mp40_folded_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	<weapon file="m712.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="stg44.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="stg44_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="stg44_n.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="fg42_late.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="fg42_late_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="fg42_late_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="fg42_late.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="fg42_late_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="fg42_late_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		<next_in_chain key="fg42_late_s_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="fg42_late_s_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+		<next_in_chain key="fg42_late_s.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<weapon file="mg26t.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+	<weapon file="mg34_extended_belt_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="mg42_extended_belt_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="mg34_extended_belt.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="mg42_extended_belt.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="m1918_bar_heavy_low.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="mg34_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="mg42_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="mg42_hmg.weapon" />
+	<weapon file="mg34_hmg.weapon" />
+
+	<weapon file="flammenwerfer_41.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+
+
+	<weapon file="mg34_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<!--<capacity source="rank" source_value="0.3" value="2" />-->
+	</weapon>
+	<weapon file="mg42_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.5" value="1" />
+	</weapon>
+
+
+
+	<weapon file="p08.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="p08_officer.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="p08_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="p08_carbine_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+	<weapon file="repair_tank_crane.weapon" /> 
+	<weapon file="repair_tank_crane_dummy.weapon" />       
+    
+	<weapon file="c96_pistol.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	<weapon file="reichsrevolver.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+
+	<!-- British Forces -->
+	<weapon file="smle_no4_mki.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="smle_no4_mki_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="smle_no4_mki_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="smle_no4_mki.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<weapon file="smle_no4_mki2.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="smle_no4_mki2_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="smle_no4_mki2_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="smle_no4_mki2.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<!-- AI rifles don't need bayonet toggle -->
+	<weapon file="smle_no4_mki_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="smle_no4_mki_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+
+	<weapon file="smle_no4_mki_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+
+	<weapon file="enfield_p14_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	<weapon file="boys_at_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="smle_rifle_grenade_he.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="smle_rifle_grenade_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+	<weapon file="piat.weapon">
+		
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0" value="1" />
+	</weapon>
+
+
+	<weapon file="sten_mkii.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+	</weapon>
+	<weapon file="sten_mkii_sd.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	
+	<weapon file="sten_mkv.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="sten_mkv_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="sten_mkv_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="sten_mkv.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="sterling_smg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	
+	<weapon file="lanchester_smg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="lanchester_smg_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="lanchester_smg_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="lanchester_smg.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="lanchester_smg_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+	<weapon file="austen_mki_folded.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+
+	<weapon file="bren.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+
+
+	<weapon file="vickers_minibipod.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+	<weapon file="beardmore_farquhar_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="beardmore_farquhar_50cal_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="vickers_k.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="vickers_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="vickers_hmg.weapon" />
+	<weapon file="vickers_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<!--<capacity source="rank" source_value="0.3" value="2" />-->
+	</weapon>
+
+
+	<weapon file="browning_hp.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="browning_hp_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+	<weapon file="enfield_mkii_revolver.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+	<weapon file="enfield_mkii_revolver_officer.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	<weapon file="de_lisle_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<!-- US Western Front -->
+
+	<weapon file="m1903a4_rifle_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+
+	<weapon file="m18_recoilless_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+
+	</weapon>
+	<weapon file="m18_recoilless_rifle_he.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+
+	</weapon>
+	<weapon file="m1918_bar_heavy.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+
+	<weapon file="m1919_lmg_light.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+
+	<weapon file="m3_greasegun.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+	</weapon>
+	<weapon file="m1928a1_thompson.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="m2_hyde.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+	<weapon file="m3_greasegun_folded.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	<weapon file="m3_greasegun_folded_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+
+	<weapon file="winchester_automatic_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<weapon file="m1a1_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="m1a1_carbine_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+	<weapon file="m2hb_hmg.weapon" />
+	<weapon file="m2hb_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.5" value="1" />
+	</weapon>
+
+	<weapon file="m9a1_bazooka.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0" value="1" />
+	</weapon>
+	<weapon file="m9a1_bazooka_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+
+	<weapon file="m1917_revolver.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	<weapon file="sw_model10.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+	<!-- PACIFIC -->
+
+	<weapon file="m1903_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="m1903_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m1903_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="m1903_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<!-- AI rifles don't need bayonet toggle -->
+	<weapon file="m1903_rifle_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1903_rifle_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+	<weapon file="m1_garand.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="m1_garand_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m1_garand_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="m1_garand.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="m1_garand_large_mag.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m1_garand_large_mag_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m1_garand_large_mag_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m1_garand_large_mag.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="m1941_johnson_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m1941_johnson_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m1941_johnson_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m1941_johnson_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<!-- AI rifles don't need bayonet toggle -->
+	<weapon file="m1_garand_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1_garand_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1_garand_b_ai_veteran.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+
+	<weapon file="m1903_rifle_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="m1_garand_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+	<weapon file="m1941_johnson_rifle_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="m55_reising.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+	</weapon>
+	<weapon file="m1a1_thompson.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+	</weapon>
+	<weapon file="m1_thompson.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="m1928_thompson.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="m1928_thompson_large_drum.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="m55_reising_folded.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+
+	<weapon file="m2_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m2_carbine_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m2_carbine_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="m2_carbine.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="m2_flamethrower.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+
+
+	<weapon file="m1918_bar.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="m1918_bar_rapid_fire.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="m1941_johnson_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+
+	<weapon file="m1919_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="stinger.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="m1919_lmg_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="m1917_hmg_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="m1919_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<!--<capacity source="rank" source_value="0.3" value="2" />-->
+	</weapon>
+
+
+	<weapon file="m1903_at_launcher.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1903_rifle_grenade_he.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+
+	</weapon>
+
+
+	<weapon file="m1_garand_launcher.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+		<next_in_chain key="m1_garand_launcher_at_mode.weapon" share_ammo="1" />
+
+	</weapon>
+	<weapon file="m1_garand_launcher_at_mode.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+		<next_in_chain key="m1_garand_launcher.weapon" share_ammo="1" />
+
+	</weapon>
+
+
+	<weapon file="m1_bazooka.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0" value="1" />
+		
+	</weapon>
+
+
+
+	<weapon file="m12_trench_gun.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="m12_trench_gun_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="m12_trench_gun_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="m12_trench_gun.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="m12_trench_gun_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+	<weapon file="m1911.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="m1911_officer.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+
+	<weapon file="m1_carbine_p.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		
+	</weapon>
+	<weapon file="m1a1_carbine_p.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		
+	</weapon>
+
+
+
+
+
+
+
+	<weapon file="m1_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		
+	</weapon>
+	<weapon file="m1_carbine_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+</weapon>
+	<!-- IJA weapons -->
+
+	<weapon file="type38_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type38_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type38_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type38_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type_i_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type_i_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type_i_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type_i_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type99_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type99_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type99_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<next_in_chain key="type99_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<!-- AI rifles don't need bayonet toggle -->
+	<weapon file="type38_rifle_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="type38_rifle_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	
+	<weapon file="type_i_rifle_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="type_i_rifle_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	
+	<weapon file="type99_rifle_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="type99_rifle_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+	<weapon file="type44_carbine.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type44_carbine_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type44_carbine_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type44_carbine.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<weapon file="type44_carbine2.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type44_carbine2_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type44_carbine2_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type44_carbine2.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="type4_garand.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type4_garand_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type4_garand_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type4_garand.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+	<weapon file="type_ko_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type_ko_rifle_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type_ko_rifle_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type_ko_rifle.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="type44_carbine_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="type44_carbine_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	
+	<weapon file="type99_rifle_elite.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="type99_rifle_elite_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type99_rifle_elite_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="type99_rifle_elite.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="type100_smg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="type100_smg_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type100_smg_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="type100_smg.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="mp34.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="mp34_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="mp34_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="mp34.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type100_44_smg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="type100_44_smg_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type100_44_smg_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.05" value="1" />
+		<next_in_chain key="type100_44_smg.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type_be.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type_be_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type_be_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+		<next_in_chain key="type_be.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	<weapon file="type_be_b_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	
+	<weapon file="type2_model_b_machinepistol.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+	<weapon file="type2_machinepistol.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+
+
+	<weapon file="type100_folding.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="type100_folding_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type100_folding_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+		<next_in_chain key="type100_folding.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+
+
+	<weapon file="type_hei_automatic_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="type96_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type96_lmg_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type96_lmg_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<next_in_chain key="type96_lmg.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type99_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+		<next_in_chain key="type99_lmg_b.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
+	</weapon>
+	<weapon file="type99_lmg_b.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+		<next_in_chain key="type99_lmg.weapon" share_ammo="1" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
+	</weapon>
+	
+	<weapon file="type11_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	<weapon file="type99_lmg_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.6" value="1" />
+	</weapon>
+	<weapon file="type96_lmg_shield_scope.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="type98_lmg_mg15.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="te4_lmg.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+	<weapon file="ho104_hmg_assault.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+	<weapon file="type92_hmg_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+		<!--<capacity source="rank" source_value="0.3" value="2" />-->
+	</weapon>
+
+
+	<weapon file="type97_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.2" value="1" />
+	</weapon>
+	<weapon file="type99_rifle_s.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+	<weapon file="type97_at_rifle.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="1.0" value="1" />
+	</weapon>
+
+
+
+	<weapon file="type93_flamethrower.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+
+
+	<weapon file="type38_rifle_at_launcher.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="type38_rifle_launcher.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+
+	<weapon file="type4_rocket_launcher.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+
+
+	<weapon file="type14_nambu_pistol.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="type14_nambu_pistol_officer.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+	<weapon file="c96.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.3" value="1" />
+	</weapon>
+
+
+	<weapon file="katana.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+
+	<weapon file="type26_revolver.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+	</weapon>
+
+	
+</weapons>

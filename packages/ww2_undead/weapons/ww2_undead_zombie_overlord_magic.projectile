@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" key="ww2_undead_zombie_overlord_magic.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.0" pulldown_in_air="100.0">
+
+	<trigger class="impact"/>
+	<result class="spawn" instance_class="projectile" instance_key="ww2_undead_zombie_overlord_magic_2.projectile" min_amount="6" max_amount="6" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.3 0.3" />
+	
+	<model />
+	<hud_icon filename="hud_dooms_hammer.png" />
+	
+	<rotation class="random" />
+	<throwable
+	curve_height="6.0"
+	near_far_distance="5.0"
+	speed_estimation_near="9.0"
+	speed_estimation_far="17.0"
+	max_speed="50.0"
+	tweak_factor="10.0"
+	/>
+	<!--tweak_factor="3.3" would be the precise value, over tweaked to catch a fleeing player-->
+	
+	<commonness value="1.0" />
+	<inventory encumbrance="3.0" price="0.0" />
+	
+	<capacity value="200" source="rank" source_value="0.0" />
+	
+</projectile>

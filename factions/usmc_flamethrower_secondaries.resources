@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="m1911.weapon" />
+	<weapon key="m1_carbine.weapon" />
+	<weapon key="m55_reising_folded.weapon" />
+	<weapon key="m1917_revolver.weapon" />
+	
+	<carry_item key='vest_flamethrower_operator.carry_item' enabled="1" />  
+	
+	<projectile key="mk3_grenade.projectile" />
+	<!--<projectile key="mkii_grenade.projectile" />
+	<projectile key="satchel.projectile" />-->
+
+</resources>

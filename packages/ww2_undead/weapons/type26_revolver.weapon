@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary_pistol.weapon" key="type26_revolver.weapon">
+   
+<access_tag name="pacific" />
+
+	<specification
+	retrigger_time="0.25"
+	accuracy_factor="0.95"
+	sustained_fire_grow_step="1.25"
+	magazine_size="6"
+	carry_in_two_hands="0"
+	can_shoot_standing="1"
+	suppressed="0"
+	name="Type 26 Revolver"
+	class="4"
+	reload_one_at_a_time="0"
+	projectile_speed="85.0"
+	barrel_offset="-0.1"
+	projectiles_per_shot="1"
+	burst_shots="1"
+	slot="1"
+	/>
+	
+	<weak_hand_hold offset="0.1" />
+
+	<!-- revolvers are less accurate when moving -->
+	<stance state_key="running" accuracy="0.575" />
+	<stance state_key="walking" accuracy="0.6" />
+	<stance state_key="crouch_moving" accuracy="0.6" />
+	
+	<!-- note: figure out a way to clear all previous animations from a base file if possible-->
+	<animation state_key="reload" animation_key="reloading, enfield pistol, 2hand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, enfield pistol, prone" />
+
+	<sound key="fire" fileref="weapon_revolver_type26.wav" pitch_variety="0.05" volume="1.67" />
+    <sound key="cycle_out" fileref="revolver_cycle_out.wav" volume="1" />
+    <sound key="cycle_in" fileref="revolver_cycle_in.wav" volume="1" />
+	
+	<model filename="weapon_type26_revolver.xml" />
+	<hud_icon filename="hud_type26_revolver.png" />
+	
+	<commonness value="0.06"/>
+	<inventory encumbrance="1.0" price="25.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result class="hit"
+		kill_probability="0.7"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8" />
+	</projectile>
+	
+</weapon>

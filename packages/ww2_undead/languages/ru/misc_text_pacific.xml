@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<!-- we won't translate the Japanese ranks for now, keep them as it -->	
+	<text key="Nitohei" />
+	<text key="Ittohei" />
+	<text key="Gocho" />
+	<text key="Gunso" />
+	<text key="Socho" />
+	<text key="Jun-i" />
+	<text key="Rikugun-Shoi" />
+	<text key="Rikugun-Chui" />
+	<text key="Rikugun-Tai-i" />
+	<text key="Rikugun-Shosa" />
+	<text key="Rikugun-Chusa" />
+	<text key="Rikugun-Taisa" />
+	<text key="Rikugun-Shosho" />
+	<text key="Rikugun-Chujo" />
+	<text key="Rikugun-Taisho" />
+	<text key="Gensui-Rikugun-Taisho" />
+	<text key="Daigensui-Rikugun-Taisho" />
+
+<!-- start translating below -->
+    
+	<text key="Requesting Close Air Support" text="Запрашиваю поддержку с воздуха." />
+	<text key="Rockets Advised" text="Ракетный удар." />
+	<text key="Precision Bombing" text="Точечная бомбардировка." />
+	<text key="Copy, target in sight" text="Принято, приближаемся к цели." />
+	<text key="rockets out." text="Ракеты пошли." />
+	<text key="bombs away." text="Бомбы пошли." />
+	<text key="Requesting Fire Support" text="Запрашиваю артиллерийскую поддержку." />
+	<text key="Light Naval Guns, Saturation Bombardment" text="Легкие корабельные орудия, сконцентрированный огонь." />
+	<text key="Heavy Naval Guns" text="Тяжелые корабельные орудия." />
+	<text key="Roger, wait three." text="Принято, готовимся к обстрелу." />
+	<text key="Roger, guns rotating to target." text="Принято, разворачиваем орудия к цели." />
+	<text key="Barrage under way." text="Обстрел начался." />
+	<text key="Shots out." text="Снаряды пошли." />
+	<text key="Reinforcements - US Army Squad" text="Подкрепление - Отряд солдат США." />
+	<text key="Reinforcements - Banzai Charge" text="Подкрепление - Банзай-атака." />
+	<text key="Requesting reinforcements, Army rifle squad" text="Запрашиваю подкрепление, отряд солдат." />
+	<text key="Requesting reinforcements, banzai charge!" text="Запрашиваю подкрепление, банзай-атака!" />
+	<text key="Roger" text="Принято." />
+	<text key="US Army rifles deployed" text="Отряд солдат США прибыл." />
+	<text key="Banzai charge deployed" text="Банзай-атака началась." />
+	<text key="Reinforcements - M3 Stuart Light Tank" text="Подкрепление - Легкий танк М3 Стюарт." />
+	<text key="Reinforcements - Type 95 Ha-Go Light Tank" text="Подкрепление - Легкий танк Тип 95 Ха-Го." />
+	<text key="Reinforcements - LVT-4 Water Buffalo" text="Подкрепление - Бронетранспорт LVT-4" />
+	<text key="Reinforcements - Type 1 Ho-Ha" text="Подкрепление - Бронетранспорт Тип 1 Хо-Ха" />
+	<text key="Requesting reinforcements, M3 Stuart" text="Запрашиваю подкрепление, Легкий танк М3 Стюарт" />
+	<text key="Requesting reinforcements, Type 95 Ha-Go" text="Запрашиваю подкрепление, Легкий танк Тип 95 Ха-Го" />
+	<text key="Requesting reinforcements, LVT-4" text="Запрашиваю подкрепление, Бронетранспорт LVT-4" />
+	<text key="Requesting reinforcements, Type 1 Ho-Ha" text="Запрашиваю подкрепление, Бронетранспорт Тип 1 Хо-Ха" />   
+	<text key="Copy, loud and clear" text="Принято." />
+	<text key="M3 Stuart deployed" text="Легкий танк М3 Стюарт прибыл." />
+	<text key="Type 95 Ha-Go deployed" text="Легкий танк Тип 95 Ха-Го прибыл." />
+	<text key="LVT-4 deployed" text="Бронетранспорт LVT-4 прибыл." />
+	<text key="Type 1 Ho-Ha deployed" text="Бронетранспорт Тип 1 Хо-Ха прибыл."  />  
+	<text key="Requesting Fire Mission" text="Запрашиваю артиллерийскую поддержку." />
+	<text key="Light Mortars" text="Легкие минометы." />
+	<text key="Heavy Rocket-Propelled Mortars" text="Тяжелые реактивные минометы." />
+	<text key="Roger, wait one." text="Принято, один залп." />
+	<text key="Roger, wait two." text="Принято, два залпа." />
+	<text key="Rounds on the way." text="Снаряды пошли." />
+	
+		<!-- 1.70 -->
+	<text key="Reinforcements - Type 4 Ka-Tsu" text="Подкрепление - Тип 4 Ка-Цу"/>  
+	<text key="Requesting reinforcements, Type 4 Ka-Tsu" text="Запрашиваю подкрепление, Тип 4 Ка-Цу"/>  
+	<text key="Type 4 Ka-Tsu deployed" text="Тип 4 Ка-Цу прибыл."/> 
+	<text key="Type 4 Ka-Tsu" text="Тип 4 Ка-Цу"/>  	
+	
+	<text key="5-Inch Gun" text="127 мм Орудие" />
+	<text key="Anti-Aircraft Gun" text="Зенитная пушка" />
+	<text key="Bofors Gun" text="Автопушка Бофорс" />
+	<text key="Type 95 Ha-Go" text="Тип 95 Ха-Го" />
+	<text key="Type 1 Ho-Ha" text="Тип 1 Хо-Ха" />  
+	<text key="Heavy Mortar" text="Тяжелый миномет" />
+	<text key="Willys Jeep" text="Джип Виллис" />
+	<text key="Kurogane" text="Джип Куроган" />
+	<text key="Higgins Boat" text="Десантная лодка Хиггинс" />
+	<text key="Armory Higgins Boat" text="Десантная лодка Хиггинс с арсеналом" />  
+	<text key="Daihatsu" text="Десантная лодка Даихатсу" />
+	<text key="Armory Daihatsu" text="Десантная лодка Даихатсу с арсеналом" />  
+	<text key="LVT-4" text="Бронетранспорт LVT-4" />
+	<text key="M1919A4 HMG" text="Тяжелый пулемет M1919A4" />
+	<text key="M1919A6 LMG" text="Легкий пулемет M1919A6" />
+	<text key="Oerlikon Gun" text="Автопушка Эрликон" />
+	<text key="Pillbox" text="ДОТ" />
+	<text key="Prison Building" text="Тюрьма" />
+	<text key="Prison Hatch" text="Тюремный люк" />
+	<text key="PT Boat" text="Торпедный катер" />
+	<text key="M3 Stuart" text="М3 Стюарт" />
+	<text key="Submarine" text="Подводная лодка" />
+	<text key="Type 92 HMG" text="Тяжелый пулемет Тип 92" />
+	<text key="Type 98 Autocannon" text="Автопушка Тип 98" />
+	
+	<text key="Type 96 AT/AA Gun" text="Зенитная пушка Тип 96" />
+	<text key="air strike bomb" text="Бомба" />
+	<text key="air strike rocket" text="Ракета" />
+	<text key="artillery shell" text="Снаряд" />
+	<text key="Type MO Carbine" text="Карабин Тип МО" />
+	<text key="Coastal Gun shell" text="Снаряд береговой пушки" />
+	<text key="Coastal Gun" text="Береговое орудие" />
+	<text key="Cover deploy" text="Мешки с песком" />
+	<text key="Demolition Charge" text="Заряд взрывчатки" />
+	<text key="flamethrower" text="Огнемет" />
+	<text key="Type 95 Ha-go cannon" text="Тип 95 Ха-Го - пушка" />
+	<text key="Type 95 Ha-Go MG" text="Тип 95 Ха-Го - пулемет" />
+	<text key="Ho-Ha MG" text="Тип 1 Хо-Ха - пулемет" /> 
+	<text key="Heavy Mortar shell" text="Снаряд" />
+	<text key="Higgins Boat MG" text="Десантная лодка Хиггинс - пулемет" />
+	<text key="Type 94 shin gunto" text="Тип 94 Син-гунто" />
+	<text key="LVT-4 .50 HMG" text="LVT-4 - пулемет 12.7 мм" />
+	<text key="LVT-4 .30 HMG" text="LVT-4 - пулемет 7.62 мм" />
+	<text key="M1 Bazooka" text="M1 Базука" />
+	<text key="M1 Bazooka Rocket" text="Ракета" />
+	<text key="M1 Carbine" text="Карабин M1" />
+	<text key="M1 Garand" text="M1 Гаранд" />
+	<text key="M1 Garand Bayonet" text="M1 Гаранд со штыком" />
+	<text key="field-modified rifle grenade" text="Модифицированная граната" />
+	<text key="M1 Garand Field-Modified Launcher" text="M1 Гаранд с гранатометом" />
+	<text key="Scoped M1D Garand" text="M1C Гаранд с оптикой" />
+	<text key="M1A1 Thompson" text="M1A1 Томпсон" />
+	<text key="M2 Carbine" text="Карабин M2" />
+	<text key="M2 Flamethrower" text="Огнемет M2" />
+	<text key="M12 Trench gun" text="Дробовик M12" />
+	<text key="M12 Trench Gun Bayonet" text="Дробовик M12 со штыком" />
+	<text key="M9 Anti-Tank Rifle Grenade" text="Противотанковая граната M9" />
+	<text key="M1903A3" text="M1903A3" />
+	<text key="Scoped M1903A1" text="M1903A1 с оптикой" />
+	<text key="M1911A1" text="M1911A1" />
+	<text key="Officer's Engraved M1911A1" text="Офицерский гравированный пстолет M1911A1" />
+	<text key="M1918A2 BAR" text="M1918A2 BAR" />
+	<text key="M1919A4 HMG" text="Тяжелый пулемет M1919A4" />
+	<text key="M1919A4 HMG deploy" text="Станковый пулемет M1919A4" />
+	<text key="M1928 Thompson" text="M1928 Томпсон" />
+	<text key="M1941 Johnson LMG" text="Ручной пулемет Джонсона M1941" />
+	<text key="M1941 Johnson Rifle" text="Винтовка Джонсона M1941" />
+	<text key="MkII Grenade" text="Граната MkII" />
+	<text key="Morphine" text="Морфин" />
+	<text key="light mortar shell" text="Снаряд" />
+	<text key="15-inch battleship shell" text="Снаряд" />
+	<text key="PT Boat dual .50 HMG" text="Торпедный катер - спаренный пулемет 12.7 мм" />
+	<text key="rocket mortar shell" text="Реактивный снаряд" />
+	<text key="Anti-Tank Satchel Charge" text="Сумка со взрывчаткой" />
+	<text key="M3 Stuart cannon" text="М3 Стюарт - пушка" />
+	<text key="M3 Stuart MG" text="М3 Стюарт - пулемет" />
+	<text key="Type 1 SMG" text="ПП Тип 1" />
+	<text key="Type 4 Rifle" text="Винтовка Тип 4" />
+	<text key="Type 4 rocket" text="Ракета" />
+	<text key="type 4 rocket launcher" text="Гранатомёт Тип 4" />
+	<text key="Type 11 LMG" text="Легкий пулемет Тип 11" />
+	<text key="Type 14 Nambu" text="Намбу Тип 14" />
+	<text key="Officer's Engraved Type 14 Nambu" text="Офицерский гравированный Намбу Тип 14" />
+	<text key="Type 38" text="Тип 38" />
+	<text key="Type 2 Anti-Tank Rifle Grenade" text="Противотанковая граната Тип 2" />
+	<text key="Type 38 Bayonet" text="Тип 38 со штыком" />
+	<text key="rifle grenade" text="Винтовочная граната" />
+	<text key="Type 100 Grenade Discharger" text="Гранатомет Тип 100" />
+	<text key="Type 44 Folding Bayonet" text="Карабин Тип 44 со складным штыком" />
+	<text key="Type 92 HMG" text="Тяжелый пулемет Тип 92" />
+	<text key="Type 92 HMG deploy" text="Станковый пулемет Тип 92" />
+	<text key="Type 93 Flamethrower" text="Тип 93 Огнемет" />
+	<text key="Type 96 LMG" text="Пулемет Тип 96" />
+	<text key="Type 96 LMG Bayonet" text="Пулемет Тип 96 со штыком" />
+	<text key="Type 96 LMG Trench" text="Пулемет Тип 96 с щитом и прицелом" />
+	<text key="Type 96 Trench" text="Пулемет Тип 96" />
+	<text key="Type 97 Anti-Tank Rifle" text="Противотанковое ружьё Тип 97" />
+	<text key="Type 97 Grenade" text="Граната Тип 97" />
+	<text key="Type 97 Sniper Rifle" text="Снайперская винтовка Тип 97" />
+	<text key="Type 98 Autocannon" text="Автопушка Тип 98" />
+	<text key="Type 98 AA deploy" text="Детали автопушки Тип 98" />
+	<text key="Type 99 Magnetic AT" text="Противотанковая магнитная мина Тип 99" />
+	<text key="Type 99 LMG" text="Пулемет Тип 99" />
+	<text key="Type 99 LMG Bayonet" text="Пулемет Тип 99 со штыком" />
+	<text key="Type 99" text="Тип 99" />
+	<text key="Type 99 Bayonet" text="Тип 99 со штыком" />
+	<text key="Type 100/44" text="Тип 100/44" />
+	<text key="Type 100/44 Bayonet" text="Тип 100/44 со штыком" />
+	<text key="Type 100 Folding Stock" text="Тип 100 со складным прикладом" />
+	<text key="Type 100" text="Тип 100" />
+  
+	<text key="Sniper Camouflage" text="Маскировочный костюм" />
+	<text key="Sniper Camouflage, Severely Damaged" text="Маскировочный костюм, серьёзно повреждён"/>
+	<text key="Medal of Honor" text="Медаль за Отвагу" />
+	<text key="Order of the Rising Sun" text="Орден Восхдящего Солнца" />
+	<text key="Photograph" text="Фотография" />
+	<text key="Postcard" text="Открытка" />
+	<text key="Record Player" text="Проигрыватель" />
+	<text key="Service Rum" text="Ром" />
+	<text key="Sake Bottle" text="Сакэ" />
+	<text key="Banzai Tenacity" text="Банзай" />
+	<text key="Veteran Durability" text="Ветеран" /> 
+	
+	<!--v1.64-->
+	<text key="Veteran Durability, Injured" text="Ветеран, ранен"/>	
+	<text key="Sentry Body Armor" text="Часовой"/>
+	<text key="Sentry Body Armor, Lightly Damaged" text="Часовой, слегка повреждён"/>
+	<text key="Sentry Body Armor, Moderately Damaged" text="Часовой, умеренно повреждён"/>
+	<text key="Sentry Body Armor, Heavily Damaged" text="Часовой, тяжело повреждён"/>
+	<text key="Sentry Body Armor, Severely Damaged" text="Часовой, серьёзно повреждён"/>
+	<text key="B29 Turret" text="B29 туррель"/>
+	<text key="Type 4 Ka-Tsu" text="Тип 4 ка-цу"/>
+	<text key="Daihatsu shield" text="Даихатсу щит"/>
+	<text key="B29 Double .50 HMG" text="B29 спаренный пулемёт .50 калибра"/>
+	<text key="B29 20mm" text="B29 20mm"/>
+	<text key="Type 98 LMG" text="Пулемет Тип 98"/>
+	<text key="Te-4 - Mobile" text="Te-4 - мобильный"/>
+	<text key="Ho-104 - Mobile" text="Ho-104 - мобильный"/>
+
+	<!--v1.7-->
+	<text key="M1903A3 Bayonet" text="M1903A3 со штыком"/>	
+	<text key="Type I Carcano" text="Тип I 'Carcano'"/>
+	<text key="Type I Carcano Bayonet" text="Тип I 'Carcano' со штыком"/>
+	<text key="Type Hei Automatic Rifle" text="Автоматическая винтовка Тип Hei"/>
+	<text key="Type 93 HMG" text="Тяжёлый пулемёт Тип 93"/>
+	<text key="M55 Reising" text="M55 'Reising'"/>
+	<text key="Type BE" text="Тип BE"/> 
+	<text key="Type BE Bayonet" text="Тип BE со штыком"/>
+	<text key="Type 2 SMG" text="Тип 2"/>
+	<text key="Type 99 Sniper Rifle" text="Снайперская винтовка Тип 99"/>
+	<text key="Mk3 Concussion Grenade" text="Оглушающая граната Mk3"/>
+	<text key="M55 Reising Folded" text="M55 'Reising' сложенный"/>
+	<text key="T22 Garand" text="T22 Гаранд"/>
+	<text key="M1921 Thompson w/ 100-round Drum" text="M1921 Томпсон с барабаном на 100 птр."/>
+	<text key="Type STE" text="Тип SU"/>
+	<text key="M2 Carbine Bayonet" text="Карабин M2 со штыком"/>
+	<text key="M1917 HMG - Mobile" text="Тяжелый пулемет M1917 - мобильный"/>
+	<text key="ANM2 'Stinger'" text="Пулемет ANM2 'Жало'"/>
+	
+	<!-- appended -->
+	<text key="Veteran Durability, Lightly Injured" text="Ветеран, слегка раненый"/>
+	<text key="Veteran Durability, Severely Injured" text="Ветеран, серьёзно раненный"/>
+	<text key="Banzai Tenacity, Lightly Injured" text="Банзай, слегка раненый"/>
+	<text key="Banzai Tenacity, Severely Injured" text="Банзай, серьёзно раненный"/>
+	<text key="M1 Thompson" text="M1 Томпсон"/>
+	<text key="M1918A2 BAR Rapid Fire" text="M1918A2 BAR - быстрый огонь"/>
+	<text key="M1919A6 LMG - Mobile" text="Пулемет M1919A6 - мобильный"/>
+	<text key="Type STE Bayonet" text="Тип SU со штыком"/>
+	<text key="Type 100 Bayonet" text="Тип 100 со штыком"/>
+	<text key="large wrench" text="Большой гаечный ключ"/>
+	<text key="small wrench" text="Маленький гаечный ключ"/>
+	<text key="Scoped Type 99 LMG" text="Пулемет Тип 99 с прицелом"/>	
+	
+	<!-- 1.87 -->
+	<text key="Reinforcements - Type 97 Chi-Ha Kai" text="Подкрепление - танк Тип 97 Чи-Ха Кай."/>
+	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="Запрашиваю подкрепление, танк Тип 97 Чи-Ха Кай" />
+	<text key="Type 97 Chi-Ha Kai deployed" text="танк Тип 97 Чи-Ха Кай прибыл." />
+
+	<text key="Type 97 Chi-Ha Kai" text="танк Тип 97 Чи-Ха Кай"/>
+	<text key="Fortified Turret" text="укрепленная башня "/>
+
+	<text key="M1 Garand w/ 60mm Launcher" text="M1 с 60 мм гранатомётом - антипехота"/>
+	<text key="M1 Garand w/ 60mm Launcher - M9 AT" text="M1 с 60 мм гранатомётом - Противотанкова"/>
+
+	<!-- 1.91 -->
+	<text key="Type 44 Carbine" text="Карабин Тип 44" />	<!-- accidently untranslated earlier -->
+	<!--<text key="Type 44 Carbine Bayonet" />-->	<!-- handled in Edelweiss translations so all good -->
+	<text key="Scoped M1941 Johnson Rifle" text="Винтовка Джонсона M1941 с оптикой" />
+	<text key="Type Ko" text="Тип KO" />
+	<text key="Type Ko Bayonet" text="Тип KO со штыком" />
+	<text key="Type 4 Rifle Bayonet" text="Винтовка Тип 4 со штыком" />
+	<text key="Type 100 Folding Bayonet" text="Тип 100 со складным прикладом со штыком" />
+
+	<!-- formerly missing -->
+	<text key="Type 2 AT Rifle Grenade" text="Винтовочная граната AT Тип 2"/>
+	<text key="M9 AT Rifle Grenade" text="Винтовочная граната AT M9"/>
+	<text key="Type 99 - Hi-Grade" text="Тип 99 - Превосходный со штыком"/>
+	<text key="Type 99 - Hi-Grade Bayonet" text="Тип 99 - Превосходный со штыком"/>
+	<text key="Type 100 HE Grenade Discharger" text="Винтовочная граната Тип 100"/>
+	<text key="M1928 Thompson w/ 50-round Drum" text="M1928 Томпсон с барабаном на 50 птр."/>
+
+	<!-- 1.98 -->
+	<text key="Type 4 Su-Ki Armory" text="Тип 4 Су-Ки с арсеналом"/>
+	<text key="Reinforcements - Type 4 Su-Ki Armory" text="Подкрепление - Тип 4 Су-Ки с арсеналом"/>
+	<text key="Requesting reinforcements, Type 4 Su-Ki Armory" text="Запрашиваю подкрепление, Тип 4 Су-Ки с арсеналом"/>
+	<text key="Type 4 Su-Ki Armory deployed" text="Тип 4 Су-Ки с арсеналом прибыл."/>
+
+	<text key="DUKW Armory" text="DUKW с арсеналом"/>
+	<text key="Reinforcements - DUKW Armory" text="Подкрепление - DUKW с арсеналом"/>
+	<text key="Requesting reinforcements, DUKW Armory" text="Запрашиваю подкрепление, DUKW с арсеналом"/>
+	<text key="DUKW Armory deployed" text="DUKW с арсеналом прибыл."/>
+	
+</translation>

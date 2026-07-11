@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="austen_mki_folded.weapon" >
+
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.1" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.18" 
+    	sustained_fire_diminish_rate="1.5" 
+	magazine_size="32" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Austen Mk I Folded" 
+	class="0" 
+	projectile_speed="100"
+	slot="1"
+	/>
+
+
+	
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, sten" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, sten, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="weapon_smg_sten_mkii.wav" pitch_variety="0.05" volume="1.15"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	
+	<model filename="weapon_austen_mki_folded.xml" />
+	<hud_icon filename="hud_austen_mki.png" />
+
+	<commonness value="0.04" can_respawn_with="1"/>
+	<inventory encumbrance="3.0" price="20.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- decay end was 0.53 -->
+	<!-- NOTE! kill-decay start is not quite formulaic on this weapon (most folded SMGs are equal to non-folded, -0.01.) -->
+	<!-- Because this gun has Sten Mk V pattern recoil but with Sten Mk II pattern accuracy, it does not suffer the formulaic damage penalty -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.75"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+	
+</weapon>

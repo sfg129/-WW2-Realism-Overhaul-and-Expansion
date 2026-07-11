@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="I nemici al riparo nel Fortino possono essere eliminati velocemente tramite precisi attacchi aerei oppure con cariche da demolizione"/>
+    <text key="Hint" text="Uno zaino troppo pesante riduce la tua precisione con le armi"/> 
+    <text key="Hint" text="Accovacciarti e tuffarti può salvarti dalle esplosioni"/> 
+    <text key="Hint" text="Le uccisioni corpo a corpo forniscono più exp"/> 
+    <text key="Hint" text="Il mirino fornisce una stima accurata della precisione, ma la canna dell'arma utilizzata ha un ulteriore impatto all'aumentare della distanza"/> 
+    <text key="Hint" text="Catturare una base richiede una maggioranza del 66% delle truppe sul territorio"/> 
+    <text key="Hint" text="Sparare da accovacciato oppure al riparo in copertura è il modo migliore per usare le mitragliatrici leggere"/> 
+    <text key="Hint" text="Vendere valigette all'Armeria sbloccherà ulteriori armi"/> 
+    <text key="Hint" text="I fucili sono armi letali e precise, ma a fuoco lento. Presta attenzione nei combattimenti ravvicinati contro nemici meglio equipaggiati"/>
+    <text key="Hint" text="I fucili da cecchino sono eccellenti per eliminare dalla distanza nemici che utilizzano mitragliatori"/> 
+<!--    <text key="Hint" text="I fucili da cecchino hanno una precisione perfetta quando sei inginocchiato, accovacciato o in copertura"/> -->
+    <text key="Hint" text="Gli oggetti rari che provengono dai soldati uccisi possono essere presi e immagazzinati nel Nascondiglio per venderli successivamente"/> 
+<!--    <text key="Hint" text="Le mitragliette non temono confronto nei combattimenti a corto raggio, ma soffrono di precisione, capacità di colpire nemici in movimento e capacità di arreccare danno a lungo raggio"/> -->
+    <text key="Hint" text="Generalmente, più pesante è l'arma equipaggiata e minore sarà la velocità di movimento"/> 
+<!--    <text key="Hint" text="Il lanciafiamme eccelle nel ripulire punti chiave e posizioni ben difese"/>
+    <text key="Hint" text="La granata Type 97 ha un timer di soli 3 secondi, ma ha anche un raggio d'esplosione limitato"/>            
+    <text key="Hint" text="Le baionette possono trasformare un fucile di precisione in una arma letale nel combattimento corpo a corpo"/>         
+    <text key="Hint" text="Il prezzo di un'arma è spesso una buona stima sia della rarità che della sua letalità"/>       
+    <text key="Hint" text="Il binocolo è uno strumento eccellente per i soldati di rango elevato; questo rende possibile sia la chiamata di rinforzi sia l'artiglieria"/>       
+    <text key="Hint" text="La Type STE (MP-34) è una mitraglietta utilizzata sin dall'inizio della guerra, è ben bilanciata e offre un moderato danno e precisione"/>       
+    <text key="Hint" text="Il mitragliatore Type 100 soffre in velocità di fuoco e potenza, ma è spesso equipaggiata con un bipiede per incrementarne la precisione quando sdraiati o in copertura"/>       
+    <text key="Hint" text="Il mitragliatore Type 100/44 è stato introdotto nella guerra solo successivamente, ma offre un rateo di fuoco maggiore del suo modello anteriore"/>       
+    <text key="Hint" text="Il mitragliatore M1A1 Thompson ha una grande potenza e un buon rateo di fuoco, ma ha un rinculo elevato"/>       
+    <text key="Hint" text="Il mitragliatore M1928 Thompson è caratterizzato da un caricatore da 50 proiettili, per offrire maggiore potenza di fuoco, oltre che da una presa verticale e da un compensatore per aumentarne la maneggevolezza"/>       
+    <text key="Hint" text="La pistola M1911 è potente ed affidabile per i combattimenti a corto raggio"/>    
+    <text key="Hint" text="La Type 14 Nambu è relativamente debole, ma può sparare velocemente, efficace dunque come conveniente arma per la difesa personale"/>
+    <text key="Hint" text="La Carabina M1 è abbastanza leggera per essere usata come arma secondaria, ed è inoltre un'arma efficace a medio raggio per i nemici equipaggiati con mitragliatori pesanti oppure armi anticarro"/>
+    <text key="Hint" text="La Carabina Type MO (Mauser C96) è utilizzata dall'esercito IJA, ed è abbastanza leggera per essere trasportata come arma secondaria: è inoltre efficace contro i fucilieri avversari oppure contro i nemici equipaggiati con armi anticarro"/>
+    <text key="Hint" text="Il fucile Type 38 è un fucile a colpo singolo utilizzato durante le prime fasi della guerra. Non è potente come altre armi, ma è molto preciso e ha un basso rinculo"/>
+    <text key="Hint" text="Il fucile Type 99 si è diffuso negli anni successi, rimpiazzando gradualmente il fucile Type 38, e utilizza cartucce più potenti"/>
+    <text key="Hint" text="La Carabina Type 44 è stata introdotta nel 1912, realizzata come una versione più corta della Type 38. Le sue dimensione compatte la rendono adatta nell'utilizzo a corto raggio, e dispone inoltre di una baionetta pieghevole"/>
+    <text key="Hint" text="L'M1903A3 Springfield è un fucile a colpo singolo utilizzato all'inizio della guerra, rimpiazzato successivamente dal M1 Garand. È molto potente e preciso"/>
+    <text key="Hint" text="Il fucile semi-automatico M1 Garand è molto potente e affidabile, e rapidamente è diventato il principale fucile utilizzato dall'USMC, rimpiazzando l'M1903 Springfield"/>   
+    <text key="Hint" text="Il fucile Type 4 è un'arma semi-automatica molto rara, basata sul M1 Garand, che dispone di un caricatore interno da 10 colpi"/>   
+    <text key="Hint" text="Il fucile M1941 Johnson è un'arma semi-automatica molto rara, caratterizzata da un caricatore da 10 colpi e da un'elevata precisione"/>   
+    <text key="Hint" text="La Carabina M2 è un'arma rara e, diversamente dalla Carabina M1, viene utilizzata come arma primaria: è caratterizzata da un caricatore da 30 colpi e da essere un'arma a fuoco automatico"/>   
+    <text key="Hint" text="Il fucile da cecchino M1903A1 è efficace nell'eliminare i nemici a lunga distanza"/>   
+    <text key="Hint" text="Il fucile Garand M1 è realizzato anche in una variante di precisione che offre la capacità di tiro a lunga distanza del M1903A, mantenendo comunque un'alta velocità di fuoco"/>   
+    <text key="Hint" text="Il fucile da cecchino Type 97 è basato sul fucile Type 38. Diversamente dal fucile M1903A, può essere ricaricato più velocemente utilizzando una lastrina"/>   
+    <text key="Hint" text="L'arma anticarro Type 97 è una potente arma semi-automatica con proiettili da 20mm, ma è eccessivamente pesante e poco precisa contro bersagli più piccoli come i soldati"/>   
+    <text key="Hint" text="L'M12 Trench Gun è un'arma estremamente letale a corto raggio e funziona egregiamente per ripulire le trincee, ma difetta in capacità del caricatore. "/>   
+    <text key="Hint" text="Il fucile automatico M1918A2 BAR è un miglioramento della sua precedente versione risalente alla prima Guerra Mondiale, e dispone di un bipiede e un rateo di fuoco modificabile"/>
+    <text key="Hint" text="Il fucile automatico M1918A2 BAR è abbastanza leggero per essere usato per sparare normalmente, ma è meglio utilizzarlo con il bipiede sparando da accovacciati oppure dietro copertura"/>   
+    <text key="Hint" text="La mitragliatrice leggera M1919A6 è una versione migliorata dei precedenti modelli, inizialmente sviluppata in risposta alle nuove mitragliatrici tedesche"/>   
+    <text key="Hint" text="La mitragliatrice leggera M1919A6 è capace di offrire un imponente rateo di fuoco, ma può essere usato solo con il bipiede - accovacciato oppure in copertura"/>   
+    <text key="Hint" text="La Stinger è una mitragliatrice utilizzata nell'aviazione, modificata nella cassa e nel bipiede - con un rateo di fuoco estremamente elevato"/>
+    <text key="Hint" text="La mitragliatrice leggera Type 11 è una datata, eppure accurata mitragliatrice di supporto. Il suo maggior inconveniente è l'elevato tempo di ricarica"/>   
+    <text key="Hint" text="La mitragliatrice leggera Type 96 è una mitragliatrice di supporto base, con una grande maneggevolezza e precisione, seppur non sia potente come le altre mitragliatrici"/>   
+    <text key="Hint" text="La mitragliatrice leggera Type 99 è la mitragliatrice più moderna in dotazione all'IJA. Ha un rateo di fuoco maggiore dei modelli precedenti e utilizza cartucce più efficienti"/>   
+    <text key="Hint" text="La mitragliatrice leggera M1941 Johnson funziona in maniera simile al BAR come arma di supporto, ma ha un rateo di fuoco superiore"/>   
+    <text key="Hint" text="Il Lanciafiamme M2 è il lanciafiamme standard dell'USMC, equipaggiato con un regolatore per una migliore maneggevolezza"/>   
+    <text key="Hint" text="Il Lanciafiamme Type 93 è una versione che prende ispirazione dal modello europeo, e viene utilizzata dall'IJA"/>   
+    <text key="Hint" text="Il Lanciagranate Type 100 è un fucile Type 38 standard equipaggiato con un lanciagranate"/>   
+    <text key="Hint" text="Il Bazooka M1 è stato il primo lanciarazzi mai realizzato, e spara proiettili da 60mm capaci di distruggere veicoli leggeri e fortificazioni"/>   
+    <text key="Hint" text="Il Lanciarazzi Type 4 è stato sviluppato e prodotto durante la fine della Seconda Guerra Mondiale, ed è stato concepito per difendere il suolo giapponese. Funziona in maniera simile al Bazooka M1"/>   
+    <text key="Hint" text="Il Lanciarazzi Anticarro M9 può essere montato sul fucile M1903, ed è utile contro i veicoli leggeri"/>   
+    <text key="Hint" text="L'imbarcazione PT è eccellente nel fornire fuoco di supporto contro fortificazioni nemiche grazie al suo ampio assortimento di armi di supporto"/>   
+    <text key="Hint" text="La Type 100 ha una cassa pieghevole, ed è un'arma rara realizzata per i paracadutisti. È abbastanza compatta per essere utilizzata come arma secondaria"/>
+    <text key="Hint" text="La Type 1 è una mitraglietta estremamente rara, sviluppata prima dell'inizio della guerra. Soprannominata 'Bullpop' dai soldati americani"/>       
+    <text key="Hint" text="La Type 1 possiede un caricatore da 50 colpi ed ha un alto rateo di fuoco, rendendola un'efficace arma nel combattimento a corto raggio"/>   -->
+    <text key="Hint" text="Le imbarcazioni da sbarco fungono da spawn point, sempre che i nemici non siano nelle vicinanze"/>   
+    <text key="Hint" text="I nemici avranno spesso delle postazioni anti aeree - distruggile per avere accesso al supporto aereo!"/>
+    <text key="Hint" text="I nemici avranno spesso delle difese navali - distruggile per avere accesso all'artiglieria navale!"/>
+    <text key="Hint" text="L'armeria è cambiata da Running With Rifles - ora assomigliano a degli accampamenti Quonset"/>
+    <text key="Hint" text="Presta attenzione ai Veterani nemici - sono più resistenti ed equipaggiati con armi migliori"/>
+    <text key="Hint" text="Quando uno sbarco sulla spiaggia diventa difficile, cerca il supporto navale - bombarda le difese sulla spiaggia!"/>
+    <text key="Hint" text="Ci sono Armerie e Nascondigli sia sulle Portaerei che sulle Navi d'assalto, assicurati di conoscere le loro posizioni!"/>
+    <text key="Hint" text="I nemici Banzai sono feroci truppe d'assalto che portano avanti la loro offensiva ad ogni costo. Sono difficili da abbattere, ma non prendono mai copertura"/>
+    <text key="Hint" text="I nemici Banzai sono guidati da un Ufficiale, che eroicamente li guida all'offensiva equipaggiato unicamente con una Katana"/>
+    <text key="Hint" text="I nemici equipaggiati con lanciafiamme sono molto resistenti alle armi tradizionali, ma vulnerabili alle granate, esplosivi oppure gli attacchi corpo a corpo - questo include anche l'arma anticarro Type 97"/>
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Mentre la maggior parte dei lanciarazzi hanno più o meno le stesse prestazioni, alcuni rinunciano alla velocità in cambio di una testata più grande con danni extra e raggio di esplosione più ampio."/>   
+    <text key="Hint" text="Puoi riparare i veicoli equipaggiandoti di una chiave inglese, stando in piedi vicino al veicolo e mantenendo premuto il tasto 'attacco' fino a quando non hai concluso.%EOLE puoi trasportare più chiavi inglesi!"/>   
+	<text key="Hint" text="Rubare carriarmati medi e pesanti non è possibile nei DLC della seconda guerra mondiale."/>   
+	<text key="Hint" text="Le baionette aumentano il raggio d'azione nel combattimento corpo a corpo, ma a causa del peso extra sulla parte anteriore dell'arma ne riducono la precisione sul lungo raggio."/>
+    <text key="Hint" text="Carriarmati, semicingolati e alcuni veicoli più leggeri possono distruggere la maggior parte delle recinzioni presenti nelle mappe dei DLC della seconda guerra mondiale."/>   
+    <text key="Hint" text="Il prezzo stimato di un'arma è spesso un buon modo per valutare sia la sua rarità che l'efficacia in combattimento."/>       
+    <text key="Hint" text="Nelle missioni in cui la tua fazione sta conducendo una massiccia operazione aerea, una volta morto puoi aprire la mappa e spawnare dietro le linee nemiche."/>   
+    <text key="Hint" text="I fucili che sparano granate anti-carro hanno munizioni infinite ma producono solo danni minimi.%EOLPossono essere usate come soluzione anti-carro a lungo termine, ma fanno poco quando si è in prima linea."/>   
+    <text key="Hint" text="Alcune granate a mano anti-carro esplodono all'impatto, mentre altre si attaccano all'obiettivo ed esplodono dopo alcuni secondi."/>   
+    <text key="Hint" text="I disturbatori radio, le artiglierie costiere e le artiglierie antiaeree bloccano alcune chiamate radio.%EOLDistruggeteli per ottenere una ricompensa e per poter chiamare fuoco di supporto!"/>   
+    <text key="Hint" text="Alcune missioni possono impedire le richieste di supporto aereo o di paracadutisti, come ad esempio a Bastogne a causa della neve."/> 
+    <text key="Hint" text="Alcune risorse nemiche come le torri dell'acqua o i sottomarini attraccati offrono importanti ricompense di XP e RP per la loro distruzione."/>   
+    <text key="Hint" text="I cannoni anticarro, anche se si incontrano solo in alcune missioni, fanno proprio il loro dovere - e lo fanno molto bene. Fai attenzione!"/>   
+    <text key="Hint" text="I fucili da cecchino aumentano la visuale da fermo, ma si riprendono dal rinculo più lentamente."/> 
+    <text key="Hint" text="Le carabine offrono discrete prestazioni a lungo raggio per essere un'arma secondaria,%EOLma spesso non producono molto danno a corto raggio al contrario delle pistole."/>
+    <text key="Hint" text="Le mitragliatrici di medie dimensioni di solito offrono grande potenza di fuoco a lungo raggio,%EOLma poiché possono essere utilizzate solo in posizione prona o col supporto di una copertura, sono più adatte per la difesa."/>
+    <text key="Hint" text="Le armi con due puntini nella parte inferiore della loro icona offrono una modalità alternativa (vedi i controlli).%EOLPer molte armi consiste nell'aggiunta della baionetta."/>
+    <text key="Hint" text="Le armi automatiche sono impareggiabili nei combattimenti ravvicinati e nell'utilizzo in movimento, ma soffrono a lunga distanza."/> 
+    <text key="Hint" text="I lanciafiamme eccellono nello sgombrare i punti di forza e le postazioni ben difese, comprese le casematte,%EOLe possono anche danneggiare la maggior parte dei veicoli."/>
+    <text key="Hint" text="I 'giubbotti' Banzai e d'Assalto garantiscono una salute aggiuntiva e un grande bonus alla velocità di movimento,%EOLma a differenza del 'giubbotto' Veterano, non si può essere feriti e curati."/>   
+    <text key="Hint" text="Il 'giubbotto' da Cecchino ti rende più difficile da individuare e leggermente più difficile da colpire.%EOLOvviamente questi bonus sono particolarmente utili quando si usa un fucile da cecchino."/>   
+    <text key="Hint" text="Il 'giubbotto' da Sentinella è un pesante giubbotto antiproiettile. Offre una buona protezione e permette di essere feriti invece di morire,%EOLma compromette la velocità di movimento ed è decisamente costoso."/>   
+    <text key="Hint" text="Quando muori puoi sempre aprire la mappa per scegliere il punto in cui spawnare."/>   
+
+</intro>

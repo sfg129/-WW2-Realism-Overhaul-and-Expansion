@@ -1,0 +1,4 @@
+<vehicle file="at_gun_pak40_base.vehicle" key="at_gun_pak40.vehicle" respawn_time="180">
+	<turret offset="0 0.0 0.0" weapon_key="at_gun_pak40.weapon" weapon_offset="0.0 1.18 0.0" weapon_recoil="0.3"  max_rotation_step="0.00002" rotation="0" />
+			<turret offset="0 0.0 0.0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
+</vehicle>

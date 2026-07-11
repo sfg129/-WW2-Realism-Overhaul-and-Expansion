@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call
+	key="airstrike2.call"
+	notify_metagame="1"
+	initiation_comment1="Requesting Close Air Support"
+	initiation_comment2="strafing run advised"
+	acknowledge_comment="Copy, target in sight"
+	launch_comment=""
+	show_target_marker="0" >
+	
+	<round 
+	launch_time="3.10"
+	spawn_time="5.0" >
+	<sound class="launch" fileref="airstrike_flyby_strafing_run.wav"/>
+	</round>
+
+	<hud_icon filename="hud_airstrike2.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.1" />
+	<inventory encumbrance="0.0" price="200" />
+
+</call>

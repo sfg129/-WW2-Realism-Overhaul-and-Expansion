@@ -1,0 +1,156 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0_allies.character">
+    <sound key="death" fileref="usf_death_01.wav" volume="0.85" pitch_variety="0.05"/>
+	<sound key="death" fileref="usf_death_02.wav" volume="1.05"/>
+	<sound key="death" fileref="usf_death_03.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_04.wav" volume="0.8"/>
+    <sound key="death" fileref="usf_death_07.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_08.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_09.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_11.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_12.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_13.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_14.wav" volume="1.05"/>
+    <sound key="death" fileref="usf_death_16.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_18.wav" volume="0.8"/>
+	<!--<sound key="death" fileref="usf_death_19.wav" volume="0.75" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="usf_death_22.wav" volume="0.85"/>
+	<sound key="death" fileref="usf_death_23.wav" volume="1.05"/>
+	<sound key="death" fileref="usf_death_26.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_29.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_30.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_31.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_32.wav" volume="0.75" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_33.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_34.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_35.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_36.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_37.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_38.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_39.wav" volume="1.35"/>
+	<sound key="death" fileref="usf_death_40.wav" volume="1.35"/>
+	<sound key="death" fileref="usf_death_41.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_42.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_43.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_44.wav" volume="1.2"/>
+	<sound key="death" fileref="usf_death_45.wav" volume="1.2"/>
+	<sound key="death" fileref="usf_death_46.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_47.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_48.wav" volume="1.0"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15"/>
+
+   <!-- character specific animation override table -->
+	<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+	
+<!-- #EDELWEISS_TRANSLATION -->
+      
+   <!-- commander comments -->
+	<comment key="we captured a base" text="%base_name 을 점거했다!"/>
+	<comment key="enemy captured a base" text="독일군이 %base_name 거점을 점령했다"/>
+	<comment key="our base is under attack" text="독일군이 %base_name 거점을 공격하고 있다는 보고가 들어왔다."/>
+	<comment key="fighting near a base" text="%base_name 인근에서 접촉 보고"/>
+	
+	   <!-- adventure mode -->
+	<comment key="highway intro, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="highway intro, part 2" text="69번 고속도로에 온 제군들을 환영한다."/>
+	<comment key="highway intro, part 3" text="제군들이 이곳에 온 이유는 네덜란드를 해방할 야심 찬 계획인 마켓 가든 작전을 수행하기 위해서다."/>
+	<comment key="highway intro, part 4" text="우리 공수부대가 아른헴의 주요 시가지를 확보하는 동안 이 도로를 따라 전진하여 그들을 지원하는 것이 우리의 임무다."/>
+	<comment key="highway intro, part 5" text="행운을 비네!"/>
+
+	<comment key="arnhem intro, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="arnhem intro, part 2" text="아른헴을 확보했으나 정찰대에 의하면 우린 이제 단절되어 포위된 상태다."/>
+	<comment key="arnhem intro, part 3" text="독일군이 인근의 기갑 부대를 집결시켜 도시를 탈환하고자 준비 중이다."/>
+	<comment key="arnhem intro, part 4" text="적군은 이미 시내에 교두보를 마련했고, 다리를 넘어 남진을 준비 중이다."/>
+	<comment key="arnhem intro, part 5" text="적들은 전력을 다해서 우리를 공격 할 것이다. 지도를 확인하고 전선으로 움직여라."/>
+	<comment key="arnhem intro, part 6" text="행운과 작전 성공을 빈다, 제군들! 위치로 이동할 시간이 30초 정도 있을 것이다!"/>
+	<comment key="arnhem intro, part 7" text="적이 우릴 찾고 있다, 들키기까지 얼마 남지 않았다!"/>
+
+	<comment key="arnhem stage attacks increase 1" text="적들이 기갑 지원을 보내고 있다!"/>
+	<comment key="arnhem stage attacks increase 2" text="적의 공격이 진행 중이다! 적 주공격 지점으로 움직여라!"/>
+	<comment key="arnhem stage attacks increase 3" text="우리 위치로 적측의 기갑 부대가 움직이는 것을 포착했다! 해당 위치로 가서 멈춰라!"/>
+	<comment key="arnhem stage counterattack 1" text="적 힘이 빠지고 있다, 재집결하여 공격을 개시하라!"/>
+	<comment key="arnhem stage counterattack 2" text="적들의 공격이 약해지고 있다!"/>
+	<comment key="arnhem stage counterattack 3" text="우리 방어지점을 다시 확보해라"/>
+	<comment key="arnhem test info 1" text="전세가 바뀌었다. 아군이 증원되었다"/>
+	<comment key="arnhem test info 2" text="전세가 바뀌었다. 양 측이 비등하다"/>
+	<comment key="arnhem test info 3" text="독일군이 공세점을 바꾸고 있다"/>
+
+	<comment key="bastogne intro, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="bastogne intro, part 2" text="독일군이 아르덴 숲을 통해 대규모 겨울 공세를 시작했다."/>
+	<comment key="bastogne intro, part 3" text="적들이 대규모 전선을 넘어 우릴 후방까지 밀었으며, 바스토뉴는 적들이 필요로 하는 핵심적인 교차로이다."/>
+	<comment key="bastogne intro, part 4" text="전선을 유지하고, 무슨 일이 있어도 바스토뉴를 사수하라!"/>
+	<comment key="bastogne intro, part 5" text="적들은 전력을 다해서 우릴 공격할 것이다. 지도를 확인하고 전선으로 이동하라."/>
+	<comment key="bastogne intro, part 6" text="행운과 작전 성공을 빈다, 제군들! 위치로 이동할 시간이 30초 정도 있을 것이다!"/>
+	<comment key="bastogne intro, part 7" text="적이 우리를 찾고 있다, 곧 있으면 들킨다! 적들이 서쪽 측면으로 오는 것으로 보인다!"/>
+
+	<comment key="bastogne stage attacks increase 1" text="적들이 기갑 지원을 보내고 있다! 동쪽 측면을 주의하라!"/>
+	<comment key="bastogne stage attacks increase 2" text="적 공세가 진행중이다! 적 주 공세점으로 이동하라!"/>
+	<comment key="bastogne stage attacks increase 3" text="우리 위치로 기갑 차량 증원이 포착되었다! 이동하여 저지하라!"/>
+	<comment key="bastogne stage counterattack 1" text="적들의 힘이 빠지고 있다, 재집결하여 공격을 개시하라!"/>
+	<comment key="bastogne stage counterattack 2" text="적들의 공격이 약해지고 있다!"/>
+	<comment key="bastogne stage counterattack 3" text="푸와에서 북쪽으로 진격하기 전에 방어선를 모두 재확보하라!"/>
+	<comment key="bastogne test info 1" text="전세가 바뀌었다. 아군이 증원되었다"/>
+	<comment key="bastogne test info 2" text="전세가 바뀌었다. 양 측이 비등하다"/>
+	
+	<comment key="map start with 1 base, part 3" text="제군들은 중요한 작전에 참가하기 위해 이곳에 왔다."/>
+	
+	<comment key="map start with paradrop, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="map start with paradrop, part 2" text="우리는 %map_name에 전투 강하를 수행할 것이다"/>
+	<comment key="map start with paradrop, part 3" text="전장에 투입될 위치를 선택할 수 있다"/>
+	<comment key="map start with paradrop, part 4" text="모든 거점이 적 거점이므로, 거점 하나를 확보하기 전까지 제대로 긴장하고 대비하라!"/>
+
+	<comment key="map start with 1 base, capture" text="공세를 시작할 준비가 되었다, 목표는 지역을 완전히 점령하는 것이다"/>
+	
+	<comment key="hill 262, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="hill 262, part 2" text="독일군이 이 구역을 통해 팔레즈 포켓에서 탈출을 시도하고 있다."/>
+	<comment key="hill 262, part 3" text="우린 이곳 몽 오르멜에서 심히 공격받은 폴란드군과 합류하게 됐다"/>
+	<comment key="hill 262, part 4" text="그러나 임무는 끝나지 않았다. 262고지를 점령하고 방어하라"/>
+
+	<comment key="map advance, held by enemy" text="%map_name 가 우리의 다음 전략 목표이다. 독일군이 이 구역에서 활동 중이다."/>
+	<comment key="map advance, new map" text="장비를 챙겨 움직일 준비를 하라!"/>
+	
+	<comment key="varsity, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="varsity, part 2" text="라인 강을 건너 독일을 공격하기 위해 바시티 작전을 개시했다."/>
+	<comment key="varsity, part 3" text="전투 강하를 준비하라, 다만 주의하라:"/>
+	<comment key="varsity, part 5" text="적군은 북동쪽 오래된 성에 강력한 거점을 구축했다."/>
+	<comment key="varsity, part 6" text="우리 정찰기가 해당 위치에 대한 정보를 얻는 데 실패했고 적의 전력이 숨어 있을 수도 있다."/>
+	<comment key="varsity, part 7" text="다른 구역을 확보하기 전까지 해당 구역을 공격할 수 없을 것이다."/>
+	<comment key="varsity, part 8" text="거친 전투에 대비하라! 공수부대원들의 행운과 작전 성공을 비네."/>
+	<comment key="varsity, boss, part 1" text="독일군의 저항이 무너지고 있다, 오래된 성에 있는 방어 지점들을 공격할 시간이다."/>
+	<comment key="varsity, boss, part 2" text="저 성벽 뒤에서 뭔 저항을 하던 파괴하라!"/>
+		
+  <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=usf_para_no_parachuting.call" text="착지한 공수부대원들이 %base_name에 집결 중이다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_para_no_parachuting.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle.call" text="50구경 지프차를 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle1.call" text="무반동포 지프차를 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle1.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 반궤도차량을 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10 GMC 을 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3 셔먼 을 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW Armory deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+	
+</character>

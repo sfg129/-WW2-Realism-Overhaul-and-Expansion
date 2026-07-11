@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduction to WW2 Undead" />
+		<text value="¡Bienvenido al modo No Muerto de la SGM! En este modo ganarás asegurando el Castillo, ubicado en el mapa del área Sin Recon. La Puerta del Castillo está cerrada, y sólo puede ser abierta al interactuar con pentagramas ocultos por todo el mapa, ubicados dentro de las bases. También, cuando mueras puedes seleccionar un área de aparición de paracaídas." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Vehículos enemigos"/>
+		<text value="En EDELWEISS y PACIFIC lgunos de los VEHÍCULOS ENEMIGOS más pesados no se pueden robar. Esto se ha hecho por motivos de equilibrio y jugabilidad. ¡Otros más ligeros sí se pueden robarse!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Bayonetas"/>
+		<text value="Las BAYONETAS se pueden alternar en EDELWEISS y PACIFIC. Las armas con dos puntos bajo su icono pueden hacerlo. Pueden ser alternadas con %control_next_weapon_in_chain. Las bayonetas amplían bastante tu alcance en melé a costa de perder algo de precisión."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Destrucción de arbustos y vallas"/>
+		<text value="En EDELWEISS, la mayoría de vallas pueden ser destruídas por EXPLOSIVOS o atropelladas por la mayoría de VEHÍCULOS. Además, los arbustos se pueden destruir con CARGAS DE DEMOLICIÓN así como aplastados por vehículos especiales como el Sherman RHINO."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Jefes"/>
+		<text value="Los TABQUES JEFE enemigos deben ser eliminados por cualquier medio necesario para asegurar la VICTORIA en algunos mapas. ¡Tienen salud y potencia de fuego adicional para hacer de tu tarea un desafío!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Búnkers y Fortines"/>
+		<text value="Los FORTINES pueden encontrarse en PACIFIC y son posiciones de ametralladora muy fortificadas. No son muy vulnerables a granadas normales, pero reciben mucho daño de EXPLOSIVOS PESADOS y LANZALLAMAS."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Inhibidores de Radio, Cañones Costeros, Armas AA"/>
+		<text value="Los INHIBIDORES DE RADIO enemigos anularán tu capacidad de usar cualquier solicitud de radio en un área alrededor de ellos. Son vulnerables a CARGAS DE DEMOLICIÓN si es que consigues acercarte lo suficiente. Los CAÑONES COSTEROS y ARMAS AA anulan algunas solicitudes específicas en todo el mapa, y destruyéndolos conseguirás una poderosa ARTILLERÍA NAVAL y POTENCIA AÉREA respectivamente."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Convoy de Bergertiger" />
+		<text value= "Se puede ordernar al Bergetiger que se dentenga durante un corto periodo de tiempo presionando %control_shoot mientras se le apunta. Arreglarlo con una llave inglesa también hará que se detenga.%PS Esto se puede emplear tácticamente para detener el convoy, y reagrupar tus fuerzas." />
+		<image filename="journal_convoy.png" />
+	</entry>
+
+</journal>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="0" clear_grenades="1" clear_calls="0" clear_equipment="1" clear_carry_items="1">	
+
+	<weapon key="ww2_undead_zombie_overlord_sword.weapon" />
+
+	<carry_item key='ww2_undead_zombie_overlord.carry_item' enabled="1" />
+
+	<!--<projectile key="ww2_undead_ground_spawn_zombie_dark_knight_overlord.projectile" />-->
+	<projectile key="ww2_undead_zombie_overlord_magic.projectile" />
+  
+</resources>

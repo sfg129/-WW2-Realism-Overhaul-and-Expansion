@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="Undead Army" color="0.95 0.3 0.3" firstnames_file="undead_names.txt" lastnames_file="undead_names.txt" chat_icon_filename="chat_icon_soldier_wh.png" chat_icon_commander_filename="chat_icon_commander_german.png" campaign_completion_icon_filename="campaign_win_axis.png" radio_queue_size="6">
+	<!-- ============= -->
+	<!-- PLAYER GROUP -->
+	<!-- ============= -->
+	<soldier name="default" spawn_score="0.0">
+		<character filename="wh.character">
+			<parameter class="default_squad_config_index" value="0" />
+		</character>
+		<ai filename="default.ai" />
+
+		<models>
+		<model filename="ww2_undead_zombie_shambler_wh_tunic_stahlhelm.xml" />
+		</models>
+		
+		<resources file="ww2_undead_common.resources" />
+		<resources file="ww2_undead_crate_common_weapons.resources" />
+		<resources file="ww2_undead_zombie_default.resources" />
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="100.0" max="140.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+		
+	</soldier>
+
+	<!-- ============= -->
+	<!-- REGULAR ZOMBIE GROUP SIDE-BASE ATTACKER -->
+	<!-- ============= -->
+	<soldier name="shambler_lonewolf_sidebase" spawn_score="0.135" squad_size_xp_cap="2.0" squad_member_xp_cost="0.025">
+		<character filename="ww2_undead_zombie.character" />
+		<ai filename="ww2_undead_side_base_attacker_zombie_shambler.ai" />
+
+		<models file="ww2_undead_zombie.models" />
+	
+		<resources file="ww2_undead_common.resources" />
+		<resources file="ww2_undead_zombie_default.resources" />
+		<resources file="ww2_undead_zombie.resources" />
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.2" />
+			<attribute weight="0.05" min="0.5" max="0.5" />
+		</attribute_config>
+		
+	</soldier>
+
+	<!-- ============= -->
+	<!-- REGULAR ZOMBIE GROUP DEFENDER -->
+	<!-- ============= -->
+	<soldier name="shambler_default" spawn_score="1.0" squad_size_xp_cap="2.0" squad_member_xp_cost="0.025">
+		<character filename="ww2_undead_zombie.character" />
+		<ai filename="ww2_undead_zombie_shambler.ai" />
+		
+		<models file="ww2_undead_zombie.models" />
+		
+		<resources file="ww2_undead_common.resources" />
+		<resources file="ww2_undead_zombie_default.resources" />
+		<resources file="ww2_undead_zombie.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.05" max="0.2" />
+			<attribute weight="0.1" min="0.4" max="0.5" />
+		</attribute_config>
+	</soldier>
+
+	<!-- ============= -->
+	<!-- ZOMBIE BRUTE BASED ON INDIANA JONES GERMAN MECHANIC GUY -->
+	<!-- ============= -->
+	<soldier name="brute" spawn_score="0.08" squad_size_xp_cap="2.0" squad_member_xp_cost="0.025">
+		<character filename="ww2_undead_zombie.character" />
+		<ai filename="ww2_undead_zombie_shambler.ai" />
+		
+		<models file="ww2_undead_brute.models" />
+
+		<resources file="ww2_undead_common.resources" />
+		<resources file="ww2_undead_zombie_default.resources" />
+		<resources file="ww2_undead_zombie_brute.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.1" max="0.5" />
+			<attribute weight="0.06" min="0.5" max="0.7" />
+		</attribute_config>
+	</soldier>
+
+
+	<!-- ============== -->
+	<!-- ZOMBIE DOG -->
+	<!-- ============== -->
+	<soldier name="zombie_dog" spawn_score="0.15" squad_size_xp_cap="0.0" firstnames_file="undead_names.txt" lastnames_file="undead_names.txt">
+		<character filename="ww2_undead_zombie_dog.character" />
+		<ai filename="ww2_undead_zombie_dog.ai" />
+
+		<models>
+			<model filename="ww2_undead_dog_zombie_doberman_1.xml" />
+			<model filename="ww2_undead_dog_zombie_doberman_2.xml" />
+		</models>
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key='ww2_undead_dog.weapon' />
+			<!--<weapon key='ww2_undead_dog_heal.weapon' />-->
+			<carry_item key='ww2_undead_zombie_dog.carry_item' />
+		</resources>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<!-- throwables -->
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.01" max="0.05" />
+		</attribute_config>
+	</soldier>	
+
+	<!-- ============== -->
+	<!-- ZOMBIE DOG HOWLER -->
+	<!-- ============== -->
+	<soldier name="zombie_dog_howler" spawn_score="0.05" copy_from="zombie_dog" squad_size_xp_cap="1.0" squad_member_xp_cost="0.025">
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1" clear_carry_items="1">
+			<weapon key='ww2_undead_dog.weapon' />
+			<!--<weapon key='ww2_undead_dog_heal.weapon' />-->
+			<!--<weapon key='ww2_undead_dog_howl_spawner.weapon' />-->
+			<projectile key="ww2_undead_ground_spawn_zombie_dog.projectile" />
+			<carry_item key='ww2_undead_zombie_dog_howler.carry_item' />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.15" max="0.3" />
+		</attribute_config>
+	</soldier>	
+
+	<!-- ============== -->
+	<!-- ZOMBIE BEAR -->
+	<!-- the bear has been cut for the time being. may return at some point, so all files will remain in -->
+	<!-- animations and model are essentially the main hold up. they are both placeholder.... -->
+	<!-- ============== -->
+	<soldier name="zombie_bear" spawn_score="0.0" squad_size_xp_cap="0.0" firstnames_file="undead_names.txt" lastnames_file="undead_names.txt">
+		<character filename="ww2_undead_zombie_bear.character" />
+		<ai filename="ww2_undead_zombie_bear.ai" />
+
+		<models>
+			<model filename="ww2_undead_dog_zombie_doberman_1.xml" />
+		</models>
+
+		<resources file="ww2_undead_zombie_bear.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="1.0" />
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<!-- throwables -->
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+	</soldier>	
+
+	<!-- ============== -->
+	<!-- ZOMBIE RESURRECTOR -->
+	<!-- ============== -->
+	<soldier name="zombie_resurrector" spawn_score="0.04" squad_size_xp_cap="2.0" squad_member_xp_cost="0.025" firstnames_file="undead_names.txt" lastnames_file="undead_names.txt">
+		<character filename="ww2_undead_zombie.character" />
+		<ai filename="ww2_undead_zombie_resurrector.ai" />
+
+		<models file="ww2_undead_resurrector.models" />
+
+		<resources file="ww2_undead_zombie_resurrector.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="1.0" />
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<!-- throwables -->
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.0" />
+		</attribute_config>
+	</soldier>	
+
+	<!-- ============== -->
+	<!-- ZOMBIE SPITTER -->
+	<!-- ============== -->
+	<soldier name="zombie_spitter" spawn_score="0.08" squad_size_xp_cap="2.0" squad_member_xp_cost="0.025" firstnames_file="undead_names.txt" lastnames_file="undead_names.txt">
+		<character filename="ww2_undead_zombie.character" />
+		<ai filename="ww2_undead_zombie_spitter.ai" />
+
+		<models file="ww2_undead_spitter.models" />
+
+		<resources file="ww2_undead_zombie_spitter.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="0" probability="1.0" />
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<!-- throwables -->
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.0" />
+		</attribute_config>
+	</soldier>
+
+	<!-- ============= -->
+	<!-- ZOMBIE OVERLORD -->
+	<!-- ============= -->
+	<soldier name="zombie_final_boss_1" spawn_score="0.0" squad_size_xp_cap="0.6" squad_member_xp_cost="0.025">
+		<character filename="ww2_undead_zombie_overlord.character" />
+		<ai filename="ww2_undead_zombie_overlord.ai" />
+		
+		<models file="ww2_undead_zombie_overlord.models" />
+		
+		<resources file="ww2_undead_zombie_overlord.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.0" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+			<!-- throwables -->
+			<item_class_existence class="projectile" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="10000.0" max="11000.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="10.0" max="10.0" />
+		</attribute_config>
+	</soldier>
+
+	<!-- ================== -->
+	<!-- static crate, medium rare weapons -->
+	<!-- ================== -->
+	<soldier name="crate_list_medium_rare_weapons" spawn_score="0.0">
+		<resources file="ww2_undead_crate_medium_rare_weapons.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+	</soldier>     
+
+	<!-- ================== -->
+	<!-- static crate, ultra rare weapons -->
+	<!-- ================== -->
+	<soldier name="crate_list_ultra_rare_weapons" spawn_score="0.0">
+		<resources file="ww2_undead_crate_ultra_rare_weapons.resources" />
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+	</soldier>     
+	
+	<!-- ===== -->
+	<!-- RANKS -->
+	<!-- ===== -->
+	<rank xp="0.0" name="Untote">
+		<hud_icon filename="blank.png" />
+	</rank>
+	
+</faction>

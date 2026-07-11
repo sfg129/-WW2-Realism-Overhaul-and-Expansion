@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	
+	
+	<carry_item key="vest_sentry.carry_item" name="Sentry Body Armor" slot="1" transform_on_consume="vest_sentry_2" time_to_live_out_in_the_open="45.0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0">
+		<hud_icon filename="vest_sentry.png" />
+		<capacity value="1" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="11" price="150" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+		
+		<commonness value="0.0" in_stock="1" can_respawn_with="1" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+				
+	<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+
+	</carry_item>
+
+	<carry_item key="vest_sentry_2" name="Sentry Body Armor, Lightly Damaged" slot="1" transform_on_consume="vest_sentry_3" time_to_live_out_in_the_open="0.0">
+		<hud_icon filename="vest_sentry_2.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="11" price="75" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+		
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+
+	</carry_item>
+
+	<carry_item key="vest_sentry_3" name="Sentry Body Armor, Moderately Damaged" slot="1" transform_on_consume="vest_sentry_4" time_to_live_out_in_the_open="0.0">
+		<hud_icon filename="vest_sentry_3.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="11" price="50" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+		
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+
+	</carry_item>
+
+	<carry_item key="vest_sentry_4" name="Sentry Body Armor, Moderately Damaged" slot="1" transform_on_consume="vest_sentry_5" time_to_live_out_in_the_open="0.0">
+		<hud_icon filename="vest_sentry_4.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="5" price="25" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+		
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+		<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+		<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+		<modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+	</carry_item>
+
+	<carry_item key="vest_sentry_5" name="Sentry Body Armor, Heavily Damaged" slot="1" transform_on_consume="vest_sentry_6" time_to_live_out_in_the_open="0.0">
+		<hud_icon filename="vest_sentry_5.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="5" price="10" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+		
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="wound" />
+					<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+	</carry_item>
+
+	<carry_item key="vest_sentry_6" name="Sentry Body Armor, Severely Damaged" slot="1" time_to_live_out_in_the_open="0.0">
+		<hud_icon filename="vest_sentry_6.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="1" source="rank" source_value="0.6" />
+		<inventory encumbrance="5" price="0" />
+		
+		<model mesh_filename="vest_sentry.xml" />
+
+		<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+		
+		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
+<modifier class="speed" value="-0.04" />
+		<modifier class="hit_success_probability" value="-0.175" />
+	</carry_item>
+	
+</carry_items>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	<weapon key='medikit.weapon' />
+	<!--<weapon key='morphine.weapon' />-->
+	<weapon key='wrench.weapon' enabled="0" />
+	<weapon key='wrench_small.weapon' />    
+	<weapon key='cover_resource.weapon' />
+
+	<!-- common vehicles -->
+
+	<vehicle key="para_spawn.vehicle" />     
+	<vehicle key="flare_checkpoint.vehicle" />
+
+ 	<vehicle key="mg34_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="opel_blitz_1.vehicle" />
+ 	<vehicle key="opel_blitz_2.vehicle" />
+ 	<vehicle key="opel_blitz_armoury.vehicle" />
+	<vehicle key="kubelwagen.vehicle" />
+	<vehicle key="staff_car.vehicle" />
+	<vehicle key="sidecar_german.vehicle" />
+
+
+	<vehicle key="light_mortar.vehicle" />
+
+	<vehicle key="prison_door.vehicle" />
+	<vehicle key="prison_building.vehicle" />
+	<vehicle key="submarine.vehicle" />
+	<vehicle key="submarine2.vehicle" />  
+	<vehicle key="rubber_boat.vehicle" />
+ 	<vehicle key="heavy_mortar.vehicle" />
+ 	<vehicle key="aa_gun.vehicle" />
+ 	<vehicle key="aa_gun2.vehicle" />  
+ 	<vehicle key="oerlikon.vehicle" />
+ 	<vehicle key="type98.vehicle" />
+	<vehicle key="bofors.vehicle" />
+	<vehicle key="pt_boat.vehicle" />
+ 	<vehicle key="b29_turret.vehicle" />
+	<vehicle key="b29_turret_rear.vehicle" />
+
+	<vehicle key="anticall.vehicle" />
+	<vehicle key="protector.vehicle" />     
+	<vehicle key="crate_wrench.vehicle" />
+ 
+	<vehicle key="tow.vehicle" />	
+ 	<vehicle key="cover1.vehicle" />
+
+ 	<vehicle key="radar_tower.vehicle" />
+	<vehicle key="gas_tank.vehicle" />     
+	<vehicle key="radio_jammer.vehicle" />   
+	<vehicle key="radio_jammer2.vehicle" />  
+	<vehicle key="radio_jammer_2.vehicle" />   
+	<vehicle key="radio_jammer_3.vehicle" />         
+	<vehicle key="water_tower.vehicle" />
+ 	<vehicle key="mortar_ammunition_crates.vehicle" />   
+
+	<vehicle key="deco_coupe_beige.vehicle" /> 
+	<vehicle key="deco_coupe_blue.vehicle" /> 
+	<vehicle key="deco_coupe_green.vehicle" /> 
+	<vehicle key="deco_coupe_grey.vehicle" /> 
+	<vehicle key="deco_coupe_red.vehicle" /> 
+	<vehicle key="deco_pickup_blue.vehicle" />
+	<vehicle key="deco_pickup_brown.vehicle" /> 
+	<vehicle key="deco_pickup_green.vehicle" />
+	<vehicle key="deco_pickup_grey.vehicle" /> 
+	<vehicle key="deco_pickup_red.vehicle" /> 
+	<vehicle key="dumpster.vehicle" /> 
+	<vehicle key="tractor.vehicle" />
+
+	<vehicle key="tank_trap.vehicle" />  
+
+	<vehicle key="special_cargo_vehicle1.vehicle" /> 
+	<vehicle key="special_cargo_vehicle2.vehicle" /> 
+	<vehicle key="special_cargo_vehicle3.vehicle" /> 
+	<vehicle key="special_cargo_vehicle4.vehicle" /> 
+	<vehicle key="special_cargo_vehicle5.vehicle" /> 
+
+	<vehicle key="special_crate1.vehicle" />
+	<vehicle key="special_crate2.vehicle" />
+	<vehicle key="special_crate3.vehicle" />
+	<vehicle key="special_crate4.vehicle" />
+	<vehicle key="special_crate5.vehicle" />
+	<vehicle key="special_crate6.vehicle" />
+	<vehicle key="special_crate7.vehicle" />
+	<vehicle key="special_crate8.vehicle" />
+	<vehicle key="special_crate9.vehicle" />
+	<vehicle key="special_crate10.vehicle" />
+
+	<vehicle key="special_crate_wood1.vehicle" />
+	<vehicle key="special_crate_wood2.vehicle" />
+	<vehicle key="special_crate_wood3.vehicle" />
+	<vehicle key="special_crate_wood4.vehicle" />
+	<vehicle key="special_crate_wood5.vehicle" />
+
+	<vehicle key="occult_seal.vehicle" />
+
+	<!-- common calls -->
+
+	<!--<call key="mortar.call" />-->
+
+</resources>

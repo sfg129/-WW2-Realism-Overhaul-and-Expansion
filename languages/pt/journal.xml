@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introdução para a WW2 Undead" />
+		<text value="Bem vindo ao modo zumbi da segunda guerra mundial! Nesse modo você vence capturando o Castelo, localizado no mapa na área Sem Reconhecimento. O Portão do Castelo está trancado, e só pode ser aberto interagindo com pentagramas ocultos espalhados por todo o mapa, localizado dentro das bases. E também, toda vez que morrer, você poderá selecionar um ponto de ressurreição de paraquedas disponível." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Veículos inimigos"/>
+		<text value="Certos VEÍCULOS INIMIGOS mais pesados em EDELWEISS e PACIFIC não podem ser roubados. Isso foi feito inteiramente por razões de equilíbrio e jogabilidade. Outros veículos mais leves ainda podem ser roubados!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Baionetas"/>
+		<text value="BAIONETAS podem ser alternadas em EDELWEISS e PACIFIC. Armas com dois pontos embaixo de seus ícones podem fazer isso. Elas podem ser alternadas pressionando %control_next_weapon_in_chain. Baionetas extendem bastante o alcance de seu ataque corpo a corpo ao custo de um pouco de precisão."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Destruição de cercas e cercas vivas"/>
+		<text value="Em EDELWEISS, a maioria das cercas podem ser destruídas por EXPLOSIVOS ou pela maioria dos VEÍCULOS. Adicionalmente, Cercas Vivas podem ser destruídas por CARGAS DE DEMOLIÇÃO e também por veículos especiais como o Sherman RHINO."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Chefões"/>
+		<text value="Os TANQUES DOS CHEFÕES inimigos devem ser destruídos por qualquer meio necessário para garantir a VITÓRIA em determinados mapas. Eles possuem resistência adicional e muito poder de fogo para tornar sua tarefa um desafio!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Bunkers e Casamatas"/>
+		<text value="CASAMATAS podem ser encontradas no PACÍFICO e são posições de metralhadoras bem fortificadas. Elas não são muito vulneráveis a granadas padrão, mas sofrem muitos dano de EXPLOSIVOS PESADOS e LANÇA-CHAMAS."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Bloqueadores de Radio, Artilharias Costeiras, Artilharias Antiaérea"/>
+		<text value="BLOQUEADORES DE RADIO inimigos vão bloquear suas solicitações por radio em uma certa area em volta deles. Eles são vulneraveis a CARGAS DE DEMOLIÇÃO se você conseguir chegar perto o suficiente. ARTILHARIAS COSTEIRAS e ARTILHARIAS ANTIAÉREA bloqueam reforços específicos de serem chamados em todo o mapa, e destruí-los ira lhe garantir poderosas solicitações como a ARTILHARIA NAVAL e o SUPORTE AÉREO respectivamente."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Comboio Bergetiger" />
+		<text value= "Você pode ordenar que o Bergetiger pare por um curto período de tempo pressionando %control_shoot enquanto estiver mirando nele. Reparar ele com uma chave de inglesa também irá fazer com que ele pare.%PSIsso também pode ser usado para taticamente desacelerar o comboio para reagrupar suas tropas." />
+		<image filename="journal_convoy.png" />
+	</entry>	
+
+</journal>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<weapon key="smle_no4_mki.weapon" />
+	<weapon key="smle_no4_mki_b.weapon" />
+	<weapon key="sten_mkii.weapon" />
+	<weapon key="m1928a1_thompson.weapon" />
+<weapon key="m1928a1_thompson_drum.weapon" />
+		<weapon key="m1928_thompson_mag.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+	<weapon key="bren.weapon" />
+	<weapon key="smle_no4_mki_s.weapon" />
+<weapon key="smle_rifle_grenade_he.weapon" />
+	<weapon key="smle_rifle_grenade_launcher_at.weapon" />
+	<weapon key="boys_at_rifle.weapon" />
+	<weapon key="enfield_p14_s.weapon" />
+
+</resources>

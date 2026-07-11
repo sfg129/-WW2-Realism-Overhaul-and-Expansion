@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Land Mattress Saturation Strike" key="mortar4.call"
+	initiation_comment1="Requesting Fire Mission"
+	initiation_comment2="Land Mattress"
+	acknowledge_comment="Roger, wait five."
+	launch_comment="Rounds on the way."
+        notify_metagame="1"
+show_target_marker="1">
+	
+	<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50" 
+		common_spread="0 0 0" 
+		launch_time="9.0"
+		spawn_time="11.0">
+		<sound class="launch" fileref="rocket_artillery_barrage_distant.wav" volume="1.65" />
+<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+	
+		<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="9.5"
+		spawn_time="11.5">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+	<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="10"
+		spawn_time="12">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="10.5"
+		spawn_time="12.5">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="11"
+		spawn_time="13">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="11.5"
+		spawn_time="13.5">
+		 <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="12"
+		spawn_time="14">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="12.5"
+		spawn_time="14.5">
+		 <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="13"
+		spawn_time="15">
+		 <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="13.5"
+		spawn_time="15.5">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+
+--30
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="14"
+		spawn_time="16">
+	<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="14.5"
+		spawn_time="16.5">
+	<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="15"
+		spawn_time="17">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="15.5"
+		spawn_time="17.5">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="16"
+		spawn_time="18">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="16.5"
+		spawn_time="18.5">
+	<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="17"
+		spawn_time="19">
+	 <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="17.5"
+		spawn_time="19.5">
+		 <sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="18"
+		spawn_time="20">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round><round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="18.5"
+		spawn_time="20.5">
+	<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+<round
+		instances="6"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+					instance_spread="50 25 50"  
+		common_spread="0 0 0" 
+		launch_time="19"
+		spawn_time="21">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+
+
+	
+		
+	<hud_icon filename="hud_mortar2.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.8" />
+	<inventory encumbrance="0.0" price="800.0" />
+	
+</call>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="ww2_undead_soldier_ss_overlord.xml" />
+
+
+	<!-- ----- -->
+	<!-- vests -->
+	<!-- ----- -->
+
+	<!-- 15-26[11] = wounded 1 -->
+	<!-- 27-38[11] = wounded 2 -->
+	<!-- 40-49[9] = wounded 3 -->
+
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_15"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_16"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_17"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_18"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_19"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_20"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_21"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_22"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_23"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_24"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_25"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_26"/>
+	</model>
+
+
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_27"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_28"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_29"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_30"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_31"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_32"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_33"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_34"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_35"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_36"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_37"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_38"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_39"/>
+	</model>
+
+
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_40"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_41"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_42"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_43"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_44"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_45"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_46"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_47"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_48"/>
+	</model>
+	<model filename="ww2_undead_soldier_ss_overlord_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_axr_overlord_49"/>
+	</model>
+
+</models>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="m1911.weapon" />
+	<projectile key="mkii_grenade.projectile" />
+<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
+	<weapon key='medikit.weapon' enabled="0"/>
+	<weapon key='morphine.weapon' enabled="0"/>
+	<weapon key='cover_resource.weapon' enabled="0"/>
+</resources>

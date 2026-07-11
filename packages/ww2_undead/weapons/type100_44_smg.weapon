@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="type100_44_smg.weapon" >
+		<tag name="has_bayonet" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.0725" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.16" 
+	sustained_fire_diminish_rate="1.6"
+	magazine_size="30" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 100/44" 
+	class="0" 
+	projectile_speed="95.0"
+	/>
+
+	<!-- Type 100/44 had simple sights and no bipod; thus base accuracy is inferior to the Type 100/40 and is not boosted in cover/prone -->
+	
+	<next_in_chain key="type100_44_smg_b.weapon" share_ammo="1" />
+
+	<!-- simple SMG sight ; though technically an aperture -->
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="over_wall" accuracy="0.95" />   
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, type 100" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, type 100, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="smg_03_type100-44.wav" pitch_variety="0.05" volume="1.11"/>	<!-- vol was 1.12 -->
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	
+	<model filename="weapon_type100_44.xml" />
+	<hud_icon filename="hud_type100_44.png" />
+	
+	<commonness value="0.014"/>
+	<inventory encumbrance="5.0" price="60.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+
+	<!-- start decay was 0.263 -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.65"
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.6"
+		/>
+	</projectile>
+	
+</weapon>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Rocket Mortar Barrage" key="mortar1.call"
+	initiation_comment1="Requesting Fire Mission"
+	initiation_comment2="Heavy Rocket-Propelled Mortars"
+	acknowledge_comment="Roger, wait three."
+	launch_comment="Rounds on the way."
+        notify_metagame="1">
+	
+	<round
+		instances="1"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+		instance_spread="12 7 12" 
+		common_spread="10 0 10" 
+		launch_time="6.0"
+		spawn_time="8.0">
+		<sound class="launch" fileref="rocket_artillery_barrage_distant.wav" volume="3.65" />
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+	
+	<round
+		instances="1" 
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+		instance_spread="10 7 10" 
+		common_spread="10 0 10" 
+		launch_time="7.0"
+		spawn_time="9.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.2" />
+	</round>
+	
+	<round
+		instances="1"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+		instance_spread="5 7 5" 
+		common_spread="0 0 0" 
+		launch_time="8.0"
+		spawn_time="10.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.2" />
+	</round>
+	
+	<hud_icon filename="hud_mortar1.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.2" />
+	<inventory encumbrance="0.0" price="250.0" />
+
+</call>

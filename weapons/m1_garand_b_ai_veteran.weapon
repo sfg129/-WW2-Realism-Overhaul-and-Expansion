@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="m1_garand_b_ai_veteran.weapon" drop_count_factor_on_death="0.0">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="0.117" 
+	accuracy_factor="0.98" 
+
+	sustained_fire_grow_step="1.1" 
+	sustained_fire_diminish_rate="2.5"
+	stance_accuracy_rate="2"
+	magazine_size="8" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="M1 Garand Bayonet" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="0" 
+	projectile_speed="140.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+    stab_enabled="1"
+    stab_range="3.25"
+	/>
+
+	<!-- AI version only to affect commonness on a USF Veteran soldier -->
+	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="m1_garand_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+
+
+	<!--recoil recovery was 1.5-->
+	<!--kill probability was 0.75-->
+
+	
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation state_key="reload" animation_key="reloading, m1 garand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1 garand, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_02_m1_garand.wav" pitch_variety="0.05" volume="2.45"/>
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	<sound key="cycle" fileref="pistol2_chamber.wav" />
+	<sound key="magazine_out" fileref="rifle_02_m1_garand_ping.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="last_ammo" fileref="rifle_02_m1_garand_ping.wav" />
+	
+	<model filename="m1_garand_b.xml" />
+	<hud_icon filename="hud_m1_garand_b.png" />
+	
+	<commonness value="0.197" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="5.0" price="5.0" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5" 
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

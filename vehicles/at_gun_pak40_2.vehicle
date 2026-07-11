@@ -1,0 +1,4 @@
+<vehicle file="at_gun_pak40_base.vehicle" key="at_gun_pak40_2.vehicle" map_view_atlas_index="-1" respawn_time="36000" allow_ai_to_use="0" soldier_capacity_offset="0" protectors="0">
+	<turret offset="0 0.0 0.0" weapon_key="at_gun_pak40_2.weapon" weapon_offset="0.0 1.18 0.0" weapon_recoil="0.3"  max_rotation_step="0.00002" rotation="0" />
+
+</vehicle>

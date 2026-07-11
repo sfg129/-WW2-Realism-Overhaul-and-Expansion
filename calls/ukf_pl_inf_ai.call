@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call 
+	key="ukf_pl_inf_ai.call" 
+	radio_view_text="Reinforcements - Infantry Squad" 
+	initiation_comment="Requesting reinforcements, infantry squad" 
+	acknowledge_comment="Roger" 
+	notify_metagame="1" consume_rp="0" show_target_marker="0">
+	
+		<tag name="reinforcements" />
+		<hud_icon filename="hud_ukf.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="100" source="rank" source_value="0.15" />
+		<inventory encumbrance="0.0" price="350.0" />
+		
+	</call>
+  
+	<call key="ukf_pl_inf_spawn_ai.call" acknowledge_time="0.0" launch_comment="infantry squad deployed">
+		<round 
+			instances="7" 
+			instance_class="soldier" 
+			instance_key="regular" 
+			instance_spread="3 0 3" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+		</round>
+		
+		<round 
+			instances="2" 
+			instance_class="soldier" 
+			instance_key="assault_callin" 
+			instance_spread="3 0 3" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+		</round>
+		
+		<round 
+			instances="1" 
+			instance_class="soldier" 
+			instance_key="veteran_callin" 
+			instance_spread="3 0 3" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+	<sound class="launch" fileref="mus_cue_call_in_pl_infantry.wav" pitch_variety="0.0" />      
+		</round>
+		
+		<inventory encumbrance="0.0" price="350.0" />
+		
+	</call>
+	
+</calls>

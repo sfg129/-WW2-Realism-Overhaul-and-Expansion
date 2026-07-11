@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Grenade discharger Barrage" key="mortar5.call"
+	initiation_comment1="Requesting Fire Mission"
+	initiation_comment2="grenade discharger"
+	acknowledge_comment="Roger, wait one."
+	launch_comment="Rounds on the way."
+        notify_metagame="1">
+
+    <!-- 第1轮 (2.5s - 2.7s) -->
+    <round instances="1"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="2.5"
+		spawn_time="5.5">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <round instances="2"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="2.7"
+		spawn_time="5.7">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <!-- 第2轮 (4.3s - 4.5s) -->
+    <round instances="1"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="4.3"
+		spawn_time="7.3">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <round instances="2"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="4.5"
+		spawn_time="7.5">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <!-- 第3轮 (6.1s - 6.3s) -->
+    <round instances="1"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="6.1"
+		spawn_time="9.1">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <round instances="2"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="6.3"
+		spawn_time="9.3">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <!-- 第4轮 (7.9s - 8.1s) -->
+    <round instances="1"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="7.9"
+		spawn_time="10.9">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <round instances="2"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="8.1"
+		spawn_time="11.1">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <!-- 第5轮 (9.7s - 9.9s) -->
+    <round instances="1"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="9.7"
+		spawn_time="12.7">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <round instances="2"
+		instance_class="grenade"
+		instance_key="mortar_shell_50mm.projectile" 
+		instance_spread="8 8 8" 
+		common_spread="8 8 8" 
+		launch_time="9.9"
+		spawn_time="12.9">
+		<sound class="spawn" fileref="mortar_whistle.wav" volume="0.3" />
+    </round>
+
+    <hud_icon filename="hud_mortar.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.05" />
+    <inventory encumbrance="0.0" price="175" />
+
+</call>

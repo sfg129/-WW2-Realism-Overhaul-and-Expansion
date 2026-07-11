@@ -1,0 +1,59 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="二战丧尸模式介绍" />
+		<text value="欢迎来到二战丧尸模式！在这个模式里你需要通过占领城堡来获胜，城堡位于地图中标记No Recon（无侦查信息）的地方。与此同时，城堡大门被锁住了，你需要激活散布在地图四周基地里的超自然五角星来解锁。阵亡后可以随时选择可用的伞降重生点重生。" />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="敌方载具"/>
+		<text value="出于游戏平衡和游戏性方面的考虑，在雪绒花和太平洋（二战DLC）中将无法偷取一些敌方的重型载具。不过你仍然可以偷取其他轻型载具！"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="刺刀"/>
+		<text value="在二战DLC中很多武器都可以切换刺刀，这些武器图标底下有两个点。你可以通过使用&#37;control_next_weapon_in_chain键进行切换。装配刺刀将会显著地增加你的近战距离，但是射击精度会有所下降。"/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="摧毁绿篱和栅栏"/>
+		<text value="在雪绒花DLC里，大多数栅栏可以被爆炸物摧毁；大多数载具也可以直接辗轧它们。绿篱则需要被爆破炸药或特殊载具（如谢尔曼犀牛）摧毁。"/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="头目"/>
+		<text value="在一些地图中你必须不惜一切代价摧毁敌方的头目载具才能获得胜利。它们的血量更高且火力凶猛，摧毁它们将会是一个挑战。"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="地堡和碉堡"/>
+		<text value="碉堡是防御完备的机枪工事，在太平洋DLC中可能遭遇。标准手榴弹对它们没什么效果，但大当量爆破物和火焰喷射器对它们效果显著。"/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="无线电干扰器，岸防炮，防空炮"/>
+		<text value="敌方无线电干扰器将会在其周围一定范围内阻断你呼叫支援的能力，近身使用爆破炸药将它们摧毁。岸防炮和防空炮会阻止你在地图的任意位置使用特定的支援，摧毁它们以呼叫威力强大的海军炮击和空中力量。"/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="虎式护卫队" />
+		<text value= "你可以在准心瞄准虎式装甲抢修车时按下&#37;control_shoot 来命令它短暂停下来一段时间。另外，用扳手修理它也会使它停下。&#37;可以战术性地用此来减缓车队的速度，以便重组你的部队​。" />
+		<image filename="journal_convoy.png" />
+	</entry>		
+
+</journal>

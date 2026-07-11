@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="Reinforcements - US Army Squad" key="usi_inf.call"
+	radio_view_text="Reinforcements - US Army Squad" 
+	initiation_comment="Requesting reinforcements, Army rifle squad"
+	acknowledge_comment="Roger"
+
+  notify_metagame="1"  >
+
+    <round instances="4"
+           instance_class="soldier"
+	   instance_key="regular"
+       instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+
+
+
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="regular_medic"
+          instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="veteran_callin"
+        instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+    </round>
+
+   <round instances="2"
+           instance_class="soldier"
+	   instance_key="assault_callin"
+    instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="5.0" 
+			spawn_time="7.5" 
+			horizontal_offset_at_spawn="0.0" 
+			vertical_offset_at_spawn="0.0" 
+			initial_speed_to_target="0.0">
+	<sound class="launch" fileref="mus_cue_call_in_us_infantry.wav" pitch_variety="0.0" />      
+    </round>
+
+    <hud_icon filename="hud_army.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.15" />
+    <inventory encumbrance="0.0" price="250.0" />
+
+</call>

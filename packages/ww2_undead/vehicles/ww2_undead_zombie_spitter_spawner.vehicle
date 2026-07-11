@@ -1,0 +1,31 @@
+<vehicle name="" key="ww2_undead_zombie_spitter_spawner.vehicle" map_view_atlas_index="-1" time_to_live="1" allow_ai_to_use="0" should_be_destroyed="0" usable_for_cover="0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1">
+	<tire_set offset="0.1 0.0 0.1" radius="0.1" />
+	<tire_set offset="0.1 0.0 -0.1" radius="0.1" />
+
+	<control max_speed="20.0" acceleration="6.0" max_reverse_speed="5.0" max_rotation="0.8" max_water_depth="0.2" steer_smoothening="0.1" />
+
+	<physics 
+	max_health="22.0" 
+	blast_damage_threshold="10000.0"
+	mass="10000.0" 
+	extent="0.1 0.0 0.1" 
+	offset="0 0.0 0" 
+	top_offset="0 0.1 0" 
+	collision_model_pos="0 0.1 0" 
+	collision_model_extent="0.1 0.1 0.1" 
+	visual_offset="0 0.2 0" 
+	collision_response_factor="0.2" 
+	blast_push_threshold="1000.0" 
+	vehicle_collision_damage_factor="2.0" /> 
+
+	<visual class="chassis" mesh_filename="" texture_filename="" />
+
+	<effect event_key="idle_chassis" ref="PrisonSmoke" offset="0 0 0" />
+	<effect event_key="idle_chassis" ref="ShadowPrisonSmoke" offset="0 0 0" shadow="1" />
+
+	<event>
+		<trigger class="destroy" />
+  		<result class="spawn" instance_class="soldier" instance_key="zombie_spitter" min_amount="1" max_amount="1" offset="0 1 0" position_spread="0 0" direction_spread="0 0" />
+	</event>
+
+</vehicle>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Schrony piechoty moga byc latwo zniszczone celnym nalotem bombowym albo ladunkami wybuchowymi"/>
+    <text key="Hint" text="Targanie zbyt duzej ilosci klamotow zmniejsza celnosc strzelania"/> 
+    <text key="Hint" text="Polozenie sie na ziemi lub plywanie w wodzie moze uratowac ci tylek w przypadku eksplozji (bomb obok)"/> 
+    <text key="Hint" text="Zabicie przeciwnika nozem da ci wiecej doswiadczenia"/> 
+    <text key="Hint" text="Celownik wskazuje ci miejsce, w ktorym mniej wiecej trafi pocisk, ale na przyklad tlumik znaczaco zwieksza ten obszar"/> 
+    <text key="Hint" text="By przejac baze musisz miec wiekszosc - 66% (2/3) wojsk w danym regionie w stosunku do wroga"/> 
+    <text key="Hint" text="Lekkie Karabiny Maszynowe warto uzywac w pozycji lezacej lub zza przeszkody"/> 
+    <text key="Hint" text="Sprzedawanie sekretnych Walizek w Zbrojowni odblokuje unikatowe bronie"/> 
+    <text key="Hint" text="Karabiny Powtarzalne maja wiekszy zasieg, ale nie sa szybkostrzelne, uwazaj z nimi w walce na bliski kontakt"/>
+    <text key="Hint" text="Karabiny Snajperskie doskonale nadaja sie do zdejmowania wrogich stanowisk LKMow z duzej odleglosci"/> 
+<!--    <text key="Hint" text="Karabiny Snajperskie maja swietna celnosc w pozycji lezacej lub zza przeszkody"/> -->
+    <text key="Hint" text="Cenne przedmioty wyrzucone po smierci przez wroga mozesz ukryc w Skrytce, by pozniej sprzedac"/> 
+<!--    <text key="Hint" text="Karabinki maszynowe sa swietne na bliski kontakt, jednak traca na celnosci i silne obrazen na dystans"/> -->
+    <text key="Hint" text="Z zasady im ciezsza bron posiadasz tym wolniej chodzisz"/>
+<!--    <text key="Hint" text="Miotacze ognia to swietna sprawa na okopy i ufortyfikowane pozycje wroga"/>
+    <text key="Hint" text="Granat Type 97 wybucha szybko - po 3 sekundach - ale jego obszar razenia jest niewielki"/>            
+    <text key="Hint" text="Bagnety zamontowane na karabinach moga zmienic je w doskonala bron na bliski kontakt"/>         
+    <text key="Hint" text="Cena broni jaka zobaczysz w Zbrojowni to rowniez wskaznik jej rzadkosci oraz efektywnosci w walce"/>       
+    <text key="Hint" text="Lornetki nie tylko pomoga ci zajrzec dalej w pozycje wroga, ale rowniez celniej zlecic ostrzal artylerii"/>       
+    <text key="Hint" text="Karabinki Type STE sluzyly zolnierzom we wczesnych latach wojny, oferujac dobry balans celnosci i rozrzutu"/>       
+    <text key="Hint" text="Karabiny Type 100 sa znane z malej szybkostrzelnosci i niewielkich obrazen, ale ustawienie ich na dwojnogu pozwalalo na bardziej celny ogien"/>       
+    <text key="Hint" text="Ulepszone karabiny Type 100/44 zostaly wprowadzone w pozniejszych latach wojny i byly mocno ulepszonymi odpowiednikami poprzednich wersji"/>       
+    <text key="Hint" text="Slynny M1A1 Thompson ma dobre obrazenia i szybkostrzelnosc, jednak rownie spory rozrzut w stosunku do innych broni"/>       
+    <text key="Hint" text="Karabin M1928 Thompson oferuje magazynek na 50 nabojow i chwyt przedni, by latwiej kontrolowac odrzut"/>       
+    <text key="Hint" text="Pistolet M1911 jest swietny do walki na bliski kontakt"/>    
+    <text key="Hint" text="Type 14 Nambu nie wyglada groznie, ale jego szybkostrzelnosc jest dostatecznie dobra, by uzyc go jako broni szybkiej samoobrony"/>
+    <text key="Hint" text="Karabin M1 jest dostatecznie lekki, by niesc go na ramieniu, a jego skutecznosc na sredni dystans nadaje sie do walki ze stanowiskami CKMow"/>
+    <text key="Hint" text="Type MO Carbine (Mauser C96) uzywany jest przez sily IJA forces, jest dostatecznie lekki, by niesc go na ramieniu, co czyni go bronia dobra dla granadierow i zolnierzy z wyrzutniami rakiet"/>
+    <text key="Hint" text="Type 38 Rifle byl uzywany jako prosta bron jednostrzalowa na poczatku wojny, ale mimo tego jego maly rozrzut i duza celnosc potrafi byc zabojcza"/>
+    <text key="Hint" text="Type 99 Rifle z czasem zastapil Type 38, jego glowna zmiana bylo uzycie innego rodzaju amunicji, ktora byla bardziej smiercionosna"/>
+    <text key="Hint" text="Type 44 Cavalry Carbine zostal wprowadzony w 1912 i zaprojektowany jako mniejsza forma Type 38. Miniaturyzacja nadaje sie do walki na bliski kontakt, rowniez dzieki bagnetowi"/>
+    <text key="Hint" text="M1903A3 Springfield byl typowym karabinem jednostrzalowym, z czasem zastapionym przez M1 Garand. Jest celny, a trafienie najczesciej powala na kolana"/>
+    <text key="Hint" text="M1 Garand to potezny karabin samopowtarzalny, z czasem na podstawowym wyposazeniu sil USA, zastapil M1903 Springfield"/>   
+    <text key="Hint" text="Type 4 Rifle to bardzo rzadki karabin samopowtarzalny, podobny do M1 Garand, ale zawierajacy 10-cio nabojowy magazynek wewnetrzny"/>   
+    <text key="Hint" text="M1941 Johnson Rifle to rzadki karabin polautomatyczny, znany z magazynka na 10 strzalow oraz wysokiej celnosci"/>   
+    <text key="Hint" text="M2 Carbine to bron rzadka, w przeciwienstwie do M1 Garand jest noszona na glownym slocie ekwipunku - zawiera magazynek na 30 strzalow i tryb ognia automatycznego"/>   
+    <text key="Hint" text="Karabin snajperski M1903A1 nadaje sie doskonale do likwidacji wrogich stanowisk CKMow"/>   
+    <text key="Hint" text="Istnieje zadka wersja M1 Garand bedaca bardziej snajperska wersja podobna do M1903A4, znana jest z wiekszej szybkostrzelnosci"/>   
+    <text key="Hint" text="Snajperka Type 97 bazuje na rozwiazaniach Type 38. W przeciwienstwie do M1903A4 moze byc przeladowana szybciej dzieki gotowym zestawom nabojow"/>   
+    <text key="Hint" text="Karabin przeciwpancerny Type 97 to potezna 20mm bron polautomatyczna, jest jednak bardzo ciezka, a jej celnosc nie nadaje sie do strzelania w piechote"/>   
+    <text key="Hint" text="M12 Okopowy to bardzo dobra bron na bliski kontakt, dzialajaca swietnie jako czysciciel okopow, kosztem niestety zapasu amunicji"/>   
+    <text key="Hint" text="M1918A2 BAR byl ulepszany i rozwijany od czasow swojej wersji z I Wojny Swiatowej, majac przykladowo dwojnog oraz rozna szybskostrzelnosc"/>
+    <text key="Hint" text="M1918A2 BAR jest dostatecznie lekki, by nosic go na ramieniu i uzywac zza przeszkody, najlepsza celnosc uzyskuje w pozycji lezacej"/>   
+    <text key="Hint" text="Lekki KM M1919A6 jest ulepszona warsja poprzednich modeli, w formie odpowiedzi na niemieckie karabiny maszynowe"/>   
+    <text key="Hint" text="Lekki KM M1919A6 jest zdolny do postawienia sciany smierci, jednak uzyc go mozna tylko w pozycji lezacej lub zza przeszkody"/>   
+    <text key="Hint" text="The Stinger to zmodyfikowana forma samolotowego M1919A4 z kolba, dwojnogiem i ekstremalna szybkostrzelnoscia"/>
+    <text key="Hint" text="Lekki KM Type 11 to stara, ale wciaz smiercionosna bron. Jego wada jest dlugie przeladowanie"/>   
+    <text key="Hint" text="Lekki KM 96 jest typowym KMem wsparcia, ma dobra celnosc, ale nie ma tak duzych obrazen jak inne"/>   
+    <text key="Hint" text="Lekki KM Type 99 jest najnowoczesniejszym w arsenale IJA. Ma wieksza szybkostrzelnosc i obrazenia w porownaniu do poprzednich modeli"/>   
+    <text key="Hint" text="M1941 Johnson dziala podobnie do BAR jako bron wsparcia, ma jednak wieksza szybkostrzelnosc"/>   
+    <text key="Hint" text="Miotacz ognia M2 to bron typowa dla wyposazenia USMC, dodatkowo wyposazony jest w regulator plomienia"/>   
+    <text key="Hint" text="Miotacz ognia Type 93 to przerobiona europejska wersja miotacza uzywana przez sily IJA"/>   
+    <text key="Hint" text="Granatnik Type 100 to zwykly karabin Type 38 po modyfikacji - ma opcje zamontowania granatu, ktory po wystrzeleniu eksploduje"/>   
+    <text key="Hint" text="M1 Bazooka to pierwsza wyrzutnia rakiet, ktora wystrzeliwuje niekierowana rakiete 60mm, zdolna niszczyc lekkie czolgi i fortyfikacje"/>   
+    <text key="Hint" text="Wyrzutnia rakiet Type 4 zostala zaprojektowana i byla w uzyciu pod koniec II Wojny Swiatowej. Dziala podobnie do wyrzutni M1"/>   
+    <text key="Hint" text="Karabinowy Granat Przeciwpancerny M9 mogl byc wystrzeliwany z podczepienia do karabinu M1903, moze byc uzywany przeciw lekkim pojazdom"/>   
+    <text key="Hint" text="PT Boat to doskonale wyjscie, by wesprzec ladujace jednostki na plazach"/>   
+    <text key="Hint" text="Type 100 ma rzadki odpowiednik ze skladana kolba, zaprojektowany dla spadochroniarzy. Jest dostatecznie maly, by nosic go jako bron poboczna"/>
+    <text key="Hint" text="Type 1 to ekstremalnie rzadka wersja karabinka, byla nazywana 'Bullpup' przez amerykanskich zolnierzy"/>       
+    <text key="Hint" text="Type 1 posiada duza szybkostrzelnosc i celnosc, to czyni z niego swietna bron na bliski kontakt"/>   -->
+    <text key="Hint" text="Okrety Desantowe sa punktami odrodzenia, dzialaja w ten sposob, kiedy w okolicy nie ma przeciwnikow"/>  
+    <text key="Hint" text="Wrog moze posiadac stanowiska dzial przeciwlotniczych - zniszcz je, by dostac wsparcie z powietrza"/>
+    <text key="Hint" text="Wrog moze posiadac stanowiska dzial nabrzeznych - zniszcz je, by dostac wsparcie okretow"/>
+    <text key="Hint" text="Znane z Running with Rifles opancerzone Zbrojownie w DLC zostaly zmienione - teraz sa nimi dlugie chaty"/>
+    <text key="Hint" text="Miej na uwadze, ze wrog posiada w swych szeregach Weteranow, sa silniejsi i twardsi, ale moga zostawic ciekawe przedmioty po zabiciu"/>
+    <text key="Hint" text="Jezeli w trakcie inwazji na plazach jest troche za goraco, uzyj dzial na okretach wojennych, by zbombardowac fortyfikacje"/>
+    <text key="Hint" text="Na lotniskowcu oraz okretach znajdziesz zbrojownie oraz skrytki na przedmioty"/>
+    <text key="Hint" text="Szturmowcy Banzai to nieustraszeni zolnierze, ktorzy atakuja nie baczac na koszty. %EOLSa trudni do pokonania, ale za to nie interesuje ich krycie sie przed kulami"/>
+    <text key="Hint" text="Szturmowcy Banzai sa dowodzeni przez oficera, ktory prowadzi ich na samobojcze ataki tylko przy uzyciu Katany"/>
+    <text key="Hint" text="Wrodzy zolnierze uzbrojeni w miotacze ognia nic nie robia sobie z ostrzalu z lekkich broni,%EOLjednak sa podatni na eksplozje, granaty, walke wrecz"/> 
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Podczas gdy wiekszosc Wyrzutni Rakietowych dziala mniej wiecej tak samo, niektore z nich wymieniaja predkosc na wieksza glowice z dodatkowymi obrazeniami i promieniem wybuchu."/>   
+    <text key="Hint" text="Mozesz naprawiac pojazdy za pomoca klucza, wyposazajac go, stojac blisko pojazdu i trzymajac klawisz &quot;ataku&quot; az do zakonczenia.%EOLMozesz nosic wiele kluczy!"/>   
+	<text key="Hint" text="Kradziez Srednich i Ciezkich czolgow nie jest mozliwa w dodatkach z II Wojny Swiatowej."/>   
+	<text key="Hint" text="Bagnety zwiekszaja zasieg walki wrecz niewielkim kosztem celnosci na daleki dystans, ze wzgledu na dodatkowy ciezar z przodu broni."/>
+    <text key="Hint" text="Czolgi, pojazdy polgasienicowe i niektore lzejsze pojazdy moga zmiazdzyc wiekszosc ogrodzen na mapach dodatku II Wojny Swiatowej."/>   
+    <text key="Hint" text="Cena broni czesto jest dobrym przyblizeniem zarowno jej rzadkosci, jak i skutecznosci bojowej."/>       
+    <text key="Hint" text="W misjach, w ktorych twoja frakcja przeprowadza ogromny desant szybowcowy, mozesz otworzyc mape po smierci i pojawic sie za liniami wroga."/>   
+    <text key="Hint" text="Nasadkowe Granaty Przeciwpancerne maja nieskonczona ilosc amunicji, ale zapewniaja tylko minimalne uszkodzenia.%EOLMoga byc uzywane jako dlugoterminowe rozwiazanie przeciwpancerne, ale niewiele robia z przodu."/>   
+    <text key="Hint" text="Niektore reczne Granaty Przeciwpancerne eksploduja przy uderzeniu, podczas gdy inne przylegaja do celu i eksploduja po kilku sekundach."/>   
+    <text key="Hint" text="Zaklocacze radiowe, Baterie Nabrzezne i Przeciwlotnicze blokuja niektore polaczenia. Zniszcz je, aby otrzymac nagrode i moc wezwac wsparcie ogniowe!"/>   
+    <text key="Hint" text="Niektore misje moga uniemozliwic wzywanie wsparcia lotniczego lub spadochroniarzy, na przyklad w snieznych warunkach w Bastogne."/> 
+    <text key="Hint" text="Niektore obiekty wroga, takie jak Wieze Cisnien lub zadokowane Okrety Podwodne, zapewniaja duze nagrody w postaci PD i RP za ich zniszczenie."/>   
+    <text key="Hint" text="Dziala przeciwpancerne, choc spotykane tylko w niektorych Misjach, dzialaja zgodnie z nazwa - i sa w tym swietne. Uwazaj!"/>   
+    <text key="Hint" text="Karabiny Snajperskie zwiekszaja pole widzenia podczas stania, ale wolniej odzyskuja stabinosc."/> 
+    <text key="Hint" text="Karabinki zapewniaja przyzwoita skutecznosc na duzym dystansie jak na bron boczna,%EOLale czesto nie zadaja tak duzych obrazen na krotkim dystansie jak Pistolety."/>
+    <text key="Hint" text="Srednie karabiny maszynowe zwykle oferuja duza sile ognia na duze odleglosci, %EOLale poniewaz mozna strzelac tylko podczas lezenia na brzuchu lub nad oslona, lepiej nadaja sie do obrony."/>
+    <text key="Hint" text="Bron z dwiema kropkami u dolu ikony ma tryb alternatywny (patrz sterowanie).%EOLDla wielu broni, przelacza to na bagnet."/>
+    <text key="Hint" text="Pistolety Maszynowe nie maja sobie rownych w walce na bliskim dystansie i strzelaniu w ruchu, ale cierpia na duze odleglosci."/> 
+    <text key="Hint" text="Miotacze ognia doskonale radza sobie z usuwaniem silnych punktow oporu, w tym bunkrow, a nawet moga uszkodzic wiekszosc pojazdow."/>
+    <text key="Hint" text="&quot;Kamizelki&quot; Banzai i Assault zapewniaja dodatkowe zdrowie i duzy bonus do szybkosci ruchu,%EOLale w przeciwienstwie do &quot;kamizelki&quot; Weterana, nie mozna cie zranic i ozywic."/>   
+    <text key="Hint" text="'Kamizelka' snajperska czyni cie trudniejszym do wykrycia, i nieco trudniejszym do trafienia.%EOLTe bonusy sa oczywiscie szczegolnie przydatne podczas uzywania Karabinu Snajperskiego."/>   
+    <text key="Hint" text="&quot;Kamizelka&quot; Wartownika to ciezki zestaw pancerza. Oferuje dobra ochrone i pozwala na zranienie zamiast umierania,%EOLale ogranicza predkosc ruchu i jest bardzo droga."/>   
+    <text key="Hint" text="Zawsze mozesz otworzyc mape gdy umrzesz, aby wybrac swoj punkt odrodzenia."/>   
+
+</intro>

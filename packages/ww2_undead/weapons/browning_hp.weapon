@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary_pistol.weapon" key="browning_hp.weapon">
+   
+	<specification 
+	retrigger_time="0.135" 
+	carry_in_two_hands="0" 
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="0.785" 
+	magazine_size="13" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Browning Hi-Power" 
+	class="4" 
+	reload_one_at_a_time="0" 
+	projectile_speed="95.0" 
+	barrel_offset="-0.2" 
+	projectiles_per_shot="1" 
+	burst_shots="1" 
+	slot="1"
+	/>
+
+	<animation state_key="reload" animation_key="reloading, pistol, 2hand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />
+
+	<!-- former stats: kill chance 0.8 -->
+
+	<!-- the Browning Hi-Power is all around a great pistol, with its 9mm cartridge and good capacity. -->
+	<!-- compared to the Luger P08, it holds 5 extra rounds in its magazine, but has shorter start time to damage drop-off and lower velocity, as well as slower maximum rate of fire.-->
+	
+	<weak_hand_hold offset="0.3" />
+
+	<sound key="fire" fileref="weapon_pistol_browning_hp.wav" pitch_variety="0.05" volume="1.7"/>
+	<sound key="magazine_out" fileref="pistol_clip_out.wav" />
+	<sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
+	<sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
+	
+	<model filename="weapon_browning_hi_power.xml" />
+	<hud_icon filename="hud_browning_hi_power.png" />
+	
+	<commonness value="0.03" />
+	<inventory encumbrance="1.0" price="2.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.75"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+	
+	<!-- was 0.525 kill probability -->
+	
+</weapon>

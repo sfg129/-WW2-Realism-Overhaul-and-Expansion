@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="ww2_undead_zombie_shambler.ai">
+
+	<!--  <parameter class="force_as_leader" value="1.0" />	-->			<!-- isn't squad leader atm -->
+  
+  <parameter class="throw_grenade_time_interval_max" value="6.0" />			<!-- dunno if will need these -->
+  <parameter class="throw_grenade_time_interval_min" value="6.5" />
+  <parameter class="min_distance_to_throw_grenade" value="0.0" />
+  <parameter class="max_distance_to_throw_grenade" value="40.0" />
+  <parameter class="min_number_of_enemies_to_throw_grenade" value="1.0" />
+
+  <parameter class="shooting_against_vehicle_burst_time" value="0.5" />
+  <parameter class="fighting_against_vehicle_separation" value="7.0" />			<!-- set as default as it should attack -->
+  <parameter class="fighting_against_vehicle_move_radius" value="30.0" />
+
+  <parameter class="willingness_to_charge" value="1.0" />				<!-- dunno if will need these -->
+  <parameter class="stab_range" value="-1.0" />						<!-- unique weakness of spitter -->
+  
+  	<parameter class="grenade_throw_over_obstacle_offset_min" value="-0.5" />	<!-- dunno if will need these -->
+	<parameter class="grenade_throw_over_obstacle_offset_max" value="3.5" />
+
+  <parameter class="avoid_moving_vehicles" value="1" />   				<!-- unlike most zombies -->
+
+</ai>

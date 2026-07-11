@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <sound key="death" fileref="ija_death_01.wav" volume="1.1" />
+	<sound key="death" fileref="ija_death_02.wav" volume="1.1" />
+	<!--<sound key="death" fileref="ija_death_03.wav" volume="1.1" />-->
+	<!--<sound key="death" fileref="ija_death_04.wav" volume="0.95" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_05.wav" volume="1.1" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_06.wav" volume="0.95" pitch_variety="0.025"/>-->
+    <!--<sound key="death" fileref="ija_death_07.wav" volume="0.95" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />	<!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_10.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="ija_death_12.wav" volume="1.05" pitch_variety="0.05"/>
+	<!--<sound key="death" fileref="ija_death_13.wav" volume="1.0" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_12.wav" volume="1.1" pitch_variety="0.05"/> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_16.wav" volume="1.1" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+	
+	<comment key="We surrender!" text="Nos rendimos!"/>
+	<comment key="We surrender!" text="Nos hemos rendido!" />
+	<comment key="We surrender!" text="No hay honor en esta perdida..." />
+	
+	<comment key="Reloading" text="Recargando!" />  
+	
+	<comment key="hostile vehicle takeover" text="¿Que? NOOOO" />
+	<comment key="hostile vehicle takeover" text="!Hey! Esto no es - " /> 
+	<comment key="hostile vehicle takeover" text="¿Que? No no NO!" />    
+	
+	<comment key="enemy seen, vehicle tag = tank" text="Blindado detectado!" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="Necesitamos un anti-tanque YA!"/>
+	<comment key="enemy seen, vehicle tag = tank" text="TANQUEE!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Tanque! AL SUELO!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Han conseguido un blindado!" />   
+	<comment key="enemy seen, vehicle tag = tank" text="Contacto con blindado enemigo!" />     
+	
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC Detectado!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC Detectado! Hacedlo puré!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC Avistado!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC Avistado!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC! Cuidado!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="APC! Destrozad esa cosa soldados!" />  
+	
+ 	<comment key="enemy seen, vehicle tag = truck" text="Convoy enemigo!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Contacto! Vehículo enemigo avistado!" />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Se acerca un camión enemigo!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Acribillad ese camión!" />                   
+	
+	<comment key="celebrating" text="Hemos logrado una gran victoria."	/>
+	<comment key="celebrating" text="Esforzaos más la próxima vez." />
+	<comment key="celebrating" text="Hemos sobrevivido a esta batalla." />
+	<comment key="celebrating" text="Viviremos para volver a hacer historia." />
+	<comment key="celebrating" text="Washington irá después, yankee!" />
+	<comment key="celebrating" text="¿Ya os dais por vencidos? Los yankees no teneis perseverancia." />
+	<comment key="celebrating" text="Rendirse es un gran deshonor - los yankees sois vergonzosos." />
+	<comment key="celebrating" text="Bien hecho señores, no han tenido ni una oportunidad!" />
+	<comment key="celebrating" text="Os hemos dado en toda vuestra super-potencia industrial!" />
+	<comment key="celebrating" text="El Emperador estará complacido." />
+	<comment key="celebrating" text="El Imperio aceptará estas tierras agradecidamente, yankee" />
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="¿Sabes cual es mi deporte favorito?" />
+		<comment text="¿Cual?" />
+		<comment text="La patata caliente" />
+		<comment text="Eso no es un deporte" />       
+		<comment text="Lo es cuando utilizas granadas." />         
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Esta unidad Americana es conocida por llevar a cabo asaltos." />
+		<comment text="Yo pensaba que todo eso iba más con nosotros. Deberiamos estar alerta." />
+	</dialogue>   
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="¿Cual es el significado de esta guerra?" />
+		<comment text="¿Que quieres decir?" />
+    <comment text="No hay razones lógicas para estar aquí." />
+    <comment text="Para ganar la guerra." />
+    <comment text="Me vale." />
+	</dialogue>  
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ahora mismo podríamos estar relajandonos en casa" />
+		<comment text="Bebiendo Sake" />
+		<comment text="Haciendo unos Sudokus" />
+		<comment text="Pero nooo, en lugar de eso debemos servir a nuestra honorable nación." />    
+	</dialogue>       
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Puede que tengamos que volver a la armería." />
+		<comment text="¿Porque?" />
+		<comment text="He olvidado mi pistola." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="¿Te han dado equipamiento nuevo?" />
+		<comment text="Sí" />
+		<comment text="Me pregunto cuando rearmaran al resto de la unidad..." /> 
+   	<comment text="Probablemente cuando acabe la guerra." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="¿Cómo llamaremos al tanque?" />
+		<comment text="Gran Obliterador de Sucios Cerdos Americanos." />
+		<comment text="Eso es un poco complicado. Se supone que tiene que rimar." />
+		<comment text="No. Se supone que tiene que Obliterar Sucios Cerdos Americanos." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="¿Es verdad eso de que el hombre viene del mono?" />  
+		<comment text="Si, esos Cerdos Americanos lo hicieron." />            
+		<comment text="¿Pero si son Cerdos, como pudieron venir de los monos?" />             	
+		<comment text="Callate." />             	
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="¿Por que se retiraron el otro dia los muchachos?" />  
+		<comment text="No se retiraron, avanzaron en dirección contraria." />  
+		<comment text="Ah, genial." />                                       
+	</dialogue>  
+	
+   <!-- commander comments -->
+	<comment key="player promotion" text="Enhorabuena soldado, acabas de ser ascendido a %rank_name!" />
+	<comment key="we captured a base" text="Hemos capturado %base_name, aplastad lo que quede de resistencia." />
+	<comment key="we captured a base" text="Nuestro hombres han capturado %base_name, asegurad el area." />
+	<comment key="enemy captured a base" text="Los Americanos han capturado %base_name" />
+	<comment key="enemy captured a base" text="%faction_name nos ha arrebatado %base_name" />
+	<comment key="enemy captured a base" text="Esos Americanos han asaltado %base_name!" />
+	<comment key="neutral captured a base" text="" />
+	
+	<comment key="we have lost our last base" text="Hemos perdido nuestra última base - la batalla ha sido perdida!" />
+	<comment key="enemy has lost their last base" text="Las fuerzas %faction_name han sido derrotadas!" />
+	
+	<comment key="our assault ran out of time" text="Our assault ran out of time - the battle has been lost!" />
+	<comment key="enemy assault ran out of time" text="%faction_name have been defeated!" />
+	
+	<comment key="we won by map conquer" text="Nuestra facción ha sido victoriosa! Hemos capturado todas las bases del area!" />
+	<comment key="we won by defense timer" text="Nuestra facción ha sido victoriosa!" />
+	
+	<comment key="our base is under attack" text="%base_name esta bajo ataque!" />
+	<comment key="we are attacking a base" text="Nuestras fuerzas estan invadiendo %base_name" />
+	
+	<comment key="fighting near a base" text="Se ha iniciado una batalla cerca de %base_name" />
+	<comment key="fighting near a base" text="Refuerzos solicitados cerca de %base_name" />
+	<comment key="fighting near a base" text="Tiroteo detectado cerca de %base_name" />
+	
+	<comment key="defense timer started" text="%faction_name ha sitiado el area, %time_left segundos restantes!" />
+	<comment key="defense timer to go" text="%time_left segundos restantes!" />
+	
+   <!-- adventure mode -->
+	<comment key="guadalcanal, part 1" text="Atención soldados! El comandante desea hablar." />
+	<comment key="guadalcanal, part 2" text="Hemos bloqueado al enemigo en su injustamente adquirido aerodromo en %map_name." />
+	<comment key="guadalcanal, part 3" text="Su cobarde marina los ha abandonado, con solo unos pocos refuerzos." />
+	<comment key="guadalcanal, part 4" text="El objetivo es recuperar el aerodromo. Preparaos para atacar!" />
+	
+	<comment key="map start with 1 base, part 1" text="Atención soldados! El comandante desea hablar." />
+	<comment key="map start with 1 base, part 2" text="Como podeis ver, en este punto nos encontramos sobre la cuerda floja." />
+	<comment key="map start with 1 base, part 3" text="Hemos llegado con el tiempo justo para reforzar vuestra última posición." />
+	<comment key="map start with 1 base, part 4" text="Como sea, el enemigo duda de nuestra llegada, atacad!" />
+	
+	<comment key="uncapturable_last_base_end_timer, start" text="Hemos empujado al enemigo fuera de nuestro territorio, pero parece que intentaran recuperarlo." />
+	<comment key="uncapturable_last_base_end_timer, cancel" text="El enemigo ha capturado la base! No deben mantenerla!" />
+	
+	<comment key="map start with 1 base, capture" text="Ahora que nuestros refuerzos estan aqui, el objetivo es empujar el %faction_name fuera de %map_name completamente." />
+	<comment key="map start with 1 base, koth" text="Nuestro principal objetivo es tomar el control de %target_base_name y defenderlo." />
+	
+	<comment key="map advance, held by enemy" text="Nuestro oficial de inteligencia informa de que el %faction_name esta preparando una fuerza de desembarco en %map_name" />
+	<comment key="map advance, another enemy present" text="%faction_name también ha sido localizado en el area" />
+	<comment key="map advance, new map" text="Tenemos que reforzar sus defensas antes de que sean aniquilados!" />
+	<comment key="map advance, been there before" text="Aun controlamos %number_of_bases bases" />
+	<comment key="map advance, friendly map" text="%map_name esta ocupado por el %faction_name, han tenido demasiada paz ultimamente." />
+	
+	<comment key="final map, part 1" text="Atención soldados! El comandante desea hablar." />
+	<comment key="final map, part 2" text="Hemos defendido nuestra tierra, heróica y valerosamente." />
+	<comment key="final map, part 3" text="El enemigo ha pagado con sangre cada paso dado hacia nuestras islas." />
+	<comment key="final map, part 5" text="Ahora les devolveremos el favor, debemos invadir sus casas como ellos hicieron con nosotros!" />
+	<comment key="final map, part 6" text="Atacad al corazon y matad a la bestia!" />
+	<comment key="final map, part 7" text="Larga vida al emperador, adelante!" />
+	
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=ija_inf.call" text="Carga Banzai acercandose a %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_inf.call" text="No se dispone de puntos de despliegue, captura una base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle.call" text="Hago desplegado en %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle.call" text="No se dispone de puntos de despliegue, captura una base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle1.call" text="Ho-Ha desplegado en %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle1.call" text="No se dispone de puntos de despliegue, captura una base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle2.call" text="Ka-Tsu desplegado en %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle2.call" text="No se dispone de puntos de despliegue, captura una base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle_armoury_marine.call" text="Armería Type 4 Su-Ki desplegado en %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle_armoury_marine.call" text="No se dispone de puntos de despliegue, captura una base!" />
+	
+   <!-- character specific animation override table -->
+	
+</character>

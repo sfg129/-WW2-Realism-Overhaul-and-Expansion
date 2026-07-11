@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="mg34_hmg_resource.weapon" />
+	
+	<carry_item key='ww2_undead_axr_nachtjaeger.carry_item' enabled="1" />
+	
+	<weapon key="kar98k_rifle_grenade_at.weapon" />
+	<weapon key="panzerfaust.weapon" />
+	
+	<weapon key="p08.weapon" />
+	
+	<projectile key="stielhandgranate.projectile" />
+
+</resources>

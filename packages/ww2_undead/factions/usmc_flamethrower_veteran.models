@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!--ugh too much complexities, this file exists so I don't have to have a million more lines for each vest level..-->
+	<model filename="soldier_usmc_veteran_1.xml" /> 	
+</models>

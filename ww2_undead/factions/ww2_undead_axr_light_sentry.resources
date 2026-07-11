@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	
+	<weapon key="kar43_s.weapon" />				<!-- 0.085 -->
+	<weapon key="kar43_large_mag.weapon" />			<!-- 0.0675 -->
+	<weapon key="ppsh41.weapon" />				<!-- 0.19 -->
+	<weapon key="beretta_m38.weapon" />			<!-- 0.19 -->
+	<weapon key="stg44.weapon" />				<!-- 0.075 -->
+	<weapon key="stg44_s.weapon" />				<!-- 0.075 -->
+	<weapon key="stg44_n.weapon" />				<!-- 0.0175 -->
+	<weapon key="mg26t.weapon" />				<!-- 0.0675 -->
+
+	<weapon key="p08.weapon" />				<!-- 0.09 -->
+	<weapon key="p08_officer.weapon" />			<!-- 0.03 -->
+	<weapon key="c96_pistol.weapon" />			<!-- 0.06 -->
+	<weapon key="p08_carbine.weapon" />			<!-- 0.06 -->
+	<weapon key="mp40_folded.weapon" />			<!-- 0.04 -->
+	<weapon key="m712.weapon" />				<!-- 0.04 -->
+	<!--<weapon key="reichsrevolver.weapon" />-->		<!-- 0.4 -->		<!-- too common -->
+
+	<projectile key="stielhandgranate.projectile" />
+
+	<carry_item key='ww2_undead_axr_sentry.carry_item' enabled="1" />
+
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<translation>
+	<!-- we won't translate the Japanese ranks for now, keep them as it -->	
+	<text key="Nitohei" />
+	<text key="Ittohei" />
+	<text key="Gocho" />
+	<text key="Gunso" />
+	<text key="Socho" />
+	<text key="Jun-i" />
+	<text key="Rikugun-Shoi" />
+	<text key="Rikugun-Chui" />
+	<text key="Rikugun-Tai-i" />
+	<text key="Rikugun-Shosa" />
+	<text key="Rikugun-Chusa" />
+	<text key="Rikugun-Taisa" />
+	<text key="Rikugun-Shosho" />
+	<text key="Rikugun-Chujo" />
+	<text key="Rikugun-Taisho" />
+	<text key="Gensui-Rikugun-Taisho" />
+	<text key="Daigensui-Rikugun-Taisho" />
+
+<!-- start translating below -->
+    
+	<text key="Requesting Close Air Support" />
+	<text key="Rockets Advised" />
+	<text key="Precision Bombing" />
+	<text key="Copy, target in sight" />
+	<text key="rockets out." />
+	<text key="bombs away." />
+	<text key="Requesting Fire Support" />
+	<text key="Light Naval Guns, Saturation Bombardment" />
+	<text key="Heavy Naval Guns" />
+	<text key="Roger, wait three." />
+	<text key="Roger, guns rotating to target." />
+	<text key="Barrage under way." />
+	<text key="Shots out." />
+	<text key="Reinforcements - US Army Squad" />
+	<text key="Reinforcements - Banzai Charge" />
+	<text key="Requesting reinforcements, Army rifle squad" />
+	<text key="Requesting reinforcements, banzai charge!" />
+	<text key="Roger" />
+	<text key="US Army rifles deployed" />
+	<text key="Banzai charge deployed" />
+	<text key="Reinforcements - M3 Stuart Light Tank" />
+	<text key="Reinforcements - Type 95 Ha-Go Light Tank" />
+	<text key="Reinforcements - Type 1 Ho-Ha" />           
+	<text key="Reinforcements - LVT-4 Water Buffalo" />
+	<text key="Requesting reinforcements, M3 Stuart" />
+	<text key="Requesting reinforcements, Type 95 Ha-Go" />
+	<text key="Requesting reinforcements, Type 1 Ho-Ha" />   
+	<text key="Requesting reinforcements, LVT-4" />
+	<text key="Copy, loud and clear" />
+	<text key="M3 Stuart deployed" />
+	<text key="Type 95 Ha-Go deployed" />
+	<text key="LVT-4 deployed" />
+	<text key="Type 1 Ho-Ha deployed" />  
+	<text key="Requesting Fire Mission" />
+	<text key="Light Mortars" />
+	<text key="Heavy Rocket-Propelled Mortars" />
+	<text key="Roger, wait one." />
+	<text key="Roger, wait two." />
+	<text key="Rounds on the way." />
+	
+<!-- 1.70 -->
+	<text key="Reinforcements - Type 4 Ka-Tsu" />  
+	<text key="Requesting reinforcements, Type 4 Ka-Tsu" />  
+	<text key="Type 4 Ka-Tsu deployed" />  
+	
+	<text key="Type 4 Ka-Tsu" />  	
+	
+	<text key="5-Inch Gun" />
+	<text key="Anti-Aircraft Gun" text="Type 96 Anti-Aircraft Gun"/>
+	<text key="Bofors Gun" />
+	<text key="Type 95 Ha-Go" />
+	<text key="Type 1 Ho-Ha" />      
+	<text key="Heavy Mortar" />
+	<text key="Willys Jeep" />
+	<text key="Kurogane" />
+	<text key="Higgins Boat" />
+	<text key="Armory Higgins Boat" />  
+	<text key="Daihatsu" />
+	<text key="Armory Daihatsu" />  
+	<text key="LVT-4" />
+	<text key="M1919A4 HMG" />
+	<text key="M1919A6 LMG" />
+	<text key="Oerlikon Gun" />
+	<text key="Pillbox" />
+	<text key="Prison Building" />
+	<text key="Prison Hatch" />
+	<text key="PT Boat" />
+	<text key="M3 Stuart" />
+	<text key="Submarine" />
+	<text key="Type 92 HMG" />
+	<text key="Type 98 Autocannon" />
+	
+
+	
+	<text key="Type 96 AT/AA Gun" />
+	<text key="air strike bomb" />
+	<text key="air strike rocket" />
+	<text key="artillery shell" />
+	<text key="Type MO Carbine" />
+	<text key="Coastal Gun shell" />
+	<text key="Coastal Gun" />
+	<text key="Cover deploy" />
+	<text key="Demolition Charge" />
+	<text key="flamethrower" />
+	<text key="Type 95 Ha-Go cannon" />
+	<text key="Type 95 Ha-Go MG" />
+	<text key="Ho-Ha MG" /> 
+	<text key="Heavy Mortar shell" />
+	<text key="Higgins Boat MG" />
+	<text key="Type 94 shin gunto" />
+	<text key="LVT-4 .50 HMG" />
+	<text key="LVT-4 .30 HMG" />
+	<text key="M1 Bazooka" />
+	<text key="M1 Bazooka Rocket" />
+	<text key="M1 Carbine" />
+	<text key="M1 Garand" />
+	<text key="M1 Garand Bayonet" />
+	<text key="field-modified rifle grenade" />
+	<text key="M1 Garand Field-Modified Launcher" />
+	<text key="Scoped M1D Garand" text="Scoped M1C Garand"/>
+	<text key="M1A1 Thompson" />
+	<text key="M2 Carbine" />
+	<text key="M2 Flamethrower" />
+	<text key="M12 Trench gun" />
+	<text key="M12 Trench Gun Bayonet" />
+	<text key="M9 Anti-Tank Rifle Grenade" />
+	<text key="M1903A3" />
+	<text key="Scoped M1903A1" />
+	<text key="M1911A1" />
+	<text key="Officer's Engraved M1911A1" />
+	<text key="M1918A2 BAR" />
+	<text key="M1919A4 HMG" />
+	<text key="M1919A4 HMG deploy" />
+	<text key="M1928 Thompson" />
+	<text key="M1941 Johnson LMG" />
+	<text key="M1941 Johnson Rifle" />
+	<text key="MkII Grenade" />
+	<text key="Morphine" />
+	<text key="light mortar shell" />
+	<text key="Type STE" text="Type SU"/>
+	<text key="15-inch battleship shell" />
+	<text key="PT Boat dual .50 HMG" />
+	<text key="rocket mortar shell" />
+	<text key="Anti-Tank Satchel Charge" />
+	<text key="M3 Stuart cannon" />
+	<text key="M3 Stuart MG" />
+	<text key="Type 1 SMG" />
+	<text key="Type 4 Rifle" />
+	<text key="Type 4 rocket" />
+	<text key="type 4 rocket launcher" />
+	<text key="Type 11 LMG" />
+	<text key="Type 14 Nambu" />
+	<text key="Officer's Engraved Type 14 Nambu" />
+	<text key="Type 38" />
+	<text key="Type 2 Anti-Tank Rifle Grenade" />
+	<text key="Type 38 Bayonet" />
+	<text key="rifle grenade" />
+	<text key="Type 100 Grenade Discharger" />
+	<text key="Type 44 Folding Bayonet" />
+	<text key="Type 92 HMG" />
+	<text key="Type 92 HMG deploy" />
+	<text key="Type 93 Flamethrower" />
+	<text key="Type 96 LMG" />
+	<text key="Type 96 LMG Bayonet" />
+	<text key="Type 96 LMG Trench" />
+	<text key="Type 96 Trench" />
+	<text key="Type 97 Anti-Tank Rifle" />
+	<text key="Type 97 Grenade" />
+	<text key="Type 97 Sniper Rifle" />
+	<text key="Type 98 Autocannon" />
+	<text key="Type 98 AA deploy" />
+	<text key="Type 99 Magnetic AT" />
+	<text key="Type 99 LMG" />
+	<text key="Type 99 LMG Bayonet" />
+	<text key="Type 99" />
+	<text key="Type 99 Bayonet" />
+	<text key="Type 100/44" />
+	<text key="Type 100/44 Bayonet" />
+	<text key="Type 100 Folding Stock" />
+	<text key="Type 100" />
+  
+	<text key="Sniper Camouflage" text="Sniper Gear"/>
+	<text key="Sniper Camouflage, Severely Damaged" text="Sniper Gear, Severely Damaged"/>
+	<text key="Medal of Honor" />
+	<text key="Order of the Rising Sun" />
+	<text key="Photograph" />
+	<text key="Postcard" />
+	<text key="Record Player" />
+	<text key="Service Rum" />
+	<text key="Sake Bottle" />
+	<text key="Banzai Tenacity" text="Banzai Gear"/>
+	<text key="Veteran Durability" text="Veteran Gear"/> 
+	
+	<!--v1.64-->
+	<text key="Veteran Durability, Injured" text="Veteran Gear, Moderately Damaged"/>	
+	<text key="Sentry Body Armor" text="Sentry Gear"/>
+	<text key="Sentry Body Armor, Lightly Damaged" text="Sentry Gear, Lightly Damaged"/>
+	<text key="Sentry Body Armor, Moderately Damaged" text="Sentry Gear, Moderately Damaged"/>
+	<text key="Sentry Body Armor, Heavily Damaged" text="Sentry Gear, Heavily Damaged"/>
+	<text key="Sentry Body Armor, Severely Damaged" text="Sentry Gear, Severely Damaged"/>
+	<text key="B29 Turret" />
+	<text key="Type 4 Ka-Tsu" />
+	<text key="Daihatsu shield" />
+	<text key="B29 Double .50 HMG" />
+	<text key="B29 20mm" />
+	<text key="Type 98 LMG" />
+	<text key="Te-4 - Mobile" />
+	<text key="Ho-104 - Mobile" />
+
+	<!--v1.7-->
+	<text key="M1903A3 Bayonet" />		
+	<text key="Type I Carcano" />
+	<text key="Type I Carcano Bayonet" />
+	<text key="Type Hei Automatic Rifle" />
+	<text key="Type 93 HMG" />
+	<text key="M55 Reising" />
+	<text key="Type BE" /> 
+	<text key="Type BE Bayonet" />
+	<text key="Type 2 SMG" />
+	<text key="Type 99 Sniper Rifle" />
+	<text key="Mk3 Concussion Grenade" />
+	<text key="M55 Reising Folded" />
+	<text key="T22 Garand" />
+	<text key="M1921 Thompson w/ 100-round Drum" />
+	<text key="Type STE" text="Type SU"/>
+	<text key="M2 Carbine Bayonet" />
+	<text key="M1917 HMG - Mobile" />
+	<text key="ANM2 'Stinger'" />
+	
+	<!-- appended -->
+	<text key="Veteran Durability, Lightly Injured" text="Veteran Gear, Lightly Damaged"/>
+	<text key="Veteran Durability, Severely Injured" text="Veteran Gear, Severely Damaged"/>
+	<text key="Banzai Tenacity, Lightly Injured" text="Banzai Gear, Moderately Damaged"/>
+	<text key="Banzai Tenacity, Severely Injured" text="Banzai Gear, Severely Damaged"/>
+	<text key="M1 Thompson" />
+	<text key="M1918A2 BAR Rapid Fire" />
+	<text key="M1919A6 LMG - Mobile" />
+	<text key="Type STE Bayonet" text="Type SU Bayonet"/>
+	<text key="Type 100 Bayonet" />
+	<text key="large wrench" />
+	<text key="small wrench" />
+	<text key="Scoped Type 99 LMG" />	
+	
+	<!-- 1.87 -->
+	<text key="Reinforcements - Type 97 Chi-Ha Kai"/>
+	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai"/>
+	<text key="Type 97 Chi-Ha Kai deployed"/>
+	
+	<text key="Type 97 Chi-Ha Kai"/>
+	<text key="Fortified Turret"/>
+
+	<text key="M1 Garand w/ 60mm Launcher" text="M1 w/ 60mm Launcher - M49A2 HE"/>
+	<text key="M1 Garand w/ 60mm Launcher - M9 AT" text="M1 w/ 60mm Launcher - M9A1 AT"/>
+
+	<!-- 1.91 -->
+	<text key="Type 44 Carbine" />	<!-- accidently untranslated earlier -->
+	<!--<text key="Type 44 Carbine Bayonet" />-->	<!-- handled in Edelweiss translations so all good -->
+	<text key="Scoped M1941 Johnson Rifle" />
+	<text key="Type Ko" />
+	<text key="Type Ko Bayonet" />
+	<text key="Type 4 Rifle Bayonet" />
+	<text key="Type 100 Folding Bayonet" />
+
+	<!-- formerly missing -->
+	<text key="Type 2 AT Rifle Grenade" />
+	<text key="M9 AT Rifle Grenade" />
+	<text key="Type 99 - Hi-Grade" />
+	<text key="Type 99 - Hi-Grade Bayonet" />
+	<text key="Type 100 HE Grenade Discharger" />
+	<text key="M1928 Thompson w/ 50-round Drum" />
+
+	<!-- 1.98 -->
+	<text key="Type 4 Su-Ki Armory"/>
+	<text key="Reinforcements - Type 4 Su-Ki Armory"/>
+	<text key="Requesting reinforcements, Type 4 Su-Ki Armory"/>
+	<text key="Type 4 Su-Ki Armory deployed"/>
+
+	<text key="DUKW Armory"/>
+	<text key="Reinforcements - DUKW Armory"/>
+	<text key="Requesting reinforcements, DUKW Armory"/>
+	<text key="DUKW Armory deployed"/>
+		
+</translation>

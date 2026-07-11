@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="Reinforcements - Paratroopers" key="usf_para_e.call"
+	radio_view_text="Reinforcements - Paratrooper Squad" 
+	initiation_comment="Requesting reinforcements, paratroopers"
+	acknowledge_comment="Roger"
+	launch_comment="8 airborne"
+  notify_metagame="1"  >
+
+    
+    <round instances="4"
+           instance_class="soldier"
+	   instance_key="regular"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowC47Flyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="regular_medic"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="veteran_callin"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+    </round>
+
+   <round instances="2"
+           instance_class="soldier"
+	   instance_key="assault_callin"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+	<sound class="launch" fileref="mus_cue_call_in_usf_paratrooper_with_delay.wav" pitch_variety="0.0" />      
+    </round>
+
+    <hud_icon filename="hud_paratroopers2.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.15" />
+    <inventory encumbrance="0.0" price="250.0" />
+
+</call>

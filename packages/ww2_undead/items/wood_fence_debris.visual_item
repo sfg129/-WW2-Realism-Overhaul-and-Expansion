@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="wood_fence_debris.visual_item">
+    <model mesh_filename="wood_fence_debris.xml" />
+</visual_item>

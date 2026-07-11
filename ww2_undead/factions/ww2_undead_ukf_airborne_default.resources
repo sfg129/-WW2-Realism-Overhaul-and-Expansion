@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- for the time being, no vehicles at all	
+	<vehicle key="m4_V.vehicle" />
+	<vehicle key="m4_firefly.vehicle" />
+ 	<vehicle key="stuart.vehicle" />
+ 	<vehicle key="stuart_damaged.vehicle" />
+	<vehicle key="pillbox.vehicle" />
+	<vehicle key="vickers_hmg.vehicle" />
+	<vehicle key="landing_craft.vehicle" />
+	<vehicle key="landing_craft_noai.vehicle" />  
+	<vehicle key="armory_higgins.vehicle" />   
+	<vehicle key="jeep.vehicle" />
+	<vehicle key="willys_mb.vehicle" />
+	<vehicle key="universal_carrier.vehicle" />
+	<vehicle key="austin_k5.vehicle" />
+	<vehicle key="austin_k5_armoury.vehicle" />
+
+	<vehicle key="m3_halftrack.vehicle" />
+	--> 
+	
+	<vehicle key="usf_armoury_para.vehicle" />    
+
+	<call key="usf_para_e.call" />
+	<call key="ww2_undead_usf_para_armoury.call" />
+
+</resources>

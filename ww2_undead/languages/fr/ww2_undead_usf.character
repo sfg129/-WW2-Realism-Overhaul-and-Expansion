@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="usf.character">
+
+   <!-- commander comments -->
+	<comment key="we captured a base" text="Nous avons nettoyé %base_name !" />
+	<comment key="enemy captured a base" text="Ils ont conquis %base_name" />
+	<comment key="our base is under attack" text="Nous avons des informations sur l'ennemi qui attaquerait %base_name." />
+	<comment key="fighting near a base" text="Contact signalé près de %base_name" />
+	
+	<!-- adventure mode -->
+	<comment key="undead varsity intro pt 1" text="Attention, briefing du commandant" />
+	<comment key="undead varsity intro pt 2" text="La guerre semble terminée, mais les forces restantes de l'Axe ont trouvé un moyen de ressusciter les morts..." />
+	<comment key="undead varsity intro pt 3" text="Ils ne semblent pas faire la différence entre amis et ennemis. C'est le chaos là-dehors." />
+	<comment key="undead varsity intro pt 4" text="Nous pensons que les abominations surnaturelles peuvent être attribuées à un château voisin." />
+	<comment key="undead varsity intro pt 5" text="Explorez les bases voisines et cherchez un moyen d'ouvrir la porte du château !" />
+	
+	<comment key="undead swan intro pt 4" text="Nous pensons que les abominations surnaturelles peuvent être attribuées à un château voisin." />
+	<comment key="undead swan intro pt 5" text="Explorez les bases voisines et cherchez un moyen d'ouvrir la porte du château !" />
+
+	<comment key="undead varsity reminder" text="Rappel à toutes les troupes : explorez les bases voisines et cherchez un moyen d'ouvrir la porte du château !" />
+	<comment key="undead varsity reminder" text="Rappel à toutes les troupes : explorez les bases voisines et cherchez un moyen d'ouvrir la porte du château !" />
+
+	<comment key="undead varsity progress report pt 1" text="Bon boulot !" />
+	<!-- commander then reports some number like 3 things which remain, so he just says 3 from the script -->
+	<comment key="undead varsity progress report pt 2" text="%remaining_seals restants !" />
+	<comment key="undead varsity progress report pt 2 alt" text="%remaining_seals pentagrammes occultes restants !" />
+	<!-- alternatively commander might report some number like 3/10, showing a total, so he says 3/10 from script  -->
+	<comment key="undead varsity progress report pt 3" text="%completed_seals/%total_seals achevés !" />
+	<comment key="undead varsity progress report pt 3 alt" text="%completed_seals/%total_seals pentagrammes occultes achevés !" />
+
+	<comment key="undead varsity gate open pt 1" text="La porte du château est déverrouillée !!" />
+	<comment key="undead varsity gate open pt 2" text="Entrez et sécurisez le château !" />
+	<comment key="undead varsity gate open pt 3 reminder" text="La porte du château est déverrouillée, nettoyez l'enceinte et mettez fin au soulèvement !" />
+
+	<comment key="undead swan gate open pt 1" text="La porte du château est déverrouillée !!" />
+	<comment key="undead swan gate open pt 2" text="Entrez et sécurisez le château !" />
+	<comment key="undead swan gate open pt 3 reminder" text="La porte du château est déverrouillée, nettoyez l'enceinte et mettez fin au soulèvement !" />
+
+	<comment key="undead varsity boss dialogue 1" text="Le boss ennemi a été repéré ! Eliminez-le !" />
+	<comment key="undead varsity boss dialogue 2" text="Localisez le boss ennemi et éliminez-le !" />
+
+</character>

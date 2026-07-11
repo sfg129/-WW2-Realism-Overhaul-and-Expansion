@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	
+	<weapon key="kar43_large_mag.weapon" />
+	<weapon key="kar43_s.weapon" />
+	<weapon key="stg44.weapon" />
+	<weapon key="fg42_late.weapon" />
+	<weapon key="mg26t.weapon" />
+	<weapon key="m1_garand_large_mag.weapon" />
+	<weapon key="m1_garand_s.weapon" />
+	<weapon key="m1_garand_launcher.weapon" />
+	<!--<weapon key="m1928_thompson.weapon" />--> 	<!-- cut because can be briefcased -->
+	<!--<weapon key="m2_carbine.weapon" />--> 	<!-- cut because can be briefcased -->
+	<weapon key="m2_hyde.weapon" />
+	<weapon key="m1941_johnson_rifle.weapon" />
+	<weapon key="m12_trench_gun.weapon" />
+	<!--<weapon key="mp34_o.weapon" />--> 		<!-- cut because in regular crates -->
+	<!--<weapon key="m1928a1_thompson.weapon" />--> 	<!-- cut because can be briefcased -->
+	<weapon key="sterling_smg.weapon" />
+	<weapon key="vickers_minibipod.weapon" />
+	<weapon key="lanchester_smg.weapon" />
+	<weapon key="enfield_p14_s.weapon" />
+	<weapon key="boys_at_rifle.weapon" />
+	<weapon key="type2_model_b_machinepistol.weapon" />
+	<weapon key="type2_machinepistol.weapon" />
+	<weapon key="type4_garand.weapon" />
+	<weapon key="type11_lmg.weapon" />
+	<weapon key="type99_rifle_s.weapon" />
+	<weapon key="type99_lmg_s.weapon" />
+	<weapon key="type97_at_rifle.weapon" />
+	<weapon key="type_be.weapon" />
+	<weapon key="kar98k_elite.weapon" />
+	<weapon key="m2_flamethrower.weapon" />
+	<weapon key="type93_flamethrower.weapon" />
+	<weapon key="type99_rifle_elite.weapon" />
+	<weapon key="m1_thompson.weapon" />
+	<weapon key="m1918_bar_rapid_fire.weapon" />
+	<weapon key="kar98k_small_optic.weapon" />
+	<weapon key="type_ko_rifle.weapon" />
+	<weapon key="m1941_johnson_rifle_s.weapon" />
+	<weapon key="flammenwerfer_41.weapon" />
+
+
+</resources>

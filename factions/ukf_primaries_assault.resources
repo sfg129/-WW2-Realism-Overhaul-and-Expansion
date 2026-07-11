@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="smle_no4_mki_b_ai.weapon" />
+	<weapon key="sten_mkii.weapon" />
+
+	<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="lanchester_smg_b_ai.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+<weapon key="m1928_thompson_mag.weapon" />
+<weapon key="m1928a1_thompson_drum.weapon" />
+</resources>

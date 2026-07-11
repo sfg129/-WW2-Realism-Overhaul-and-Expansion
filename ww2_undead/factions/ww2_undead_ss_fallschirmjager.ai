@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+
+  <parameter class="willingness_to_charge" value="0.0" />	<!-- was 1.0 but decided to remove -->
+  
+</ai>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call 
+	key="wh_vehicle_stug.call" 
+	radio_view_text="Reinforcements - StuG III" 
+	initiation_comment="Requesting reinforcements, StuG III" 
+	acknowledge_comment="Copy, loud and clear" 
+	notify_metagame="1" consume_rp="0" show_target_marker="0">
+	
+		<tag name="reinforcements" />
+		<hud_icon filename="hud_stug_iii.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="100" source="rank" source_value="0.4" />
+		<inventory encumbrance="0.0" price="1000" />
+		
+	</call>
+  
+	<call key="wh_vehicle_stug_spawn.call" acknowledge_time="0.0" launch_comment="StuG III deployed">
+		<round 
+		instances="1" 
+		instance_class="vehicle" 
+		instance_key="stug_iii.vehicle" 
+		instance_spread="3 0 3" 
+		common_spread="0 0 0" 
+		launch_time="7.5" 
+		spawn_time="10.0" 
+		horizontal_offset_at_spawn="0.0" 
+		vertical_offset_at_spawn="0.0" 
+		initial_speed_to_target="0.0">
+		</round>
+		
+		<inventory encumbrance="0.0" price="1000" />
+		
+	</call>
+	
+</calls>

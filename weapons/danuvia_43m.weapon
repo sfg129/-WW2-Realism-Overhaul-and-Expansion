@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="danuvia_43m.weapon" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="60.0">
+
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.095" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.2" 
+	sustained_fire_diminish_rate="1.8"
+	magazine_size="40" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Danuvia 43M" 
+	class="0" 
+	projectile_speed="110"
+	slot="0"
+	barrel_offset="0.3" 
+	/>
+
+	<!-- this weapon is very similar to the Beretta 38, except it features a folding stock. -->
+	<!-- this stock can be toggled. -->
+	<!-- folding the weapon will reduce its backpack weight and increase its mobility and moving-accuracy. -->
+
+
+		<!-- <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" /> -->
+
+
+	<!-- simple SMG sight -->
+ 
+	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
+
+
+	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
+
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, stick smg" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, stick smg, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="weapon_smg_danuvia_43m.wav" pitch_variety="0.04" volume="1.5"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	
+	<model filename="weapon_danuvia_43m_stock_out.xml" />
+	<hud_icon filename="hud_danuvia43m_folding.png" />
+
+	<commonness value="0.05" can_respawn_with="1"/>
+	<inventory encumbrance="5.0" price="200.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.785"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+	
+</weapon>

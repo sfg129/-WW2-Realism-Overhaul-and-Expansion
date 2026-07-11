@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="g41w_b.weapon">
+
+	<tag name="has_bayonet" />
+	
+	<access_tag name="edelweiss" />
+
+	<specification 
+retrigger_time="0.275"
+	accuracy_factor="0.975" 
+	spread_range="0.3"
+	sustained_fire_grow_step="1.2" 
+	sustained_fire_diminish_rate="2.5"
+	stance_accuracy_rate="1.5"
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Gewehr 41 Bayonet" 
+	class="4" 
+	reload_one_at_a_time="1" 
+	burst_shots="1"
+	projectile_speed="130.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+    stab_enabled="1"
+    stab_range="3.25"
+	/>
+
+	<!-- the G 41 (walther version) was not an exceptional semi-automatic rifle, but it mostly worked, and reliability was not horrid, if not great either -->
+	<!-- approx. 91,500 were made in 1943, whereas only 3,200 Gewehr 43s were made that year. a total of nearly 130,000 G41(w) were built, so it definitely saw use -->
+	<!-- the barrel's gas trap added considerable weight to the front end of the weapon, making it challenging to fire accurately from a standing posture -->
+	<!-- this would technically not be a huge issue since long-range firing is never done from standing anyways, but also made shouldering it slower -->
+	<!-- reloading could only be done with two stripper-clips instead of box magazines, which took slightly more time -->
+	<!-- recoil was more harsh than the G 43 due to the forces captured in the gas trap -->
+	<!-- these downsides are all simulated in game using existing systems.. -->
+	<!-- we're also considering the G 41 to be firing early-war 8mm Mauser, which was a heavier bullet of lower velocity -->
+	<!-- because we won't have a Gewehr 41 (mauser version) and because it looks more concise, there is no (w) in the in-game weapon title -->
+	<!-- essentially in game balance it is mostly a downgrade from the G 43, but unlike it, can attach a bayonet -->
+
+	<!-- standing accuracy inferior due to heavier muzzle trap and overall greater weight -->
+	<stance state_key="standing" accuracy="0.95" />
+
+	<next_in_chain key="g41w.weapon" share_ammo="1" />
+	<stance state_key="prone" accuracy="0.96" /> 
+	<stance state_key="over_wall" accuracy="0.96" />
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation state_key="reload" animation_key="reloading, enfield" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, enfield, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+		
+	<sound key="fire" fileref="weapon_rifle_g41.wav" pitch_variety="0.05" volume="2.35"/>
+    <sound key="reload_one" fileref="sniper_clip_in.wav" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	
+	<model filename="weapon_g41_b.xml" />
+	<hud_icon filename="hud_g41_b.png" />
+	
+	<commonness value="0.04" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="10.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5"
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="danuvia_43m_folded.weapon" time_to_live_out_in_the_open="120.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="60.0">
+	<tag name="has_bayonet" />
+
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.095" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.2" 
+	sustained_fire_diminish_rate="1.4"
+	magazine_size="40" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Danuvia 43M Folded" 
+	class="0" 
+	projectile_speed="110"
+	slot="1"
+	barrel_offset="0.3" 
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+
+	<!-- this weapon is very similar to the Beretta 38, except it features a folding stock. -->
+	<!-- this stock can be toggled. -->
+	<!-- folding the weapon will reduce its backpack weight and increase its mobility. -->
+
+
+		<!-- <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" /> -->
+
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+
+	<!-- simple SMG sight -->
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="over_wall" accuracy="0.95" />    
+
+	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
+
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, stick smg" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, stick smg, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="weapon_smg_danuvia_43m.wav" pitch_variety="0.04" volume="1.5"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	
+	<model filename="weapon_danuvia_43m_folded.xml" />
+	<hud_icon filename="hud_danuvia43m_bayonet_folded.png" />
+
+	<commonness value="0.05" can_respawn_with="1" in_stock="1"/>
+	<inventory encumbrance="3.0" price="200.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.775"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+	
+</weapon>

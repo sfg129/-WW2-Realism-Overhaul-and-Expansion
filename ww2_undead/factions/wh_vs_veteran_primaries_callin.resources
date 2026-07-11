@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+
+	<weapon key="kar98k_b.weapon" />
+	<weapon key="kar43.weapon" />
+	<weapon key="mp40.weapon" />
+	<weapon key="mg34.weapon" />
+	<weapon key="mg42.weapon" />
+
+	<weapon key="kar98k_rifle_grenade_he.weapon" />
+
+	<weapon key="mp34_o.weapon" />
+	<weapon key="mp34_o_b.weapon" />
+	<weapon key="stg44.weapon" />
+
+	<weapon key="kar43_large_mag.weapon" />
+	<weapon key="mg26t.weapon" />
+	<weapon key="danuvia_43m.weapon" />
+	<weapon key="ppsh41.weapon" />
+	<weapon key="beretta_m38.weapon" />
+	<weapon key="mg34_extended_belt_ai.weapon" />
+	<weapon key="mg42_extended_belt_ai.weapon" />
+
+</resources>

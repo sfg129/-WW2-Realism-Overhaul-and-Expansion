@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+	
+	<!-- Common -->
+	<weapon file="medikit.weapon" />
+	<weapon file="morphine.weapon" />
+	<weapon file="cover_resource.weapon"/>
+	<weapon file="wrench.weapon"/>
+	<weapon file="wrench_small.weapon">
+		<commonness value="0.0" in_stock="1" />  
+		<capacity source="rank" source_value="0.0" value="4" />
+  	</weapon>
+	<weapon file="binoculars.weapon" />
+	<weapon file="cover_resource.weapon" />
+	<weapon file="type98_resource.weapon" />
+	<weapon file="heavy_mortar.weapon" /> 
+	<weapon file="aa_gun.weapon" />
+	<weapon file="coastal_gun.weapon" />
+	<weapon file="oerlikon.weapon" />
+	<weapon file="type98.weapon" />
+	<weapon file="bofors_gun.weapon" />
+	<weapon file="pt_boat_mg.weapon" />
+	<weapon file="pt_boat_shield.weapon" />
+	<weapon file="daihatsu_shield.weapon" />
+	<weapon file="5inch_gun.weapon" />
+	<weapon file="lvt4_m2.weapon" />
+	<weapon file="lvt4_m1919.weapon" />
+	<weapon file="hoha_mg.weapon" />
+	<weapon file="hoha_shield.weapon" /> 
+	<weapon file="katsu_mg.weapon" />
+	<weapon file="katsu_shield.weapon" /> 
+	<weapon file="b29_turret.weapon" />
+	<weapon file="b29_turret2.weapon" />
+	<weapon file="b29_turret_20mm.weapon" />
+	<weapon file="b29_blank.weapon" />
+	
+	<!-- Rares -->
+	<weapon file="m2_carbine.weapon" />
+	<weapon file="m2_carbine_b.weapon" />
+	<weapon file="m1_garand_s.weapon" />
+	<weapon file="m1928_thompson.weapon" />
+	<weapon file="m1928_thompson_large_drum.weapon" />
+	<weapon file="m1941_johnson_lmg.weapon" />
+	<weapon file="m1941_johnson_rifle.weapon" />
+	<weapon file="type2_machinepistol.weapon" />
+	<weapon file="type4_rocket_launcher.weapon" />
+	<weapon file="type4_garand.weapon" />
+	<weapon file="type11_lmg.weapon" />
+	<weapon file="type100_44_smg_b.weapon" />
+	<weapon file="type96_lmg_shield_scope.weapon" />
+	<weapon file="type97_at_rifle.weapon" />
+	<weapon file="stinger.weapon" />
+	<weapon file="ho104_hmg_assault.weapon" />
+	<weapon file="m1917_hmg_assault.weapon" />
+	<weapon file="te4_lmg.weapon" />
+	<!--<weapon file="type_hei_automatic_rifle.weapon" />-->
+	<weapon file="type99_lmg_s.weapon" />
+	<weapon file="m1919_lmg_assault.weapon" />
+	<weapon file="m1_garand_large_mag.weapon" />
+
+	
+	<!-- United States Marine Corp --> 
+	<weapon file="m1_carbine.weapon" />
+	<weapon file="m1_garand.weapon" />
+	<weapon file="m1_thompson.weapon" />
+	<weapon file="m1a1_thompson.weapon" />
+	<weapon file="m1903_rifle.weapon" />
+	<weapon file="m1903_rifle_s.weapon" />
+	<weapon file="m12_trench_gun.weapon" />
+	<weapon file="m1911.weapon" />
+	<weapon file="m1911_officer.weapon" />
+	<weapon file="m1918_bar.weapon" />
+	<weapon file="m1919_lmg.weapon" />
+	
+	<weapon file="m1917_hmg_assault.weapon" />
+	
+	<weapon file="m2_flamethrower.weapon" />
+	
+	<weapon file="stuart_cannon.weapon" />
+	<weapon file="stuart_mg.weapon" />
+	<weapon file="higgins_mg.weapon" />
+	<weapon file="m1919_hmg.weapon" />
+	<weapon file="m1919_hmg_resource.weapon" />
+	
+	<weapon file="m1_garand_b.weapon" />
+	<weapon file="m12_trench_gun_b.weapon" />
+	
+	<weapon file="m1_garand_launcher.weapon" />
+	<weapon file="m1903_at_launcher.weapon" />
+	<weapon file="m1_bazooka.weapon" />
+	
+	<!-- Imperial Japanese Army -->
+	
+	<weapon file="c96.weapon" />
+	<weapon file="type100_folding.weapon" />
+	<weapon file="mp34.weapon" />
+	<weapon file="type14_nambu_pistol.weapon" />
+	<weapon file="type14_nambu_pistol_officer.weapon" />
+	<weapon file="type38_rifle.weapon" />
+	<weapon file="type44_carbine.weapon" />
+	<weapon file="type96_lmg.weapon" />
+	<weapon file="type97_s.weapon" />
+	
+	<weapon file="type99_lmg.weapon" />
+	<weapon file="type99_rifle.weapon" />
+	<weapon file="type100_smg.weapon" />
+	<weapon file="type100_44_smg.weapon" />
+	<weapon file="type38_rifle_launcher.weapon" />
+	
+	<weapon file="type93_flamethrower.weapon" />
+	
+	<weapon file="hago_cannon.weapon" />
+	<weapon file="hago_mg.weapon" />
+	<weapon file="type92_hmg.weapon" />
+	<weapon file="type92_hmg_resource.weapon" />
+	<weapon file="type38_rifle_at_launcher.weapon" />
+	
+	<weapon file="katana.weapon" />
+	<weapon file="type38_rifle_b.weapon" />
+	<weapon file="type99_rifle_b.weapon" />
+	<weapon file="type96_lmg_b.weapon" />
+	<weapon file="type99_lmg_b.weapon" />
+	<weapon file="type98_lmg_mg15.weapon" />
+	
+</weapons>

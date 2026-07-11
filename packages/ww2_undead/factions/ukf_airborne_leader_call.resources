@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	
+	<call key="mortar.call" />
+ 	<call key="airstrike7.call" />
+	<call key="airstrike6.call" />
+	<call key="airstrike.call" />
+	<call key="airstrike1.call" />
+	<call key="ukf_para_no_parachuting_ai.call" />
+	<call key="usf_vehicle.call" />
+
+	<call key="vehicle_stuart_recce.call" />
+	<call key="usmc_vehicle.call" />
+	<call key="vehicle_m3_mortar.call" />
+	<call key="ukf_vehicle_un.call" />
+	<call key="ukf_vehicle_un_b.call" />
+	<call key="ukf_vehicle_m4_sherman_v.call" />
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Eine Pillbox kann leicht zerstört werden durch gezieltes Bombardieren oder Sprengladungen"/>
+    <text key="Hint" text="Zu viel Last im Rucksack mindert die Treffgenauigkeit drastisch"/> 
+    <text key="Hint" text="Einen Hechtsprung durchzuführen, um einer Granate zu entkommen, kann dir das Leben retten"/> 
+    <text key="Hint" text="Einen Gegner zu messern gibt dir deutlich mehr XP als ihn mit einer Feuerwaffe zu erschiessen"/> 
+    <text key="Hint" text="Das Fadenkreuz gibt eine gute Einschätzung der Genauigkeit, aber die Mündungsgeschwindigkeit der Waffe hat einen zusätzlichen Einfluss, wenn die Reichweite zunimmt"/> 
+    <text key="Hint" text="Eine Basis einzunehmen erfordert eine 2/3-Mehrheit von Truppen, um den Zähler zu aktivieren"/> 
+    <text key="Hint" text="Leichte Maschinengewehre werden am besten im liegen oder über einer Deckung abgefeuert"/> 
+    <text key="Hint" text="Aktenkoffer in der Waffenkammer zu verkaufen schaltet spezielle Waffen frei"/> 
+    <text key="Hint" text="Gewehre sind tödlich und genau, aber feuern langsam. Seien Sie vorsichtig, wenn Sie im Nahkampf gegen bessere bewaffnete Feinde kämpfen"/>
+    <text key="Hint" text="Scharfschützengewehre eignen sich hervorragend, um feindliche Maschinengewehrschützen aus sicherer Entfernung auszuschalten"/> 
+<!--    <text key="Hint" text="Scharfschützengewehre haben eine perfekte Genauigkeit, wenn sie hocken, sich hinlegen oder über Deckung schiessen"/>  -->
+    <text key="Hint" text="Wertobjekte, die von Soldaten fallen gelassen werden, können im persönlichen Lagerraum abgelegt werden, um später verkauft zu werden"/> 
+<!--    <text key="Hint" text="Maschinenpistolen sind einmalig im Nahkampf und im Offensivkampf, leider aber an geringer Genauigkeit und Schaden in der Entfernung"/> -->
+    <text key="Hint" text="Im Allgemeinen, je schwerer die Waffe, desto niedriger ist deine Bewegungsgeschwindigkeit"/>
+<!--    <text key="Hint" text="Flammenwerfer zeichnen sich durch das Beseitigen von Stützpunkte und gute verteidigte Stellungen aus"/>
+    <text key="Hint" text="Die Typ 97 Granate hat eine kurze 3-Sekunden Zündungszeit, hat aber auch eine reduzierte Wirkungsfläche"/>            
+    <text key="Hint" text="Bajonetten können aus einem Weitschussgewehr eine starke und tödliche Nahkampfwaffe machen"/>         
+    <text key="Hint" text="Der Preis einer Waffe ist oft ein guter Schätzwert sowohl hinsichtlich seiner Seltenheit als auch seiner Kampfwirksamkeit"/>       
+    <text key="Hint" text="Ferngläser sind ein grossartiges Werkzeug für hochrangige Offiziere; es erlaubt ihnen Truppen und Artillerieschläge an entferntere Orte zu befehlen"/>       
+    <text key="Hint" text="Die Typ STE (MP-34) diente als Maschinenpistole des IJA am Anfang des WW2, sie ist ausgewogen und bringt eine moderate Durchschlagskraft mit sich"/>       
+    <text key="Hint" text="Die Maschinenpistole Typ 100 leidet an niedrigem Schaden und Feuerrate, wird aber oft mit einem Zweibein ausgestattet was die Handhabung im liegen oder hinter einer Deckung verbessert"/>       
+    <text key="Hint" text="Die Maschinenpistole Typ 100/44 wurde später im Krieg eingesetzt. Sie besitzt eine höhere Feuerrate als das Vorgängermodell"/>       
+    <text key="Hint" text="Die Maschinenpistole M1A1 Thompson hat eine gute Durchschlagskraft sowie eine gute Feuerrate, dafür aber einen höheren Rückstoss als die Konkurrenz"/>       
+    <text key="Hint" text="Die Maschinenpistole M1928 Thompson ist mit einem 50-Schuss Trommelmagazin ausgestattet, sowie einen senkrechten Griff mit Kompensator für weniger Rückstoss"/>       
+    <text key="Hint" text="Die Pistole M1911 ist leistungsstark und zuverlässig im Nahkampf"/>    
+    <text key="Hint" text="Die Pistole Typ 14 Nambu ist relativ schwach aber kann schnell schiessen, wodurch sie gut als günstige Selbstverteidigungswaffe dienen kann"/>
+    <text key="Hint" text="Der M1 Karabiner ist leicht genug um als Sekundärwaffe getragen zu werden. Er ist effektiv bei mittleren Reichweiten im freihändigen Schiessen"/>
+    <text key="Hint" text="Der Karabiner Typ MO (Mauser C96) wird von der IJA verwendet und ist leicht genug um als Sekundärwaffe benutzt zu werden" />
+    <text key="Hint" text="Der Typ 38 dient als klassiches Repertiergewehr am Anfang des Krieges. Er ist nicht so leistungsstark wie die Konkurrenz, dafür sehr genau und mit wenig Rückstosse"/>
+    <text key="Hint" text="Das Gewehr Typ 99 wurde häufiger gegen Ende des Krieges eingesetzt, um den Typ 38 abzulösen. Hat eine höhere Durschlagskraft"/>
+    <text key="Hint" text="Der Kavalerie-Karabiner Typ 44 wurde bereits 1912 eingesetzt, entwickelt als eine kürzere Version des Typ 38. Ist mit einem Bajonett ausgestattet"/>
+    <text key="Hint" text="Das Repertiergewehr M1903A3 Springfield wurde am Anfang des Krieges eingesetzt, wurde später durch das M1 Garant ersetzt. Es ist durschlagskräftiger und präziser"/>
+    <text key="Hint" text="Das Selbstladegewehr M1 Garand ist durschlagskräftig und zuverlässig, wurde schnell zum Standardgewehr des USMC, den M1903 Springfield ersetzend"/>   
+    <text key="Hint" text="Das Typ 4 war ein experimentelles Selbstladegewehr und eine Kopie des M1 Garand, das während der Kämpfe erbeutet worden war. Besitzt ein 10-Schuss Magazin"/>   
+    <text key="Hint" text="Das M1941 Johnson ist ein seltenes Selbstladegewehr, ausgestattet mit einem 10-Schuss Magazin und einer bemerkenswerten Präzision"/>   
+    <text key="Hint" text="Der Karabiner M2 ist eine seltene Waffe, und anders als beim M1 als Primärwaffe im Einsatz - Ausgestattet durch eine 30-Schuss Magazin und vollautomatisches Feuer"/>   
+    <text key="Hint" text="Das Scharfschützengewehr M1903A1 ist effektiv um Maschinengewehr-Schützen und statische Feinde aus grosser Entfernung auszuschalten"/>   
+    <text key="Hint" text="Der M1 Garand hat eine seltene Variante mit Zielfernrohr, die die hohe Reichweite des M1903A4 mit einer höheren Feuerrate kombiniert"/>   
+    <text key="Hint" text="Das Scharfschützengewehr Typ 97 basiert auf das Typ 38 Gewehr. Anders als beim M1903A4, kann dieser mit hilfe von Clips schneller nachgeladen werden"/>   
+    <text key="Hint" text="Die Typ 97 Panzerbüchse war eine durschlagskräftige halb-automatische 20mm Waffe, aber extrem schwer und mit durchwachsener Präzision"/>   
+    <text key="Hint" text="Die M12 Repetierflinte ist eine tödliche Waffe im Nahkampf, hervorragend um Schützengräben zu neutralisieren. Leidet jedoch an einer niedrigen Munitionskapazität"/>   
+    <text key="Hint" text="Die M1918A2 BAR ist eine Weiterentwicklung seiner WW1-Ära Version, ausgestattet mit einem Zweibein und einem Feuerratenumschalthebel"/>
+    <text key="Hint" text="Die M1918A2 BAR ist leicht genug um aus der Hocke zu feuern, jedoch effizienter im liegen oder von hinter einer Deckung"/>   
+    <text key="Hint" text="Das leichte MG M1919A6 ist eine Verbesserung gegenüber älteren Modellen, entwickelt als Antwort zu den deutschen mehrzweck MGs"/>   
+    <text key="Hint" text="Das leichte MG M1919A6 ist in der Lage tödliche Feuerstosse abzufeuern, kann jedoch nur auf Zweibein operieren - liegend oder hinter einer Deckung"/>   
+    <text key="Hint" text="The Stinger is a modified aircraft-grade M1919A4 MG with a buttstock and bipod - and an extreme rate of fire."/>
+    <text key="Hint" text="Das leichte MG Typ 11 ist überholt, bleibt jedoch tötlich und präzise. Sein Hauptnachteil ist das langsame Nachladen von Patronen-Clips"/>   
+    <text key="Hint" text="Das leichte MG Typ 96 dient als klassische Unterstützungs-MG, mit exzellenter Handhabung und ziemlich guter Präzision, jedoch nicht so hohe Feuerkraft wie die Konkurrenz"/>   
+    <text key="Hint" text="Das leichte MG Typ 99 ist die modernste Unterstützungs-MG des IJA. Sie hat eine erhöhte Feuerrate und verfügte über durchschlagsstärkere Munition"/>   
+    <text key="Hint" text="Das leichte MG M1941 Johnson ist der BAR als Squad Unterstützungswaffe, verfügt jedoch über eine höhere Feuerrate"/>   
+    <text key="Hint" text="Der M2 ist der standard Flammenwerfer  des USMC, ist mit einem Regulator ausgestattet für eine bessere Handhabung und Lebensdauer"/>   
+    <text key="Hint" text="Der Flammenwerfer Typ 93 basiert auf einem europäischen Design und wird vom IJA eingesetzt"/>   
+    <text key="Hint" text="Der Granatenwerfer Typ 100 ist ein Gewehr Typ 38 mit becherförmigen Aufsatz, der an einem kurzen Rohr befestigt ist und herkömmliche Granaten abfeuern kann"/>   
+    <text key="Hint" text="Die M1 Bazooka ist die erste reaktive Panzerbüchse. Sie feuert 60mm-Raketen die leichte Panzer und Befestigungen zerstören können"/>   
+    <text key="Hint" text="Der Raketenwerfer Typ 4 wurde gegen Ende des Krieges entwickelt, um das japanische Inland zu verteidigen. Er funktioniert ähnlich dem M1 Bazooka"/>   
+    <text key="Hint" text="Die M9 AT Gewehrgranate kann aus einem M1 Granatenwerfer abgefeuert werden, der an einem M1903 angebracht ist. Kann es mit leichte Panzer aufnehmen"/>   
+    <text key="Hint" text="Das PT-Boot ist hervorragend um Feuerunterstütztung an einem Landekopf durch sein breites Waffenarsenal zu geben"/>   
+    <text key="Hint" text="Das Typ 100 hat eine Variante mit Klappschaft als seltene Waffe für Fallschirmjäger vorgesehen. Er ist kompakt genug, um als Sekundärwaffe mitgetragen zu werden"/>
+    <text key="Hint" text="Die Typ 1 ist eine sehr seltene Maschinenpistole, die vor dem Krieg entwickelt worden ist. Sie wurde von den amerikanischen Soldaten 'Bullpup' genannt"/>       
+    <text key="Hint" text="Die Typ 1 hat ein grosses 50-Schuss Magazin und hohe Feuerrate, was sie aus der Nähe besonders tödlich macht"/>   -->
+    <text key="Hint" text="Die Landungsboote haben aktive Spawnpunkte, solange kein Gegner sich in unmittelbarer Nähe befindet"/>   
+    <text key="Hint" text="Der Gegner verfügt manchmal über FLAKs - zerstört sie, um Zugang zur Luftunterstützung zu bekommen!"/>
+    <text key="Hint" text="Der Gegner verfügt manchmal über Küstengeschütze - zerstört sie, um Zugang zur Marinefeuerunterstützung zu bekommen!"/>
+    <text key="Hint" text="Waffenkammern sehen anders aus als in Vanilla - sie ähneln kleinen Hangars"/>
+    <text key="Hint" text="Seid auf der Hut gegenüber feindlichen Veteranen - sie sind zäher und besser bewaffnet"/>
+    <text key="Hint" text="Wenn eine Landung sich als schwer erweist, unterstützt diese mit den Bordgeschützen der Marine!"/>
+    <text key="Hint" text="Es gibt Waffenkammern und Stauräume auf Flugzeuträgern und Angriffsschiffe. Vergewissern Sie sich ihre Lage zu erkunden!"/>
+    <text key="Hint" text="Banzai-Attacken sind grausame Angriffstruppen, die auf die Gegner zurennen ohne Rücksicht auf Verlust. Sie sind zäh und gehen nie in Deckung"/>
+    <text key="Hint" text="Banzai-Attacken werden von einem Offizier begleitet, der sie heroisch, selbstmörderisch und nur mit Hilfe eines Katana-Schwertes in den Kampf leitet"/>
+    <text key="Hint" text="Die Flammenwerfer Einheiten sind widerstandfähig gegen schwächere Feuerwaffen, jedoch anfällig gegen Explosive und Granaten"/>
+        <!-- added 20/09 -->
+    <text key="Hint" text="Zerstöre jede mögliche feindliche Struktur, um die Anzahl der Feinde zu reduzieren"/>      
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Während die meisten Raketenwerfer ähnliche Leistungen erbringen, tauschen einige die Geschwindigkeit gegen einen stärkeren Sprengkopf."/>   
+    <text key="Hint" text="Sie können Fahrzeuge mit einem Schraubenschlüssel reparieren, indem Sie ihn ausrüsten, sich nahe an das Fahrzeug stellen und die 'Angreifen'-Taste gedrückt halten,%EOLbis Sie fertig sind. Und Sie können mehrere Schraubenschlüssel tragen!"/>   
+	<text key="Hint" text="Das Stehlen von mittleren und schweren Panzern ist in den WW2 DLCs nicht möglich."/>   
+	<text key="Hint" text="Bajonette vergrössern die Nahkampfreichweite auf Kosten der Genauigkeit von Distanzschüssen,%EOLaufgrund des zusätzlichen Gewichts im vorderen Teil der Waffe."/>
+    <text key="Hint" text="Panzer, Halbkettenfahrzeuge und manche leichten Fahrzeuge sind in der Lage, die meisten Zäune in den WW2 DLC Karten zu durchbrechen."/>   
+    <text key="Hint" text="Über den Verkaufswert einer Waffe lassen sich ihre Seltenheit und ihre Kampfstärke häufig gut einschätzen."/>       
+    <text key="Hint" text="In Missionen, in denen Ihre Seite grossangelegte Luft-Landeoperationen durchführt,%EOLkönnen Sie nach dem Sterben die Karte aufrufen und hinter den feindlichen Linien respawnen."/>   
+    <text key="Hint" text="Panzerbrechende Gewehrgranaten haben unendlich viel Munition aber verursachen nur wenig Schaden. %EOLSie sind als langfristiges Mittel zur Panzerabwehr geeignet, können aber im Eifer des Gefechts nur wenig ausrichten."/>   
+    <text key="Hint" text="Manche Panzerabwehrhandgranaten explodieren beim Aufprall, während andere am Ziel haften bleiben und nach einigen Sekunden explodieren."/>   
+    <text key="Hint" text="Funkstörsender, Küstengeschütze und Luftabwehrgeschütze blockieren bestimmte Call-ins.%EOLZerstöre sie für eine Belohnung und um Power Support Fire rufen zu können!"/>   
+    <text key="Hint" text="In bestimmten Missionen ist es nicht möglich, Luftunterstützung oder Fallschirmjäger anzufordern, z. B. bei Schneewetter in Bastogne."/> 
+    <text key="Hint" text="Bestimmte feindliche Assets wie Wassertürme oder angedockte U-Boote bieten grosse XP- und RP-Belohnungen für ihre Zerstörung."/>   
+    <text key="Hint" text="Panzerabwehrkanonen, obwohl nur in bestimmten Missionen anzutreffen, tun, was sie sagen - und zeichnen sich dadurch aus. Seien Sie gewarnt!"/>   
+    <text key="Hint" text="Scharfschützengewehre erweitern Ihren Sichtradius, während Sie still stehen, erholen sich jedoch langsamer vom Rückstoss."/> 
+    <text key="Hint" text="Karabiner bieten eine für Kurzwaffen ordentliche Leistung für Distanzschüsse,%EOLverursachen auf kurze Distanz aber oft weniger Schaden als Pistolen."/>
+    <text key="Hint" text="Mittlere MGs bieten normalerweise viel Feuerkraft mit grosser Reichweite.%EOLDa sie jedoch nur in Bauchlage oder über Deckung abgefeuert werden können, eignen sie sich besser zur Verteidigung."/>
+    <text key="Hint" text="Waffen mit zwei Punkten unterhalb ihres Symbols bieten einen alternativen Modus (siehe Steuerung).%EOLBei vielen Waffen wird dabei das Bajonett auf oder abgepflanzt."/>
+    <text key="Hint" text="Maschinenpistolen sind in Nahkämpfen und beim Feuern in Bewegung unvergleichlich gut, verlieren aber auf grosse Entfernung an Effektivität."/> 
+    <text key="Hint" text="Flammenwerfer zeichnen sich durch die Beseitigung von Stützpunkten und gut verteidigten Stellungen,%EOLeinschliesslich Bunkern aus, und können sogar die meisten Fahrzeuge beschädigen."/>
+    <text key="Hint" text="Die Banzai- und Assaultwesten gewähren zusätzliche Gesundheit und einen grossen Bonus auf die Bewegungsgeschwindigkeit,%EOLaber im Gegensatz zur Veteranenweste können Sie nicht verwundet und wiederbelebt werden."/>   
+    <text key="Hint" text="Die Scharfschützenweste macht es Feinden schwerer, Sie zu entdecken und etwas schwerer, Sie zu treffen.%EOLDiese Boni sind natürlich besonders nützlich, wenn Sie ein Scharfschützengewehr verwenden."/>   
+    <text key="Hint" text="Die Sentryweste ist eine schwere Körperpanzerung. Sie bietet guten Schutz und ermöglicht es Ihnen, verwundet zu werden, anstatt zu sterben,%EOLbeeinträchtigt jedoch Ihre Bewegungsgeschwindigkeit und ist ausgesprochen teuer."/>   
+    <text key="Hint" text="Sie können immer die Karte öffnen, wenn Sie sterben, um Ihren Spawnpunkt auszuwählen."/>   
+
+</intro>

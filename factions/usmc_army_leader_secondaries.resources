@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	<weapon key="m1_bazooka.weapon" />
+	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="medikit.weapon" />
+	<weapon key="m1911_officer.weapon" />
+	<weapon key="m1917_revolver.weapon" />
+
+	<carry_item key='vest_veteran.carry_item' enabled="1" />  
+	
+	<projectile key="mkii_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+	
+</resources>

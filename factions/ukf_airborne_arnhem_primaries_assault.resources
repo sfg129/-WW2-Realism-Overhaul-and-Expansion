@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="smle_no4_mki_b_ai.weapon" />
+	<weapon key="sten_mkv_b.weapon" />
+
+	<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="lanchester_smg_b_ai.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+
+	<!-- British paratrooper elites in Arnhem carry some enemy weapons since they are cut off and in low supply -->	
+	<!-- these were removed due to confusion though -->
+
+	<!--<weapon key="mp40.weapon" />
+	<weapon key="mp34_o_b_ai.weapon" />-->
+
+</resources>

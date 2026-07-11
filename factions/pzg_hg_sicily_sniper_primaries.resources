@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="kar98k_s.weapon" />
+	<weapon key="kar98k_s_elite.weapon" />
+	<!-- G41(w) 1.5x s -->
+
+</resources>

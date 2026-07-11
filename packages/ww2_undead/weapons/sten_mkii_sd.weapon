@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="sten_mkii_sd.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.275" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
+
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.109"  
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.16" 
+    	sustained_fire_diminish_rate="1.5" 
+	magazine_size="32" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	name="Sten Mk IIS" 
+	class="0" 
+	projectile_speed="90"
+	barrel_offset="0.4"
+/>
+
+	<!-- former stats: drop chance 0.05 -->
+	<!-- the Sten  MK IIS was often fired with subsonic ammunition, which has lower velocity. -->
+
+	<!-- Sten Mk II sights are absolutely atrocious, accuracy while standing, crouched, and prone have been reduced (but not while moving.) -->
+	<!-- base accuracy is boosted because velocity is so low -->
+
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="prone" accuracy="0.95" /> 
+	<stance state_key="over_wall" accuracy="0.95" />	
+	
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, sten" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, sten, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="weapon_smg_sten_mkiiS.wav" pitch_variety="0.05" volume="1.4"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	
+	<model filename="weapon_sten_mkii_sd.xml" />
+	<hud_icon filename="hud_sten_mkii_sd.png" />
+
+	<commonness value="0.0175" can_respawn_with="0"/>
+	<inventory encumbrance="5.0" price="425.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="1.0" />
+	
+	<!-- while undetected, stealth weapons that strike with any kill% chance >0 get raised up to 1.0 (unless they already are above that) -->
+	<!-- kill_probability_offset_on_successful_hit adds on top of this, raising damage further -->
+
+	<!-- total sten kill% on a successful hit is  1.0, no bonus, it's pretty powerful as a fully automatic weapon with low recoil -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.75"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.3"/>
+	
+</weapon>

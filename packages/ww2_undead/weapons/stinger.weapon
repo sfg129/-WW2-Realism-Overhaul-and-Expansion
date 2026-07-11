@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_heavy_bipod.weapon" key="stinger.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" >
+	
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.05" 
+	accuracy_factor="0.92" 
+    	sustained_fire_grow_step="0.12" 
+    	sustained_fire_diminish_rate="1.4" 
+	stance_accuracy_rate="1.0"
+	magazine_size="100" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="ANM2 'Stinger'" 
+	class="0" 
+	barrel_offset="0.7" 
+	projectile_speed="140.0"
+	/>
+
+	<!-- velocity was 105 -->
+	
+	<!-- M1919 Stinger variant fires twice as fast, extremely rare weapon. -->
+	<!-- Recovery rate is quicker because RoF is nuts on recoil. -->
+
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.7" />
+	<stance state_key="crouching" accuracy="0.8" />
+	<stance state_key="prone" accuracy="1.15" />
+	<stance state_key="over_wall" accuracy="1.15" /> 
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, m1919" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1919, prone" />
+    	<animation state_key="running" animation_key="jogging" />  
+		<animation state_key="hold_on_wall" animation_key="still" />
+		<animation state_key="hold" animation_key="hold, lmg" />
+		<animation state_key="walking" animation_key="walking, hip fire" />
+		<animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+		<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+		<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+		<animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, hip fire" />
+	
+	<weak_hand_hold offset="0.4" />
+	
+	<sound class="operation" key="fire" fileref="mg_11_stinger.wav" pitch_variety="0.05" volume="1.05"/>
+
+	<sound key="magazine_out" fileref="mg_clip_out.wav" />
+	<sound key="magazine_in" fileref="mg_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="stinger.xml" />
+	<hud_icon filename="hud_stinger.png" />
+	
+	<commonness value="0.2" can_respawn_with="0" />
+	<inventory encumbrance="11.0" price="1500.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+		<modifier class="speed" value="-0.125" /> 
+	<!-- damage was 0.5, start decay was 0.38 -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.95"
+		kill_decay_start_time="0.45"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

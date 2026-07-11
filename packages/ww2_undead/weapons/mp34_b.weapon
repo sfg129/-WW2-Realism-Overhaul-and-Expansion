@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="mp34_b.weapon">
+	<tag name="assault" />
+	<tag name="has_bayonet" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.1" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.18" 
+	sustained_fire_diminish_rate="1.5"
+	stance_accuracy_rate="1.5"
+	magazine_size="32" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="MP 34(o) Bayonet" 
+	class="0" 
+	projectile_speed="100.0"
+    stab_enabled="1"
+    stab_range="3.3"
+	/>
+
+	<next_in_chain key="mp34.weapon" share_ammo="1" />
+
+	<!-- simple SMG sight -->
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="over_wall" accuracy="0.95" />    
+
+	<!-- the Japanese-contract "MP 34" (also known as an S1-100) in 7.63mm Mauser, rather than 9x21 or 9x19. -->
+	
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, type 100" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, type 100, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="smg_05_s1-100.wav" pitch_variety="0.05" volume="1.34"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>	
+
+	<model filename="weapon_type_ste_smg_b.xml" />
+	<hud_icon filename="hud_mp34_b.png" />
+
+	<commonness value="0.025" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="5.0" price="25.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.75"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.8"
+		/>
+	</projectile>
+
+</weapon>

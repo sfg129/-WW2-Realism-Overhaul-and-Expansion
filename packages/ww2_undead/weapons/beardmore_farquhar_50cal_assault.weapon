@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="beardmore_farquhar_50cal_assault.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.4" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0" >
+	
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.13" 
+	accuracy_factor="0.85"
+  	spread_range="0.16"
+	sustained_fire_grow_step="3.0"
+	sustained_fire_diminish_rate="3.0"	
+	magazine_size="29" 
+  	can_shoot_standing="1" 
+  	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="Beardmore-Farquhar .50 - Mobile" 
+	class="0" 
+	barrel_offset="1.05" 
+	projectile_speed="129.0"
+	/>
+
+	<!-- yep a handheld .50 cal HMG -->
+		<modifier class="speed" value="-0.12" />
+ 	<animation state_key="recoil" animation_key="recoil1, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil2, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil3, hip fire" />
+	<animation key="recoil" stance_key="over_wall" ref="12" />
+	<animation key="recoil" stance_key="over_wall" ref="13" />
+	<animation key="recoil" stance_key="over_wall" ref="14" />
+	<animation state_key="hold" animation_key="hold, lmg" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, hip fire" />
+	<animation state_key="hold_on_wall" animation_key="hold, lmg" />
+    	<animation state_key="still_against_wall" 	animation_key="hold, lmg" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+	<animation state_key="running" animation_key="jogging" />  
+	<animation state_key="reload" animation_key="reloading, mg34" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, mg34, prone" />
+
+	<stance state_key="running" accuracy="0.3" />
+	<stance state_key="walking" accuracy="0.35" />
+	<stance state_key="standing" accuracy="0.6" />
+	<stance state_key="crouching" accuracy="0.7" />
+	<stance state_key="prone" accuracy="1" />
+	<stance state_key="over_wall" accuracy="1" />  
+	
+	<weak_hand_hold offset="0.4" />
+	
+    	<sound class="operation" key="fire" fileref="weapon_mg_beardmore_farquhar_50cal.wav" pitch_variety="0.05" volume="1.23"/>
+
+	<sound key="magazine_out" fileref="mg_clip_out.wav" />
+	<sound key="magazine_in" fileref="mg_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="weapon_beardmore_farquhar_50cal.xml" />
+	<hud_icon filename="hud_beardmore_farquhar_50cal.png" />
+	
+	<commonness value="0.1" can_respawn_with="0"/>
+	<inventory encumbrance="26.0" price="500.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="50cal_bullet.projectile">
+	    <result
+class="blast"
+    radius="1.5"
+   damage="1.4"
+    push="0.1"
+    decal="1"
+	faction_compare="not_equal" />
+		
+	</projectile>
+	<modifier class="speed" value="-0.2" /> 
+</weapon>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="m1919_hmg_resource.weapon" />
+	<weapon key="m2hb_hmg_resource.weapon" />
+		<carry_item key='vest_veteran.carry_item' enabled="1" />  
+	<weapon key="m18_recoilless_rifle.weapon" />
+
+	<!--<weapon key="m1911.weapon" />-->
+	<!--<weapon key="m1a1_carbine.weapon" />-->
+	<!--<weapon key="sw_model10.weapon" />-->
+	
+	<projectile key="mkii_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+	<projectile key="democharge.projectile" />
+	<weapon key='binoculars.weapon' />
+
+	<projectile key="flare.projectile" />
+
+</resources>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default0.character">
+    <sound key="death" fileref="ija_death_01.wav" volume="1.1" />
+	<sound key="death" fileref="ija_death_02.wav" volume="1.1" />
+	<!--<sound key="death" fileref="ija_death_03.wav" volume="1.1" />-->
+	<!--<sound key="death" fileref="ija_death_04.wav" volume="0.95" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_05.wav" volume="1.1" pitch_variety="0.05"/>-->
+	<!--<sound key="death" fileref="ija_death_06.wav" volume="0.95" pitch_variety="0.025"/>-->
+    <!--<sound key="death" fileref="ija_death_07.wav" volume="0.95" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_09.wav" volume="1.15" />	<!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_10.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="ija_death_12.wav" volume="1.05" pitch_variety="0.05"/>
+	<!--<sound key="death" fileref="ija_death_13.wav" volume="1.0" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" />
+	<sound key="death" fileref="ija_death_12.wav" volume="1.1" pitch_variety="0.05"/> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_14.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_15.wav" volume="1.15" /> <!-- repeated for greater frequency -->
+    <sound key="death" fileref="ija_death_16.wav" volume="1.1" /> <!-- repeated for greater frequency -->
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_17.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_18.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_19.wav" volume="1.25" />
+	<sound key="death" fileref="ija_death_20.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_21.wav" volume="1.2" />
+	<sound key="death" fileref="ija_death_22.wav" volume="1.2" />
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+	
+	<comment key="We surrender!" text="항복한다!" />
+	<comment key="We surrender!" text="우리는 항복했다!" />
+	<comment key="We surrender!" text="수치스럽군..." />
+	
+	<comment key="Reloading" text="장전하고 있어!" />  
+	
+	<comment key="hostile vehicle takeover" text="뭐라고? 안돼" />
+	<comment key="hostile vehicle takeover" text="저길봐! 이건 불공평해!" /> 
+	<comment key="hostile vehicle takeover" text="무슨? 안됀다!!" />    
+	
+	<comment key="enemy seen, vehicle tag = tank" text="가갑차량 발견!" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="대전차 화기가 필요하다!"/>
+	<comment key="enemy seen, vehicle tag = tank" text="전차!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="엎드려! 전차다!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="적군 전차와 조우했다!" />  
+	<comment key="enemy seen, vehicle tag = tank" text="적군 전차 발견!" />     
+	
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차량 발견!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차량! 저것 좀 박살내봐!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차량!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차다!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차다! 조심해!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차! 병사들 파괴해라!" />  
+	
+	<comment key="enemy seen, vehicle tag = truck" text="적군 수송대!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="적군 차량과 조우했다!" />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="놈들이 트럭을 끌고왔다!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="트럭을 향해 쏴라!" />                  
+	
+	<comment key="celebrating" text="위대한 승리로다."	/>
+	<comment key="celebrating" text="다음번에는 더욱 근성있는 싸움을 하도록." />
+	<comment key="celebrating" text="이번 전투에서 우리가 살아남았어." />
+	<comment key="celebrating" text="우리는 또 다른 대전쟁에서 승리하기위해 살아간다." />
+	<comment key="celebrating" text="다음은 워싱턴이다. 양키들아!" />
+	<comment key="celebrating" text="항복을 참 쉽게하는군? 너희 양키들은 근성이 없다니까." />
+	<comment key="celebrating" text="항복하는건 명예의 수치다 너희 양키들은부끄러운줄도 모르는군." />
+	<comment key="celebrating" text="훌륭해 놈들은 우리를 상대하지도 못한다!" />
+	<comment key="celebrating" text="산업으로 힘을 투자하는게 어떠냐!" />
+	<comment key="celebrating" text="천황께서 기뻐하실겁니다." />
+	<comment key="celebrating" text="우리의 제국은 이 새로운 영토를 기쁘게 받아주겠다. 양키여." />
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="내가 좋아하는 운동이 뭐게?" />
+		<comment text="뭔데?" />
+		<comment text="뜨거운 감자." />
+		<comment text="그건 운동이 아니잖아." />       
+		<comment text="니가 가방 폭탄을 사용한다면 말이야." />         
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="미군 부대가 어제 아군을 급습 했다더라." />
+		<comment text="난 우리가 더 강하다고 생각했는데. 이제부터 정신을 바짝 차려야해." />
+	</dialogue>   
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="우리는 이기고 있는데 왜 전선으로 가야하는거지?" />
+		<comment text="쉿, 상관이 들으면 목이 날라가..." />
+	</dialogue>  
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="우리집에 무슨일이 있으면 어쩌지.." />
+		<comment text="좀 좋은 술이나 마셨으면." />
+		<comment text="스도쿠나 좀 두고싶은데." />
+		<comment text="그렇지만 그럴 수 없다, 우린 국가를 위해 봉사해야한다!" />    
+	</dialogue>       
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="다시 무기고로 돌아가야겠어" />
+		<comment text="왜?" />
+		<comment text="권총을 두고왔어" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="새로운 장비를 지급 받았어?" />
+		<comment text="그래." />
+		<comment text="나머지 병사들은 언제 재무장할지 모르겠네..." /> 
+   	    <comment text="아마도 전쟁이 끝난뒤에 그렇겠지." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="이 전차의 이름이 뭘까?" />
+		<comment text="위대한 양키놈 개돼지 파괴자" />
+		<comment text="그거 기억하기 힘든데. 그렇게 운을 맞춰야해?" />
+		<comment text="아니. 이거는 미국인 양키 개돼지들을 파괴하기 위한 거야." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="사람이 원숭이로부터 내려왔다는 게 사실일까?" />  
+		<comment text="그래 양키 개돼지들이 그랬지." />            
+		<comment text="하지만 그 개돼지들은 어떻게 원숭이로부터 내려왔다는게 되는거지?" />             	
+		<comment text="그냥 닥쳐." />             	
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="왜 우리 부대원들이 며칠 동안 후퇴해있던 거지?" />  
+		<comment text="그들은 후퇴하지 않았어 그저 반대방향으로 전진했을 뿐이야." />  
+		<comment text="아하! 우리 천황 폐하께서 그소식을 듣고 기뻐하시겠군." />                                       
+	</dialogue>  
+	
+   <!-- commander comments -->
+	<comment key="player promotion" text="축하하네 제군, 자네는 방금 %rank_name으로 진급했네." />
+	<comment key="we captured a base" text="우리가 모든 저항을 무찌르고 %base_name를 점령했다." />
+	<comment key="we captured a base" text="우리 병사들이 %base_name지점을 점령했다." />
+	<comment key="enemy captured a base" text="%base_name지점을 양놈들이 가져갔다." />
+	<comment key="enemy captured a base" text="%faction_name가 %base_name지점을 점령했다." />
+	<comment key="enemy captured a base" text="저 양놈들이 %base_name를 공격한다!" />
+	<comment key="neutral captured a base" text="" />
+	
+	<comment key="we have lost our last base" text="우리의 모든 기지를 잃었다. 전투는 이미 끝났다!" />
+	<comment key="enemy has lost their last base" text="%faction_name가 패배했다!" />
+	
+	<comment key="our assault ran out of time" text="우리의 공격은 시간을 지체했다. 전투는 이미 끝났다!" />
+	<comment key="enemy assault ran out of time" text="%faction_name가 패배했다!" />
+	
+	<comment key="we won by map conquer" text="우리는 이 지역의 모든 기지를 점령했다! 우리가 승리했다! " />
+	<comment key="we won by defense timer" text="놈들로 부터 지역을 사수했다! 우리가 승리했다!" />
+	
+	<comment key="our base is under attack" text="%base_name지점이 공격받고 있다!" />
+	<comment key="we are attacking a base" text="우리 부대가 %base_name지점을 공격하고 있다." />
+	
+	<comment key="fighting near a base" text="%base_name 인근에서 교전이 발생했다." />
+	<comment key="fighting near a base" text="%base_name 인근에서 지원 요청을 받았다." />
+	<comment key="fighting near a base" text="%base_name 인근에서 총성을 감지했다." />
+	
+	<comment key="defense timer started" text="%faction_name가 모든 기지를 점령하고 있다, %time_left초 밖에 남지않았다. 가라!" />
+	<comment key="defense timer to go" text="%time_left초 밖에 남지않았다. 빨리 가!" />
+	
+   <!-- adventure mode -->
+	<comment key="guadalcanal, part 1" text="주목하라 병사들! 지휘관 보고가 있겠다." />
+	<comment key="guadalcanal, part 2" text="우리는 적들을 이곳 %map_name에 가뒀다." />
+	<comment key="guadalcanal, part 3" text="그들의 겁쟁이 해군은 그들을 버렸고 그들은 증원군도 얼마 남지않았다." />
+	<comment key="guadalcanal, part 4" text="목표는 저 비행장을 되찾는 것이다. 공격할 준비를 해라!" />
+	
+	<comment key="map start with 1 base, part 1" text="주목하라 병사들! 지휘관 보고가 있겠다." />
+	<comment key="map start with 1 base, part 2" text="보시다시피, 우리는 지금 좀 곤란한 상황에 처해 있다.." />
+	<comment key="map start with 1 base, part 3" text="우리는 아군들의 마지막 거점을 지원하기위해 도착했다." />
+	<comment key="map start with 1 base, part 4" text="허나 적은 우리의 도착으로 망설이고 있다, 공격하라!" />
+	
+	<comment key="uncapturable_last_base_end_timer, start" text="적들을 우리 영토에서 몰아냈지만, 놈들은 다시 점령할 의도로 보인다." />
+	<comment key="uncapturable_last_base_end_timer, cancel" text="적군이 기지를 점령했다! 놈들이 기지를 점령하게 두지 마라!" />
+	
+	<comment key="map start with 1 base, capture" text="이제 증원군이 여기에 도착했으니 목표는 %faction_name를 %map_name에서 완전히 몰아내는 것이다." />
+	<comment key="map start with 1 base, koth" text="기본적인 목표는 %target_base_name를 통제하고 수비하는 것이다." />
+	
+	<comment key="map advance, held by enemy" text="%faction_name가 %map_name에서 상륙 부대를 준비하고 있다고 정보 담당자가 보고했다." />
+	<comment key="map advance, another enemy present" text="%faction_name또한 그 지역에서 발견되었다." />
+	<comment key="map advance, new map" text="아군이 완전히 전멸하기 전에 우리는 아군의 거점을 지원해야 한다!" />
+	<comment key="map advance, been there before" text="우리는 여전히 %number_of_bases개의 기지를 제어하고 있다." />
+	<comment key="map advance, friendly map" text="%map_name는 %faction_name이 점거하고 있다, 꽤나 조용하군." />
+	
+	<comment key="final map, part 1" text="주목하라 병사들! 지휘관 보고가 있겠다." />
+	<comment key="final map, part 2" text="우리는 용맹하고 영웅적으로 우리의 영토를 수호해왔다." />
+	<comment key="final map, part 3" text="적들은 우리의 섬들을 밟아올 때마다 많은 피를 흘렸다." />
+	<comment key="final map, part 5" text="그리고 우리는 그 호의에 보답하고 그들이 우리에게 해왔던 것처럼 우리는 그들의 땅을 침략할 것이다!" />
+	<comment key="final map, part 6" text="놈들의 심장을 노려 야수를 무찌르자!" />
+	<comment key="final map, part 7" text="천황 폐하 만세!, 나아가라 병사들이여!" /><!-- 다시 말하자면 저는 친일이 아닙니다. -->
+	
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=ija_inf.call" text="%base_name에서 반자이 돌격을 개시하겠다." />
+	<comment key="spawn_in_base_call, denied, key=ija_inf.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle.call" text="하고를 %base_name에 배치하겠다." />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle1.call" text="호하를 %base_name에 배치하겠다." />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle1.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle2.call" text="카츠를 %base_name에 배치하겠다." />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle2.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!" />
+
+	<comment key="spawn_in_base_call, accepted, key=ija_vehicle_armoury_marine.call" text="Type 4 Su-Ki Armory deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=ija_vehicle_armoury_marine.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!" />
+
+   <!-- character specific animation override table -->
+	
+</character>

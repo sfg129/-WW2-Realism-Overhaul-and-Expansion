@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="ww2_undead_soldier_ss_soldat.xml" />
+
+
+	<!-- ----- -->
+	<!-- weapons -->
+	<!-- ----- -->
+
+	<model filename="ww2_undead_soldier_ss_soldat_rifle_grenadier.xml">
+		<requirement class="weapon" slot="0" key="kar98k_rifle_grenade_he.weapon" />
+	</model>
+	
+</models>

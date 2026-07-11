@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="vickers_k.weapon" />
+	<weapon key="vickers_assault.weapon" />
+	<weapon key="beardmore_farquhar_50cal_assault.weapon" />
+
+	<weapon key="browning_hp.weapon" />
+	<weapon key="browning_hp_carbine.weapon" />
+
+	<carry_item key='vest_sentry_for_ai.carry_item' enabled="1" />
+	
+</resources>

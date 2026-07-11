@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Sake Bottle" key="sake.carry_item">
+    <hud_icon filename="sake_hud.png" />
+    <capacity value="100" source="rank" source_value="0.0" />
+    <inventory encumbrance="0" price="120" />
+
+    <model mesh_filename="sake.mesh" texture_filename="sake.png" />
+
+    <commonness value="15.0" in_stock="0" />
+</carry_item>

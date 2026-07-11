@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="usf.character">
+
+   <!-- commander comments -->
+	<comment key="we captured a base" text="%base_name已被我军控制" />
+	<comment key="enemy captured a base" text="%base_name被敌军控制了" />
+	<comment key="our base is under attack" text="收到报告称%base_name正遭受攻击！" />
+	<comment key="fighting near a base" text="有报告称%base_name附近发现敌情" />
+	
+	<!-- adventure mode -->
+	<comment key="undead varsity intro pt 1" text="注意，进行长官简报" />
+	<comment key="undead varsity intro pt 2" text="战争看上去是结束了，但是残存的轴心国部队找到了让尸体起死回生的方法..." />
+	<comment key="undead varsity intro pt 3" text="死灵们似乎并不区分敌友，外面一片混乱。" />
+	<comment key="undead varsity intro pt 4" text="我们认为这些超自然怪物起源于附近的城堡中。" />
+	<comment key="undead varsity intro pt 5" text="搜寻附近的基地来找到打开城堡大门的方法！" />
+	
+	<comment key="undead swan intro pt 4" text="我们认为这些超自然怪物起源于附近的城堡中。" />
+	<comment key="undead swan intro pt 5" text="搜寻附近的基地来找到打开城堡大门的方法！" />
+
+	<comment key="undead varsity reminder" text="对所有部队提醒：搜寻附近的基地，寻找打开城堡大门的方法！" />
+	<comment key="undead swan reminder" text="对所有部队提醒：搜寻附近的基地，寻找打开城堡大门的方法！" />
+
+	<comment key="undead varsity progress report pt 1" text="干得好！" />
+	<!-- commander then reports some number like 3 things which remain, so he just says 3 from the script -->
+	<comment key="undead varsity progress report pt 2" text="%remaining_seals 剩余！" />
+	<comment key="undead varsity progress report pt 2 alt" text="%remaining_seals 超自然五角星剩余！" />
+	<!-- alternatively commander might report some number like 3/10, showing a total, so he says 3/10 from script  -->
+	<comment key="undead varsity progress report pt 3" text="%completed_seals/%total_seals 完成！" />
+	<comment key="undead varsity progress report pt 3 alt" text="%completed_seals/%total_seals 超自然五角星激活完成！" />
+
+	<comment key="undead varsity gate open pt 1" text="城堡大门解锁了！" />
+	<comment key="undead varsity gate open pt 2" text="前进并攻占城堡！" />
+	<comment key="undead varsity gate open pt 3 reminder" text="城堡大门已解锁，肃清内部院落，结束这场尸潮！" />
+
+	<comment key="undead swan gate open pt 1" text="城堡大门解锁了！" />
+	<comment key="undead swan gate open pt 2" text="前进并攻占城堡！" />
+	<comment key="undead swan gate open pt 3 reminder" text="城堡大门已解锁，肃清内部院落，结束这场尸潮！" />
+
+	<comment key="undead varsity boss dialogue 1" text="发现敌方首领！快干掉他！" />
+	<comment key="undead varsity boss dialogue 2" text="找到敌方首领并干掉他！！" />
+
+</character>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduction to WW2 Undead" />
+		<text value="Welcome to WW2 Undead mode! In this mode you win by securing the Castle, located on the map in the area with No Recon. The Castle Gate is locked, and can only be opened by interacting with occult pentagrams scattered across the map, located within the bases. Also, any time you die, you can select an available parachute spawn node." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Pojazdy wroga"/>
+		<text value="Niektore ciezsze pojazdy wroga w EDELWEISS i PACIFIC nie moga zostac skradzione. Odbywa sie to w ca&#322;o&#347;ci ze wzgl&#281;du na balans rozgrywki. Inne lzejsze pojazdy nadal moga zosta&#263; skradzione!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Bagnety"/>
+		<text value="W dodatkach EDELWEISS i PACIFIC Bagnety mozna przelaczyc. Bron z dwoma kropaki na dole ikony moze to zrobic. Moga byc przelaczone przez przycisk %control_next_weapon_in_chain. Bagnety zwiekszaja zasieg walki wrecz kosztem celnosci podczas strzelania."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Zniszczenie zywop&#322;otow i ogrodzen"/>
+		<text value="W EDELWEISS wi&#281;kszosc ogrodzen mo&#380;e zostac zniszczona przez materialy wybuchowe lub przejechana przez wi&#281;kszosc pojazdow. Dodatkowo, Zywoploty moga zostac zniszczone przez ladunki wybuchowe, jak rowniez zgnieciony przez specjalne pojazdy, takie jak Sherman RHINO."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Elity"/>
+		<text value="Wrogie czolgi Elitarne MUSZA zostac zabite wszelkimi dostepnymi srodkami by zapewnienic zwyciestwo na niektorych mapach. Maja dodatkowe zdrowie i duza sile ognia, aby utrudnic ci to zadanie!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Bunkry i Schrony"/>
+		<text value="Schrony mozna spotkac na PACYFIKU to silnie ufortyfikowane stanowiska karabinow maszynowych. Zwykle granaty nic im nie zrobia, lepiej sprawdzi sie tu miotacz ognia lub mocny ladunek wybuchowy."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Zaklucacze radiowe, dziala przybrzezne, dziala przeciwlotnicze"/>
+		<text value="Wrogie ZAKLUCACZE RADIOWE blokuja opcje wezwania wsparcia dookola ich. Latwo ja zniszczyc ladunkami wybuchowymi jesli podejdziesz wystarczajaco blisko. Dziala przybrzezne i przeciwlotnicze blokuj&#261; niektóre rodzaje wparcia na calej mapie, ich zniczenie da ci mozliwosc wezwania wparcia artyleryjskiego i lotnictwa."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Konwoj Bergtigera" />
+		<text value= "Mozesz rozkazac Bergtigerowi zatrzymac sie naciskajac %control_shoot kiedy trzymasz na nim celownik. Rowniez naprawianie go kluczem naprawczym spowoduje jego zatrzymanie.%PSMozesz to wykorzystac by spowolnic konwoj i  przegrupowac swoich zolnierzy." />
+		<image filename="journal_convoy.png" />
+	</entry>		
+
+</journal>

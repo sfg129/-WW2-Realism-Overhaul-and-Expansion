@@ -1,0 +1,220 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0.character">
+
+    	<sound key="death" fileref="wh_death_01.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="wh_death_02.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_03.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_04.wav" volume="1.5" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_05.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_06.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_07.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_08.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_09.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_10.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_11.wav" volume="1.1" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_12.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_13.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_14.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_15.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_16.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_17.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_18.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_19.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_20.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_21.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_22.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_23.wav" volume="1.3" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_24.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_25.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_26.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_27.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15"/>
+
+   <!-- character specific animation override table -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+
+	<comment key="We surrender!" text="别开枪！我是波兰人！"/>
+	<comment key="We surrender!" text="我放弃！去他的战争吧！"/>
+	<comment key="We surrender!" text="我投降！"/>
+	<comment key="We surrender!" text="求求了，我只是想上完学！"/>
+	<comment key="We surrender!" text="可恶的盟军走狗..."/>
+	
+	<comment key="Medic!" text="医疗兵！"/> 
+	<comment key="Medic!" text="快救救我！"/>    
+	
+	<comment key="Quickly!" text="动作快点！"/>
+	<comment key="Quickly!" text="冲冲冲！"/>    
+	
+	<comment key="initiate radio call" text="总部总部，这里是冯·卢克战斗群，收到请回答！"/>
+
+	
+	<comment key="hostile vehicle takeover" text="发生啥事？不！"/>
+	<comment key="hostile vehicle takeover" text="喂！那是- "/> 
+	<comment key="hostile vehicle takeover" text="啥？不！不！！不！！！"/>    
+	
+	<comment key="enemy seen" text="警报！"/>
+	
+	<comment key="enemy not seen, taking suppressed fire" text="警戒！"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="敌方坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="卧倒！敌方坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="盟军坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="注意，坦克来了！"/>        
+	
+
+	<comment key="Hold on!" text="同志，挺住！"/>  
+
+	<comment key="Yes sir" text="遵命"/>
+	<comment key="Yes sir" text="明白"/>    
+	
+	<comment key="celebrating" text="做得好，士兵们"/>
+	<comment key="celebrating" text="干得漂亮！"/>    
+	<comment key="celebrating" text="我们要把你们赶下海！"/>
+	<comment key="celebrating" text="胜利万岁！"/>	<!-- do not translate this one in German! Use something else lol. -->
+	<comment key="celebrating" text="干得漂亮，士兵们"/>
+	<comment key="celebrating" text="尝尝这个，盟军走狗们！"/>
+	<comment key="celebrating" text="你们身上带烟了吗，盟军走狗们？"/>
+	<comment key="celebrating" text="有人见到我曾祖父没？他之前跟1连一起进攻的。"/>
+	<comment key="celebrating" text="我想煮点酸菜香肠炖土豆庆祝一下。"/>
+	<comment key="celebrating" text="有人见到我外甥没？他之前去侦查巡逻了。"/>
+    
+	<comment key="Waiting for squad" text="上车，搞快点！"/>     
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="We're doing an awful lot of walking here."/>
+	</dialogue>    
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="上面给你发新装备了没？"/>
+		<comment text="发了啊"/>
+		<comment text="淦哦老兄，我也想要点新装备.."/> 
+		<comment text="只有一箱"/>    
+	</dialogue> 
+	
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="给咱坦克起啥名字？"/>
+		<comment text="英国佬挤压机"/>
+		<comment text="弗里茨，当你像刚才一样说话的时候，我很担心你。"/>
+	</dialogue>
+		
+   <!-- commander comments -->
+	<comment key="we captured a base" text="我们的掷弹兵已经把%base_name肃清了！"/>
+	<comment key="we captured a base" text="我们夺下了%base_name，确保周围区域安全。"/>
+	<comment key="enemy captured a base" text="盟军已经占领了 %base_name，立即准备反击！"/>
+	<comment key="enemy captured a base" text="我们丢失了%base_name，务必立刻夺回！"/>
+	<comment key="our base is under attack" text="情报显示盟军部队正在进攻%base_name。"/>
+	<comment key="fighting near a base" text="在%base_name附近听到枪响。"/>
+	
+	
+   <!-- adventure mode -->
+	<comment key="map start with 1 base, part 3" text="我军已于今日抵达，已准备好进行本次的进攻行动。"/>
+	
+	<comment key="map start with 1 base, capture" text="现在已准备好开始进攻，目标是彻底占领整个区域。"/>
+	
+	<comment key="map advance, held by enemy" text="%map_name是下一个战斗目标，%faction_name将是我们的对手。"/>
+	<comment key="map advance, new map" text="师部正在准备下一次行动，出发！"/>
+	
+	<comment key="final map, part 1" text="注意，进行长官简报"/>
+	<comment key="final map, part 2" text="很高兴能看到你们都集结在%map_name"/>
+	<comment key="final map, part 3" text="关键的时刻到了！最后的行动就要来了！"/>
+	<comment key="final map, part 5" text="接连战斗之后我们成功击退了%faction_name。"/>
+	<comment key="final map, part 6" text="赢得此役，一劳永逸！"/>
+
+	<!-- WH campaign commander lines -->
+	<comment key="sicily, part 1" text="注意，进行长官简报"/>
+	<comment key="sicily, part 2" text="很高兴看到你们都在西西里。"/>
+	<comment key="sicily, part 3" text="盟军空降兵已经在附近空降并且夺取了所有的战略要点。"/>
+	<comment key="sicily, part 4" text="我们必须夺回要地，根除这群伞兵！"/>
+
+	<comment key="brecourt, part 1" text="注意，进行长官简报"/>
+	<comment key="brecourt, part 2" text="欢迎各位来到诺曼底后方。"/>
+	<comment key="brecourt, part 3" text="根据昨晚的情报，美国空降兵已经占领了圣玛丽迪蒙，并与已经登陆的部队会合。"/>
+	<comment key="brecourt, part 4" text="更糟糕的是，我们的上层情报部门分析指出盟军正在大规模反攻欧洲大陆。"/>
+	<comment key="brecourt, part 5" text="眼下我们为了自己必须先立足周边区域，然后各尽本职。"/>
+	<comment key="brecourt, part 6" text="装甲部队听候差遣，是时候反攻并肃清周边区域了！"/>
+
+	<comment key="overlord intro, part 1" text="立正！指挥官发来简报" />
+	<comment key="overlord intro, part 2" text="盟军集结了舰队和空军准备在这里建立登陆场" />
+	<comment key="overlord intro, part 3" text="我们缺少增援，更糟糕的是，敌人看起来会全力攻打我们的防区" />
+	<comment key="overlord intro, part 4" text="守住战线，不计一切代价守住阵地！" />
+	<comment key="overlord intro, part 5" text="敌军会从海滩接近，作好准备" />
+	<comment key="overlord intro, part 6" text="祝你们好运，一路平安，战士们！你们还有30秒准备进入战斗！" />
+	<comment key="overlord intro, part 7" text="敌人正在试探我们，时间不多了！" />
+	
+	<comment key="overlord stage 1" text="海军炮火来袭,寻找掩护！(阶段1开始)" />
+	<comment key="overlord stage 2" text="第二波敌人来了！ (阶段2开始)" />
+	<comment key="overlord stage 3" text="他们将装甲部队送上岸了！（阶段3开始)" />
+	<comment key="overlord stage 4" text="敌人不会放弃的，继续做好防御！ (阶段4开始)" />
+	<comment key="overlord stage 5" text="看起来他们正在集结兵力准备下一轮进攻——巩固战线！(2分钟休息)" />
+	<comment key="overlord stage 6" text="增援刚刚抵达，但敌人不会就此放弃 (阶段6开始)" />
+	<comment key="overlord stage 7" text="我们的增援到达了，将他们赶下海去！" />
+	<comment key="overlord stage 8" text="还击！" />
+
+	<comment key="hill262, part 1" text="注意，进行长官简报"/>
+	<comment key="hill262, part 2" text="当前的形势非常严峻，尽管已经竭尽全力，我们仍旧在盟军的进攻之下全线撤退。"/>
+	<comment key="hill262, part 3" text="附近的262高地上能一览我军撤退部队，因此丢失高地意味着我们将身陷囹圄。"/>
+	<comment key="hill262, part 4" text="根据情报，一个波兰装甲师准备大举进攻。"/>
+	<comment key="hill262, part 5" text="不惜一切代价占领并守住高地！"/>
+
+	<comment key="hellshighway, part 1" text="注意，进行长官简报"/>
+	<comment key="hellshighway, part 2" text="现在英国人对69号公路的攻击已经被拖延，我们准备派遣“虎”式装甲抢修车来清理前线的障碍。"/>
+	<comment key="hellshighway, part 3" text="我们将展开一次反攻来掩护装甲抢修车的行动"/>
+	<comment key="hellshighway, part 4" text="根据侦察单位的报告，我们已经在地图上标记了敌军反坦克炮的位置。"/>
+	<comment key="hellshighway, part 5" text="带上装备，准备出击！"/>
+
+	<comment key="arnhem, part 1" text="注意，进行长官简报"/>
+	<comment key="arnhem, part 2" text="欢迎来到荷兰。"/>
+	<comment key="arnhem, part 3" text="距离上次从诺曼底撤退已经有一段时间了，盟军已经开始了另一次进攻。"/>
+	<comment key="arnhem, part 4" text="英国空降兵已经占领了阿纳姆，并且有一支敌军车队准备增援他们。"/>
+	<comment key="arnhem, part 5" text="然而在增援到达之前，他们没有补给，没有装甲。是时候夺回这座城了！"/> 
+    
+	<comment key="arnhem, supply cut" text="我们的补给据点被占领了，快夺回来！"/>    
+
+	<comment key="bastogne, part 1" text="注意，进行长官简报"/>
+	<comment key="bastogne, part 2" text="先生们，几天之前我们从阿登地区发动了一次大规模的进攻。"/>
+	<comment key="bastogne, part 3" text="今天我们把各位派遣至此，巴斯托涅，一个交通咽喉要道。"/>
+	<comment key="bastogne, part 4" text="这个城市现在被你们的老对手，美军伞兵驻守。"/>
+	<comment key="bastogne, part 5" text="他们有着完备的防御工事而且有钢铁般的决心，但我们会提供我们现有单位里面最强大的坦克。"/>
+	<comment key="bastogne, part 6" text="全副武装！今天我们会把他们打到崩溃！"/>
+
+	<comment key="sealion, part 1" text="注意，进行长官简报"/>
+	<comment key="sealion, part 2" text="士兵们，在过去的几个月里我们出乎意料地把盟军赶下海了。"/>
+	<comment key="sealion, part 3" text="尽管如此他们还是拒绝投降，所以我们的计划：挥师英伦三岛！"/>
+	<comment key="sealion, part 4" text="这将是一次空降行动，你们占领海岸线后我们将能够登陆并提供装甲支援。"/>
+	<comment key="sealion, part 5" text="带好降落伞并且武装到牙齿！这一次将会是他们的末日！"/>
+	<comment key="sealion, boss, part 1" text="英军的抵抗已经呈现颓势，不过他们仍在在城堡负隅顽抗。"/>
+	<comment key="sealion, boss, part 2" text="粉碎城堡工事里的一切抵抗！"/>
+
+	<comment key="generic counter-attack" text="敌人准备大规模反攻了，不惜一切代价守住阵地！阵地丢了就夺回来！"/>
+
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=wh_inf.call" text="步兵班在%base_name集结。"/>
+	<comment key="spawn_in_base_call, denied, key=wh_inf.call" text="无可用部署点，占领一个据点！"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle.call" text="四号中型坦克将部署在%base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle.call" text="无可用部署点，占领一个据点！"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_sdkfz251.call" text="251半履带装甲车将部署在%base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_sdkfz251.call" text="无可用部署点，占领一个据点！"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_stug.call" text="三号突击炮将部署在%base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_stug.call" text="无可用部署点，占领一个据点！"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="二号坦克“山猫将部署在”%base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="无可用部署点，占领一个据点！"/>
+		<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+</character>

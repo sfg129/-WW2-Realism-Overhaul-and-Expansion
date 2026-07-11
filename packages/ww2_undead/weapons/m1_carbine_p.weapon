@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon filename="m1_carbine.weapon" key="m1_carbine_p.weapon">
+	<specification
+	 slot="0"  />
+	<commonness value="0.15" />
+</weapon>

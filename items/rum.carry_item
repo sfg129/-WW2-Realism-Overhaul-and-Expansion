@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Service Rum" key="rum.carry_item">
+    <hud_icon filename="hud_rum.png" />
+    <inventory encumbrance="0" price="100.0" />
+
+    <model mesh_filename="rum.mesh" texture_filename="rum.png" />
+
+    <commonness value="10.0" in_stock="0" />
+</carry_item>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="shore bombardment" key="artillery2.call"
+	initiation_comment1="Requesting Fire Support"
+	initiation_comment2="Field Guns, Saturation Bombardment"
+	acknowledge_comment="Roger, wait three."
+	acknowledge_time="3.0"
+	launch_comment="Barrage under way."
+        notify_metagame="1">
+	
+	
+	<!-- First Volley-->
+	
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.0"
+	spawn_time="10.0">
+	<sound class="launch" fileref="light_gun_barrage_distant.wav" volume="2.3" /> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.1"
+	spawn_time="10.5">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.2"
+	spawn_time="10.7">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.5"
+	spawn_time="10.9">   
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.7"
+	spawn_time="11.0">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+    <round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="7.0"
+	spawn_time="11.3">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="7.3"
+	spawn_time="11.65"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="7.7"
+	spawn_time="12.0">  
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	
+	<!-- Second Volley-->
+	
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="20 0 20" 
+	launch_time="10.0"
+	spawn_time="14.0">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="20 0 20" 
+	launch_time="10.1"
+	spawn_time="14.35"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round 
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="20 0 20" 
+	launch_time="10.2"
+	spawn_time="14.7">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="15 12 12" 
+	common_spread="20 0 20" 
+	launch_time="10.5"
+	spawn_time="14.9"> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="10.7"
+	spawn_time="15.1"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="11.0"
+	spawn_time="15.35">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="11.3"
+	spawn_time="15.7">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="11.7"
+	spawn_time="16.1">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	
+	<!-- Third Volley-->
+	
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="15 0 15" 
+	launch_time="10.0"
+	spawn_time="18.0">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="15 0 15" 
+	launch_time="10.1"
+	spawn_time="18.35"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="15 0 15" 
+	launch_time="10.2"
+	spawn_time="18.7">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="15 12 12" 
+	common_spread="15 0 15" 
+	launch_time="10.5"
+	spawn_time="18.9"> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="15 0 15" 
+	launch_time="10.7"
+	spawn_time="19.1"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="15 0 15" 
+	launch_time="11.0"
+	spawn_time="19.35">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="15 0 15" 
+	launch_time="11.3"
+	spawn_time="19.7">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="artillery_shell.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="15 0 15" 
+	launch_time="11.7"
+	spawn_time="20.1">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+
+    <hud_icon filename="hud_artillery.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="600.0" />
+
+</call>

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default0.character">
+    <sound key="death" fileref="usf_death_01.wav" volume="0.85" pitch_variety="0.05"/>
+	<sound key="death" fileref="usf_death_02.wav" volume="1.05" />
+	<sound key="death" fileref="usf_death_03.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_04.wav" volume="0.8" />
+    <sound key="death" fileref="usf_death_07.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_08.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_09.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_11.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_12.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_13.wav" volume="1.0" />
+	<sound key="death" fileref="usf_death_14.wav" volume="1.05" />
+    <sound key="death" fileref="usf_death_16.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_18.wav" volume="0.8" />
+	<!--<sound key="death" fileref="usf_death_19.wav" volume="0.75" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="usf_death_22.wav" volume="0.85" />
+	<sound key="death" fileref="usf_death_23.wav" volume="1.05" />
+	<sound key="death" fileref="usf_death_26.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_29.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_30.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_31.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_32.wav" volume="0.75" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_33.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_34.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_35.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_36.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_37.wav" volume="0.9" />
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+	
+	<comment key="Medic!" text="啊，疼死了！" /> 
+	
+	<comment key="Reloading" text="掩护我，我在换弹药！" />
+	<comment key="Reloading" text="我要换弹药！" />  
+	
+	<comment key="initiate radio call" text="呼叫总部，我是A连，能听到吗？" />
+	<comment key="commander radio response" text="收到，A连请讲" />
+	
+	<comment key="hostile vehicle takeover" text="什么？不！！" />
+	<comment key="hostile vehicle takeover" text="啊！那是..." /> 
+	<comment key="hostile vehicle takeover" text="什么？哦不！！" />    
+	
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="该死的，找出他在哪！" />
+	
+	<comment key="enemy seen, vehicle tag = tank" text="前方出现敌军坦克！" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="这里需要反坦克武器！"/>
+	<comment key="enemy seen, vehicle tag = tank" text="坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="天啊，快卧倒！是坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="他们给我们送来了一辆坦克！" />     
+	
+ 	<comment key="enemy seen, vehicle tag = apc" text="前方出现敌军步战车！" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="是敌军步战车！废了它！" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="发现敌军步战车！" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="是敌军步战车！" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="步战车！当心！" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="步战车！毁了它，战士们！" />  
+	
+ 	<comment key="enemy seen, vehicle tag = truck" text="敌军车队！" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="遭遇敌方车辆！" />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="他们给我们送来了一辆卡车！" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="发现敌军卡车！" />                  
+	
+	<comment key="Hold on!" text="兄弟坚持住！！" />  
+	
+	<comment key="celebrating" text="接招吧！" />
+	<comment key="celebrating" text="我成功了...." />
+	<comment key="celebrating" text="啧啧，结束了,暂时的..." />
+	<comment key="celebrating" text="干得好，兄弟们" />
+	<comment key="celebrating" text="让你们的旭日永无升起之日！" />
+	<comment key="celebrating" text="这座小岛真不错,我会记住它的" />
+	<comment key="celebrating" text="喔，太幸运了" />
+	<comment key="celebrating" text="哟吼！做得好,兄弟们！" />
+	<comment key="celebrating" text="我们把他们踹走了！" />
+	<comment key="celebrating" text="想让我们放弃？没门！" />
+	<comment key="celebrating" text="等会找把武士刀当作纪念品" />
+	<comment key="celebrating" text="看看能不能找把指挥官的手枪当作纪念品" />
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="你造嘛，尽管我们加入的是海军，在这里也没少走路" />
+	</dialogue>    
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="我听说我们的对手一直在进行突袭" />
+		<comment text="胡扯，你看我们准备好了吗？" />
+	</dialogue>   
+      
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="他们给你发新装备了吗？" />
+		<comment text="嗯" />
+		<comment text="该死，我需要些新的装备.." /> 
+		<comment text="别抱怨了，兄弟" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="你知道今晚预报的天气是什么吗？" />
+		<comment text="嗯,预计夜间会下炸弹雨，大到暴雨！" />
+		<comment text="..." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="我们给这辆坦克起个什么名字好呢？" />
+		<comment text="人肉榨汁机" />
+		<comment text="这名字真够劲" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="这帮孙子还有完没完！" />  
+		<comment text="是不是很烦人？" /> 
+		<comment text="刚刚杀的人数比我将来要杀的敌人都多！" />  
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="为什么过去的几天里我们的人一直在撤退？" />  
+		<comment text="他们没有撤退,他们只是在朝着相反的方向前进" />  
+		<comment text="好吧..." />                                       
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="战争是上帝教导无知的人类认识地理的方式" />  
+		<comment text="是呀，我听说你爹在一战的时候没少挖坑" />                                     
+	</dialogue> 
+	
+   <!-- commander comments -->
+	<comment key="player promotion" text="恭喜你战士，你已晋升为&#37;rank_name！" />
+	<comment key="we captured a base" text="&#37;base_name已经被我们占领！" />
+	<comment key="we captured a base" text="我们已经控制了&#37;base_name，加强警戒！" />
+	<comment key="we captured a base" text="我们的陆战队员已经清理了&#37;base_name的敌军！" />
+	<comment key="enemy captured a base" text="&#37;faction_name占领了&#37;base_name，准备反攻！" />
+	<comment key="enemy captured a base" text="日军占领了&#37;base_name" />
+	<comment key="neutral captured a base" text="" />
+	
+	<comment key="we have lost our last base" text="我们丢掉了最后的阵地——这场战斗我们输了！" />
+	<comment key="enemy has lost their last base" text="&#37;faction_name被打败了！" />
+	
+	<comment key="our assault ran out of time" text="我没再也没有时间进攻了——这场战斗我们输了！" />
+	<comment key="enemy assault ran out of time" text="&#37;faction_name被打败了！" />
+	
+	<comment key="we won by map conquer" text="干得漂亮，我们把敌人赶走了！" />
+	<comment key="we won by defense timer" text="他们已经无力反攻，我们赢了！" />
+	
+	<comment key="our base is under attack" text="&#37;base_name正在被攻击！" />
+	<comment key="our base is under attack" text="刚刚收到情报，日军正在攻打&#37;base_name" />
+	<comment key="we are attacking a base" text="我们的武装力量正在攻打&#37;base_name" />
+	
+	<comment key="fighting near a base" text="情报显示在&#37;base_name附近有敌军活动" />
+	<comment key="fighting near a base" text="&#37;base_name附近需要增援" />
+	<comment key="fighting near a base" text="&#37;base_name附近发生了交火" />
+	
+	<comment key="defense timer started" text="&#37;faction_name拿下了这片区域,距离完全占领还有&#37;time_left秒！" />
+	<comment key="defense timer to go" text="还有&#37;time_left秒！" />
+	
+   <!-- adventure mode -->
+	<comment key="guadalcanal intro, part 1" text="立正！指挥官发来简报" />
+	<comment key="guadalcanal intro, part 2" text="海军已经撤离——这里只剩下我们了" />
+	<comment key="guadalcanal intro, part 3" text="更糟糕的是，日本人看起来会尽一切可能攻打这条战线" />
+	<comment key="guadalcanal intro, part 4" text="守住战线，不计一切代价保住机场！" />
+	<comment key="guadalcanal intro, part 5" text="敌军会从河流接近,做好准备" />
+	<comment key="guadalcanal intro, part 6" text="祝你们好运，一路平安，战士们！你们还有30秒准备进入战斗！" />
+	<comment key="guadalcanal intro, part 7" text="敌人正在试探我们，时间不多了！" />
+	
+	<comment key="guadalcanal stage 1" text="敌军炮火来袭,寻找掩护！(阶段1开始)" />
+	<comment key="guadalcanal stage 2" text="第二波敌人来了！ (阶段2开始)" />
+	<comment key="guadalcanal stage 3" text="坦克！他们开来了坦克！(阶段3开始)" />
+	<comment key="guadalcanal stage 4" text="敌人不会放弃的,继续做好防御！ (阶段4开始)" />
+	<comment key="guadalcanal stage 5" text="他们正在集结兵力准备下一轮进攻——巩固战线！(2分钟休息)" />
+	<comment key="guadalcanal stage 6" text="陆军刚刚登陆,但是敌人看起来不会停下他们的进攻 (阶段6开始)" />
+	<comment key="guadalcanal stage 7" text="我们的海军带着大炮回来了！让他们下地狱吧！" />
+	<comment key="guadalcanal stage 8" text="还击！！" />
+	
+	<comment key="map start with 1 base, part 1" text="立正！指挥官发来简报" />
+	<comment key="map start with 1 base, part 2" text="很高兴你们都来到了&#37;map_name" />
+	<comment key="map start with 1 base, part 3" text="舰队已于今日抵达，正准备进行登陆行动"/>
+	
+	<comment key="map start with 1 base, capture" text="现在我们已准备好发起总攻，目标是夺下&#37;map_name整个区域" />
+	<comment key="map start with 1 base, koth" text="首要任务是夺取&#37;target_base_name控制权并坚守到底" />
+	
+	<comment key="map advance, held by enemy" text="我们的S-2战斗营报告&#37;map_name是下一个战略目标，&#37;faction_name正在死守" />
+	<comment key="map advance, another enemy present" text="根据情报显示&#37;faction_name在当地有所活动" />
+	<comment key="map advance, new map" text="作战师正在集结另一批登陆部队，准备行动！" />
+	<comment key="map advance, been there before" text="我们还控制着&#37;number_of_bases个阵地" />
+	<comment key="map advance, friendly map" text="&#37;map_name已被&#37;faction_name占领，那里很和平" />
+	
+	<comment key="final map, part 1" text="立正！指挥官发来简报" />
+	<comment key="final map, part 2" text="很高兴你们都来到了&#37;map_name" />
+	<comment key="final map, part 3" text="这里是日本本土！" />
+	<comment key="final map, part 5" text="在一座座岛屿，一场场战斗后，我们终于把&#37;faction_name赶回了他们的老家" />
+	<comment key="final map, part 6" text="但是不要放松，“没落行动”已经开始" />
+	<comment key="final map, part 7" text="完成任务，赢得这场战争，终结一切吧！" />
+	
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=usmc_inf.call" text="已将步兵队员派往&#37;base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle.call" text="M3“斯图亚特”轻型坦克将运往&#37;base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle1.call" text="LVT-4两栖战车将运往&#37;base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3“谢尔曼”中型坦克已经部署在&#37;base_name" />
+	<comment key="spawn_in_base_call, denied, key=usmc_inf.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, denied, key=usmc_vehicle.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman.call" text="无可用部署点，占领一个据点！"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW军械车将部署在%base_name" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="无可用部署点，占领一个据点！"/>
+	
+   <!-- character specific animation override table -->
+	<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+	
+</character>

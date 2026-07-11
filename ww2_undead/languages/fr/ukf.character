@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0_allies.character">
+    	<sound key="death" fileref="ukf_death_01.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_02.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_03.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_04.wav" volume="1.05" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_05.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_06.wav" volume="1.1" pitch_variety="0.025"/>
+    	<!--<sound key="death" fileref="ukf_death_07.wav" volume="1.0" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ukf_death_08.wav" volume="1.15" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_09.wav" volume="1.05" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ukf_death_10.wav" volume="1.05" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_11.wav" volume="1.05" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_12.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- says bastard -->
+	<!--<sound key="death" fileref="ukf_death_13.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- says bastard -->
+	<!--<sound key="death" fileref="ukf_death_14.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- says bastard -->
+	<sound key="death" fileref="ukf_death_15.wav" volume="1.2" pitch_variety="0.025"/>
+    	<!--<sound key="death" fileref="ukf_death_16.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- says bastard -->
+  	<sound key="death" fileref="ukf_death_17.wav" volume="1.05" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_18.wav" volume="1.05" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_19.wav" volume="1.25" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_20.wav" volume="1.15" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="ukf_death_21.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_22.wav" volume="1.05" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_23.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- says bastard -->
+	<sound key="death" fileref="ukf_death_24.wav" volume="1.05" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_25.wav" volume="1.05" pitch_variety="0.025"/>-->	<!-- says bastard -->
+	<sound key="death" fileref="ukf_death_26.wav" volume="1.2" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_27.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_28.wav" volume="1.1" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_29.wav" volume="1.2" pitch_variety="0.025"/>-->
+	<!--<sound key="death" fileref="ukf_death_30.wav" volume="1.15" pitch_variety="0.025"/>-->
+	<!--<sound key="death" fileref="ukf_death_31.wav" volume="1.2" pitch_variety="0.025"/>-->
+	<!--<sound key="death" fileref="ukf_death_32.wav" volume="1.1" pitch_variety="0.025"/>--> <!-- says bastard -->
+	<sound key="death" fileref="ukf_death_33.wav" volume="1.1" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_34.wav" volume="1.0" pitch_variety="0.025"/>--> <!-- says bastard -->
+	<sound key="death" fileref="ukf_death_35.wav" volume="1.2" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_36.wav" volume="1.2" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_37.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_38.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_39.wav" volume="1.05" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_40.wav" volume="1.05" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_41.wav" volume="1.1" pitch_variety="0.025"/>-->
+	<!--<sound key="death" fileref="ukf_death_42.wav" volume="1.0" pitch_variety="0.025"/>-->	<!-- screech -->
+	<sound key="death" fileref="ukf_death_43.wav" volume="1.1" pitch_variety="0.025"/>
+	<sound key="death" fileref="ukf_death_44.wav" volume="1.1" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_45.wav" volume="1.1" pitch_variety="0.025"/>-->	<!-- makes a thud sound, might want to clean it up-->
+	<sound key="death" fileref="ukf_death_46.wav" volume="1.3" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_47.wav" volume="1.2" pitch_variety="0.025"/>--> <!-- says bastard -->
+	<sound key="death" fileref="ukf_death_48.wav" volume="1.2" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="ukf_death_49.wav" volume="1.2" pitch_variety="0.025"/>--> <!-- says bastard -->
+	<!--<sound key="death" fileref="ukf_death_50.wav" volume="1.2" pitch_variety="0.025"/>--> <!-- says bastard -->
+	<sound key="death" fileref="generic_death_01.wav" volume="1.0" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.0" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.0" pitch_variety="0.025"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.0" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.0" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.0" pitch_variety="0.025"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.0" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.0" pitch_variety="0.025"/>
+
+   <!-- character specific animation override table -->
+	<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+	
+<!-- #EDELWEISS_TRANSLATION -->
+
+   <!-- commander comments -->
+	<comment key="enemy captured a base" text="Les Allemands ont envahi %base_name"/>
+		
+	<comment key="our base is under attack" text="On nous signale que des troupes allemandes attaquent %base_name."/>
+		
+   <!-- adventure mode -->
+	<comment key="highway intro, part 1" text="Attention, le briefing du Commandant arrive"/>
+	<comment key="highway intro, part 2" text="Content de vous avoir tous ici, sur la route 69."/>
+	<comment key="highway intro, part 3" text="Nous vous avons amené ici pour prendre part à l'opération Market Garden, un plan ambitieux pour libérer les Pays-Bas."/>
+	<comment key="highway intro, part 4" text="Pendant que nos parachutistes sécurisent la grande ville d'Arnhem, notre boulot est de remonter cette route pour les soutenir."/>
+	<comment key="highway intro, part 5" text="Bonne chance et bon vent !"/>
+
+	<comment key="arnhem intro, part 1" text="Attention, le Briefing du Commandant arrive"/>
+	<comment key="arnhem intro, part 2" text="Nous avons sécurisé Arnhem mais les patrouilles signalent que nous sommes maintenant isolés et encerclés."/>
+	<comment key="arnhem intro, part 3" text="Les Allemands ont rassemblé leurs forces blindées aux alentours et se préparent à reprendre la ville."/>
+	<comment key="arnhem intro, part 4" text="L'ennemi a déjà fait une percée dans la ville, et se prépare à avancer vers le pont sud."/>
+	<comment key="arnhem intro, part 5" text="Ils vont nous attaquer avec tout ce qu'ils ont. Vérifiez vos cartes et rendez vous sur la ligne de front."/>
+	<comment key="arnhem intro, part 6" text="Bonne chance et Dieu vous protège, soldats ! Vous avez 30 secondes pour vous mettre en place !"/>
+	<comment key="arnhem intro, part 7" text="L'ennemi nous sonde, ça ne devrait plus tarder maintenant !"/>
+
+	<comment key="arnhem stage attacks increase 1" text="Ils envoient plus de blindés !"/>
+	<comment key="arnhem stage attacks increase 2" text="L'attaque ennemie se développe ! Positionnez-vous au niveau de leur avancée principale !"/>
+	<comment key="arnhem stage attacks increase 3" text="D'autres unités blindées repérées s'approchent de nos positions ! Allez à leur rencontre et arrêtez-les !"/>
+	<comment key="arnhem stage counterattack 1" text="L'ennemi s'essouffle, regroupez-vous et commencez à attaquer !"/>
+	<comment key="arnhem stage counterattack 2" text="Leur attaque faiblit !"/>
+	<comment key="arnhem stage counterattack 3" text="Resécurisez toutes nos positions"/>
+	<comment key="arnhem test info 1" text="Capacités ajustées ; Alliés renforcés"/>
+	<comment key="arnhem test info 2" text="Capacités ajustées ; factions équilibrées"/>
+	<comment key="arnhem test info 3" text="Les Allemands décalent leur élan d’attaque"/>
+
+	<comment key="bastogne intro, part 1" text="Attention, le Briefing du Commandant arrive"/>
+	<comment key="bastogne intro, part 2" text="Les allemands ont lancé une offensive massive par la forêt des Ardennes."/>
+	<comment key="bastogne intro, part 3" text="Ils ont enfoncé nos lignes sur un large front, et Bastogne est un noeud routier très important dont ils ont besoin."/>
+	<comment key="bastogne intro, part 4" text="Tenez la ligne, et tenez Bastogne à tous prix !"/>
+	<comment key="bastogne intro, part 5" text="Ils vont nous attaquer avec tout ce qu'ils ont. Vérifiez vos cartes et rendez vous sur la ligne de front."/>
+	<comment key="bastogne intro, part 6" text="Bonne chance et Dieu vous protège, soldats ! Vous avez 30 secondes pour vous mettre en place !"/>
+	<comment key="bastogne intro, part 7" text="L’ennemi nous sonde, ça ne devrait pas tarder maintenant ! Ils semblent venir par le flanc ouest !"/>
+
+	<comment key="bastogne stage attacks increase 1" text="Ils envoient plus de blindés ! Attention sur les flancs est !"/>
+	<comment key="bastogne stage attacks increase 2" text="L'attaque ennemie se développe ! Positionnez-vous au niveau de leur avancée principale !"/>
+	<comment key="bastogne stage attacks increase 3" text="De nouvelles unités blindées repérées aux abords de nos positions ! Rejoignez-les et arrêtez-les !"/>
+	<comment key="bastogne stage counterattack 1" text="L'ennemi s'essouffle, regroupez-vous et commencez à attaquer !"/>
+	<comment key="bastogne stage counterattack 2" text="Leur attaque faiblit !"/>
+	<comment key="bastogne stage counterattack 3" text="Sécurisez toutes nos positions avant d'avancer sur Foy au nord !"/>
+	<comment key="bastogne test info 1" text="Capacités ajustées ; Alliés renforcés"/>
+	<comment key="bastogne test info 2" text="Capacités ajustées ; factions équilibrées"/>
+	
+	<comment key="map start with 1 base, part 1" text="Attention, le briefing du Commandant arrive"/>
+	<comment key="map start with 1 base, part 2" text="Content de vous avoir tous ici à %map_name"/>
+	<comment key="map start with 1 base, part 3" text="Nous vous avons fait venir ici aujourd'hui pour participer à une opération de grande envergure."/>
+	
+	<comment key="map start with paradrop, part 1" text="Attention, le briefing du Commandant arrive"/>
+	<comment key="map start with paradrop, part 2" text="Nous effectuons un parachutage de combat ici à %map_name"/>
+	<comment key="map start with paradrop, part 3" text="Vous pouvez choisir votre emplacement pour entrer sur le champ de bataille"/>
+	<comment key="map start with paradrop, part 4" text="Tout le territoire est un territoire ennemi, alors soyez vigilants jusqu'à ce que vous puissiez sécuriser une position !"/>
+
+	<comment key="map start with 1 base, capture" text="Maintenant que nous sommes prêts à lancer l'invasion, l'objectif est de capturer la totalité de la zone"/>
+	<comment key="map start with 1 base, koth" text="L'objectif principal est de prendre le contrôle de %target_base_name et de le défendre"/>
+	
+	<comment key="hill 262, part 1" text="Attention, le briefing du Commandant arrive"/>
+	<comment key="hill 262, part 2" text="Les Allemands tentent de fuir la poche de Falaise par ce secteur."/>
+	<comment key="hill 262, part 3" text="Nous avons rejoint les forces polonaises battues ici au Mont Ormel"/>
+	<comment key="hill 262, part 4" text="Cependant, le travail n'est pas terminé : prenez le contrôle du point 262 et défendez-le"/>
+
+	<comment key="map advance, held by enemy" text="%map_name est le prochain objectif stratégique. Les Allemands ont été très actifs dans ce secteur."/>
+	<comment key="map advance, another enemy present" text="%faction_name ont également été répérés dans la zone"/>
+	<comment key="map advance, new map" text="Equipez-vous et préparez-vous à bouger !"/>
+	<comment key="map advance, been there before" text="nous avons toujours le contrôle de %number_of_bases bases"/>
+	<comment key="map advance, friendly map" text="%map_name est occupée par %faction_name, c'est plutôt calme dans le coin"/>
+	
+	<comment key="varsity, part 1" text="Attention, le briefing du Commandant arrive"/>
+	<comment key="varsity, part 2" text="Nous avons lancé l’opération Varsity pour tenter de traverser le Rhin et de frapper l’Allemagne."/>
+	<comment key="varsity, part 3" text="Préparez-vous à un largage de combat, mais soyez averti :"/>
+	<comment key="varsity, part 5" text="Notre ennemi a créé une place forte solide dans le nord-est autour d’un vieux château."/>
+	<comment key="varsity, part 6" text="Nos avions de reconnaissance n'ont pas pu obtenir de données sur le site, ils peuvent donc cacher des forces à l'intérieur."/>
+	<comment key="varsity, part 7" text="Vous ne pourrez pas attaquer cet endroit tant que le reste de la zone ne sera pas sécurisé."/>
+	<comment key="varsity, part 8" text="Préparez-vous à un combat difficile ! Bonne chance et que dieu vous protège, soldats."/>
+	<comment key="varsity, boss, part 1" text="La résistance allemande faiblit, il est temps d'attaquer les résistants situés dans le vieux château."/>
+	<comment key="varsity, boss, part 2" text="Détruisez toute résistance retranchée derrière les murs du château !"/>
+	
+  <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=ukf_inf.call" text="Infanterie en formation à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=ukf_inf.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=ukf_para_no_parachuting.call" text="Parachutistes au sol en formation à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=ukf_para_no_parachuting.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle.call" text="Jeep cal .50 en déploiement à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 Halftrack en déploiement à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_m4_sherman_v.call" text="M4A4 Sherman V déployé à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_m4_sherman_v.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_sherman_firefly.call" text="Déploiement du Sherman Firefly à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_sherman_firefly.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+
+	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_churchill.call" text="Déploiement du Churchill Mk VII à %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_churchill.call" text="Aucun point de déploiement valide trouvé, capturez une base !"/>
+	
+</character>

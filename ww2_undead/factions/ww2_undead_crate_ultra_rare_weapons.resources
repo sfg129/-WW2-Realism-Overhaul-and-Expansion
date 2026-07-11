@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	
+	<weapon key="kar43_s_explosive.weapon" />
+	<weapon key="ppsh41.weapon" />
+	<weapon key="beretta_m38.weapon" />
+	<weapon key="stg44_s.weapon" />
+	<weapon key="stg44_n.weapon" />
+	<weapon key="fg42_late_s.weapon" />
+	<weapon key="mg42_extended_belt.weapon" />
+	<weapon key="mg42_assault.weapon" />
+	<weapon key="mg34_assault.weapon" />
+	<weapon key="mg34_extended_belt.weapon" />
+	<weapon key="kar98k_s_elite.weapon" />
+	<weapon key="gew98_s.weapon" />
+	<weapon key="m1928_thompson_large_drum.weapon" />
+	<weapon key="m1917_hmg_assault.weapon" />
+	<weapon key="m1919_lmg_assault.weapon" />
+	<weapon key="m1941_johnson_lmg.weapon" />
+	<weapon key="stinger.weapon" />
+	<weapon key="winchester_automatic_rifle.weapon" />
+	<weapon key="vickers_assault.weapon" />
+	<weapon key="vickers_k.weapon" />
+	<weapon key="beardmore_farquhar_lmg.weapon" />
+	<weapon key="type_hei_automatic_rifle.weapon" />
+	<weapon key="ho104_hmg_assault.weapon" />
+	<weapon key="te4_lmg.weapon" />
+	<weapon key="type96_lmg_shield_scope.weapon" />
+	<weapon key="type98_lmg_mg15.weapon" />
+	<weapon key="sten_mkii_sd.weapon" />
+	<weapon key="de_lisle_carbine.weapon" />
+	<weapon key="beardmore_farquhar_50cal_assault.weapon" />
+	<weapon key="danuvia_43m_folded.weapon" />
+	<weapon key="browning_auto5_cut_down.weapon" />
+	<weapon key="browning_auto5_ext.weapon" />
+	<weapon key="charlton_automatic_rifle.weapon" />
+
+</resources>

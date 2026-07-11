@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- ======    for the time being, no vehicles at all   =======  -->
+	<!--	===============================
+	<vehicle key="m4_75.vehicle" />
+	<vehicle key="m4_rhino.vehicle" />
+ 	<vehicle key="stuart.vehicle" />
+  	<vehicle key="stuart_damaged.vehicle" />
+	<vehicle key="m3_halftrack.vehicle" />
+	<vehicle key="m10.vehicle" />
+	<vehicle key="pillbox.vehicle" />
+	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m2hb_hmg.vehicle" />
+	<vehicle key="jeep.vehicle" />
+	<vehicle key="willys_mb.vehicle" />
+	<vehicle key="willys_mb_recoilless_rifle.vehicle" />
+	<vehicle key="at_gun_m5.vehicle" />
+	=====================================	-->
+
+
+	<vehicle key="usf_armoury_para.vehicle" />    
+
+	<call key="usf_para_e.call" />
+	<call key="ww2_undead_usf_para_armoury.call" />
+
+</resources>

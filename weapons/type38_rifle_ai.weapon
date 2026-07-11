@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="type38_rifle_ai.weapon" drop_count_factor_on_death="0.0">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.98" 
+	sustained_fire_grow_step="0.9" 
+	sustained_fire_diminish_rate="1"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 38" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="130.0" 
+	barrel_offset="0.65" 
+	projectiles_per_shot="1"
+	/>
+
+	<!-- AI versions of these weapons are worse than player versions to reduce the frustration of getting insta-killed so often -->
+	<!-- they have lower damage, lower velocity, and lose the mild sight range boost for bolt-actions -->
+	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="type38_rifle.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+
+
+	<!-- was 0.75 diminish rate -->
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_01.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="type38_rifle.xml" />
+	<hud_icon filename="hud_type38.png" />
+	
+	<commonness value="0.3" />
+	<inventory encumbrance="8.0" price="2.0" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.3"
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

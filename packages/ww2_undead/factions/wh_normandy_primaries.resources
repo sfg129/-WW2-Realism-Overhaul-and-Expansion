@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<weapon key="kar98k.weapon" />
+	<weapon key="kar98k_b.weapon" />
+	<weapon key="stg44.weapon" />
+	<weapon key="kar43.weapon" />
+	<weapon key="mp40.weapon" />
+<weapon key="panzerschreck.weapon" />
+	<weapon key="kar98k_s.weapon" />
+	<weapon key="g41w.weapon" />
+		<weapon key="kar98k_small_optic.weapon" />
+	<weapon key="mp34_o.weapon" />
+	<weapon key="mp34_o_b.weapon" />
+		<weapon key="mg34_assault.weapon" />
+	<weapon key="mg34_extended_belt.weapon" />
+		<weapon key="mg42_assault.weapon" />
+	<weapon key="mg42_extended_belt.weapon" />
+		<weapon key="kar98k_rifle_grenade_he.weapon" />
+		<weapon key="kar98k_rifle_grenade_launcher_at.weapon" />
+		<weapon key="kar43_s.weapon" />
+			<weapon key="g41w_b.weapon" />
+	<weapon key="kar98k_small_optic_b.weapon" />
+		<weapon key="wz35.weapon" />
+</resources>

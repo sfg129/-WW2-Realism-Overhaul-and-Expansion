@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="usf.character">
+
+   <!-- commander comments -->
+	<comment key="we captured a base" text="%base_name!를 점령했다!" />
+	<comment key="enemy captured a base" text="%base_name를 빼앗겼다!" />
+	<comment key="our base is under attack" text="적들이 %base_name를 공격한다는 보고를 받았다." />
+	<comment key="fighting near a base" text="%base_name 근처에서 적을 포착 했다." />
+	
+	<!-- adventure mode -->
+	<comment key="undead varsity intro pt 1" text="집중하도록, 작전 브리핑이다." />
+	<comment key="undead varsity intro pt 2" text="전쟁이 거의 다 끝났지만 추축군 잔당들이 죽은 자들을 다시 살리는 방법을 찾아냈다..." />
+	<comment key="undead varsity intro pt 3" text="죽은 자들은 누가 아군이고 적인지 구별 못하는거 같다, 개판이더군." />
+	<comment key="undead varsity intro pt 4" text="이 초자연적인 괴물들은 근처에 있는 성에서 나온것으로 우리는 파악하고 있다." />
+	<comment key="undead varsity intro pt 5" text="근처에 있는 기지들을 수색해서 성문을 여는 방법을 알아내도록!" />
+	
+	<comment key="undead swan intro pt 4" text="이 초자연적인 괴물들은 근처에 있는 성에서 나온것으로 우리는 파악하고 있다." />
+	<comment key="undead swan intro pt 5" text="근처에 있는 기지들을 수색해서 성문을 여는 방법을 알아내도록!" />
+
+	<comment key="undead varsity reminder" text="모든 병사들에게 알림: 근처에 있는 기지들을 수색해서 성문을 여는 방법을 알아내라!" />
+	<comment key="undead swan reminder" text="모든 병사들에게 알림: 근처에 있는 기지들을 수색해서 성문을 여는 방법을 알아내라!" />
+
+	<comment key="undead varsity progress report pt 1" text="잘했다!"/>
+	<!-- commander then reports some number like 3 things which remain, so he just says 3 from the script -->
+	<comment key="undead varsity progress report pt 2" text="%remaining_seals 남았다!" />
+	<comment key="undead varsity progress report pt 2 alt" text="%remaining_seals 오컬트 팬타그램들이 남았다!" />
+	<!-- alternatively commander might report some number like 3/10, showing a total, so he says 3/10 from script  -->
+	<comment key="undead varsity progress report pt 3" text="%completed_seals/%total_seals 완료했다!" />
+	<comment key="undead varsity progress report pt 3 alt" text="%completed_seals/%total_seals 오컬트 팬타그램들이 완성됐다!" />
+
+	<comment key="undead varsity gate open pt 1" text="성문이 열렸다!!" />
+	<comment key="undead varsity gate open pt 2" text="빨리 들어가서 성을 확보해라!" />
+	<comment key="undead varsity gate open pt 3 reminder" text="성문이 열렸으니 내부를 확보하고 좀비들을 잡아라!" />
+
+	<comment key="undead swan gate open pt 1" text="성문이 열렸다!!" />
+	<comment key="undead swan gate open pt 2" text="빨리 들어가서 성을 확보해라!" />
+	<comment key="undead swan gate open pt 3 reminder" text="성문이 열렸으니 내부를 확보하고 좀비들을 잡아라!" />
+
+	<comment key="undead varsity boss dialogue 1" text="적 사령관 포착! 제거하라!" />
+	<comment key="undead varsity boss dialogue 2" text="적 사령관을 찾아서 제거하라!!" />
+
+</character>

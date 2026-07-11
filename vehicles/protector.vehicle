@@ -1,0 +1,17 @@
+<vehicle name="" key="protector.vehicle" map_view_atlas_index="-1" jams_enemy_radio="0" existence="one_per_faction" reserves_spawn_point="1" protectors="8"  soldier_capacity_offset="8" respawn_time="86400.0" usable_for_cover="0" >
+	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
+	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
+
+    <modifier class="blast_range" value="-2.5" />
+
+	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<modifier class="blast_damage" value="-0.7" />
+                                                                                                                                                       
+	<physics max_health="2000.0" mass="10000.0" extent="1 0.0 1" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 0.5 0" collision_model_extent="1.2 1 1.2" visual_offset="0 -1.0 0.0" /> 
+
+	<visual class="chassis" mesh_filename="flare_stick.mesh" texture_filename="alpha.png" />
+	<visual class="chassis" key="broken" mesh_filename="flare_stick.mesh" texture_filename="alpha.png" />
+
+
+</vehicle>

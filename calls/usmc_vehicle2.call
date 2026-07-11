@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call 
+	key="usmc_vehicle.call" 
+	radio_view_text="Reinforcements - M3 Stuart Light Tank" 
+	initiation_comment="Requesting reinforcements, M3 Stuart" 
+	acknowledge_comment="Copy, loud and clear" 
+	notify_metagame="1" consume_rp="0" show_target_marker="0">
+	
+		<tag name="reinforcements" />
+		<hud_icon filename="hud_tank_stuart.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="100" source="rank" source_value="0.2" />
+		<inventory encumbrance="0.0" price="800.0" />
+		
+	</call>
+  
+	<call key="usmc_vehicle_spawn.call" acknowledge_time="0.0" launch_comment="">
+		<round 
+		instances="1" 
+		instance_class="vehicle" 
+		instance_key="stuart.vehicle" 
+		instance_spread="3 0 3" 
+		common_spread="0 0 0" 
+		launch_time="7.5" 
+		spawn_time="10.0" 
+		horizontal_offset_at_spawn="0.0" 
+		vertical_offset_at_spawn="0.0" 
+		initial_speed_to_target="0.0">
+		</round>
+		
+		<inventory encumbrance="0.0" price="800.0" />
+		
+	</call>
+	
+</calls>

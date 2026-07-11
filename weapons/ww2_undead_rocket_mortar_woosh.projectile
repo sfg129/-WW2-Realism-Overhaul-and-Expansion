@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket mortar woosh" slot="2" key="ww2_undead_rocket_mortar_woosh.projectile" >
+	
+	<sound class="result" key="other" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	character_state="none" 
+	radius="0"
+	damage="0"
+	push="0"
+	/>
+	
+	<model mesh_filename="" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	
+</projectile>

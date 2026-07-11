@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" slot="0" key="ww2_undead_ground_spawn_zombie_dark_knight_overlord.projectile" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death ="0.0">
+	
+	<sound class="result" key="other" fileref="thunder.wav" volume="2.0" pitch_variety="0.1"/>
+
+
+
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="impact" />
+
+    <result class="spawn" 
+	instance_class="soldier" 
+	instance_key="shambler_default" 
+	min_amount="5" 
+	max_amount="5" 
+	offset="0 0.25 0" 
+	position_spread="5 0 5" 
+	direction_spread="5 0 5" 
+	/>
+
+	<throwable
+	curve_height="6.0"
+	near_far_distance="0.0"
+	speed_estimation_near="5.0"
+	speed_estimation_far="5.0"
+	max_speed="5.0"
+	randomness="0.0"
+	tweak_factor="1.1"
+	/>
+	
+	<model  />
+
+	<commonness value="1.0" />
+
+	<capacity value="200" source="rank" source_value="0.0" />
+	
+	<rotation class="motion" />
+	
+    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+    <!--<effect class="result" key="other" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />-->
+    <effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+    <!--<effect class="result" key="other" ref="Godray" lighting="0" />-->
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+	
+</projectile>

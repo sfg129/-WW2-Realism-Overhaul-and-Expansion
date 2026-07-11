@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="soldier_wh_ardennes_1.xml" />
+	<model filename="soldier_wh_ardennes_2.xml" />
+	<model filename="soldier_wh_ardennes_3.xml" />
+	<model filename="soldier_wh_ardennes_4.xml" />
+	<model filename="soldier_wh_ardennes_5.xml" />
+	
+	<!-- ----- -->
+	<!-- vests -->
+	<!-- ----- -->
+
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_4"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_5"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_6"/>
+	</model>
+
+	
+	<!-- ------- -->
+	<!-- weapons -->
+	<!-- ------- -->
+
+	<!-- we have to overwrite the default model with one that has no backpack, just so it doesn't clip the flamethrower tank -->
+	<!-- unfortunately this means we have to do FULL vest handling with flamethrower, which is tedious, but.. well.. necessary for reliability -->
+
+	<model filename="soldier_wh_ardennes_3.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon" />
+	</model>
+	<model filename="soldier_wh_ardennes_3.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon" />
+	</model>
+
+	<!-- ----------------- -->
+	<!-- vests with weapon, prepare for a huge wall of handling... -->
+	<!-- ----------------- -->
+
+		<!-- ----------------- -->
+		<! -- Type 93 Flamer Handling -->
+		<!-- ----------------- -->
+
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_4"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_5"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_6"/>
+	</model>
+
+
+		<!-- ----------------- -->
+		<! -- M2 Flamer Handling -->
+		<!-- ----------------- -->
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_sniper_quilted.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_assault.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
+	</model>
+
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_veteran.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
+	</model>
+
+
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_4"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_5"/>
+	</model>
+	<model filename="soldier_wh_ardennes_body_armour.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_sentry_6"/>
+	</model>
+
+	<!-- special weapons -->
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
+	</model>
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
+	</model>
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
+	</model>
+
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
+	</model>
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
+	</model>
+	<model filename="soldier_vs_ardennes_nachtjager.xml">
+		<requirement class="weapon" slot="0" key="stg44_n.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
+	</model>
+
+	<!-- ---- -->
+	<!-- rank -->
+	<!-- ---- -->
+
+	<!-- ----------------- -->
+	<! -- Tank Hunter Vest Handling -->
+	<!-- ----------------- -->
+
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
+		<!-- ----------------- -->
+		<! -- Type 93 Flamer Handling -->
+		<!-- ----------------- -->
+
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
+		<!-- ----------------- -->
+		<! -- M2 Flamer Handling -->
+		<!-- ----------------- -->
+
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_wh_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
+	
+</models>

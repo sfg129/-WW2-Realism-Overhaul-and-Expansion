@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	
+	<weapon key="ww2_undead_p08_officer_ai.weapon" />
+	<weapon key="ww2_undead_c96_pistol_ai.weapon" />
+
+	<carry_item key='ww2_undead_axr_officer.carry_item' enabled="1" />
+
+	<projectile key="ww2_undead_artillery_flare.projectile" />
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, médico!"/> 
+	
+	<comment key="Reloading" text="Me cubra, estou recarregando!"/>
+	<comment key="Reloading" text="Preciso recarregar!"/>  
+	
+	<comment key="We surrender!" text="Eu desisto!"/>
+	<comment key="We surrender!" text="Eu me rendo!"/>
+	<comment key="We surrender!" text="Estou farto disso!"/>
+
+	<comment key="initiate radio call" text="QG, aqui é a Able Company, na escuta?"/>
+	<comment key="commander radio response" text="Na escuta Able, prossiga."/>
+
+	<comment key="hostile vehicle takeover" text="Ei! Isso é - "/> 
+	<comment key="hostile vehicle takeover" text="O quê? Não não NÃO!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Ache ele, droga!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Taaanque!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Jesus, se abaixe! TAANQUE!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Eles trouxeram blindados!"/>     
+
+	<comment key="Hold on!" text="Aguenta firme ai amigo!"/>  
+
+	<comment key="celebrating" text="Bom trabalho, pessoal."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Belos tanques que vocês tinham, acho que vou ficar com eles."/>
+	<comment key="celebrating" text="Uau, que sorte a nossa."/>
+	<comment key="celebrating" text="Wooo! Belo trabalho pessoal."/>
+	<comment key="celebrating" text="Nós chutamos a bunda deles!"/>
+	<comment key="celebrating" text="Desistiram tão facilmente?"/>
+	<comment key="celebrating" text="Preciso achar uma luger pra mim"/>
+	<comment key="celebrating" text="Preciso ver se acho uma pistola de oficial pra mim"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Tem algum cigarro?"/>
+		<comment text="Sim, aqui está."/>
+		<comment text="Suspiro. Coitado do Taylor."/>
+		<comment text="Pois é. Eu ouvi que tiveram que limpar ele das esteiras com uma mangueira."/>
+		<comment text="Caramba. Temos que ter cuidado perto dos tanques, especialmente dos nossos."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Eles te deram equipamento novo?"/>
+		<comment text="Sim"/>
+		<comment text="Droga, eu preciso de equipamento novo..."/> 
+		<comment text="Esquece isso, cara"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Qual nome vamos dar para o tanque?"/>
+		<comment text="Triturador de Chucrutes."/>
+		<comment text="É isso ai."/>
+	</dialogue>
+
+ </character>

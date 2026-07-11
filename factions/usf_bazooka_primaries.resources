@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="m1a1_carbine_ai.weapon" />
+	<weapon key="m3_greasegun_folded_ai.weapon" />
+	
+</resources>

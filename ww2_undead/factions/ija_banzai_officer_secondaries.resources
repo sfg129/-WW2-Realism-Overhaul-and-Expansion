@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="type14_nambu_pistol_officer.weapon" />
+	
+	<carry_item key='vest_assault_webbing.carry_item' enabled="1" />		<!-- Banzai officer is slightly more resilient -->
+	
+	<projectile key="type97_grenade.projectile" />
+	<projectile key="type99_at_mine.projectile" />
+	
+</resources>

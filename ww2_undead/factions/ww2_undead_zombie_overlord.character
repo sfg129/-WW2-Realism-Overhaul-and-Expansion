@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="ww2_undead_zombie.character">
+	
+	<!-- override for short stun animation -->
+	<parameter class="being_stunned_steer_amount" value="0.175" />	<!-- was 0.15 -->
+	<animation key="stunned" target_key="overlord, short stun" />
+	
+</character>

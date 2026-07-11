@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+
+	<text key="Shambler" text="도살자"/>
+	<text key="Brute Shambler" text="브루트 도살자"/>
+	<text key="Runner" text="러너"/>		<!-- probably ununsed -->
+	<text key="Kriegshund" text="전쟁개"/>
+	<text key="Zombie Hund" text="좀비 개"/>
+	<text key="Zombie Bear" text="좀비 곰"/>
+	<text key="Resurrector" text="Resurrector"/>
+	<text key="Necromancer" text="네크로멘서"/>
+
+	<!-- we won't translate the german ranks for now, keep them as is -->	
+	<text key="Soldat" text="Soldat"/>
+	<text key="Obersoldat" text="Obersoldat"/>
+	<text key="Untote" text="Untote"/>
+
+	<text key="MG 131 - Mobile" text="MG 131 - 휴대용" />
+
+
+</translation>

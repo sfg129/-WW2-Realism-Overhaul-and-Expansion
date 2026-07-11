@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Nebelwerfer Barrage" key="ww2_undead_axr_officer_nebelwerfer.call"
+	initiation_comment1="Requesting Fire Mission"
+	initiation_comment2="Nebelwerfers"
+	acknowledge_comment="Roger, wait three."
+	launch_comment="Rounds on the way."
+        notify_metagame="1">
+	
+	<round
+		instances="1"
+		instance_class="grenade"
+		instance_key="ww2_undead_rocket_mortar.projectile" 
+		instance_spread="5 5 5" 
+		common_spread="0 0 0" 
+		launch_time="2.0"
+		spawn_time="3.0">
+		<sound class="launch" fileref="rocket_artillery_barrage_distant.wav" volume="1.65" />
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+	
+	<round
+		instances="1" 
+		instance_class="grenade"
+		instance_key="ww2_undead_rocket_mortar.projectile" 
+		instance_spread="5 5 5" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="4.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.2" />
+	</round>
+	
+	<round
+		instances="1"
+		instance_class="grenade"
+		instance_key="ww2_undead_rocket_mortar.projectile" 
+		instance_spread="5 5 5" 
+		common_spread="0 0 0" 
+		launch_time="4.0"
+		spawn_time="5.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+	</round>
+	
+	<hud_icon filename="hud_mortar2.png" />
+	<capacity value="100" source="rank" source_value="0.0" />
+	<inventory encumbrance="0.0" price="0.0" />
+	
+</call>

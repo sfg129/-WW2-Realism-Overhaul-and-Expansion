@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, medic!" /> 
+	
+	<comment key="Reloading" text="Cover me, reloading!" />
+	<comment key="Reloading" text="I gotta reload!" />  
+	
+	<comment key="We surrender!" text="I give up!" />
+	<comment key="We surrender!" text="I surrender!" />
+	<comment key="We surrender!" text="I've had it!" />
+
+	<comment key="initiate radio call" text="Come in HQ, this is Able Company, do you read?" />
+	<comment key="commander radio response" text="We read you Able, go ahead." />
+
+	<comment key="hostile vehicle takeover" text="Hey! That's - " /> 
+	<comment key="hostile vehicle takeover" text="What? No no NO!" />    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Find him, damnit!" />
+
+	<comment key="enemy seen, vehicle tag = tank" text="Taaank!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Jesus, get down! TAANK!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="They brought in armor!" />     
+
+	<comment key="Hold on!" text="Hang in there buddy!" />  
+
+	<comment key="celebrating" text="Nice job, boys." />
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Nice tanks you guys had, I think I'll keep it." />
+	<comment key="celebrating" text="Wow, that was lucky." />
+	<comment key="celebrating" text="Wooo! Well done boys." />
+	<comment key="celebrating" text="We kicked their asses!" />
+	<comment key="celebrating" text="Givin' up so easy?" />
+	<comment key="celebrating" text="gotta go find me a luger" />
+	<comment key="celebrating" text="see if I can find me an officer's pistol" />
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Got any smokes?" />
+		<comment text="Sure pal, here." />
+		<comment text="Sigh. Too bad about Taylor." />
+		<comment text="Yea. I heard they had to spray him off the treads with a hose." />
+		<comment text="Jeez. We gotta be careful around tanks, especially friendly ones." />
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Did they give you new equipment?" />
+		<comment text="Yeah" />
+		<comment text="Damn it, I need some new gear.." /> 
+		<comment text="Suck it up, buddy" />    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="What are we going to name the tank?" />
+		<comment text="Kraut Kruncher." />
+		<comment text="Hell yea." />
+	</dialogue>
+
+ </character>

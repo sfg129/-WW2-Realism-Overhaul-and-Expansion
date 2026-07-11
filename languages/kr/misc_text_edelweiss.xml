@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<translation>
+	<!-- we won't translate the german ranks for now, keep them as is -->	
+	<!-- yes there's a lot of variants for the first couple of ranks -->
+	<text key="Panzergrenadier" text="기갑척탄병"/>
+	<text key="Volksgrenadier" text="국민척탄병"/>
+	<text key="Grenadier" text="척탄병"/>
+	<text key="Soldat" text="이등병"/>
+	<text key="Panzerobergrenadier" text="기갑척탄일등병"/>
+	<text key="Volksobergrenadier" text="국민척탄일등병"/>
+	<text key="Obergrenadier" text="척탄일등병"/>
+	<text key="Obersoldat" text="일등병"/>
+	<text key="Gefreiter" text="상병"/>
+	<text key="Unteroffizier" text="하사"/>
+	<text key="Feldwebel" text="상사"/>
+	<text key="Leutnant" text="소위"/>
+	<text key="Oberleutnant" text="중위"/>
+	<text key="Hauptmann" text="대위"/>
+	<text key="Oberstleutnant" text="중령"/>
+	<text key="Oberst" text="대령"/>
+	<text key="Generalmajor" text="소장"/>
+	<text key="Generalleutnant" text="중장"/>
+	<text key="General der Waffengattung" text="병과대장"/>
+	<text key="Generaloberst" text="대장"/>
+	<text key="General-feldmarschall" text="야전사령관"/>
+	<text key="Reichsmarschall" text="제국원수"/>
+	
+	<!-- unique british ranks -->
+	<text key="Guardsman" text="이병"/>
+	<text key="Airtrooper" text="공수병"/>
+	<text key="Lance Corporal" text="일병"/>
+	<text key="Warrant Officer Class I" text="일등준위"/>
+
+	<!-- absolutely everything else -->
+	<text key="M4 Sherman cannon" text="M4 셔먼 전차포"/>
+	<text key="M1919A4 Sherman Tank MG" text="M1919A4 셔먼 전차 기관총"/>
+	<text key="M2HB" text="M2HB"/>
+	<text key="MG 34 Sdkfz251" text="MG 34 Sdkfz251"/>
+	<text key="King Tiger Cannon" text="킹 타이거 전차포"/>
+	<text key="MG 34 King Tiger MG" text="MG 34 킹 타이거 기관총"/>
+	<text key="MG 34 King Tiger Cupola MG" text="MG 34 킹 타이거 차장 기관총"/>
+	<text key="20mm King Tiger Cupola MG" text="20mm 킹 타이거 차장 기관포"/>
+	<text key="Recoilless Rifle" text="무반동포"/>
+	<text key="m18 recoilless rifle shell" text="M18 무반동포 포탄"/>
+	<text key="MG 34 Tank MG" text="MG 34 전차 기관총"/>
+	<text key="Panzer IV cannon" text="4호 전차 전차포"/>
+	<text key="M5 Anti-Tank Gun" text="M5 대전차포"/>
+	<text key="at gun shell" text="대전차포 포탄"/>
+	<text key="Pak 40 Anti-Tank Gun" text="Pak 40 대전차포"/>
+	<text key="M2HB M3 Halftrack" text="M2HB M3 반궤도차량"/>
+	<text key="StuG III cannon" text="3호 돌격포 전차포"/>
+	<text key="Tiger Cannon" text="티거 전차포"/>
+	<text key="Flak 38" text="Flak 38"/>
+	<text key="Maus Main Cannon" text="마우스 주포"/>
+	<text key="Maus Secondary Cannon" text="마우스 부포"/>
+	<text key="TOG II Tank MG" text="TOG II 전차 기관총"/>
+	<text key="MG 34" text="MG 34"/>
+	<text key="Karabiner 98k" text="카라비너 98K"/>
+	<text key="Karabiner 98k Bayonet" text="카라비너 98K 착검형"/>
+	<text key="Karabiner 98k - Scout" text="카라비너 98K - 정찰형"/>
+	<text key="Karabiner 98k - Scout Bayonet" text="카라비너 98K - 정찰형 착검형"/>
+	<text key="Karabiner 98k - Hi-Grade" text="카라비너 98k - 고급"/>
+	<text key="Karabiner 98k - Hi-Grade Bayonet" text="카라비너 98k - 고급 착검형"/>
+	<text key="Gewehr 43" text="게베어 43"/>
+	<text key="Gewehr 43 w/ large magazine" text="게베어 43 확장 탄창"/>
+	<text key="Scoped Karabiner 98k" text="조준경 부착 카라비너 98K"/>
+	<text key="Scoped Karabiner 98k - Hi-Grade" text="조준경 카라비너 98k - 고급"/>
+	<text key="Scoped Gewehr 98" text="조준경 부착 게베어 98"/>
+	<text key="Scoped Gewehr 43" text="조준경 부착 게베어 43"/>
+	
+	<!-- "ostveteran" in this context means "east veteran", or veteran from fighting on the eastern front -->
+	<text key="Scoped Gew 43 Ostveteran" text="조준경 부착 게베어 43 베테랑"/>
+	<text key="sniper explosive bullet" text="저격용 고폭탄"/>
+	
+	<text key="Schiessbecher HE Rifle Grenade" text="쉬스베허 고폭총류탄"/>
+	<text key="Schiessbecher AT Rifle Grenade" text="쉬스베허 대전차총류탄"/>
+	<text key="Panzerfaust 60" text="판저파우스트 60"/>
+	<text key="panzerfaust rocket" text="판저파우스트 로켓"/>
+	<text key="Panzerschreck" text="판처슈렉"/>
+	<text key="panzerschreck rocket" text="판처슈렉 로켓"/>
+	<text key="MP 40" text="MP 40"/>
+	<text key="MP 34(o)" text="MP 34(o)"/>
+	<text key="MP 34(o) Bayonet" text="MP 34(o) 착검형"/>
+	<text key="MP 717(r)" text="MP 717(r)"/>
+	<text key="Beretta M38" text="베레타 M38"/>
+	<text key="MP 40 Folded" text="MP40 개머리판 단축형"/>
+	<text key="M 712 'Schnellfeuer'" text="M 712 '슈넬포이어'"/>
+	<text key="StG 44" text="StG 44"/>
+	<text key="Scoped StG 44" text="조준경 부착 StG 44"/>
+	<text key="Vampir StG 44" text="밤피르 부착 StG 44"/>
+	<text key="MG 26(t)" text="MG 26(t)"/>
+	<text key="MG 34 w/ belt" text="벨트 급탄 MG 34"/>
+	<text key="MG 42" text="MG 42"/>
+	<text key="MG 42 w/ belt" text="벨트 급탄 MG 42"/>
+	<text key="MG 34 - Mobile" text="보병용 MG 34"/>
+	<text key="MG 42 - Mobile" text="보병용 MG 42"/>
+	<text key="MG 34 HMG" text="MG 34 중기관총"/>
+	<text key="MG 42 HMG" text="MG 42 중기관총"/>
+	<text key="MG 34 HMG deploy" text="MG 34 중기관총 설치도구"/>
+	<text key="MG 42 HMG deploy" text="MG 42 중기관총 설치도구"/>
+	<text key="Luger P 08" text="루거 P 08"/>
+	<text key="Officer's Engraved Luger P 08" text="장교의 각인된 루거 P 08"/>
+	<text key="Luger LP 08 Carbine" text="루거 LP 08 카빈"/>
+	<text key="Enfield No.4 Mk I" text="엔필드 No.4 Mk I"/>
+	<text key="Enfield No.4 Mk I Bayonet" text="엔필드 No.4 Mk I 착검형"/>
+	<text key="Scoped No.4 Mk I(T)" text="조준경 부착 No.4 Mk I(T)"/>
+	<text key="No. 1 Mk I HE Rifle Grenade" text="No. 1 Mk I 고폭총류탄"/>
+	<text key="No. 68 AT Rifle Grenade" text="No. 68 대전차총류탄"/>
+	<text key="PIAT" text="PIAT"/>
+	<text key="projectile infantry anti-tank" text="보병용 대전차 화기"/>
+	<text key="Sten Mk II" text="스텐 Mk II"/>
+	<text key="Sten Mk IIS" text="스텐 Mk IIS"/>
+	<text key="Sten Mk V" text="스텐 Mk V"/>
+	<text key="Sten Mk V Bayonet" text="스텐 Mk V 착검형"/>
+	<text key="Sterling" text="스털링"/>
+	<text key="Lanchester" text="란체스터"/>
+	<text key="Lanchester Bayonet" text="란체스터 착검형"/>
+	<text key="Austen Mk I Folded" text="오스텐 Mk I 개머리판 단축형"/>
+	<text key="Bren Mk II LMG" text="브렌 Mk II 경기관총"/>
+	<text key="Vickers Mk VI - Bipod" text="양각대 장착 빅커스 Mk VI"/>
+	<text key="VGO No.2 Mk I - Mobile" text="보병용 VGO No.2 Mk I"/>
+	<text key="Vickers Mk VI - Mobile" text="보병용 빅커스 Mk VI"/>
+	<text key="Vickers Mk I HMG" text="빅커스 Mk I 중기관총"/>
+	<text key="Vicker Mk I HMG deploy" text="빅커스 Mk I 중기관총 설치도구"/>
+	<text key="Browning Hi-Power" text="브라우닝 하이파워"/>
+	<text key="Browning Hi-Power Carbine" text="브라우닝 하이파워 카빈"/>
+	<text key="M1903A4 Sniper Rifle" text="M1903A4 저격소총"/>
+	<text key="M18 Recoilless Rifle" text="M18 무반동포"/>
+	<text key="M1918A2 BAR Lightweight" text="경량형 M1918A2 BAR"/>
+	<text key="M1919A6 LMG Lightweight" text="경량형 M1919A6 경기관총"/>
+	<text key="M3 'Greasegun'" text="M3 '그리스 건'"/>
+	<text key="M1928A1 Thompson" text="M1928A1 톰슨"/>
+	<text key="M2 Hyde" text="M2 하이드"/>
+	<text key="M3 'Greasegun' Folded" text="M3 '그리스건' 개머리판 단축형"/>
+	<text key="Winchester Automatic Rifle (WAR)" text="윈체스터 자동소총 (WAR)"/>
+	<text key="M1A1 Carbine" text="M1A1 카빈"/>
+	<text key="M2HB HMG deploy" text="M2HB 중기관총 설치도구"/>
+	<text key="M17 HE Rifle Grenade" text="M17 고폭총류탄"/>
+	<text key="M43 Stielhandgranate" text="M43 막대 수류탄"/>
+	<text key="Panzerwurfmine" text="판저불프미네"/>
+	<text key="strafing run" text="기총 소사"/>
+	<text key="Mills Bomb Grenade" text="마일스 수류탄"/>
+	<text key="FG 42-G" text="FG 42-G"/>
+	<text key="FG 42-G Bayonet" text="FG 42- G 착검형"/>
+	<text key="Scoped FG 42-G" text="조준경 부착 FG 42-G"/>
+	<text key="Scoped FG 42-G Bayonet" text="조준경 부착 FG 42-G 착검형"/>
+	<text key="T22 Garand Bayonet" text="T22 개런드 착검형"/>    
+	
+	<!-- unseen, non-player facing items - maybe we don't need to translate it?
+	<text key="Tank Hunter" />
+	<text key="Tank Hunter, Lightly Injured" />
+	<text key="Tank Hunter, Moderately Injured" />
+	<text key="Tank Hunter, Severely Injured" />
+	<text key="Operator" />
+	<text key="Operator Veteran" />
+	<text key="Operator Veteran, Injured" />
+	<text key="Operator Veteran, Severely Injured" /> -->
+	
+	<text key="Assault Trooper Zeal" text="돌격병"/>
+	<text key="Assault Trooper Zeal, Lightly Injured" text="돌격병, 부상"/>
+	<text key="Assault Trooper Zeal, Severely Injured" text="돌격병, 중상"/>
+	<text key="War Photograph" text="전쟁 사진"/>
+	<text key="J. S. Bauck Record" text="J. S. 바아흐 녹음본"/>
+	<text key="Benny Badman Record" text="베니 배드맨 음반"/>
+	<text key="Bing Crossbye Record" text="빙 크로스비 음반"/>
+	<text key="Franz Shoebert Record" text="프란츠 슈즈베르트 음반"/>
+	<text key="W. A. Schmozart Record" text="W.A. 슈모자르트 음반"/>
+	<text key="Schnapps" text="슈납스"/>
+	<text key="Tea Cup" text="찻잔"/>
+	<text key="Box of Tea" text="차 상자"/>
+	<text key="Victoria Cross" text="빅토리아 훈장"/>
+	<text key="Iron Cross" text="철십자 훈장"/>
+	<text key="Opel Blitz" text="오펠 블리츠"/>
+	<text key="Opel Blitz Armory" text="오펠 블리츠 무기고"/>
+	<text key="M4A3 Sherman" text="M4A3 셔먼"/>
+	<text key="LeFH 18" text="LeFH 18"/>
+	<text key="Sdkfz 251 Halftrack" text="Sdkfz 251 반궤도차량"/>
+	<text key="Tiger I" text="티거 I"/>
+	<text key="Tiger II" text="티거 II"/>
+	<text key="Elite Tiger II" text="정예 티거 II"/>
+	<text key="Kubelwagen" text="퀴벨바겐"/>
+	<text key="Willys MB" text="윌리스 MB"/>
+	<text key="Willys MB AT" text="대전차 윌리스 MB"/>
+	<text key="Panzer IV" text="4호 전차"/>
+	<text key="StuG III" text="3호 돌격포"/>
+	<text key="Universal Carrier" text="유니버설 캐리어"/>
+	<text key="Vickers Mk I HMG" text="빅커스 Mk I 중기관총"/>
+	<text key="M2HB HMG" text="M2HB 중기관총"/>
+	
+	<text key="Austin K5" text="오스틴 K5"/>
+	<text key="Austin K5 Armory" text="오스틴 K5 무기고"/>
+	<text key="M3 Halftrack" text="M3 반궤도차량"/>
+	<text key="M4A4 Sherman V" text="M4A4 셔먼 V"/>
+	<text key="M4A3 Sherman Rhino" text="M4A3 셔먼 라이노"/>
+	<text key="Sherman Firefly" text="셔먼 파이어플라이"/>
+	<text key="SdKfz 251/17 Flak" text="SdKfz 251/17 대공"/>
+	<text key="Bergetiger" text="베르게티거"/>
+	<text key="Maus" text="마우스"/>
+	<text key="TOG II*" text="TOG II*"/>
+	<text key="Repair Kit" text="수리 도구"/>
+
+	<text key="strafing run advised" text="기총소사 필요"/>
+
+	<text key="Nebelwerfer Barrage" text="네벨베르퍼 포격"/>
+	<text key="Nebelwerfers" text="네벨베르퍼"/>
+
+	<text key="Heavy Howitzers" text="중포"/>
+	<text key="Field Guns, Saturation Bombardment" text="야포 집중 포격"/>
+	<text key="Roger, wait five." text="알겠다, 5초 대기 바람."/>
+	
+	<text key="Reinforcements - Infantry Squad" text="증원 - 보병 분대"/>
+	<text key="Requesting reinforcements, infantry squad" text="보병 분대 증원을 요청한다"/>
+	<text key="infantry squad deployed" text="보병 분대 배치 완료"/>
+
+	<text key="Reinforcements - Grounded Paratroopers" text="증원 - 착지한 공수부대원"/>
+	<text key="Reinforcements - Grounded Paratrooper Squad" text="증원 - 착지한 공수부대 분대"/>
+	<text key="Requesting reinforcements, paratroopers from nearby areas" text="인근에 공수부대원 증원을 요청한다"/>
+	<text key="nearby paratroopers deploying" text="인근에 공수부대 전개 중"/>
+	<text key="Paratroopers deployed" text="공수부대원 배치 완료"/>
+
+	<text key="Reinforcements - M4A4 Sherman V" text="증원 - M4A4 셔먼 V"/>
+	<text key="Requesting reinforcements, M4A4 Sherman V" text="M4A4 셔먼 V 증원을 요청한다"/>
+	<text key="M4A4 Sherman V deployed" text="M4A4 셔먼 V 배치 완료"/>
+	
+	<text key="Reinforcements - Sherman Firefly" text="증원 - 셔먼 파이어플라이"/>
+	<text key="Requesting reinforcements, Sherman Firefly" text="셔먼 파이어플라이 증원을 요청한다"/>
+	<text key="Sherman Firefly deployed" text="셔먼 파이어플라이 배치 완료"/>
+	
+	<text key="Reinforcements - Paratroopers" text="증원 - 공수부대원"/>
+	<text key="Reinforcements - Paratrooper Squad" text="증원 - 공수부대 분대"/>
+	<text key="Requesting reinforcements, paratroopers" text="공수부대원 증원을 요청한다"/>
+	
+	<text key="Airdropped Armory" text="공수 무기고"/>
+	<text key="Airdropping supplies now." text="보급을 공수한다."/>
+	
+	<text key="Reinforcements - .50 Cal Jeep" text="증원 - 50구경 지프"/>
+	<text key="Requesting reinforcements, jeep!" text="지프 증원을 요청한다!"/>
+	<text key=".50 cal jeep deployed" text="50구경 지프 배치 완료"/>
+	
+	<text key="Reinforcements - Recoilless Rifle Jeep" text="증원 - 무반동포 지프"/>
+	<text key="Requesting reinforcements, recoilless rifle jeep!" text="무반동포 지프 증원을 요청한다!"/>
+	<text key="recoilless rifle jeep deployed" text="무반동포 지프 배치 완료"/>
+	
+	<text key="Reinforcements - M3 Halftrack" text="증원 - M3 반궤도차량"/>
+	<text key="Requesting reinforcements, M3 Halftrack" text="M3 반궤도차량 증원을 요청한다"/>
+	<text key="M3 Halftrack deployed" text="M3 반궤도차량 배치 완료"/>
+	
+	<text key="Reinforcements - Panzer IV" text="증원 - 4호 전차"/>
+	<text key="Requesting reinforcements, Panzer IV" text="4호 전차 증원을 요청한다"/>
+	<text key="Panzer IV deployed" text="4호 전차 배치 완료"/>
+
+	<text key="Reinforcements - StuG III" text="증원 - 3호 돌격포"/>
+	<text key="Requesting reinforcements, StuG III" text="3호 돌격포 증원을 요청한다"/>
+	<text key="StuG III deployed" text="3호 돌격포 배치 완료"/>
+	
+	<text key="Reinforcements - Sdkfz 251" text="증원 - Sdkfz 251"/>
+	<text key="Requesting reinforcements, Sdkfz 251" text="Sdkfz 251 증원을 요청한다"/>
+	<text key="Sdkfz 251 deployed" text="Sdkfz 251 배치 완료"/>
+
+
+	<!-- Edel May 2021 Update -->
+	<text key="M10 GMC" text="M10 GMC"/>
+
+	<text key="Boys Mk I Anti-Tank Rifle" text="Boys 대전차 소총"/>
+	<text key="Scoped P14" text="조준경 부착 P14"/>
+	<text key="Beardmore-Farquhar LMG" text="Beardmore-Farquhar 경기관총"/>
+	<text key="M9A1 Bazooka" text="M9A1 바주카"/>
+
+	<text key="Type 44 Carbine Bayonet" text="44식 카빈총 총검"/>
+	<text key="M1941 Johnson Rifle Bayonet" text="M1941 존슨 소총  - 총검"/>
+
+	<text key="Reinforcements - M4A3 Sherman" text="증원 - M4A3 셔먼 V"/>
+	<text key="Requesting reinforcements, M4A3 Sherman" text="M4A3 셔먼 증원을 요청한다"/>
+	<text key="M4A3 Sherman deployed" text="M4A3 셔먼 배치 완료"/>
+	
+	<text key="Reinforcements - M10 GMC" text="증원 - M10 GMC"/>
+	<text key="Requesting reinforcements, M10 GMC" text="M10 GMC 증원을 요청한다"/>
+	<text key="M10 GMC deployed" text="M10 GMC 배치 완료"/>
+	
+	<!-- 1.87 -->
+	<text key="Type 26 Revolver" text="26식 리볼버"/>
+	<text key="C96 Red 9" text="C96 레드 나인"/>
+	<text key="M1917 Revolver" text="M1917 리볼버"/>
+	<text key="Reichsrevolver M1879" text="국가리볼버 M1897"/>
+	<text key="Model 10" text="모델 1899"/>
+	<text key="Enfield No.2 Mk I" text="엔필드 No.2 Mk I"/>
+	<text key="Officer's Engraved Enfield No.2 Mk I" text="엔필드 No.2 Mk I 착검형"/>
+	<text key="De Lisle Commando" text="De Lisle 특공대"/>
+
+	<!-- 1.89 -->
+	<text key="Sauer M30 Luftwaffe" text="M30 트렌치 건"/>
+	<text key="Sauer M30 Luftwaffe - Rifle Mode" text="M30 트렌치 건 - 소총"/>
+
+	<!-- 1.95 -->
+	<text key="Flammenwerfer 41" text="FW41 화염방사기"/>
+	<text key="Beardmore-Farquhar .50 - Mobile" text="보병용 Beardmore-Farquhar 50구경"/>
+
+	<!-- 1.96 -->
+	<text key="Danuvia 43M"/>
+	<text key="Danuvia 43M Folded"/>
+	<text key="Browning Auto 5 Sawn-Off"/>
+	<text key="Browning Auto 5"/>
+
+	<!-- 1.98 -->
+	<text key="Panzer II Luchs" text="Panzer II Luchs"/>
+	<text key="Reinforcements - Panzer II Luchs" text="Reinforcements - Panzer II Luchs"/>
+	<text key="Requesting reinforcements, Panzer II Luchs" text="Requesting reinforcements, Panzer II Luchs"/>
+	<text key="Panzer II Luchs deployed" text="Panzer II Luchs deployed"/>
+
+	<text key="Churchill Mk VII" text="Churchill Mk VII"/>
+	<text key="Reinforcements - Churchill Mk VII" text="Reinforcements - Churchill Mk VII"/>
+	<text key="Requesting reinforcements, Churchill Mk VII" text="Requesting reinforcements, Churchill Mk VII"/>
+	<text key="Churchill Mk VII deployed" text="Churchill Mk VII deployed"/>
+	
+</translation>

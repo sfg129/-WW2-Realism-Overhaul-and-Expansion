@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+	
+	<weapon key="smle_no4_mki_b.weapon" />
+	<weapon key="sten_mkv.weapon" />
+	<weapon key="bren.weapon" />
+
+	<weapon key="smle_rifle_grenade_he.weapon" />
+
+	<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+	<weapon key="lanchester_smg.weapon" />
+	<weapon key="lanchester_smg_b.weapon" />
+<weapon key="m1928_thompson_mag.weapon" />
+<weapon key="m1928a1_thompson_drum.weapon" />
+	<weapon key="sterling_smg.weapon" />
+	<weapon key="vickers_minibipod.weapon" />
+	<weapon key="browning_auto5_cut_down_ai.weapon" />
+	<weapon key="browning_auto5_ext.weapon" />
+	<weapon key="m1928_thompson_large_drum.weapon" />
+	<weapon key="beardmore_farquhar_lmg.weapon" />
+	<weapon key="beardmore_farquhar_50cal_assault.weapon" />
+	<weapon key="charlton_automatic_rifle.weapon" />
+</resources>

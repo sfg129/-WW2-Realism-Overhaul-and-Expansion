@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="ww2_undead_zombie_brute_mechanic.xml" />
+
+
+	<!-- ----- -->
+	<!-- vests -->
+	<!-- ----- -->
+
+
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_3"/>
+	</model>
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_4"/>
+	</model>
+
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_5"/>
+	</model>
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_6"/>
+	</model>
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_2.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_7"/>
+	</model>
+
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_8"/>
+	</model>
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_9"/>
+	</model>
+	<model filename="ww2_undead_zombie_brute_mechanic_wounded_3.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_bruiser_10"/>
+	</model>
+	
+</models>

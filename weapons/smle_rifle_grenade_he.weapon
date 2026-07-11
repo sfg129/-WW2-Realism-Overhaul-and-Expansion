@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="smle_rifle_grenade_he.weapon">
+	<tag name="assault" />
+	
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="-1" 
+	spread_range="0.1"
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="3.0" 
+	sustained_fire_diminish_rate="1.0" 
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	can_shoot_prone="1"
+	suppressed="0" 
+	name="No. 1 Mk I HE Rifle Grenade" 
+	class="2"
+	slot="0"
+	reload_one_at_a_time="1" 
+	projectile_speed="37.0" 
+	barrel_offset="1.05" 
+		sight_range_modifier="1.5" 
+	/>
+<next_in_chain key="smle_rifle_grenade_launcher_at.weapon" share_ammo="1" />
+	<!-- This is a No. 1 Mk I Cup Discharger on a Mk III Rifle (it could not be attached to the No. 4 Rifle) firing a Mills Bomb Rifle Grenade. -->	<animation state_key="next_in_chain_in" animation_key="reloading, m1 garand grenade launcher" />
+		<modifier class="speed" value="-0.05" />
+
+		<animation key="crouching" animation_key="rifle grenade crouch" />
+	<animation key="recoil" animation_key="rifle grenade recoil" />
+	<animation key="recoil" stance_key="over_wall" ref="27" />
+	<animation key="cycle" animation_key="launcher reload2" />
+	<animation key="cycle" stance_key="prone" animation_key="launcher reload2" />
+	<animation state_key="reload" animation_key="reloading, enfield" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, enfield, prone" />
+	<weak_hand_hold offset="0.4" />
+	
+
+	<sound key="fire" fileref="rifle_grenade.wav" pitch_variety="0.05" volume="2.44"/>
+
+	<sound key="cycle" fileref="rifle_enfield_p14.wav" pitch_variety="0.05" volume="2.7"/>
+    <sound key="reload_one" fileref="sniper_clip_in.wav" />
+	
+	<model filename="weapon_smle_rifle_grenade_he.xml" />
+	<hud_icon filename="hud_smle_mk3_he.png" />
+	
+	<commonness value="0.06" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="60.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="smle_rifle_grenade_he.projectile" />
+	<ballistics
+	curve_height="6.0"
+	near_far_distance="0.0"
+	speed_estimation_near="9.0"
+	speed_estimation_far="17.0"
+	max_speed="37.0"
+	randomness="0.0"
+	tweak_factor="1.1"
+	/> 
+	
+
+	<effect class="muzzle" ref="LawMuzzle" />
+	<effect class="muzzle" ref="UpDust" />
+	
+</weapon>

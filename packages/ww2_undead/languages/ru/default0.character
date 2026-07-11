@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_ww2.character">
+    <!-- default0 uses vanilla comments for easier translation while each faction has their own unique lines -->
+    <!-- <comment key="Hmm, no signal" /> -->
+	
+	<comment key="Driver, abandon vehicle" text="Водитель, покинуть транспорт !" />
+	<comment key="Driver, abandon vehicle" text="Водитель, на выход !" />  
+	<comment key="Gunner, abandon vehicle" text="Стрелок, на выход !" />
+	<comment key="Gunner, abandon vehicle" text="Стрелок, покинуть транспорт !" />  
+	<comment key="Squad, abandon vehicle" text="Отряд, покинуть транспорт !" />
+	<comment key="Squad, get out" text="Отряд, на выход!" />
+	
+	<comment key="Squad, get in" text="Отряд, в транспорт !" />
+	<comment key="Squad, get in" text="Отряд, по местам !" />
+	<comment key="Squad, get in" text="Отряд, занять транспорт !" /> 
+	
+	<comment key="Squad, follow the vehicle" text="Отряд, следовать за транспортом !" />
+	<comment key="Squad, follow the vehicle" text="Отряд, держаться рядом !" />
+	<comment key="Squad, follow the vehicle" text="Отряд, сопровождать транспорт !" />
+	
+	<comment key="Squad, follow me" text="Отряд, за мной !" />
+	<comment key="Squad, follow me" text="Отряд, следуй за мной !" />
+	<comment key="Squad, follow me" text="Отряд, держаться рядом !" />
+	<comment key="Squad, follow me" text="Отряд, не отставай !" />
+	<comment key="Squad, follow me" text="Отряд, ко мне !" />
+	<comment key="Squad, follow me" text="Отряд, держать строй !" />  
+	
+	<comment key="Driver, stop the vehicle" text="Водитель, останови !" />
+	<comment key="Driver, stop the vehicle" text="Водитель, стой !" />
+	<comment key="Driver, stop the vehicle" text="Стоп !" />
+	<comment key="Driver, stop the vehicle" text="Водитель, останови транспорт !" />  
+	<comment key="Gunner, fire at will" text="Стрелок, огонь на усмотрение !" />
+	
+	<comment key="Driver, stop the vehicle" text="Останови транспорт !" />
+	
+	<comment key="Driver, stay close" text="Водитель, держись рядом !" />
+	<comment key="Driver, stay close" text="Водитель, не отставай !" />
+	<comment key="Driver, stay close" text="Водитель, следуй за мной !" />
+	
+	<comment key="Squad, move over there" text="Отряд, двигайтесь туда !" />
+	<comment key="Squad, move over there" text="Отряд, занять позицию !" />
+	<comment key="Squad, move over there" text="Отряд, вперёд !" />
+	
+	<comment key="Squad, change position" text="Отряд, бегом !" />
+	<comment key="Squad, change position" text="Отряд, шевелитесь !" />
+	<comment key="Squad, change position" text="Отряд, быстрее !" />
+	
+	<comment key="Driver, take us there" text="Водитель, отвези нас туда !" />
+	<comment key="Driver, over there" text="Водитель, давай туда !" />
+	
+	<comment key="Gunner, there" text="Стрелок, смотри туда !" />
+	<comment key="Gunner, there" text="Стрелок, вон там !" />
+	<comment key="Gunner, there" text="Стрелок, целься туда !" />
+	<comment key="Gunner, there" text="Стрелок, наведись туда !" />  
+	
+	<comment key="We surrender!" text="Мы сдаёмся !" />
+	<comment key="We surrender!" text="Не стреляйте !" />
+	<comment key="We surrender!" text="Пожалуйста не стреляйте !" />
+	<comment key="We surrender!" text="Я безоружен !" />
+	
+	<comment key="Medic!" text="Медик !" />
+	<comment key="Medic!" text="Врача !" />     
+	<comment key="Medic!" text="Мне нужен врач !" /> 
+	<comment key="Medic!" text="Я ранен !" /> 
+	<comment key="Medic!" text="В меня попали !" />    
+	
+	<comment key="I feel good!" text="Спасибо." />
+	<comment key="I feel good!" text="Мне уже лучше." />
+	<comment key="I feel good!" text="Спасибо за помошь." /> 
+	<comment key="I feel good!" text="Я снова в строю." /> 
+	<comment key="I feel good!" text="Ты спас меня." />     
+	
+	<comment key="Reloading" text="Перезарядка !" />
+	<comment key="Reloading" text="Перезаряжаюсь !" />
+	<comment key="Reloading" text="Меняю магазин !" />  
+	<comment key="Reloading" text="Прикройте !" />   
+	
+	<comment key="Hmm, no signal..." text="Нет сигнала."  />
+	<comment key="cancel radio call" text="Забудьте." />
+	<comment key="cancel radio call" text="Неважно, отбой." />
+	<comment key="initiate radio call" text="Альфа-ноль, приём." />
+	<comment key="commander radio response" text="Это Альфа-ноль, ожидаем запросов." />
+	<comment key="commander radio full" text="This is headquarters. We've got too many requests to handle, try again briefly"/>
+	<comment key="no radio equipment" text="У меня пока нет рации." />
+	<comment key="no radio equipment" text="Я - &#37;rank_names , мне рации не дают." />
+	<comment key="no radio equipment" text="Кажется, я забыл свою рацию в других штанах." />
+	
+	<comment key="squad chat, not in squad" text="Я не состою в отряде." />
+	
+	<comment key="Hey, wait up" text="Эй, стой !" />
+	<comment key="Hey, wait up" text="Эй, подожди !" />  
+	<comment key="Hey, wait up" text="Эй, притормози !" />
+	<comment key="Hey, wait up" text="Да стой же ты !" />  
+	
+
+	<comment key="Quickly!" text="Давай быстрей !" />  
+	<comment key="Quickly!" text="Жми !" />  
+	
+	<comment key="Buzz off" text="Отстань !" />
+	
+	<comment key="Step out, kid" text="Вылезай, парень !" />
+	
+	<comment key="Can't respawn - the last base is under attack" text="Невозможно возродиться - последняя база атакована." />
+	<comment key="Can't respawn - spawning is locked" text="Невозможно возродиться - возрождение недоступно." />
+	
+	<comment key="Hmm.. not enough room here" text="Сдесь не хватает места." />
+	
+	<comment key="I'm outta here" text="Я сваливаю отсюда !" />
+	<comment key="I'm outta here" text="Убираемся отсюда !" />  
+	<comment key="I'm outta here" text="Меняю позицию !" />  
+	
+	<comment key="Good job, soldiers" text="Отличная работа, солдаты." />
+	<comment key="Good job, soldiers" text="Хорошо сработано." />
+	<comment key="Good job, soldiers" text="Отлично сработано." />
+	<comment key="Good job, soldiers" text="Отлично." />
+	
+	<comment key="Open fire" text="Открыть огонь !" />
+	<comment key="Open fire" text="Огонь !" />
+	
+	<comment key="Lone leader, open fire" text="" />
+	
+	<comment key="fire opened, weapon tag = sniper" text="Снайпер !" />
+	<comment key="fire opened, weapon tag = sniper" text="Вражеский снайпер !" />
+	
+
+	<comment key="grenade alert, grenade tag = grenade" text="Осторожно граната !" />
+	<comment key="grenade alert, grenade tag = grenade" text="Осколочная !" />
+	<comment key="grenade alert, grenade tag = grenade" text="Граната ! В укрытие !" />
+	
+	<comment key="grenade alert, grenade tag = flashbang" text="Оглушающая граната !" />
+	<comment key="grenade alert, grenade tag = flashbang" text="Оглушающая ! В укрытие !" />
+	
+	<comment key="grenade alert, grenade tag = rocket" text="Осторожно ракета !" />
+	<comment key="grenade alert, grenade tag = rocket" text="Ракета ! В укрытие !" />
+	<comment key="grenade alert, grenade tag = rocket" text="Это ракета !" />
+	
+	<comment key="enemy not seen, area alerted" text="Смотрите по сторонам !" />
+	<comment key="enemy not seen, area alerted" text="Смотрите в оба !" />
+	
+	<comment key="Lone leader, enemy not seen, area alerted" text="" />
+	
+	<comment key="leader, enemy not seen, taking suppressed fire" text="В укрытие !" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="По нам стреляют !" />
+	
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Он где-то здесь !" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Вражеский огонь !" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Откуда стреляют ?!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Мне это не нравится !" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Проклятье !" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Меня прижали !" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Сержант, у меня пложое предчувствие !" />
+
+ 	<comment key="enemy seen, vehicle tag = apc" text="Вражеский БТР!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="БТР противника!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="Замечен БТР противника!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="Замечен вражеский БТР!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="В укрытие! БТР!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="БТР!" />  
+	
+	<comment key="enemy seen" text="Вон там !" />
+	<comment key="enemy seen" text="Враг !" />
+	<comment key="enemy seen" text="Вижу врага !" />
+	
+	<comment key="enemy not seen, taking suppressed fire" text="Тревога !" />
+	<comment key="enemy not seen, taking suppressed fire" text="Что это было ?" />
+	<comment key="enemy not seen, taking suppressed fire" text="В укрытие !" />
+	<comment key="enemy not seen, taking suppressed fire" text="По нам стреляют !" />
+	
+	<comment key="Waiting for reinforcements" text="Ожидаем подкрепление"/>
+	<comment key="Waiting for reinforcements" text="Подождём тут" />
+	
+	<comment key="Hold on!" text="Держись !" />
+	<comment key="Hold on!" text="Уже бегу !" />  
+	<comment key="Hold on!" text="Один момент !" />  
+	<comment key="Hold on!" text="Я на подходе !" /> 
+	
+	<comment key="Move out" text="Вперёд !" />
+	<comment key="Move out" text="Выдвигаемся !" />
+	<comment key="Move out" text="За мной !" />
+	<comment key="Move out" text="Перемещаемся !" />
+	
+	<comment key="All quiet here" text="Всё чисто." />
+	<comment key="All quiet here" text="Тут всё спокойно." />
+	<comment key="All quiet here" text="*зевает*" />
+	<comment key="All quiet here" text="Тут никого." />
+	<comment key="All quiet here" text="*свистит*" /> 
+	<comment key="All quiet here" text="Затишье перед бурей ?" />
+	<comment key="All quiet here" text="Врагов не видно." />  
+	<comment key="All quiet here" text="Ещё пару недель, и всё..." />     
+	
+	<comment key="Yes sir" text="Так точно !" />
+	<comment key="Yes sir" text="Выполняю !" />
+	<comment key="Yes sir" text="Есть !" />
+	<comment key="Yes sir" text="Слушаюсь !" />
+	<comment key="Yes sir" text="Понял !" />
+	<comment key="Yes sir" text="Да !" />
+	<comment key="Yes sir" text="Будет сделано !" />  
+	
+	<comment key="Uh, I can't drive this thing" text="Я не умею управлять этой штукой." />
+	<comment key="Uh, I can't drive this thing" text="Это не то что я хотел !" />
+	<comment key="Uh, I can't drive this thing" text="Упс !" />
+	<comment key="Uh, I can't drive this thing" text="Чёрт !" />
+	<comment key="Uh, I can't drive this thing" text="Где здесь тромоз !" />
+	<comment key="Uh, I can't drive this thing" text="Не та педаль." />
+	<comment key="Uh, I can't drive this thing" text="Оно само !" />
+	<comment key="Uh, I can't drive this thing" text="Я же тормозил !" />
+	<comment key="Uh, I can't drive this thing" text="Кто-то еще хочет попробовать ?" />
+	<comment key="Uh, I can't drive this thing" text="Ну надо же !" />
+	<comment key="Uh, I can't drive this thing" text="Да как так то ?" />
+	<comment key="Uh, I can't drive this thing" text="У кого есть права ?" />
+	<comment key="Uh, I can't drive this thing" text="Черт, я дома забыл очки !" />
+	<comment key="Uh, I can't drive this thing" text="В какую сторону руль крутить ?" />
+	<comment key="Uh, I can't drive this thing" text="Я тут не при чём !" />
+	
+	<comment key="Waiting for squad" text="Садитесь быстрей !" />
+	<comment key="Waiting for squad" text="Я жду, садитесь !" />   
+	
+	<comment key="Shield up" text="Выставляю щит !" />
+	<comment key="Shield up" text="Прячтесь за мной !" />
+	<comment key="Shield up" text="Держтесь позади меня !" />
+	
+	<comment key="overencumbered" text="Рюкзак слишком тяжелый !" />
+	<comment key="overencumbered" text="Я еле на ногах стою с таким тяжелым рюкзаком !" />
+	<comment key="overencumbered" text="Надо бы выбросить что-то из рюкзака !" />  
+	
+	<comment key="Where to, chief?" text="Куда, командир ?"/>
+	<comment key="Where to, chief?" text="Куда направляемся ?" />
+	<comment key="Where to, chief?" text="Куда едем ?" />
+	<comment key="Where to, chief?" text="Жду приказов ?" />
+	
+	<comment key="Press SPACE to continue!" text="Нажмите ПРОБЕЛ, чтобы продолжить !" />
+	
+	<comment key="about to drive over a friendly" text="С дороги !" />
+	<comment key="about to drive over a friendly" text="Дайте проехать !" />
+	
+	<comment key="this is as close as i can get" text="Не могу подъехать ближе !" />
+	<comment key="this is as close as i can get" text="Дальше не проехать !" />
+	
+	<comment key="enemy vehicle spotted, near base" text="&#37;enemy_name разместили &#37;vehicle_name в районе &#37;base_name" />
+	<comment key="enemy vehicle spotted, not near base" text="Обнаружен &#37;vehicle_name &#37;enemy_name" />
+	
+	<comment key="comms have been restored" text="Радиосвязь востановлена" />
+	<comment key="enemy comms have been restored" text="&#37;enemy_name востановили Радиосвязь" />
+	
+	<comment key="comms have been destroyed" text="Мы потеряли радиосвязь !" />
+	<comment key="enemy comms have been destroyed, by us" text="&#37;enemy_name потеряли радиосвязь" />
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Посмотри на это место." />
+		<comment text="Тут так спокойно." />
+		<comment text="Я бы здесь поселился." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Кажется, я тут уже был." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Здесь становиться скучновато." />
+	</dialogue>  
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Чувствую себя непобедимым сегодня." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Иди в армию, они говорят, там весело, они говорят." />
+	</dialogue>  
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Если бы знал что нужно столько бегать - пошёл бы в ВВС" />
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Тебя скоро повысят ?" />
+		<comment text="Не думаю" />
+	</dialogue>
+  
+  <dialogue key="wander dialogue 2 men">
+      <comment text="Хочешь увидить что-то прикольное ?" />
+      <comment text="Нет, больше я на это не поведусь !" />
+   </dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Знаешь, мы с сержантом были в рейде в тылу врага." />
+		<comment text="В деверсанты записался ?" />
+		<comment text="Ага, мы даже засекли их грузовик со снаряжением." />
+		<comment text="Да ты крут." />
+		<comment text="Уж лучше в рейде, чем здесь штаны протирать." />
+		<comment text="Тут хоть жив останешься." />
+		<comment text="Это не причина не идти в бой." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Не говори моей маме что я в армии" />
+		<comment text="Почему же ?" />
+		<comment text="Она думает я пианист в борделе." />
+		<comment text="Оу, хорошо." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="У тебя не найдётся сигареты ?" />
+		<comment text="Нет, А ты разве куришь ?" />
+		<comment text="Не курю. Просто хочу обменять их на новую винтовку." />
+		<comment text="А с твоей что не так ?" />
+		<comment text="Да я её в песок уронил, клинит." />
+		<comment text="Ну, ты же можешь её просто прочистить." />
+		<comment text="Если бы я мог ! В оружейной ничего нет для чистки оружия." />
+		<comment text="Невероятно !" />
+		<comment text="У них куча оружия, но его нечем поддерживать в рабочем состоянии !" />
+		<comment text="Да, как будто они уверенны что мы не проживём достаточно долго чтобы иметь в этом необходимость." />
+		<comment text="Не нравится мне все это." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Где их грузовик связи ?" />
+		<comment text="Не знаю, но уверен, что не здесь." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Я тут нашёл виски и припрятал его в тайнике." />
+		<comment text="Тише ! Нам ведь не положено хранить алкоголь. "/>
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Я тут думал..." />
+		<comment text="О чём  ?" />
+		<comment text="Я забыл." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Командир, почему мы ничего не делаем ?" />
+		<comment text="Отставить обсуждение приказов ! На поле боя это верный путь к смерти !" />
+		<comment text="Так точно !"/>      
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Может не вступать в Строевой Хор ?" />
+		<comment text="Почему же ?" />
+		<comment text="Я раньше был в церковном хоре."/>  
+		<comment text="И ?" /> 
+		<comment text="200 человек сменило религию." />           
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Нас хотя бы с тыла не атакуют." />
+		<comment text="Ага, к этому мы точно не готовы." />
+	</dialogue>   
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Недавно, перестреливался с разработчиками." />
+		<comment text="Это были Pasik и JackMayol ?" />
+		<comment text="Да, Pasik целится как моя бабушка JackMayol даже хуже !" />
+	</dialogue>       
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="'Osumia Games'... Кому в голову приходят такие названия?" />
+		<comment text="Погоди, о чем ты сейчас говоришь?" />
+        <comment text="Сам не знаю." />
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Мне иногда кажется что мы просто бегаем с винтовками." />
+		<comment text="Да ладно !" />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ай, мой палец !" />
+		<comment text="Прости друг." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Эту игру хоть выпустли ?" />
+		<comment text="Да, в Steam есть." />
+		<comment text="Отлично !" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="Кто-то перндул ?" />
+		<comment text="Может быть." />
+		<comment text="Открыть окна !" />    
+	</dialogue>   
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Знаешь что ?" />
+		<comment text="Что ?" />
+		<comment text="Мне кажется я люблю тебя." />   
+		<comment text="Прекрати уже !" />     
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Кто тебе права вообще дал ?" />
+		<comment text="А я купил." />
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="*поет* Hit me baby one more tiiiime" />
+		<comment text="Если продолжишь петь, я вытолкну тебя из машины !" />
+	</dialogue>
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Я не чувсвтвую себя в безопасности в этом штуке." />
+		<comment text="Почему ?" />      
+		<comment text="Глянь на колеса." />
+		<comment text="А что с ними не так ?" />
+		<comment text="Да они даже к осям не присоединены" />    
+	</dialogue>  
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Сучно ехать без радио." />
+		<comment text="И не говори." />
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Я всегда боялся быть в одном отряде с тобой." />
+		<comment text="А что не так то ?" />
+		<comment text="С кем поведешься, того и наберешься." />    
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Когда все получается, то никто не видит." />
+		<comment text="А когда нет, то командир тут как тут." />
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Остерегайся противотанковых гранат." />
+		<comment text="Ага, они наносят больше урона, чем осколочные." />
+		<comment text="К счастью, радиус поражения у них меньше." />    
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>  
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Несколько девушек в армии бы не помешали." />
+		<comment text="Да, я бы успокоил свои гормоны." />
+		<comment text="Да я не про это !" />
+		<comment text="А ?" /> 
+		<comment text="Не пришлось бы готовить, стирать и убирать." />               
+	</dialogue>     
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Они бы могли добавить тут пару полигонов." />
+		<comment text="Зачем ?" />
+		<comment text="Сиденья слишком острые !" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="*поет* Золотые купола, Ветер Северный" />
+		<comment text="Тебе надо было идти в артисты." />
+		<comment text="Правда ? Ты серьезно ?" /> 
+		<comment text="Да конечно, ведь нам бы не пришлось слышать это каждый божий день." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Тебе выдали новое снаряжение ?" />
+		<comment text="Да." />
+		<comment text="Нечестно !" /> 
+		<comment text="Завидуй молча." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ты не мог бы подвинуться?" />
+		<comment text="Нет." />
+		<comment text="Спасибо." />
+		<comment text="Пожалуйста." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="День но без солнечного света это как-бы ночь." />
+		<comment text="Неужели?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ты знаешь прогноз погоды наночь?" />
+		<comment text="Темно!" />
+		<comment text="..." />
+	</dialogue>
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Вот бы больше людей играло в PvP." />
+		<comment text="Почему ?" />
+		<comment text="Нас, ботов, меньше убивали бы." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Если сомневаешся, выпускай весь магазин !" />
+		<comment text="Да сер !" />
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="У меня есть идея." />
+		<comment text="Забудь, идеального плана не бывает." />
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Вы готовы к бою?" />
+		<comment text="Сэр, Да Сэр!" />
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Помните, что я говорил вам сегодня утром !" />
+		<comment text="Да капитан !" />
+		<comment text="Если наша атака идет слишком хорошо, то это засада !" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Это глупый план !" />
+		<comment text="Если это глупо, но работает, то это не глупо." />
+	</dialogue>     
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Что мы будем делать если у нас ничего не получится?" />
+		<comment text="Мы вызовем флот с большими пушками." />
+	</dialogue>  
+	
+  <dialogue key="vehicle dialogue 2 men">
+      <comment text="Когда ты в последний раз сидел за рулем ?!" />
+      <comment text="Эмм, это мой первый раз." />
+      <comment text="Что ты вообще делаешь на месте водителя ?!" />
+      <comment text="..." />
+      <comment text="До фронта живыми мы не доедем." />
+  </dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="В армии есть два основных правила" />
+		<comment text="Какие же ?" />
+		<comment text="#1: Командир всегда прав" />
+		<comment text="#2: Если командир не прав, обратитесь к правилу #1" />        
+	</dialogue>            
+	
+	<dialogue key="vehicle dialogue 2 men tag=campfire">
+		<comment text="Мои ступни горят." />
+		<comment text="Отодвинься." />
+		<comment text="Не могу." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Я просто обожаю этот танк." />
+		<comment text="Да заткнись ты уже." />
+		<comment text="Не могу." />
+	</dialogue>
+	
+  <dialogue key="vehicle dialogue 2 men tag=tank">
+      <comment text="Может дадим ему имя ?" />
+      <comment text="Зачем ?" />
+      <comment text="Ну он у нас уже достачно долго." />
+  </dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Лучшая защита - оставаться вне досягаемости врага" />
+		<comment text="Умный сильно ?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Это СПАРТА !!!" />
+		<comment text="..." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Танк - лучшее противотакновое средство в бою !" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Нет лучше для танка дороги, чем дорога без противотанковых орудий и мин." /> 
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="Нет такой проблемы, которую нельзя решить достаточным количеством взрывчатки." /> 
+	</dialogue> 
+	
+  <dialogue key="vehicle dialogue 2 men tag=tank">
+      <comment text="Откуда здесь кот ?" />
+      <comment text="Прибор ночное виденья сломалося." />
+  </dialogue> 
+	
+  <dialogue key="vehicle dialogue 2 men tag=tank">
+      <comment text="А прикинь если бы эта штука летала ?" />
+      <comment text="В ней и на земле страшно." />
+      <comment text="Да чего тут бояться то?." />
+  </dialogue>      
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Ай !" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Кажется меня тошнит" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Мне кажется что он не знает куда едет." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Мы уже приехали ?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="*храпит*" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Ха ! Видел бы ты свое лицо свое лицо !" />
+		<comment text="Что с ним ?" />
+		<comment text="Оно все в вокселях." />     
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Люблю когда в фильмах ужасов люди спрашивают:'Есть здесь кто-то ?' " />
+		<comment text="Как если бы убийца сказал: 'Да, я на кухне, вы хотите бутерброд ?'" />   
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Вот бы увидеть интерьер грузовика" />
+		<comment text="Денег не хватило на детализацию." /> 
+		<comment text="Ленивые разработчики !" />         
+	</dialogue>        
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="" />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Я на много спокойней когда не сижу в этой штуке." />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Сейчас бы пиццы" />
+		<comment text="Или шашлычка" />
+		<comment text="Или картошечки жареной" />
+		<comment text="Или тофу" />
+		<comment text="Чего ?!" />                
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Почему от тебя пахнет мертвячиной?" />
+		<comment text="Прости, я зубную щетку потерял." />    
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Слушай ? А для чего эта зеленая штука?" />
+		<comment text="Э-э ... не для чего ..." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Извини, можешь перезапустить игру?" />
+		<comment text="Что происходит?" /> 
+		<comment text="Кажется я в текстуре застрял." />        
+	</dialogue>        
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Лучше бы каску надел чем эту красную повязку." />
+		<comment text="Ты прав, но она выглядит круто." />    
+		<comment text="Пулям всеравно." />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Фу, воняет потными вокселями!" /> 
+	</dialogue>      
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="Хочешь жвачку?" /> 
+		<comment text="Нет спасибо." /> 
+		<comment text="Мы думаем, что ты точно хочешь жвачку!" />
+		<comment text="Это значит что у меня...?" />
+		<comment text="Угадал! " />                
+	</dialogue> 
+	
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+     <comment text="Ты помнишь фильм, в котором водители грузовика спасают всех?" />
+     <comment text="Нет." />
+     <comment text="Вот, я тоже. Мы все умрем!" />
+  </dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Скоро я получу повышение." />
+		<comment text="Постарайся не умереть до этого момента." />
+		<comment text="Ну спасибо, обнадёжил!" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Я чувствую себя отлично!" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Я чувствую, что возродился уже 100 раз." />
+		<comment text="Я тоже." />  
+		<comment text="Так бы в жизни." />
+		<comment text="Хех." />           
+	</dialogue>
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Старики на свадьбах толкают меня локтями говоря 'Ты следующий'." />
+		<comment text="Начал делать им так-же только на похоронах!" />     
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Эти Телемагазины так раздражают!" />
+		<comment text="Просто дай трубку трехлетнему ребенку и скажи что звонит Дед мороз." />     
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Мне приснился кошмар" />
+		<comment text="Расскажи" />   
+		<comment text="Мне снились 1 и 0" />
+		<comment text="Как страшно..." />
+		<comment text="И тут я увидел 2" />
+		<comment text="Какой ужас!!!" />          
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Священик, фермер и вояка заходят в бар..." />
+		<comment text="Если это твоя очередная шутка, то я клянусь, я самолично пущу тебе пулю в лоб !" /> 
+		<comment text="Но я же только начал рассказывать..." />
+		<comment text="Я серьезно !" />    
+		<comment text="Ладно." />         
+	</dialogue>           
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Парень, ты можешь помолчать ?" />
+		<comment text="Это семейная традиция." /> 
+		<comment text="Что ?" />
+		<comment text="Мой дед был коммивояжёром, а отец - учителем" />    
+		<comment text="А мать ?" /> 
+		<comment text="Женщиной." />              
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Как же мне сказать отцу ?" />
+		<comment text="Сказать что ?" /> 
+		<comment text="Что меня не повысили." />
+		<comment text="Отправь телеграмму." />    
+		<comment text="И что написать ?" /> 
+		<comment text="Ситуация стабильная." />              
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Хорошо, что авиации тут нет." />
+		<comment text="Одной проблемой меньше." /> 
+		<comment text="Ага, можно не беспокоиться, что прилетит сверху" />          
+		<comment text="Ага, кроме артилерии, минометов и .... аргх ! " />
+		<comment text="И голубей!" /> 
+		<comment text="Вот черт!" />                                    
+	</dialogue>     
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Профессиональный солдат - предсказуем." />  
+		<comment text="Но мир полон опасных любителей." />                                      
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Все постоянно говорят про военный интелект." />  
+		<comment text="А что не так?" />
+		<comment text="Военный интелект это противоречие!" /> 
+		<comment text="Говори за себя!" />                                            
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Хотел бы я видеть так же далеко, как игрок." />  
+		<comment text="Игрок?" />
+		<comment text="Ну этот чувак по ту сторону экрана который пялится на нас." /> 
+		<comment text="Сплошное читерство!" /> 
+		<comment text="Я уже устал от его взгляда." />                                               
+	</dialogue>     
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Чем глупее командир, тем более важную задачу ему поручат." />  
+		<comment text="В точку !" />                                     
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Всегда можно найти выход." />  
+		<comment text="В большинстве случаев он тебя не устраивает." />                                     
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Ты видел новую жену командира ?" />  
+		<comment text="Эта та девица с большим носом ?" /> 
+		<comment text="Да она без проблем может курить под дождем !" />                                         
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="А правда, что люди произошли от обезьян ?" />  
+		<comment text="Разве что только рядовые солдаты, но уж точно не офицеры." />                                     
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Среди новобранцев есть девушка, косящая под мальчика." />  
+		<comment text="Ей же придется мыться и одеваться среди остальных." /> 
+		<comment text="Конечно !" />  
+		<comment text="Скоро командование об этом узнает." /> 
+		<comment text="А кто расскажет ?" />                                             
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Зачем нам больше дорогих бомб ?" />  
+		<comment text="Ну знаешь ли..." /> 
+		<comment text="Разве получатели жалуются на низкосортный продукт ?" />                                        
+	</dialogue>         
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Почему мы отступаем ?" />  
+		<comment text="Не отступаем, а наступаем в противоположном направлении." />  
+		<comment text="Понял." />                                       
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Знаешь, в армии твоя ориентация не важна" />  
+		<comment text="Спасибо за поддержку, друг." />                                     
+		<comment text="В отличии от ориентации твоего оружия." />
+	</dialogue>     
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Война учит невежд географии." />  
+		<comment text="В точку" />                                     
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Никогда не прерывай врага, когда он совершает ошибку." />  
+		<comment text="Просто смотри и наслаждайся." />                                     
+	</dialogue>    
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="На поле боя валяется столько ценностей." />  
+		<comment text="И никто не обращает внимания." /> 
+		<comment text="А ты продай эти вещи в оружейной!" />                                         
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Сегодня я максимально сосредоточен." />  
+		<comment text="Почему?" /> 
+		<comment text="Мне кажется сегодня мы наткнемся на игрока." />
+		<comment text="Хочешь испорить его серию убийств?" /> 
+		<comment text="О,да." />                                                
+	</dialogue>  
+	
+  <dialogue key="defense dialogue 2 men">
+		<comment text="Я вот тут подумал..." />
+		<comment text="Чего?" />
+		<comment text="Откуда берутся наши подкрпеления?" />
+		<comment text="Всмысле откуда?" />
+		<comment text="Они не приезжают на транспорте или что-то в этом роде." />
+		<comment text="Ну не из воздуха же они появляются?" />
+  </dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Это ты испортил воздух?" />
+		<comment text="Хаха!" />
+		<comment text="Ты отвратителен." />
+		<comment text="Сэр, да Сэр!" />
+	</dialogue>
+	
+  <dialogue key="defense dialogue 2 men">
+      <comment text="Нам мало платят за такую работу" />
+      <comment text="Уж точно недостаточно, чтобы видеть твоё лицо каждый день" />
+      <comment text="Чего? Ты шутишь?" />
+      <comment text="Ох, если бы..." />
+  </dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="" />  
+		<comment text="" />                                     
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="" />  
+		<comment text="" />                                     
+	</dialogue>    
+	
+   <!-- adventure mode -->
+	<!-- commander comments -->
+	<comment key="player promotion" text="Поздравляю солдат! Тебя повысили и теперь ты &#37;rank_name!" />
+	<comment key="we captured a base" text="&#37;base_name теперь под нашим контролем." />
+	<comment key="we captured a base" text="Теперь мы контролируем &#37;base_name." />
+	<comment key="enemy captured a base" text="&#37;faction_name захватили &#37;base_name." />
+	<comment key="enemy captured a base" text="&#37;faction_name теперь контролируют &#37;base_name." />
+	<comment key="neutral captured a base" text="" />
+
+	<comment key="new attack orders" text="Следующая цель : &#37;base_name. Направление атаки : &#37;direction." />
+
+	<comment key="we have lost our last base" text="Мы потеряли нашу последнюю базу - Битва проиграна!" />
+	<comment key="enemy has lost their last base" text="&#37;faction_name побеждены!" />
+	
+	<comment key="our assault ran out of time" text="Время атаки истекло - Битва проиграна!" />
+	<comment key="enemy assault ran out of time" text="&#37;faction_name побеждены!" />
+
+	<comment key="we won by map conquer" text="Мы победили! Все базы захвачены!" />
+	<comment key="we won by defense timer" text="Мы победили!" />
+
+	<comment key="our base is under attack" text="На &#37;base_name напали." />
+	<comment key="we are attacking a base" text="Мы атакуем &#37;base_name." />
+
+	<comment key="fighting near a base" text="В районе &#37;base_name завязался бой!" />
+	<comment key="fighting near a base" text="В районе &#37;base_name столкновение с противником!" />
+	<comment key="fighting near a base" text="Слышны звуки боя в районе: &#37;base_name" />
+
+	<comment key="defense timer started" text="&#37;faction_name контролируют все базы, &#37;time_left секунд осталось!" />
+	<comment key="defense timer to go" text="Осталось &#37;time_left секунд!" />	
+   <!-- vehicle delivery objective -->
+	<comment key="vehicle delivered" text="&#37;vehicle_name доставлен!" />
+	<comment key="vehicle objective cancelled, vehicle destroyed" text="Миссия отменяется, &#37;vehicle_name уничтожен." />
+	<comment key="vehicle objective instruction" text="Замечен &#37;vehicle_name &#37;faction_name в районе &#37;location. Захватите и доставьте в оружейную" />
+	
+  <comment key="resource out of stock, default" text="&#37;resource_name больше нет в арсенале" />      
+  <comment key="resource out of stock, supply" text="&#37;resource_name больше нет в квадроцикле" /> 
+  <comment key="resource added in stock, default" text="&#37;resource_name теперь имеется в арсенале" />
+  <comment key="resource added in stock, supply" text="&#37;resource_name теперь имеется в квадроцикле" />
+	
+	<comment key="overtime, we are winning" text="Продолжайте в том же духе, у врага заканчиваются ресурсы" />
+	<comment key="overtime, we are losing" text="Это наш последний шанс , у нас заканчиваются ресурсы!" />
+	
+   <!-- item delivery objective; briefcases -->
+	<comment key="item delivered" text="Миссия выполнена" />
+	<comment key="item objective instruction" text="" />
+	<comment key="item objective map text" text="" />
+	<comment key="item objective thanks" text="Отлично, посмотрим, что мы сможешь с этим сделать." />
+	
+   <!-- enemy item delivery objective; weapons -->
+	<comment key="enemy item objective instruction" text="" />
+	<comment key="enemy item objective map text" text="" />
+	<comment key="enemy item objective thanks incomplete" text="продолжайте поставки, нам нужно как минимум еще &#37;number_of_items_left!" />
+	<comment key="enemy item objective thanks" text="Отлично, этого должно быть достаточно, чтобы наладить собсвенное производство этой модели." />
+	
+	<comment key="extraction point available" text="доступна точка эвакуации до &#37;map_name" />
+	<comment key="several extraction points available" text="доступно несколько точек эвакуации" />
+	
+	<comment key="standby for extraction" text="ожидайте эвакуации" />
+	
+   <!-- teddy bear hunt session, for fun -->
+  <comment key="flag dropped in container 0" text="&#37;player_name уронил &#37;item_name" />
+  <comment key="flag dropped in container 1" text="&#37;player_name доставил &#37;item_name в оружейную и получает очко !" />
+  <comment key="flag dropped in container 2" text="&#37;player_name положил  &#37;item_name в свой рюкзак" />
+  <comment key="flag dropped in container 3" text="&#37;player_name положил &#37;item_name в свой тайник" /> 
+	
+  <comment key="tutorial end 1" text="Хорошая работа, солдат, теперь ты готов к бою!" />
+  <comment key="tutorial end 2" text="Собирай свои вещи и вперед!" /> 
+	
+  <comment key="gift box delivered" text="Сейчас я вскрою этот &#37;delivered_item_name, &#37;player_name" />
+  <comment key="gift box delivery, reward" text="Вот что там было &#37;player_name: &#37;item_name1 и &#37;item_name2!"/>
+  
+    <comment key="base captured, clear victory, attack break" text="Оцепите периметр базы и перегруппируйтесь. Ждите дальнейших инструкций." />
+  <comment key="base captured, defend it" text="Оцепите периметр базы и защитите его!" />
+  <comment key="sidebase captured, hold it" text="Оцепите периметр базы и защитите его от возможной контратаки." />
+  <comment key="sidebase captured, reinforcements" text="Подкрепление уже в пути." />
+  
+<!-- NEW 1.70 ADDITIONS -->
+
+  <comment key="cargo_truck.vehicle spotted, instructions" text="Захватите грузовой автомобиль и доставьте его в хорошем состоянии на оружейный склад!" />
+  <comment key="radar_tower.vehicle spotted, instructions" text="Уничтожьте радарную башню!" />
+  <comment key="radar_truck.vehicle spotted, instructions" text="Уничтожьте радарный грузовик, не позволяйте ему уехать!" />
+  <comment key="radio_jammer.vehicle spotted, instructions" text="Уничтожьте генератор радиопомех!" />
+  <comment key="radio_jammer.vehicle destroyed" text="Хорошая работа! Генератор радиопомех уничтожен!" />
+  <comment key="radio_jammer2.vehicle spotted, instructions" text="Уничтожьте генератор радиопомех!" />
+  <comment key="radio_jammer2.vehicle destroyed" text="Хорошая работа! Генератор радиопомех уничтожен!" />
+  <!-- radar truck/vehicle destroy also triggers "enemy comms have been destroyed, by us" -->
+  
+  <comment key="prison_building.vehicle spotted, instructions" text="Уничтожьте тюремный автобус!" />
+  <comment key="prison_building.vehicle destroyed" text="Отлично! Освобождённые заключённые присоединятся к нашим войскам!" />
+  <comment key="prison_door.vehicle spotted, instructions" text="Уничтожьте тюремную дверь!" />
+  <comment key="prison_door.vehicle destroyed" text="Хорошая работа! Освобождённые заключённые присоединятся к нашим войскам!" />
+
+  <!-- <comment key="aa_emplacement.vehicle spotted, instructions" text="Уничтожьте противовоздушную установку, чтобы заработала связь!" /> -->
+  <!-- <comment key="aa_emplacement.vehicle destroyed" text="Отлично сработано! Противовоздушная установка уничтожена, вам доступна помощь с воздуха!" /> -->
+
+  <comment key="intel radio reminder" text="Не забудьте вызвать подкрепление или огневую поддержку, если это необходимо." />
+
+  <comment key="report very weak defense" text="&#37;base_name по данным разведки почти не защищена." />
+  <comment key="respond very weak defense" text="Вперёд! Захватите эту базу!" />
+  <comment key="report weak defense" text="&#37;base_name по данным раведки имеет слабую защиту, там распологаются всего &#37;enemy_range противника/ов." />
+  <comment key="respond weak defense" text="Приступайте к захвату базы, мы рассчитываем на вас." />
+  <comment key="report medium defense" text="&#37;base_name по данным раведки имееет среднюю защиту, там распологаются &#37;enemy_range противника/ов." />
+  <comment key="respond medium defense" text="Приступайте к захвату базы, если считаете это возможным." />
+  <comment key="report heavy defense" text="&#37;base_name по данным разведки имеет надежную защиту, там распологаются &#37;enemy_range противника/ов." />
+  <comment key="respond heavy defense" text="Приступайте к захвату базы, только если вы знаете, что делаете." />
+
+  <!-- <comment key="base captured, clear victory, attack break" text="Оцепите периметр базы и перегруппируйтесь. Ждите дальнейших инструкций." /> -->
+  <!-- <comment key="base captured, defend it" text="Оцепите периметр базы и защитите его!" /> -->
+  <!-- <comment key="sidebase captured, hold it" text="Оцепите периметр базы и защитите его от возможной контратаки." /> -->
+  <!-- <comment key="sidebase captured, reinforcements" text="Подкрепление уже в пути." /> -->
+  
+  <comment key="Occupy that vehicle!" text="Солдат, садись в &#37;vehicle_name!" />
+  <comment key="Leave the vehicle!" text="Солдат, покинь &#37;vehicle_name!" />
+
+  <comment key="intel objectives" text="Вражеские базы для разведки отмечены на карте; Ожидается, что командиры отрядов выполнят эти задачи." />    
+
+<!-- #EDELWEISS_TRANSLATION -->
+	<comment key="hostile vehicle takeover" text="Что? НЕЕЕТ"/>
+	
+	<comment key="enemy seen, vehicle tag = tank" text="Техника впереди!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Нам нужно противотанковое оружие!"/>
+	
+ 	<comment key="enemy seen, vehicle tag = truck" text="Контакт с техникой противника!"/>  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Они везут сюда грузовик!"/>   
+
+ 	<comment key="enemy seen, vehicle tag = truck" text="Вражеский конвой!"/>   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Контакт с техникой противника!"/>  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Они везут сюда грузовик!"/>   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Подожги этот грузовик!"/>                  
+
+	<comment key="Reloading" text="Прикрой меня, перезаряжаюсь!"/>
+	<comment key="Reloading" text="Мне нужно перезарядиться!"/>  
+
+	<comment key="celebrating" text="Получи!"/>
+	<comment key="celebrating" text="Я сделал это..."/>
+	<comment key="celebrating" text="Фу, все кончено, пока что..."/>
+
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Я слышал, что эти ребята, с которыми мы имеем дело, проводили облавы."/>
+		<comment text="Черт, мы готовы к этому?"/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ты знаешь прогноз погоды на сегодня?"/>
+		<comment text="Да, будет дождь из бомб!"/>
+		<comment text="..."/>
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Чёртовы крабы!"/>  
+		<comment text="Раздражает, а?"/> 
+		<comment text="Я убил их больше, чем я когда-либо убью врагов."/>  
+	</dialogue>
+	
+	<comment key="we captured a base" text="%base_name была обезопасена нашими силами."/>
+	<comment key="we captured a base" text="Мы взяли под контроль %base_name, двигайтесь туда для защиты."/>
+	<comment key="enemy captured a base" text="%faction_name захватила %base_name, приготовьтесь к контратаке!"/>
+	
+	<comment key="we won by map conquer" text="Отличная работа парни, мы оттеснили врага."/>
+	<comment key="we won by defense timer" text="Их атака захлебнулась, мы победили!"/>
+	
+	<comment key="our base is under attack" text="На %base_name напали!"/>
+
+	<comment key="we are attacking a base" text="Наши войска атакуют %base_name"/>
+	
+	<comment key="fighting near a base" text="Мы получили сообщения о контакте с силами врага около %base_name"/>
+	<comment key="fighting near a base" text="Подкрепление запрошено около %base_name"/>
+
+	<comment key="defense timer started" text="%faction_name удерживают область, %time_left секунд осталось!"/>
+	<comment key="defense timer to go" text="%time_left секунд осталось!"/>
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Черт, найдите его!"/>
+
+	<comment key="Medic!" text="А-а, мне больно!"/> 
+	<comment key="We surrender!" text="Как они нас победили... Невозможно..."/>
+
+    <comment key="uncapturable_last_base_end_timer, start" text="Мы вытеснили врага с нашей территории, но они, кажется, намерены забрать её обратно."/>
+    <comment key="uncapturable_last_base_end_timer, cancel" text="Враг не может захватить плацдарм! Верните наши позиции!"/>
+
+<!--	<comment key="enemy counterattack begins" text="We've taken all the critical territories, but enemy forces have been spotted approaching our positions!" />
+	<comment key="enemy counterattack begins with armour" text="Scouts are reporting in, enemy armour is supporting their attack!" />
+	<comment key="enemy counterattack begins with heavy armour" text="Scouts report they can hear heavy armour in the distance! Gear up on anti-tank!" />
+-->
+	<comment key="sicily tiger spawn info 1" text="Мы захватили все важные сектора, но вражеские силы были замечены приближающимися к нашим позициям!"/>
+	<comment key="sicily tiger spawn info 2" text="Разведчики докладывают, что слышат вдалеке тяжёлую броню! Вооружитесь противотанковым оружием!"/>
+	<comment key="sicily tiger destroyed" text="Танк Tiger подбит! Повторяю: танк Tiger подбит! Отличная работа парни!"/>
+	
+	<comment key="enemy generic counterattack begins" text="Мы обезопасили все важные территории, но вражеские силы приближаются к нашим позициям!"/> 
+	<comment key="enemy generic counterattack begins with armour" text="Разведчики могут слышать, как бронетехника приближается, чтобы поддержать их атаку!"/>
+
+	<comment key="varsity radio tower hint 1" text="Нам нужно саботировать радиовышку в руинах Везеля, чтобы замедлить вражеское подкрепление."/>  
+	<comment key="varsity radio tower hint 2" text="Убедитесь, что уничтожили её, прежде чем идти на финальный штурм замка!"/>    
+
+	<comment key="capture_base_with_vehicle mode, health=90" text="Остерегайтесь этих противотанковых орудий!"/>     
+	<comment key="capture_base_with_vehicle mode, health=50" text="Наш ремонтный танк начинает получать серьезные повреждения!"/> 
+	<comment key="capture_base_with_vehicle mode, health=10" text="Миссия вот-вот провалится, наш ремонтный танк нуждается в лучшей защите!"/>         
+	<comment key="capture_base_with_vehicle mode, health=0" text="Ремонтный танк подбит! Миссия по сопровождению провалилась!"/> 
+    
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="Берта, нам было приказано остановиться!" />
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="Ганс, жми по тормозам!" />
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="Так точно, остановись!" />
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="Остановись!" />    
+	
+	<!-- note, happens after "awesome, let's see what what we can come up with this" -->
+	<comment key="no more resources to unlock" text="Спасибо, но ничего нового мы тут не нашли" />
+
+<!-- 1.84 -->
+  
+  <comment key="rangefinder binoculars" text="Дистанция до цели: &#37;range м." />  
+
+ </character>

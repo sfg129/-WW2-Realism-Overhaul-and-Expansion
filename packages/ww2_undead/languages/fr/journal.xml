@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduction à WW2 Undead" />
+		<text value="Bienvenue dans le mode WW2 Undead ! Dans ce mode, vous gagnez en sécurisant le château, situé sur la carte dans la zone sans reconnaissance. La porte du château est verrouillée et ne peut être ouverte qu'en interagissant avec des pentagrammes occultes dispersés sur la carte, situés dans les bases. De plus, à chaque fois que vous mourrez, vous pouvez sélectionner un point de spawn de parachute disponible." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Véhicules ennemis"/>
+		<text value="Dans EDELWEISS et PACIFIC, certains VÉHICULES LOURDS ÉNNEMIS ne peuvent être volés. Ceci est du uniquement à des raisons d'équilibrage et de jouabilité. D'autres véhicules plus légers peuvent toujours être volés !"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Baïonnettes"/>
+		<text value="Dans EDELWEISS et PACIFIC, les BAÏONNETTES peuvent être équipées/enlevées. Les armes avec deux points au bas de leur icône peuvent le faire. Il sufit d'appuyer sur %control_next_weapon_in_chain. Les baïonnettes augmentent considérablement votre portée au corps-à-corps, au détriment d'une certaine précision."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Destruction des Haies et Barrières"/>
+		<text value="Dans EDELWEISS, la plupart des barrières peuvent être détruites par des explosifs ou défoncées par la plupart des VÉHICULES. En outre, les haies peuvent être détruites par des CHARGES DE DÉMOLITION ou bien écrasées par des véhicules spéciaux tels que le Sherman RHINO."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Boss"/>
+		<text value="Les chars BOSS ennemis doivent être détruits par tous les moyens nécessaires pour assurer la VICTOIRE sur certaines cartes. Ils ont de la vie supplémentaire et beaucoup de puissance de feu, faisant de votre tâche un défi !"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Casemates et Bunkers"/>
+		<text value="Dans PACIFIC, vous pouvez rencontrer des CASEMATES, qui sont des positions de mitrailleuse lourdement fortifiées. Elles ne sont pas très vulnérables aux grenades standard, mais prennent beaucoup de dégâts avec les explosifs lourds et les lances-flammes."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Brouilleurs Radio, Artillerie Côtière, DCA"/>
+		<text value="Les BROUILLEURS RADIO ennemis bloqueront vos appels radio dans un certain périmètre. Ils sont vulnérables aux CHARGES DE DÉMOLITION, si vous arrivez à vous approcher assez. L'ARTILLERIE CÔTIÈRE et la DCA bloquent certaines requêtes sur toute la carte, et les détruire vous donnera accès aux puissants ARTILLERIE NAVALE et SUPPORT AÉRIEN, respectivement."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Convoi du Bergetiger" />
+		<text value= "Vous pouvez ordonner au Bergetiger de s'arrêter pour un court instant en pressant %control_shoot lorsque vous pointez le viseur sur lui. En le réparant avec une clé, vous l'arrêterez également.%PSTCela peut également être utilisé tactiquement pour ralentir le convoi afin de regrouper vos troupes" />
+		<image filename="journal_convoy.png" />
+	</entry>		
+
+</journal>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_carry_items="1">
+	
+	
+	<weapon key="m1919_lmg_assault.weapon" />
+
+	<weapon key="m1911.weapon" />
+	<weapon key="m1a1_carbine.weapon" />
+
+	<carry_item key='vest_sentry_for_ai.carry_item' enabled="1" />
+	
+</resources>

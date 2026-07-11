@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_sniper.weapon" key="m1941_johnson_rifle_s.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" >
+   <tag name="sniper" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.25" 
+	spread_range="0.285"
+	accuracy_factor="0.99" 
+	sustained_fire_grow_step="1"
+	sustained_fire_diminish_rate="0.8"
+	stance_accuracy_rate="1.15"
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Scoped M1941 Johnson Rifle" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="1" 
+	projectile_speed="140.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+	/>
+
+	<!-- recoil recovery vs. rifle variant is only *0.95 for M1941 Johnson, or else it begins to be worse than the No. 4 Sniper -->
+	<!-- additionally it gets the same slightly-faster stance rate that some other special snipers get -->
+
+	<!-- this Johnson Sniper Rifle is based on a weapon auctioned with an extended 27" barrel, a No.4 Enfield style cheek rest, -->
+	<!-- and a Lyman-Alaskan 2.5x scope -->
+	<!-- unlike most other semi-automatic snipers in the game, this sniper variant has extra velocity due to the extended barrel -->
+
+	<!-- scope power is 2.5x for the Lyman-Alaskan scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+
+	<stance state_key="standing" accuracy="0.965" />
+
+	<!-- semi-auto snipers need 1.0 prone/overwall instead of 1.1 like other snipers -->
+	<!-- this is because for some reason recoil recovers more quickly down to 1.1, so they end up firing faster than unscoped-->
+	<stance state_key="prone" accuracy="1.0" /> 
+	<stance state_key="over_wall" accuracy="1.0" />		
+		
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation state_key="reload" animation_key="reloading, johnson rifle" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, johnson rifle, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_05_johnson.wav" pitch_variety="0.05" volume="2.0"/> <!-- was 2.27 with old sound -->
+	<sound key="magazine_out" fileref="park_off.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="reload_one" fileref="sniper_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="weapon_m1941_johnson_sniper.xml" />
+	<hud_icon filename="hud_johnson_sniper.png" />
+	
+	<commonness value="0.04" can_respawn_with="0" />
+	<inventory encumbrance="8.0" price="325.0" />
+   
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5" 
+		kill_decay_start_time="0.48" 
+		kill_decay_end_time="0.9" 
+		/>
+	</projectile>
+	
+</weapon>

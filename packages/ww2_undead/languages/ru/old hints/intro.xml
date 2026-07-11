@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <!--changed 2/29-->
+	<!--<text key="Hint" text="Pillboxes can be quickly knocked out using Flamethrowers, Demolition Charges, or a Precision Dive Bomber Strike."/>-->
+    <text key="Hint" text="Sub-Machine Guns are unparalleled in close-quarters and offensive warfare, but perform poorly at longer range."/>
+    <text key="Hint" text="Enemy Flamethrower Operators are resilient against small arms, but are vulnerable to explosives, melee attacks, and high-caliber weaponry."/> 
+    <!---->
+    <text key="Hint" text="Carrying too much in your backpack will reduce your weapon's accuracy and your movement speed."/> 
+    <text key="Hint" text="Going prone or diving can save your life from the effects of Explosives."/> 
+    <text key="Hint" text="Engaging in melee combat rewards additional experience."/> 
+    <text key="Hint" text="The crosshair gives a good estimate of accuracy, but your weapon's muzzle velocity has an additional impact as the range to your target increases."/> 
+    <text key="Hint" text="Capturing a base requires a 66% majority of troops, shown as 2/3 bars in the capture progress indicator."/> 
+    <text key="Hint" text="Light Machine Guns are best fired from prone, or over cover. Some of these weapons can only fire from those stances."/> 
+    <text key="Hint" text="Selling briefcases at the Armoury will unlock rare weapons, but what you get is random!"/> 
+    <text key="Hint" text="Rifles are deadly and accurate, but fire slowly. Use caution when fighting in close range against better armed enemies. Bayonets can help!"/>
+    <text key="Hint" text="Sniper Rifles are excellent at taking out the heavily-armoured Sentry soldiers from a distance."/> 
+    <text key="Hint" text="Sniper Rifles have excellent accuracy when crouching, prone, or firing over cover; the standing posture does not offer superb precision."/> 
+    <text key="Hint" text="Valuables that are dropped by dead soldiers can be looted and stored in Stashes to sell later."/> 
+    <text key="Hint" text="In general, the heavier the weapon, the lower your movement speed."/>
+    <text key="Hint" text="Flamethrowers excel at clearing out strongpoints and well-defended emplacements."/>
+    <!--<text key="Hint" text="Landing Craft have spawn points, provided that enemies aren't nearby."/>
+    <text key="Hint" text="The enemy will often utilize emplaced AA Guns on the map - destroy all of them to gain access to air support calls!"/>
+    <text key="Hint" text="The enemy will often utilize emplaced Coastal Guns - destroy all of them gain access to naval artillery calls!"/>-->
+    <text key="Hint" text="Armories have changed from Running with Rifles - they now resemble half-length Quonset Huts."/>
+    <text key="Hint" text="Be on the lookout for enemy Veterans and other specialist soldiers - they're tougher and come armed with better weapons. Their appearances will be distinct from regular infantry."/>
+    <!--<text key="Hint" text="When a beach landing gets tough, look for the supporting guns on the Attack Ship - use them to bombard the beach defenses!"/>
+    <text key="Hint" text="There are Armories and Stashes located on both the Aircraft Carrier and the Attack Ship, be sure to find their locations!"/> 
+    <text key="Hint" text="Banzai Chargers are ferocious assault troops, bent on carrying out their assault no matter the cost. They are difficult to take down, but have no regard for cover."/>
+    <text key="Hint" text="Banzai Charges are lead by an Officer, heroically leading them into their do-or-die assaults with just his Katana."/>-->
+    <text key="Hint" text="Bayonets can turn a long-range Rifle into a potent and deadly close-quarters weapon."/>         
+    <text key="Hint" text="The valued price of a weapon is often a good estimator as to both its rarity and combat effectiveness."/>       
+    <text key="Hint" text="Binoculars are a great tool for high-ranking Officers - allowing them to command troops and call in Artillery on more distant locations."/>       
+    <!--<text key="Hint" text="The PT Boat is excellent in providing supporting fire on a beachhead with its vast array of weapons systems."/>-->
+    <!-- added 09/20/2017
+    <text key="Hint" text="Destroy any enemy structures to decrease their fighting capacity."/>   
+	<!-- added 06/07/2018 -->
+    <text key="Hint" text="Most common enemy weapons can be sold to your Armoury in sets of five to unlock them for your own purchase."/>   
+    <text key="Hint" text="Your factions' basic Bolt-Action Rifle equipped with a Bayonet is not initially available in the armoury, but can be unlocked by selling five of them to it - found on fallen comrades."/>   
+    <text key="Hint" text="Friendly soldiers and players you kill will not drop their gear. And, if you are accidently teamkilled, you will respawn with what you died with!"/>   
+    <text key="Hint" text="Eventually, rare weapons and gear on the ground will vanish - but rare weapons will stay on the field for longer than common weapons."/>   
+    <text key="Hint" text="Not all weapons have a 100% chance to drop when an enemy soldier is killed."/>   
+    <text key="Hint" text="Sentry soldiers are rare specialist troops that spawn with a hip-fired Machine Gun and a thick set of Body Armour. They are highly-resistant to small-arms, and to some extent, explosives."/>   
+    <text key="Hint" text="There are various items available in the 'Vest' category, each offering unique advantages. However if you die wearing a vest, you will not respawn with it!"/>   
+    <text key="Hint" text="The Veteran 'vest' grants additional resilience to enemy fire, and when you run out of 'luck', you can enter a wounded state which enables comrades to revive you."/>   
+    <!--<text key="Hint" text="The Banzai and Assault 'vests' grant additional resilience and a large bonus to movement speed, but unlike the higher-tier Veteran 'vest', you will die instead of entering a wounded state."/>   
+    <text key="Hint" text="The Camouflage Suit, only available to the Imperial Japanese Army, makes you harder to detect, and very slightly harder to hit. This bonus is particularly useful when using a Sniper Rifle."/>   -->
+    <text key="Hint" text="The Sentry 'vest' is a heavy set of Body Armour. It offers good protection and enables you to become wounded instead of dying, but impairs movement speed and is markedly expensive."/>   
+
+\</intro>

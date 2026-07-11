@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1">
+	
+	<weapon key="ww2_undead_mg131.weapon" />
+
+	<!--<weapon key="reichsrevolver.weapon" />-->			<!-- 0.4 -->
+
+	<carry_item key='ww2_undead_axr_overlord.carry_item' enabled="1" />
+
+	<!--<projectile key="ww2_undead_fsj_flare_overlord.projectile" />-->
+	<projectile key="ww2_undead_artillery_flare_overlord.projectile" />
+
+</resources>

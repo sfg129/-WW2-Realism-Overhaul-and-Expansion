@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+ 	<vehicle key="mg34_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="opel_blitz_1.vehicle" />
+ 	<vehicle key="opel_blitz_2.vehicle" />
+ 	<vehicle key="opel_blitz_armoury.vehicle" />
+	<vehicle key="kubelwagen.vehicle" />
+	<vehicle key="staff_car.vehicle" />
+	<vehicle key="wasp.vehicle" />
+
+	<!-- no heavy vehicles
+ 	<vehicle key="sdkfz251.vehicle" />
+	<vehicle key="king_tiger.vehicle" />
+	<vehicle key="stug_iii.vehicle" />
+	<vehicle key="tiger.vehicle" />
+	<vehicle key="sdkfz251_flak.vehicle" />
+	<vehicle key="at_gun_pak40.vehicle" />
+	<vehicle key="at_gun_pak40_2.vehicle" />    
+	<vehicle key="lefh18.vehicle" />
+	<vehicle key="cargo_tank.vehicle" />    
+	<vehicle key="maus_boss.vehicle" />
+	<vehicle key="king_tiger_boss.vehicle" />
+	<vehicle key="repair_tank.vehicle" />    
+	-->
+
+	<!--
+	<call key="wh_inf.call" />
+	-->
+	
+</resources>

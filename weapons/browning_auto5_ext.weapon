@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_shotgun.weapon" key="browning_auto5_ext.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+	<tag name="assault" />
+
+<access_tag name="ww2" />
+	
+	<specification 
+	retrigger_time="0.08" 
+	accuracy_factor="0.825" 
+	sustained_fire_grow_step="4.0" 
+	magazine_size="8" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Browning Auto 5 (00 Buck)" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="1" 
+	projectile_speed="100" 
+	projectiles_per_shot="9"
+	/>
+	<next_in_chain key="browning_auto5_ext_4.weapon" share_ammo="1" />
+
+	<animation state_key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation key="reload" animation_key="reloading, m12 trench gun" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, m12 trench gun, prone" />
+		
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="weapon_shotgun_browning_auto5.wav" pitch_variety="0.05" volume="2.65"/>
+	<sound key="cycle" fileref="mossberg500_cycle.wav" />
+	<sound key="reload_one" fileref="mossberg500_reload.wav" />
+	
+	<model filename="weapon_browning_auto5_ext.xml" />
+	<hud_icon filename="hud_browningauto5.png" />
+	
+	<commonness value="0.02" in_stock="1" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="200" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- decay start was 0.3, end was 0.425, damage more recently was 0.6-->
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit"
+		kill_probability="0.7"
+		kill_decay_start_time="0.2"
+		kill_decay_end_time="0.7"
+		/>
+	</projectile>
+	
+</weapon>

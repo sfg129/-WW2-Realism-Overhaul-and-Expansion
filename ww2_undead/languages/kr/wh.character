@@ -1,0 +1,214 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0.character">
+    	<sound key="death" fileref="wh_death_01.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="wh_death_02.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_03.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_04.wav" volume="1.5" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_05.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_06.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_07.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_08.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_09.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_10.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_11.wav" volume="1.1" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_12.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_13.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_14.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_15.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_16.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_17.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_18.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_19.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_20.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_21.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_22.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_23.wav" volume="1.3" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_24.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_25.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_26.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_27.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15"/>
+
+   <!-- character specific animation override table -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+
+	<comment key="We surrender!" text="쏘지마! 난 폴란드 사람이야!"/>
+	<comment key="We surrender!" text="포기할래! 망할 전쟁!"/>
+	<comment key="We surrender!" text="항복한다!"/>
+	<comment key="We surrender!" text="제발, 학교는 졸업하고 싶어요!"/>
+	<comment key="We surrender!" text="망할 연합군 개자식들..."/>
+	
+	<comment key="Medic!" text="위생병!"/> 
+	<comment key="Medic!" text="도와줘, 빨리!"/>    
+	
+	<comment key="Quickly!" text="빨리!"/>
+	<comment key="Quickly!" text="빨리 빨리 빨리!"/>    
+	
+	<comment key="initiate radio call" text="본부 응답하라, 여기는 폰 루크 전투단, 들리는가?"/>
+
+	
+	<comment key="hostile vehicle takeover" text="뭐야? NEIN!"/>
+	<comment key="hostile vehicle takeover" text="야! 그거- "/> 
+	<comment key="hostile vehicle takeover" text="뭐? Nein nein NEIN!"/>    
+	
+	<comment key="enemy seen" text="적이다!"/>
+	
+	<comment key="enemy not seen, taking suppressed fire" text="경보!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="적 전차다!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="엎드려! 적 전차다!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="연합군 전차다!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="조심해, 전차다!!"/>        
+	
+
+	<comment key="Hold on!" text="버티고 있어, 동지!"/>  
+
+	<comment key="Yes sir" text="야볼"/>
+	<comment key="Yes sir" text="알겠습니다"/>    
+	
+	<comment key="celebrating" text="잘했다, 제군들."/>
+	<comment key="celebrating" text="잘했어!"/>    
+	<comment key="celebrating" text="해협으로 다시 밀어넣어주마!"/>
+	<comment key="celebrating" text="승리 만세!"/>	<!-- do not translate this one in German! Use something else lol. -->
+	<comment key="celebrating" text="훌륭했다 제군들."/>
+	<comment key="celebrating" text="연합군 개 돼지들아 맛좀 봐라!"/>
+	<comment key="celebrating" text="담배 좀 있냐, 연합군 개돼지야?"/>
+	<comment key="celebrating" text="내 증조할아버지 본 사람 있어? 1 중대와 함께 공격했는데."/>
+	<comment key="celebrating" text="오늘은 사우어크라우트랑 부어스트랑 감자를 먹어야겠다."/>
+	<comment key="celebrating" text="내 사촌 본 사람 있어? 정찰 임무에 있었는데."/>
+    
+	<comment key="Waiting for squad" text="빨리 올라타!"/>     
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="We're doing an awful lot of walking here."/>
+	</dialogue>    
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="새로운 장비 지급 받았나?"/>
+		<comment text="응"/>
+		<comment text="내 것도 새 거였으면.."/> 
+		<comment text="한 상자 밖에 없었어"/>    
+	</dialogue> 
+	
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="전차 이름을 뭐라고 할까?"/>
+		<comment text="토미 분쇄기."/>
+		<comment text="프리츠, 너가 그런 말을 할 때마다 걱정이 된다."/>
+	</dialogue>
+		
+   <!-- commander comments -->
+	<comment key="we captured a base" text="우리의 척탄병들이 %base_name을 쓸어버렸다!"/>
+	<comment key="we captured a base" text="%base_name을 점령했다, 지역을 확보해라."/>
+	<comment key="enemy captured a base" text="연합군들이 %base_name을 점령했다, 즉시 반격을 준비하기 바란다!"/>
+	<comment key="enemy captured a base" text="%base_name 거점을 잃었다. 당장 탈환해!"/>
+	<comment key="our base is under attack" text="연합군들이 %base_name 거점을 공격하고 있다는 보고를 받았다."/>
+	<comment key="fighting near a base" text="%base_name 근처에서 총격이 일어났다"/>
+	
+	
+   <!-- adventure mode -->
+	<comment key="map start with 1 base, part 3" text="우리 병력이 오늘 도착하여 공세를 준비했다."/>
+	
+	<comment key="map start with 1 base, capture" text="이제 침공을 개시할 준비가 되었다. 우리 목적은 지역을 완전히 확보하는 것이다."/>
+	
+	<comment key="map advance, held by enemy" text="지휘부는 %map_name 가 우리의 다음 전략 목표라고 한다. %faction_name이 제대로 붙잡고 있다."/>
+	<comment key="map advance, new map" text="우리 사단은 또 다른 공격을 준비 중이다. 움직인다!"/>
+	
+	<comment key="final map, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="final map, part 2" text="%map_name에 온 제군들을 환영한다"/>
+	<comment key="final map, part 3" text="이제 거의 끝났다! 마지막 임무다!"/>
+	<comment key="final map, part 5" text="수많은 전투를 거쳐 %faction_name을 몰아냈다."/>
+	<comment key="final map, part 6" text="이번 전투에서 이겨서 완전히 전쟁을 끝내자!"/>
+
+	<!-- WH campaign commander lines -->
+	<comment key="sicily, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="sicily, part 2" text="너희들을 시칠리아에서 다시 보게 되어 반갑다."/>
+	<comment key="sicily, part 3" text="미군 공수부대가 근처 지역에 착지했고 중요 지점들을 전부 점령했다."/>
+	<comment key="sicily, part 4" text="우리의 임무는 다시 그 지역들을 점령하고 공수부대의 위험을 없애는 것이다!"/>
+
+	<comment key="brecourt, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="brecourt, part 2" text="노르망디에 온 걸 환영한다 제군들."/>
+	<comment key="brecourt, part 3" text="어제 밤에 미 공수부대가 생 마리 드 몽 마을을 점거했다는 보고를 받았다."/>
+	<comment key="brecourt, part 4" text="다양하고 지속적인 보고들에 의하면 대륙에 대한 대규모 연합군 진공이 진행되고 있다."/>
+	<comment key="brecourt, part 5" text="일단 우리는 우리 구역부터 대비하여 할 수 있는 조치를 취해야한다."/>
+	<comment key="brecourt, part 6" text="제군에게는 대규모 기갑 차량을 맡기겠다, 반격하여 구역을 확보하라!"/>
+
+	<comment key="overlord intro, part 1" text="집중하게, 지휘관 보고가 있겠다." />
+	<comment key="overlord intro, part 2" text="현재 군대이 이 지역에서 철수했다, 즉 우리만 여기 남게 된것이다." />
+	<comment key="overlord intro, part 3" text="그리고 더 심각한건, 동맹국이 가능한 모든 방법으로 이 방어선을 공격할 것 같다." />
+	<comment key="overlord intro, part 4" text="전선을 사수하라, 모든 수단을 다 동원해서 비행장를 사수하라!" />
+	<comment key="overlord intro, part 5" text="놈들이 강을 넘어 공격해 올것이다, 준비하게나." />
+	<comment key="overlord intro, part 6" text="무운을 빌고 빨리 해결되길 바라겠네, 제군들! 이제 30초 남았네 빨리 자리로 이동하게!" />
+	<comment key="overlord intro, part 7" text="적들이 접근하고 있다, 오래가진 않겠지!" />
+	
+	<comment key="overlord stage 1" text="적군의 포격이다, 엄폐하라! (제1 공세가 시작)" />
+	<comment key="overlord stage 2" text="적이 2차 공세를 시작하려 한다! (제2 공세가 시작)" />
+	<comment key="overlord stage 3" text="전차다! 적들이 전차를 몰고왔다! (제3 공세가 시작)" />
+	<comment key="overlord stage 4" text="적들이 포기하지 않으려고 한다, 방어선을 유지하라! (제4 공세가 시작)" />
+	<comment key="overlord stage 5" text="놈들이 다음 공세를 위해 재집결 하고 있다. 방어선을 보강하라! (2분간 휴식뒤 제5 공세가 시작)" />
+	<comment key="overlord stage 6" text="군대이 방금 도착했습니다, 하지만 놈들은 공세를 멈출 생각이 없어 보이는군.  (제6 공세가 시작)" />
+	<comment key="overlord stage 7" text="군대이 함포와 함께 돌아왔다! 놈들에게 지옥을 보여줘라!" />
+	<comment key="overlord stage 8" text="반격하라!" />
+
+	<comment key="hill262, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="hill262, part 2" text="어려운 상황까지 도달했다. 우리의 노력에도 불구하고, 우리는 연합군 공세에 밀려 대대적으로 퇴각중이다."/>
+	<comment key="hill262, part 3" text="근처 고지인 262고지는 우리 군의 퇴각 행렬을 관망할 수 있는 지점이며, 이를 잃을 시 우리는 고립되게 될 것이다."/>
+	<comment key="hill262, part 4" text="폴란드 기갑사단 역시 대규모 공세를 준비 중이라고 한다."/>
+	<comment key="hill262, part 5" text="무슨 대가를 치루더라도 고지를 사수하라!"/>
+
+	<comment key="hellshighway, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="hellshighway, part 2" text="69번 고속도로에 대한 영국놈들의 진격이 돈좌되었으니, 베르게티거를 보내서 전선을 정리할 것이다."/>
+	<comment key="hellshighway, part 3" text="베르게티거를 엄호하기 위해 반격을 개시했다 - 베르게티거가 격파되면, 임무 실패다!"/>
+	<comment key="hellshighway, part 4" text="정찰대가 보고한 대전차 거점들이 전술 지도에 표시되어있다."/>
+	<comment key="hellshighway, part 5" text="기동 개시!"/>
+
+	<comment key="arnhem, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="arnhem, part 2" text="네덜란드에 온 걸 환영한다."/>
+	<comment key="arnhem, part 3" text="우리가 노르망디에서 연합군의 맹공격을 피해 도망친지 좀 됐다, 하지만 그들이 또 다른 공격을 시작했다."/>
+	<comment key="arnhem, part 4" text="영국군 공수부대가 이 도시, 아른헴을 점령했고 그들을 돕기 위한 증원 부대들이 오고있다."/>
+	<comment key="arnhem, part 5" text="하지만 그 부대가 도착하기 전까지는 적들은 중화기 부대 없이 포위되 있다, 빨리 움직여서 도시를 되찾아라!"/> 
+    
+	<comment key="arnhem, supply cut" text="우리의 주요 보급기지가 적들에 의해서 점령되었다, 빨리 되찾아라!"/>    
+
+	<comment key="bastogne, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="bastogne, part 2" text="제군들, 며칠전 우리는 아르덴을 통해서 대규모 공격을 시작했다."/>
+	<comment key="bastogne, part 3" text="제군들은 오늘 바스토뉴의 핵심적인 교차로에 오게되었다."/>
+	<comment key="bastogne, part 4" text="도시는 우리의 오랜 적수인 미 공수부대에게 점거당했다."/>
+	<comment key="bastogne, part 5" text="저들은 제대로 틀어박혀있고 강철같은 정신을 가지고 있지만, 우리는 동원할 수 있는 가장 강력한 전차를 투입할 것이다."/>
+	<comment key="bastogne, part 6" text="무기를 모아서 대비하라! 오늘 우리는 저들의 정신을 깨부숴버릴것이다!"/>
+
+	<comment key="sealion, part 1" text="주목, 지휘관님 브리핑이다"/>
+	<comment key="sealion, part 2" text="제군들, 지난 몇달간 우리는 기적적이게도 연합군을 해협으로 몰아내는데 성공했다."/>
+	<comment key="sealion, part 3" text="그럼에도 불구하고 저들은 항복을 거부하고 있으니, 이제 우리의 작전목표는 영국의 종심부 그 자체를 공격하는 것이다!"/>
+	<comment key="sealion, part 4" text="공수작전이지만, 해안을 확보한다면 기갑 지원을 받을 수 있다."/>
+	<comment key="sealion, part 5" text="낙하산을 챙기고 마음을 굳건히 하라! 이 작전이 적들의 최후의 몰락이 될 것이다!"/>
+	<comment key="sealion, boss, part 1" text="영국군 저항이 붕괴되고 있지만, 시타델에 방어 거점을 마련한 듯 하다."/>
+	<comment key="sealion, boss, part 2" text="저 요새 너머에 어떤 저항이 숨어있던 파괴하라!"/>
+
+	<comment key="generic counter-attack" text="적군이 대규모 반격을 개시하고 있다! 어떻게든 버텨라! 땅을 잃는다면, 바로 탈환하라!"/>
+
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=wh_inf.call" text="아군 보병이 %base_name에서 집결 중이다"/>
+	<comment key="spawn_in_base_call, denied, key=wh_inf.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle.call" text="4호 전차를 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_sdkfz251.call" text="Sdkfz 251을 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_sdkfz251.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_stug.call" text="3호 돌격포를 %base_name에 배치한다"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_stug.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="배치 가능한 지점을 발견하지 못했다, 기지를 점령하라!"/>
+	
+</character>

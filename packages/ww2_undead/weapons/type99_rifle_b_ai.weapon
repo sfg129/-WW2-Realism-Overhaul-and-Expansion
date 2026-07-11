@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="type99_rifle_b_ai.weapon" drop_count_factor_on_death="0.0">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.96" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="1"
+	stance_accuracy_rate="2"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 99 Bayonet" 
+	class="2" 
+	reload_one_at_a_time="0" 
+projectile_speed="120.0" 
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+
+	<!-- AI versions of these weapons are worse than player versions to reduce the frustration of getting insta-killed so often -->
+	<!-- they have lower damage, lower velocity, and lose the mild sight range boost for bolt-actions -->
+	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="type99_rifle_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+	
+	<stance state_key="running" accuracy="0.25" />
+	<stance state_key="walking" accuracy="0.25" />
+	<stance state_key="crouch_moving" accuracy="0.35" />
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_01.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="type99_rifle_b.xml" />
+	<hud_icon filename="hud_type99_rifle_b.png" />
+	
+	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
+	<commonness value="0.3" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="2.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.5"
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

@@ -1,0 +1,72 @@
+
+
+
+<vehicle file="repair_tank_base.vehicle" key="cargo_tank.vehicle" 
+    respawn_time="3600" 
+	time_to_live_unsteerable="3600"
+    allow_character_leave_request="0" 
+    allow_owner_to_use_only="1" 
+    existence="one_per_spawn_point" 
+    owner="faction" 
+    protectors="0" 
+    minimum_fill_requirement="0.0" 
+    ai_stop_to_fight="0" 
+    ai_attack_spread_block_multiplier="0"
+    allow_player_to_use="0"  
+    simulated_damage="2.0"
+    ai_force_designated_driver_xp="1.0"
+    ai_navigation_offset="0"
+    ai_handle_taxi_request_when_full="1"
+    repair_factor="13"
+    ai_abandon_when_unsteerable="0"	>
+
+  	<tag name="cargo_tank" />
+
+	<control max_limiter_speed="2.0" max_speed="3.5" acceleration="5.0" max_reverse_speed="2.5" max_water_depth="3" min_health_to_steer="50.0" />
+
+	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
+	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
+	<modifier class="blast_damage" value="-3.6" />
+
+	<!-- immune to Flamethrowers. -->
+
+	<physics 
+    max_health="1000.0" 
+    blast_damage_threshold="1.02"
+    mass="4000.0" 
+    broken_mass="20"    
+    extent="6.0 0.0 7.8" 
+    offset="0 0.0 0" 
+    top_offset="0 2.0 0" 
+    collision_model_pos="0 0.9 0.0" 
+    collision_model_extent="5.0 2.0 7.8" 
+    visual_offset="0 0.43 0.0" /> 
+
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0 2.12 -0.1" weapon_key="repair_tank_crane.weapon" weapon_offset="-0.08 0.58 3.75" weapon_recoil="0.2" max_rotation_step="0.00004" rotation="-1.57" rotation_range="1.0" />
+	<turret offset="-0.68 1.9 2.7" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0004" rotation_range="0.5" />     
+
+
+	<character_slot type="driver" position="1.5 0.5 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" enter_position="-1.5 0.7 5.0" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+		<turret index="1" />
+	</character_slot>
+<!--	<character_slot type="gunner" position="-1.5 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="0" />  
+	</character_slot>         -->
+	
+  
+	<effect event_key="health" value="100.0" ref="SmallSmokeVehicle" offset="-1.0 2.0 -3.3" /> 
+	<effect event_key="health" value="100.0" ref="SmallSmokeVehicle" offset="1.0 2.0 -3.3" />
+    
+	<effect event_key="health" value="50.0" ref="SmallSmokeVehicle" offset="-1.0 2.0 -3.3" /> 
+	<effect event_key="health" value="50.0" ref="SmallSmokeVehicle" offset="1.0 2.0 -3.3" />
+	<effect event_key="health" value="50.0" ref="BrokenSparkle" post_processing="0" offset="-1.0 1.8 -3.3" />   
+	<effect event_key="health" value="50.0" ref="BrokenSparkle" post_processing="0" offset="1.0 1.8 -3.3" />     
+     
+
+  
+  
+</vehicle>

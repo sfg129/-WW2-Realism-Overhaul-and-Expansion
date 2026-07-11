@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="winchester_automatic_rifle.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+	
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.11" 
+	accuracy_factor="0.97" 
+	sustained_fire_grow_step="0.28" 
+	sustained_fire_diminish_rate="2"	
+	stance_accuracy_rate="2.0"
+	magazine_size="20" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Winchester Automatic Rifle (WAR)" 
+	class="0" 
+	barrel_offset="0.5" 
+	projectile_speed="140.0"
+	/>
+	
+	<!-- WAR is a low-capacity, low-rate of fire weapon which offers high accuracy and moderate damage. -->
+	<!-- It performs in a role as the USF's Assault Rifle (equivalent to an Stg 44 or Type Hei). -->
+	<!-- It also has a bipod so has excellent accuracy from prone stance. -->
+
+	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
+	<stance state_key="standing" accuracy="0.9" />		
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="prone" accuracy="1.2" />
+	<stance state_key="over_wall" accuracy="1.2" />   
+
+	<modifier class="speed" value="-0.08" />
+	
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation key="reload" animation_key="reloading, war" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, war, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="weapon_autorifle_winchester_automatic_rifle.wav" pitch_variety="0.05" volume="1.07"/>
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="weapon_winchester_automatic_rifle.xml" />
+	<hud_icon filename="hud_war.png" />
+	
+	<commonness value="0.1" can_respawn_with="0"/>
+	<inventory encumbrance="8.0" price="325" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+	    <result
+		class="hit"
+		kill_probability="0.95" 
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9" 
+		/>
+	</projectile>
+	
+</weapon>

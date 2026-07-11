@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="willys_mb_recoilless_rifle.weapon">
+    <specification slot="2" 
+    retrigger_time="5.5" 
+    accuracy_factor="0.9" 
+	spread_range="0.3"
+    sustained_fire_grow_step="1.0" 
+    sustained_fire_diminish_rate="0.26"  
+    sight_range_modifier="2.5"
+    ai_sight_range_modifier="1"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="Recoilless Rifle" 
+    class="0" 
+    barrel_offset="4.85"
+    projectile_speed="80" />
+
+
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	<!-- Heavy Armour is lower than Medium because its less vulnerable -->
+    <target_factors tag="medium_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+    <target_factors tag="light_at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+    <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="4.0" />
+    <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+
+
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+
+	<sound key="fire" fileref="weapon_willys_mb_recoilless_with_reload.wav" pitch_variety="0.05" volume="2.5"/>
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+	<model filename="weapon_m18_recoilless_rifle.xml" />
+
+	<hud_icon filename="hud_recoilless_rifle.png" />
+    <commonness value="0.05" />
+    <inventory encumbrance="11.0" price="2.0" />
+
+    <weak_hand_hold offset="0.4" />
+
+	<projectile file="m18_recoilless_rifle_shell_willys.projectile" />
+	<ballistics
+	near_far_distance="1000.0"
+	speed_estimation_near="80.0"
+	speed_estimation_far="80.0"
+	max_speed="80.0"
+	randomness="0.0"
+	/>
+       
+	<effect class="muzzle" ref="LawMuzzle" />
+	<effect class="muzzle" ref="UpDust" />
+    
+</weapon>

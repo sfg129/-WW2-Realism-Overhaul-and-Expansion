@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Memory Sunrise" key="painting_memory.carry_item">
+    <hud_icon filename="hud_painting_memory.png" />
+    <inventory encumbrance="0" price="800.0" />
+
+    <model mesh_filename="painting.mesh" texture_filename="painting_memory.png" />
+
+    <commonness value="1.0" in_stock="0" />
+</carry_item>

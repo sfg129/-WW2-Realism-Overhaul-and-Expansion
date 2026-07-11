@@ -1,0 +1,3 @@
+<vehicle file="stuart_base.vehicle" key="stuart.vehicle" respawn_time="80"> 
+	<tag name="light_tank" />
+</vehicle>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, Un médecin!"/> 
+	
+	<comment key="Reloading" text="Couvrez-moi, je recharge !"/>
+	<comment key="Reloading" text="Je dois recharger !"/>  
+	
+	<comment key="We surrender!" text="Je me rends !"/>
+	<comment key="We surrender!" text="Je me rends !"/>
+	<comment key="We surrender!" text="J'en ai assez !"/>
+
+	<comment key="initiate radio call" text="Répondez quartier général, ici Able Company, vous me recevez ?"/>
+	<comment key="commander radio response" text="Reçu Able, à vous."/>
+
+	<comment key="hostile vehicle takeover" text="Hé ! C'est - "/> 
+	<comment key="hostile vehicle takeover" text="Quoi ? Non non NON !"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Trouvez-le, bon sang !"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Taaank!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Mon dieu baissez-vous ! TAANK !"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Ils ont amené un blindé !"/>     
+
+	<comment key="Hold on!" text="Tiens le coup mon pote !"/>  
+
+	<comment key="celebrating" text="Beau travail, les gars."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Vous aviez de jolis chars, je pense que je vais les garder."/>
+	<comment key="celebrating" text="Wow, sacré coup de chance."/>
+	<comment key="celebrating" text="Wooo! Bien joué les gars."/>
+	<comment key="celebrating" text="On leur a botté les fesses !"/>
+	<comment key="celebrating" text="On se rend si facilement ?"/>
+	<comment key="celebrating" text="Il faut que j'aille me trouver un Luger"/>
+	<comment key="celebrating" text="Je vais voir si je peux me trouver un pistolet d'officier"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="T'as des cigarettes ?"/>
+		<comment text="Oui mon pote, tiens."/>
+		<comment text="Tsss, dommage pour Taylor."/>
+		<comment text="Ouais. J'ai entendu dire qu'ils ont dû dégager ses restes des chenilles avec un tuyau d'arrosage."/>
+		<comment text="Bon sang. Nous devons être prudents autour des chars, surtout ceux de notre propre camp."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Ils t'ont donné de nouveaux équipements ?"/>
+		<comment text="Oui"/>
+		<comment text="Bon sang, j'ai besoin de nouvel équipement ..."/> 
+		<comment text="Fais avec, mon pote"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Comment on va appeler le tank ?"/>
+		<comment text="Le Kraut Kruncher."/>
+		<comment text="Ho que oui."/>
+	</dialogue>
+
+ </character>

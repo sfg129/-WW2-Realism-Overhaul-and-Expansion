@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Introduction to WW2 Undead" />
+		<text value="Welcome to WW2 Undead mode! In this mode you win by securing the Castle, located on the map in the area with No Recon. The Castle Gate is locked, and can only be opened by interacting with occult pentagrams scattered across the map, located within the bases. Also, any time you die, you can select an available parachute spawn node." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Вражеские транспортные средства"/>
+		<text value="Некоторая тяжелая ВРАЖЕСКАЯ ТЕХНИКА в EDELWEISS и PACIFIC не может быть украдена. Это сделано исключительно по причинам баланса и геймплея. Другие легкие транспортные средства всё еще могут быть украдены!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Штыки"/>
+		<text value="В EDELWEISS и PACIFIC можно переключиться на ШТЫКИ. Это можно сделать с оружием с двумя точка внизу значка. Они могут быть переключены нажатием &#37;control_next_weapon_in_chain. Штыки значительно расширяют радиус ближнего боя, но ценой некоторой потери точности."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Разрушение изгородей и заборов"/>
+		<text value="В EDELWEISS большинство ограждений может быть уничтожено с помощью ВЗРЫВЧАТКИ либо могут быть перееханы с помощью большинства ТРАНСПОРТНЫХ СРЕДСТВ. Кроме того, изгороди могут быть уничтожены при помощи ЗАРЯДОВ ВЗРЫВЧАТКИ, а также раздавлены специальной техникой, такими как танк Sherman &quot;Rhino&quot;."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Боссы"/>
+		<text value="Вражеские БОССЫ ТАНКИ должны быть уничтожены любой ценой ради достижения ПОБЕДЫ на определенных картах. Они крайне прочны и тяжело вооружены."/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Бункеры и ДОТы"/>
+		<text value="ДОТы можно встретить в PACIFIC и это хорошо укрепленные пулеметные позиции. Они не очень уязвимы для обычных гранат, но получают большой ущерб от ТЯЖЕЛОЙ ВЗРЫВЧАТКИ и ОГНЕМЕТОВ."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Генераторы помех, Береговые орудия, Зенитные орудия"/>
+		<text value="Вражеские ГЕНЕРАТОРЫ ПОМЕХ будут блокировать вашу способность использовать любые радиовызовы в определенной области вокруг них. Они уязвимы перед ЗАРЯДАМИ ВЗРЫВЧАТКИ если вы сможете подобраться достаточно близко. БЕРЕГОВЫЕ ОРУДИЯ и ЗЕНИТНЫЕ ОРУДИЯ блокируют определенные радиовызовы на всей карте, и их разрушение предоставит вам мощные БЕРЕГОВЫЕ ОРУДИЯ и АВИАЦИЮ соответственно."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Сопровождение Bergetiger" />
+		<text value= "Вы можете приказать Bergetiger остановиться на короткое время, нажав &#37;control_shoot при наведении на него. Также починка гаечным ключом заставит его остановиться.&#37;PSЭто также может быть использовано тактически, чтобы замедлить конвой для перегруппировки ваших войск." />
+		<image filename="journal_convoy.png" />
+	</entry>		
+
+</journal>

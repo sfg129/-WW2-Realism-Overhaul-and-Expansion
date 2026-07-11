@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+
+	<carry_item file="god_vest.carry_item" />
+	<carry_item file="ghost_vest.carry_item" />
+	<carry_item file="vest_snlf.carry_item" />
+<carry_item file="vest_normal.carry_item" />
+<carry_item file="vest_normalw.carry_item" />
+<carry_item file="vest_normale.carry_item" />
+<carry_item file="vest_normals.carry_item" />
+<carry_item file="vest_normala.carry_item" />
+	<carry_item key="fruit_bananas.carry_item" />
+	<carry_item key="fruit_coconut.carry_item" />
+	<carry_item key="fruit_dragonfruit.carry_item" />
+	<carry_item key="fruit_grape.carry_item" />
+	<carry_item key="fruit_mango.carry_item" />
+	<carry_item key="fruit_melon.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
+	<carry_item file="ww2_undead_axr_dog.carry_item" />
+	<carry_item file="ww2_undead_axr_nachtjaeger.carry_item" />
+	<carry_item file="ww2_undead_axr_officer.carry_item" />
+	<carry_item file="ww2_undead_axr_overlord.carry_item" />
+	<carry_item file="ww2_undead_axr_sentry.carry_item" />
+	<carry_item file="ww2_undead_axr_sentry_heavy.carry_item" />
+	<carry_item file="ww2_undead_zombie_bear.carry_item" />
+	<carry_item file="ww2_undead_zombie_bruiser.carry_item" />
+	<carry_item file="ww2_undead_zombie_dog.carry_item" />
+	<carry_item file="ww2_undead_zombie_dog_howler.carry_item" />
+	<carry_item file="ww2_undead_zombie_overlord.carry_item" />
+	<carry_item file="ww2_undead_zombie_resurrector.carry_item" />
+	<carry_item file="ww2_undead_zombie_shambler.carry_item" />
+	<carry_item file="ww2_undead_zombie_spitter.carry_item" />
+
+	<carry_item file="whiskey_bottle.carry_item" />
+	<carry_item file="cigarettes.carry_item" />
+  	<carry_item file="dollars.carry_item" />
+	<carry_item file="gem.carry_item" />
+	<carry_item file="painting.carry_item" />
+	<carry_item file="suitcase.carry_item" />
+	<!--<carry_item file="beret.carry_item" />-->
+
+	<carry_item file="vest_veteran.carry_item" /> 
+	<carry_item file="vest_veteran_ija.carry_item" /> 
+
+	<carry_item file="camouflage_suit.carry_item" /> 
+	<carry_item file="camouflage_suit_for_ai.carry_item" /> 
+
+	<carry_item file="vest_banzai.carry_item" /> 
+	<carry_item file="vest_banzai_for_ai.carry_item" />
+	<carry_item file="vest_snlf_for_ai.carry_item" /> 
+	<carry_item file="vest_flamethrower_operator.carry_item" /> 
+	<carry_item file="vest_veteran_flamethrower_operator.carry_item" /> 
+	<!--<carry_item file="vest_cameraman.carry_item" />-->
+	<carry_item file="vest_sentry.carry_item" /> 
+	<carry_item file="vest_sentry_for_ai.carry_item" /> 
+
+	<carry_item file="vest_assault_webbing.carry_item" /> 	
+	<carry_item file="vest_assault_webbing_for_ai.carry_item" /> 
+												   
+	<carry_item file="cigars.carry_item" />
+	<carry_item file="lighter.carry_item" />   
+	<carry_item file="teddy.carry_item" />      
+	<carry_item file="bible.carry_item" /> 
+  <carry_item file="koran.carry_item" /> 
+  <carry_item file="chewing_gum.carry_item" />
+  <carry_item file="chocolate.carry_item" />
+  <carry_item file="dollars_300.carry_item" /> 
+  <carry_item file="razor.carry_item" />   
+  
+  <carry_item file="playing_cards.carry_item" /> 
+  <carry_item file="record_player.carry_item" />
+  <carry_item file="sake.carry_item" />
+  <carry_item file="medal_of_honor.carry_item" />
+  <carry_item file="order_rising_sun.carry_item" />
+  <carry_item file="postcard.carry_item" />
+  <carry_item file="rum.carry_item" />
+  <carry_item file="photo1.carry_item" />
+  <carry_item file="photo2.carry_item" />
+  <carry_item file="photo3.carry_item" />
+  <carry_item file="photo4.carry_item" />
+  <carry_item file="photo5.carry_item" />
+  <carry_item file="photo6.carry_item" />
+  <carry_item file="photo7_troublesome.carry_item" />
+  <carry_item file="photo8_troublesome.carry_item" />
+  <carry_item file="photo9.carry_item" />
+  <carry_item file="photo10.carry_item" />
+  <carry_item file="photo11.carry_item" />
+  <carry_item file="photo12.carry_item" />
+  <carry_item file="gramophone_record1.carry_item" />
+  <carry_item file="gramophone_record2.carry_item" />
+  <carry_item file="gramophone_record3.carry_item" />
+  <carry_item file="gramophone_record4.carry_item" />
+  <carry_item file="gramophone_record5.carry_item" />
+  <carry_item file="schnapps.carry_item" />
+  <carry_item file="tea_cup.carry_item" />
+  <carry_item file="tea_box.carry_item" />
+  <carry_item file="victoria_cross.carry_item" />
+  <carry_item file="iron_cross.carry_item" />
+
+  <carry_item file="gold_bar.carry_item" />
+
+
+  <carry_item file="god_vest.carry_item" />
+
+</carry_items>

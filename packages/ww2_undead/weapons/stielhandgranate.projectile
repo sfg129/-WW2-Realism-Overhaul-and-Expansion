@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="M43 Stielhandgranate" key="stielhandgranate.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.3">
+	<tag name="grenade" />
+
+	<!-- the German stick grenade has now been balanced to have the smallest radius of all grenades (-0.2 smaller than Type 97), and only 4 can be carried like Allied grenades, however it has the shortest fuse. -->
+	<!-- this is to attempt to simulate how the stick grenade is an 'offensive grenade' - meaning it can be thrown forward while attacking towards it too -->
+	<!-- while Allied grenades are 'defensive grenades' - advancing while throwing would often kill or maim the operator due to its larger fragmentation radius. -->
+	<!-- as such the German grenades detonate quicker, as they are being 'cooked' longer by the operator, while the Allied grenades are 'thrown' instantly by the operator due to their increased lethality. -->
+
+	<sound class="result" key="other" fileref="mortar_01.wav" volume="2.0" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="mortar_02.wav" volume="2.0" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="mortar_03.wav" volume="2.0" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="time" time_to_live="4"/>
+	<result
+	class="blast"
+	radius="6"
+	damage="2"
+	push="0.3"
+	decal="1"
+	faction_compare="not_equal"
+	character_state="death"
+	/>
+	
+	<model mesh_filename="weapon_stielhandgranate.xml" />
+	<hud_icon filename="hud_m43.png" />
+	
+	<rotation class="random" />
+	<throwable
+	curve_height="6.0"
+	near_far_distance="5.0"
+	speed_estimation_near="9.0"
+	speed_estimation_far="17.0"
+	max_speed="18.0"
+	randomness="0.07"
+	/>
+	
+	<commonness value="1.0" />
+	<inventory encumbrance="1.0" price="2.0" />
+	
+	<capacity value="8" source="rank" source_value="0.0" />
+
+	
+	  	<effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="terrain" ref="OstvetHitSparks" />
+    <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
+
+	   	<effect class="result" key="terrain" ref="HitTank" lighting="1" />
+   	<effect class="result" key="terrain" ref="HitTankSparks" />
+		    <effect class="result" key="terrain" ref="SmokeBurst" post_processing="1" />
+  <!--   <effect class="result" key="terrain" ref="BurstShine" lighting="0" />--> 
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="HandGrenadeSmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="HandGrenadeSmoke" post_processing="1" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+</projectile>

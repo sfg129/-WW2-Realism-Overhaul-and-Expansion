@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+
+	<weapon key="kar98k_b.weapon" />	
+	<weapon key="kar43.weapon" />
+	<weapon key="mp40.weapon" />
+
+
+	<weapon key="kar98k_rifle_grenade_he.weapon" />
+	
+	<weapon key="mp34_o.weapon" />
+	<weapon key="mp34_o_b.weapon" />
+	<weapon key="kar98k_small_optic.weapon" />
+	<weapon key="stg44.weapon" />
+
+	<weapon key="kar98k_elite.weapon" />
+	<weapon key="kar98k_elite_b.weapon" />
+	<weapon key="kar43_large_mag.weapon" />
+
+</resources>

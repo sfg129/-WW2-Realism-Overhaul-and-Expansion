@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Anti-Tank Satchel Charge" key="satchel.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.3">
+	<tag name="antitank_grenade" />
+	
+<!--	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.35" pitch_variety="0.1"/> -->
+  
+<sound class="result" key="other" fileref="at_grenade_01.wav" volume="1.9" pitch_variety="0.1"/>  
+<sound class="result" key="other" fileref="at_grenade_02.wav" volume="1.9" pitch_variety="0.1"/>  
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="time" time_to_live="4"/>
+    <collision class="sticky" />
+	<result
+	class="blast"
+	radius="4"
+	damage="8.5"
+	push="0.4"
+	decal="1"
+	faction_compare="not_equal" />
+	
+	<model mesh_filename="satchel.xml"/>
+	<hud_icon filename="hud_satchel.png" />
+	
+	<rotation class="random" />
+    <throwable 
+	curve_height="5.0" 
+	near_far_distance="5.0" 
+	speed_estimation_near="9.0" 
+	speed_estimation_far="17.0" 
+	max_speed="13" 
+	randomness="0.06" 
+	tweak_factor="1.1" />
+	
+    <commonness value="0.3" />
+    <inventory encumbrance="3.0" price="4.0" />
+	
+
+    <capacity value="4" source="rank" source_value="0" />
+	
+	<effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarSmokeUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	    <effect class="result" key="terrain" ref="BurstShine" lighting="0" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmokeUp" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+	<effect class="result" key="other" ref="Godray" lighting="0" />
+	 <effect class="result" key="other" ref="BurstShine" lighting="0" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+    <effect class="activated" ref="SatchelSparkle" />
+    <effect class="activated" ref="SatchelFlash" />
+	
+</projectile>

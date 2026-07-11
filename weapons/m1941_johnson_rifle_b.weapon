@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="m1941_johnson_rifle_b.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0" >
+   	<tag name="has_bayonet" />
+
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.12" 
+	spread_range="0.285"
+	accuracy_factor="0.975" 
+	sustained_fire_grow_step="0.95" 
+	sustained_fire_diminish_rate="2.4"	
+	stance_accuracy_rate="2.0"
+	magazine_size="10" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="M1941 Johnson Rifle Bayonet" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="1" 
+	projectile_speed="140.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+    stab_enabled="1"
+    stab_range="3.2"
+	/>
+
+	<!-- was 1.2 recoil recovery -->
+
+	<!-- Johnson Rifle bayonet was not good, so accuracy penalty is a bit worse than most other weapons, -->
+	<!-- but it's also puny and light so it has slightly faster stance rate than regular rifles' bayonets -->
+	<!-- the reason it was not so good is that the barrel reciprocates about half an inch when firing, -->
+	<!-- and with a bayonet attached to said barrel this impacted accuracy more than most weapons -->
+
+	<next_in_chain key="m1941_johnson_rifle.weapon" share_ammo="1" />
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation state_key="reload" animation_key="reloading, johnson rifle" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, johnson rifle, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_05_johnson.wav" pitch_variety="0.05" volume="2.0"/> <!-- was 2.27 with old sound -->
+	<sound key="magazine_out" fileref="park_off.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="reload_one" fileref="sniper_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	
+	<model filename="m1941_johnson_rifle_b.xml" />
+	<hud_icon filename="hud_johnson_rifle_b.png" />
+	
+	<commonness value="0.02" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="120" />
+   
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5" 
+		kill_decay_start_time="0.48" 
+		kill_decay_end_time="0.9" 
+		/>
+	</projectile>
+	
+</weapon>

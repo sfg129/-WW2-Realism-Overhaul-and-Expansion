@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_sniper.weapon" key="mn9130_s.weapon">
+	<tag name="sniper" />
+
+<!--<access_tag name="easternfront" />-->
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.99" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="0.6"
+	stance_accuracy_rate="0.8"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Scoped M91/30" 
+	class="2" 
+	reload_one_at_a_time="1" 
+	projectile_speed="135.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+	/>
+
+<next_in_chain key="mn9130_is.weapon" share_ammo="1" />
+
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle, mn9130" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, mn9130, prone" />
+	<animation state_key="reload" animation_key="reloading, m1903 sniper" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1903 sniper, prone" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="weapon_rifle_mn9130_sn.wav" pitch_variety="0.05" volume="4.75"/>
+    <sound key="reload_one" fileref="hunter_cycle_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="weapon_mn9130_s_pem.xml" />
+	<hud_icon filename="hud_mn9130_pem.png" />
+	
+	<commonness value="0.02" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="50" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- kill_probability was 1.5, raised for better damage vs. body armour -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.7"
+		kill_decay_start_time="0.53"
+		kill_decay_end_time="1"
+		/>
+	</projectile>
+	
+</weapon>

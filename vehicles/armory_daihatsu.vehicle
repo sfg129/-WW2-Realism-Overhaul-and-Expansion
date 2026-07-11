@@ -1,0 +1,71 @@
+<vehicle name="Armory Daihatsu" key="armory_daihatsu.vehicle" map_view_atlas_index="51" respawn_time="180" existence="one_per_faction" should_be_destroyed="1" allow_ai_to_use="0" reserves_spawn_point="1" usable_for_cover="0">
+	<tag name="vehicle" />
+	<tag name="armory boat" />  
+	<tire_set offset="0.85 0.0 1.55" radius="0.4" />
+	<tire_set offset="0.85 0.0 -1.55" radius="0.4" />
+	
+	<control max_speed="45.0" acceleration="7.5" max_reverse_speed="7.5" max_rotation="1.628" max_water_depth="0.3" can_steer_in_water="1" can_steer_on_ground="0" gears="1" />
+
+	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
+	<modifier class="blast_damage" value="-0.9" />
+	
+	<physics max_health="6.0" mass="80.0" extent="1.87 0.0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 0" collision_model_extent="3.8 2.2 14.0" visual_offset="0 0.7 0.0" /> 
+	
+	<turret offset="+0.0 +1.8 -3.85" weapon_key="daihatsu_shield.weapon" weapon_offset="0 0 0" weapon_recoil="0" physics_recoil="0." max_rotation_step="0" rotation="0" />
+	
+	<visual class="chassis" mesh_filename="daihatsu_cargo_hull.mesh" texture_filename="daihatsu_cargo.png" />
+	<visual class="chassis" key="broken" mesh_filename="daihatsu_cargo_damage.mesh" texture_filename="daihatsu_cargo_damage.png" />
+	
+	<character_slot type="driver" enter_position="2.5 0.0 -4.0"  position="0.0 1.8 -4.0" rotation="0.0" exit_rotation="1.57" hiding="0" animation_key="tank mg still"/>
+	
+ 	<item_container class="armory" offset="0 1 7.7" />
+	
+	<!-- sound handling -->
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.15" volume="0.6" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.6" high_pitch="1.7" low_rev="0.08" high_rev="1.0" volume="0.6" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+	
+	
+	<effect event_key="health" value="1.5" ref="SmallSmokeVehicle" offset="0.0 1.8 -5.5" />
+	
+	<effect event_key="health" value="0.3" ref="SmallSmokeVehicle" offset="0.0 1.8 -5.5" />
+	<effect event_key="health" value="0.3" ref="BrokenSparkle" post_processing="0" offset="0.0 1.8 -5.5" /> 
+	
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 1.8 -5.5" />  
+	
+	
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0090" />
+	</event>
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="20.0" />
+	</event>
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="20.0" />
+	</event>
+	
+	<event>
+		<trigger class="destroy" />
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor3.visual_item" min_amount="2" max_amount="3" offset="0 0 0" position_spread="1.0 1.0" direction_spread="0.15 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />  	
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor4.visual_item" min_amount="2" max_amount="3" offset="0 0 -5" position_spread="1.0 1.0" direction_spread="0.10 0.15" />
+	</event>
+	
+	<event>
+		<trigger class="cleanup" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+	</event>  
+ 	<event>
+		<trigger class="cleanup" />
+		<result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+	</event>     
+  
+</vehicle>

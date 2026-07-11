@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1">
+  
+	<weapon key="smle_no4_mki_s.weapon" />
+	<weapon key="enfield_p14_s.weapon" />
+	<weapon key="boys_at_rifle.weapon" />
+
+</resources>

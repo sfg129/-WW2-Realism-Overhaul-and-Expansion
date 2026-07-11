@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="heavy mortar shell" slot="2" key="heavy_mortar_shell.projectile" >
+	
+	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.35" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.35" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="8.5"
+	damage="7.5"
+	push="1.0"
+	decal="1"
+	faction_compare="not_equal"
+	/>
+	
+	<model mesh_filename="mortar_shell.xml" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	
+	<effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="MortarSmokeUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="8.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="10.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmokeUp" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+	<effect class="result" key="other" ref="Godray" lighting="0" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="other" ref="ArtilleryGodray" lighting="0" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+    <effect class="activated" ref="Propulsion" />
+	
+</projectile>

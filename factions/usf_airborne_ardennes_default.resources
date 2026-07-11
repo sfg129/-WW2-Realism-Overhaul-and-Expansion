@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<vehicle key="m4_75.vehicle" />
+	<vehicle key="m4_rhino.vehicle" />
+ 	<vehicle key="stuart.vehicle" />
+  	<vehicle key="stuart_damaged.vehicle" />
+	<vehicle key="m3_halftrack.vehicle" />
+	<vehicle key="m10.vehicle" />
+ 
+	<vehicle key="pillbox.vehicle" />
+	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m2hb_hmg.vehicle" />
+
+	<vehicle key="jeep.vehicle" />
+	<vehicle key="willys_mb.vehicle" />
+	<vehicle key="willys_mb_recoilless_rifle.vehicle" />
+
+	<vehicle key="at_gun_m5.vehicle" />
+<vehicle key="stuart_recce.vehicle" />
+
+	<vehicle key="usf_armoury_para.vehicle" />
+<vehicle key="m4_E4.vehicle" />
+
+	<call key="airstrike.call" />
+	<call key="airstrike1.call" />
+	<call key="airstrike4.call" />
+	<call key="airstrike5.call" />
+		
+	<!-- artillery support IS available -->
+	<call key="artillery2.call" />
+	<call key="artillery3.call" />
+	<call key="usf_para_no_parachuting.call" />
+	<call key="usf_para_armoury.call" />
+	<call key="usf_vehicle.call" />
+	<call key="usf_vehicle1.call" />
+	<call key="usmc_vehicle.call" />
+	<call key="vehicle_m3_mortar.call" />
+		<call key="usf_vehicle_m4_sherman.call" />
+	<call key="usf_vehicle_m10.call" />
+</resources>

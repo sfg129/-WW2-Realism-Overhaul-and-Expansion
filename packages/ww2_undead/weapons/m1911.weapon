@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary_pistol.weapon" key="m1911.weapon">
+   
+	<specification
+	retrigger_time="0.145"
+	accuracy_factor="0.95"
+	sustained_fire_grow_step="1"
+	magazine_size="7"
+	carry_in_two_hands="0"
+	can_shoot_standing="1"
+	suppressed="0"
+	name="M1911A1"
+	class="4"
+	reload_one_at_a_time="0"
+	projectile_speed="85.0"
+	barrel_offset="-0.2"
+	projectiles_per_shot="1"
+	burst_shots="1"
+	slot="1"
+	/>
+	
+	<weak_hand_hold offset="0.1" />
+
+	<animation state_key="reload" animation_key="reloading, pistol, 2hand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />
+	
+	<sound key="fire" fileref="pistol_03_m1911.wav" pitch_variety="0.05" volume="1.55" />
+	<sound key="magazine_out" fileref="pistol_clip_out.wav" />
+	<sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
+	<sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
+	
+	<model filename="m1911.xml" />
+	<hud_icon filename="hud_m1911.png" />
+	
+	<commonness value="0.09" />
+	<inventory encumbrance="1.0" price="2.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result class="hit"
+	kill_probability="0.85"
+	kill_decay_start_time="0.25"
+	kill_decay_end_time="0.8"/>
+	</projectile>
+	
+	<!-- was 0.6 kill probability, start 0.25 -->
+	
+</weapon>

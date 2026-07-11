@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<vehicle file="king_tiger_boss.vehicle" /> 
+    <vehicle file="maus_boss.vehicle" /> 
+	<vehicle file="tog2_boss.vehicle" /> 
+	<vehicle file="cargo_tank.vehicle" />     
+</vehicles>

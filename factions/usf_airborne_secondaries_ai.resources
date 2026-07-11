@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+
+				<weapon key="m1919_hmg_resource_t.weapon" />
+	<weapon key="light_mortar_resource.weapon" />
+	<weapon key="m2hb_hmg_resource.weapon" />
+	<weapon key="m2hb_hmg_resource_t.weapon" />
+		<weapon key="m1919_hmg_resource.weapon" />
+	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1_bazooka.weapon" />
+		<weapon key="bofors_resource.weapon" />
+	<weapon key="m1911.weapon" />
+	<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
+	<!--<weapon key="sw_model10.weapon" />-->
+<weapon key="morphine.weapon" />
+<projectile key="mk3_grenade.projectile" />
+	<projectile key="mkii_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+	<weapon key="m18_recoilless_rifle.weapon" />	
+	<weapon key="m9a1_bazooka_ai.weapon" />
+
+</resources>

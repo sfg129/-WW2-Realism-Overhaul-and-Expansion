@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call name="special infantry" key="special_inf.call" initiation_comment1="this will be hidden later" acknowledge_comment="Away you!" launch_comment="Shoo, back to the regular campaign!">
+
+	<round
+		instances="6"
+		instance_class="soldier"
+		instance_key="banzai"
+		instance_spread="4 0 4" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="5.0"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="0.0"
+		initial_speed_to_target="0.0">
+	</round>
+	
+	<round
+		instances="3"
+		instance_class="soldier"
+		instance_key="banzai_2"
+		instance_spread="4 0 4" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="5.0"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="0.0"
+		initial_speed_to_target="0.0">
+	</round>
+
+	<round instances="2"
+		instance_class="soldier"
+		instance_key="banzai_leader"
+		instance_spread="0 0 0" 
+		common_spread="0 0 0" 
+		launch_time="3.0"
+		spawn_time="5.0"
+		horizontal_offset_at_spawn="0.0"
+		vertical_offset_at_spawn="0.0"
+		initial_speed_to_target="0.0">
+	</round>
+	
+	<hud_icon filename="hud_banzai.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="10.0" />
+	<inventory encumbrance="0.0" price="10000.0" />
+	
+</call>

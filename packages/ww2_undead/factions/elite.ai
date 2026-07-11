@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+  <parameter class="uses_vehicles" value="1.0" />
+
+  <parameter class="accuracy_offset" value="0.05" />  <!-- 0.175 in 1.81-->
+
+  <parameter class="check_vehicles_interval" value="1.0" />
+
+</ai>

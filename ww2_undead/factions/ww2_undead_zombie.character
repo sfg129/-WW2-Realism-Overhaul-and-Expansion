@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="ww2_undead_zombie_default_base.character">
+
+  <!-- character specific animation override table -->
+  <animation key="running, no weapon, 60" target_key="running, zombie" />
+  <animation key="still, instructor" target_key="still, zombie" />
+  <animation key="still, heavy weapon"	animation_key="still, zombie" />
+  <animation key="crouch still, no weapon, 62" target_key="still, zombie" />
+  <animation key="stabbing" target_key="stabbing, zombie" />
+  <animation key="walking" target_key="walking, zombie" />
+  <animation key="throwing, upside" target_key="recoil, barf" />  
+  <animation key="crouching forwards" target_key="walking, zombie" /> 
+  
+  <animation key="change weapon in" target_key="crouch, zombie spit" />
+  <animation key="change weapon out" target_key="crouch, zombie spit" />     
+
+	<sound key="death" fileref="zomb_die1.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die2.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die3.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die4.wav" volume="0.75" />  
+	<sound key="death" fileref="zomb_die5.wav" volume="0.75" /> 
+	<sound key="death" fileref="zomb_die6.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die7.wav" volume="0.75" /> 
+	<sound key="death" fileref="zomb_die8.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die9.wav" volume="0.75" />
+	<sound key="death" fileref="zomb_die10.wav" volume="0.75" />    
+  
+  <sound key="stab" fileref="zomb_stab1.wav" volume="0.4" />
+  <sound key="stab" fileref="zomb_stab2.wav" volume="0.4" />
+  <sound key="stab" fileref="zomb_stab3.wav" volume="0.4" />
+  <sound key="stab" fileref="zomb_stab4.wav" volume="0.4" />
+  <sound key="stab" fileref="zomb_stab5.wav" volume="0.4" />
+  <sound key="stab" fileref="zomb_stab6.wav" volume="0.4" />  
+  
+	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />
+ 	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />
+ 	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />
+ 	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />
+ 	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />
+ 	<sound key="throw" fileref="ww2_undead_zombie_resurrection.wav" pitch_variety="0.035" volume="3.5" />                  
+
+
+	<parameter class="detectability_prone" value="0.8" />
+	<parameter class="detectability_wounded" value="0.8" />
+	<parameter class="detectability_crouching" value="0.8" />
+	<parameter class="detectability_crouch_moving" value="0.8" />
+	<parameter class="detectability_walking" value="0.9" />
+	<parameter class="detectability_still" value="0.8" />
+	<parameter class="detectability_running" value="1.0" />
+
+</character>

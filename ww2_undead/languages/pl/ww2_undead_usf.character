@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="usf.character">
+
+   <!-- commander comments -->
+	<comment key="we captured a base" text="We've cleared out %base_name!" />
+	<comment key="enemy captured a base" text="They've conquered %base_name" />
+	<comment key="our base is under attack" text="We've got reports of the enemy attacking %base_name." />
+	<comment key="fighting near a base" text="Contact reported near %base_name" />
+	
+	<!-- adventure mode -->
+	<comment key="undead varsity intro pt 1" text="Attention, incoming commander briefing" />
+	<comment key="undead varsity intro pt 2" text="The war seems over, but Remnant Axis forces have found a way to resurrect the dead..." />
+	<comment key="undead varsity intro pt 3" text="They don't seem to distinguish between friend or foe. It's chaos out there." />
+	<comment key="undead varsity intro pt 4" text="We believe the supernatural abominations can be traced to the nearby Castle." />
+	<comment key="undead varsity intro pt 5" text="Visit the nearby bases and search for a way to open the Castle Gate!" />
+
+	<comment key="undead swan intro pt 4" text="We believe the supernatural abominations can be traced to the nearby Mansion." />
+	<comment key="undead swan intro pt 5" text="Visit the nearby bases and search for a way to open the Mansion Gate!" />
+	
+	<comment key="undead varsity reminder" text="Reminder to all troops: visit the nearby bases and search for a way to open the Castle Gate!" />
+	<comment key="undead swan reminder" text="Reminder to all troops: visit the nearby bases and search for a way to open the Mansion Gate!" />
+
+	<comment key="undead varsity progress report pt 1" text="Good work!" />
+	<!-- commander then reports some number like 3 things which remain, so he just says 3 from the script -->
+	<comment key="undead varsity progress report pt 2" text="%remaining_seals remaining!" />
+	<comment key="undead varsity progress report pt 2 alt" text="%remaining_seals occult pentagrams remaining!" />
+	<!-- alternatively commander might report some number like 3/10, showing a total, so he says 3/10 from script  -->
+	<comment key="undead varsity progress report pt 3" text="%completed_seals/%total_seals completed!" />
+	<comment key="undead varsity progress report pt 3 alt" text="%completed_seals/%total_seals occult pentagrams completed!" />
+
+	<comment key="undead varsity gate open pt 1" text="The Castle Gate is unlocked!!" />
+	<comment key="undead varsity gate open pt 2" text="Move in and secure the Castle!" />
+	<comment key="undead varsity gate open pt 3 reminder" text="The Castle Gate is unlocked, clear the compound and stop the uprising!" />
+
+	<comment key="undead swan gate open pt 1" text="The Mansion Gate is unlocked!!" />
+	<comment key="undead swan gate open pt 2" text="Move in and secure the Mansion!" />
+	<comment key="undead swan gate open pt 3 reminder" text="The Mansion Gate is unlocked, clear the compound and stop the uprising!" />
+
+	<comment key="undead varsity boss dialogue 1" text="The enemy leader has been spotted! Take him out!" />
+	<comment key="undead varsity boss dialogue 2" text="Track down the enemy leader and take him out!!" />
+
+</character>

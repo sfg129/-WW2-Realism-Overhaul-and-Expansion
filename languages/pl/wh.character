@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    	<sound key="death" fileref="wh_death_01.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="wh_death_02.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_03.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_04.wav" volume="1.5" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_05.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_06.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_07.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_08.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_09.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_10.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_11.wav" volume="1.1" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_12.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_13.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_14.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_15.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_16.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_17.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_18.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_19.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_20.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_21.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_22.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_23.wav" volume="1.3" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_24.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_25.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_26.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_27.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15"/>
+
+   <!-- character specific animation override table -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+
+	<comment key="We surrender!" text="Nie strzelajcie! Jestem Polakiem!"/>
+	<comment key="We surrender!" text="Poddaje sie! Pieprzyc te wojne!"/>
+	<comment key="We surrender!" text="Poddaje sie!"/>
+	<comment key="We surrender!" text="Prosze, ja tylko chce skonczyc szkole!"/>
+	<comment key="We surrender!" text="Przekleta Aliancka swinia ..."/>
+	
+	<comment key="Medic!" text="Sanitariusz!"/> 
+	<comment key="Medic!" text="Pomocy, szybko!"/>    
+	
+	<comment key="Quickly!" text="Biegiem!"/>
+	<comment key="Quickly!" text="Ruszac sie!"/>    
+	
+	<comment key="initiate radio call" text="Halo baza, tutaj Grupa Bojowa Szczescia, jak mnie slyszysz?"/>
+
+	
+	<comment key="hostile vehicle takeover" text="Co? NIEE!"/>
+	<comment key="hostile vehicle takeover" text="Hej! To jest - "/> 
+	<comment key="hostile vehicle takeover" text="Co do? Nie nie NIE!"/>    
+	
+	<comment key="enemy seen" text="Alarm!"/>
+	
+	<comment key="enemy not seen, taking suppressed fire" text="Alarm!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Czolg wroga!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Padnij! Wrogi czolg!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Aliancki czolg!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Uwaga, czolg!"/>        
+	
+
+	<comment key="Hold on!" text="Trzymaj sie kolego!"/>  
+
+	<comment key="Yes sir" text="Jawohl"/>
+	<comment key="Yes sir" text="Zrozumialem"/>    
+	
+	<comment key="celebrating" text="Niezla robota, panowie."/>
+	<comment key="celebrating" text="Dobra robota!"/>    
+	<comment key="celebrating" text="Wypchniemy was z powrotem do kanalu La Manche!"/>
+	<comment key="celebrating" text="Niech zyje zwyciestwo!"/>	<!-- do not translate this one in German! Use something else lol. -->
+	<comment key="celebrating" text="Doskonala robota panowie."/>
+	<comment key="celebrating" text="A masz, Aliancka swinio!"/>
+	<comment key="celebrating" text="Masz przy sobie jakies fajki, Aliancka szumowino?"/>
+	<comment key="celebrating" text="Ktos widzial mojego pradziadka? Atakowal z pierwsza kompania."/>
+	<comment key="celebrating" text="Mysle, ze ugotuje sobie troche kapusty z kielabasa i kartoflami."/>
+	<comment key="celebrating" text="Czy ktos widzial mojego siostrzenca? Byl na patrolu zwiadowczym."/>
+    
+	<comment key="Waiting for squad" text="Wskakuj, szybko!"/>     
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="We're doing an awful lot of walking here."/>
+	</dialogue>    
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Czy dali Ci nowy sprzet?"/>
+		<comment text="Nom"/>
+		<comment text="Cholera, potrzebuje nowego sprzetu ..."/> 
+		<comment text="Mamy tylko jedna skrzynke"/>    
+	</dialogue> 
+	
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Jak nazwiemy czolg?"/>
+		<comment text="Tommy Miazdzyciel."/>
+		<comment text="Martwie sie o Ciebie, kiedy mowisz takie rzeczy, Fritz."/>
+	</dialogue>
+		
+   <!-- commander comments -->
+	<comment key="we captured a base" text="Nasi Grenadierzy oczyscili %base_name!"/>
+	<comment key="we captured a base" text="Przejelismy %base_name, zabezpieczyc teren."/>
+	<comment key="enemy captured a base" text="Alianci podbili %base_name, przygotujcie natychmiastowy kontratak!"/>
+	<comment key="enemy captured a base" text="Stracilismy %base_name, natychmiast go odbijcie!"/>
+	<comment key="our base is under attack" text="Mamy raporty o ataku wojsk Alianckich na %base_name."/>
+	<comment key="fighting near a base" text="Padly strzaly niedaleko %base_name"/>
+	
+	
+   <!-- adventure mode -->
+	<comment key="map start with 1 base, part 3" text="Nasze sily przybyly dzisiaj i przygotowaly sie do operacji ofensywnych."/>
+	
+	<comment key="map start with 1 base, capture" text="Teraz jestesmy gotowi do rozpoczecia inwazji, celem jest calkowite zajecie tego obszaru."/>
+	
+	<comment key="map advance, held by enemy" text="Przyszly rozkazy, %map_name jest naszym nowy celem. %faction_name mocno sie okopali."/>
+	<comment key="map advance, new map" text="Dywizja przygotowuje kolejne sily szturmowe, ruszajmy!"/>
+	
+	<comment key="final map, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="final map, part 2" text="Dobrze miec was wszystkich tutaj w %map_name"/>
+	<comment key="final map, part 3" text="To jest to! To nasza ostatnia operacja!"/>
+	<comment key="final map, part 5" text="Bitwa za bitwa, udalo nam sie odepchnac %faction_name."/>
+	<comment key="final map, part 6" text="Wygrajmy te bitwe i skonczmy te wojne raz a porzadnie!"/>
+
+	<!-- WH campaign commander lines -->
+	<comment key="sicily, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="sicily, part 2" text="Dobrze miec was wszystkich na Sycylii."/>
+	<comment key="sicily, part 3" text="Amerykanscy spadochroniarze wyladowali i zajeli pobliskie strategiczne pozycje."/>
+	<comment key="sicily, part 4" text="My mamy zajac sie odbiciem tych pozycji i odepchnieciem spadochroniarzy!"/>
+
+	<comment key="brecourt, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="brecourt, part 2" text="Zolnierze, witamy w Normandii."/>
+	<comment key="brecourt, part 3" text="Dochodza do nas raporty, ze noca Amerykanscy spadochroniarze zajeli miasteczko St. Marie du Mont."/>
+	<comment key="brecourt, part 4" text="Dochodza nas sluchy, ze Alianci szykuja inwazje w glab kontynentu."/>
+	<comment key="brecourt, part 5" text="Na razie musimy zajac sie pobliskim obszarem i zrobic to co mozemy."/>
+	<comment key="brecourt, part 6" text="Do twojej dyspozycji przydzielilismy liczne pojazdy opancerzone, kontratakuj i zamjmij ten obszar!"/>
+
+	<comment key="overlord intro, part 1" text="Uwaga, tu dowodca" />
+	<comment key="overlord intro, part 2" text="Armia właśnie odeszła, jestesmy tutaj sami." />
+	<comment key="overlord intro, part 3" text="A co gorsze, wyglada na to, ze Alianci uderza wszystkimi silami." />
+	<comment key="overlord intro, part 4" text="Utrzymac linie oraz lotnisko za wszelka cene!" />
+	<comment key="overlord intro, part 5" text="Wrog zbliza sie od strony rzeki, badzcie gotowi." />
+	<comment key="overlord intro, part 6" text="Powodzenia i zabierajcie zabawki, macie 30 sekund na dotarcie na pozycje!" />
+	<comment key="overlord intro, part 7" text="Wrog narazie tylko nas sprawdza, ale to nie potrwa dlugo!" />
+	
+	<comment key="overlord stage 1" text="Wrogie bombardowanie, kryc sie! (Faza 1 rozpoczeta)" />
+	<comment key="overlord stage 2" text="Druga fala bombardowan! (Faza 2 rozpoczeta)" />
+	<comment key="overlord stage 3" text="Czolgi! Oni maja czolgi! (Faza 3 rozpoczeta)" />
+	<comment key="overlord stage 4" text="Wrog nas nie zlamie! Utrzymywac pozycje! (Faza 4 rozpoczeta)" />
+	<comment key="overlord stage 5" text="Chyba sie przegrupowuja przed kolejnym atakiem! (2 minuty przerwy rozpoczete)" />
+	<comment key="overlord stage 6" text="Armia właśnie przybyła, ale wrog zdaje sie nie przerywac ataku!  (Faza 6 rozpoczeta)" />
+	<comment key="overlord stage 7" text="Armia powróciła z ciężkimi działami!" />
+	<comment key="overlord stage 8" text="Czas na kontratak!" />
+
+	<comment key="hill262, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="hill262, part 2" text="Jestesmy w trudnej sytuacji. Pomimo naszych wysilkow, jestesmy w pelnym odwrocie od inwazji Aliantow."/>
+	<comment key="hill262, part 3" text="Pobliskie wzniesienie, Wzgorze 262, ma pelny widok na nasze wycofujace sie kolumny, a jego utrata by nas odciela."/>
+	<comment key="hill262, part 4" text="Doszly nas sluchy, ze Polska dywizja pancerna szykuje zmasowany atak."/>
+	<comment key="hill262, part 5" text="Zajmijcie i utrzymajcie wzgorze za wszelka cene!"/>
+
+	<comment key="hellshighway, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="hellshighway, part 2" text="Brytole zatrzymali sie na Autostradzie 69, wysylamy wam Bergetigera zeby oczyscic ten balagan."/>
+	<comment key="hellshighway, part 3" text="Udalo sie zebrac kontratak zeby pokryc jego natarcie - jezeli stracimy Bergetigera, przegralismy!"/>
+	<comment key="hellshighway, part 4" text="Zwiad powiadomil nas o pozycjach przeciwpancernych, zostaly zaznaczone na mapie."/>
+	<comment key="hellshighway, part 5" text="Zbieramy sie i ruszamy!"/>
+
+	<comment key="arnhem, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="arnhem, part 2" text="Witamy w Holandii."/>
+	<comment key="arnhem, part 3" text="Juz troche minelo od ladowania w Normandii, ale Alianci rozpoczeli kolejna ofensywe."/>
+	<comment key="arnhem, part 4" text="Brytyjscy spadochroniarze zajeli Arnhem, wysylamy naszym posilki."/>
+	<comment key="arnhem, part 5" text="Dopoki ta kolumna tu nie dotrze, sa odcieci od ciezkiego wsparcia pancernego. Ruszajcie i odzyskajcie miasto!"/> 
+    
+	<comment key="arnhem, supply cut" text="Nasza glowna baza zaopatrzeniowa zostala zajeta przez przeciwnika, musimy ja odzyskac, ruchy!"/>    
+
+	<comment key="bastogne, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="bastogne, part 2" text="Panowie, kilka dni temu rozpoczelismy ofensywe w Ardenach."/>
+	<comment key="bastogne, part 3" text="Przyslalismy was dzisiaj do tego waznego skrzyzowania w Bastogne."/>
+	<comment key="bastogne, part 4" text="Miasto zajete jest przez waszych dawnych wrogow, Amerykanskich spadochroniarzy."/>
+	<comment key="bastogne, part 5" text="Sa dobrze okopani i maja nerwy ze stali, ale my wysylamy najpotezniejsze czolgi jakie jestesmy w stanie zalatwic."/>
+	<comment key="bastogne, part 6" text="Zbieramy sie i ruszamy! Dzisiaj zlamiemy ich ducha walki!"/>
+
+	<comment key="sealion, part 1" text="Achtung, przyszla odprawa z dowodztwa"/>
+	<comment key="sealion, part 2" text="Zolnierze, w ciagu ostanich miesiecy cudem udalo nam sie odepchnac Aliantow do kanalu La Manche."/>
+	<comment key="sealion, part 3" text="Pomimo tego odmawiaja zlozenia broni, dlatego naszym planem operacyjnym jest zaatakowanie samego serca Anglii!"/>
+	<comment key="sealion, part 4" text="To operacja powietrznodesantowa, ale jezeli uda wam sie zajac wybrzeze, mozemy zapewnic wsparcie pancerne."/>
+	<comment key="sealion, part 5" text="Bierzcie spadochrony i przygotujcie sie! Dni nieprzyjaciela juz sa policzone!"/>
+	<comment key="sealion, boss, part 1" text="Brytyjski opor slabnie, ale wydaje sie, ze dalej trzymaja fortyfikacje w Cytadeli."/>
+	<comment key="sealion, boss, part 2" text="Zmiazdz jakikolwiek opor w tych fortyfikacjach!"/>
+
+	<comment key="generic counter-attack" text="Przeciwnik przypuszcza potezny kontratak! Utrzymajcie pozycje za wszelka cene! Jezeli stracicie grunt, odbijcie go!"/>
+
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=wh_inf.call" text="Piechota sie reorganizuje w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_inf.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobadz baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle.call" text="Panzer IV przyjechal do %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobadz baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_sdkfz251.call" text="Wysylamy Sdkfz 251 do %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_sdkfz251.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobadz baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_stug.call" text="StuG III przyjechal do %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_stug.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobadz baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs przyjechal do %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobadz baze!"/>
+	
+</character>

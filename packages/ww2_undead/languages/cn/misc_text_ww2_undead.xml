@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+
+	<text key="Shambler" text="蹒跚者"/>
+	<text key="Brute Shambler" text="重型蹒跚者"/>
+	<text key="Runner" text="疾驰者"/>		<!-- probably ununsed -->
+	<text key="Kriegshund" text="战犬"/>
+	<text key="Zombie Hund" text="僵尸犬"/>
+	<text key="Zombie Bear" text="僵尸熊"/>
+	<text key="Resurrector" text="再生者"/>
+	<text key="Necromancer" text="死灵法师"/>
+
+	<!-- we won't translate the german ranks for now, keep them as is -->	
+	<text key="Soldat" text="士兵"/>
+	<text key="Obersoldat" text="上等兵"/>
+	<text key="Untote" text="不死者"/>
+
+	<text key="MG 131 - Mobile" text="MG-131机枪（突击）" />
+
+</translation>

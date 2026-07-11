@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0_allies.character">
+    <sound key="death" fileref="usf_death_01.wav" volume="0.85" pitch_variety="0.05"/>
+	<sound key="death" fileref="usf_death_02.wav" volume="1.05"/>
+	<sound key="death" fileref="usf_death_03.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_04.wav" volume="0.8"/>
+    <sound key="death" fileref="usf_death_07.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_08.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_09.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_11.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_12.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_13.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_14.wav" volume="1.05"/>
+    <sound key="death" fileref="usf_death_16.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_18.wav" volume="0.8"/>
+	<!--<sound key="death" fileref="usf_death_19.wav" volume="0.75" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="usf_death_22.wav" volume="0.85"/>
+	<sound key="death" fileref="usf_death_23.wav" volume="1.05"/>
+	<sound key="death" fileref="usf_death_26.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_29.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_30.wav" volume="0.8"/>
+	<sound key="death" fileref="usf_death_31.wav" volume="0.95"/>
+	<sound key="death" fileref="usf_death_32.wav" volume="0.75" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_33.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_34.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_35.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_36.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_37.wav" volume="0.9"/>
+	<sound key="death" fileref="usf_death_38.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_39.wav" volume="1.35"/>
+	<sound key="death" fileref="usf_death_40.wav" volume="1.35"/>
+	<sound key="death" fileref="usf_death_41.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_42.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_43.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_44.wav" volume="1.2"/>
+	<sound key="death" fileref="usf_death_45.wav" volume="1.2"/>
+	<sound key="death" fileref="usf_death_46.wav" volume="1.1"/>
+	<sound key="death" fileref="usf_death_47.wav" volume="1.0"/>
+	<sound key="death" fileref="usf_death_48.wav" volume="1.0"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05"/>
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15"/>
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15"/>
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15"/>
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15"/>
+
+   <!-- character specific animation override table -->
+	<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+	
+<!-- #EDELWEISS_TRANSLATION -->
+      
+   <!-- commander comments -->
+	<comment key="we captured a base" text="Oczyscilismy %base_name!"/>
+	<comment key="enemy captured a base" text="Niemcy zdobyli %base_name"/>
+	<comment key="our base is under attack" text="Mamy doniesienia o ataku wojsk niemieckich na %base_name."/>
+	<comment key="fighting near a base" text="Kontakt z wrogiem w poblizu %base_name"/>
+	
+	   <!-- adventure mode -->
+	<comment key="highway intro, part 1" text="Uwaga, nadchodzi odprawa dowodcy"/>
+	<comment key="highway intro, part 2" text="Dobrze miec was wszystkich tutaj na autostradzie 69."/>
+	<comment key="highway intro, part 3" text="Sprowadzilismy was tutaj, by przeprowadzic operacje Market Garden, ambitny plan wyzwolenia Holandii."/>
+	<comment key="highway intro, part 4" text="Podczas gdy nasi spadochroniarze zabezpieczaja glowne miasto Arnhem, naszym zadaniem jest podjechac ta droga i zapewnicim wsparcie."/>
+	<comment key="highway intro, part 5" text="Powodzenia i z ogiem!"/>
+
+	<comment key="arnhem intro, part 1" text="Uwaga, nadchodzi odprawa dowodcy"/>
+	<comment key="arnhem intro, part 2" text="Zabezpieczylismy Arnhem, ale patrole donosza, ze zostalismy odcieci i jestesmy otoczeni."/>
+	<comment key="arnhem intro, part 3" text="Niemcy zgromadzili pobliskie sily pancerne i przygotowuja sie do odbicia miasta."/>
+	<comment key="arnhem intro, part 4" text="Wrog ma juz przyczolek w miescie, a takze przygotowuje sie do przejscia przez most na poludniu."/>
+	<comment key="arnhem intro, part 5" text="Uderza w nas wszystkim co maja. Sprawdzcie swoje mapy i udajcie sie na linie frontu."/>
+	<comment key="arnhem intro, part 6" text="Powodzenia i z ogiem, zolnierze! Macie okolo trzydziestu sekund zeby dostac sie na pozycje!"/>
+	<comment key="arnhem intro, part 7" text="Wrog nas sprawdza, to nie potrwa dlugo!"/>
+
+	<comment key="arnhem stage attacks increase 1" text="Wysylaja wiecej wsparcia pancernego!"/>
+	<comment key="arnhem stage attacks increase 2" text="Atak nabiera impetu! Biegnij tam gdzie jest ich najwiecej!"/>
+	<comment key="arnhem stage attacks increase 3" text="Zauwazylismy wiecej jednostek pancernych zblizajacych sie do naszych pozycji! Dostan sie tam, gdzie sa i zatrzymaj ich!"/>
+	<comment key="arnhem stage counterattack 1" text="Atak wroga zalamuje sie, przegrupuj sie i kontratakuj!"/>
+	<comment key="arnhem stage counterattack 2" text="Ich atak slabnie!"/>
+	<comment key="arnhem stage counterattack 3" text="Zabezpiecz wszystkie nasze stanowiska"/>
+	<comment key="arnhem test info 1" text="Zdolnosci dostosowane; Sojusznicy wzmocnieni"/>
+	<comment key="arnhem test info 2" text="Zdolnosci dostosowane; frakcje wyrownane"/>
+	<comment key="arnhem test info 3" text="Niemcy zmieniaja kierunek ataku"/>
+
+	<comment key="bastogne intro, part 1" text="Uwaga, nadchodzi odprawa dowodcy"/>
+	<comment key="bastogne intro, part 2" text="Niemcy przypuszczaja zmasowana zimowa ofensywe przez las Ardenski."/>
+	<comment key="bastogne intro, part 3" text="Wypchneli nas na calej lini frontu, Bastonge to skrzyzowanie krytyczne dla powodzenia ich planu."/>
+	<comment key="bastogne intro, part 4" text="Utrzymac pozycje, nie dajcie im zajac Bastogne za wszelka cene!"/>
+	<comment key="bastogne intro, part 5" text="Uderza wszystkim co maja. Sprawdz mapy i ruszaj na linie fontu."/>
+	<comment key="bastogne intro, part 6" text="Powodzenia i niech Bog ma was w opiece, zolnierze! Macie 30 sekund zeby dostac sie na wasze pozycje!"/>
+	<comment key="bastogne intro, part 7" text="Przeciwnik nas sprawdza, to nie potrwa zbyt dlugo! Wydaja sie atakowac zachodnia flanke!"/>
+
+	<comment key="bastogne stage attacks increase 1" text="Wysylaja wiecej wsparcia pancernego! Uwazaj na wschodnia flanke!"/>
+	<comment key="bastogne stage attacks increase 2" text="Atak nabiera tempa! Biegnij tam gdzie jest ich najwiecej!"/>
+	<comment key="bastogne stage attacks increase 3" text="Wiecej jednostek pancernych zbliza sie do naszych pozycji! Ruszaj tam gdzie one sa i powstrzymaj je!"/>
+	<comment key="bastogne stage counterattack 1" text="Atak wroga zalamuje sie, zregrupuj sie i kontratakuj!"/>
+	<comment key="bastogne stage counterattack 2" text="Ich atak sie zatrzymuje!"/>
+	<comment key="bastogne stage counterattack 3" text="Pomoz naszym zanim przejdziesz do ataku na Foy na polnocy!"/>
+	<comment key="bastogne test info 1" text="Zdolnosci dostosowane; sprzymierzency wzmocnieni"/>
+	<comment key="bastogne test info 2" text="Zdolnosci dostosowane; frakcje wyrownane"/>
+	
+	<comment key="map start with 1 base, part 3" text="Zabralismy cie tu dzisiaj, abys wzial udzial w duzej operacji."/>
+	
+	<comment key="map start with paradrop, part 1" text="Uwaga, odbieramy odprawe z dowodztwa"/>
+	<comment key="map start with paradrop, part 2" text="Prowadzimy zrzut bojowy na %map_name"/>
+	<comment key="map start with paradrop, part 3" text="Mozesz wybrac lokalizacje, z ktorej wejdziesz na pole bitwy"/>
+	<comment key="map start with paradrop, part 4" text="Caly teren jest terytorium wroga, wiec miej sie na bacznosci, dopoki nie zabezpieczysz pozycji!"/>
+
+	<comment key="map start with 1 base, capture" text="Teraz jestesmy gotowi do rozpoczecia inwazji, celem jest calkowite zajecie tego obszaru"/>
+	
+	<comment key="hill 262, part 1" text="Uwaga, przyszla odprawa z dowodztwa"/>
+	<comment key="hill 262, part 2" text="Niemcy probuja uciec z kotla pod Falaise przez ten sektor."/>
+	<comment key="hill 262, part 3" text="Przylaczylismy sie do rozbitych oddzialow polskich na Mount Ormel"/>
+	<comment key="hill 262, part 4" text="Jednak zadanie nie zostalo wykonane: przejmij kontrole nad punktem 262 i bron go"/>
+
+	<comment key="map advance, held by enemy" text="%map_name jest naszym kolejnym celem. Niemcy nie proznowali w tym sektorze."/>
+	<comment key="map advance, new map" text="Zbieraj sie i przygotuj do wymarszu!"/>
+	
+	<comment key="varsity, part 1" text="Uwaga, przyszla odprawa z dowodztwa"/>
+	<comment key="varsity, part 2" text="Rozpoczelismy operacje ''Varsity' to proba przekroczenia Renu i uderzenia w glab Niemiec."/>
+	<comment key="varsity, part 3" text="Przygotuj sie do zrzutu bojowego, ale uwazaj:"/>
+	<comment key="varsity, part 5" text="Nasz wrog stworzyl potezne umocnienia na polnocnym wschodzie wokol starego zamku."/>
+	<comment key="varsity, part 6" text="Nasze samoloty zwiadowcze nie byly w stanie zlokalizowac wojsk wroga, moga ukrywac sie niedaleko."/>
+	<comment key="varsity, part 7" text="Nie bedziesz w stanie zaatakowac tego miejsca, dopoki reszta obszaru nie zostanie zabezpieczona."/>
+	<comment key="varsity, part 8" text="Przygotujcie sie na krwawe walki!  Powodzenia i z panem bogiem, spadochroniarze."/>
+	<comment key="varsity, boss, part 1" text="Niemiecki opor slabnie, nadszedl czas, aby zaatakowac fortyfikacje znajdujace sie w starym zamku."/>
+	<comment key="varsity, boss, part 2" text="Zniszczcie jakikowiek opor za tymi murami!"/>
+		
+  <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=usf_para_no_parachuting.call" text="spadochroniarze zbieraja sie w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_para_no_parachuting.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle.call" text=".50 cal Jeep rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle1.call" text="Jeep z dzialem bezodrzutowym rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle1.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 Halftrack rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10 GMC rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3 Sherman rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW Zbrojownia rozmieszczony w %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="Nie znaleziono zadnych punktow rozmieszczenia, zdobyc baze!"/>
+	
+</character>

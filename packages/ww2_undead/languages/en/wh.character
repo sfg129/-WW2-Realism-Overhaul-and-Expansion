@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    	<sound key="death" fileref="wh_death_01.wav" volume="1.15" pitch_variety="0.05"/>
+	<sound key="death" fileref="wh_death_02.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_03.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_04.wav" volume="1.5" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_05.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_06.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_07.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_08.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_09.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_10.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_11.wav" volume="1.1" pitch_variety="0.025"/>
+    	<sound key="death" fileref="wh_death_12.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_13.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_14.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_15.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_16.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_17.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_18.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_19.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_20.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_21.wav" volume="1.4" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_22.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_23.wav" volume="1.3" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_24.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_25.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_26.wav" volume="1.15" pitch_variety="0.025"/>
+	<sound key="death" fileref="wh_death_27.wav" volume="1.65" pitch_variety="0.025"/>
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+
+   <!-- character specific animation override table -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+
+	<comment key="We surrender!" text="Don't shoot! I'm Polish!" />
+	<comment key="We surrender!" text="I give up! Damn this war!" />
+	<comment key="We surrender!" text="I surrender!" />
+	<comment key="We surrender!" text="Please, I just want to finish school!" />
+	<comment key="We surrender!" text="Damned Allied schweinehund..." />
+	
+	<comment key="Medic!" text="Sanitäter!" /> 
+	<comment key="Medic!" text="Hilfe, schnell!" />    
+	
+	<comment key="Quickly!" text="Schnell!" />
+	<comment key="Quickly!" text="los los los!" />    
+	
+	<comment key="initiate radio call" text="Come in HQ, this is Kampfgruppe von Luck, do you read?" />
+
+	
+	<comment key="hostile vehicle takeover" text="Was? NEIN!" />
+	<comment key="hostile vehicle takeover" text="Hey! That's - " /> 
+	<comment key="hostile vehicle takeover" text="What? Nein nein NEIN!" />    
+	
+	<comment key="enemy seen" text="Alarm!" />
+	
+	<comment key="enemy not seen, taking suppressed fire" text="Alarm!" />
+
+	<comment key="enemy seen, vehicle tag = tank" text="Enemy panzer!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Get down! Enemy panzer!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Allied panzer!" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="Achtung, panzer!!"/>        
+	
+
+	<comment key="Hold on!" text="Hang in there kamerad!" />  
+
+	<comment key="Yes sir" text="Jawohl" />
+	<comment key="Yes sir" text="Verstanden" />    
+	
+	<comment key="celebrating" text="Nice job, men." />
+	<comment key="celebrating" text="Gute Arbeit!" />    
+	<comment key="celebrating" text="We'll push you back into the channel!" />
+	<comment key="celebrating" text="Hail victory!" />	<!-- do not translate this one in German! Use something else lol. -->
+	<comment key="celebrating" text="Excellent work men." />
+	<comment key="celebrating" text="Take that, Allied schweinehund!" />
+	<comment key="celebrating" text="Got any smokes on you, Allied schweinehund?" />
+	<comment key="celebrating" text="Anyone seen my great grandpa? He was attacking with first company." />
+	<comment key="celebrating" text="Think I'll cook me some sauerkraut mit wurst und kartoffel." />
+	<comment key="celebrating" text="Anyone seen my nephew? He was in the recon patrol." />
+    
+	<comment key="Waiting for squad" text="Hop in, schnell!" />     
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="We're doing an awful lot of walking here." />
+	</dialogue>    
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Did they give you new equipment?" />
+		<comment text="Yeah" />
+		<comment text="Damn it, I need some new gear.." /> 
+		<comment text="We only got 1 crate" />    
+	</dialogue> 
+	
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="What are we going to name the tank?" />
+		<comment text="Tommy Squasher." />
+		<comment text="It's when you say things like that, Fritz, that I worry about you." />
+	</dialogue>
+		
+   <!-- commander comments -->
+	<comment key="we captured a base" text="Our Grenadiers have cleared out %base_name!" />
+	<comment key="we captured a base" text="We have taken %base_name, secure the area." />
+	<comment key="enemy captured a base" text="The Allies have conquered %base_name, prepare an immediate counter-attack!" />
+	<comment key="enemy captured a base" text="We have lost %base_name, take it back immediately!" />
+	<comment key="our base is under attack" text="We've got reports of Allied forces attacking %base_name." />
+	<comment key="fighting near a base" text="Gun shots fired near %base_name" />
+	
+	
+   <!-- adventure mode -->
+	<comment key="map start with 1 base, part 3" text="Our forces arrived today and have prepared for offensive operations."/>
+	
+	<comment key="map start with 1 base, capture" text="Now we're ready to launch the invasion, the objective is to capture the area completely." />
+	
+	<comment key="map advance, held by enemy" text="Our command says that %map_name is the next strategic target. The %faction_name have dug in tight as a tick." />
+	<comment key="map advance, new map" text="The division is preparing another assault force, let's move!" />
+	
+	<comment key="final map, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="final map, part 2" text="Good to have you all here at %map_name" />
+	<comment key="final map, part 3" text="This is it! The final operation!" />
+	<comment key="final map, part 5" text="Battle after battle we've pushed back the %faction_name." />
+	<comment key="final map, part 6" text="Win this battle and end this war, once and for all!" />
+
+	<!-- WH campaign commander lines -->
+	<comment key="sicily, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="sicily, part 2" text="Good to have you all here at Sicily." />
+	<comment key="sicily, part 3" text="American paratroopers have landed in the nearby area and have taken all of the important ground." />
+	<comment key="sicily, part 4" text="It is our job to retake these positions and eradicate the Airborne threat!" />
+
+	<comment key="brecourt, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="brecourt, part 2" text="Troops, welcome to Normandy." />
+	<comment key="brecourt, part 3" text="We have reports coming in that as of last night, American paratroopers secured the town of St. Marie du Mont." />
+	<comment key="brecourt, part 4" text="Larger reports circulate that a massive Allied invasion of the continent is going on." />
+	<comment key="brecourt, part 5" text="For now we must concern ourselves with the immediate area and do what we can." />
+	<comment key="brecourt, part 6" text="At your disposal are numerous Armoured vehicles; counter-attack and secure the area!" />
+
+	<comment key="overlord intro, part 1" text="Attention, incoming commander briefing" />
+	<comment key="overlord intro, part 2" text="The Army just left - we're alone out here." />
+	<comment key="overlord intro, part 3" text="And what's worse, the Allies look like they're going to hit this line with everything they've got." />
+	<comment key="overlord intro, part 4" text="Hold the line, and hold the beach at all costs!" />
+	<comment key="overlord intro, part 5" text="The enemy will be approaching over the channel, be prepared." />
+	<comment key="overlord intro, part 6" text="Good luck and God speed, soldiers! You should have about 30 seconds to get into position!" />
+	<comment key="overlord intro, part 7" text="The enemy is probing us, it won't be long now!" />
+	
+	<comment key="overlord stage 1" text="Enemy bombardment, get to cover! (Phase 1 started)" />
+	<comment key="overlord stage 2" text="Second wave incoming! (Phase 2 started)" />
+	<comment key="overlord stage 3" text="Tanks! They've got tanks! (phase 3 started)" />
+	<comment key="overlord stage 4" text="The enemy aren't letting up, keep up the defense! (phase 4 started)" />
+	<comment key="overlord stage 5" text="Looks like they're regrouping for another wave - set up more defenses! (2 min break started)" />
+	<comment key="overlord stage 6" text="The Army just arrived, but the enemy doesn't look too keen on stopping their attack.  (phase 6 started)" />
+	<comment key="overlord stage 7" text="The Army's back with the big guns! Give 'em hell!" />
+	<comment key="overlord stage 8" text="Counter-attack!" />
+
+	<comment key="hill262, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="hill262, part 2" text="We're in a tough position here. Despite our efforts, we are in full retreat from the Allied invasion." />
+	<comment key="hill262, part 3" text="The nearby high ground, Hill 262, has full view of our retreating columns and losing it would cut us off." />
+	<comment key="hill262, part 4" text="We have reports that a Polish armoured division is preparing for a massive attack." />
+	<comment key="hill262, part 5" text="Secure and hold the hill at all costs!" />
+
+	<comment key="hellshighway, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="hellshighway, part 2" text="Now that the British advance up Highway 69 has been stalled, we are sending in a Bergetiger to clean up the mess at the frontlines." />
+	<comment key="hellshighway, part 3" text="A counter-attack has been developed to cover it's advance - if the Bergetiger is destroyed, we fail our mission!" />
+	<comment key="hellshighway, part 4" text="Anti-tank positions have been marked on your tactical map according to our reconnaissance patrols." />
+	<comment key="hellshighway, part 5" text="Gear up and move out!" />
+
+	<comment key="arnhem, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="arnhem, part 2" text="Welcome to the Netherlands." />
+	<comment key="arnhem, part 3" text="It's been some time since we escaped the Allied onslaught in Normandy, but they have launched another attack." />
+	<comment key="arnhem, part 4" text="British Paratroopers have captured this city, Arnhem, and are sending a relief column to support them." />
+	<comment key="arnhem, part 5" text="However until that column gets here, they are cut off and without heavy armoured support. Mount up and retake the city!" /> 
+    
+	<comment key="arnhem, supply cut" text="Our main resupply base has been taken by the enemy, get it back, schnell!" />    
+
+	<comment key="bastogne, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="bastogne, part 2" text="Gentlemen, several days ago we launched a massive attack through the Ardennes." />
+	<comment key="bastogne, part 3" text="We have brought you here today to the vital road junction of Bastogne." />
+	<comment key="bastogne, part 4" text="The city is held by your old adversaries, the American paratroopers." />
+	<comment key="bastogne, part 5" text="They are well dug-in and have nerves of steel, but we are providing some of the most powerful tanks we can muster." />
+	<comment key="bastogne, part 6" text="Gather weapons and mount up! Today we break their spirits!" />
+
+	<comment key="sealion, part 1" text="Achtung, incoming commander briefing" />
+	<comment key="sealion, part 2" text="Troops, over the past few months we've miraculously managed to push the Allies back to the channel." />
+	<comment key="sealion, part 3" text="Despite this they refuse to surrender, so our operation plans here are to attack the English heartland itself!" />
+	<comment key="sealion, part 4" text="This is an airborne operation, but if you manage to secure the coastline we can provide Armoured support." />
+	<comment key="sealion, part 5" text="Grab your parachutes and steel yourselves! This will be the final downfall of our enemy!" />
+	<comment key="sealion, boss, part 1" text="British resistance is faltering, but they appear to have holdouts located at The Citadel." />
+	<comment key="sealion, boss, part 2" text="Destroy whatever resistance is hiding within those fortifications!" />
+
+	<comment key="generic counter-attack" text="The enemy is launching a massive counter-attack! Hold out at all costs! If we lose ground, take it back!" />
+
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=wh_inf.call" text="Infanterie forming up at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_inf.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle.call" text="Panzer IV deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_sdkfz251.call" text="Sdkfz 251 deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_sdkfz251.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_stug.call" text="StuG III deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_stug.call" text="No valid deployment points found, capture a base!" />
+
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="No valid deployment points found, capture a base!" />
+    
+</character>

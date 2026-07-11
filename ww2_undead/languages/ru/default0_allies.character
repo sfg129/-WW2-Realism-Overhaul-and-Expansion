@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Аа, врача!"/> 
+	
+	<comment key="Reloading" text="Прикрой меня, перезаряжаюсь!"/>
+	<comment key="Reloading" text="Мне нужно перезарядиться!"/>  
+	
+	<comment key="We surrender!" text="Я сдаюсь!"/>
+	<comment key="We surrender!" text="Я сдаюсь!"/>
+	<comment key="We surrender!" text="С меня хватит!"/>
+
+	<comment key="initiate radio call" text="Штаб, это рота &quot;Эйбл&quot;, вы слышите?"/>
+	<comment key="commander radio response" text="Слышим вас, Эйбл, продолжайте."/>
+
+	<comment key="hostile vehicle takeover" text="Эй! Это - "/> 
+	<comment key="hostile vehicle takeover" text="Что? Нет нет НЕТ!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Черт, найдите его!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Тааанк!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Господи, ложись! ТААНК!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Они пригнали сюда танк!"/>     
+
+	<comment key="Hold on!" text="Держись, приятель!"/>  
+
+	<comment key="celebrating" text="Хорошая работа, парни."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Хорошие у вас танки ребята, думаю, я все же оставлю их себе."/>
+	<comment key="celebrating" text="Вау, наконец-то."/>
+	<comment key="celebrating" text="Ву-ху! Отличная работа парни."/>
+	<comment key="celebrating" text="Мы надрали им задницы!"/>
+	<comment key="celebrating" text="Сдаётесь так быстро?"/>
+	<comment key="celebrating" text="Пойду-ка я найду себе люгер"/>
+	<comment key="celebrating" text="Посмотрим, смогу ли я найти себе офицерский пистолет"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Есть какое-нибудь курево?"/>
+		<comment text="Конечно приятель, держи."/>
+		<comment text="Вздох. Очень жаль Тейлора."/>
+		<comment text="Да. Я слышал, что им пришлось спрыснуть его с гусениц шлангом."/>
+		<comment text="Боже. Мы должны быть осторожны с танками, особенно союзными."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Они дали тебе новое снаряжение?"/>
+		<comment text="Ага"/>
+		<comment text="Чёрт, мне нужно что-то новенькое.."/> 
+		<comment text="Смирись с этим, приятель"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Как мы назовем танк?"/>
+		<comment text="Фрицедавилка."/>
+		<comment text="Черт возьми."/>
+	</dialogue>
+
+ </character>

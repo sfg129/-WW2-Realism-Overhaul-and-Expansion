@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="ija.character">
+	<comment key="Quickly!" text="Tennoheika Banzai !" />  
+	
+	<comment key="fire opened, weapon tag = sniper" text="Banzai !" />
+	
+	<comment key="grenade alert, grenade tag = grenade" text="Banzai !" />
+		
+	<comment key="grenade alert, grenade tag = rocket" text="Banzai !" />
+	
+	<comment key="enemy seen" text="Tennoheika Banzai !" />
+	<comment key="enemy seen" text="Banzai !" />
+	
+	<comment key="Move out" text="Banzai !" />
+	<comment key="Move out" text="Tennoheika Banzai !" />
+	
+   <!-- character specific animation override table -->
+	<animation key="walking" target_key="walking, bayonet" />
+	<animation key="running" target_key="running, bayonet" />
+	
+</character>

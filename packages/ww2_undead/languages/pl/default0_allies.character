@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, medyk!"/> 
+	
+	<comment key="Reloading" text="Oslaniajcie mnie, przeladowuje!"/>
+	<comment key="Reloading" text="Musze przeladowac!"/>  
+	
+	<comment key="We surrender!" text="Poddaje sie!"/>
+	<comment key="We surrender!" text="Poddaje sie!"/>
+	<comment key="We surrender!" text="Mialem to!"/>
+
+	<comment key="initiate radio call" text="Halo centrala tu kompania Able jak mnie slyszysz?"/>
+	<comment key="commander radio response" text="Slyszymy cie Able, mow dalej."/>
+
+	<comment key="hostile vehicle takeover" text="Hej! To jest... "/> 
+	<comment key="hostile vehicle takeover" text="Co? Nie nie NIE!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Znajdzcie go do cholery!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Czooolg!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Jezu, padnij! CZOOOLG!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Maja czolgi!"/>     
+
+	<comment key="Hold on!" text="Trzymaj sie, kolego!"/>  
+
+	<comment key="celebrating" text="Dobra robota, chlopcy."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Mieliscie niezle czolgi, chyba je zatrzymam."/>
+	<comment key="celebrating" text="Wow, to byl fart."/>
+	<comment key="celebrating" text="Wooo! Brawo chlopcy."/>
+	<comment key="celebrating" text="Skopalismy im tylki!"/>
+	<comment key="celebrating" text="Poddajecie sie tak latwo?"/>
+	<comment key="celebrating" text="Musze znalezc lugera"/>
+	<comment key="celebrating" text="zobacze, czy znajde pistolet oficera"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Masz jakies fajki?"/>
+		<comment text="Jasne kolego, tutaj."/>
+		<comment text="ech. Przykro mi z powodu Taylora."/>
+		<comment text="Tak. Slyszalem, ze musieli spryskiwac go z gasienic wezem."/>
+		<comment text="Jezu. Musimy byc ostrozni wokol czolgow, szczegolnie naszych."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Czy dali Ci nowy sprzet?"/>
+		<comment text="Nom"/>
+		<comment text="Cholera, potrzebuje nowego sprzetu ..."/> 
+		<comment text="przelkij to, stary"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Jak nazwiemy czolg?"/>
+		<comment text="Zgniatacz szwabow."/>
+		<comment text="Oj tak."/>
+	</dialogue>
+
+ </character>

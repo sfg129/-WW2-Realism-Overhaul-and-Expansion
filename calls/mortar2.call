@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Nebelwerfer Barrage" key="mortar2.call"
+	initiation_comment1="Requesting Fire Mission"
+	initiation_comment2="Nebelwerfers"
+	acknowledge_comment="Roger, wait three."
+	launch_comment="Rounds on the way."
+        notify_metagame="1">
+	
+	<round
+		instances="3"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="7.0"
+		spawn_time="9.0">
+		<sound class="launch" fileref="rocket_artillery_barrage_distant.wav" volume="1.65" />
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="2.25" />
+	</round>
+	
+	<round
+		instances="3" 
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="8.0"
+		spawn_time="10.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.2" />
+	</round>
+	
+	<round
+		instances="3"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="9.0"
+		spawn_time="11.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+	</round>
+	
+	<round
+		instances="3"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="10.0"
+		spawn_time="12.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+	</round>
+	
+	<round
+		instances="3"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="11.0"
+		spawn_time="13.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+	</round>
+	
+	<round
+		instances="3"
+		instance_class="grenade"
+		instance_key="rocket_mortar.projectile" 
+    instance_spread="10 15 10" 
+    common_spread="20 0 20"
+		launch_time="12.0"
+		spawn_time="14.0">
+		<sound class="spawn" fileref="rocket_artillery_shell_whistle.wav" volume="1.5" />
+	</round>
+	
+	<hud_icon filename="hud_mortar2.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.8" />
+	<inventory encumbrance="0.0" price="800.0" />
+	
+</call>

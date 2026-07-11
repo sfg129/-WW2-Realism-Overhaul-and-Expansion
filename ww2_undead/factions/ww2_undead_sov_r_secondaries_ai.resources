@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+
+	<weapon key="m1919_hmg_resource.weapon" />		
+	<weapon key="m2hb_hmg_resource.weapon" />
+	
+		
+	<weapon key="m1_bazooka.weapon" />		
+	<weapon key="panzerfaust.weapon" />		
+	<weapon key="tt33.weapon" />				
+	<projectile key="rg42_grenade.projectile" />		
+	<projectile key="satchel.projectile" />
+	<projectile key="democharge.projectile" />
+	<weapon key='binoculars.weapon' />
+<weapon key="mp40_folded.weapon" />		
+	<projectile key="flare.projectile" />
+
+
+      	<carry_item key="dollars.carry_item" />
+  	<carry_item key="dollars_300.carry_item" />
+  	<carry_item key="gold_bar.carry_item" />
+
+</resources>

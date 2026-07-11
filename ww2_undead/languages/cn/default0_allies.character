@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="啊，医疗兵！"/> 
+	
+	<comment key="Reloading" text="换弹，掩护我！"/>
+	<comment key="Reloading" text="我得装弹！"/>  
+	
+	<comment key="We surrender!" text="我不打了！"/>
+	<comment key="We surrender!" text="我投降！"/>
+	<comment key="We surrender!" text="我受够了！"/>
+
+	<comment key="initiate radio call" text="总部总部，这里是A连，收到请回话！"/>
+	<comment key="commander radio response" text="A连，这里是总部，请讲。"/>
+
+	<comment key="hostile vehicle takeover" text="嘿！那是 - "/> 
+	<comment key="hostile vehicle takeover" text="哈？不不不！"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="该死，快点找到他！"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="坦克！！！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="天哪，快趴下！有坦克！"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="他们带了装甲来！"/>     
+
+	<comment key="Hold on!" text="好兄弟坚持住！"/>  
+
+	<comment key="celebrating" text="小伙子们，打得不错！"/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="你们的坦克针不戳，可惜下一秒就是我的了。"/>
+	<comment key="celebrating" text="喔，运气真不错。"/>
+	<comment key="celebrating" text="喔喔喔！干得好！"/>
+	<comment key="celebrating" text="我们狠狠地揍了他们！"/>
+	<comment key="celebrating" text="就这？"/>
+	<comment key="celebrating" text="我今天得要摸一手鲁格"/>
+	<comment key="celebrating" text="让我看看能不能找到把军官佩枪"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="有烟不？"/>
+		<comment text="有啊兄嘚，给。"/>
+		<comment text="哎，可惜了小泰勒。"/>
+		<comment text="是啊，听说他们拿水管把他从履带上冲下来的。"/>
+		<comment text="靠。以后在坦克旁边得小心点，尤其是自己人坦克旁边。"/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="上面给你发新装备了没？"/>
+		<comment text="发了啊"/>
+		<comment text="淦哦老兄，我也想要点新装备.."/> 
+		<comment text="想太美了小老弟"/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="给咱坦克起啥名字？"/>
+		<comment text="德国佬粉碎机。"/>
+		<comment text="帅嗷。"/>
+	</dialogue>
+
+ </character>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary_pistol.weapon" key="m1911_officer.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" >
+   
+<access_tag name="ww2" />
+
+	<specification
+	retrigger_time="0.06"
+	accuracy_factor="0.95"
+	sustained_fire_grow_step="0.9"
+
+	magazine_size="8"
+	reload_one_at_a_time="1" 
+	carry_in_two_hands="0"
+	can_shoot_standing="1"
+	suppressed="0"
+	name="Officer's Engraved M1911A1"
+	class="4"
+
+	projectile_speed="85.0"
+	barrel_offset="-0.2"
+	projectiles_per_shot="1"
+	burst_shots="1"
+	slot="1"
+	/>
+	
+	<!-- special Officer-only M1911 pistol, engraved. -->
+	<!-- since its kept in pristine condition, it is more reliable; more accurate and cycling its action quicker. -->
+	<!-- however the difference is very minimal. Its largest significance is that it is worth a LOT of rp to sell! -->
+	
+	<animation state_key="reload" animation_key="reloading, m1911" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />
+
+	<weak_hand_hold offset="0.1" />
+	
+	<sound key="fire" fileref="pistol_03_m1911.wav" pitch_variety="0.05" volume="1.55" />
+	<sound key="magazine_out" fileref="pistol_clip_out.wav" />
+	<sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
+	<sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
+
+	
+	<sound key="effect" fileref="pistol_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
+	
+	<model filename="m1911_officer.xml" />
+	<hud_icon filename="hud_m1911_officer.png" />
+	
+	<commonness value="0.03" can_respawn_with="0" in_stock="0" />
+	<inventory encumbrance="1.0" price="500.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result class="hit"
+	kill_probability="0.85"
+	kill_decay_start_time="0.25"
+	kill_decay_end_time="0.8" />
+	</projectile>
+	
+	<!-- was 0.6 kill probability, start 0.25 -->
+	
+</weapon>

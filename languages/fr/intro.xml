@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<intro>
+	<!-- Basic hints and help text -->
+    <text key="Hint" text="Les casemates peuvent êtres facilement détruites par frappe de précision ou par charges de démolition"/>
+    <text key="Hint" text="Trop d'encombrement dans le sac-à-dos va grandement réduire votre précision"/> 
+    <text key="Hint" text="S'allonger ou plonger peut vous sauver d'une explosion"/> 
+    <text key="Hint" text="Éliminer l'ennemi au corps à corps rapporte plus d'expérience"/> 
+    <text key="Hint" text="Le collimateur donne une bon aperçu de la précision de tir, mais la vitesse initiale du projectile a un impact additionnel lorsque la portée augmente"/> 
+    <text key="Hint" text="Capturer une base requiert une majorité de 66% (2/3) de troupes"/> 
+    <text key="Hint" text="Les mitrailleuses légères sont plus efficaces lorsqu'utilisées allongé ou à couvert"/> 
+    <text key="Hint" text="Vendre des mallettes à l'armurerie débloque des armes spéciales"/> 
+    <text key="Hint" text="Les fusils sont précis et mortels mais tirent lentement. Faites attention lors de combat à courte portée contre des ennemis mieux armés"/>
+    <text key="Hint" text="Les fusils de sniper sont excellents pour neutraliser les mitrailleurs ennemis depuis un endroit sûr"/> 
+<!--    <text key="Hint" text="Les fusils de sniper ont une précision parfaite quand vous tirez à couvert, acroupi, ou allongé"/> -->
+    <text key="Hint" text="Les objets de valeurs lâchés par les soldats mort peuvent être récupérés et stocké dans la réserve pour être ensuite revendus"/> 
+<!--    <text key="Hint" text="Les mitraillettes sont sans pareil au combat rapproché et en assaut, mais souffrent d'un manque de précision et de dégâts à longue distance"/> -->
+    <text key="Hint" text="Généralement, plus l'arme est lourde, plus votre vitesse de mouvement est pénalisée"/>
+<!--    <text key="Hint" text="Les lance-flammes sont excellents pour nettoyer les fortifications et les emplacements bien défendus"/> 
+    <text key="Hint" text="La Grenade Type 97 a un court délais de détonation, mais a aussi un dégât d'effet moindre"/>            
+    <text key="Hint" text="Les baïonettes peuvent transformer un fusil longue portée en une arme de corps à corps mortelle"/>         
+    <text key="Hint" text="Le prix d'une arme est souvent un bon indicateur de sa rareté et de son efficacité au combat"/>       
+    <text key="Hint" text="Les jumelles sont un outil important pour les officiers; leur permettant de commander leurs troupes et d'appeler des frappes d'artillerie à distance"/>       
+    <text key="Hint" text="Le Type STE (MP-34) servit comme mitraillette de l'IJA au début de la guerre, il est bien équilibré entre dégâts et contrôle modéré"/>       
+    <text key="Hint" text="La mitraillette Type 100 souffre de dégât et puissance de feu faible, mais est souvent équipée d'un bipied, améliorant le contrôle étant allongé ou à couvert"/>       
+    <text key="Hint" text="La mitraillette Type 100/44 fût introduite plus tard dans la guerre, et offre une cadence plus élevée que son prédécesseur"/>       
+    <text key="Hint" text="La mitraillette M1A1 Thompson a une bonne puissance de feu et une bonne cadence, mais plus de recul que ses équivalents"/>       
+    <text key="Hint" text="La mitraillette M1928 Thompson possède un chargeur tambour de 50 coups pour un feu plus appuyé, et une poignée verticale et un compensateur pour moins de recul"/>       
+    <text key="Hint" text="Le pistolet M1911 est puissant et fiable pour le combat rapproché"/>    
+    <text key="Hint" text="Le Type 14 Nambu est relativement faible, mais peut tirer rapidement, servant d'arme de défense personnelle peu chère"/>
+    <text key="Hint" text="La carabine M1 est assez légère pour être équipée comme arme secondaire, de portée moyenne et effective pour équipage anti-char sur le champ"/>
+    <text key="Hint" text="La carabine Type MO (Mauser C96) est utilisé par l'IJA, et est assez légère pour être transportée comme arme de poing"/>
+    <text key="Hint" text="Le Type 38 sert comme un fusil à verrou classique depuis le début de la guerre. Il n'est pas aussi puissant que ses équivalents, mais très precis avec recul faible"/>
+    <text key="Hint" text="Le fusil Type 99 Rifle est devenu plus commun tard dans la guerre, remplaçant progressivement le Type 38 et tirant un projectile plus puissant"/>
+    <text key="Hint" text="La carabine de cavalerie Type 44 fut adoptée en 1912, conçue comme une version raccourcie du Type 38. Sa taille aide en combat rapproché, et elle est dotée d'une baïonnette"/>
+    <text key="Hint" text="Le M1903A3 Springfield est un fusil à verrou basique du début de la guerre, et est progressivement remplacé par le M1 Garant. Il est puissant et précis"/>
+    <text key="Hint" text="Le M1 Garand est un fusil semi-automatique puissant et fiable, qui devient rapidement l'arme principale de l'USMC, remplacant le M1903 Springfield"/>   
+    <text key="Hint" text="Le Type 4 est un fusil semi-automatique très rare, principalement basé sur le M1 garand, mais notamment équipé d'un chargeur interne 10 coups"/>   
+    <text key="Hint" text="Le M1941 Johnson est un fusil semi-automatique très rare, équipé d'un chargeur 10 coups et remarquable pour son extrême précision"/>   
+    <text key="Hint" text="La carabine M2 est une arme rare, et contrairement à la carabine M1, est portée en arme primaire - elle possède un chargeur 30 coups et une cadence automatique"/>   
+    <text key="Hint" text="Le sniper M1903A1 est efficace pour neutraliser les mitrailleurs et ennemis statiques à longues distances"/>   
+    <text key="Hint" text="Le M1 Garand a une variante rare à lunette qui offre la longue portée du M1903A4, combiné avec une cadence plus élevée"/>   
+    <text key="Hint" text="Le fusil de sniper Type 97 est basé sur le fusil Type 38. Contrairement au M1903A4, il peut être rechargé plus rapidement grâce à l'utilisation d'un système de clips"/>   
+    <text key="Hint" text="Le Fusil Anti-Tank Type 97 est une puissante arme semi-automatique de 20mm, mais excessivement lourde et sa précision est trop faible pour les petites cibles tels des soldats"/>   
+    <text key="Hint" text="Le M12 Trench Gun est une arme mortelle à courte portée, excellente pour nettoyer les tranchées. Elle souffre cependant d'une petite capacité de munition"/>   
+    <text key="Hint" text="Le M1918A2 BAR est une amélioration de sa version WW1, étant équipé d'un bipied et d'un sélecteur de cadence de tir"/>
+    <text key="Hint" text="Le M1918A2 BAR est assez léger pour tirer depuis l'épaule, mais plus efficace avec le bipied étant allongé ou à couvert"/>   
+    <text key="Hint" text="La mitrailleuse légère M1919A6 est une amélioration de ses anciens modèles, initialement développée pour répondre aux nouvelles mitrailleuses allemandes"/>   
+    <text key="Hint" text="La mitrailleuse légère M1919A6 est capable de tirer un mur de feu mortel, mais peut seulement tirer avec le bipied - soit allongé, soit à couvert"/>   
+    <text key="Hint" text="The Stinger is a modified aircraft-grade M1919A4 MG with a buttstock and bipod - and an extreme rate of fire"/>
+    <text key="Hint" text="La mitrailleuse légère Type 11 est une version dépassée, mais reste encore mortelle et précise. Son principale inconvénient est son rechargement lent de clips de fusil"/>   
+    <text key="Hint" text="La mitrailleuse légère Type 96 est une MG de support basique, avec un excellent contrôle et une assez bonne précision, mais pas aussi puissante que ses équivalents"/>   
+    <text key="Hint" text="La mitrailleuse légère Type 99 est la MG de support de l'IJA la plus moderne. Elle a une plus grosse cadence que ses prédécesseurs et tire un projectile plus puissant"/>   
+    <text key="Hint" text="La mitrailleuse légère M1941 Johnson fonctionne similairement au BAR comme une arme de support d'escouade, mais a une cadence de tir plus élevée"/>   
+    <text key="Hint" text="Le lance-flamme M2 est le lance-flamme standard de l'USMC, équipé d'un régulateur pour un meilleur contrôle et durée de vie"/>   
+    <text key="Hint" text="Le lance-flamme Type 93 est influencé par l'Europe et utilisé par l'IJA"/>   
+    <text key="Hint" text="Le lance-grenade Type 100 est un fusil Type 38 standard équipé d'un tube et de munitions à blanc, il tire des grenades classiques, qui explosent après retard"/>   
+    <text key="Hint" text="Le M1 Bazooka est le tout premier lance-roquettes, il tire une roquette de 60mm capable de détruire des tanks légers et des fortifications"/>   
+    <text key="Hint" text="Le lance-roquette Type 4 fut développé et produit vers la fin de la guerre, il était destiné a défendre les terres natales des Japonais. Il fonctionne comme le M1 Bazooka"/>   
+    <text key="Hint" text="La grenade Anti-Tank M9 peut être tirée depuis un lance grenade M1 attaché à un fusil M1903, et est utile pour contrer de petits véhicules"/>   
+    <text key="Hint" text="Le PT-Boat est excellent pour couvrir une tête de pont grâce à son vaste arsenal"/>   
+    <text key="Hint" text="Le Type 100 a une variante équipée d'une crosse pliable, c'est une arme rare pour parachutistes. Il est assez compact pour être transporté comme arme secondaire"/>
+    <text key="Hint" text="Le Type 1 est une mitraillette extrêmement rare qui fût développée avant la guerre. Elle fût surnommée le 'Bullpup' par les soldats américains"/>       
+    <text key="Hint" text="Le Type 1 possède un large chargeur de 50 coups et une grosse cadence, en faisant une efficace arme de combat rapproché"/>   -->
+    <text key="Hint" text="Les navires de débarquement ont des points de spawn, du moment qu'il n'y a pas d'ennemis proches"/>   
+    <text key="Hint" text="L'ennemi a souvent des emplacements de DCA - détruisez-les tous pour avoir accès au support aérien !"/>
+    <text key="Hint" text="L'ennemi a souvent des emplacements de défense côtière - détruisez-les tous pour avoir accès au support naval !"/>
+    <text key="Hint" text="Les armureries ont changé de celle de Running with Rifles - elles ressemblent maintenant à de petits hangars"/>
+    <text key="Hint" text="Soyez à l'affut de vétérans ennemis - ils sont plus coriaces et ont de meilleures armes"/>
+    <text key="Hint" text="Quand un débarquement devient difficile, cherchez les canons de soutien sur les navires d'attaque - utilisez-les pour bombarder les défenses ennemis !"/>
+    <text key="Hint" text="Il y a des armureries et des réserves sur les porte-avions et les navires d'attaque, assurez-vous de connaître leurs emplacements !"/>
+    <text key="Hint" text="Les Charges Banzai sont de féroces troupes d'assaut, chargeant l'ennemi peut importe le coût. Ils sont très difficiles a tuer, mais ne se mettent jamais à couvert"/>
+    <text key="Hint" text="Les Charges Banzai sont menées par un Officier, les guidant héroïquement dans leurs assauts suicides, équipé uniquement d'un katana"/>
+    <text key="Hint" text="Les opérateurs de lance-flamme ennemis sont résistants aux petites armes, mais sont vulnérables aux explosifs, grenades et attaques de mêlée"/>
+
+    
+<!-- #EDELWEISS_TRANSLATION --> 
+    <text key="Hint" text="Alors que la plupart des lance-roquettes ont à peu près les mêmes performances,%EOLcertains sacrifient la vitesse pour une ogive plus grosse avec des dégâts et un rayon de souffle plus importants."/>   
+    <text key="Hint" text="On peut réparer les véhicules en s'équipant d'une clé, en se tenant près du véhicule, et en maintenant la touche 'Attaque' appuyée jusqu'au bout.%EOLEt on peut transporter plusieurs clés !"/>   
+	<text key="Hint" text="Il n'est pas possible de voler les tanks Moyens ou Lourds dans les DLCs WW2."/>   
+	<text key="Hint" text="Les baïonnettes augmentent la portée en combat rapproché contre une légère perte de précision sur la longue-portée,%EOLà cause du poids en plus à l'avant du fusil."/>
+    <text key="Hint" text="Les tanks, chenillés et certains véhicules plus légers peuvent écraser la plupart des barrières sur les différentes cartes des DLCs WW2."/>   
+    <text key="Hint" text="Le prix estimé d'une arme est souvent un bon indicateur de sa rareté et de son efficacité au combat."/>       
+    <text key="Hint" text="Dans les missions où votre faction mène une grande opération aéroportée, vous pouvez ouvrir la carte après votre mort pour réapparaître derrière les lignes ennemies."/>   
+    <text key="Hint" text="Les grenades à fusil anti-char ont des munitions infinies mais provoquent des dégâts limités.%EOLOn peut les utiliser comme solution à long terme contre les blindés, mais le résultat n'est pas immédiat."/>   
+    <text key="Hint" text="Certaines grenades Anti-Char explosent à l'impact, tandis que d'autres se fixent à la cible et explosent après quelques secondes."/>   
+    <text key="Hint" text="Les tours de brouillage radio, canons côtiers, et canons anti-aériens empêchent certains appels radio.%EOLDétruisez-les pour obtenir une récompense et pouvoir appeler du soutien !"/>   
+    <text key="Hint" text="Certaines missions peuvent empêcher d'appeler un support aérien ou des parachutistes, comme les conditions neigeuses de Bastogne."/> 
+    <text key="Hint" text="Certains équipements ennemis comme les châteaux d'eau ou les sous-marins à quai offrent de grandes récompenses d'XP et de RP pour leur destruction."/>   
+    <text key="Hint" text="Les canons Anti-char, qu'on ne retrouve que dans certaines missions, font exactement ce pourquoi ils sont conçus - et y excellent.%EOLVous êtes prévenus !"/>   
+    <text key="Hint" text="Les fusils Sniper augmentent votre champ de vision quand vous restez immmobile, mais se rétablissent plus lentement par rapport au recul."/> 
+    <text key="Hint" text="Les carabines offrent des performances décentes à longue portée pour une arme de poing,%EOLmais elles ne font souvent pas autant de dégâts à courte portée que les pistolets."/>
+    <text key="Hint" text="Les mitrailleuses légères apportent une bonne puissance de tir à longue portée, mais ne pouvant être utilisées qu'en étant couché ou derrière une couverture,%EOLconviennent plutôt au tir de défense."/>
+    <text key="Hint" text="Les armes avec deux points au bas de leur icone ont un mode alternatif (voir les contrôles).%EOLPour la plupart, ça ajoute/retire la Baïonnette."/>
+    <text key="Hint" text="Les mitraillettes sont inégalées dans les combats rapprochés et les tirs en mouvement, mais sont moins efficaces à longue portée."/> 
+    <text key="Hint" text="Les lance-flammes excellent pour nettoyer les points de résistance et les endroits très défendus, ainsi que les casemates,%EOLet peuvent même endommager la plupart des véhicules."/>
+    <text key="Hint" text="Les &quot;gilets&quot; Banzaï et Assaut vous offrent des points de vie supplémentaires et un bonus important en termes de vitesse de déplacement,%EOLmais contrairement au &quot;gilet&quot; Vétéran, vous ne pouvez pas être blessé et réanimé."/>   
+    <text key="Hint" text="La tenue de sniper vous rend plus difficile à repérer, et légèrement plus dur à toucher.%EOLBien entendu, ces avantages sont particulièrement pratiques en utilisant un fusil Sniper."/>   
+    <text key="Hint" text="Le &quot;gilet&quot; Sentinelle est un ensemble lourd de protection corporelle.%EOLIl offre une bonne protection et vous permet d'être blessé au lieu de mourir, mais il réduit la vitesse de déplacement et est très coûteux."/>   
+    <text key="Hint" text="Lorsque vous êtes mort, vous pouvez ouvrir la carte pour sélectionner votre point de spawn."/>   
+
+</intro>

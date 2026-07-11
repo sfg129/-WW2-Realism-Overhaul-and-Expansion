@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+
+<!-- has 50 hp for now -->
+<!-- at 16, 26, and 36 he will get stunned -->
+
+
+    <carry_item key="ww2_undead_axr_overlord.carry_item" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_2" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_2" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_3" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_3" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_4" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_4" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_5" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_5" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_6" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_6" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_7" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_7" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_8" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_8" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_9" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_9" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_10" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_10" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_11" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_11" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_12" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_12" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_13" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_13" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_14" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_14" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_15" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_15" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_16" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_16" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_17" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_17" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_18" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_18" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_19" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_19" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_20" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_20" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_21" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_21" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_22" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_22" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_23" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_23" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_24" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_24" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_25" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_25" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_26" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_26" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_27" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_27" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_28" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_28" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_29" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_29" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_30" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_30" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_31" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_31" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_32" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_32" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_33" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_33" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_34" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_34" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_35" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_35" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_36" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_36" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_37" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_37" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_38" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_38" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_39" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_39" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_40" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_40" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_41" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_41" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_42" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_42" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_43" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_43" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_44" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_44" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_45" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_45" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_46" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_46" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_47" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_47" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_48" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_48" name="" slot="1" transform_on_consume="ww2_undead_axr_overlord_49" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+
+    <carry_item key="ww2_undead_axr_overlord_49" name="" slot="1" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0"/>
+        <inventory encumbrance="0" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0"/>
+
+	<!-- death or wound or stun -> no effect -->
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0"/>
+
+	<modifier class="speed" value="-0.51" />
+    </carry_item>
+</carry_items>

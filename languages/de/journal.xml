@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<journal>
+	<!-- TO CONSIDER
+	- completed journal keys are rwr-wide stuff, so what happens here is that when someone has gone through certain triggers in vanilla, they won't trigger again anywhere else
+	- so if there's overlap with edelweiss triggers and vanilla triggers, they won't trigger in the other once triggered
+	- means that e.g. move_against_stabbable_static_object trigger for telling you can cut barbed wires won't work as people have already consumed the key in vanilla
+	-->
+
+	<entry key="ww2_undead_welcome">	<!-- used at start of WW2 Undead to explain the mode -->
+	    <title value="Einleitung zu WW2 Untoten" />
+		<text value="Willkommen im WW2 Untoten-Modus! In diesem Modus gewinnen Sie, indem Sie die Burg sichern, die sich auf der Karte in dem Gebiet ohne Aufklärung befindet. Das Burgtor ist verschlossen und kann nur durch Interaktion mit okkulten Pentagrammen geöffnet werden, die über die Karte verstreut sind. Außerdem können Sie jedes Mal, wenn Sie sterben, einen verfügbaren Fallschirm-Spawn-Knoten auswählen." />
+		<image filename="journal_ww2_undead_pentagram.png" />
+	</entry>
+
+
+	<!-- TODO: tag all relevant vehicles with can_not_steal -->
+	<entry key="inspect/cannot_steal/enemy">
+	    <title value="Feindliche Fahrzeuge"/>
+		<text value="Bestimmte schwerere FEINDLICHE FAHRZEUGE in EDELWEISS und PACIFIC können nicht gestohlen werden. Dies geschieht ausschliesslich aus Balance- und Gameplay-Gründen. Andere leichte Fahrzeuge können aber gestohlen werden!"/>
+		<image filename="journal_cannot_steal.png"/>
+	</entry>
+
+	<!-- TODO: tag all relevant weapons with bayonet -->
+	<entry key="inspect/has_bayonet">
+	    <title value="Bajonett"/>
+		<text value="BAJONETTE können in EDELWEISS und PACIFIC angebracht werden. Diese Funktion steht Waffen mit zwei Punkten am unteren Rand des Symbols zur Verfügung. Sie können durch Drücken von %control_next_weapon_in_chain aktiviert werden. Bajonette erweitern Ihre Nahkampfreichweite erheblich, Kosten jedoch etwas Genauigkeit."/>
+		<image filename="journal_bayonets.png"/>
+	</entry>
+
+	<entry key="xp_achieved/50"> <!-- I would prefer being able to inspect the hedgerow.static_object on dumont, but that's not possible atm -->
+	    <title value="Zerstörung von Hecken und Zäunen"/>
+		<text value="In EDELWEISS können die meisten Zäune durch SPRENGSTOFFE zerstört oder von den meisten FAHRZEUGEN überfahren werden. Darüber hinaus können Hecken durch SPRENGLADUNGEN zerstört und von Spezialfahrzeugen wie dem Sherman RHINO zerquetscht werden."/>
+		<image filename="journal_fences.png"/>
+	</entry>
+
+	<entry key="inspect/boss/enemy">
+	    <title value="Bosse"/>
+		<text value="Feindliche BOSS PANZER müssen mit allen Mitteln zerstört werden, um in einigen Karten SIEGEN zu können. Sie haben zusätzliche Gesundheit und viel Feuerkraft, um Ihren Auftrag zu einer Herausforderung zu machen!"/>
+		<image filename="journal_bosses.png"/>
+	</entry>
+	
+	<entry key="inspect/pillbox/enemy">
+	    <title value="Bunker und Pillboxen"/>
+		<text value="BETONBUNKER sind in PACIFIC anzutreffen und sind stark befestigte Maschinengewehrstellungen. Sie sind nicht sehr anfällig für Standardgranaten, aber nehmen eine Menge Schaden von SCHWEREN SPRENGSTOFFEN und FLAMMENWERFERN."/>
+		<image filename="journal_pillboxes.png"/>
+	</entry>
+
+	<entry key="inspect/destroy_target/any">
+	    <title value="Funkstörsender, Küstengeschütze, Flugabwehrkanonen"/>
+		<text value="Feindliche FUNKSTÖRSENDER blockieren deine Fähigkeit, Call-Ins in einem bestimmten Bereich um sie herum zu verwenden. Sie sind anfällig für SPRENGSTOFFLADUNGEN, sofern Sie nah genug ran kommen. KÜSTENGESCHÜTZE und FLUGABWEHRKANONEN blockieren bestimmte Call-Ins auf der gesamten Karte und die Zerstörung wird Ihnen leistungsstarke SCHIFFSARTILLERIE bzw. LUFTANGRIFFE gewähren."/>
+		<image filename="journal_destroy.png"/>
+	</entry>
+	
+	<entry key="inspect/cargo_tank/friendly">
+	    <title value="Bergetiger-Konvoi" />
+		<text value= "Sie können dem Bergetiger befehlen, für kurze Zeit anzuhalten, indem Sie %control_shoot drücken, wenn Sie auf ihn zielen. Auch das Reparieren mit einem Schraubenschlüssel führt zum Anhalten des Fahrzeuges.%PSDies kann auch taktisch genutzt werden, um den Konvoi zu verlangsamen, um Ihre Truppen neu zu formieren" />
+		<image filename="journal_convoy.png" />
+	</entry>		
+
+</journal>

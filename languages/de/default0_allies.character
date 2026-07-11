@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <!-- default allies uses common lines for english-speaking soldiers in ww2 packages -->
+
+<!-- #EDELWEISS_TRANSLATION -->
+ 
+	<comment key="Medic!" text="Aah, Doktor!"/> 
+	
+	<comment key="Reloading" text="Deckt mich, lade nach!"/>
+	<comment key="Reloading" text="Ich muss nachladen!"/>  
+	
+	<comment key="We surrender!" text="Ich gebe auf!"/>
+	<comment key="We surrender!" text="Ich ergebe mich!"/>
+	<comment key="We surrender!" text="Ich habe genug!"/>
+
+	<comment key="initiate radio call" text="Zentrale bitte kommen, hier spricht Able Company, hören Sie mich?"/>
+	<comment key="commander radio response" text="Wir hören Sie Able, schreiten Sie fort."/>
+
+	<comment key="hostile vehicle takeover" text="Hey! Das ist - "/> 
+	<comment key="hostile vehicle takeover" text="Was? Nein nein NEIN!"/>    
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Finde ihn, verdammt nochmal!"/>
+
+	<comment key="enemy seen, vehicle tag = tank" text="Panzeeer!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Jesus, runter! PANZEER!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Sie haben Panzer!"/>     
+
+	<comment key="Hold on!" text="Nicht aufgeben, Kamerad!"/>  
+
+	<comment key="celebrating" text="Gute Arbeit, Jungs."/>
+	<!--<comment key="celebrating" text="Stick that one where your Rising Sun don't shine!" /> too pacificy for edel-->
+	<comment key="celebrating" text="Schöne Panzer, die ihr da hattet, ich denke, ich werde ihn behalten."/>
+	<comment key="celebrating" text="Wow, Schwein gehabt."/>
+	<comment key="celebrating" text="Jaaa! Klasse Leistung, Jungs."/>
+	<comment key="celebrating" text="Wir haben ihnen ordentlich den Hintern versohlt!"/>
+	<comment key="celebrating" text="Gebt ihr so einfach auf?"/>
+	<comment key="celebrating" text="Muss mir eine Luger suchen"/>
+	<comment key="celebrating" text="Mal sehen, ob ich die Pistole eines Offiziers finden kann"/>
+
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Haste ne Zigarette?"/>
+		<comment text="Na sicher Kumpel, hier."/>
+		<comment text="Seufz. Schade um Taylor."/>
+		<comment text="Jup. Ich hab gehört, dass sie ihn mit einem Wasserschlauch von den Panzerketten sprühen mussten."/>
+		<comment text="Oh Gott. Wir müssen vorsichtig mit Panzern sein, besonders mit freundlichen."/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Haben sie dir neue Ausrüstung gegeben?"/>
+		<comment text="Jep"/>
+		<comment text="Verdammt, ich brauche neue Ausrüstung..."/> 
+		<comment text="Schluck's runter, Kumpel."/>    
+	</dialogue> 
+		
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Wie werden wir den Panzer nennen?"/>
+		<comment text="Kraut Kruncher."/>
+		<comment text="Ohh jaa."/>
+	</dialogue>
+
+ </character>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!--This is a special file so that regular AI don't spawn with Sniper Rifles or other uniques, only the dedicated soldiers do.-->
+
+	<weapon key="m1903_rifle_ai.weapon" />
+
+	<weapon key="m55_reising.weapon" />
+	<weapon key="m12_trench_gun_b.weapon" />	
+	<weapon key="m12_trench_gun.weapon" />
+	<weapon key="m1928_thompson.weapon" />  
+ 
+	<weapon key="m1928_thompson_mag.weapon" />
+<weapon key="m1928a1_thompson.weapon" />
+<weapon key="m1928a1_thompson_drum.weapon" />
+<weapon key="m1918.weapon" />
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<weapon key="m1903_rifle.weapon" />
+	<weapon key="m1903_rifle_b.weapon" />
+	<weapon key="m1_garand.weapon" />
+	<weapon key="m1_garand_b.weapon" />
+	<weapon key="m1a1_thompson.weapon" />
+	<weapon key="m3_greasegun.weapon" />
+	<weapon key="m1918_bar_heavy.weapon" />
+	<weapon key="m9a1_bazooka.weapon" />
+	<weapon key="m1903a4_rifle_s.weapon" />
+	<weapon key="m1919_lmg.weapon" />
+	<weapon key="m1918_bar.weapon" />			
+<weapon key="m12_trench_gun_b.weapon" />	
+<weapon key="m12_trench_gun.weapon" />	
+<weapon key="m1903_rifle_grenade_he.weapon" />	
+<weapon key="m1903_rifle_grenade_at.weapon" />
+</resources>

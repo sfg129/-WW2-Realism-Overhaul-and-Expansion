@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" slot="1" pulldown_in_air="20" key="ww2_undead_spitter_spit.projectile">
+ 	
+	<sound class="result" key="other" fileref="ww2_undead_spit_acid_sizzle.wav" volume="2.0" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+    <trigger class="impact" />
+	<result
+	class="blast"
+	radius="0.9"
+	damage="0.9"
+	push="0.3"
+	decal="1" 
+	character_state="death"
+	faction_compare="not_equal"
+	/>
+	
+	<model filename="ww2_undead_zombie_spit_projectile.xml" />
+	
+    <rotation class="motion" />
+	
+    <commonness value="0.2" />
+	
+    <effect class="result" key="terrain" ref="AcidCloudWW2" post_processing="1" lighting="0" />
+	
+    <effect class="result" type="splat_map" surface_tag="" size="3.5" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="4.5" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.5" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+    <effect class="result" key="other" copy="terrain" />
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+    
+    <effect class="activated" ref="PropulsionAcidWW2" lighting="0" />
+	
+</projectile>

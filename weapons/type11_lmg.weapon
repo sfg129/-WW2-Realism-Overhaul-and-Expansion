@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_heavy_bipod.weapon" key="type11_lmg.weapon">
+	
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="0.12" 
+	accuracy_factor="0.94" 
+	sustained_fire_grow_step="0.26" 
+	sustained_fire_diminish_rate="2"
+	stance_accuracy_rate="0.8"
+	magazine_size="30" 
+	can_shoot_standing="0" 
+	can_shoot_crouching="0" 
+	suppressed="0" 
+	name="Type 11 LMG" 
+	class="0" 
+	reload_one_at_a_time="1" 
+	barrel_offset="0.7" 
+	projectile_speed="130.0" 
+	/>
+	
+	<!-- former stats: grow_step 0.182 -->
+
+	<!-- The Type 11 LMG can only be fired Prone or against Cover, and suffers a slow reload. -->
+	<!-- However it's high velocity, damage, and low recoil enable it to be very effective at long ranges. --> 
+	<stance state_key="running" accuracy="0.3" />
+	<stance state_key="walking" accuracy="0.4" />
+	<stance state_key="standing" accuracy="0.5" />
+	<stance state_key="crouching" accuracy="0.55" />
+	<stance state_key="prone" accuracy="1.15" />
+	<stance state_key="over_wall" accuracy="1.15" />  
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation state_key="reload" animation_key="reloading, type 11" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, type 11, prone" />
+		<animation state_key="hold_on_wall" animation_key="still" />
+    	<animation state_key="hold" animation_key="hold, lmg" />
+		<animation state_key="walking" animation_key="walking, heavy weapon" />
+		<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+		<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+		<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+		<animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+	<sound key="fire" fileref="mg_06_type_11.wav" pitch_variety="0.05" volume="1.22"/>
+    	<sound key="reload_one" fileref="hunter_cycle_in.wav" />
+	<sound key="magazine_out" fileref="mg_clip_out.wav" />
+	<sound key="magazine_in" fileref="mg_clip_in.wav" />
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	
+	<model filename="type11_lmg.xml" />
+	<hud_icon filename="hud_type11_lmg.png" />
+	
+	<commonness value="0.03" can_respawn_with="1"/>
+	<inventory encumbrance="10.0" price="30" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.9"
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+
+	<vehicle file="universal_carrier_boys.vehicle" />
+	<vehicle file="sidecar_german.vehicle" />
+		<vehicle file="stuart_recce.vehicle" />
+			<vehicle file="m3_halftrack_mortar.vehicle" />
+			<vehicle file="sdkfz251_mortar.vehicle" />
+				<vehicle file="universal_carrier_vickers_k.vehicle" />
+<!-- 1.98 --><vehicle file="panzer_iv_base_flak88.vehicle" />
+<vehicle file="sdkfz251_pak40.vehicle" />
+<vehicle file="m4_E4.vehicle" />
+	<vehicle file="luchs.vehicle" />
+	<vehicle file="dukw.vehicle" />
+	<vehicle file="soukoutei.vehicle" />
+	<vehicle file="suki.vehicle" />
+	<vehicle file="flak_88.vehicle" />
+	<vehicle file="normandy_turret.vehicle" />
+	<vehicle file="quest_overlord.vehicle" />
+
+<!-- Edelweiss vehicles -->
+	<vehicle file="churchill_mkvii.vehicle" />  
+	<vehicle file="churchill_crocodile.vehicle" />  
+
+	<vehicle file="opel_blitz_1.vehicle" />  
+	<vehicle file="opel_blitz_2.vehicle" />  
+	<vehicle file="opel_blitz_armoury.vehicle" />  
+	<vehicle file="m4_75.vehicle" />
+	<vehicle file="lefh18.vehicle" />
+	<vehicle file="mg34_hmg.vehicle" />
+	<vehicle file="mg42_hmg.vehicle" />
+	<vehicle file="sdkfz251.vehicle" />
+	<vehicle file="sdkfz251_fastrespawn.vehicle" />
+	<vehicle file="king_tiger.vehicle" />
+	<vehicle file="king_tiger_player.vehicle" />    
+	<vehicle file="king_tiger_boss.vehicle" />
+	<vehicle file="kubelwagen.vehicle" />
+	<vehicle file="willys_mb.vehicle" />
+	<vehicle file="willys_mb_recoilless_rifle.vehicle" />
+	<vehicle file="panzer_iv.vehicle" />
+	<vehicle file="panzer_iv_damaged.vehicle" />
+	<vehicle file="panzer_iv_fastrespawn.vehicle" />
+	<vehicle file="stug_iii.vehicle" />
+	<vehicle file="stug_iii_fastrespawn.vehicle" />
+	<vehicle file="universal_carrier.vehicle" />
+	<vehicle file="universal_carrier_fastrespawn.vehicle" />
+	<vehicle file="vickers_hmg.vehicle" />
+	<vehicle file="m2hb_hmg.vehicle" />
+	<vehicle file="at_gun_m5.vehicle" />
+	<vehicle file="at_gun_pak40.vehicle" />
+	<vehicle file="at_gun_pak40_2.vehicle" />    
+	<vehicle file="austin_k5.vehicle" />
+	<vehicle file="austin_k5_armoury.vehicle" />
+	<vehicle file="light_mortar.vehicle" />
+	<vehicle file="light_mortar1.vehicle" />
+	<vehicle file="m3_halftrack.vehicle" />
+	<vehicle file="m3_halftrack_fastrespawn.vehicle" />
+	<vehicle file="m4_V.vehicle" />
+	<vehicle file="m4_V_fastrespawn.vehicle" />
+	<vehicle file="m4_rhino.vehicle" />
+	<vehicle file="m4_firefly.vehicle" />
+	<vehicle file="m4_firefly_fastrespawn.vehicle" />
+	<vehicle file="tiger.vehicle" />
+	<vehicle file="tiger_sicily.vehicle" />
+	<vehicle file="sdkfz251_flak.vehicle" />
+	<vehicle file="usf_armoury_para.vehicle" />
+	<vehicle file="usf_armoury_parachute.vehicle" />
+	<vehicle file="cargo_tank.vehicle" />
+	<vehicle file="repair_tank.vehicle" />
+	<vehicle file="m10.vehicle" />
+	<vehicle file="chi_ha.vehicle" />
+	<vehicle file="fortified_turret_chi_ha.vehicle" />
+	<vehicle file="fortified_turret_sherman.vehicle" />
+	<vehicle file="staff_car.vehicle" />
+	<vehicle file="wasp.vehicle" />
+	<vehicle file="mg42_hmg_universal.vehicle" />
+
+	<vehicle file="maus_boss.vehicle" />
+	<vehicle file="tog2_boss.vehicle" />
+
+	<vehicle file="flare_checkpoint.vehicle" />
+
+	<vehicle file="ww2_undead_artillery_flare.vehicle" />
+	<vehicle file="ww2_undead_artillery_flare_despawner.vehicle" />
+	<vehicle file="ww2_undead_fsj_flare.vehicle" />
+	<vehicle file="ww2_undead_fsj_flare_despawner.vehicle" />
+
+
+	<!-- Pacific vehicles -->
+	<vehicle file="crate_wrench.vehicle" />
+	<vehicle file="stuart.vehicle" />
+	<vehicle file="stuart_damaged.vehicle" />
+	<vehicle file="pillbox.vehicle" />
+	<vehicle file="m1919_hmg.vehicle" />
+	<vehicle file="lvt4.vehicle" />
+	<vehicle file="jeep.vehicle" />
+	<vehicle file="katsu.vehicle" />
+	<vehicle file="hago.vehicle" />
+	<vehicle file="hago_damaged.vehicle" />
+	<vehicle file="hoha.vehicle" />   
+	<vehicle file="pillbox1.vehicle" />
+	<vehicle file="type92_hmg.vehicle" />
+	<vehicle file="landing_craft.vehicle" />
+	<vehicle file="landing_craft1.vehicle" />
+	<vehicle file="landing_craft_noai.vehicle" /> 
+	<vehicle file="landing_craft1_noai.vehicle" />
+	<vehicle file="jeep1.vehicle" />
+	<vehicle file="armory_daihatsu.vehicle" />
+	<vehicle file="armory_higgins.vehicle" />
+	<vehicle file="heavy_mortar.vehicle" />
+	<vehicle file="aa_gun.vehicle" />
+	<vehicle file="aa_gun2.vehicle" />  
+	<vehicle file="coastal_gun.vehicle" />
+  <vehicle file="coastal_gun2.vehicle" />
+  <vehicle file="coastal_gun3.vehicle" />
+	<vehicle file="oerlikon.vehicle" />
+	<vehicle file="type98.vehicle" />
+	<vehicle file="bofors.vehicle" />
+	<vehicle file="5inch_gun.vehicle" />
+	<vehicle file="pt_boat.vehicle" />
+	<vehicle file="submarine.vehicle" />  
+	<vehicle file="submarine2.vehicle" />    
+	
+
+
+	<vehicle file="b29_turret.vehicle" />
+	<vehicle file="b29_turret_rear.vehicle" />
+  
+
+	<vehicle file="anticall.vehicle" />
+	<vehicle file="protector.vehicle" />
+	<vehicle file="prison_door.vehicle" />
+	<vehicle file="prison_building.vehicle" />
+	
+	<!-- vanilla vehicles -->
+	<vehicle file="rubber_boat.vehicle" />
+	<vehicle file="cover1.vehicle" />
+	<vehicle file="para_spawn.vehicle" />
+	
+	<vehicle file="gas_tank.vehicle" />
+	<vehicle file="radar_tower.vehicle" />
+	<vehicle file="water_tower.vehicle" />
+	<vehicle file="mortar_ammunition_crates.vehicle" />
+	
+	<vehicle file="special_crates.xml" />
+	<vehicle file="special_crates2.xml" />  
+	<vehicle file="special_crates_wood.xml" />
+	
+	<vehicle file="deco_vehicles.xml" />
+	<vehicle file="radio_jammer.vehicle" />  
+	<vehicle file="radio_jammer2.vehicle" />
+	<vehicle file="radio_jammer_2.vehicle" />
+	<vehicle file="radio_jammer_3.vehicle" />
+												   
+	<vehicle file="parachute.vehicle" />
+    
+	<vehicle file="vehicle_tweaks.xml" />
+
+	<vehicle file="occult_seal.vehicle" />
+	<vehicle file="ww2_undead_occult_seal_spawner.vehicle" />
+	<vehicle file="ww2_undead_zombie_overlord_spawner.vehicle" />
+	<vehicle file="ww2_undead_zombie_dog_spawner.vehicle" />
+	<vehicle file="ww2_undead_zombie_spitter_spawner.vehicle" />
+	<vehicle file="parachute2.vehicle" />
+	
+</vehicles>

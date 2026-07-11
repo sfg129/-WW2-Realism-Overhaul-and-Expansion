@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<translations>
+	<translation file="misc_text_vanilla.xml" />
+	<translation file="misc_text_pacific.xml" />
+	<translation file="misc_text_edelweiss.xml" />    
+	<translation file="misc_text_ww2_undead.xml" />    
+</translations>

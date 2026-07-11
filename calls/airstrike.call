@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="airstrike (rocket)" key="airstrike.call"
+	initiation_comment1="Requesting Close Air Support"
+	initiation_comment2="Rockets Advised"
+	acknowledge_time="2.0"
+	acknowledge_comment="Copy, target in sight"
+	launch_comment="rockets out."
+        notify_metagame="1">
+
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="air_strike_rocket.projectile" 
+	instance_spread="5 0 5" 
+	common_spread="0 0 0" 
+	launch_time="4.0"
+	spawn_time="5.0">
+	<sound class="launch" fileref="typhoon_rocket_shot.wav" volume="1.0"/>
+	<effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+	</round>
+
+	<round
+	instances="1"
+	instance_class="grenade"
+	instance_key="air_strike_rocket.projectile" 
+	instance_spread="5 0 5" 
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="5.0">
+
+	<sound class="launch" fileref="airstrike_flyby.wav" />
+	</round>
+	
+	<hud_icon filename="hud_airstrike.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.2" />
+	<inventory encumbrance="0.0" price="250" />
+	
+</call>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="mg42_hmg.weapon"
+	ai_burst_time="0.65" 
+	ai_burst_time_variance="0.3" 
+	ai_burst_wait_time="0.25" 
+	ai_burst_wait_time_variance="0.2">
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	<!-- using these as default values for normal vehicle-born machine guns -->
+	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
+
+    <specification
+	retrigger_time="0.0525"
+	accuracy_factor="0.87"
+	spread_range="0.21"
+	sustained_fire_grow_step="0.012"
+	sustained_fire_diminish_rate="0.1"
+	sight_range_modifier="1.8"
+  	ai_sight_range_modifier="1"
+	magazine_size="-1"
+	can_shoot_standing="0"
+	an_shoot_crouching="0"
+	suppressed="0"
+	name="MG 42 HMG"
+	class="0"
+	projectile_speed="130.0"
+	slot="2"
+	barrel_offset="0.45"
+	projectiles_per_shot="1"
+	sight_height_offset="2.0"
+	cooldown_start="0.8"
+	cooldown_end="0.0"/>
+ 
+	<!-- stats prior to 1.87: accuracy 0.875, spread 0.29, recoil 0.09, recovery 0.9, velocity 100 -->
+
+	<!-- scope power is 3x for the MGZ40 scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+	
+	<model filename="mg42_hmg.mesh" texture_filename="mg42_hmg.png" />
+    <hud_icon filename="hud_mg42_assault.png" />
+	
+    <commonness value="0.0" />
+	
+	<!-- damage was 0.65 -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.8"
+		kill_decay_start_time="1.134"
+		kill_decay_end_time="1.34"
+		/>
+	</projectile>
+
+	<sound class="operation" key="fire" fileref="weapon_mg_mg42.wav" pitch_variety="0.05" volume="1.825"/>
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+
+</weapon>

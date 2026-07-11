@@ -1,0 +1,3 @@
+for the time being, to avoid any possibility for crashes even if translations are incomplete in time, 
+I have placed the English version of misc_text_undead and the WW2_Undead Journal note in every language.
+will replace them with appropriate versions as we go along.

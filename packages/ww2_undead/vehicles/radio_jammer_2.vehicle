@@ -1,0 +1,2 @@
+<vehicle file="radio_jammer_base.vehicle" key="radio_jammer_2.vehicle" existence="one_per_faction" protectors="5"  soldier_capacity_offset="5">
+</vehicle>

@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_ww2.character">
+    <!-- default0 uses vanilla comments for easier translation while each faction has their own unique lines -->
+    <!-- <comment key="Hmm, no signal" /> -->
+	
+	<comment key="Driver, abandon vehicle" text="운전수, 차량을 버려라."/>
+	<comment key="Driver, abandon vehicle" text="운전수, 뛰어내려!" />  
+	<comment key="Gunner, abandon vehicle" text="사수, 차량을 버려라."/>
+	<comment key="Gunner, abandon vehicle" text="사수, 뛰어내려!" />  
+	<comment key="Squad, abandon vehicle" text="분대, 차량을 버려라."/>
+	<comment key="Squad, get out" text="분대, 하차하라!"/>
+
+	<comment key="Squad, get in" text="분대, 올라타."/>
+	<comment key="Squad, get in" text="분대, 탑승하라." />
+	<comment key="Squad, get in" text="분대, 차량에 탑승하자." /> 
+
+	<comment key="Squad, follow the vehicle" text="분대, 차량을 따라가라."/>
+	<comment key="Squad, follow the vehicle" text="분대, 제병합동을 실시한다." />
+	<comment key="Squad, follow the vehicle" text="분대, 아군 차량을 지원하라." />
+
+	<comment key="Squad, follow me" text="분대, 나를 따르라."/>
+	<comment key="Squad, follow me" text="분대, 재집결하라." />
+	<comment key="Squad, follow me" text="분대를 형성하라" />
+	<comment key="Squad, follow me" text="분대원, 나에게 모여." />
+	<comment key="Squad, follow me" text="분대, 나와 함께하라." />
+	<comment key="Squad, follow me" text="분대, 붙어 다녀라." />  
+
+	<comment key="Driver, stop the vehicle" text="운전수, 정지." />
+	<comment key="Driver, stop the vehicle" text="이봐, 이쯤에서 멈추게." />
+	<comment key="Driver, stop the vehicle" text="운전수, 정지." />
+	<comment key="Driver, stop the vehicle" text="운전수, 브레이크 당겨." />  
+	<comment key="Gunner, fire at will" text="사수, 사격하라!"/>
+	
+	<comment key="Driver, stop the vehicle" text="운전수, 차량을 정지하라"/>
+
+	<comment key="Driver, stay close" text="운전수, 근접 운행하라."/>
+	<comment key="Driver, stay close" text="운전수, 제병합동을 실시한다." />
+	<comment key="Driver, stay close" text="운전수, 근접 지원 실시." />
+	
+	<comment key="Squad, move over there" text="분대, 목표지점으로 가자."/>
+	<comment key="Squad, move over there" text="분대, 표시지점으로 이동하라."/>
+	<comment key="Squad, move over there" text="분대, 저기로 이동." />
+	<comment key="Squad, move over there" text="분대, 저기에 위치잡아라." />
+	
+	<comment key="Squad, change position" text="분대, 위치를 바꾼다."/>
+	<comment key="Squad, change position" text="분대, 자리를 바꾸겠다." />
+	<comment key="Squad, change position" text="분대원들, 이동하자." />
+	<comment key="Squad, change position" text="분대, 이동해라!" />
+	
+	<comment key="Driver, take us there" text="운전수, 우리를 저기로 수송하라." />
+	<comment key="Driver, over there" text="운전수, 저기로 가라." />
+	
+	<comment key="Gunner, there" text="사수, 저기다!"/>
+	<comment key="Gunner, there" text="저기를 주시하라." />
+	<comment key="Gunner, there" text="사수, 표시 지점을 조준하라." />
+	<comment key="Gunner, there" text="목표에 사격하라." />   
+	
+	<comment key="We surrender!" text="무기도 없다. 죽이지마!"/>
+	<comment key="We surrender!" text="쏘지마!" />
+	<comment key="We surrender!" text="항복!" />
+	<comment key="We surrender!" text="항복한다. 쏘지마!" />
+	
+	<comment key="Medic!" text="의사!" />
+	<comment key="Medic!" text="의무병!" />     
+	<comment key="Medic!" text="아악! 의무병이 필요해!" /> 
+	<comment key="Medic!" text="피격당했다!" /> 
+	<comment key="Medic!" text="의무병! 내가 쓰러졌다!" />     
+	
+	<comment key="I feel good!" text="기분 좋구만!" />
+	<comment key="I feel good!" text="고마워 친구!" />
+	<comment key="I feel good!" text="치료해줘서 고마워!" /> 
+	<comment key="I feel good!" text="고맙소 의사양반!" /> 
+	<comment key="I feel good!" text="거 좋은 조치를 해줬구만!" />   
+	
+	<comment key="Reloading" text="재장전중." />
+	<comment key="Reloading" text="엄호해줘." />
+	<comment key="Reloading" text="장전중." />  
+	<comment key="Reloading" text="장전!" />    
+	
+	<comment key="Hmm, no signal..." />
+	<comment key="cancel radio call" text="아무것도 아니다. 이상" />
+	<comment key="cancel radio call" text="잊어라, 이상" />
+	<comment key="initiate radio call" text="본부 들리나?" />
+	<comment key="commander radio response" text="여기는 본부 듣고있다, 계속하라." />
+	<comment key="no radio equipment" text="난 아직 무전기가 없지." />
+	<comment key="no radio equipment" text="%rank_name때는 무전기를 지급하지 않는다고 했어" />
+	<comment key="no radio equipment" text="난 아직 무전기를 사용할 수 없었지." />
+	
+	<comment key="commander radio full" text="여기는 지휘 통제실, 지금 처리할 요청이 많다, 잠시 후에 요청 바란다." />
+	
+	<comment key="squad chat, not in squad" text="난 플레이어 분대에 있지 않는데" />
+	
+	<comment key="Hey, wait up" text="잠깐만, 기다려"/>
+	<comment key="Hey, wait up" text="기다려, 멈춰" />  
+	<comment key="Hey, wait up" text="이봐, 나좀 기다려줘!" />
+	<comment key="Hey, wait up" text="기다리고 있게 제군!" />   
+	
+	<comment key="Quickly!" text="신속히하게!" />
+	<comment key="Quickly!" text="빨리가자!" /> 
+	<comment key="Quickly!" text="신속히 이동해!" />  
+	
+	<comment key="Buzz off" text="비켜." />
+
+	<comment key="Step out, kid" text="물러나게, 제군."/>
+	
+	<comment key="Can't respawn - the last base is under attack" text="재배치가 불가하다, 마지막 기지가 공격받고 있다." />
+	<comment key="Can't respawn - spawning is locked" text="재배치가 불가하다." />
+
+	<comment key="Hmm.. not enough room here" text="음... 여기 공간이 충분하지 않군." />
+	
+	<comment key="I'm outta here" text="난 여기서 빠져나가야겠어!"/>
+	<comment key="I'm outta here" text="당장 여기서 벗어나!" />   
+	
+	<comment key="Good job, soldiers" text="잘했다, 제군."/>
+	<comment key="Good job, soldiers" text="훌륭하군, 병사." />
+	<comment key="Good job, soldiers" text="잘 수행했다." />
+	<comment key="Good job, soldiers" text="대단하군." />
+	
+	<comment key="Open fire" text="사격 개시!"/>
+	<comment key="Open fire" text="적이 시야에 들어왔다." />
+	
+	<comment key="Lone leader, open fire" text="분대장 전사, 사격하라." />
+	
+	<comment key="fire opened, weapon tag = sniper" text="저격수다!" />
+	<comment key="fire opened, weapon tag = sniper" text="인근에 저격수가 있다." />
+	
+	<comment key="grenade alert, grenade tag = grenade" text="맙소사 수류탄이다!" />
+	<comment key="grenade alert, grenade tag = grenade" text="수류탄이 날라온다!" />
+	<comment key="grenade alert, grenade tag = grenade" text="수류탄이다!" />
+	
+	<comment key="grenade alert, grenade tag = flashbang" text="섬광탄이 날라온다!" />
+	<comment key="grenade alert, grenade tag = flashbang" text="섬광탄이다!" />
+	
+	<comment key="grenade alert, grenade tag = rocket" text="맙소사 로켓이다!" />
+	<comment key="grenade alert, grenade tag = rocket" text="로켓이 날라온다!" />
+	<comment key="grenade alert, grenade tag = rocket" text="로켓!" />
+	
+	<comment key="enemy not seen, area alerted" text="엄폐하라." />
+	<comment key="enemy not seen, area alerted" text="계속 경계하라." />
+	
+	<comment key="Lone leader, enemy not seen, area alerted" text="분대장 전사, 미확인 적군, 계속 경계하라." />
+	
+	<comment key="leader, enemy not seen, taking suppressed fire" text="엄폐하라" />
+	<comment key="leader, enemy not seen, taking suppressed fire" text="적군 사격이다." />
+	
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="어디선가 공격하고 있어!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="사격이다." />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="빌어먹을!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="겁쟁이같으니!" />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="공격받고 있다. 적을 확인할 수 없다." />
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="정체불명의 적의 공격이다!" />
+
+ 	<comment key="enemy seen, vehicle tag = apc" text="전방에 장갑차!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="전방에 장갑차다!!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차 발견!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차 발견했다!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차다! 조심해!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="장갑차 발견! 적 장갑차 파괴해!" /> 
+	
+	<comment key="enemy seen" text="저기다!" />
+	<comment key="enemy seen" text="주의하라!" />
+	<comment key="enemy seen" text="적군이다." />
+	
+	<comment key="enemy not seen, taking suppressed fire" text="?" />
+	<comment key="enemy not seen, taking suppressed fire" text="방금 뭐지?" />
+	<comment key="enemy not seen, taking suppressed fire" text="주의하라!" />
+	<comment key="enemy not seen, taking suppressed fire" text="사격이다." />
+	
+	<comment key="Waiting for reinforcements" text="증원이 올 때까지 대기하자." />
+	<comment key="Waiting for reinforcements" text="여기서 대기하자." />
+	
+	<comment key="Hold on!" text="조금만 버텨!" />
+	<comment key="Hold on!" text="죽게두지 않겠어!" />  
+	<comment key="Hold on!" text="지금 가고있다!" />  
+	<comment key="Hold on!" text="참고 있어!" />   
+	
+	<comment key="Move out" text="이동해." />
+	<comment key="Move out" text="움직이자." />
+	<comment key="Move out" text="나를 따라오게." />
+	<comment key="Move out" text="다들 움직여." />
+	
+	<comment key="All quiet here" text="지역은 안전하다." />
+	<comment key="All quiet here" text="이상없다." />
+	<comment key="All quiet here" text="흐아암~" />
+	<comment key="All quiet here" text="여기는 아무도 없다." />
+	<comment key="All quiet here" text="(휘파람)" /> 
+	<comment key="All quiet here" text="폭풍전야인가?" />
+	<comment key="All quiet here" text="어떠한 흔적도없다." />  
+	<comment key="All quiet here" text="앞으로 2주만 더있으면..." />         
+	
+	<comment key="Yes sir" text="네 알겠습니다." />
+	<comment key="Yes sir" text="이해했습니다." />
+	<comment key="Yes sir" text="알겠습니다." />
+	<comment key="Yes sir" text="따르겠습니다." />
+	<comment key="Yes sir" text="알겠다." />
+	<comment key="Yes sir" text="이해했다." />
+	<comment key="Yes sir" text="따르겠다." />  
+	
+	<comment key="Uh, I can't drive this thing" text="어음... 난 이런종류는 잘 못모는데." />
+	<comment key="Uh, I can't drive this thing" text="운전학교로 돌아가는게 어떨까하는데?" />
+	<comment key="Uh, I can't drive this thing" text="이런!" />
+	<comment key="Uh, I can't drive this thing" text="으아아!" />
+	<comment key="Uh, I can't drive this thing" text="내 장담하건대 크랭크 축이 고장 났다는 거에 한 표 건다. " />
+	<comment key="Uh, I can't drive this thing" text="카뷰레터가 고장난게 확실해." />
+	<comment key="Uh, I can't drive this thing" text="확신하는데 이 운전대는 작동하지 않을꺼야." />
+	<comment key="Uh, I can't drive this thing" text="아? 이게 클러치구만." />
+	<comment key="Uh, I can't drive this thing" text="제발 운전할일 없으면 좋겠는데." />
+	<comment key="Uh, I can't drive this thing" text="오 맙소사!" />
+	<comment key="Uh, I can't drive this thing" text="이런 제길, 다시한다!" />
+	<comment key="Uh, I can't drive this thing" text="아무나 운전 할사람?" />
+	<comment key="Uh, I can't drive this thing" text="내 안경이 어디갔지?." />
+	<comment key="Uh, I can't drive this thing" text="이 운전대가 말을 안 들어." />
+	<comment key="Uh, I can't drive this thing" text="이건 내 실수야." />
+	
+	<comment key="Waiting for squad" text="언제까지 기다리게 할꺼야?"/>
+	<comment key="Waiting for squad" text="올라타, 빨리!" /> 
+	
+	<comment key="Shield up" text="" />
+	<comment key="Shield up" text="" />
+	<comment key="Shield up" text="" />
+	
+	<comment key="overencumbered" text="이런 망할 군장같으니!" />
+	<comment key="overencumbered" text="이 무게 때문에 제대로 사격할 수 없어." />
+	<comment key="overencumbered" text="쓸모없는걸 군장에서 버려야겠어." />  
+	
+	<comment key="Where to, chief?" text="다음은 뭡니까?" />
+	<comment key="Where to, chief?" text="어디 목적지는 정했습니까?" />
+	<comment key="Where to, chief?" text="말씀만 하십시오." />
+	<comment key="Where to, chief?" text="명령 대기중." />
+	
+	<comment key="Press SPACE to continue!" text="스페이스 키를 눌러 계속하기!" />
+	
+	<comment key="about to drive over a friendly" text="조심해!" />
+	<comment key="about to drive over a friendly" text="길에서 비켜!" />
+	
+	<comment key="this is as close as i can get" text="이게 내가 최대한 가까이 한거야!" />
+	<comment key="this is as close as i can get" text="이것보다 더 가깝지는 않을꺼야." />
+	
+	<comment key="enemy vehicle spotted, near base" text="%enemy_name의 %vehicle_name가 %base_name 근처에서 발견되었다." />
+	<comment key="enemy vehicle spotted, not near base" text="%enemy_name의 %vehicle_name를 발견했다." />
+	
+	<comment key="comms have been restored" text="아군의 통신기가 복구되었다." />
+	<comment key="enemy comms have been restored" text="%enemy_name의 통신기가 복구되었다." />
+	
+	<comment key="comms have been destroyed" text="통신기가 적에 의해 파괴되었다." />
+	<comment key="enemy comms have been destroyed, by us" text="잘했다, %enemy_name의 통신기가 파괴되었다!" />
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="저길봐." />
+		<comment text="정말 고요하군." />
+		<comment text="난 여기서 살까 생각했었는데." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="우리 전에도 여기 오지않았나." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="뭐라도 해야하는거 아닌가." />
+	</dialogue>  
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="오늘은 무적이된 기분이군." />
+	</dialogue>
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="엉클 샘이 군대에 오면 재밌다고 했는데." />
+	</dialogue>  
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="이렇게 뺑이칠 줄 알았다면 해군에 지원하는 건데." />
+	</dialogue>    
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="너 곧 진급하나?" />
+		<comment text="아직 아닌거 같아." />
+	</dialogue>
+  
+	<dialogue key="wander dialogue 2 men">
+      <comment text="누구 등골 오싹해지고 싶은사람?" />
+      <comment text="없어, 두번씩이나 높은곳에서 떨어지고 싶지 않다고." />
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="너도 알다시피 병장님과 나는 적들의 전선 뒤에 있었네." />
+		<comment text="그럼 잠입 임무를 했다는 겁니까?" />
+		<comment text="그래, 화물 트럭을 찾아냈지3" />
+		<comment text="우와, 쩌는데요 그거3" />
+		<comment text="적진을 정찰하는 게 이러고 서서 시간 낭비하는 것보다는 나았어." />
+		<comment text="적어도 죽지는 목숨이 위험하지는 않지 않습니까?" />
+		<comment text="이정도 수준이면 그렇겠지." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="엄마한테 내가 군에 있다고 말하지 말아 줘" />
+		<comment text="이유라도?" />
+		<comment text="엄마는 내가 사창가에서 피아노 치고 있는 줄 알고 계셔" />
+		<comment text="어음, 알겠어" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="누구 담배 있는 사람?" />
+		<comment text="남은게 없어, 니가 담배 필 줄은 몰랐는데?" />
+		<comment text="안 돼, 새로운 무기로 교환해야 한단 말이야" />
+		<comment text="니가 쓰는거에 무슨 문제가 있는거야?" />
+		<comment text="모래가 너무 많이 들어간 것 같아" />
+		<comment text="총기손질은 늘 확실하게 해둬야 하잖아" />
+		<comment text="뭐, 무기고에서는 늘 손질을 다 해놓은줄 알았는데" />
+		<comment text="참나" />
+		<comment text="걔들은 무기를 수십 정을 쌓아놓고 산단 말이야" />
+		<comment text="우리가 총기손질할 정도로 오래 생존할 거라고 생각하지 않는 것처럼" />
+		<comment text="그럼 살아남아서 따지던가" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="누구 위성 트럭의 신호를 잡은 사람?" />
+		<comment text="없어, 확실한 건 그 트럭은 여기에 없을 거라는 거야" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="그거 아냐? 위스키를 찾아서 좀 숨겨놨는데." />
+		<comment text="쉬잇 큰소리로 말하지마, 우리는 그런거 소유하면 큰일나." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="I've been thinking..." />
+		<comment text="What is it?" />
+		<comment text="Hmm, slipped my mind" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="그런데 말입니다? 왜 우리는 아무것도 하지 않는겁니까?" />
+		<comment text="명령에 의문을 제기하지마라 제군. 그랬다간 죽을꺼다." />
+		<comment text="네 시정하겠습니다!" />      
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="내가 군 합창단에 들어가야 할지 잘 모르겠어." />
+		<comment text="왜 그래?" />
+		<comment text="그러니까, 내가 마지막으로 합창단에 있던 때가 교회 합창단 때거든." />  
+		<comment text="그리고?" /> 
+		<comment text="200 명이나 되는 사람들을 개종시킨거?" />           
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="적들이 후방으로 오지않아서 다행이야" />
+		<comment text="그러게, 우리는 아직 대비하지 못했으니까." />
+	</dialogue>   
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="요전에 개발자랑 경쟁전을 했어." />
+		<comment text="그러니까 Pasik랑 JackMayol과 함께 했다는거지?" />
+		<comment text="그래, Pasik의 조준 실력은 할머니 같은데 JackMayol은 더 심각했어!" />
+	</dialogue>     
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="'Osumia Games'.. 누가 이런 이름을 생각해 낸거지?" />
+		<comment text="잠만, 무슨 소리야?" />
+        <comment text="나도 내가 뭔 소리하는지 모르겠다." />
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="때때로 우리가 '러닝 윗 라이플'에 일부인 것 같은 기분이야." />
+		<comment text="너무 신경쓰는거 아닌가." />
+	</dialogue>  
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="아야 내 발!" />
+		<comment text="미안해 친구." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="이게임 아직 발매되지 않았나?" />
+		<comment text="아닙니다! 스팀에 발매되었습니다!" />
+		<comment text="끝네주는군." />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck" >
+		<comment text="얌마, 니가 방구꼈냐?" />
+		<comment text="아마도." />
+		<comment text="젠장! 창문열어!" />    
+	</dialogue>    
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="너 그거알아?" />
+		<comment text="응?" />
+		<comment text="난 니가좋아." />   
+		<comment text="그건 아니다.." />     
+	</dialogue> 
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="운전면허는 어디서 났냐?" />
+		<comment text="너의 어머님꺼." />
+	</dialogue> 
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="한번더어어어 때려줘." />
+		<comment text="기꺼이 해주지." />
+	</dialogue>
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="불안한데." />
+		<comment text="왜 그래?" />      
+		<comment text="바퀴 점검 때문에." />
+		<comment text="무슨 문제가 있길레?" />
+		<comment text="바퀴가 엑셀과도 연결되어 있지 않아서." />    
+	</dialogue>  
+
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="라디오 듣고싶어?" />
+		<comment text="당연하지." />
+	</dialogue> 
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="너랑 같은 분대에 배정받는게 걱정되는데." />
+		<comment text="왜 내가 무슨 문제가 있다고?" />
+		<comment text="이상한건 늘 문제를 만들어. 너는 이상하다고." />    
+	</dialogue> 
+  
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="아무도 보지 않으면 우린 성공하지." />
+		<comment text="지휘관이 보면 늘 우린 실패하지." />
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="대전차 수류탄 조심해라." />
+		<comment text="그래, 그게 수류탄 보다 더 많이 피해를 주니까." />
+		<comment text="다행이도, 이건 피해 반경이 작으니까." />   
+	</dialogue> 
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>  
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="군에 있는 진짜 소녀들은 해치지 않을꺼야." />
+		<comment text="동감, 우리같은 남자에게 도움이 되지." />
+		<comment text="아니야, 그런 뜻이 아니야.." />
+		<comment text="뭐?" /> 
+		<comment text="우리에게는 다림질, 요리 그리고 청소할 사람이 필요하단 말이지." />               
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="개발자가 여기에 폴리곤을 더 넣을 수 있었을텐데." />
+		<comment text="왜 그런데?" />
+		<comment text="뭐, 의자가 날카롭단 말이지." />>    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="오늘은 금요일, 금요일 *숨쉬는 소리*" />
+		<comment text="너 가수를 하지 그랬냐." />
+		<comment text="정말? 진심으로?" /> 
+		<comment text="그래, 그러면 하루 종일 네가 하는 말을 들을 필요가 없을 테니까." />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="새로운 장비를 지급받았어?" />
+		<comment text="응." />
+		<comment text="아우우, 이건 불공정해..." /> 
+   		<comment text="부럽냐?" />    
+	</dialogue> 
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="좀 비켜줄 수 있나?" />
+		<comment text="아니." />
+		<comment text="거어 고맙구만." />
+		<comment text="칭찬 고오맙구먼." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="너도 알다시피 햇살이 없는 날은, 밤과 같아..." />
+		<comment text="허?" />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="오늘밤 날씨가 어떻게 되지?" />
+		<comment text="어두움!" />
+		<comment text="..." />
+	</dialogue>
+	
+ 	<dialogue key="vehicle dialogue 2 men">
+		<comment text="pvp를 즐기는 사람들이 늘었으면 좋겠어" />
+		<comment text="왜?" />
+		<comment text="적어도 우리 같은 봇들을 죽이지는 않잖아" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="남은 탄이 있는지 의심스러우면 탄창을 교체해라." />
+		<comment text="네 알겠습니다!" />
+	</dialogue>   
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="좋은 생각이 났어" />
+		<comment text="잊어버려, 완벽한 계획은 없으니까." />
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="흥분되나 제군들?" />
+		<comment text="네, 그렇습니다!" />
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="오늘 아침에 내가 한 말을 잊지 마라." />
+		<comment text="네 알겠습니다!" />
+		<comment text="우리의 공세가 너무 잘되면 그것은 매복이다!" />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="이 계획은 바보같아" />
+		<comment text="바보같아 보여도 잘되면, 바보같은 계획이 아니야." />
+	</dialogue>   
+  
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="모든 것이 실패하면 어떻하지?" />
+		<comment text="포격을 불러야지." />
+	</dialogue>  
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="언제 마지막으로 운전했어?" />
+		<comment text="오우 이번이 처음이야." />
+		<comment text="그럼 왜 운전대를 잡은거야?" />
+		<comment text="..." />
+		<comment text="분명 우리가 전선에 도착하지 전에 내가 죽고 말거야." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="" />
+		<comment text="" />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="군대에는 2가지 규칙이 있어" />
+		<comment text="각각 뭔데?" />
+		<comment text="#1: 지휘관은 항상 옳다." />
+		<comment text="#2: 만약 옳지않다 생각하면 1번을 다시 보라" />        
+	</dialogue>           
+	
+	<dialogue key="vehicle dialogue 2 men tag=campfire">
+		<comment text="내 발이 불타고 있어." />
+		<comment text="움직여서 꺼." />
+		<comment text="그걸 못하잖아." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="난 이 전차가 너무 좋아." />
+		<comment text="입 좀 닥쳐봐." />
+		<comment text="그건 안돼." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="이 전차 이름을 뭐라 지을까?" />
+		<comment text="왜 그러는데?" />
+		<comment text="뭐 당분간 우리가 쓸거 같으니까..." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="최고의 방어구는 사거리 밖에 있는거지." />
+		<comment text="똑똑하구만." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="우리가 스파르으타다!" />
+		<comment text="..." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="강철 맛이나 봐라!" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="전차에게 있어서 최고의 지형은 대전차 무기가 없는 곳이 로다." /> 
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="고폭탄으로 해결할 수 없는 문제는 없지." /> 
+	</dialogue>  
+  
+  <dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="맘소사, 왜 전차에 고양이가 있어?!" />
+		<comment text="야간 투시경이 고장났단 말이야." />
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men tag=tank">
+		<comment text="이걸 왜 우리가 보병 바사삭이라고 부르는지 알아?" />
+		<comment text="모르겠군. 이유는?" />
+		<comment text="우리가 놈들을 깔아뭉갤 때 나는 소리니까." />
+  </dialogue>    
+              
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="아야." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="나 속이 않좋은데." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="이 인간이 어디쪽으로 가는지 모르겠다." />
+	</dialogue>
+
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="아직 멀었나?" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="쿨쿨쿨." />
+	</dialogue>
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="니 면상좀봐ㅋㅋ!" />
+		<comment text="뭐 임마?!" />
+		<comment text="복셀로 가득찼잖아ㅋㅋ" />     
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="난 공포 영화에서 등장인물이 '누구 있어요?' 라고 말하는 게 좋더라." />
+		<comment text="그래 꼭 마치 살인마가 '예 저는 지금 부엌에 있어요, 샌드위치 드실레요?' 하는 것처럼." />   
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="난 플레이어가 차량 내부를 볼 수 있으면 좋겠어." />
+		<comment text="그러게 내부 좀 만들었으면, 내부 디테일이 너무 없단 말이야." /> 
+		<comment text="개발자야 이게 게임이냐!" />         
+	</dialogue>     
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="" />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="" />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="여기서 이러는 거보다, 차밖에 안전할 거야." />
+	</dialogue>  
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="맛있는 피자가 생각나," />
+		<comment text="아니면 아이스크림," />
+		<comment text="잘익은 닭튀김도 좋고," />
+		<comment text="것도 아니면 두부 샐러드." />
+		<comment text="뭣?!" />               
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="으 이런, 아침에 시멘트라도 먹였어?" />
+		<comment text="미안, 지난주에 칫솔을 잊어버렸어." />    
+	</dialogue>  
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="어음, 이 물건에 녹색이 뭐가 쓸모있어?" />
+		<comment text="으음... 쓸모 없을껄..." />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="이봐 거기, 게임 좀 초기화 시켜줄래?" />
+		<comment text="무슨 일이야?" /> 
+		<comment text="텍스쳐에 낀거같아." />        
+	</dialogue>       
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="붉은 머리띠 말고 머리에는 방탄모를 쓰는게 좋아." />
+		<comment text="네가 맞긴해, 하지만 간지나 보인다고." />    
+		<comment text="총알은 그런거 신경쓰지 않아." />    
+	</dialogue> 
+  
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="땀나는 복셀발 냄새인 거 같은데." /> 
+	</dialogue>    
+	
+	<dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="너 풍선껌 씹을래?" /> 
+		<comment text="아니." /> 
+		<comment text="모두 네가 씹을 것이라 생각했는데." />
+		<comment text="엉?, 무슨 뜻이야...?" />
+		<comment text="아무것도 아니야, 친구!" />                
+	</dialogue> 
+  
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+		<comment text="트럭 운전사들이 하루를 보네는 그 영화를 기억하냐?" />
+		<comment text="그럴리가." />
+		<comment text="그런가, 나도 몰라 우린 모른체로 죽게 될거야." />
+  </dialogue>  
+          
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="곧 진급할 것 같아." />
+		<comment text="진급전에 죽지나 말라고!" />
+		<comment text="고마워, 넌 정말 좋은 친구야." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="나 기분 끝네주는데." />
+	</dialogue>
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="오늘 100번 정도 재배치한 기분인데." />
+		<comment text="그래, 나도 마찬가지야." />  
+		<comment text="실제로 상상해봐." />
+		<comment text="허." />           
+	</dialogue>
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="결혼식장에 참석한 노인들이 나를 쿡쿡 찌르고 '다음은 너야'라고 하던데." />
+		<comment text="그럼 너는 장례식장에서 똑같이 노인들한테 해라." />     
+	</dialogue>    
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="그 텔레마케터가 그렇게 짜증날 수 없어!" />
+		<comment text="세살 짜리한테 전화기 들려주고 그녀가 산타라고 말해, 그럼 될꺼야." />      
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="지난 밤에 이상한 악몽을 꾸었어." />
+		<comment text="어떤?" />   
+		<comment text="모든곳에 1과 0이 있었어." />
+		<comment text="그게 뭐가 문제인데?" />
+		<comment text="근데 거기서 2를 봤어!" />
+		<comment text="으으, 오싹한데." />          
+	</dialogue>   
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="내 아내가 나보고 못생겼다는데, 불륜녀는 내가 잘생겼다더라." />
+		<comment text="그래서?" /> 
+		<comment text="어떻게 생각해?" />
+		<comment text="흐음 둘다 맞는거 같은데, 내 생각엔 약간 못생긴거 같아." />    
+		<comment text="제발, 한 번만이라도 진지해질 수 없어?" /> 
+		<comment text="믿어, 진심이야." />                  
+	</dialogue>      
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="이봐, 말이 참 많은데." />
+		<comment text="가문 전통이라더라." /> 
+		<comment text="무슨 뜻이야?" />
+		<comment text="내 할아버지는 노점상이고, 아버지는 교사였어." />    
+		<comment text="어머니는 뭐였는데?" /> 
+		<comment text="어머니는 여자였어." />              
+	</dialogue>   
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="아버지한테 어떻게 이 소식을 전해야 할까?" />
+		<comment text="어떤 소식이길레?" /> 
+		<comment text="내가 진급에 실패했다는 거." />
+		<comment text="전보로 보내." />    
+		<comment text="뭐라고 보내?" /> 
+		<comment text="'과거 연도의 실적 반복'이라고 보내." />              
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="개발자들이 항공기를 만들지 않아서 다행이야." />
+		<comment text="으음 맞아, 뭔지 모르면 걱정해야 하지." /> 
+		<comment text="그래, 상공에서 뭐가 오는지 걱정할 필요가 없잖아." />
+		<comment text="고층건물, 포병대, 박격포... 으아아악!" />
+		<comment text="하하하하 비둘기 똥 맞았데요!" /> 
+		<comment text="제기랄!" />
+	</dialogue>     
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="전문적인 군인들은 예측이 가능해." />  
+		<comment text="하지만 세상에 대부분은 예측 불가능한 초짜들뿐이지." />                                      
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="항상 군사 정보에 대해서 이야기하고 싶었는데..." />  
+		<comment text="왜 무슨 문제라도 있는거야?" />
+		<comment text="군사 정보는 모순 투성이야." /> 
+		<comment text="에라, 생각 좀 하고 말해라!" />                                            
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="난 이 게임을 하는 플레이어를 보고싶어." />  
+		<comment text="플레이어?" />
+		<comment text="그래 화면뒤에서 우리를 보는 사람 말이야." /> 
+		<comment text="동감해, 좀 비겁한거 같기도 하고." /> 
+		<comment text="그리고 난 플레이어의 그 멍청한 웃음을 참을 수 없다고!" />                                               
+	</dialogue>    
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="만약 상관과 성격상 차이로 충돌이 나는 경우." />  
+		<comment text="으음?" />
+		<comment text="그는 한 성깔을 하는거고, 당신은 문제가 생긴것이다." />                                      
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="지휘관이 더 멍청할수록, 더 중요한 임무를 수행하라는 명령을 받아온다고." />  
+		<comment text="너 옳은 말 했다." />                                     
+	</dialogue>  
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="항상 방법은 존재하지." />  
+		<comment text="그리고 대부분은 먹히지 않지." />                                     
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="지휘관의 새 부인을 보았나?" />  
+		<comment text="그 긴 코를 가진 여자 말이야?" /> 
+		<comment text="그래, 그런 코라면 샤워기 아래에서 담배도 피울 수 있을껄." />                                         
+	</dialogue> 
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="인간의 조상이 원숭이라는게 사실이야?" />  
+		<comment text="그래, 신병은 그렇겠지. 하지만 그 병장은 아닐껄." />                                     
+	</dialogue>  
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="최근 입대한 병사들 중에 남자로 변장한 소녀도 있다던데." />  
+		<comment text="그럼 걔는 애송이들과 같이 옷도 입고 샤워도 하겠지, 안그래?" /> 
+		<comment text="그렇겠지." />  
+		<comment text="그럼, 찾아내지 않을까?" /> 
+		<comment text="그걸 누가 말하지?" />                                              
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="왜 우리는 더욱 비싼 폭탄을 필요로 하지?" />  
+		<comment text="필요하지 않을까." /> 
+		<comment text="수년간 폭격을 한 사람들이 불만을 가진적이 있었나." />                                        
+	</dialogue>      
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="왜 우리 병사들이 며칠간 후퇴한 거지?" />  
+		<comment text="후퇴한 적 없잖아, 반대 방향으로 진군했다고." />  
+		<comment text="아, 알겠어." />                                         
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="군에 입대하려면 올곧을 필요는 없어." />  
+		<comment text="알려줘서 고맙군, 친구." />                                     
+		<comment text="단지 사격시 올곧은 궤적이 나오면 되." />
+	</dialogue>     
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="전쟁은 무식한 사람들에게 지질학을 가르치는 신의 방법이지." />  
+		<comment text="맞는 말이네." />                                     
+	</dialogue> 
+  
+	<dialogue key="defense dialogue 2 men">
+		<comment text="우리의 적이 실수하고 있다면 절대 방해하지 말라." />  
+		<comment text="" />                                    
+	</dialogue>    
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="전장에 그렇게 많은 귀중품이 널려있다면서." />  
+		<comment text="그리고 대부분은 신경쓰지 않지." /> 
+		<comment text="무기고에 파는 것도 그만한 가치가 있다던데." />                                         
+	</dialogue> 
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="오늘은 매우 집중이 필요한 날이야." />  
+		<comment text="특별히 생각한 거는 있어?" /> 
+		<comment text="난 영웅이 되어 TV에 출연할거야" />
+		<comment text="그럼 바퀴속에 연설문이라도 넣어두게?" /> 
+		<comment text="맞아, 그게 내 계획이야." />                                                       
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="이봐, 나 궁금한게 생겼어." />
+		<comment text="뭔데?" />
+		<comment text="도대체 증원군은 어디서 오는 걸까?" />
+		<comment text="무슨 뜻이야?" />
+		<comment text="내말은 증원군이 차량을 타고 오지 않잖아." />
+		<comment text="너 뇌에 산소가 부족한거 아니야?" />
+  </dialogue>
+
+  <dialogue key="defense dialogue 2 men">
+		<comment text="너 방구꼈냐?" />
+		<comment text="헤헤..." />
+		<comment text="이런 망할 창문열어!" />
+		<comment text="네, 알겠습니다!" />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="왜 저놈은 제대로된 처벌이 없는거지?" />
+		<comment text="너의 도마뱀같은 얼굴을 보는 것 만큼은 아니야." />
+		<comment text="뭐? 지금 농담한거야?" />
+		<comment text="엇, 농담이면 좋겠다 이거야." />
+	</dialogue>   
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="" />  
+		<comment text="" />                                     
+	</dialogue> 
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="" />  
+		<comment text="" />                                     
+	</dialogue>    
+	
+   <!-- adventure mode -->
+
+	<!-- commander comments -->
+	<comment key="player promotion" text="좋은 소식일세 제군, 자네는 방금 %rank_name으로 진급했다!" />
+	<comment key="we captured a base" text="%base_name 는 이제 아군의 통제 아래 있다." />
+	<comment key="we captured a base" text="우리가 %base_name 를 점령했다." />
+	<comment key="enemy captured a base" text="%base_name 가 %faction_name 에 의해 점령되었다." />
+	<comment key="enemy captured a base" text="%faction_name 가 %base_name 를 점령했다." />
+	<comment key="neutral captured a base" text="" />
+
+	<comment key="new attack orders" text="새로운 공격 명령이다, 목표 %base_name로 %direction 쪽이다." />
+
+	<comment key="we have lost our last base" text="우리의 모든 기지를 잃었다. 전투는 이미 끝났다!" />
+	<comment key="enemy has lost their last base" text="%faction_name가 패배했다!" />
+	
+	<comment key="our assault ran out of time" text="우리의 공격은 시간을 지체했다. 전투는 이미 끝났다!" />
+	<comment key="enemy assault ran out of time" text="%faction_name가 패배했다!" />
+
+	<comment key="we won by map conquer" text="우리는 이 지역의 모든 기지를 점령했다! 우리가 승리했다!" />
+	<comment key="we won by defense timer" text="우리가 승리했다!" />
+
+	<comment key="our base is under attack" text="%base_name 가 공격받고 있다!" />
+	<comment key="we are attacking a base" text="우리 부대가 %base_name 를 공격하고 있다." />
+
+	<comment key="fighting near a base" text="%base_name 인근에서 교전이 발생했다." />
+	<comment key="fighting near a base" text="%base_name 인근에서 지원 요청을 받았다." />
+	<comment key="fighting near a base" text="%base_name 인근에서 총성을 감지했다." />
+
+	<comment key="defense timer started" text="%faction_name가 모든 기지를 점령하고 있다, %time_left초 밖에 남지않았다. 가라!" />
+	<comment key="defense timer to go" text="%time_left초 밖에 남지않았다. 빨리 가!" />
+	
+   <!-- vehicle delivery objective -->
+	<comment key="vehicle delivered" text="%vehicle_name를 인도했군, 잘했네!" />
+	<comment key="vehicle objective cancelled, vehicle destroyed" text="목표 실패, %vehicle_name가 파괴되었다." />
+	<comment key="vehicle objective instruction" text="%faction_name의 %vehicle_name을 %location 지역에서 발견했다, 수색하고 무기고로 인도하라." />
+	
+	<comment key="resource out of stock" text="%resource_name는 더 이상 사용 할 수 없다." />
+	<comment key="resource added in stock" text="%resource_name를 사용 가능하다." />
+	
+    <comment key="resource out of stock, default" text="%resource_name는 더 이상 무기고에서 사용할 수 없다." />
+    <comment key="resource out of stock, supply" text="%resource_name는 더 이상 4륜 지원차량에서 사용할 수 없다." />
+    <comment key="resource added in stock, default" text="%resource_name를 무기고에서 사용 가능하다." />
+    <comment key="resource added in stock, supply" text="%resource_name를 4륜 지원차량에서 사용 가능하다." />
+	
+	<comment key="overtime, we are winning" text="계속하라 - 우리의 적들이 자원이 고갈되어 가고있다." />
+	<comment key="overtime, we are losing" text="이것이 마지막 기회다, 우리는 빛보다 빠르게 이동해야 한다." />
+	
+   <!-- item delivery objective; briefcases -->
+	<comment key="item delivered" text="목표 완수" />
+	<comment key="item objective instruction" text="" />
+	<comment key="item objective map text" text="" />
+	<comment key="item objective thanks" text="훌륭하군, 이 일에 대한 감사를 표하겠네." />
+	
+   <!-- enemy item delivery objective; weapons -->
+	<comment key="enemy item objective instruction" text="" />
+	<comment key="enemy item objective map text" text="" />
+	<comment key="enemy item objective thanks incomplete" text="계속하게, %number_of_items_left개 남았다!" />
+	<comment key="enemy item objective thanks" text="잘했다, 그걸로 끝이다; 우린 이 형식을 생산해 낼 것이다." />
+
+	<comment key="extraction point available" text="%map_name으로 호송 지점이 활성화 되었다." />
+	<comment key="several extraction points available" text="다수의 호송 지점이 활성화 되었다." />
+
+	<comment key="standby for extraction" text="다음 지역으로 이동하기 위해 대기하라." />
+	
+   <!-- teddy bear hunt session, for fun -->
+	<comment key="flag dropped in container 0" text="%player_name님이 %item_name를 떨어트렸다." />
+	<comment key="flag dropped in container 1" text="%player_name님이 %item_name를 무기고에 넣었다, 득점!" />
+	<comment key="flag dropped in container 2" text="%player_name님이 %item_name를 군장에 넣었다." />
+	<comment key="flag dropped in container 3" text="%player_name님이 %item_name를 창고에 넣었다." />
+
+	<comment key="tutorial end 1" text="잘 따라왔네 제군, 이제 전투 준비를 하게!" />
+	<comment key="tutorial end 2" text="군장 챙겨라 이제 실전이다!" />
+	
+	<comment key="gift box delivered" text="어디 둘러 봅세나 %delivered_item_name, %player_name" />
+	<comment key="gift box delivery, reward" text="여기 자네 전리품일세 %player_name: %item_name1 and %item_name2!" />
+	
+	<comment key="base captured, clear victory, attack break" text="기지를 점령하고 부대를 재정비 하라, 추가적인 지시가 내려올 때까지 대기하라." />
+	<comment key="base captured, defend it" text="기지를 점령했다. 이제 방어하라!" />
+	<comment key="sidebase captured, hold it" text="기지 주위를 확보하고 적의 반격에 대비하라." />
+	<comment key="sidebase captured, reinforcements" text="증원군이 가고있다." />
+	
+	<comment key="Occupy that vehicle!" text="제군, 저 %vehicle_name 에 탑승하라!" />
+	<comment key="Leave the vehicle!" text="제군, 그 %vehicle_name 에서 하차하라!" />
+	
+	
+	<!-- Commander side objective comments -->
+	
+	<comment key="cargo_truck.vehicle spotted, instructions" text="수송 트럭을 노획해 무기고로 인도하라, 파괴되게 두지 말고!" />
+	<comment key="radar_tower.vehicle spotted, instructions" text="레이더 탑을 파괴하라!" />
+	<comment key="radar_truck.vehicle spotted, instructions" text="레이더 트럭을 파괴하라, 놈들이 도망치게 두지 마라!" />
+	<comment key="radio_jammer.vehicle spotted, instructions" text="무전 교란기를 파괴하라!" />
+	<comment key="radio_jammer.vehicle destroyed" text="훌륭해! 무전 교란기가 파괴되었군!" />
+	<comment key="radio_jammer2.vehicle spotted, instructions" text="무전 교란기를 파괴하게!" />
+	<comment key="radio_jammer2.vehicle destroyed" text="잘했다. 무전 교란기가 파괴되었다!" />
+	<!-- radar truck/vehicle destroy also triggers "enemy comms have been destroyed, by us" -->
+	
+	<comment key="prison_building.vehicle spotted, instructions" text="수용소를 파괴하라!" />
+	<comment key="prison_building.vehicle destroyed" text="완벽해! 자유를 만끽한 저들은 우리군에 합류할걸세!" />
+	<comment key="prison_door.vehicle spotted, instructions" text="수용소 문을 파괴하라!" />
+	<comment key="prison_door.vehicle destroyed" text="잘했다! 자유를 만끽한 저들은 우리군에 합류할걸세!" />
+	
+	<!-- Not possible to comment on these just yet -->
+	<!-- <comment key="aa_gun.vehicle spotted, instructions" text="대공포를 파괴하고 항공 지원을 요청할 수 있도록 만들어라!" /> -->
+	<!-- <comment key="aa_gun.vehicle destroyed" text="잘했다! 대공포가 파괴되었다." /> -->
+	
+	<!-- <comment key="coastal_gun.vehicle spotted, instructions" text="해안포를 파괴하고 해군의 화력 지원을 요청할 수 있도록 만들어라!" /> -->
+	<!-- <comment key="coastal_gun.vehicle destroyed" text="잘했다! 해안포가 파괴되었다." /> -->
+
+	<comment key="intel radio reminder" text="필요하다면 증원군과 화력 지원을 요청하는 것을 잊지 마라." />
+	
+	<comment key="intel objectives" text="정찰된 적의 기지를 지도에 표시했다, 분대장들은 임무를 수행하라." />
+	
+	<comment key="report very weak defense" text="보고에 의하면 %base_name는, 거의 무방비 상태라고 한다." />
+	<comment key="respond very weak defense" text="빨리 가게! 기지를 점령하게!" />
+	<comment key="report weak defense" text="보고에 의하면 %base_name는, 방어선이 취약하다고 한다, 오직 %enemy_range명의 적군만 남아있다." />
+	<comment key="respond weak defense" text="기지를 점령하라, 우리는 제군을 믿는다." />
+	<comment key="report medium defense" text="보고에 의하면 %base_name는, 방어선이 안정적이라고 한다, %enemy_range명의 적군이 있다." />
+	<comment key="respond medium defense" text="가능하다 판단되면 기지를 점령하라." />
+	<comment key="report heavy defense" text="보고에 의하면 %base_name는, 견고한 방어선을 구축했다고 한다., %enemy_range명의 적군이 지역에 배치되어 있다." />
+	<comment key="respond heavy defense" text="자네가 잘 해낼 수 있다고 생각한다면 기지를 점령하게." />
+	
+	<!-- Attack delay not enabled for Pacific -->
+	<!-- <comment key="base captured, clear victory, attack break" text="Secure the base perimeter and regroup. Standby for further instructions." /> -->
+	<!-- <comment key="base captured, defend it" text="Secure the base perimeter and defend it!" /> -->
+	<!-- <comment key="sidebase captured, hold it" text="Secure the base perimeter and defend it against a possible counterattack." /> -->
+	<!-- <comment key="sidebase captured, reinforcements" text="Reinforcements are on their way." /> -->
+	
+
+<!-- #EDELWEISS_TRANSLATION -->
+	<comment key="hostile vehicle takeover" text="뭐야? 안돼에에"/>
+	
+	<comment key="enemy seen, vehicle tag = tank" text="전방에 기갑차량!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="여기 대전차 수단이 필요해!"/>
+	
+ 	<comment key="enemy seen, vehicle tag = truck" text="적 차량 접촉!"/>  
+ 	<comment key="enemy seen, vehicle tag = truck" text="이쪽에 트럭을 몰고온다!"/>   
+
+ 	<comment key="enemy seen, vehicle tag = truck" text="적 수송대다!"/>   
+ 	<comment key="enemy seen, vehicle tag = truck" text="적 차량 접촉!"/>  
+ 	<comment key="enemy seen, vehicle tag = truck" text="이쪽에 트럭을 몰고온다!"/>   
+ 	<comment key="enemy seen, vehicle tag = truck" text="저 트럭을 태워버려!"/>                  
+
+	<comment key="Reloading" text="재장전 중이야, 엄호해!"/>
+	<comment key="Reloading" text="재장전해야돼!"/>  
+
+	<comment key="celebrating" text="받아라!"/>
+	<comment key="celebrating" text="살아남았어...."/>
+	<comment key="celebrating" text="휴, 일단은 끝났구만..."/>
+
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="우리가 상대하는 애들이 강습을 밥먹듯 하던 애들이라던데."/>
+		<comment text="망할, 우리 이거 감당할 수 있을까?"/>
+	</dialogue>   
+
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="오늘 밤 일기예보 어떤지 알아?"/>
+		<comment text="엉, 폭탄비가 내린다던데!"/>
+		<comment text="..."/>
+	</dialogue>
+
+	<dialogue key="defense dialogue 2 men">
+		<comment text="망할 게자식들!"/>  
+		<comment text="거슬리지?"/> 
+		<comment text="내가 사살할 적군보다 얘들을 더 많이 죽인 것 같아."/>  
+	</dialogue>
+	
+	<comment key="we captured a base" text="%base_name 거점이 아군에 의해 확보되었다."/>
+	<comment key="we captured a base" text="우리가 %base_name 통제를 얻었으니 진입하여 확보하라."/>
+	<comment key="enemy captured a base" text="%faction_name이 %base_name을 점령했다, 반격을 준비하라!"/>
+	
+	<comment key="we won by map conquer" text="훌륭하다 제군들, 우리가 적군을 밀어냈다."/>
+	<comment key="we won by defense timer" text="저들의 공세력이 고갈되었다. 우리가 이겼다!"/>
+	
+	<comment key="our base is under attack" text="%base_name가 공격받고있다!"/>
+
+	<comment key="we are attacking a base" text="아군이 %base_name를 공격하고있다"/>
+	
+	<comment key="fighting near a base" text="%base_name 인근에 적군 접촉보고가 있다"/>
+	<comment key="fighting near a base" text="%base_name 인근에 지원이 필요하다"/>
+
+	<comment key="defense timer started" text="%faction_name이 구역을 점령했다, %time_left초 남았다!"/>
+	<comment key="defense timer to go" text="%time_left 초 남았다!"/>
+
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="젠장, 놈을 찾아내!"/>
+
+	<comment key="Medic!" text="아악, 아파!"/> 
+	<comment key="We surrender!" text="어떻게 우리를 이겼지.. 그럴리가.."/>
+
+    <comment key="uncapturable_last_base_end_timer, start" text="우리 영역에서 적군을 밀어냈지만 저들이 재탈환하려는 것 같다."/>
+    <comment key="uncapturable_last_base_end_timer, cancel" text="적들에게 다시 거점을 내줄 수는 없다! 위치를 사수해!"/>
+
+<!--	<comment key="enemy counterattack begins" text="We've taken all the critical territories, but enemy forces have been spotted approaching our positions!" />
+	<comment key="enemy counterattack begins with armour" text="Scouts are reporting in, enemy armour is supporting their attack!" />
+	<comment key="enemy counterattack begins with heavy armour" text="Scouts report they can hear heavy armour in the distance! Gear up on anti-tank!" />
+-->
+	<comment key="sicily tiger spawn info 1" text="모든 주요 구역을 확보했으나, 우리 위치로 접근 중인 적군이 발견되었다!"/>
+	<comment key="sicily tiger spawn info 2" text="수색대에 의하면 중장갑 차량 소리가 들려온다고 한다. 대전차전을 대비하라!"/>
+	<comment key="sicily tiger destroyed" text="티거 전차 격파! 반복한다, 티거 전차 격파! 잘했다 제군들!"/>
+	
+	<comment key="enemy generic counterattack begins" text="모든 중요 영역을 확보했으나, 적군이 우리 위치로 접근중이다!"/> 
+	<comment key="enemy generic counterattack begins with armour" text="수색대에 의하면 기갑차량이 적 공세를 지원하기 위해 접근 중이다!"/>
+
+	<comment key="varsity radio tower hint 1" text="베젤 폐허에 있는 무전탑을 파괴하여 적 증원을 지연시켜야한다."/>  
+	<comment key="varsity radio tower hint 2" text="성에 대한 공세를 개시하기 전에 반드시 파괴할 수 있도록!"/>    
+
+	<comment key="capture_base_with_vehicle mode, health=90" text="대전차 화기를 주의해!"/>     
+	<comment key="capture_base_with_vehicle mode, health=50" text="아군 구난 전차가 심각한 피해를 입기 시작했다!"/> 
+	<comment key="capture_base_with_vehicle mode, health=10" text="임무 실패 직전이다, 우리 구난 전차 방어에 더욱 집중해라!"/>         
+	<comment key="capture_base_with_vehicle mode, health=0" text="구난 전차 격파! 엄호 임무 실패!"/>
+    
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="베르사, 정차 명령이 내려졌어!" />    
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="한스, 브레이크 밟아!" />
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="야볼, 정차!" />
+    <comment key="Waiting for squad, taxi, vehicle = cargo_tank" text="정차아아아!" />       
+	
+	<!-- note, happens after "awesome, let's see what what we can come up with this" -->
+	<comment key="no more resources to unlock" text="고맙지만, 새로운 것을 얻을 수는 없네" />
+
+<!-- 1.84 -->
+  
+  <comment key="rangefinder binoculars" text="표적까지의 거리: %range 미터." />  
+
+ </character>

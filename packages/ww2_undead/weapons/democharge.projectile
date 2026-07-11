@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Demolition Charge" key="democharge.projectile" slot="0" on_ground_up="0 1 0" can_be_disarmed="1" can_be_detected_by_driver="0" time_to_live_out_in_the_open="120.0">
+
+<access_tag name="ww2" />
+	
+	<sound class="result" key="other" fileref="heavy_gun_01.wav" volume="2.52" pitch_variety="0.1" />
+	<sound class="result" key="other" fileref="heavy_gun_02.wav" volume="2.52" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_03.wav" volume="2.52" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_04.wav" volume="2.52" pitch_variety="0.1"/>
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+    <trigger class="remote_detonate" />
+	<result
+	class="blast"
+	radius="10.0"
+	damage="48.0"
+	push="2.0"
+	decal="1"
+	/>
+	
+	<model mesh_filename="democharge.xml"/>
+	<hud_icon filename="hud_democharge.png" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.1" />
+	<capacity value="2" source="rank" source_value="0.2" />
+	
+	<rotation class="random" />
+	<throwable
+	curve_height="4.0"
+	near_far_distance="2.0"
+	speed_estimation_near="5.0"
+	speed_estimation_far="5.0"
+	max_speed="5.0"
+	randomness="0.01"
+	/>
+	
+	<commonness value="0.0" can_respawn_with="0"/>
+	<inventory encumbrance="4.0" price="10.0" />
+	
+	<effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="NavalBurstInner" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="NavalBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstUp" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="NavalBurstUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmokeTop1" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmokeTop2" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmokeTop3" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmoke1" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmoke2" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmoke3" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="8.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="11.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="12.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+    <effect class="result" key="other" ref="NavalBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmokeTop1" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmokeTop2" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmokeTop3" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmoke1" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmoke2" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmoke3" post_processing="1" />
+	<effect class="result" key="other" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+</projectile>

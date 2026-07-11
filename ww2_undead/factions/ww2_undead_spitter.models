@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- ----- -->
+	<!-- basic -->
+	<!-- ----- -->	
+	<model filename="ww2_undead_zombie_spitter.xml" />
+
+
+	<!-- ----- -->
+	<!-- vests -->
+	<!-- ----- -->
+
+	<model filename="ww2_undead_zombie_spitter_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_spitter_3"/>
+	</model>
+	<model filename="ww2_undead_zombie_spitter_wounded_1.xml">
+		<requirement class="carry_item" slot="1" key="ww2_undead_zombie_spitter_4"/>
+	</model>
+	
+</models>

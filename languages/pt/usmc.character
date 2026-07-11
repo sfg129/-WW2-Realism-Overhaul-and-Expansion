@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="default0.character">
+    <sound key="death" fileref="usf_death_01.wav" volume="0.85" pitch_variety="0.05"/>
+	<sound key="death" fileref="usf_death_02.wav" volume="1.05" />
+	<sound key="death" fileref="usf_death_03.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_04.wav" volume="0.8" />
+    <sound key="death" fileref="usf_death_07.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_08.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_09.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_11.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_12.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_13.wav" volume="1.0" />
+	<sound key="death" fileref="usf_death_14.wav" volume="1.05" />
+    <sound key="death" fileref="usf_death_16.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_18.wav" volume="0.8" />
+	<!--<sound key="death" fileref="usf_death_19.wav" volume="0.75" pitch_variety="0.025"/>-->
+	<sound key="death" fileref="usf_death_22.wav" volume="0.85" />
+	<sound key="death" fileref="usf_death_23.wav" volume="1.05" />
+	<sound key="death" fileref="usf_death_26.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_29.wav" volume="0.8" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_30.wav" volume="0.8" />
+	<sound key="death" fileref="usf_death_31.wav" volume="0.95" />
+	<sound key="death" fileref="usf_death_32.wav" volume="0.75" pitch_variety="0.025"/>
+	<sound key="death" fileref="usf_death_33.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_34.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_35.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_36.wav" volume="0.9" />
+	<sound key="death" fileref="usf_death_37.wav" volume="0.9" />
+	<sound key="death" fileref="generic_death_01.wav" volume="1.05" />
+	<sound key="death" fileref="generic_death_05.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_06.wav" volume="1.15" />
+    <sound key="death" fileref="generic_death_07.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_08.wav" volume="1.15" />
+	<sound key="death" fileref="generic_death_09.wav" volume="1.15" />
+	<!--<sound key="death" fileref="generic_death_10.wav" volume="1.25" />-->
+	<sound key="death" fileref="generic_death_11.wav" volume="1.15" />
+	
+	<comment key="Medic!" text="Aah, como dói!" /> 
+	
+	<comment key="Reloading" text="Me cubra, recarregando!" />
+	<comment key="Reloading" text="Eu preciso recarregar!" />  
+	
+	<comment key="initiate radio call" text="QG, aqui é a Companhia Able, na escuta?" />
+	<comment key="commander radio response" text="Na escuta Able, prossiga." />
+	
+	<comment key="hostile vehicle takeover" text="O que? NÃOO" />
+	<comment key="hostile vehicle takeover" text="Ei! Isso é - " /> 
+	<comment key="hostile vehicle takeover" text="O que? não não NÃO!" />    
+	
+	<comment key="Lone leader, enemy not seen, taking suppressed fire" text="Ache-o, droga!" />
+	
+	<comment key="enemy seen, vehicle tag = tank" text="Blindado à frente!" /> 
+	<comment key="enemy seen, vehicle tag = tank" text="Nós precisamos de antitanque aqui!"/>
+	<comment key="enemy seen, vehicle tag = tank" text="Taaanque!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Jesus, pro chão! TANNQUE!"/> 
+	<comment key="enemy seen, vehicle tag = tank" text="Eles trouxeram um blindado!" />     
+	
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP à frente!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP à frente! Destrua essa coisa!" />  
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP à vista!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP avistado!" /> 
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP! Cuidado!" />
+ 	<comment key="enemy seen, vehicle tag = apc" text="VBTP! Explodam essa coisa soldados!" />  
+	
+ 	<comment key="enemy seen, vehicle tag = truck" text="Comboio inimigo!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Veículo inimigo à vista!" />  
+ 	<comment key="enemy seen, vehicle tag = truck" text="Eles estam trazendo um caminhão!" />   
+ 	<comment key="enemy seen, vehicle tag = truck" text="Atirem naquele caminhão!" />                  
+	
+	<comment key="Hold on!" text="Aguenta firme cara!" />  
+	
+	<comment key="celebrating" text="Toma essa!" />
+	<comment key="celebrating" text="Eu consegui..." />
+	<comment key="celebrating" text="Ufa, acabou, por enquanto..." />
+	<comment key="celebrating" text="Bom trabalho, pessoal." />
+	<comment key="celebrating" text="Enfia essa onde seu sol nascente não brilha!" />
+	<comment key="celebrating" text="Bela ilha que vocês tinham, eu acho que vou ficar com ela." />
+	<comment key="celebrating" text="Wow, isso foi sorte." />
+	<comment key="celebrating" text="Aeee! Bom trabalho pessoal." />
+	<comment key="celebrating" text="Nós demos um couro neles!" />
+	<comment key="celebrating" text="Desistindo tão fácil?" />
+	<comment key="celebrating" text="Tenho que encontrar uma Katana" />
+	<comment key="celebrating" text="Vou ver se encontro a pistola de um oficial" />
+	
+	<dialogue key="wander dialogue 2 men">
+		<comment text="Sabe, apesar de estarmos na Marinha, estamos caminhando pra caramba." />
+	</dialogue>    
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Eu ouvi que esses caras que estamos contra conduzem ataques." />
+		<comment text="Droga, estamos preparados pra isso?" />
+	</dialogue>   
+      
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Eles te deram equipamento novo?" />
+		<comment text="Sim" />
+		<comment text="Droga, eu preciso de um equipamento novo..." /> 
+		<comment text="Se vira, cara" />    
+	</dialogue> 
+	
+	<dialogue key="vehicle dialogue 2 men">
+		<comment text="Você sabe a previsão do tempo para hoje à noite?" />
+		<comment text="Sim, vai estar chovendo bombas!" />
+		<comment text="..." />
+	</dialogue>
+	
+	<dialogue key="vehicle dialogue 2 men tag=light_tank">
+		<comment text="Qual nome vamos dar ao tanque?" />
+		<comment text="Esmaga Corpos." />
+		<comment text="Aí sim." />
+	</dialogue>
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Esses carangueijos!" />  
+		<comment text="Chatos, não?" /> 
+		<comment text="Eu matei mais deles do que matarei de inimigos." />  
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="Por que nosso pessoal recuou esses dias?" />  
+		<comment text="Eles não recuaram, só avançaram na direção oposta" />  
+		<comment text="Ah, ta bom." />                                       
+	</dialogue>  
+	
+	<dialogue key="defense dialogue 2 men">
+		<comment text="A guerra é a maneira de Deus de ensinar geografia aos ignorantes" />  
+		<comment text="É, eu ouvi que seu pai estavá cavando muitas trincheiras na Grande Guerra." />                                     
+	</dialogue> 
+	
+   <!-- commander comments -->
+	<comment key="player promotion" text="Parabéns soldado, você acabou de ser promovido para %rank_name!" />
+	<comment key="we captured a base" text="%base_name foi capturada pelas nossas forças." />
+	<comment key="we captured a base" text="Nós capturamos %base_name, protejam a base." />
+	<comment key="we captured a base" text="Nossos fuzileiros limparam %base_name!" />
+	<comment key="enemy captured a base" text="The %faction_name capturaram a base %base_name, preparem-se para o contra ataque!" />
+	<comment key="enemy captured a base" text="Os Japoneses conquistaram %base_name" />
+	<comment key="neutral captured a base" text="" />
+	
+	<comment key="we have lost our last base" text="Nós perdemos nossa última base - a batalha está perdida!" />
+	<comment key="enemy has lost their last base" text="%faction_name Foram derrotados!" />
+	
+	<comment key="our assault ran out of time" text="Acabou o tempo para o nosso ataque - a batalha está perdida!" />
+	<comment key="enemy assault ran out of time" text="%faction_name Foram derrotados!" />
+	
+	<comment key="we won by map conquer" text="Excelente trabalho homens, nós empurramos o inimigo pra fora." />
+	<comment key="we won by defense timer" text="O ataque deles se esgotou, nós ganhamos!" />
+	
+	<comment key="our base is under attack" text="%base_name sob ataque!" />
+	<comment key="our base is under attack" text="Temos informação sobre forças Japonesas atacando %base_name." />
+	<comment key="we are attacking a base" text="Nossas forças estão atacando %base_name" />
+	
+	<comment key="fighting near a base" text="Temos informação de inimigos avistados perto de %base_name" />
+	<comment key="fighting near a base" text="Reforços requisitados perto de %base_name" />
+	<comment key="fighting near a base" text="Tiros disparados perto de %base_name" />
+	
+	<comment key="defense timer started" text="%faction_name seguram a área, %time_left segundos restantes!" />
+	<comment key="defense timer to go" text="%time_left segundos restantes!" />
+	
+   <!-- adventure mode -->
+	<comment key="guadalcanal intro, part 1" text="Atenção, chegando relátorio do Comandante" />
+	<comment key="guadalcanal intro, part 2" text="A Marinha acabou de sair - estamos sozinhos aqui." />
+	<comment key="guadalcanal intro, part 3" text="E o que é pior, parece que os Japoneses vão atacar essa linha com tudo o que tem." />
+	<comment key="guadalcanal intro, part 4" text="Segurem a linha, e segurem o campo aéreo à todo custo!" />
+	<comment key="guadalcanal intro, part 5" text="O inimigo irá se aproximar pelo rio, estejam preparados." />
+	<comment key="guadalcanal intro, part 6" text="Boa sorte e que Deus esteja com vocês, soldados! Vocês devem ter uns 30 segundos para entrar em posição!" />
+	<comment key="guadalcanal intro, part 7" text="O inimigo está nos observando, não temos muito tempo!" />
+	
+	<comment key="guadalcanal stage 1" text="Bombardeio inimigo, protejam-se! (Primeira fase começada)" />
+	<comment key="guadalcanal stage 2" text="Segunda onda vindo! (Segunda fase começada)" />
+	<comment key="guadalcanal stage 3" text="Tanques! Eles tem tanques! (Terceira fase começada)" />
+	<comment key="guadalcanal stage 4" text="Eles não desistem, continuem com as defesas! (Quarta fase começada)" />
+	<comment key="guadalcanal stage 5" text="Parece que eles estão se reagrupando para mais uma onda - montem mais defesas! (Intervalo de 2 minutos)" />
+	<comment key="guadalcanal stage 6" text="O Exército desembarcou, mas os inimigos não parecem muito determinados a pararem o ataque.  (Sexta fase começada)" />
+	<comment key="guadalcanal stage 7" text="A Marinha está de volta com a artilharia! Deem inferno para eles!" />
+	<comment key="guadalcanal stage 8" text="Contra ataque!" />
+	
+	<comment key="map start with 1 base, part 1" text="Atenção, relatório do Comandante chegando" />
+	<comment key="map start with 1 base, part 2" text="Bom ter todos vocês aqui em %map_name" />
+	<comment key="map start with 1 base, part 3" text="A frota chegou hoje e está preparada para a operação de desembarque."/>
+	
+	<comment key="map start with 1 base, capture" text="Agora estamos prontos para lançar a invasão, o objetivo é capturar %map_name completely" />
+	<comment key="map start with 1 base, koth" text="O objetivo principal é obter controle de %target_base_name e defender" />
+	
+	<comment key="map advance, held by enemy" text="Nosso batalhão S-2 diz que %map_name é o próximo alvo estratégico. Os %faction_name cavaram tão fundo quanto uma pulga." />
+	<comment key="map advance, another enemy present" text="%faction_name Também foram observados na área" />
+	<comment key="map advance, new map" text="A divisão está preparando mais uma força para desembarcar, vamos indo!" />
+	<comment key="map advance, been there before" text="Ainda temos controle de %number_of_bases bases" />
+	<comment key="map advance, friendly map" text="%map_name é ocupado pela %faction_name, tem estado bem calmo lá" />
+	
+	<comment key="final map, part 1" text="Atenção, relatório do Comandante chegando" />
+	<comment key="final map, part 2" text="Bom ter todos vocês aqui em %map_name" />
+	<comment key="final map, part 3" text="Essa é a hora - o solo principal do inimigo!" />
+	<comment key="final map, part 5" text="Ilha por ilha, batalha por batalha empurramos os %faction_name." />
+	<comment key="final map, part 6" text="Mas aqui e agora, Operação Downfall já começou." />
+	<comment key="final map, part 7" text="Ganhe essa batalha e termine essa guerra, de uma vez por todas!" />
+	
+   <!-- reinforcement commander lines -->
+	<comment key="spawn_in_base_call, accepted, key=usmc_inf.call" text="Esquadrões de rifle do exército mobilizados para %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle.call" text="M3 Stuart mobilizado em %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle1.call" text="LVT-4 mobilizado em %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3 Sherman mobilizado em %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usmc_inf.call" text="Nenhum ponto válido para mobilização encontrado, capturem uma base!" />
+	<comment key="spawn_in_base_call, denied, key=usmc_vehicle.call" text="Nenhum ponto válido para mobilização encontrado, capturem uma base!" />
+	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="Nenhum ponto válido para mobilização encontrado, capturem uma base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman.call" text="Nenhum ponto válido para mobilização encontrado, capture uma base!"/>
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW Arsenal mobilizado em %base_name"/>
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="Nenhum ponto válido para mobilização encontrado, capture uma base!"/>
+	
+   <!-- character specific animation override table -->
+	<animation key="recoil, pistol, 2hand" target_key="recoil, pistol" />
+	<animation key="reloading, pistol, 2hand" target_key="reloading, pistol, pacific" />
+	<animation key="still, pistol, 2hand" target_key="hold, pistol" />
+	<animation key="crouch, pistol, 2hand" target_key="crouch, pistol" />
+	<animation key="reloading, c96 pistol, 2hand" target_key="reloading, c96 pistol"/>
+	<animation key="reloading, enfield pistol, 2hand" target_key="reloading, enfield pistol"/>
+	
+</character>

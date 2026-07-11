@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<!-- we won't translate the Japanese ranks for now, keep them as it -->	
+	<text key="Nitohei" text="이등병" />
+	<text key="Ittohei" text="일등병" />
+	<text key="Gocho" text="오장" />
+	<text key="Gunso" text="군조" />
+	<text key="Socho" text="조장" />
+	<text key="Jun-i" text="준위" />
+	<text key="Rikugun-Shoi" text="육군 소위" />
+	<text key="Rikugun-Chui" text="육군 중위" />
+	<text key="Rikugun-Tai-i" text="육군 대위" />
+	<text key="Rikugun-Shosa" text="육군 소좌" />
+	<text key="Rikugun-Chusa" text="육군 중좌" />
+	<text key="Rikugun-Taisa" text="육군 대좌" />
+	<text key="Rikugun-Shosho" text="육군 소장" />
+	<text key="Rikugun-Chujo" text="육군 중장" />
+	<text key="Rikugun-Taisho" text="육군 대장" />
+	<text key="Gensui-Rikugun-Taisho" text="육군 원수" />
+	<text key="Daigensui-Rikugun-Taisho" text="육군 대원수" />
+
+<!-- start translating below -->
+    
+	<text key="Requesting Close Air Support" text="근접항공지원 요청" />
+	<text key="Rockets Advised" text="로켓 지원" />
+	<text key="Precision Bombing" text="정밀 폭격" />
+	<text key="Copy, target in sight" text="확인, 목표물 발견" />
+	<text key="rockets out." text="로켓 발사" />
+	<text key="bombs away." text="폭탄 투하" />
+	<text key="Requesting Fire Support" text="화력지원요청" />
+	<text key="Light Naval Guns, Saturation Bombardment" text="경함포 포격" />
+	<text key="Heavy Naval Guns" text="중함포 포격" />
+	<text key="Roger, wait three." text="알겠다, 3회 발사 대기중" />
+	<text key="Roger, guns rotating to target." text="확인, 목표 지점으로 포를 조준한다." />
+	<text key="Barrage under way." text="포탄이 가고있다." />
+	<text key="Shots out." text="발사" />
+	<text key="Reinforcements - US Army Squad" text="증원 요청 - 합중국 육군 분대" />
+	<text key="Reinforcements - Banzai Charge" text="증원 요청 - 반자이 돌격" />
+	<text key="Requesting reinforcements, Army rifle squad" text="육군 소총수 분대를 증원 요청한다." />
+	<text key="Requesting reinforcements, banzai charge!" text="반자이 돌격을 요청한다!" />
+	<text key="Roger" text="알겠다."/>
+	<text key="US Army rifles deployed" text="육군 소총수가 배치되었다." />
+	<text key="Banzai charge deployed" text="반자이 돌격 개시!" />
+	<text key="Reinforcements - M3 Stuart Light Tank" text="증원 - M3 스튜어트" />
+	<text key="Reinforcements - Type 95 Ha-Go Light Tank" text="증원 - 95식 경전차 하고" />
+	<text key="Reinforcements - Type 1 Ho-Ha" text="증원 - 1식 양장궤장갑병차 호하" />           
+	<text key="Reinforcements - LVT-4 Water Buffalo" text="LVT-4 워터 버팔로" />
+	<text key="Requesting reinforcements, M3 Stuart" text="M3 스튜어트 증원을 요청한다." />
+	<text key="Requesting reinforcements, Type 95 Ha-Go" text="95식 경전차 하고 증원을 요청한다." />
+	<text key="Requesting reinforcements, Type 1 Ho-Ha" text="1식 양장궤장갑병차 호하 증원을 요청한다." />   
+	<text key="Requesting reinforcements, LVT-4" text="LVT-4 증원을 요청한다." />
+	<text key="Copy, loud and clear" text="알겠다, 바로 시행하겠다." />
+	<text key="M3 Stuart deployed" text="M3 스튜어트 배치" />
+	<text key="Type 95 Ha-Go deployed" text="95식 경전차 하고 배치" />
+	<text key="LVT-4 deployed" text="LVT-4 배치" />
+	<text key="Type 1 Ho-Ha deployed" text="양장궤장갑병차 호하 배치" />  
+	<text key="Requesting Fire Mission" text="화력 지원 요청" />
+	<text key="Light Mortars" text="경박격포" />
+	<text key="Heavy Rocket-Propelled Mortars" text="중로켓 박격포" />
+	<text key="Roger, wait one." text="알겠다. 1회 발사" />
+	<text key="Roger, wait two." text="알겠다 2회 발사" />
+	<text key="Rounds on the way." text="포탄이 곧 착탄한다." />
+	
+<!-- 1.70 -->
+	<text key="Reinforcements - Type 4 Ka-Tsu" text="증원 - 4식 내화정 카츠" />  
+	<text key="Requesting reinforcements, Type 4 Ka-Tsu" text="4식 내화정 카츠 증원 요청한다." />  
+	<text key="Type 4 Ka-Tsu deployed" text="4식 내화정 카츠 배치완료" />  
+	
+	<text key="Type 4 Ka-Tsu" text="4식 내화정 카츠" />  	
+	
+	<text key="5-Inch Gun" text="5인치 포" />
+	<text key="Anti-Aircraft Gun" text="대공포" />
+	<text key="Bofors Gun" text="보포스 기관포" />
+	<text key="Type 95 Ha-Go" text="95식 경전차 하고" />
+	<text key="Type 1 Ho-Ha" text="1식 양장궤장갑병차 호하" />      
+	<text key="Heavy Mortar" text="중박격포" />
+	<text key="Willys Jeep" text="윌리스 지프" />
+	<text key="Kurogane" text="95식 4륜차량 쿠로가네" />
+	<text key="Higgins Boat" text="상륙정" />
+	<text key="Armory Higgins Boat" text="무기고 상륙정" />  
+	<text key="Daihatsu" text="타이하츠 상륙정" />
+	<text key="Armory Daihatsu" text="무기고 타이하츠 상륙정" />  
+	<text key="LVT-4" text="LVT-4" />
+	<text key="M1919A4 HMG" text="M1919A4 중기관총" />
+	<text key="M1919A6 LMG" text="M1919A6 경기관총" />
+	<text key="Oerlikon Gun" text="오리콘 포" />
+	<text key="Pillbox" text="특화점" />
+	<text key="Prison Building" text="수용소" />
+	<text key="Prison Hatch" text="수용소 출입구" />
+	<text key="PT Boat" text="초계 어뢰정" />
+	<text key="M3 Stuart" text="M3 스튜어트 경전차" />
+	<text key="Submarine" text="잠수함" />
+	<text key="Type 92 HMG" text="92식 중기관총" />`
+	<text key="Type 98 Autocannon" text="98식 기관포" />
+	
+
+	
+	<text key="Type 96 AT/AA Gun" text="96식 대전차/대공포" />
+	<text key="air strike bomb" text="항공 폭탄" />
+	<text key="air strike rocket" text="항공 로켓" />
+	<text key="artillery shell" text="포탄" />
+	<text key="Type MO Carbine" text="M0식 카빈" />
+	<text key="Coastal Gun shell" text="해안포 포탄" />
+	<text key="Coastal Gun" text="해안포" />
+	<text key="Cover deploy" text="엄폐물 설치도구" />
+	<text key="Demolition Charge" text="폭발물" />
+	<text key="flamethrower" text="화염방사기" />
+	<text key="Type 95 Ha-Go cannon" text="95식 호하 주포" />
+	<text key="Type 95 Ha-Go MG" text="95식 호하 기관총" />
+	<text key="Ho-Ha MG" text="호하 기관총" /> 
+	<text key="Heavy Mortar shell" text="중박격포탄" />
+	<text key="Higgins Boat MG" text="상륙정 기관총" />
+	<text key="Type 94 shin gunto" text="94식 신군도" />
+	<text key="LVT-4 .50 HMG" text="LVT-4 50구경 중기관총" />
+	<text key="LVT-4 .30 HMG" text="LVT-4 30구경 중기관총" />
+	<text key="M1 Bazooka" text="M1 바주카" />
+	<text key="M1 Bazooka Rocket" text="M1 바주카 로켓" />
+	<text key="M1 Carbine" text="M1 카빈" />
+	<text key="M1 Garand" text="M1 개런드" />
+	<text key="M1 Garand Bayonet" text="M1 개런드 - 총검" />
+	<text key="field-modified rifle grenade" text="야전 개조형 총류탄" />
+	<text key="M1 Garand Field-Modified Launcher" text="M1 개런드 - 야전 개조형 총류탄 발사기" />
+	<text key="Scoped M1D Garand" text="M1C 개런드 - 조준경 부착" />
+	<text key="M1A1 Thompson" text="M1A1 톰슨" />
+	<text key="M2 Carbine" text="M2 카빈" />
+	<text key="M2 Flamethrower" text="M2 화염방사기" />
+	<text key="M12 Trench Gun" text="M12 트렌치 건" />
+	<text key="M12 Trench Gun Bayonet" text="M12 트렌치 건 - 총검" />
+	<text key="M9 Anti-Tank Rifle Grenade" text="M9 대전차 총류탄" />
+	<text key="M1903A3" text="M1903A3 스프링필드" />
+	<text key="Scoped M1903A1" text="M1903A1 스프링필드 - 조준경 부착" />
+	<text key="M1911A1" text="M1911A1" />
+	<text key="Officer's Engraved M1911A1" text="장교의 각인된 M1911A1" />
+	<text key="M1918A2 BAR" text="M1918A2 BAR" />
+	<text key="M1919A4 HMG" text="M1919A4 중기관총" />
+	<text key="M1919A4 HMG deploy" text="M1919A4 중기관총 설치도구" />
+	<text key="M1928 Thompson" text="M1928 톰슨" />
+	<text key="M1941 Johnson LMG" text="M1941 존슨 경기관총" />
+	<text key="M1941 Johnson Rifle" text="M1941 존슨 소총" />
+	<text key="MkII Grenade" text="MkII 수류탄" />
+	<text key="Morphine" text="모르핀" />
+	<text key="light mortar shell" text="경박격포탄" />
+	<text key="Type STE" text="SU식" />
+	<text key="15-inch battleship shell" text="15인치 전함 포탄" />
+	<text key="PT Boat dual .50 HMG" text="경비전 50구경 중기관총 묶음" />
+	<text key="rocket mortar shell" text="로켓 박격포탄" />
+	<text key="Anti-Tank Satchel Charge" text="대전차 가방 폭탄" />
+	<text key="M3 Stuart cannon" text="M3 스튜어트 주포" />
+	<text key="M3 Stuart MG" text="M3스튜어트 기관총" />
+	<text key="Type 1 SMG" text="1식 기관단총" />
+	<text key="Type 4 Rifle" text="4식 자동소총" />
+	<text key="Type 4 Rocket" text="4식 로켓" />
+	<text key="Type 4 Rocket Launcher" text="4식 로켓 발사기" />
+	<text key="Type 11 LMG" text="11식 경기관총" />
+	<text key="Type 14 Nambu" text="14식 남부 권총" />
+	<text key="Officer's Engraved Type 14 Nambu" text="장교의 각인된 14식 남부 권총" />
+	<text key="Type 38" text="38식 소총" />
+	<text key="Type 2 Anti-Tank Rifle Grenade" text="2식 대전차 총류탄" />
+	<text key="Type 38 Bayonet" text="38식 소총 - 총검" />
+	<text key="rifle grenade" text="총류탄" />
+	<text key="Type 100 Grenade Discharger" text="100식 총류탄발사기" />
+	<text key="Type 44 Folding Bayonet" text="44식 소총 - 접이식총검" />
+	<text key="Type 92 HMG" text="92식 중기관총" />
+	<text key="Type 92 HMG deploy" text="92식 중기관총 설치도구" />
+	<text key="Type 93 Flamethrower" text="93식 화염방사기" />
+	<text key="Type 96 LMG" text="96식 경기관총" />
+	<text key="Type 96 LMG Bayonet" text="96식 경기관총 - 총검" />
+	<text key="Type 96 LMG Trench" text="96식 경기관총 - 참호용" />
+	<text key="Type 96 Trench" text="96식 경기관총 - 참호용" />
+	<text key="Type 97 Anti-Tank Rifle" text="97식 대전차 소총" />
+	<text key="Type 97 Grenade" text="97식 파쇄 수류탄" />
+	<text key="Type 97 Sniper Rifle" text="97식 저격 소총" />
+	<text key="Type 98 Autocannon" text="98식 기관포" />
+	<text key="Type 98 AA deploy" text="98식 대공포 설치도구" />
+	<text key="Type 99 Magnetic AT" text="99식 파갑폭뢰" />
+	<text key="Type 99 LMG" text="99식 경기관총" />
+	<text key="Type 99 LMG Bayonet" text="99식 경기관총 - 총검" />
+	<text key="Type 99" text="99식 소총" />
+	<text key="Type 99 Bayonet" text="99식 소총 - 총검" />
+	<text key="Type 100/44" text="44년형 100식 기관단총" />
+	<text key="Type 100/44 Bayonet" text="44년형 100식 기관단총 - 총검" />
+	<text key="Type 100 Folding Stock" text="100식 기관단총 - 접이식 개머리판" />
+	<text key="Type 100" text="100식 기관단총" />
+  
+	<text key="Sniper Camouflage" text="저격용 위장복" />
+  	<text key="Sniper Camouflage, Severely Damaged" text="저격용 위장복, 치명상"/>
+	<text key="Medal of Honor" text="명예 훈장" />
+	<text key="Order of the Rising Sun" text="욱일장" />
+	<text key="Photograph" text="사진" />
+	<text key="Postcard" text="엽서" />
+	<text key="Record Player" text="축음기" />
+	<text key="Service Rum" text="군용 럼주" />
+	<text key="Sake Bottle" text="사케병" />
+	<text key="Banzai Tenacity" text="반자이" />
+	<text key="Veteran Durability" text="숙련병" /> 
+	
+	<!--v1.64-->
+	<text key="Veteran Durability, Injured" text="숙련병, 부상" />	
+	<text key="Sentry Body Armor" text="파수병" />
+	<text key="Sentry Body Armor, Lightly Damaged" text="파수병, 경상" />
+	<text key="Sentry Body Armor, Moderately Damaged" text="파수병, 부상" />
+	<text key="Sentry Body Armor, Heavily Damaged" text="파수병, 중상" />
+	<text key="Sentry Body Armor, Severely Damaged" text="파수병, 치명상" />
+	<text key="B29 Turret" text="B29 포탑" />
+	<text key="Type 4 Ka-Tsu" text="4식 내화정 카츠" />
+	<text key="Daihatsu shield" text="타이하츠 방패" />
+	<text key="B29 Double .50 HMG" text="B29 50구경 중기관총 묶음" />
+	<text key="B29 20mm" text="B29 20mm 기관포" />
+	<text key="Type 98 LMG" text="98식 경기관총" />
+	<text key="Te-4 - Mobile" text="Te-4 - 보병용" />
+	<text key="Ho-104 - Mobile" text="Ho-104 기관총 - 보병용" />
+
+	<!--v1.7-->
+	<text key="M1903A3 Bayonet" text="M1903A13 스프링필드 - 총검" />		
+	<text key="Type I Carcano" text="이식 카르카노 소총" />
+	<text key="Type I Carcano Bayonet" text="이식 카르카노 소총 - 총검" />
+	<text key="Type Hei Automatic Rifle" text="헤이식 자동소총" />
+	<text key="Type 93 HMG" text="93식 중기관총" />
+	<text key="M55 Reising" text="M55 레이징" />
+	<text key="Type BE" text="베식 기관단총" /> 
+	<text key="Type BE Bayonet" text="베식 기관단총 - 총검" />
+	<text key="Type 2 SMG" text="2식 기관단총" />
+	<text key="Type 99 Sniper Rifle" text="99식 저격 소총" />
+	<text key="Mk3 Concussion Grenade" text="Mk3 진탕 수류탄" />
+	<text key="M55 Reising Folded" text="M55 레이징 - 접이식 개머리판" />
+	<text key="T22 Garand" text="T22 개런드" />
+	<text key="M1921 Thompson w/ 100-round Drum" text="M1921 톰슨 100발들이 탄창" />
+	<text key="Type STE" text="SU식" />
+	<text key="M2 Carbine Bayonet" text="M2 카빈 - 총검" />
+	<text key="M1917 HMG - Mobile" text="기동용 M1917 중기관총" />
+	<text key="ANM2 'Stinger'" text="ANM2 스팅어" />
+	
+	<!-- appended -->
+	<text key="Veteran Durability, Lightly Injured" text="숙련병, 경상" />
+	<text key="Veteran Durability, Severely Injured" text="숙련병, 치명상" />
+	<text key="Banzai Tenacity, Lightly Injured" text="반자이, 경상" />
+	<text key="Banzai Tenacity, Severely Injured" text="반자이, 치명상" />
+	<text key="M1 Thompson" text="M1 톰슨" />
+	<text key="M1918A2 BAR Rapid Fire" text="M1918A2 BAR - 속사형" />
+	<text key="M1919A6 LMG - Mobile" text="M1919A6 경기관총 - 보병용" />
+	<text key="Type STE Bayonet" text="SU식 - 총검" />
+	<text key="Type 100 Bayonet" text="100식 기관단총 - 총검" />
+	<text key="large wrench" text="큰 렌치" />
+	<text key="small wrench" text="작은 렌치" />
+	<text key="Scoped Type 99 LMG" text="99식 경기관총 - 조준경 부착" />	
+	
+	<!-- 1.87 -->
+	<text key="Reinforcements - Type 97 Chi-Ha Kai" text="증원 - 97식 탱크"/>
+	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="97식 탱크 하고 증원을 요청한다." />
+	<text key="Type 97 Chi-Ha Kai deployed" text="95식 경전차 하고 배치" />
+	
+	<text key="Type 97 Chi-Ha Kai" text="97식 탱크"/>
+	<text key="Fortified Turret" text="요새화된 포탑 "/>
+
+	<text key="M1 Garand w/ 60mm Launcher" text="M1 60mm 총류탄 발사기 - 대보병"/>
+	<text key="M1 Garand w/ 60mm Launcher - M9 AT" text="M1 개런드 60mm 총류탄 발사기 - 대전차"/>
+
+	<!-- 1.91 -->
+	<text key="Type 44 Carbine" text="44식 소총" />	<!-- accidently untranslated earlier -->
+	<!--<text key="Type 44 Carbine Bayonet" />-->	<!-- handled in Edelweiss translations so all good -->
+	<text key="Scoped M1941 Johnson Rifle" text="M1941 존슨 소총 - 조준경 부착" />
+	<text key="Type Ko" text="KO식" />
+	<text key="Type Ko Bayonet" text="KO식 - 총검" />
+	<text key="Type 4 Rifle Bayonet" text="4식 자동소총 - 총검" />
+	<text key="Type 100 Folding Bayonet" text="100식 기관단총 - 접이식 개머리판 - 총검" />
+
+	<!-- formerly missing -->
+	<text key="Type 2 AT Rifle Grenade" text="2식 대전차총류탄"/>
+	<text key="M9 AT Rifle Grenade" text="M9 대전차총류탄"/>
+	<text key="Type 99 - Hi-Grade" text="99식 소총 - 고급"/>
+	<text key="Type 99 - Hi-Grade Bayonet" text="99식 소총 - 고급 착검형"/>
+	<text key="Type 100 HE Grenade Discharger" text="100식 고폭총류탄"/>
+	<text key="M1928 Thompson w/ 50-round Drum" text="M1928 톰슨 50발들이 탄창"/>
+
+	<!-- 1.98 -->
+	<text key="Type 4 Su-Ki Armory" text="Type 4 Su-Ki Armory"/>
+	<text key="Reinforcements - Type 4 Su-Ki Armory" text="Reinforcements - Type 4 Su-Ki Armory"/>
+	<text key="Requesting reinforcements, Type 4 Su-Ki Armory" text="Requesting reinforcements, Type 4 Su-Ki Armory"/>
+	<text key="Type 4 Su-Ki Armory deployed" text="Type 4 Su-Ki Armory deployed"/>
+
+	<text key="DUKW Armory" text="DUKW Armory"/>
+	<text key="Reinforcements - DUKW Armory" text="Reinforcements - DUKW Armory"/>
+	<text key="Requesting reinforcements, DUKW Armory" text="Requesting reinforcements, DUKW Armory"/>
+	<text key="DUKW Armory deployed" text="DUKW Armory deployed"/>
+	
+</translation>

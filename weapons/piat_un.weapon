@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon filename="piat.weapon" key="piat_un.weapon" drop_count_factor_on_death="0.0">
+
+	<specification
+		magazine_size="-1" 
+	retrigger_time="4.5" 
+	spread_range="0.1"
+		sight_range_modifier="1.5" 
+
+		
+	/>
+
+</weapon>
+
+

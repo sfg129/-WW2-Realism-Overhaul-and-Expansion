@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	
+	<weapon key="vickers_hmg_resource.weapon" />
+	
+	<weapon key="piat.weapon" />
+	<!--<weapon key="smle_rifle_grenade_at.weapon" />-->
+
+	<!--<weapon key="browning_hp.weapon" />-->
+	<!--<weapon key="browning_hp_carbine.weapon" />-->
+	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
+	
+	<projectile key="mills_bomb_grenade.projectile" />
+	<projectile key="satchel.projectile" />
+	<projectile key="democharge.projectile" />
+	<weapon key='binoculars.weapon' />
+
+	<projectile key="flare.projectile" />  
+	
+</resources>

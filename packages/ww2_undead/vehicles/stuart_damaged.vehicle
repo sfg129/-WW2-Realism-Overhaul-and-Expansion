@@ -1,0 +1,3 @@
+<vehicle file="stuart_base.vehicle" key="stuart_damaged.vehicle" respawn_time="86400" allow_ai_to_use="0" existence="one_per_faction" reserves_spawn_point="1">
+	<tag name="light_tank_damaged" />
+</vehicle>
