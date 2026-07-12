@@ -9,7 +9,7 @@
 		</character>
 		<ai filename="default.ai" />
 		
-		<models file="usmc_army.models" />
+		<models file="us_army_default_normandy.models" />
 		
 		<resources file="common.resources" />
 		<resources file="usf_inf_primaries.resources" />
@@ -43,7 +43,7 @@
 		<character filename="usf.character" />
 		<ai filename="default.ai" />
 		
-		<models file="usmc_army.models" />
+		<models file="us_army_default_normandy.models" />
 
 		<resources file="common.resources" />
 		<resources file="usf_inf_primaries_ai.resources" />
@@ -74,7 +74,7 @@
 		<character filename="usf.character" />
 		<ai filename="default_mg.ai" />
 		
-		<models file="usmc_army.models" />
+		<models file="us_army_default_normandy.models" />
 		
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai_mg.resources" />
@@ -108,7 +108,7 @@
 		<character filename="usf.character" />
 		<ai filename="elite.ai" />
 		
-		<model filename="soldier_usmc_army_veteran.xml" />
+		<model filename="soldier_army_normandy_ranger_2.xml" />
 		
 		<resources file="usf_airborne_veteran_primaries.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
@@ -143,7 +143,7 @@
 		<character filename="usf.character" />
 		<ai filename="elite.ai" />
 		
-		<model filename="soldier_usmc_army_veteran.xml" />
+		<model filename="soldier_army_normandy_ranger_2.xml" />
 		
 		<!-- has some weapons cut out to prevent call-in spam -->
 		<resources file="usf_airborne_veteran_primaries_callin.resources" />
@@ -179,7 +179,7 @@
 		<character filename="usf.character" />
 		<ai filename="banzai.ai" />
 		
-		<model filename="soldier_usf_paratrooper_assault.xml" /> 
+		<model filename="soldier_army_normandy_ranger_1.xml" /> 
 		
 		<resources file="usf_airborne_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
@@ -213,7 +213,7 @@
 		<character filename="usf.character" />
 		<ai filename="banzai.ai" />
 		
-		<model filename="soldier_usf_paratrooper_assault.xml" /> 
+		<model filename="soldier_army_normandy_ranger_1.xml" /> 
 		
 		<resources file="usf_airborne_primaries_assault_callin.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
@@ -344,7 +344,7 @@
 		<character filename="usf.character" />
 		<ai filename="default.ai" />
 		
-		<models file="usf_default.models" />
+		<models file="us_army_default_normandy.models" />
 		
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai.resources" />
@@ -378,7 +378,7 @@
 		<character filename="usmc.character" />
 		<ai filename="flamethrower_operator.ai" />
 		
-		<models file="usf_default.models" />
+		<models file="us_army_default_normandy.models" />
 		
 		<resources file="usmc_flamethrower_primaries.resources" />
 		<resources file="usmc_flamethrower_secondaries.resources" />
@@ -409,7 +409,7 @@
 		<character filename="usmc.character" />
 		<ai filename="flamethrower_operator.ai" />
 		
-		<models file="usmc_flamethrower_veteran.models" />
+		<models file="us_army_default_normandy.models" />
 		
 		<resources file="usmc_flamethrower_primaries.resources" />
 		<resources file="usmc_flamethrower_veteran_secondaries.resources" />

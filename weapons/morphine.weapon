@@ -35,7 +35,7 @@
 	<model filename="morphine.xml" />
 	<hud_icon filename="hud_morphine.png" />
 	
-	<commonness value="0.1" can_respawn_with="1" in_stock="1" />
+	<commonness value="0.2" can_respawn_with="1" in_stock="1" />
 	<inventory encumbrance="0.1" price="2.0" />
 	
 	<capacity value="12" source="rank" source_value="0.0" />

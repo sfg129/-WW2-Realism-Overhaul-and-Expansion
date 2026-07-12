@@ -6,9 +6,9 @@
 	<specification 
 	retrigger_time="0.109" 
 	accuracy_factor="0.94"
-	sustained_fire_grow_step="0.27"
+	sustained_fire_grow_step="0.26"
 	sustained_fire_diminish_rate="1.8"
-	stance_accuracy_rate="0.8"
+	stance_accuracy_rate="1"
 	magazine_size="47" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
@@ -50,7 +50,7 @@
 	<hud_icon filename="hud_dp27.png" />
 	
 	<commonness value="0.02" />
-	<inventory encumbrance="11.0" price="50" />
+	<inventory encumbrance="8.0" price="50" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

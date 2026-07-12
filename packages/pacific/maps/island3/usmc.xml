@@ -10,6 +10,7 @@
 		<ai filename="default.ai" />
 		
 		<models file="usmc_default.models" />
+		<models file="usmc_army_late_default.models" />
 		
 		<resources file="common.resources" />
 		<resources file="usmc_primaries.resources" />
@@ -39,12 +40,12 @@
 	<!-- ============= -->
 	<!-- REGULAR INFANTRY GROUP -->
 	<!-- ============= -->
-	<soldier name="regular" spawn_score="0.8">
+	<soldier name="regular" spawn_score="0.5">
 		<character filename="usmc.character" />
 		<ai filename="default.ai" />
 		
 		<models file="usmc_default.models" />
-		
+
 		<resources file="common.resources" />
 		<resources file="usmc_primaries_ai.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
@@ -69,7 +70,36 @@
 		</attribute_config>
 		
 	</soldier>
-
+<soldier name="regular2" spawn_score="0.3">
+		<character filename="usmc.character" />
+		<ai filename="default.ai" />
+		
+	
+		<models file="usmc_army_late_default.models" />
+		<resources file="common.resources" />
+		<resources file="usmc_primaries_ai.resources" />
+		<resources file="usmc_secondaries_ai.resources" />
+		<resources file="usmc_default.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="100.0" max="200.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+		
+	</soldier>
 	<soldier name="assault" spawn_score="0.1" squad_size_xp_cap="0.5">
 		<character filename="usmc.character" />
 		<ai filename="banzai.ai" />
@@ -105,7 +135,7 @@
 		<ai filename="default_mg.ai" />
 		
 		<models file="usmc_default.models" />
-		
+		<models file="usmc_army_late_default.models" />
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai_mg.resources" />
 		<resources file="usf_airborne_secondaries_ai_mg.resources" />
@@ -165,7 +195,37 @@
 		</attribute_config>
 		
 	</soldier>
-
+<soldier name="veteran2" spawn_score="0.03">
+		<character filename="usmc.character" />
+		<ai filename="elite.ai" />
+		
+<models file="usmc_army_late_default.models" />
+		
+		<resources file="usmc_veteran_primaries.resources" />
+		<resources file="usmc_veteran_secondaries.resources" />
+		<resources file="usmc_leader_call.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.55" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="0.6" min="200.0" max="300.0" />
+      <attribute weight="0.2" min="700.0" max="1000.0" />
+      <attribute weight="0.2" min="1000.0" max="2000.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="0.9" min="0.5" max="0.95" />
+			<attribute weight="0.1" min="0.5" max="6.0" />
+		</attribute_config>
+		
+	</soldier>
 	<!-- ============= -->
 	<!-- SENTRY GROUP -->
 	<!-- ============= -->

@@ -3,95 +3,109 @@
 	<!-- ----- -->
 	<!-- basic -->
 	<!-- ----- -->	
-	<model filename="soldier_usmc_1.xml" /> 
-	<!--<model filename="soldier_usmc_2.xml" />-->
-	<!--<model filename="soldier_usmc_3.xml" />-->
-	<model filename="soldier_usmc_4.xml" />
+	<model filename="soldier_army_normandy_1.xml" /> 
+	<model filename="soldier_army_normandy_2.xml" /> 
+	<model filename="soldier_army_normandy_3.xml" /> 
+	<model filename="soldier_army_normandy_4.xml" /> 
+	<model filename="soldier_army_normandy_5.xml" /> 
+	<model filename="soldier_army_normandy_6.xml" /> 
 
 
-
-
-	<!-- ----- -->
-	<!-- vests -->
-	<!-- ----- -->
 	<model filename="vest_cameraman.xml">
 		<requirement class="carry_item" slot="1" key="vest_cameraman.carry_item"/>
 	</model>
 
+	<model filename="soldier_usmc_sniper.xml">
+		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+	</model>
+	<model filename="soldier_usmc_sniper.xml">
+		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
+	</model>
 
-    <model filename="soldier_usmc_sniper.xml">
-        <requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
-    </model>
-    <model filename="soldier_usmc_sniper.xml">
-        <requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
-    </model>
 
-
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
 	</model>
 
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
 	</model>
 
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
 	</model>
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
 	</model>
 
-
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry_2"/>
 	</model>
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry_3"/>
 	</model>
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry_4"/>
 	</model>
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry_5"/>
 	</model>
-	<model filename="soldier_usmc_body_armour.xml">
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
 		<requirement class="carry_item" slot="1" key="vest_sentry_6"/>
+	</model>
+
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai.carry_item"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai_2"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai_3"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai_4"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai_5"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_body_armour.xml">
+		<requirement class="carry_item" slot="1" key="vest_sentry_for_ai_6"/>
 	</model>
 
 	<!-- ------- -->
@@ -125,63 +139,63 @@
 		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
 	</model>
 
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
 	</model>
 
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
 	</model>
 
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
 	</model>
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
 	</model>
@@ -226,63 +240,63 @@
 	</model>
 
 
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
 	</model>
 
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_army_normandy_ranger_1.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_banzai_3"/>
 	</model>
 
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
 	</model>
 
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_1.xml">
+	<model filename="soldier_army_normandy_ranger_2.xml">
 		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
 		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
 	</model>
