@@ -100,7 +100,7 @@
 		
 	</soldier>
 
-	<soldier name="mg" spawn_score="0.16">
+	<soldier name="mg" spawn_score="0.1">
 		<character filename="wh.character" />
 		<ai filename="default_mg.ai" />
 		
