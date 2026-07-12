@@ -5,7 +5,7 @@
 	<vehicle file="mg42_hmg_t.vehicle" />
 	<vehicle file="m2hb_hmg_t.vehicle" />
 	<vehicle file="type92_hmg_t.vehicle" />
-<vehicle file="m1919_hmg_t.vehicle" />
+	<vehicle file="vickers_hmg_t.vehicle" />
 	<vehicle file="m1917_hmg_t.vehicle" />
 	<vehicle file="m1917_hmg.vehicle" />
 	<vehicle file="universal_carrier_boys.vehicle" />

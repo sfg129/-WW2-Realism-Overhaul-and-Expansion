@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_carry_items="1">
 
-<?xml version="1.0" encoding="utf-8"?>
-<resources clear_carry_items="1">
-
 	<carry_item key="fruit_bananas.carry_item" />
 	<carry_item key="fruit_coconut.carry_item" />
 	<carry_item key="fruit_dragonfruit.carry_item" />
@@ -57,7 +54,5 @@
   	<carry_item key="victoria_cross.carry_item" />
   	<carry_item key="iron_cross.carry_item" />
   	<carry_item key="gold_bar.carry_item" />
-
-</resources>
 
 </resources>

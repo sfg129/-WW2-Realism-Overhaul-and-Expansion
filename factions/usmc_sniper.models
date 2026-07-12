@@ -8,7 +8,7 @@
 	<!-- ----- -->	
 	<model filename="soldier_usmc_sniper.xml" />
 	<model filename="soldier_usmc_army_sniper.xml" />
-		<model filename="soldier_usmc_sniper_veteran.xml">
+	<model filename="soldier_usmc_sniper_veteran.xml">
 	<!-- ----- -->
 	<!-- vests -->
 	<!-- ----- -->

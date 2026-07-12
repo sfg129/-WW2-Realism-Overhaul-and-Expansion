@@ -14,12 +14,13 @@
 	</model>
 
 
-<model filename="soldier_usmc_army_sniper.xml">
-		<requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
-	</model>
-	<model filename="soldier_usmc_army_sniper.xml">
-		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
-	</model>
+
+    <model filename="soldier_usmc_sniper.xml">
+        <requirement class="carry_item" slot="1" key="camouflage_suit.carry_item"/>
+    </model>
+    <model filename="soldier_usmc_sniper.xml">
+        <requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
+    </model>
 
 
 
