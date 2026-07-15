@@ -5,10 +5,10 @@
 
 	<specification 
 	retrigger_time="0.133" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.94" 
 	sustained_fire_grow_step="0.16"
 		sustained_fire_diminish_rate="1.1"
-	stance_accuracy_rate="1.15"
+	stance_accuracy_rate="2"
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	suppressed="0" 
