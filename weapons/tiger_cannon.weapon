@@ -50,6 +50,6 @@
     <effect class="muzzle" ref="CannonSmokeBig" /> 
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
-    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="3.3"/>
+    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="2.3"/>
 
 </weapon>

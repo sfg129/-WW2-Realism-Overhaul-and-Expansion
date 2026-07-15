@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+
+	<!-- "SS" Panzergrenadier have a small chance to 'charge' even when they're not Banzai troops, as they were reknowned for having a near-suicidal amount of zeal -->
+  	<parameter class="willingness_to_charge" value="0.1" />
+
+</ai>

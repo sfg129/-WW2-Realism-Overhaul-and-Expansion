@@ -46,29 +46,29 @@
 
 
 
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_4"/>
 	</model>
 
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_2"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_3"/>
 	</model>
-	<model filename="soldier_usmc_veteran_early.xml">
+	<model filename="soldier_usmc_veteran_early_2.xml">
 		<requirement class="carry_item" slot="1" key="vest_veteran_ija_4"/>
 	</model>
 

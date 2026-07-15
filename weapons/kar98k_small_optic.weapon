@@ -19,7 +19,7 @@
 	projectile_speed="130.0"  
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2"
+	sight_range_modifier="1.8"
 	/>
 
 	<!-- scope zoom was 1.45 -->

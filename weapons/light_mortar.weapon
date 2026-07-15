@@ -7,7 +7,7 @@
 	
 	<specification
         spread_range="0.35"
-	retrigger_time="3" 
+	retrigger_time="3.5" 
 	accuracy_factor="0.95" 
 	sight_range_modifier="4.5"
   ai_sight_range_modifier="1.5"  

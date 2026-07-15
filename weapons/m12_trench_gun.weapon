@@ -7,7 +7,7 @@
 	
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.812"
+	accuracy_factor="0.82"
 	sustained_fire_grow_step="4.0" 
 	magazine_size="7" 
 	can_shoot_standing="1" 

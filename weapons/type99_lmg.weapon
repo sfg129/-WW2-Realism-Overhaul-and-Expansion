@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="type99_lmg.weapon">
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="type99_lmg.weapon"
+	ai_burst_time="0.8" 
+	ai_burst_time_variance="0.4" 
+	ai_burst_wait_time="0.2" 
+	ai_burst_wait_time_variance="0.1"
+>
 	<tag name="has_bayonet" />
 
 

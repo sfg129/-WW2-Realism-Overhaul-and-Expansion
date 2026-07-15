@@ -23,14 +23,13 @@
 		<requirement class="carry_item" slot="1" key="camouflage_suit_2"/>
 	</model>
 
-
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_usmc_army_assault.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing.carry_item"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_usmc_army_assault.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_2"/>
 	</model>
-	<model filename="soldier_usmc_assault.xml">
+	<model filename="soldier_usmc_army_assault.xml">
 		<requirement class="carry_item" slot="1" key="vest_assault_webbing_3"/>
 	</model>
 

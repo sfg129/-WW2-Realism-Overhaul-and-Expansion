@@ -5,7 +5,7 @@
 <access_tag name="ww2" />
 	
 	<specification 
-	retrigger_time="0.2" 
+	retrigger_time="0.25" 
 	accuracy_factor="0.78" 
 	sustained_fire_grow_step="4.0" 
 	magazine_size="8" 
@@ -18,7 +18,6 @@
 	projectile_speed="80.0" 
 	projectiles_per_shot="27"
 	/>
-	<next_in_chain key="browning_auto5_ext.weapon" share_ammo="1" />
 
 	<animation state_key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />

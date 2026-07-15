@@ -7,7 +7,8 @@
 	sustained_fire_grow_step="0.021"
 stance_accuracy_rate="0.6"
 	 />
-	 		
+	 			 		<next_in_chain key="mg34.weapon" share_ammo="0" />
+
 
 	<commonness value="0.05" />
 </weapon>

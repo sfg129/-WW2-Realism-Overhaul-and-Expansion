@@ -5,8 +5,8 @@
 
   <parameter class="accuracy_offset" value="0.5" />   <!-- was 1.05 in 1.81 -->
   <parameter class="accuracy_penalty_range" value="0.0" />
-  <parameter class="max_sight_range_with_muzzle" value="60" />
-  <parameter class="leader_sight_range" value="45" />
+  <parameter class="max_sight_range_with_muzzle" value="54" />
+  <parameter class="leader_sight_range" value="42" />
 
   <parameter class="ai_stand_manually_to_shoot_over_wall" value="1.0"/>		<!-- normal AI don't always need this. this helps with the new cover-accuracy bonus applying to single-shot rifles, but... meh. snipers need it though!-->
   <parameter class="shooting_accuracy_ratio_requirement" value="0.9" />  	<!-- was 0.7 here, but 0.6 in vanilla. < 1.87 was 0.92 -->

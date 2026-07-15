@@ -71,12 +71,12 @@
 		
 	</soldier>
 
-	<soldier name="assault" spawn_score="0.1" squad_size_xp_cap="0.5">
+	<soldier name="assault" spawn_score="0.06" squad_size_xp_cap="0.5">
 		<character filename="usmc.character" />
 		<ai filename="banzai.ai" />
 		
-		<model filename="soldier_usmc_assault.xml" /> 
-		
+		<model filename="soldier_usmc_assault.xml" /> 	
+		<model filename="soldier_usmc_assault_2.xml" /> 	
 		<resources file="usmc_primaries_assault_early.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
 		<resources file="usmc_default_early.resources" />
@@ -100,7 +100,35 @@
 
 		</attribute_config>
 			</soldier>
+<soldier name="assault2" spawn_score="0.04" squad_size_xp_cap="0.5">
+		<character filename="usmc.character" />
+		<ai filename="banzai.ai" />
+	
+		<model filename="soldier_usmc_army_assault.xml" /> 
 
+		<resources file="usmc_primaries_assault.resources" />
+		<resources file="usf_airborne_secondaries_assault.resources" />
+		<resources file="usmc_default.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+
+			<attribute weight="1" min="0" max="1" />
+
+		</attribute_config>
+			</soldier>
 	<soldier name="mg" spawn_score="0.2">
 		<character filename="usmc.character" />
 		<ai filename="default_mg.ai" />

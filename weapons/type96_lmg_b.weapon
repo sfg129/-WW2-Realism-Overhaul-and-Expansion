@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="type96_lmg_b.weapon" >
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="type96_lmg_b.weapon"
+
+
+ >
 	<tag name="assault" />
 		<tag name="has_bayonet" />
 

@@ -5,7 +5,7 @@
 <access_tag name="pacific" />
 
 	<specification 
-	retrigger_time="0.2" 
+	retrigger_time="0.25" 
 	accuracy_factor="0.95" 
 	spread_range="0.285"
 	sustained_fire_grow_step="0.9" 

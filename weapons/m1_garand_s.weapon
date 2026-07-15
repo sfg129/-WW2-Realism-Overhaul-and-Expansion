@@ -8,7 +8,7 @@
 	accuracy_factor="0.98" 
 
 	sustained_fire_grow_step="1.1" 
-	sustained_fire_diminish_rate="0.9"
+	sustained_fire_diminish_rate="0.7"
 	stance_accuracy_rate="0.9"
 	magazine_size="8" 
 	can_shoot_standing="1" 
@@ -20,7 +20,6 @@
 	projectile_speed="140.0" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.4"
 	/>
 <next_in_chain key="m1_garand_is.weapon" share_ammo="1" />
 

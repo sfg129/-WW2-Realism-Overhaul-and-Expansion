@@ -20,8 +20,8 @@
   <parameter class="monitor_enemies_to_stab_while_peace" value="2.0" />
   <parameter class="crouching_near_leader_rejoin_range" value="12.0" />
   <parameter class="grenade_monitor_range" value="30" />
-  <parameter class="leader_sight_range" value="45" />
-  <parameter class="team_member_sight_range" value="38" />
+  <parameter class="leader_sight_range" value="42" />
+  <parameter class="team_member_sight_range" value="36" />
   <parameter class="strike_frequency_time" value="60" /> <!--90-->
   <parameter class="global_separation_radius_factor" value="1.5" />
   <parameter class="prefer_roofs_probability" value="0.85" />
@@ -39,7 +39,7 @@
   <parameter class="choose_enemy_min_dot_range_offset" value="1.125" />
 
   <parameter class="sight_range_muzzle_factor" value="1.8" />
-  <parameter class="max_sight_range_with_muzzle" value="45" />
+  <parameter class="max_sight_range_with_muzzle" value="42" />
 
   <parameter class="active_guarding_probability" value="0.5" />
   <parameter class="leading_inspect_alarm_spread_out_distance" value="30" />

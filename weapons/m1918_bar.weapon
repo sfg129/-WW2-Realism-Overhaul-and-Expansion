@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="m1918_bar.weapon">
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="m1918_bar.weapon"
+	ai_burst_time="0.6" 
+	ai_burst_time_variance="0.2" 
+	ai_burst_wait_time="0.2" 
+	ai_burst_wait_time_variance="0.1">
 	
 <access_tag name="pacific" />
 

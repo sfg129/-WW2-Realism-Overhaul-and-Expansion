@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="bren.weapon">
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="bren.weapon"
+	ai_burst_time="1" 
+	ai_burst_time_variance="0.5" 
+	ai_burst_wait_time="0.2" 
+	ai_burst_wait_time_variance="0.1"
+>
 
 <access_tag name="edelweiss" />
 
