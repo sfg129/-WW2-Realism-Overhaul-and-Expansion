@@ -19,6 +19,7 @@
 	barrel_offset="1.05" 
 	slot="0"
 	sight_range_modifier="1.5" 
+	ai_sight_range_modifier="0.7" 
 	/>
 		<next_in_chain key="m1903_rifle_grenade_at.weapon" share_ammo="1" />
 		<modifier class="speed" value="-0.05" />

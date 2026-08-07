@@ -14,7 +14,7 @@
   	spread_range="0.2"
    sustained_fire_grow_step="0.0118" 
     sustained_fire_diminish_rate="0.13"  
-	    sight_range_modifier="1.5"
+	    sight_range_modifier="1.25"
     ai_sight_range_modifier="1"
 	stance_accuracy_rate="1.0"	
 	magazine_size="-1" 

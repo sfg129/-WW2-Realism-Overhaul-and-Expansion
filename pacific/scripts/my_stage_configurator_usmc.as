@@ -199,6 +199,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_includeLayers.insertLast("layer.usmc"); //carrier eastern part of the island
 		
 		stage.addTracker(PeacefulLastBase(m_metagame, 0));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehicle_m4_e4_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 			stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_stuart_recce.call", "vehicle_stuart_recce_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m3_mortar.call", "vehicle_m3_mortar_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));

@@ -12,7 +12,7 @@
 	suppressed="0" 
 	name="Type 14 Nambu" 
 	class="4" 
-	projectile_speed="85" 
+	projectile_speed="90" 
 	barrel_offset="-0.2" 
 	projectiles_per_shot="1" 
 	burst_shots="1" 

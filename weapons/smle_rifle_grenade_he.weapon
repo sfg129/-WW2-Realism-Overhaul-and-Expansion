@@ -19,6 +19,7 @@
 	slot="0"
 	reload_one_at_a_time="1" 
 	projectile_speed="37.0" 
+	ai_sight_range_modifier="0.7" 
 	barrel_offset="1.05" 
 		sight_range_modifier="1.5" 
 	/>

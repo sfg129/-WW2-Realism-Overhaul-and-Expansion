@@ -9,7 +9,7 @@
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<modifier class="blast_damage" value="-0.9" />
 	
-	<physics max_health="6.0" mass="100.0" extent="1.87 0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 0" collision_model_extent="3.8 2.95 13.0" visual_offset="0 0.7 0.0" /> 
+	<physics max_health="8.0" mass="100.0" extent="1.87 0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 0" collision_model_extent="3.8 2.95 13.0" visual_offset="0 0.7 0.0" /> 
 	
 	<turret offset="0.99 1.68 -3.82" weapon_key="higgins_mg.weapon" weapon_offset="-0.0 0.7 0.5" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0001" />
 	<turret offset="-0.99 1.68 -3.82" weapon_key="higgins_mg.weapon" weapon_offset="-0.0 0.7 0.5" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0001" />

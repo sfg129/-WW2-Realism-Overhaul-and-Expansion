@@ -197,6 +197,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_useCustomTimerMode = true;
 		stage.m_defenseWinTime = 300.0; 
     stage.addTracker(UncapturableLastBaseEndTimer(m_metagame, 300.0, 40));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 
 	stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehicle_m4_e4_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.call", "usf_vehicle_m3_halftrack_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));

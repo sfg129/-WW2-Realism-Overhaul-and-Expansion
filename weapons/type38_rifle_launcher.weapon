@@ -19,6 +19,7 @@
 	slot="0"
 	projectile_speed="35.0" 
 	sight_range_modifier="1.5" 
+	ai_sight_range_modifier="0.7" 
 	barrel_offset="1.05" 
 	/>
 		<next_in_chain key="type38_rifle_launcher_at.weapon" share_ammo="1" />

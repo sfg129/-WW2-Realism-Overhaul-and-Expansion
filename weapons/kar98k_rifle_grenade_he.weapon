@@ -15,6 +15,7 @@
 	can_shoot_prone="1"
 	suppressed="0" 
 	sight_range_modifier="1.5" 
+	ai_sight_range_modifier="0.7" 
 	name="Schiessbecher HE Rifle Grenade" 
 	class="2" 
 	slot="0"

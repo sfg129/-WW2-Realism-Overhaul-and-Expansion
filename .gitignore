@@ -1,2 +1,7 @@
 game.bat
 mod.bat
+compare_animations.py
+make_johnson_lmg2.py
+.git
+.venv
+.vscode
