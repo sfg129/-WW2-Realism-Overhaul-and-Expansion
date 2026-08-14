@@ -11,31 +11,34 @@
 	<specification 
 	retrigger_time="0.108" 
 	accuracy_factor="0.93" 
-	sustained_fire_grow_step="0.24"
-	sustained_fire_diminish_rate="2"
-	stance_accuracy_rate="10"
-	magazine_size="250" 
-	can_shoot_standing="0" 
-	can_shoot_crouching="0" 
+	sustained_fire_grow_step="0.25"
+	sustained_fire_diminish_rate="1.8"
+	stance_accuracy_rate="1.4"
+	magazine_size="100" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
 	suppressed="0" 
 	name="M1919A6 LMG Lightweight" 
 	class="0" 
 	barrel_offset="0.85" 
 	projectile_speed="140.0" 
 	/>
-	<next_in_chain key="m1919_lmg.weapon" share_ammo="1" />
+	<next_in_chain key="m1919_lmg.weapon" share_ammo="0" />
+	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />
+<animation state_key="next_in_chain_in" stance_key="prone" animation_key="reloading, m1919, prone" />
 	<!-- former stats: stance rate was 1.45, velocity was 100, damage was 0.5 -->
 
 	<!-- The M1919A6 offers a very large capacity, yielding immense firepower compared to other LMGs. -->
 	<!-- However it's accuracy is moderate at best, reloads are slow, and it can only fire while Prone or against Cover. -->
 	<!-- This lightweight variant has the carry handle, stock, and flash hider removed; this slightly raises recoil but also increases movement speed and speeds up stance rate. -->
 
-	<modifier class="speed" value="-0.18" />
+	<modifier class="speed" value="-0.16" />
 
 	<!-- Although M1919A4's fire at 0.094 seconds, the M1919A6 is slightly slower (in real life too as far as I can see. -->
-
-	<stance state_key="standing" accuracy="0.5" />		<!-- was 0.75 -->
-	<stance state_key="crouching" accuracy="0.6" />
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.65" />		<!-- was 0.75 -->
+	<stance state_key="crouching" accuracy="0.75" />
 	<stance state_key="prone" accuracy="1.1" />
 	<stance state_key="over_wall" accuracy="1.1" /> 
  
@@ -45,13 +48,14 @@
 	<animation key="recoil" ref="14" />
 	<animation state_key="reload" animation_key="reloading, m1919" />
 	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1919, prone" />
+	<animation state_key="running" animation_key="jogging" />  
 		<animation state_key="hold_on_wall" animation_key="still" />
-    	<animation state_key="hold" animation_key="hold, lmg" />
-		<animation state_key="walking" animation_key="walking, heavy weapon" />
-		<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+		<animation state_key="hold" animation_key="hold, lmg" />
+		<animation state_key="walking" animation_key="walking, hip fire" />
+		<animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
 		<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
 		<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
-		<animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire" />
+		<animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, hip fire" />
 	
 	<weak_hand_hold offset="0.4" />
 	
@@ -60,11 +64,9 @@
 	<sound key="magazine_out" fileref="mg_clip_out.wav" />
 	<sound key="magazine_in" fileref="mg_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber.wav" />
-	
-	<model filename="weapon_m1919a6_light.xml" />
-	<hud_icon filename="hud_m1919a6_light.png" />
-	
-	<commonness value="0.015" can_respawn_with="1" />
+	<model filename="m1919a6.xml" />
+	<hud_icon filename="hud_m1919a6.png" />
+	<commonness value="0.02" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="10.0" price="60.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

@@ -9,12 +9,13 @@
 		</character>
 		<ai filename="default.ai" />
 		
-		<models file="ija_default.models" />
+		<models file="ija_default_early.models" />
 		
 		<resources file="common.resources" />
-		<resources file="ija_primaries.resources" />
-		<resources file="ija_secondaries.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_primaries_early.resources" />
+		<resources file="ija_secondaries_early.resources" />
+		<resources file="ija_default_early.resources" />
+		
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -43,12 +44,13 @@
 		<character filename="ija.character" />
 		<ai filename="default.ai" />
 		
-		<models file="ija_default.models" />
+		<models file="ija_default_early.models" />
 		
 		<resources file="common.resources" />
-		<resources file="ija_primaries_ai.resources" />
-		<resources file="ija_secondaries_ai.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_primaries_early_ai.resources" />
+		<resources file="ija_secondaries_early_ai.resources" />
+		<resources file="ija_default_early.resources" />
+		
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -70,16 +72,18 @@
 		
 	</soldier>
 	
-	<soldier name="mg" spawn_score="0.175">
+	<soldier name="mg" spawn_score="0.16">
 		<character filename="ija.character" />
 		<ai filename="default_mg.ai" />
 		
-		<models file="ija_default.models" />
+		
+		<models file="ija_default_early.models" />
 		
 		<resources file="common.resources" />
-		<resources file="ija_primaries_ai_mg.resources" />
+		<resources file="ija_primaries_early_ai_mg.resources" />
 		<resources file="ija_secondaries_ai_mg.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_default_early.resources" />
+		
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -108,11 +112,12 @@
 		<character filename="ija.character" />
 		<ai filename="elite.ai" />
 		
-		<models file="ija_default.models" />
+		<models file="ija_default_early.models" />
 		
-		<resources file="ija_veteran_primaries.resources" />
-		<resources file="ija_veteran_secondaries.resources" />
-		<resources file="ija_leader_call.resources" />
+		<resources file="ija_veteran_primaries_early.resources" />
+		<resources file="ija_veteran_secondaries_early.resources" />
+		<resources file="ija_leader_call_early.resources" />
+		
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -173,9 +178,9 @@
 	<!-- ============ -->
 	<soldier name="flamethrower_operator" spawn_score="0.01" squad_size_xp_cap="0.5">
 		<character filename="ija.character" />
-		<ai filename="flamethrower_operator.ai" />
+				<ai filename="flamethrower_operator.ai" />
 		
-		<models file="ija_default.models" />
+		<models file="ija_default_early.models" />
 		
 		<resources file="ija_flamethrower_primaries.resources" />
 		<resources file="ija_flamethrower_secondaries.resources" />
@@ -205,6 +210,7 @@
 	<soldier name="flamethrower_operator_veteran" spawn_score="0.003" squad_size_xp_cap="0.5">
 		<character filename="ija.character" />
 		<ai filename="flamethrower_operator.ai" />
+		
 		
 		<models file="ija_flamethrower_veteran.models" />
 		
@@ -272,8 +278,9 @@
 		
 		<model filename="soldier_ija_banzai.xml" /> 
 		
-		<resources file="ija_banzai_primaries.resources" />
+		<resources file="ija_banzai_primaries_early.resources" />
 		<resources file="ija_banzai_secondaries.resources" />
+		
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

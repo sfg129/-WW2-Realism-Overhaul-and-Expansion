@@ -25,7 +25,7 @@ reload_one_at_a_time="1"
 	<!-- The Johnson LMG pairs a high rate of fire with a small capacity magazine. -->
 	<!-- It used to have 0.08 for rate of fire, but has been changed to 0.095. -->
 
-	<stance state_key="running" accuracy="0.5" />
+	<stance state_key="running" accuracy="0.4" />
 	
 	<stance state_key="standing" accuracy="0.9" />	<!-- was 0.3 -->
 	<stance state_key="crouching" accuracy="0.95" />
@@ -61,7 +61,7 @@ reload_one_at_a_time="1"
 	<model filename="m1941_johnson_lmg.xml" />
 	<hud_icon filename="hud_johnson_mg.png" />
 	
-	<commonness value="0.08" can_respawn_with="1" />
+	<commonness value="0.2" can_respawn_with="1" />
 	<inventory encumbrance="8.0" price="225.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

@@ -5,7 +5,7 @@
 
 	<specification 
 	retrigger_time="0.09"
-	accuracy_factor="0.94" 
+	accuracy_factor="0.95" 
 
 	sustained_fire_grow_step="0.19" 
 	sustained_fire_diminish_rate="1.8"

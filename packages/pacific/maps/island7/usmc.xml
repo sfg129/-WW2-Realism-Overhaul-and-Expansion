@@ -12,7 +12,7 @@
 		<models file="usmc_default_default.models" />
 	<models file="usmc_army_late.models" />
 		<resources file="common.resources" />
-		<resources file="usmc_primaries.resources" />
+		<resources file="usmc_army_primaries_ai.resources" />
 		<resources file="usmc_secondaries.resources" />
 		<resources file="usmc_default.resources" />
 		

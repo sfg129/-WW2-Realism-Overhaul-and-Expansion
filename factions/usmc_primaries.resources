@@ -12,7 +12,8 @@
 <weapon key="m12_trench_gun_b.weapon" />	
 	<weapon key="m12_trench_gun.weapon" />
 	<weapon key="m1918_bar_heavy.weapon" />
-	<weapon key="m1919_lmg.weapon" />  
+	<weapon key="m1919_lmg.weapon" />
+	<weapon key="m1919_lmg_light.weapon" />
 <weapon key="m3_greasegun.weapon" />
 	<weapon key="m1903_rifle_s.weapon" />
 <weapon key="m1903_rifle_grenade_he.weapon" />	

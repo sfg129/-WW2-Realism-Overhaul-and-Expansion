@@ -14,6 +14,7 @@
 	<weapon key="m9a1_bazooka.weapon" />
 	<weapon key="m1903a4_rifle_s.weapon" />
 	<weapon key="m1919_lmg.weapon" />
+	<weapon key="m1919_lmg_light.weapon" />
 	<weapon key="m1918_bar.weapon" />			
 <weapon key="m12_trench_gun_b.weapon" />	
 <weapon key="m12_trench_gun.weapon" />	

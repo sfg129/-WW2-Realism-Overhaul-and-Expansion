@@ -4,9 +4,9 @@
 
 	<specification 
 	retrigger_time="0.08" 
-	accuracy_factor="0.94" 
+	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.2" 
-	sustained_fire_diminish_rate="1.8"	
+	sustained_fire_diminish_rate="1.85"	
 	magazine_size="20" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -21,7 +21,7 @@
 	<!-- due to its lighter bolt, it fires much quicker than the later M1A1. -->
 
 	<!-- simple SMG sight ; though technically an aperture -->
-
+<modifier class="speed" value="-0.04" />  
 	<stance state_key="standing" accuracy="0.92" />
 	<stance state_key="crouching" accuracy="0.97" />
 	<animation key="recoil" ref="12" />
