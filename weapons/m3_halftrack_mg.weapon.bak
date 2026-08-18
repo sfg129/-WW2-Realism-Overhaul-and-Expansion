@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="m3_halftrack_mg.weapon"
+	ai_burst_time="1" 
+	ai_burst_time_variance="0.5" 
+	ai_burst_wait_time="0.1" 
+	ai_burst_wait_time_variance="0.05">
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	<!-- using these as default values for normal vehicle-born machine guns -->
+	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
+
+	
+	<specification
+	slot="2" 
+	retrigger_time="0.114" 
+	accuracy_factor="0.95" 
+    sustained_fire_grow_step="0.00355 " 
+    sustained_fire_diminish_rate="0.02"  
+	sight_range_modifier="1.25"
+	ai_sight_range_modifier="1"
+	magazine_size="-1" 
+	can_shoot_standing="0" 
+	can_shoot_crouching="0" 
+	suppressed="0" 
+	name="M2HB M3 Halftrack" 
+	class="0" 
+	projectile_speed="140.0"
+	barrel_offset="1.3"
+	cooldown_start="0.1"
+	cooldown_end="0.0"/>
+
+	<!-- accuracy was 0.67, recoil was 0.8/0.8 recovery -->
+
+
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+    <target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+	
+	<sound class="operation" key="fire" fileref="mg_04_m2hb.wav" pitch_variety="0.05" volume="1.8"/>
+	
+	<model mesh_filename="m3_mg.mesh" texture_filename="m3.png" />
+	<hud_icon filename="hud_m2hb.png" />
+	
+	<inventory encumbrance="11.0" price="2.0" />
+	<commonness value="0.0" />
+	
+	<projectile file="50cal_bullet.projectile">
+        <result
+class="blast"
+    radius="1.5"
+    damage="1.6"
+    push="0.1"
+    decal="1" 
+	faction_compare="not_equal"
+	damage_origin_vehicle="0" 
+		/>
+	</projectile>
+
+	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+	<shield offset="0.0 0.0 0.0" extent="1 0.65 1" />
+</weapon>

@@ -51,17 +51,6 @@
     
     <sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
     
-<!-- front plate-mid -->    
-    <shield offset="0.3 -0.55 0" extent="0.2 0.8 0.3" />    
-<!-- front plate-L -->    
-    <shield offset="0.3 -0.3 0.3" extent="0.2 1.0 0.3" />
-<!-- front plate-R -->    
-    <shield offset="0.3 -0.3 -0.3" extent="0.2 1.0 0.3" />        
-<!-- left plate -->
-    <shield offset="0.9 -0.5 +0.6" extent="1.0 0.5 0.2" />
-<!-- right plate -->  
-    <shield offset="0.9 -0.5 -0.6" extent="1.0 0.5 0.2" />       
-<!-- rear plate --> 
-    <shield offset="1.5 -0.2 0" extent="0.2 1.3 0.8" />     
+
     
 </weapon>

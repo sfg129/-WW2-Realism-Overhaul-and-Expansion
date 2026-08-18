@@ -37,7 +37,7 @@
 	
     <model mesh_filename="m5_gun_cannon.mesh" texture_filename="m5_gun.png" />
     <hud_icon filename="hud_coastal_gun.png" />
-	    <shield offset="0 -0.15 0" extent="0.3 0.9 1.2" />    
+	    <shield offset="0 -0.15 0" extent="0.5 1.2 2" />    
     <commonness value="0.0" />
 
     <projectile file="at_gun.projectile">

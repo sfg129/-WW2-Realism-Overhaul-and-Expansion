@@ -74,7 +74,6 @@
 	</visual>
 
 <visual class="turret" turret_index="0" mesh_filename="pak_40_s.mesh" texture_filename="pak_40.png" />
-	<visual class="turret" key="broken" turret_index="0" mesh_filename="pak_40_damage.mesh" texture_filename="pak_40_damage.png" />
 
 	<visual class="track" mesh_filename="sdkfz251_track.mesh" offset="-1.1 0.0 0.0" >
 		<part texture_filename="sdkfz251_wheel.png" texture_animation="rotate" tire_binding="0" />

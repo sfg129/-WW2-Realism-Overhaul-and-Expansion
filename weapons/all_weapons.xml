@@ -297,6 +297,7 @@
 	<weapon file="aa_gun.weapon" />
 	<weapon file="coastal_gun.weapon" />
 	<weapon file="oerlikon.weapon" />
+	<weapon file="oerlikon_gun.weapon" />
 	<weapon file="type98.weapon" />
 	<weapon file="pt_boat_mg.weapon" />
 	<weapon file="pt_boat_shield.weapon" />

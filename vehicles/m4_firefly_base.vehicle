@@ -73,9 +73,7 @@
 		<state class="leaving" position="-2 0.7 1" rotation="-1.57" />
 		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-2 0.7 1" />
 	</character_slot>
-<character_slot type="passenger" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
 
-</character_slot>
 
 
 	<!-- sound handling -->

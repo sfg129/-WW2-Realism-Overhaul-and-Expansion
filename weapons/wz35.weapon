@@ -29,8 +29,8 @@
 	<stance state_key="prone_moving" accuracy="0.45" />
 	<stance state_key="standing" accuracy="0.55" />
 	<stance state_key="crouching" accuracy="0.6" /> 
-	<stance state_key="prone" accuracy="1" /> 
-	<stance state_key="over_wall" accuracy="1" />	
+	<stance state_key="prone" accuracy="1.05" /> 
+	<stance state_key="over_wall" accuracy="1.05" />	
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->

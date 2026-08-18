@@ -33,7 +33,7 @@
 		<commonness value="0" />
 	<inventory encumbrance="3" price="24" />
 	
-	<capacity value="6" source="rank" source_value="0.0" />
+	<capacity value="4" source="rank" source_value="0.0" />
 
 	<model mesh_filename="mortar_shell.xml" />
 		<hud_icon filename="hud_mortarshell.png" />

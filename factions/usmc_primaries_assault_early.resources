@@ -2,7 +2,7 @@
 <resources clear_weapons="1">
 	<weapon key="m1903_rifle_b_ai.weapon" />
 
-	<weapon key="m1918_bar.weapon" />
+	<weapon key="m1918.weapon" />
 	<weapon key="m12_trench_gun_b.weapon" />
 	<weapon key="m1928_thompson.weapon" />
 	<weapon key="m55_reising.weapon" />

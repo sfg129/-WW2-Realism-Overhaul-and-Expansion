@@ -36,6 +36,5 @@
 	</projectile>
 	
 <!-- front plate -->	
-	<shield offset="-3.5 3.2 0.0" extent="1.5 3 1.5" />
 	
 </weapon>

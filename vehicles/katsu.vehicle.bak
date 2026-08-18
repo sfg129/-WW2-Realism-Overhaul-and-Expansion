@@ -1,0 +1,140 @@
+<vehicle name="Type 4 Ka-Tsu" key="katsu.vehicle" respawn_time="80" time_to_live_unsteerable="60" map_view_atlas_index="53" minimum_fill_requirement="0.25" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="1" existence="one_per_spawn_point" owner="faction" ai_driver_turns_to_target="1">
+	<tag name="metal_heavy" />
+	<tag name="vehicle" />
+	<tag name="katsu" />
+	<tag name="tank_treads" />
+   	<tag name="light_vehicle" />
+	<tag name="crushes_hedgerows" />
+   
+	<tire_set offset="1.3 0.0 +2.5" radius="0.52" />
+	<tire_set offset="1.3 0.0 -2.5" radius="0.52" />
+	
+	<!-- speed was 8, reverse 8 -->
+	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="8.5" max_reverse_speed="6.0" min_health_to_steer="0.875" max_rotation="0.0" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.99" tracked="1" gears="1"     broken_mass="10" 
+    remove_collision_threshold="0.2" />
+
+	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
+	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
+	<modifier class="blast_damage" value="-1" />
+
+	<!-- the Ka-Tsu is immune to Flamethrowers like Medium Tanks -->
+
+	<physics max_health="24" blast_damage_threshold="1.02" mass="200.0" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0.0 1.0 -0.2" collision_model_extent="3.8 3.0 11.15" visual_offset="0 0.17 0.0" /> 
+	
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0.90 3.60 3.28" weapon_key="katsu_mg.weapon" weapon_offset="-0.0 0.03 0.65" weapon_recoil="0.02" max_rotation_step="0.0002" rotation="0.2" rotation_range="1.4" />
+	<turret offset="-0.90 3.60 3.28" weapon_key="katsu_mg.weapon" weapon_offset="-0.0 0.03 0.65" weapon_recoil="0.02" max_rotation_step="0.0002" rotation="-0.2" rotation_range="1.4" />
+	<turret offset="0.0 0.0 0.0" weapon_key="katsu_shield.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0"  max_rotation_step="0.0002" rotation="0.0" rotation_range="0.0" />
+	
+	<visual class="chassis" mesh_filename="katsu_chassis.mesh" texture_filename="katsu.png" max_tilt="0.01" />
+	<visual class="chassis" key="broken" mesh_filename="katsu_damage.mesh" texture_filename="katsu_damage.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="katsu_mg_damage.mesh" texture_filename="katsu_damage.png" />
+	<visual class="turret" turret_index="1" key="broken" mesh_filename="katsu_mg_damage.mesh" texture_filename="katsu_damage.png" />
+	<visual class="turret" turret_index="0" mesh_filename="katsu_mg.mesh" texture_filename="katsu.png" />
+	<visual class="turret" turret_index="1" mesh_filename="katsu_mg.mesh" texture_filename="katsu.png" />
+	
+	<visual class="track" mesh_filename="katsu_track.mesh" offset="-1.55 0.0 0.0" >
+		<part texture_filename="katsu_wheel.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="katsu.png" />
+		<part texture_filename="katsu_track.png" texture_animation="translate" factor="0.2" tire_binding="0" />
+	</visual>
+	
+	<visual class="track" mesh_filename="katsu_track.mesh" offset="+1.55 0.0 0.0" >
+		<part texture_filename="katsu_wheel.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="katsu.png" />
+		<part texture_filename="katsu_track.png" texture_animation="translate" factor="0.2" tire_binding="1" />
+	</visual>
+	
+	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
+
+	<character_slot type="driver" enter_position="0.55 0.5 5.18" seat_position="0.0 2.8 3.58" rotation="0" exit_rotation="0" hiding="1" animation_id="36" />
+	<character_slot type="gunner" attached_on_turret="0" enter_position="2.4 0.5 2.8" seat_position="0 -1.3 -1.2" rotation="0" exit_rotation="1.57" hiding="0" animation_key="katsu mg still">
+		<turret index="0" />
+	</character_slot>
+	<character_slot type="gunner" attached_on_turret="1" enter_position="-2.4 0.5 2.8" seat_position="0 -1.3 -1.2" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="katsu mg still">
+		<turret index="1" />
+	</character_slot>
+	<character_slot type="passenger" position="2.5 0.5 -0.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="-2.5 0.5 -0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="2.5 0.5 -1.25" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="-2.5 0.5 -1.25" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="2.5 0.5 -2.0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="-2.5 0.5 -2.0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="2.5 0.5 -3.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36"/>
+	<character_slot type="passenger" position="-2.5 0.5 -3.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="36"/>
+	
+	<!-- sound handling -->
+	<rev_sound filename="tank_rev_heavy_idle3.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.9" />		<!-- vol 1.7-->
+	<rev_sound filename="tank_rev_tiger_low_speed1.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="0.9" volume="1.5" />	<!-- vol 2.0-->
+	<rev_sound filename="tank_rev_panzer_low_speed1.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.3" high_rev="1.0" volume="1.4" />	<!-- vol 2.0-->
+	
+	<sound key="horn" filename="rev_horn_9.wav" volume="3.7"/>  
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
+	
+	<!--<sound key="turret_rotation" filename="turret_rotation1.wav" volume="0.8" />-->
+	<!--<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>-->
+  
+	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+	
+	
+	<effect event_key="health" value="4.375" ref="SmallSmokeVehicle" offset="-0.5 2.5 2.15" />
+	<effect event_key="health" value="4.375" ref="SmallSmokeVehicle" offset="+0.5 2.5 2.15" />
+	
+	<effect event_key="health" value="1.75" ref="SmallSmokeVehicle" offset="-0.5 2.5 2.15" />
+	<effect event_key="health" value="1.75" ref="SmallSmokeVehicle" offset="+0.5 2.5 2.15" />
+	<effect event_key="health" value="1.75" ref="BrokenSparkle" offset="0 2.5 2.15" />
+	
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.5 2.5 2.15" />
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="+0.5 2.5 2.15" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="+1.1 2.5 3.5" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.8 2.5 3.9" />    
+	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.4 2.5 2.8" />
+	<effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+	
+	<effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />  
+	
+	
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0150" />
+	</event>
+	<event key="destroy_xp_reward">
+		<trigger class="destroy" />
+		<result class="reward" xp="0.0300" />
+	</event>
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="50.0" />
+	</event>
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="75.0" />
+	</event>
+    
+	<event>
+		<trigger class="destroy" />
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor1.visual_item" min_amount="1" max_amount="3" offset="0 3.0 1" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />  	
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor2.visual_item" min_amount="0" max_amount="1" offset="0 3.0 1" position_spread="1.5 1.5" direction_spread="0.10 0.15" />
+	</event>
+	
+	<event>
+		<trigger class="cleanup" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+	</event>  
+ 	<event>
+		<trigger class="cleanup" />
+		<result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+	</event>     
+	
+</vehicle>

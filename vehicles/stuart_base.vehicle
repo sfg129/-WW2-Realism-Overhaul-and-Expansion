@@ -31,7 +31,7 @@
 	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
 	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.000145" />
 		<!-- 车体前部航向机枪 -->
-			<turret offset="-0.5 1.6 0.6" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
+			<turret offset="-0.5 1.6 0.0436" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
 
 			<turret offset="-0.75 0.30 -0.2" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
@@ -40,8 +40,6 @@
 	<visual class="turret" key="broken" mesh_filename="stuart_turret_damage.mesh" texture_filename="stuart_damage.png" />  
 	<visual class="turret" turret_index="0" mesh_filename="stuart_turret.mesh" texture_filename="stuart.png" />
 	<visual class="turret" turret_index="1" mesh_filename="" texture_filename="" />
-	<visual class="turret" turret_index="2" mesh_filename="m4_75_cupola.mesh" texture_filename="stuart.png" />
-	<visual class="turret" turret_index="2" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="stuart_damage.png" />
 	
 	<visual class="track" mesh_filename="stuart_track.mesh" offset="-1.20 0.75 -0.09" >
 		<part texture_filename="stuart_wheels.png" texture_animation="rotate" tire_binding="1" />

@@ -15,7 +15,7 @@
 	<sound class="result" key="vehicle" copy="other" />
 	<sound class="result" key="character" copy="other" />
 	
-	<trigger class="time" time_to_live="4"/>
+	<trigger class="time" time_to_live="3.5 "/>
 
 	<result
 	class="blast"
@@ -30,7 +30,7 @@
 	
 	<rotation class="random" />
     <throwable 
-	curve_height="5.0" 
+	curve_height="6" 
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 

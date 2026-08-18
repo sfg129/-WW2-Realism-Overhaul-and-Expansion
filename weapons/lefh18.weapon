@@ -53,7 +53,7 @@
     />
     
 <!-- front plate  -->    
-    <shield offset="0 -0.15 0" extent="0.3 0.9 1.2" />    
+    <shield offset="0 0 -0.1" extent="0.3 1.4 1.2" />    
 
 	<effect class="muzzle" ref="BiggerMuzzle" />
 	<effect class="muzzle" ref="CannonSmokeBig" /> 
