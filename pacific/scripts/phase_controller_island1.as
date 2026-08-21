@@ -301,8 +301,6 @@ class DefPhase0 : DefPhase {
 		m_timer = 1.0 * 60.0;
 		 m_metagame.getComms().send("<command class='create_call' key='vehicle_m3_mortar.call' position='313 5 414' faction_id='0' />");
 				m_metagame.getComms().send("<command class='create_call' key='light_tank.call' position='506 5 404' faction_id='0' />");
- 				 m_metagame.getComms().send("<command class='create_call' key='vehicle_stuart_recce.call' position='313 5 414' faction_id='0' />");
-
 				 m_metagame.getComms().send("<command class='create_call' key='usf_vehicle_armoury_marine.call' position='506 5 404' faction_id='0' />");
 	spawn(5, 0, Vector3(489, 5.88, 389), "regular");
 	spawn(5, 0, Vector3(492, 5.88, 389), "regular");
@@ -766,6 +764,7 @@ class DefPhase5 : DefPhase {
 	void start() {
 		DefPhase::start();
 		_log("Phase5 starting");
+		m_metagame.getComms().send("<command class='create_call' key='ija_vehicle_medium_tank_chi_ha_early.call' position='489 5.88 389' faction_id='1' />");
 		m_metagame.getComms().send("<command class='create_call' key='usmc_vehicle2.call' position='506 5 404' faction_id='0' />");
 		m_timer = 2.0 * 60.0;
 
