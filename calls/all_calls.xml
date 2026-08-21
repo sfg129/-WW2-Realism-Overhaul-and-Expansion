@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <calls>
 <call file="mortar5.call" />
+
+<call file="ija_vehicle_medium_tank_chi_ha_early.call" />
+<call file="usf_vehicle_stuart.call" />
 <call file="ukf_vehicle_unk.call" />
 	<call file="vehicle_stuart_recce.call" />
 	<call file="vehicle_m3_mortar.call" />
@@ -57,6 +60,7 @@
 	<call file="usf_vehicle_m3_halftrack.call" />
 	<call file="usf_vehicle_m10.call" />
 	<call file="usf_vehicle_m4_sherman.call" />
+	<call file="usf_vehicle_m4_sherman_76.call" />
 	<call file="usf_vehicle_armoury_marine.call" />
 
 	<call file="wh_inf.call" />

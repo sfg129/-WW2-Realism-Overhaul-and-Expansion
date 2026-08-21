@@ -97,7 +97,7 @@
 		<turret index="2" />
 	</character_slot>
 	<character_slot type="passenger" hiding="0" allow_weapon="0">
-		<state class="entering" position="-1.6 0.5 0.0" rotation="0.0" />
+		<state class="entering" position="-1.6 0.5 0.0" rotation="1.78739" />
 		<state class="leaving" position="-1.6 0.5 0.0" rotation="-1.57" />
 		<state class="idle" animation_key="sitting, idling" rotation="0" position="-0.45 0.6 0.0" />
 </character_slot>

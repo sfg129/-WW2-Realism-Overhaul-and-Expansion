@@ -94,14 +94,14 @@
 	<character_slot type="driver" enter_position="1.6 0.5 0.2" seat_position="0.50 0.73 -0.125" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" />
 	<!-- 迫击炮手 (index 0) -->
 <character_slot type="gunner" hiding="0">
-            <state class="entering" position="1.0 0.5 -3.7" rotation="0.0" />
+            <state class="entering" position="1.0 0.5 -3.7" rotation="-0.19876" />
             <state class="leaving" position="1.0 0.5 -3.7" rotation="1.57" />
             <state class="idle" animation_key="crouch still, no weapon, 62" rotation="0" position="0.4 1 -2.4" />
             <turret index="0" />
         </character_slot>
 
 		<!-- 机枪手 (index 1) -->
-		<character_slot type="gunner" attached_on_turret="1" enter_position="-1.6 0.5 -0.2" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+		<character_slot type="gunner" attached_on_turret="1" enter_position="-1.6 0.5 1.12823" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 			<turret index="1" />
 		</character_slot>
 
@@ -118,7 +118,7 @@
 	
 	
 		<character_slot type="passenger" allow_weapon="0" hiding="0">
-			<state class="entering" position="-1.6 0.5 0.2" rotation="1.57" />
+			<state class="entering" position="-1.6 0.5 0.2" rotation="1.20517" />
 			<state class="leaving" position="-1.6 0.5 0.2" rotation="-1.57" />
 			<state class="idle" animation_key="sitting, idling" rotation="0" position="-0.7 0.73 -0.125" />
 		</character_slot>

@@ -1,4 +1,4 @@
-<vehicle name="M3 Stuart" time_to_live_unsteerable="60" map_view_atlas_index="33" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
+<vehicle name="M5A1 Stuart" key="m5a1_stuart.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="33" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="tank_treads" />
@@ -8,13 +8,13 @@
 	<tire_set offset="1.1 0.0 -2.5" radius="0.52" />
 	
 	<!-- speed was 11, reverse 8 -->
-	<control max_limiter_speed="4.0" max_speed="11.0" acceleration="10.0" max_reverse_speed="10.0"  min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
+	<control max_limiter_speed="4.0" max_speed="12.0" acceleration="10.0" max_reverse_speed="10.0"  min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-2.1" />
+	<modifier class="blast_damage" value="-2.4" />
 
 	<physics 
-    max_health="18.0" 
+    max_health="19.0" 
     mass="200.0" 
     broken_mass="10" 
     remove_collision_threshold="0.2"   
@@ -28,45 +28,57 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.000145" />
+	<turret offset="0 2.44226 -0.1292" weapon_key="m5a1_stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
+	<turret offset="0.03646 2.49238 0.05007" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.000145" />
 		<!-- 车体前部航向机枪 -->
-			<turret offset="-0.5 1.6 0.07616" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
+			<turret offset="-0.55533 1.35534 1.05041" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.25" />
 
 			<turret offset="-0.75 0.30 -0.2" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
-			<visual class="chassis" mesh_filename="stuart_chassis.mesh" texture_filename="stuart.png" max_tilt="0.06" />
-	<visual class="chassis" key="broken" mesh_filename="stuart_damage.mesh" texture_filename="stuart_damage.png" />
-	<visual class="turret" key="broken" mesh_filename="stuart_turret_damage.mesh" texture_filename="stuart_damage.png" />  
-	<visual class="turret" turret_index="0" mesh_filename="stuart_turret.mesh" texture_filename="stuart.png" />
+			<visual class="chassis" mesh_filename="M5A1_stuart_chassis.mesh" texture_filename="M5A1_stuart.png" max_tilt="0.06" />
+	<visual class="chassis" key="broken" mesh_filename="M5A1_stuart_chassis.mesh" texture_filename="m5a1_stuart_damaged.png" />
+	<visual class="turret" key="broken" mesh_filename="M5A1_stuart_turret.mesh" texture_filename="m5a1_stuart_damaged.png"  offset="0 -1.04456 0"/>  
+	<visual class="turret" turret_index="0" mesh_filename="M5A1_stuart_turret.mesh" texture_filename="M5A1_stuart.png"  offset="0 -1.07207 0"/>
 	<visual class="turret" turret_index="1" mesh_filename="" texture_filename="" />
 	
-	<visual class="track" mesh_filename="stuart_track.mesh" offset="-1.20 0.75 -0.09" >
-		<part texture_filename="stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
+	<visual class="track" key="broken" mesh_filename="stuart_track.mesh" offset="-1.20 0.75 -0.09" >
+		<part texture_filename="m5a1_stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
 		<part texture_filename="stuart.png" />
 		<part texture_filename="stuart_tracks.png" texture_animation="translate" factor="1.0" tire_binding="1" />
 	</visual>
 	
-	<visual class="track" mesh_filename="stuart_track.mesh" offset="+1.20 0.75 -0.09" >
-		<part texture_filename="stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
+	<visual class="track" mesh_filename="stuart_track.mesh" offset="-1.20 0.75 -0.09" >
+		<part texture_filename="m5a1_stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="stuart.png" />
+		<part texture_filename="stuart_tracks.png" texture_animation="translate" factor="1.0" tire_binding="1" />
+	</visual>
+	
+	<visual class="track" key="broken" mesh_filename="stuart_track.mesh" offset="1.2 0.75 -0.09" >
+		<part texture_filename="m5a1_stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="stuart.png" />
+		<part texture_filename="stuart_tracks.png" texture_animation="translate" factor="1.0" tire_binding="1" />
+	</visual>
+	
+	<visual class="track" mesh_filename="stuart_track.mesh" offset="1.2 0.75 -0.09" >
+		<part texture_filename="m5a1_stuart_wheels.png" texture_animation="rotate" tire_binding="1" />
 		<part texture_filename="stuart.png" />
 		<part texture_filename="stuart_tracks.png" texture_animation="translate" factor="1.0" tire_binding="1" />
 	</visual>
 	
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="1.5 0.5 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="driver" position="1.23575 0.5 1.03697" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
 
-		<character_slot type="gunner" position="-1.5 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<character_slot type="gunner" position="-0.97314 0.7 -0.28209" rotation="0" exit_rotation="-2.04335" hiding="1" animation_id="37">
 		<turret index="0" />	
 		<turret index="1" />
 	</character_slot>
 
-	<character_slot type="gunner" position="-1.5 0.5 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" position="-1.0219 0.5 0.92637" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
 
-	<character_slot type="gunner" position="-1.5 0.7 -0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="gunner" position="0.80534 0.47312 -0.74639" rotation="0" exit_rotation="1.91243" hiding="1" animation_id="37">
 		<turret index="3" />	
 	</character_slot>
 

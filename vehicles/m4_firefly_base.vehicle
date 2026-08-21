@@ -61,17 +61,17 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="2 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-2 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.19819 0.7 1" rotation="0" exit_rotation="1.55748" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.26006 0.7 0.19671" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="1" />
 	</character_slot>
-<character_slot type="gunner" position="-1.5 0.7 -1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+<character_slot type="gunner" position="1.02677 0.7 -1" rotation="0" exit_rotation="1.57064" hiding="1" animation_id="37">
 		<turret index="2" />
 	</character_slot>
 	<character_slot type="passenger" hiding="1" allow_weapon="0">
-		<state class="entering" position="-2 0.7 1" rotation="0.0" />
+		<state class="entering" position="-2 0.7 1" rotation="1.60714" />
 		<state class="leaving" position="-2 0.7 1" rotation="-1.57" />
-		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-2 0.7 1" />
+		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-1.15459 0.7 -1.62374" />
 	</character_slot>
 
 

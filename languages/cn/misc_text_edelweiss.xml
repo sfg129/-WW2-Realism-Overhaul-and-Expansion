@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <translation>
 	<!-- we won't translate the german ranks for now, keep them as is -->	
 	<!-- yes there's a lot of variants for the first couple of ranks -->
@@ -449,4 +449,9 @@
 <text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（地面三脚架）"/>
 <text key="Type 92 HMG High Mount deploy" text="92式重机枪部署包（高位三脚架）"/>
 	
+<text key="M4A3(76)W Sherman" text="M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="Reinforcements - M4A3(76)W Sherman" text="增援 - M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="Requesting reinforcements, M4A3(76)W Sherman" text="请求增援，M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="M4A3(76)W Sherman deployed" text="M4A3(76)W“谢尔曼”中型坦克已部署"/>
+
 </translation>

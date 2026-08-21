@@ -11,7 +11,7 @@
 	<vehicle key="jeep1.vehicle" />
  	<vehicle key="hoha.vehicle" />  
 	<vehicle key="fortified_turret_chi_ha.vehicle" />
-
+<vehicle key="chi_ha_early.vehicle" />  
 	<vehicle key="soukoutei.vehicle" />
 	<vehicle key="suki.vehicle" />
 
@@ -26,7 +26,5 @@
 	<call key="ija_vehicle_armoury_marine.call" />
 	<call key="ija_vehicle1.call" />  
 	<call key="ija_vehicle.call" />
-	<call key="ija_vehicle2.call" />  
-	<call key="rubber_boat.call" />
-	
+	<call key="ija_vehicle_medium_tank_chi_ha_early.call" />  
 </resources>

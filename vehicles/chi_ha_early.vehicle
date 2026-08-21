@@ -1,0 +1,165 @@
+<vehicle file="vehicle_base.vehicle" name="Type 97 Chi-Ha" key="chi_ha_early.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="64" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+	<tag name="metal_heavy" />
+	<tag name="tank" />
+   	<tag name="vehicle" />
+	<tag name="tank_treads" />
+   	<tag name="medium_armour" />
+	<tag name="crushes_hedgerows" />
+
+
+	<tire_set offset="1.2 0.0 +2.4" radius="0.52" />
+	<tire_set offset="1.2 0.0 0.0" radius="0.52" />
+	<tire_set offset="1.2 0.0 -2.4" radius="0.52" />
+
+	<control max_limiter_speed="4.0" max_speed="7.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.725" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+
+	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
+	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
+	<modifier class="blast_damage" value="-1.6" />
+
+	<!-- Medium Tanks are immune to Flamethrowers. -->
+
+	<!-- The Chi-Ha Kai has lower health than most Medium Tanks but its cannon fires faster with only mild reduction in damage and aoe. It is also slightly cheaper to deploy. -->
+	<!-- Against a Sherman it is almost an equal fight in terms of how many seconds to kill eachother, but with the lower health the Chi-Ha Kai is more vulnerable to Infantry AT. -->
+	<!-- Inversely, its cannon is also marginally more effective against Infantry as it reloads quicker, though AoE is marginally smaller, it is still overall coming out on top. -->
+	<!-- Result is more of a glass-cannon than other Mediums. -->
+
+	<physics max_health="24"
+ 	blast_damage_threshold="1.02"
+ 	mass="200.0"
+    	broken_mass="10" 
+    	remove_collision_threshold="0.2" 
+ 	extent="3.5 0.0 7.2"
+ 	offset="0 0.0 0"
+ 	top_offset="0 2.0 0"
+ 	collision_model_pos="0 0.8 -0.1"
+ 	collision_model_extent="3.35 2.0 7.0"
+ 	visual_offset="0 0.45 0.0" /> 
+
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0.11662 2.01592 -0.36869" weapon_key="chi_ha_cannon_early.weapon" weapon_offset="-0.76089 0.28690 1.05168" weapon_recoil="0.1" max_rotation_step="0.00005" />
+	<turret offset="0.44 1.65 1.52" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 1.32" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.4" />
+	<turret offset="-0.32701 0.16690 -1.32460" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" rotation="3.14" max_rotation_step="0.0003" rotation_range="0.6" parent_turret_index="0" />
+	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
+
+	<visual class="chassis" mesh_filename="chi_ha_chassis.mesh" texture_filename="chi_ha.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="chi_ha_chassis_damage.mesh" texture_filename="chi_ha_damage.png" />
+
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="Type_97_turret.mesh" texture_filename="chi_ha_damage.png"  offset="0 0 0"/>  
+	<visual class="turret" turret_index="0" mesh_filename="Type_97_turret.mesh" texture_filename="chi_ha_early.png"  offset="0 0 0"/>
+	
+	<visual class="turret" turret_index="1" key="broken" mesh_filename="chi_ha_mg.mesh" texture_filename="chi_ha_damage.png" />
+	<visual class="turret" turret_index="1" mesh_filename="chi_ha_mg.mesh" texture_filename="chi_ha.png" />
+	<visual class="turret" turret_index="2" key="broken" mesh_filename="chi_ha_mg.mesh" texture_filename="chi_ha_damage.png"  offset="-0.41651 0.12237 -0.75217"/>
+	<visual class="turret" turret_index="2" mesh_filename="chi_ha_mg.mesh" texture_filename="chi_ha.png"  offset="-0.6522 0.12237 -0.27582"/>
+
+	<visual class="track" mesh_filename="chi_ha_track.mesh" offset="-1.21 0.0 0.0" >
+		<part texture_filename="chi_ha.png" />
+		<part texture_filename="chi_ha_road_wheel.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="chi_ha_drive_wheel.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="hago_tracks.png" texture_animation="translate" factor="1.0" tire_binding="0" />		
+		<part texture_filename="chi_ha_idler_wheel.png" texture_animation="rotate" tire_binding="0" />
+
+	</visual>
+	
+	<visual class="track" mesh_filename="chi_ha_track.mesh" offset="1.21 0.0 0.0" >
+		<part texture_filename="chi_ha.png" />
+		<part texture_filename="chi_ha_road_wheel.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="chi_ha_drive_wheel.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="hago_tracks.png" texture_animation="translate" factor="1.0" tire_binding="1" />		
+		<part texture_filename="chi_ha_idler_wheel.png" texture_animation="rotate" tire_binding="1" />
+	</visual>
+
+	<character_slot type="driver" position="1.8 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.8 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="0" />
+	</character_slot>
+	<character_slot type="gunner" position="0.0 0.7 3" rotation="0" exit_rotation="0.0" hiding="1" animation_id="37">
+		<turret index="1" />
+	</character_slot>
+	<character_slot type="gunner" position="0.0 0.7 -3" rotation="0" exit_rotation="3.14" hiding="1" animation_id="37">
+		<turret index="2" />
+	</character_slot>
+
+
+	<!-- sound handling -->
+	<rev_sound filename="tank_rev_chiha_idle.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.5" />	<!-- was 1.6 -->
+	<rev_sound filename="tank_rev_chiha_low_speed.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="0.9" volume="1.9" /> 	<!-- was 2.0 --> 
+	<rev_sound filename="tank_rev_chiha_high_speed.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.7" high_rev="1.0" volume="1.9" />
+
+	<sound key="horn" filename="rev_horn_9.wav" volume="3.7"/>  
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
+
+	<sound key="turret_rotation" filename="turret_rotation1.wav" volume="2.5" />
+	<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>
+  
+	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+  
+  <effect event_key="health" value="3.625" ref="SmallSmokeVehicle" offset="0.0 2.4 -2.0" />  
+
+  <effect event_key="health" value="0.725" ref="SmallSmokeVehicle" offset="0.0 2.4 -2.0" />
+  <effect event_key="health" value="0.725" ref="BrokenSparkle" post_processing="0" offset="0.0 2.2 -2.0" />  
+
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.2 -2" />
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -2.1" />  
+  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 0.5" />  
+  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 -0.2" />    
+  <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.3 -2" />
+        <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+        <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />  
+   
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0150" />
+	</event>
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="50.0" />
+	</event>
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="75.0" />
+	</event>
+
+    
+	<event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="weapon" instance_key="type97_m.weapon" min_amount="1" max_amount="1" offset="0 2.4 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+    </event>
+	<event>
+		<trigger class="destroy" />
+  	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor1.visual_item" min_amount="1" max_amount="3" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />  	
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor2.visual_item" min_amount="0" max_amount="1" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.10 0.15" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor3.visual_item" min_amount="1" max_amount="2" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.12 0.20" />
+	</event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor4.visual_item" min_amount="1" max_amount="2" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.25" />
+	</event>    
+
+  <event>
+		<trigger class="cleanup" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="20" max_amount="30" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.1" /> 
+  </event>  
+  
+ 	<event>
+		<trigger class="cleanup" />
+    <result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+  </event>     
+  
+</vehicle>

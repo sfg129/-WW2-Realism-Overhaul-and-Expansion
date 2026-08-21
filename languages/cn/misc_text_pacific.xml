@@ -42,10 +42,14 @@
 	<text key="US Army rifles deployed" text="陆军步兵队员集结完毕"/>
 	<text key="Banzai charge deployed" text="敢死队员集结完毕"/>
 	<text key="Reinforcements - M3 Stuart Light Tank" text="增援 - M3“斯图亚特”轻型坦克"/>
+
+	<text key="Reinforcements - M5A1 Stuart Light Tank" text="增援 - M5A1“斯图亚特”轻型坦克"/>
+
 	<text key="Reinforcements - Type 95 Ha-Go Light Tank" text="增援 - 95式轻战车"/>
 	<text key="Reinforcements - Type 1 Ho-Ha" text="增援 - 一式装甲运兵车"/>
 	<text key="Reinforcements - LVT-4 Water Buffalo" text="增援 - LVT-4“水牛”两栖战车"/>
 	<text key="Requesting reinforcements, M3 Stuart" text="请求增援M3“斯图亚特”轻型坦克"/>
+	<text key="Requesting reinforcements, M5A1 Stuart!" text="请求增援M5A1“斯图亚特”轻型坦克"/>
 	<text key="Requesting reinforcements, Type 95 Ha-Go" text="请求增援95式轻战车"/>
 	<text key="Requesting reinforcements, Type 1 Ho-Ha" text="请求增援一式装甲运兵车"/>
 	<text key="Requesting reinforcements, LVT-4" text="请求增援LVT-4“水牛”两栖战车"/>
@@ -95,6 +99,7 @@
 	<text key="Prison hatch" text="监狱天窗"/>
 	<text key="PT Boat" text="鱼雷艇"/>
 	<text key="M3 Stuart" text="M3“斯图亚特”轻型坦克"/>
+		<text key="M5A1 Stuart" text="M5A1“斯图亚特”轻型坦克"/>
 	<text key="Submarine" text="潜艇"/>
 	<text key="Type 92 HMG" text="92式重机枪"/>
 	<text key="Type 98 Autocannon" text="98式20mm自动炮"/>
@@ -288,11 +293,18 @@
 	
 	<!-- 1.87 -->
 	<text key="Reinforcements - Type 97 Chi-Ha Kai" text="增援 - 97式改中战车"/>
-	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="请求增援97式改战车" />
+	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="请求增援97式改中战车" />
 	<text key="Type 97 Chi-Ha Kai deployed" text="97式改中战车已部署" />
 	
 	<text key="Type 97 Chi-Ha Kai" text="97式改中战车"/>
 	<text key="Fortified Turret" text="强化炮塔"/>
+
+
+	<text key="Reinforcements - Type 97 Chi-Ha" text="增援 - 97式中战车"/>
+	<text key="Requesting reinforcements, Type 97 Chi-Ha" text="请求增援97式中战车" />
+	<text key="Type 97 Chi-Ha deployed" text="97式中战车已部署" />
+	
+	<text key="Type 97 Chi-Ha" text="97式中战车"/>
 
 	<text key="M1 Garand w/ 60mm Launcher" text="M1加兰德-枪榴弹（60mm迫击炮弹）"/>
 	<text key="M1 Garand w/ 60mm Launcher - M9 AT" text="M1加兰德-枪榴弹（M9破甲弹）"/>

@@ -31,7 +31,7 @@
 	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
 	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.000145" />
 		<!-- 车体前部航向机枪 -->
-			<turret offset="-0.5 1.6 0.0436" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
+			<turret offset="-0.57568 1.15583 0.68427" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
 
 			<turret offset="-0.75 0.30 -0.2" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
@@ -55,18 +55,18 @@
 	
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="1.5 0.5 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="driver" position="1.15275 0.5 0.97515" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
 
-		<character_slot type="gunner" position="-1.5 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<character_slot type="gunner" position="-0.75487 0.3692 -0.22591" rotation="0" exit_rotation="-2.34878" hiding="1" animation_id="37">
 		<turret index="0" />	
 		<turret index="1" />
 	</character_slot>
 
-	<character_slot type="gunner" position="-1.5 0.5 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" position="-1.09718 0.5 1.17924" rotation="0" exit_rotation="-0.56799" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
 
-	<character_slot type="gunner" position="-1.5 0.7 -0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="gunner" position="1.17003 0.7 -1.01897" rotation="0" exit_rotation="1.5684" hiding="1" animation_id="37">
 		<turret index="3" />	
 	</character_slot>
 

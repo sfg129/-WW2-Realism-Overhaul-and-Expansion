@@ -16,12 +16,12 @@
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-4" />
+	<modifier class="blast_damage" value="-4.8" />
 
 	<!-- immune to Flamethrowers. -->
 
 	<physics 
-    max_health="42" 
+    max_health="36" 
     blast_damage_threshold="1.02" 
     mass="400.0" 
     broken_mass="20"  
@@ -83,7 +83,7 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="1.5 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="driver" position="1.5 0.7 1" rotation="0" exit_rotation="1.26915" hiding="1" animation_id="36" />
 	<character_slot type="gunner" position="-1.5 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="2" />
 	</character_slot>
@@ -93,14 +93,14 @@
 	</character_slot>
 	
 
-		<character_slot type="gunner" position="1.5 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37">
+		<character_slot type="gunner" position="1.5 0.7 1" rotation="0" exit_rotation="2.53867" hiding="1" animation_id="37">
 		<turret index="3" /> 
 	</character_slot>
 
 	<character_slot type="passenger" hiding="1" allow_weapon="0">
-		<state class="entering" position="1.5 0.7 0.6" rotation="0.0" />
-		<state class="leaving" position="1.5 0.7 0.6" rotation="1.57" />
-		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="0 0.7 0.6" />
+		<state class="entering" position="-2.80251 0.7 -1.1524" rotation="0.0" />
+		<state class="leaving" position="-2.80251 0.7 -1.1524" rotation="1.57" />
+		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="1.56372 0.7 -0.80664" />
 	</character_slot>
 
 

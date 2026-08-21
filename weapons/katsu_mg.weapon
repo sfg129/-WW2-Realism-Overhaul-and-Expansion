@@ -60,6 +60,6 @@ class="blast"
 	faction_compare="not_equal"	/>
 	</projectile>
 	
-	<shield offset="-1.4 -0.4 0" extent="0.7 1.4 1.0" />
+	<shield offset="1.4 -0.4 0" extent="0.7 1.4 1.0" />
 	
 </weapon>

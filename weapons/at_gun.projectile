@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="at gun shell" slot="2" key="at_gun.projectile" pulldown_in_air="0">
+<projectile class="grenade" name="at gun shell" slot="2" key="at_gun.projectile" pulldown_in_air="2">
 	
 	<sound class="result" key="other" fileref="heavy_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
 	<sound class="result" key="other" fileref="heavy_gun_02.wav" volume="2.45" pitch_variety="0.1"/>

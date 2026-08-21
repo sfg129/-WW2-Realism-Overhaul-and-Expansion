@@ -53,7 +53,10 @@ class MyStageConfiguratorIJAInvasion : MyStageConfiguratorIJA {
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));    
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));    		
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));    		
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 
 		stage.addTracker(DamagedVehicle(m_metagame, "stuart_damaged.vehicle", 0.6));
 		stage.addTracker(DamagedVehicle(m_metagame, "hago_damaged.vehicle", 0.6));

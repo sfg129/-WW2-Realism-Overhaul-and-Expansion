@@ -10,9 +10,9 @@
 	<call key="ija_inf_ai.call" />
 	<call key="ija_vehicle.call" />
 	<call key="ija_vehicle1.call" />  
-	<call key="ija_vehicle2.call" />  
-	<call key="ija_vehicle_medium_tank_chi_ha.call" />  
 
+	<call key="ija_vehicle_medium_tank_chi_ha.call" />  
+	<call key="ija_vehicle_medium_tank_chi_ha_early.call" /> 
 	<call key="ija_vehicle_armoury_marine.call" />
 
 </resources>

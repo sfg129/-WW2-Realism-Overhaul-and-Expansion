@@ -70,10 +70,10 @@
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
 	<character_slot type="driver" position="1.5 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-1.5 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="gunner" position="-1.5 0.7 -0.5781" rotation="0" exit_rotation="-1.58386" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="1" />
 	</character_slot>
-<character_slot type="gunner" position="1.5 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37">
+<character_slot type="gunner" position="1.5 0.7 -0.5778" rotation="0" exit_rotation="1.39868" hiding="1" animation_id="37">
 		<turret index="2" />
 	</character_slot>
 <character_slot type="passenger" position="-1.5 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="36" />

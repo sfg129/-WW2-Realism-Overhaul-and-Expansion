@@ -83,7 +83,7 @@ ai_navigation_offset="0.0">
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="1.8 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="driver" position="1.8 0.7 1.2721" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
 	<character_slot type="gunner" position="-1.8 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="3" />
 	</character_slot>
@@ -95,7 +95,7 @@ ai_navigation_offset="0.0">
 		<turret index="2" />
 	</character_slot>
 
-				<character_slot type="gunner" position="1.8 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_key="tank mg still">
+				<character_slot type="gunner" position="1.8 0.7 -0.431" rotation="0" exit_rotation="1.57" hiding="1" animation_key="tank mg still">
 			<turret index="4" />
 		</character_slot>
 

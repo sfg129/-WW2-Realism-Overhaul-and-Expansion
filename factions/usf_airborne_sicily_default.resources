@@ -3,8 +3,7 @@
 	
 	<vehicle key="m4_75.vehicle" />
 	<vehicle key="m4_rhino.vehicle" />
- 	<vehicle key="stuart.vehicle" />
-  	<vehicle key="stuart_damaged.vehicle" />
+<vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
  
 	<vehicle key="pillbox.vehicle" />
@@ -27,10 +26,9 @@
 	<call key="usf_para.call" />
 	<call key="usf_para_armoury.call" />
 	<call key="usf_vehicle.call" />
-	<call key="usf_vehicle1.call" />
 	<call key="usf_vehicle_m3_halftrack.call" />
 
-	<call key="usmc_vehicle.call" />
+	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
 
 

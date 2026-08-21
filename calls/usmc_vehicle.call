@@ -3,7 +3,7 @@
 	<call 
 	key="usmc_vehicle.call" 
 	radio_view_text="Reinforcements - M3 Stuart Light Tank" 
-	initiation_comment="Requesting reinforcements, M3 Stuart" 
+	initiation_comment="Requesting reinforcements, M3 Stuart!" 
 	acknowledge_comment="Copy, loud and clear" 
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	

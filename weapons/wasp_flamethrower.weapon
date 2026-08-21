@@ -46,7 +46,7 @@ curve_height="2.0"
 	tweak_factor="2.8"
 	/> 
 	<projectile file="flamethrower_flame_tank.projectile" />
-<shield offset="1 0 -0.5" extent="2 2 2" />
+<shield offset="0 0 -0.4" extent="0.3 1 2.2" />
 	
 	
 	<effect class="muzzle" ref="BigMuzzle" />

@@ -106,8 +106,8 @@
         </character_slot>
 <!-- 后机枪手 (index 1) -->
 	<character_slot type="gunner" hiding="0" attached_on_turret="1">
-		<state class="entering" position="1.0 0.5 -4" rotation="0.0" />
-		<state class="leaving" position="1.0 0.5 -4" rotation="3.14" />
+		<state class="entering" position="0.02385 0.5 -4" rotation="0.0" />
+		<state class="leaving" position="0.005 0.5 -4" rotation="3.14" />
 		<state class="idle" animation_key="tank mg still" rotation="3" position="-0.1 -1.33 -0.8" />
 		<turret index="1" />
 	</character_slot>
@@ -122,7 +122,7 @@
 
 	<character_slot type="passenger" enter_position="1.6 0.5 -1" seat_position="0.7 1.07 -0.8" leaving_position="1.6 0.5 1" rotation="1.5" exit_rotation="0.6" hiding="0" allow_weapon="1" animation_key="still"/>
 
-	<character_slot type="passenger" enter_position="1.0 0.5 -3.7" seat_position="0.70 1.07 -2.4" leaving_position="1.0 0.5 -3.7" rotation="1.5" exit_rotation="1.57" hiding="0" allow_weapon="1" animation_key="still"/>
+	<character_slot type="passenger" enter_position="1.99431 0.5 -3.32305" seat_position="0.70 1.07 -2.4" leaving_position="1.0 0.5 -3.7" rotation="1.5" exit_rotation="1.57" hiding="0" allow_weapon="1" animation_key="still"/>
 	
 <character_slot type="gunner" enter_position="-1.0 0.5 -3.7" seat_position="-0.70 1.07 -2.4" leaving_position="-1.0 0.5 -3.7" rotation="-1.5" exit_rotation="-1.57" hiding="0" allow_weapon="1" animation_key="hold, coastal gun">
 <turret index="2" />

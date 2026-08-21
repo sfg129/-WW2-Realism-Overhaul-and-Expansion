@@ -22,11 +22,10 @@
 	<weapon file="churchill_hull_mg.weapon" />
 	<weapon file="churchill_coax_mg.weapon" />
 	<weapon file="m1917_hmg_resource.weapon" />
-<weapon file="m1917_hmg_resource_t.weapon">
-<capacity source="rank" source_value="0.0" value="1" />
-</weapon>
+<weapon file="m1917_hmg_resource_t.weapon"/>
+<weapon file="m4_76_cannon.weapon"/>
 <weapon file="m1917_hmg.weapon"/>
-<weapon file="m1917_hmg_t.weapon" />
+<weapon file="m1917_hmg_t.weapon"/>
 <weapon file="piat_un.weapon"/>
 
 
@@ -335,7 +334,7 @@
 		<capacity source="rank" source_value="1.0" value="1" />
 		
 	</weapon>
-	
+		<weapon file="chi_ha_cannon_early.weapon" />
 	<!-- German Wehrmacht -->
 		<weapon file="kar98k2.weapon" />
 	<weapon file="kar98k2_b.weapon" />
@@ -343,6 +342,7 @@
 	<weapon file="kar98k_b.weapon" />
 	<weapon file="kar98k_ai.weapon" />
 	<weapon file="kar98k_b_ai.weapon" />
+		<weapon file="m5a1_stuart_cannon.weapon" />
 
 	<weapon file="luftwaffe_drilling.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />

@@ -62,17 +62,17 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="2 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-2 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.30127 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.13643 0.7 0.2074" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="3" />
 	</character_slot>
 	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0 -0.8 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="1" />
 	</character_slot>	
-	<character_slot type="gunner" position="-1.0 0.7 3.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" position="-1 0.7 2.25263" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
-<character_slot type="gunner" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
+<character_slot type="gunner" position="1.18554 0.7 -0.69355" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
 <turret index="4" />
 </character_slot>
 

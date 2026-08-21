@@ -86,7 +86,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_armoury_marine.call", "ija_vehicle_armoury_marine_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));    
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));    
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Air Strip"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Outpost"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Outpost"}, true, "vehicle"));
 		
 		// set all defend initially, the phases will control it once things start moving
 		{
@@ -141,7 +144,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_inf_ai.call", "ija_inf_spawn_ai.call", array<string> = {"Carrier"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));      
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));  
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		
 		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
 		stage.addStartComment(Comment("map start with 1 base, part 2", 5.0));
@@ -217,7 +223,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_inf_ai.call", "ija_inf_spawn_ai.call", array<string> = {"Carrier"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));      
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));      
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		
 		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
 		stage.addStartComment(Comment("map start with 1 base, part 2", 5.0));
@@ -310,7 +319,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		
 		
 		stage.addTracker(DamagedVehicle(m_metagame, "stuart_damaged.vehicle", 0.6));
@@ -386,7 +398,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));      
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));  
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));      
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		
 		stage.m_maxSoldiers = 21 * 5;     // was 33 * 3 in 1.65
 		//stage.m_playerAiCompensation = 5;                                         // was 4 (1.81) was 5 (1.86)
@@ -483,7 +498,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		
 		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
 		stage.addStartComment(Comment("map start with 1 base, part 2", 5.0));
@@ -563,7 +581,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		
 		
 		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
@@ -647,7 +668,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));      
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));   
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));   
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		
 		
 		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
@@ -737,7 +761,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {}, true, "vehicle"));    
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {}, true, "vehicle"));    
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {}, true, "vehicle"));    
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
 		
 		
 		stage.addTracker(DamagedVehicle(m_metagame, "stuart_damaged.vehicle", 0.6));

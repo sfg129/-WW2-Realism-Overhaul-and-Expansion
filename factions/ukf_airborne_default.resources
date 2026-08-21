@@ -3,8 +3,7 @@
 	
 	<vehicle key="m4_V.vehicle" />
 	<vehicle key="m4_firefly.vehicle" />
- 	<vehicle key="stuart.vehicle" />
- 	<vehicle key="stuart_damaged.vehicle" />
+
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="vickers_hmg.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
@@ -22,8 +21,8 @@
 <vehicle key="universal_carrier_vickers_k.vehicle" />  
 <vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
-
-
+<vehicle key="stuart_recce.vehicle" />
+<vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
 	<call key="airstrike6.call" />
  	<call key="airstrike7.call" />
@@ -35,7 +34,7 @@
 	<call key="usf_vehicle.call" />
 	<call key="usf_vehicle_m3_halftrack.call" />
 
-	<call key="usmc_vehicle.call" />
+	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
 
 </resources>

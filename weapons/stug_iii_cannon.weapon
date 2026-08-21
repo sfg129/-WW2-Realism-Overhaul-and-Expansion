@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="stug_iii_cannon.weapon">
-    <specification retrigger_time="5.5" 
+    <specification retrigger_time="5.25" 
     accuracy_factor="0.9" 
 	spread_range="0.3"
     sustained_fire_grow_step="1.0" 

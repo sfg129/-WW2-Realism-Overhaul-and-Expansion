@@ -35,7 +35,7 @@
 	<call key="ukf_vehicle_un_b.call" />
 		<call key="usf_vehicle_m3_halftrack.call" />
 
-	<call key="usmc_vehicle.call" />
+	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
 	<call key="ukf_vehicle_m4_sherman_v.call" />
 	<call key="ukf_vehicle_sherman_firefly.call" />

@@ -3,8 +3,7 @@
 	
 	<vehicle key="m4_75.vehicle" />
 	<vehicle key="m4_rhino.vehicle" />
- 	<vehicle key="stuart.vehicle" />
-  	<vehicle key="stuart_damaged.vehicle" />
+<vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
 	<vehicle key="m10.vehicle" />
  
@@ -30,13 +29,11 @@
 	<call key="artillery1.call" />
 
 	<call key="usf_vehicle.call" />
-	<call key="usf_vehicle1.call" />
 	<call key="usf_vehicle_m3_halftrack.call" />
 
-	<call key="usmc_vehicle.call" />
+	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
 	<call key="usf_vehicle_m4_sherman.call" />
-	<call key="vehicle_m4_e4.call" />
 	<call key="usf_vehicle_m10.call" />
 
 

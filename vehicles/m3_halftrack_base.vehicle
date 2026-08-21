@@ -83,7 +83,7 @@
 
 	<!-- PRIMARY CREW -->
 	<character_slot type="driver" enter_position="1.6 0.5 0.2" seat_position="0.50 0.73 -0.125" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" />
-	<character_slot type="gunner" attached_on_turret="0" enter_position="-1.6 0.5 -0.2" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+	<character_slot type="gunner" attached_on_turret="0" enter_position="-2.01497 0.5 -0.3813" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="0" />
 	</character_slot>
 
@@ -93,7 +93,7 @@
 
 		<!-- 观察手 (index 1- 望远镜) -->
 		<character_slot type="gunner" hiding="0">
-			<state class="entering" position="-1.6 0.5 0.2" rotation="1.57" />
+			<state class="entering" position="-1.6 0.5 0.2" rotation="2.30622" />
 			<state class="leaving" position="-1.6 0.5 0.2" rotation="-1.57" />
 			<state class="idle" animation_key="sitting, idling" rotation="0" position="-0.7 0.73 -0.125" />
 			<turret index="1" />

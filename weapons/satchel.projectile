@@ -15,7 +15,7 @@
 	<sound class="result" key="vehicle" copy="other" />
 	<sound class="result" key="character" copy="other" />
 	
-	<trigger class="time" time_to_live="3.5 "/>
+	<trigger class="time" time_to_live="3.5"/>
 
 	<result
 	class="blast"

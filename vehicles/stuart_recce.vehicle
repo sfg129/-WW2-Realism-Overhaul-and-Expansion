@@ -7,17 +7,17 @@
     <tire_set offset="1.1 0.0 +2.5" radius="0.52" />
     <tire_set offset="1.1 0.0 -2.5" radius="0.52" />
     
-    <control max_limiter_speed="4.0" max_speed="12.0" acceleration="10.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
+    <control max_limiter_speed="4.0" max_speed="12.5" acceleration="10.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
 
     <modifier class="blast_range" value="0.5" />
     <modifier class="blast_damage" value="-2.1" />
 
-    <physics max_health="17.0" mass="200.0" broken_mass="10" remove_collision_threshold="0.2" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 0.5 -0.15" collision_model_extent="3.5 2.2 5.4" visual_offset="0 0.28 0.0" /> 
+    <physics max_health="16.0" mass="200.0" broken_mass="10" remove_collision_threshold="0.2" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0 0.5 -0.15" collision_model_extent="3.5 2.2 5.4" visual_offset="0 0.28 0.0" /> 
     
         <!-- M2车顶机枪（暴露式） (index 0) -->
     <turret offset="0 1.98244 0.015" weapon_key="m4_m2.weapon" weapon_offset="0.0 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.78"/>
     <!-- 车体前部航向机枪 (index 1) -->
-    <turret offset="-0.5 1.6 0" weapon_key="stuart_mg.weapon" weapon_offset="0.0 0.2 1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.65" />
+    <turret offset="-0.56339 1.15519 0.60091" weapon_key="stuart_mg.weapon" weapon_offset="0.0 0.2 1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
     <!-- 护盾（挡板，无乘员） (index 2) -->
     <turret offset="0 2.32872 0.45" weapon_key="stuart_recce_s.weapon" weapon_recoil="0.0" physics_recoil="0.0" />
     
@@ -44,10 +44,10 @@
     </visual>
 
     <character_slot type="driver" position="1.5 0.5 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-        <character_slot type="gunner" position="-1.5 0.5 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+        <character_slot type="gunner" position="-0.79847 0.49792 0.5" rotation="0" exit_rotation="-1.56997" hiding="1" animation_key="tank mg still">
         <turret index="1" />
     </character_slot>
-        <character_slot type="gunner" attached_on_turret="1" enter_position="-1.5 0.7 -1.0" seat_position="0.5 -0.61105 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+        <character_slot type="gunner" enter_position="-1.5 0.7 -1.0" seat_position="-0.0044 1.03936 -0.18927" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
         <turret index="0" />
     </character_slot>
     

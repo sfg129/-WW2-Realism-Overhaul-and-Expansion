@@ -28,7 +28,7 @@
     extent="4 0.0 6.6" 
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
-    collision_model_pos="0 1.2 0" 
+    collision_model_pos="0.01149 1.2 0" 
     collision_model_extent="3.9 3.0 7.8" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
@@ -65,21 +65,18 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="2 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-2 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.26943 0.7 1.80703" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.0609 0.7 -0.19091" rotation="0" exit_rotation="-1.70059" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="3" />
 	</character_slot>
 	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0 -0.8 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="1" />
 	</character_slot>	
-	<character_slot type="gunner" position="-1.0 0.7 3.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" position="-1 0.7 2.249" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
 		
-	<character_slot type="gunner" position="-1.5 0.7 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="4" />
-	</character_slot>
-<character_slot type="gunner" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
+<character_slot type="gunner" position="1.14911 0.7 -0.35787" rotation="0" exit_rotation="1.65503" hiding="1" animation_id="36">
 <turret index="4" />
 </character_slot>
 

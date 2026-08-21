@@ -165,6 +165,11 @@
 		<comment key="spawn_in_base_call, denied, key=usmc_vehicle.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=usmc_inf.call" text="已将步兵队员派往&#37;base_name" />
 	
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_stuart.call" text="M5A1“斯图亚特”轻型坦克将运往&#37;base_name" />
+		<comment key="spawn_in_base_call, denied, key=usf_vehicle_stuart.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_stuart.call" text="已将步兵队员派往&#37;base_name" />
+
 	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_un.call" text="机枪通用运输车将部署在%base_name"/>
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_un.call" text="无可用部署点，占领一个据点！"/>
 

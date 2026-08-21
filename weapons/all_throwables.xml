@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
-
+	<projectile file="m4_cannon_76.projectile"/>
+	<projectile file="chi_ha_cannon_early.projectile"/>
 	<projectile file="rg42_grenade.projectile"/>
 	<projectile file="mortar_shell_50mm.projectile"/>
 	<projectile file="churchill_75_cannon.projectile"/>

@@ -49,7 +49,7 @@
 	</projectile>	
 
 <!-- front plate -->	
-	<shield offset="0.7 0.0 0" extent="0.2 1.0 1.5" />
+	<shield offset="-0.7 0 0" extent="0.2 1.0 1.5" />
 <!-- center plate -->	
 	<shield offset="0.1 0.0 0.5" extent="0.2 1.0 0.5" />
 	

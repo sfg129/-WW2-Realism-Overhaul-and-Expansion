@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call 
+	key="ija_vehicle_medium_tank_chi_ha_early.call" 
+	radio_view_text="Reinforcements - Type 97 Chi-Ha" 
+	initiation_comment="Requesting reinforcements, Type 97 Chi-Ha" 
+	acknowledge_comment="Copy, loud and clear" 
+	notify_metagame="1" consume_rp="0" show_target_marker="0">
+	
+		<tag name="reinforcements" />
+		<hud_icon filename="hud_chi_ha.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="100" source="rank" source_value="0.4" />
+		<inventory encumbrance="0.0" price="1000" />
+		
+	</call>
+  
+	<call key="ija_vehicle_medium_tank_chi_ha_early_spawn.call" acknowledge_time="0.0" launch_comment="Type 97 Chi-Ha deployed">
+		<round 
+		instances="1" 
+		instance_class="vehicle" 
+		instance_key="chi_ha_early.vehicle" 
+		instance_spread="3 0 3" 
+		common_spread="0 0 0" 
+		launch_time="7.5" 
+		spawn_time="10.0" 
+		horizontal_offset_at_spawn="0.0" 
+		vertical_offset_at_spawn="0.0" 
+		initial_speed_to_target="0.0">
+		</round>		
+		<inventory encumbrance="0.0" price="1000" />
+		
+	</call>
+	
+</calls>

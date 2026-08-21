@@ -30,6 +30,7 @@
 	<vehicle file="opel_blitz_2.vehicle" />  
 	<vehicle file="opel_blitz_armoury.vehicle" />  
 	<vehicle file="m4_75.vehicle" />
+	<vehicle file="m4_76.vehicle" />
 	<vehicle file="lefh18.vehicle" />
 	<vehicle file="mg34_hmg.vehicle" />
 	<vehicle file="mg42_hmg.vehicle" />
@@ -73,6 +74,7 @@
 	<vehicle file="repair_tank.vehicle" />
 	<vehicle file="m10.vehicle" />
 	<vehicle file="chi_ha.vehicle" />
+	<vehicle file="chi_ha_early.vehicle" />
 	<vehicle file="fortified_turret_chi_ha.vehicle" />
 	<vehicle file="fortified_turret_sherman.vehicle" />
 	<vehicle file="staff_car.vehicle" />
@@ -87,6 +89,7 @@
 	<vehicle file="ww2_undead_fsj_flare_despawner.vehicle" />
 	<vehicle file="crate_wrench.vehicle" />
 	<vehicle file="stuart.vehicle" />
+	<vehicle file="m5a1_stuart.vehicle" />
 	<vehicle file="stuart_damaged.vehicle" />
 	<vehicle file="pillbox.vehicle" />
 	<vehicle file="m1919_hmg.vehicle" />

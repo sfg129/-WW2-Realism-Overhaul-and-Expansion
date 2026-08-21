@@ -24,7 +24,8 @@
     class="0" 
     projectile_speed="140"
     cooldown_start="0.8"
-    cooldown_end="0.0"/>
+    cooldown_end="0.0"
+    barrel_offset="0.5" />
 
 	<sound key="fire" fileref="mg_03_m1919.wav" pitch_variety="0.05" volume="1.4"/>
 
