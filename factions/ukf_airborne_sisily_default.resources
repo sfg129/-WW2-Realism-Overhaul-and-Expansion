@@ -26,15 +26,15 @@
 
 	<vehicle key="m3_halftrack.vehicle" />
 	<call key="airstrike6.call" />
- 	<call key="airstrike7.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="usf_para.call" />
 	<call key="usf_para_armoury.call" />
+		<call key="usf_vehicle.call" />
 	<call key="ukf_vehicle_un.call" />
-	<call key="ukf_vehicle_unk.call" />
 	<call key="ukf_vehicle_un_b.call" />
-	<call key="usf_vehicle.call" />
+
 	<call key="usf_vehicle_m3_halftrack.call" />
 	<call key="vehicle_m3_mortar.call" />
 

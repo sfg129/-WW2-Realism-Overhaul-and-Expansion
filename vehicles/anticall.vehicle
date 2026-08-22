@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="" key="anticall.vehicle" map_view_atlas_index="-1" should_be_destroyed="0" >
 	<tag name="target" />
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />

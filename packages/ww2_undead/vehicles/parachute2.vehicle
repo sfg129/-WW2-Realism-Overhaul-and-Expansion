@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Parachute" key="parachute2.vehicle" map_view_atlas_index="18" allow_ai_to_use="1" should_be_destroyed="0" usable_for_cover="0" respawn_time="36000" time_to_live="30" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1">
 	<tire_set offset="0.1 0.0 0.1" radius="0.1" />
 	<tire_set offset="0.1 0.0 -0.1" radius="0.1" />

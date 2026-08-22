@@ -35,5 +35,5 @@
 
   <parameter class="melee_attack_wait_time" value="0.0" />
 
-  <parameter class="fighting_against_vehicle_move_radius" value="45.0" />
+
 </ai>

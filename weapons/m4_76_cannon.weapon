@@ -5,12 +5,12 @@
 	<!-- using these as default values for normal vehicle-born machine guns -->
 	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
 
-    <specification retrigger_time="5.5" 
+    <specification retrigger_time="5" 
     accuracy_factor="0.9" 
 	spread_range="0.25"
     sustained_fire_grow_step="1.0" 
     sustained_fire_diminish_rate="0.25" 
-    sight_range_modifier="2.1"
+    sight_range_modifier="2.15"
     ai_sight_range_modifier="1"
     magazine_size="-1" 
     can_shoot_standing="0" 
@@ -46,6 +46,6 @@
     <effect class="muzzle" ref="CannonSmokeBig" /> 
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
-    <sound class="operation" key="fire" fileref="tank_cannon.wav" pitch_variety="0.05" volume="2.35"/>
+    <sound class="operation" key="fire" fileref="tank_cannon.wav" pitch_variety="0.05" volume="2.5"/>
 
 </weapon>

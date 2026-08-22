@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="" key="deco_sedan_white2.vehicle" map_view_atlas_index="-1" respawn_time="10000.0">
 	<tag name="deco_car" />
   <tire_set offset="1.0 0.0 1.0" radius="0.65" />

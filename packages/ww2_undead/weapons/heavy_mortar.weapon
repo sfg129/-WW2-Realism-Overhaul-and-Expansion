@@ -6,8 +6,8 @@
 <!--basically a reload indicator. Recoil must be 1.0 for this to work-->
 	
 	<specification
-        spread_range="0.2"
-	retrigger_time="5.5" 
+        spread_range="0.22"
+	retrigger_time="5" 
 	accuracy_factor="0.9" 
 	sight_range_modifier="4.5"
   	ai_sight_range_modifier="0.5"  

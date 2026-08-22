@@ -6,16 +6,17 @@
 
 	<specification 
 	retrigger_time="0.25" 
-	accuracy_factor="0.955" 
+	accuracy_factor="0.95" 
 	spread_range="0.28"
 	sustained_fire_grow_step="1.1" 
 	sustained_fire_diminish_rate="2.4"
-	magazine_size="10" 
+	magazine_size="11" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Gewehr 43" 
 	class="4" 
 	burst_shots="1"
+	reload_one_at_a_time="1" 
 	projectile_speed="130.0" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
@@ -31,13 +32,13 @@
 
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />
-	<animation key="reload" animation_key="reloading, g43" />
-	<animation key="reload" stance_key="prone" animation_key="reloading, g43, prone" />
-	
+	<animation key="reload" animation_key="reloading, g432" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, g432, prone" />
+		<sound key="effect" fileref="kar43_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
 	<weak_hand_hold offset="0.3" />
 		
 	<sound key="fire" fileref="weapon_rifle_kar43.wav" pitch_variety="0.05" volume="1.75"/>
-    	<sound key="reload_one" fileref="park_off.wav" />
 	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber.wav" />
@@ -45,8 +46,8 @@
 	<model filename="weapon_k43.xml" />
 	<hud_icon filename="hud_kar43.png" />
 	
-	<commonness value="0.08" can_respawn_with="1"/>
-	<inventory encumbrance="8.0" price="10.0" />
+	<commonness value="0.06" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="30.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

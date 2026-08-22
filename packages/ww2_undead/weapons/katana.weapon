@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="katana.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
+<weapon file="base_primary_rare.weapon" key="katana.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.4" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
     <tag name="cqb" />
 	
 <access_tag name="pacific" />
@@ -12,7 +12,7 @@
     class="5" 
     character_state="death" 
     consume="0" 
-    sight_range_modifier="0.9" 
+    sight_range_modifier="1" 
     slot="0" 
     range="3.5"
     success_probability="2.0"

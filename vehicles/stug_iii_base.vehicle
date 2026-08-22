@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="StuG III" key="stug_iii.vehicle"  time_to_live_unsteerable="60" map_view_atlas_index="31" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="5.0" ai_driver_turns_to_target="1" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
    	<tag name="vehicle" />
@@ -16,10 +17,10 @@
 	<!-- as a result its reverse speed is the same as its forward; and those speeds are slightly higher than medium tanks, making it a bit more suitable for tank vs. tank kiting. -->
 
 
-	<control max_limiter_speed="4.0" max_speed="8.0" acceleration="12.0" max_reverse_speed="8.0" min_health_to_steer="0.85" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.995" tracked="1" gears="1" simulated_speed_factor="0.4" />
+	<control max_limiter_speed="4.0" max_speed="9" acceleration="12.0" max_reverse_speed="8.0" min_health_to_steer="0.85" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.995" tracked="1" gears="1" simulated_speed_factor="0.4" />
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.3" />
+	<modifier class="blast_damage" value="-3.5" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 

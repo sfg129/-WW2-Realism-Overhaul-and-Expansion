@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="LVT-4" key="lvt4.vehicle" respawn_time="80" time_to_live_unsteerable="60" map_view_atlas_index="35" minimum_fill_requirement="0.25" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Armory Daihatsu" key="armory_daihatsu.vehicle" map_view_atlas_index="51" respawn_time="180" existence="one_per_faction" should_be_destroyed="1" allow_ai_to_use="0" reserves_spawn_point="1" usable_for_cover="0">
 	<tag name="vehicle" />
 	<tag name="armory boat" />  

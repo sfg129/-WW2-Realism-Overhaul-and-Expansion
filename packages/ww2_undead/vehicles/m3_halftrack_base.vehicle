@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="M3 Halftrack" time_to_live_unsteerable="60" map_view_atlas_index="24" minimum_fill_requirement="0.2" ai_use_throwables="1">
 	<tag name="metal_heavy" />
 	<tag name="tank_treads" />
@@ -18,9 +19,9 @@
   <visual class="tire" index="5" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-1" />
+	<modifier class="blast_damage" value="-1.1" />
 
-	<!--<control max_limiter_speed="4.0" max_speed="14" acceleration="7.0" max_reverse_speed="7.0" min_health_to_steer="0.5" max_rotation="0.8" max_water_depth="1.6" steer_smoothening="0.8" tracked="0" gears="2" />-->
+	<!--<control max_limiter_speed="4.0" max_speed="11" acceleration="7.0" max_reverse_speed="7.0" min_health_to_steer="0.5" max_rotation="0.8" max_water_depth="1.6" steer_smoothening="0.8" tracked="0" gears="2" />-->
 	<control 
 	max_limiter_speed="4.0" 
 	max_speed="12" 
@@ -37,7 +38,7 @@
 	simulated_speed_factor="0.75"/>
 
 	<physics 
-    max_health="16.0" 
+    max_health="14" 
     mass="50.0" 
     broken_mass="5"
     remove_collision_threshold="0.2"
@@ -83,7 +84,7 @@
 
 	<!-- PRIMARY CREW -->
 	<character_slot type="driver" enter_position="1.6 0.5 0.2" seat_position="0.50 0.73 -0.125" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" />
-	<character_slot type="gunner" attached_on_turret="0" enter_position="-1.6 0.5 -0.2" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+	<character_slot type="gunner" attached_on_turret="0" enter_position="-2.01497 0.5 -0.3813" seat_position="0.0 -1.15 -0.45" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="0" />
 	</character_slot>
 
@@ -93,7 +94,7 @@
 
 		<!-- 观察手 (index 1- 望远镜) -->
 		<character_slot type="gunner" hiding="0">
-			<state class="entering" position="-1.6 0.5 0.2" rotation="1.57" />
+			<state class="entering" position="-1.6 0.5 0.2" rotation="2.30622" />
 			<state class="leaving" position="-1.6 0.5 0.2" rotation="-1.57" />
 			<state class="idle" animation_key="sitting, idling" rotation="0" position="-0.7 0.73 -0.125" />
 			<turret index="1" />

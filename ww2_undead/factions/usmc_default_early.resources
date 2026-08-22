@@ -5,6 +5,7 @@
  	<vehicle key="stuart_damaged.vehicle" />
  	<vehicle key="lvt4.vehicle" />
 	<vehicle key="pillbox.vehicle" />
+	<vehicle key="m1917_hmg.vehicle" />
 	<vehicle key="m1919_hmg.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
 	<vehicle key="landing_craft_noai.vehicle" />  
@@ -14,7 +15,6 @@
 	<vehicle key="pt_boat.vehicle" />
 <vehicle key="m3_halftrack_base.vehicle" />
 
-<vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
 
 
@@ -32,11 +32,10 @@
 	<call key="usmc_inf.call" />
 	<call key="usf_vehicle_armoury_marine.call" />
 	<call key="usf_vehicle_m3_halftrack.call" />
-	<call key="usmc_vehicle1.call" />
-	<call key="vehicle_stuart_recce.call" />
-	<call key="usmc_vehicle.call" />
 	<call key="vehicle_m3_mortar.call" />
+	<call key="usmc_vehicle1.call" />
+	<call key="usmc_vehicle.call" />
+	
 
-	<call key="rubber_boat.call" />
 
 </resources>

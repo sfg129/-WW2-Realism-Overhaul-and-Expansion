@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Bofors Gun" key="bofors.vehicle" map_view_atlas_index="43" respawn_time="120.0" protectors="1" soldier_capacity_offset="1" usable_for_cover="0" >
 	<tag name="target" />
 
@@ -20,15 +21,15 @@
 	<visual class="turret" key="broken" turret_index="0" mesh_filename="bofors_damage.mesh" texture_filename="bofors_damage.png" />
 	
 	<character_slot type="gunner" attached_on_turret="0" hiding="0">
-		<state class="entering" animation_key="crouching forwards short, no weapon" position="0.2 0 0" rotation="-1.57" />
-		<state class="leaving" animation_key="crouching forwards short, no weapon" position="0 0 0" rotation="1.57" />
+		<state class="entering" animation_key="crouching forwards short, no weapon" position="1 0 0" rotation="-1.57" />
+		<state class="leaving" animation_key="crouching forwards short, no weapon" position="1 0 0" rotation="1.57" />
 		<state class="idle" animation_key="type96 sitting" position="0.75 0.30 -0.2" />
 		<turret index="0" />
 	</character_slot>
 	
 	<character_slot type="passenger" attached_on_turret="0" hiding="0" allow_weapon="0">
-		<state class="entering" animation_key="crouching forwards short, no weapon" position="-0.2 0 0" rotation="-1.57" />
-		<state class="leaving" animation_key="crouching forwards short, no weapon" position="0 0 0" rotation="1.57" />
+		<state class="entering" animation_key="crouching forwards short, no weapon" position="1 0 0" rotation="-1.57" />
+		<state class="leaving" animation_key="crouching forwards short, no weapon" position="1 0 0" rotation="1.57" />
 		<state class="idle" animation_key="type96 sitting" position="-0.75 0.30 -0.2" />
 		
 	</character_slot>

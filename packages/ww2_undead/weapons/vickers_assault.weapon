@@ -4,7 +4,7 @@
 <access_tag name="edelweiss" />
 
 	<specification 
-	retrigger_time="0.115" 
+	retrigger_time="0.12" 
 	accuracy_factor="0.8" 
   	spread_range="0.16"
 	sustained_fire_grow_step="1.0"
@@ -16,7 +16,7 @@
 	name="Vickers Mk VI - Mobile" 
 	class="0" 
 	barrel_offset="0.7" 
-projectile_speed="120.0" 
+projectile_speed="130.0" 
 	/>
 	
 	<!-- The Vickers HMG in 'mobile' configuration -->
@@ -41,8 +41,8 @@ projectile_speed="120.0"
 
 	<stance state_key="running" accuracy="0.5" />
 	<stance state_key="walking" accuracy="0.6" />
-	<stance state_key="standing" accuracy="0.7" />
-	<stance state_key="crouching" accuracy="0.8" />
+	<stance state_key="standing" accuracy="0.75" />
+	<stance state_key="crouching" accuracy="0.85" />
 	<stance state_key="prone" accuracy="1" />
 	<stance state_key="over_wall" accuracy="1" />  
 	
@@ -71,6 +71,6 @@ projectile_speed="120.0"
 		kill_decay_end_time="0.9" 
 		/>
 	</projectile>
-	<modifier class="speed" value="-0.2" /> 
+	<modifier class="speed" value="-0.16" /> 
 	
 </weapon>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Opel Blitz" key="opel_blitz_2.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="1" minimum_fill_requirement="0.3">
 	<tag name="metal_thin" />
 	<tag name="truck_open" />

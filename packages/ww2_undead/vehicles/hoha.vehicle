@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Type 1 Ho-Ha" key="hoha.vehicle" respawn_time="80" time_to_live_unsteerable="60" map_view_atlas_index="52" minimum_fill_requirement="0.3" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" ai_driver_turns_to_target="1" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="hoha" />
@@ -164,6 +165,11 @@
 		<result class="reward" rp="50.0" />
 	</event>
     
+
+	    <event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="weapon" instance_key="type97_m.weapon" min_amount="1" max_amount="1" offset="0 2.4 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+    </event>
 	<event>
 		<trigger class="destroy" />
   	<result class="spawn" instance_class="visual_item" instance_key="burning_piece_truck1.visual_item" min_amount="1" max_amount="3" offset="0 3.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />

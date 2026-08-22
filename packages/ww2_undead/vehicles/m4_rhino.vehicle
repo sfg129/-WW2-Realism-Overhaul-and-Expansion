@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="M4A3 Sherman Rhino" key="m4_rhino.vehicle" respawn_time="120" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank_special" />
@@ -5,8 +6,6 @@
 	<tag name="tank_treads" />
    	<tag name="medium_armour" />
 	<tag name="crushes_hedgerows" />
-   	<
-    
     <access_tag name="edelweiss" /> 
 
 	<!-- respawn time was 160, but raised heavily as this vehicle provides the USF a ton of extra firepower on St. Marie du Mont. -->
@@ -15,7 +14,7 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="7.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<modifier class="blast_damage" value="-3.3" />
@@ -78,10 +77,7 @@
 	<character_slot type="gunner" position="-1.0 0.7 3.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
-	<character_slot type="gunner" position="-1.5 0.7 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="4" />
-	</character_slot>
-<character_slot type="gunner" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
+<character_slot type="gunner" position="2 0.7 -0.67552" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
 <turret index="4" />
 </character_slot>
 

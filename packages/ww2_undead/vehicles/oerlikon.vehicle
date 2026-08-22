@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Oerlikon Gun" key="oerlikon.vehicle" map_view_atlas_index="45" respawn_time="60.0" protectors="2" soldier_capacity_offset="6" usable_for_cover="0" >
 	<tag name="target" />
    	<tag name="defensive_weapon" />

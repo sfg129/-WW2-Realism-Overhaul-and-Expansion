@@ -10,7 +10,8 @@
 	<!--<vehicle key="armory_daihatsu.vehicle" />   -->
 	<!--<vehicle key="jeep1.vehicle" />-->
  	<!--<vehicle key="hoha.vehicle" />  -->
-<call key="mortar2.call" />
+	<call key="mortar2.call" />
+
 <vehicle key="sdkfz251_pak40.vehicle" />
 	<vehicle key="mg34_hmg.vehicle" />
  	<vehicle key="mg34_hmg.vehicle" />

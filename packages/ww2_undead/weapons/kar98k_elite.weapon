@@ -8,8 +8,8 @@
 	retrigger_time="-1.0" 
 	accuracy_factor="0.99" 
 	sustained_fire_grow_step="1" 
-	sustained_fire_diminish_rate="0.75"
-	stance_accuracy_rate="3.5"
+	sustained_fire_diminish_rate="1"
+	stance_accuracy_rate="1.25"
 	magazine_size="20" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -19,7 +19,7 @@
 	projectile_speed="130.0"  
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="1.5"
+	sight_range_modifier="1.8"
 	/>
 
 	<!-- scope zoom was 1.45 -->
@@ -34,8 +34,7 @@
 	<!-- due to its quality improvements it offers up superior accuracy. -->
 	<!-- since it has a nice big trench mag it is also worth a lot more than most other hi-grade rifles. -->
 
-	<stance state_key="standing" accuracy="0.96" />
-	<stance state_key="crouching" accuracy="0.98" />
+
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
@@ -57,7 +56,7 @@
 	<hud_icon filename="hud_kar98k_elite.png" />
 	
 	<commonness value="0.0325" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="175.0" />
+	<inventory encumbrance="8.0" price="275.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

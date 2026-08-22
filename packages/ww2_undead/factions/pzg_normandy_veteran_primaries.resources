@@ -18,11 +18,12 @@
 <weapon key="ppsh41_stick.weapon" />
 	<weapon key="ppsh41.weapon" />
 	<weapon key="beretta_m38.weapon" />
-	<weapon key="danuvia_43m_folded_ai.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
+
 	<weapon key="mg34_assault.weapon" />
 <weapon key="danuvia_43m.weapon" />
+	<weapon key="danuvia_43m_folded_ai.weapon" />
+	<weapon key="danuvia_43m_b.weapon" />
+	<weapon key="danuvia_43m_folded_b.weapon" />
 		<weapon key="mg42_assault.weapon" />
 	<weapon key="wz35_ai.weapon" />
 

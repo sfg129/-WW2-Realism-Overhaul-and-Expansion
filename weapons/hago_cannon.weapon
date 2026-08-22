@@ -28,7 +28,7 @@
 	suppressed="0" 
 	name="Type 95 Ha-go cannon" 
 	class="0" 
-	projectile_speed="90" 
+	projectile_speed="80" 
 	slot="2" 
 	barrel_offset="2.0" 
 	projectiles_per_shot="1"
@@ -47,7 +47,7 @@
     <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.5" />
     <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
 	
-	<sound class="operation" key="fire" fileref="tank_cannon_light.wav" pitch_variety="0.05" volume="2.65"/>
+	<sound class="operation" key="fire" fileref="tank_cannon_light.wav" pitch_variety="0.05" volume="2.35"/>
 	
 	<model mesh_filename="hago_cannon.mesh" texture_filename="hago.png" />
 	<hud_icon filename="hud_tank_cannon.png" />

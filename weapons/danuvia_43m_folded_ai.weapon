@@ -3,6 +3,6 @@
 	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="danuvia_43m_folded.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" /> 
 	<specification slot="0" />
 	<next_in_chain key=""/>
-	<commonness value="0.05" />
+	<commonness value="0.03" />
 
 </weapon>

@@ -13,6 +13,8 @@
 <weapon key="smle_rifle_grenade_he.weapon" />
 	<weapon key="smle_rifle_grenade_launcher_at.weapon" />
 	<weapon key="boys_at_rifle.weapon" />
-	<weapon key="enfield_p14_s.weapon" />
-
+<weapon key="lanchester_smg.weapon" />
+		<weapon key="lanchester_smg_b.weapon" />
+		<weapon key="enfield_p14_s.weapon" />
+		<weapon key="enfield_p14_is.weapon" />
 </resources>

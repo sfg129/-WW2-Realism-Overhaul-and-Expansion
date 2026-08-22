@@ -157,6 +157,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_flak.ca
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"route_115_north"}, true, "vehicle"));
@@ -250,7 +252,9 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_mortar.
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));	
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));	
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {""}, true, "vehicle"));
@@ -343,6 +347,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_mortar.
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"castle"}, true, "vehicle"));
@@ -452,6 +458,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_unk.call", "ukf
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {"point_262"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {"point_262"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
@@ -578,6 +586,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_unk.call", "ukf
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {""}, true, "vehicle"));
@@ -714,6 +724,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_stuart_recce.call",
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {""}, true, "vehicle"));
@@ -817,6 +829,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_stuart_recce.call",
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {""}, true, "vehicle"));
@@ -918,6 +932,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_unk.call", "ukf
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_stug.call", "wh_vehicle_stug_spawn.call", array<string> = {"citadel"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251.call", "wh_vehicle_sdkfz251_spawn.call", array<string> = {"citadel"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_luchs.call", "wh_vehicle_luchs_spawn.call", array<string> = {"citadel"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_panther.call", "wh_vehicle_panther_spawn.call", array<string> = {"citadel"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_tiger.call", "wh_vehicle_tiger_spawn.call", array<string> = {"citadel"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf.call", "wh_inf_spawn.call", array<string> = {"citadel"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_inf_ai.call", "wh_inf_spawn_ai.call", array<string> = {"citadel"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {""}, true, "vehicle"));

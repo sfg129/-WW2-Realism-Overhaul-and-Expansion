@@ -8,9 +8,6 @@
 	
 	<weapon key="type100_smg.weapon" />
 	
-	<weapon key="type96_lmg.weapon" />
-	<weapon key="type99_lmg.weapon" />
-	
 	<!--<weapon key="type97_s.weapon" />-->
 	<!--<weapon key="type38_rifle_launcher.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
 	

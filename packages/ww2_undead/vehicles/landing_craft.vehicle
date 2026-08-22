@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Higgins Boat" key="landing_craft.vehicle" map_view_atlas_index="37" respawn_time="75" soldier_capacity_offset="5" allow_owner_to_use_only="1" should_be_destroyed="1" minimum_fill_requirement="0.25" ai_use_throwables="0">
 	<tag name="vehicle" />
 	<tag name="landing_craft" />

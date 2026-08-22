@@ -8,9 +8,9 @@
 	retrigger_time="0.25" 
 	spread_range="0.285"
 	accuracy_factor="0.99" 
-	sustained_fire_grow_step="1"
-	sustained_fire_diminish_rate="0.8"
-	stance_accuracy_rate="1.15"
+	sustained_fire_grow_step="0.95" 
+	sustained_fire_diminish_rate="0.85"
+	stance_accuracy_rate="0.8"
 	magazine_size="10" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -22,7 +22,7 @@
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
 	/>
-
+	<next_in_chain key="m1941_johnson_rifle_is.weapon" share_ammo="1" />
 	<!-- recoil recovery vs. rifle variant is only *0.95 for M1941 Johnson, or else it begins to be worse than the No. 4 Sniper -->
 	<!-- additionally it gets the same slightly-faster stance rate that some other special snipers get -->
 
@@ -32,12 +32,11 @@
 
 	<!-- scope power is 2.5x for the Lyman-Alaskan scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
 
-	<stance state_key="standing" accuracy="0.965" />
+
 
 	<!-- semi-auto snipers need 1.0 prone/overwall instead of 1.1 like other snipers -->
 	<!-- this is because for some reason recoil recovers more quickly down to 1.1, so they end up firing faster than unscoped-->
-	<stance state_key="prone" accuracy="1.0" /> 
-	<stance state_key="over_wall" accuracy="1.0" />		
+
 		
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />
@@ -55,7 +54,7 @@
 	<model filename="weapon_m1941_johnson_sniper.xml" />
 	<hud_icon filename="hud_johnson_sniper.png" />
 	
-	<commonness value="0.04" can_respawn_with="0" />
+	<commonness value="0.07" can_respawn_with="0" />
 	<inventory encumbrance="8.0" price="325.0" />
    
 	<capacity value="0" source="rank" source_value="0.0" />

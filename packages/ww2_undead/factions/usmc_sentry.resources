@@ -3,6 +3,7 @@
 	
 	<weapon key="m1917_hmg_assault.weapon" />
 		<weapon key="m1919_lmg_assault.weapon" />
+			<weapon key="stinger.weapon" />
 	<weapon key="m1911.weapon" />
 	<weapon key="m1_carbine.weapon" />
 

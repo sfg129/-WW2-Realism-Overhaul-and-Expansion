@@ -15,7 +15,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="11"
+	damage="12"
 	push="0.4"
 	decal="1" 
 	
@@ -35,7 +35,7 @@
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
-    <commonness value="0.5" />
+    <commonness value="0.7" />
     <inventory encumbrance="3.0" price="2.0" />
 	
 

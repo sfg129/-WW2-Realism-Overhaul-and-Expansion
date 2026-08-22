@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Heavy Mortar" key="heavy_mortar.vehicle" respawn_time="120" map_view_atlas_index="46" protectors="1" soldier_capacity_offset="1" usable_for_cover="0" >
 	<tag name="target" />
    	<tag name="defensive_weapon" />
@@ -9,7 +10,7 @@
 	
 	<modifier class="blast_damage" value="-0.7" />
 
-	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+	<control max_speed="12.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
 	
 	<physics max_health="6.0" mass="10000.0" extent="2.0 0.0 2.0" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0.0 0.2 0.0" collision_model_extent="1.5 0.6 1.5" visual_offset="0 -0.0 0" /> 
 	

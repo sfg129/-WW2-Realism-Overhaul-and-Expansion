@@ -18,11 +18,13 @@
 	slot="0"
 	barrel_offset="0.3" 
 	/>
-
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
 	<!-- this weapon is very similar to the Beretta 38, except it features a folding stock. -->
 	<!-- this stock can be toggled. -->
 	<!-- folding the weapon will reduce its backpack weight and increase its mobility and moving-accuracy. -->
 
+	<next_in_chain key="danuvia_43m_b.weapon" share_ammo="1" />
 
 		<!-- <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" /> -->
 
@@ -48,10 +50,10 @@
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
 	
-	<model filename="weapon_danuvia_43m_stock_out.xml" />
-	<hud_icon filename="hud_danuvia43m_folding.png" />
+	<model filename="weapon_danuvia_43m.xml" />
+	<hud_icon filename="hud_danuvia43m.png" />
 
-	<commonness value="0.05" can_respawn_with="1"/>
+	<commonness value="0.03" can_respawn_with="1"/>
 	<inventory encumbrance="5.0" price="200.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

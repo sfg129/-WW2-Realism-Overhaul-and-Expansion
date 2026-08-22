@@ -31,6 +31,11 @@ dictionary getUnlockFiremodes() {
 {"type99_rifle_s.weapon", "type99_rifle_is.weapon"},
 {"mn9130_is.weapon", "mn9130_s.weapon"},
 {"stg44_s.weapon", "stg44_is.weapon"},
+{"danuvia_43m_folded_b.weapon", "danuvia_43m_folded.weapon"},
+{"danuvia_43m_b.weapon", "danuvia_43m.weapon"},
+
+{"danuvia_43m_folded.weapon", "danuvia_43m_folded_b.weapon"},
+{"danuvia_43m.weapon", "danuvia_43m_b.weapon"},
 		{"mp34_o.weapon", "mp34_o_b.weapon"}
 	};
 

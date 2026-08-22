@@ -5,6 +5,7 @@
 	<carry_item key='vest_veteran.carry_item' enabled="1" />  
 	<carry_item key='vest_sentry.carry_item' enabled="1" />
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
+
 	<weapon key="light_mortar_resource.weapon" />
 	<projectile key="type97_grenade.projectile" />
 	<projectile key="type99_at_mine.projectile" />

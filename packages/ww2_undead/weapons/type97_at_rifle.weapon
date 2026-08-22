@@ -6,11 +6,10 @@
 
 	<specification  
 	retrigger_time="0.4"  
-	accuracy_factor="0.9" 
-	spread_range="0.5"
+	accuracy_factor="0.92" 
 	sustained_fire_grow_step="25" 
-		sustained_fire_diminish_rate="0.5"
-	stance_accuracy_rate="0.5"
+		sustained_fire_diminish_rate="0.7"
+	stance_accuracy_rate="0.6"
 	magazine_size="7" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
@@ -19,18 +18,18 @@
 	class="4" 
 	burst_shots="1" 
 	reload_one_at_a_time="0" 
-	projectile_speed="180.0" 
+	projectile_speed="130.0" 
 	barrel_offset="0.9" 
 	projectiles_per_shot="1"
 	sight_range_modifier="2.25"
 	ai_sight_range_modifier="0.7"  
 	/>
-	<stance state_key="running" accuracy="0.5" />
-	<stance state_key="walking" accuracy="0.6" />
-	<stance state_key="standing" accuracy="0.7" />
-	<stance state_key="crouching" accuracy="0.8" />
-	<stance state_key="prone" accuracy="1.15" />
-	<stance state_key="over_wall" accuracy="1.15" />  
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.6" />
+	<stance state_key="crouching" accuracy="0.7" />
+	<stance state_key="prone" accuracy="1.1" />
+	<stance state_key="over_wall" accuracy="1.1" />  
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
@@ -67,7 +66,7 @@
 	<hud_icon filename="hud_type97_at.png" />
 	
 	<commonness value="0.065" can_respawn_with="1"/>
-	<inventory encumbrance="26.0" price="175.0" />
+	<inventory encumbrance="11.0" price="175.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -76,7 +75,7 @@
         <result
 		class="blast"
     radius="2"
-    damage="3.8"
+    damage="4.2"
     push="0.1"
     decal="1"
 		faction_compare="not_equal"/>

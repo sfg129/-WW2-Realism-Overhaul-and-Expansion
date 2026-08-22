@@ -5,25 +5,24 @@
 
 	<specification 
 	retrigger_time="0.1" 
-	accuracy_factor="0.96" 
-	sustained_fire_grow_step="0.19" 
-	sustained_fire_diminish_rate="1.8"	
+	accuracy_factor="0.95" 
+	spread_range="0.35"
+	sustained_fire_grow_step="0.2" 
+	sustained_fire_diminish_rate="1.7"	
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="M2 Hyde" 
 	class="0" 
-	projectile_speed="92.0"
+	projectile_speed="91.0"
 	barrel_offset="0.5" 
 	/>
 
 	<!-- simple SMG sight ; though technically an aperture -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />   
+
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
-	<stance state_key="prone" accuracy="0.95" />
+
 
 	
 	<animation key="recoil" ref="12" />
@@ -37,7 +36,7 @@
 	<sound key="fire" fileref="weapon_smg_m2_hyde.wav" pitch_variety="0.05" volume="1.94"/>	<!-- was 1.9 with old sound -->
 	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
-	<sound key="cycle" fileref="rifle_chamber.wav" />
+	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
 	
 	<model filename="weapon_m2_hyde_smg.xml" />
 	<hud_icon filename="hud_m2_hyde.png" />

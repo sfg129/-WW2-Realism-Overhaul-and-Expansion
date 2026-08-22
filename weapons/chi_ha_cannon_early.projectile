@@ -14,8 +14,8 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="6" 
-	damage="7" 
+	radius="6.5" 
+	damage="7.5" 
 	push="1.0" 
 	decal="1" 
      faction_compare="not_equal"   

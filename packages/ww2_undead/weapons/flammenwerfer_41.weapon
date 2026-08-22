@@ -42,7 +42,7 @@
 	<model filename="weapon_flammenwerfer_41_lance.xml" />
 	<hud_icon filename="hud_flammenwerfer_41.png" />
 	
-	<commonness value="0.1" can_respawn_with="0" />
+	<commonness value="0.1" can_respawn_with="1" />
 	<inventory encumbrance="26.0" price="230" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />

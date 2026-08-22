@@ -9,8 +9,10 @@
 	<weapon key="m1911.weapon" />
 	<weapon key="m1903_at_launcher.weapon" />
 	<weapon key="m1917_hmg_resource.weapon" />
+	<weapon key="m1917_hmg_resource_t.weapon" />
 	<!-- moved to briefcase unlocks -->
 	<weapon key="m2hb_hmg_resource.weapon" />
+	<weapon key="m2hb_hmg_resource_t.weapon" />
 	<weapon key="bofors_resource.weapon" />
 	<projectile key="mk3_grenade.projectile" />
 	<carry_item key='vest_normal.carry_item' enabled="1" />  

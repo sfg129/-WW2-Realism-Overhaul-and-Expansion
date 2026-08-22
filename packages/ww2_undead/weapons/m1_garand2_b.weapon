@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="m1_garand2_b.weapon">
+		<tag name="has_bayonet" />
+
+	<specification 
+	retrigger_time="0.2" 
+	accuracy_factor="0.95" 
+
+	sustained_fire_grow_step="1.1" 
+	sustained_fire_diminish_rate="2.5"
+	stance_accuracy_rate="2"
+	magazine_size="8" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="M1 Garand Bayonet" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="0" 
+	projectile_speed="140.0"  
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+    stab_enabled="1"
+    stab_range="3.5"
+	slot="1"
+	/>
+	<!--recoil recovery was 1.5-->
+	<!--kill probability was 0.75-->
+	 
+	<next_in_chain key="m1_garand2.weapon" share_ammo="1" />
+	<stance state_key="prone" accuracy="0.96" /> 
+	<stance state_key="over_wall" accuracy="0.96" />	
+	
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" ref="30" />
+	<animation state_key="reload" animation_key="reloading, m1 garand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1 garand, prone" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="rifle_02_m1_garand.wav" pitch_variety="0.05" volume="2.45"/>
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	<sound key="cycle" fileref="pistol2_chamber.wav" />
+	<sound key="magazine_out" fileref="rifle_02_m1_garand_ping.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="last_ammo" fileref="rifle_02_m1_garand_ping.wav" />
+	
+	<model filename="m1_garand_b.xml" />
+	<hud_icon filename="hud_m1_garand_b.png" />
+	
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="10" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="1.5" 
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

@@ -5,17 +5,17 @@
 
   <parameter class="accuracy_offset" value="0.5" />   <!-- was 1.05 in 1.81 -->
   <parameter class="accuracy_penalty_range" value="0.0" />
-  <parameter class="max_sight_range_with_muzzle" value="60" />
-  <parameter class="leader_sight_range" value="40.0" />
+  <parameter class="max_sight_range_with_muzzle" value="54" />
+  <parameter class="leader_sight_range" value="42" />
 
   <parameter class="ai_stand_manually_to_shoot_over_wall" value="1.0"/>		<!-- normal AI don't always need this. this helps with the new cover-accuracy bonus applying to single-shot rifles, but... meh. snipers need it though!-->
-  <parameter class="shooting_accuracy_ratio_requirement" value="0.95" />  	<!-- was 0.7 here, but 0.6 in vanilla. < 1.87 was 0.92 -->
+  <parameter class="shooting_accuracy_ratio_requirement" value="0.9" />  	<!-- was 0.7 here, but 0.6 in vanilla. < 1.87 was 0.92 -->
   <parameter class="squad_cover_provider_range" value="20.0" />
   <parameter class="squad_cover_provider_offset_factor" value="-0.9" />
 
   <parameter class="fighting_favor_helping_probability" value="0.7" />		<!-- was 0 -->
   <parameter class="lonewolf" value="1" />
-  <parameter class="going_to_cover_crouched_lonewolf_min_enemy_distance" value="25.0" />
+  <parameter class="going_to_cover_crouched_lonewolf_min_enemy_distance" value="30" />
 
   <parameter class="default_fighting_separation" value="15.0" />
   <parameter class="boosted_fighting_separation" value="15.0" />
@@ -23,5 +23,5 @@
   <parameter class="using_cover_min_time" value="8.0" />
   <parameter class="using_cover_max_time" value="12.0" />
 
-  <parameter class="dive_from_grenade_probability" value="0.0" />
+  <parameter class="dive_from_grenade_probability" value="1.0" />
 </ai>

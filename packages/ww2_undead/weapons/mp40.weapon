@@ -23,9 +23,6 @@
 	<!-- recoil is set low and RoF is good HOWEVER damage is lower than other 9mm SMGs, fall off occurs sooner, velocity is a bit lower, and base accuracy is also low. -->
 
 	<!-- simple SMG sight -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />  
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
@@ -46,7 +43,7 @@
 	<model filename="weapon_mp40_smg.xml" />
 	<hud_icon filename="hud_mp40.png" />
 
-	<commonness value="0.08"/>
+	<commonness value="0.075"/>
 	<inventory encumbrance="5.0" price="10.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

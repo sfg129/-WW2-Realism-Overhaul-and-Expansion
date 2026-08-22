@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="B29 Turret" key="b29_turret_rear.vehicle" respawn_time="60" map_view_atlas_index="-1" protectors="1" soldier_capacity_offset="1" usable_for_cover="0" >
 	<tag name="target" />
    	<tag name="defensive_weapon" />
@@ -5,12 +6,12 @@
 	<tire_set offset="0.75 0.0 0.75" radius="0.65" />
 	<tire_set offset="0.75 0.0 -0.75" radius="0.65" />
 	
-	<modifier class="blast_range" value="-4.0" />
+	<modifier class="blast_range" value="-3.0" />
 	<modifier class="blast_damage" value="-0.7" />
 
 	<control max_speed="3.0" acceleration="1.0" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.0" />
 	
-	<physics max_health="10.0" mass="10000.0" extent="0.8 0 0.8" offset="0 0 0" top_offset="0 1 0" collision_model_pos="0 0 0" collision_model_extent="1.2 0.5 1.2" visual_offset="0 0 0" collision_response_factor="0.0" /> 
+	<physics max_health="8.0" mass="10000.0" extent="0.8 0 0.8" offset="0 0 0" top_offset="0 1 0" collision_model_pos="0 0 0" collision_model_extent="1.2 0.5 1.2" visual_offset="0 0 0" collision_response_factor="0.0" /> 
 	
 	<turret offset="0.0 0.3 0.0" weapon_key="b29_turret.weapon" weapon_offset="+0.2 -0.3 0.4" weapon_recoil="0.0" physics_recoil="0.0"  max_rotation_step="0.00015" rotation="0" rotation_range="6.28" />
 	<turret offset="0.0 0.3 0.0" weapon_key="b29_turret2.weapon" weapon_offset="-0.2 -0.3 0.4" weapon_recoil="0.0" physics_recoil="0.0"  max_rotation_step="0.00015" rotation="0" rotation_range="6.28" />

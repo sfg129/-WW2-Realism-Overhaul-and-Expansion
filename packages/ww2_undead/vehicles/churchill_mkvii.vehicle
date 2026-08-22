@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Churchill Mk VII" key="churchill_mkvii.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="73" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="1" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
@@ -12,15 +13,15 @@
 	<tire_set offset="1.6 0.0 0" radius="0.52" />    
 	<tire_set offset="1.6 0.0 -3.0" radius="0.52" />
 
-	<control max_limiter_speed="3.0" max_speed="6.0" acceleration="10.0" max_reverse_speed="5.5" min_health_to_steer="1.2" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5"/>
+	<control max_limiter_speed="3.0" max_speed="6.5" acceleration="10.0" max_reverse_speed="5.5" min_health_to_steer="1.2" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5"/>
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-4.2" />
+	<modifier class="blast_damage" value="-5.2" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
-	<physics max_health="54" 
+	<physics max_health="52" 
     blast_damage_threshold="1.02" 
     mass="300.0" 
     broken_mass="15"  

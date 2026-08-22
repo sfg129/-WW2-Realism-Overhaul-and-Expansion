@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_carry_items="1">
 
-	<carry_item key="whiskey_bottle.carry_item" />
+	<carry_item key="fruit_bananas.carry_item" />
+	<carry_item key="fruit_coconut.carry_item" />
+	<carry_item key="fruit_dragonfruit.carry_item" />
+	<carry_item key="fruit_grape.carry_item" />
+	<carry_item key="fruit_mango.carry_item" />
+	<carry_item key="fruit_melon.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
+
 	<carry_item key="cigarettes.carry_item" />
   	<carry_item key="dollars.carry_item" />
 	<carry_item key="gem.carry_item" />
@@ -14,11 +22,11 @@
   	<carry_item key="koran.carry_item" /> 
   	<carry_item key="chewing_gum.carry_item" />
   	<carry_item key="chocolate.carry_item" />
+	<carry_item key="painting_memory.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
   	<carry_item key="dollars_300.carry_item" />
   	<carry_item key="razor.carry_item" />   
-  	<carry_item key="sheaths.carry_item" />
-  	<carry_item key="sheaths_xxl.carry_item" />    
-  	<carry_item key="playing_cards.carry_item" /> 
+
   	<carry_item key="record_player.carry_item" />
   	<carry_item key="sake.carry_item" />
   	<carry_item key="medal_of_honor.carry_item" />

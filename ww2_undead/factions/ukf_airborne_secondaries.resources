@@ -7,7 +7,7 @@
 	<carry_item key='vest_sentry.carry_item' enabled="1" />
 	<carry_item key='vest_assault_webbing.carry_item' enabled="1" />  
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
-		<weapon key="m1919_hmg_resource.weapon" />
+		<weapon key="vickers_hmg_resource.weapon" />
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
 <weapon key="light_mortar_resource.weapon" />
@@ -22,6 +22,8 @@
 	<weapon key="morphine.weapon" />
 	<weapon key='binoculars.weapon' />
 		<weapon key="austen_mki_folded.weapon" />
+		<weapon key="smle_no4_mki2.weapon" />
+	<weapon key="smle_no4_mki2_b.weapon" />
 	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
 	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->
 	<!-- however the use of that clear_carry_items will clear these out of a *player* armoury... -->

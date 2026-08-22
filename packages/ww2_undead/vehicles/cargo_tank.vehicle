@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 
 
 
@@ -22,7 +23,7 @@
 
   	<tag name="cargo_tank" />
 
-	<control max_limiter_speed="2.0" max_speed="3.5" acceleration="5.0" max_reverse_speed="2.5" max_water_depth="3" min_health_to_steer="50.0" />
+	<control max_limiter_speed="2.0" max_speed="3" acceleration="5.0" max_reverse_speed="2.5" max_water_depth="3" min_health_to_steer="50.0" />
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->

@@ -4,5 +4,5 @@
 	<weapon key="kar98k_s.weapon" />
 	<weapon key="kar43_s.weapon" />
 	<weapon key="kar98k_s_elite.weapon" />
-
+	<weapon key="wz35_ai.weapon" />
 </resources>

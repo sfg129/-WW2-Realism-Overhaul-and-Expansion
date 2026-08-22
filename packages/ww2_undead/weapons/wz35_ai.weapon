@@ -6,5 +6,5 @@
 	can_shoot_crouching="0" 
 	 />
 
-	 	<commonness value="0.03" />
+	 	<commonness value="0.02" />
 </weapon>

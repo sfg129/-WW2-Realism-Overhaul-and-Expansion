@@ -4,7 +4,8 @@
 <access_tag name="edelweiss" />
 
 	<specification 
-	retrigger_time="0.09" 
+	retrigger_time="0.1" 
+	spread_range="0.35"
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.17" 
 	sustained_fire_diminish_rate="1.6"
@@ -13,14 +14,10 @@
 	suppressed="0" 
 	name="Beretta M38" 
 	class="0" 
-	projectile_speed="110"
+	projectile_speed="102"
 	/>
 
-
-	<stance state_key="prone" accuracy="0.95" />
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />     
+    <modifier class="speed" value="-0.04" />
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />

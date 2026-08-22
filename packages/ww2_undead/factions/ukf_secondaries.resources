@@ -10,7 +10,7 @@
 	<weapon key="light_mortar_resource.weapon" />
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
-	<weapon key="m1919_hmg_resource.weapon" />
+		<weapon key="vickers_hmg_resource.weapon" />
 	<weapon key="browning_hp.weapon" />
 	<weapon key="browning_hp_carbine.weapon" />
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->

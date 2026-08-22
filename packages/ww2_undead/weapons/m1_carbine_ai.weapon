@@ -4,6 +4,7 @@
 	<specification
 	accuracy_factor="1" 
 	 slot="0"
-	burst_shots="3"  />
-	<commonness value="0.15" />
+	 burst_shots="6"
+	  />
+	<commonness value="0.2" />
 </weapon>

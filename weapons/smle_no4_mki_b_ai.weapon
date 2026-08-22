@@ -18,7 +18,7 @@
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
     stab_enabled="1"
-    stab_range="3.4"
+    stab_range="3.5"
 	/>
 
 	<!-- AI versions of these weapons are worse than player versions to reduce the frustration of getting insta-killed so often -->

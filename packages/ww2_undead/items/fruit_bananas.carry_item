@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="bananas" key="fruit_bananas.carry_item" >
+    <hud_icon filename="hud_fruit_bananas.png" />
+    <inventory encumbrance="0" price="50.0" />
+
+    <model filename="fruit_bananas.xml" />
+
+
+    <commonness value="1.0" in_stock="0" />
+</carry_item>

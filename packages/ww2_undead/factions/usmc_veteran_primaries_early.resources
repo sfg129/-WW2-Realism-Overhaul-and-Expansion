@@ -17,14 +17,11 @@
 	<weapon key="m1_carbine_ai.weapon" />
 	<weapon key="m1_garand_large_mag.weapon" />
 	<weapon key="m1_garand_large_mag_b.weapon" />
-	<weapon key="m1941_johnson_rifle.weapon" />  
-	<weapon key="m1941_johnson_rifle_b.weapon" />  
 
 	<weapon key="browning_auto5_cut_down_ai.weapon" />
 	<weapon key="browning_auto5_ext.weapon" />
-	<weapon key="m1941_johnson_lmg.weapon" />
+
 	<weapon key="m1928_thompson_large_drum.weapon" />
-	<weapon key="stinger.weapon" />
 	<weapon key="m1928_thompson_mag.weapon" />
 <weapon key="m1928a1_thompson.weapon" />
 <weapon key="m1928a1_thompson_drum.weapon" />

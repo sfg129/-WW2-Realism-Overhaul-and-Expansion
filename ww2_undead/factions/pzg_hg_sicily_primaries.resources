@@ -18,5 +18,7 @@
 	<weapon key="mg42_extended_belt.weapon" />
 	<weapon key="kar98k_rifle_grenade_he.weapon" />
 		<weapon key="kar98k_rifle_grenade_launcher_at.weapon" />
+	<weapon key="wz35.weapon" />
 
+		<weapon key="kar98k_is.weapon" />
 </resources>

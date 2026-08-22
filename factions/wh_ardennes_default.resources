@@ -23,6 +23,7 @@
 	<vehicle key="sdkfz251_pak40.vehicle" />
 	<vehicle key="sdkfz251_mortar.vehicle" />
 	<vehicle key="panzer_iv.vehicle" />
+	<vehicle key="panther.vehicle" />
 	<vehicle key="stug_iii.vehicle" />
 	<vehicle key="tiger.vehicle" />
 	<vehicle key="sdkfz251_flak.vehicle" />
@@ -40,11 +41,12 @@
 	<call key="artillery2.call" />
 	<call key="wh_inf.call" />
 	<call key="wh_vehicle_sdkfz251.call" />
-	<call key="wh_vehicle_sdkfz251_flak.call" />
 		<call key="wh_vehicle_sdkfz251_mortar.call" />
 	<call key="wh_vehicle_sdkfz251_pak40.call" />
 	<call key="wh_vehicle_luchs.call" />
 	<call key="wh_vehicle_stug.call" />
 	<call key="wh_vehicle.call" />
+	<call key="wh_vehicle_panther.call" />
+	<call key="wh_vehicle_tiger.call" />
 	
 </resources>

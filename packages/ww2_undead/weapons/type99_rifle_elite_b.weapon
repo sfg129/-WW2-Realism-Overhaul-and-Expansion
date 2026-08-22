@@ -16,7 +16,7 @@
 	name="Type 99 - Hi-Grade Bayonet" 
 	class="2" 
 	reload_one_at_a_time="0" 
-projectile_speed="120.0"  
+projectile_speed="125.0"  
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
 	sight_range_modifier="1.1"
@@ -32,10 +32,9 @@ projectile_speed="120.0"
 <!-- would have used Trench Mag too if I could have found more about it, but it seems to have got itself lost... -->
 <!-- anyhow due to its quality improvements it offers up superior accuracy and faster cycle time. -->
 
-	<stance state_key="standing" accuracy="0.92" />
-	<stance state_key="crouching" accuracy="0.94" />
-	<stance state_key="prone" accuracy="1.1" /> 
-	<stance state_key="over_wall" accuracy="1.1" />
+
+	<stance state_key="prone" accuracy="1.2" /> 
+	<stance state_key="over_wall" accuracy="1.2" />
 	
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" animation_key="bolt cycle" />

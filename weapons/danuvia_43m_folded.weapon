@@ -7,13 +7,14 @@
 	<specification 
 	retrigger_time="0.081" 
 	accuracy_factor="0.95" 
-	spread_range="0.35"
+	spread_range="0.36"
 	sustained_fire_grow_step="0.19" 
 	sustained_fire_diminish_rate="1.5"
+	stance_accuracy_rate="2"
 	magazine_size="40" 
 	can_shoot_standing="1" 
 	suppressed="0" 
-	name="Danuvia 43M Folded" 
+	name="Danuvia 43M Folded Bayonet" 
 	class="0" 
 	projectile_speed="110"
 	slot="1"
@@ -21,6 +22,7 @@
     stab_enabled="1"
     stab_range="3.5"
 	/>
+	<next_in_chain key="danuvia_43m_folded_b.weapon" share_ammo="1" />
 
 	<!-- this weapon is very similar to the Beretta 38, except it features a folding stock. -->
 	<!-- this stock can be toggled. -->
@@ -32,7 +34,8 @@
 	<animation state_key="stabbing"	animation_key="melee, bayonet" />
 
 	<!-- simple SMG sight -->
-
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
@@ -51,10 +54,10 @@
 	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
 	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
 	
-	<model filename="weapon_danuvia_43m_folded.xml" />
-	<hud_icon filename="hud_danuvia43m_bayonet_folded.png" />
+	<model filename="weapon_danuvia_43m_folded_b.xml" />
+	<hud_icon filename="hud_danuvia43m_folded_b.png" />
 
-	<commonness value="0.05" can_respawn_with="1" in_stock="1"/>
+	<commonness value="0.03" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="3.0" price="200.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

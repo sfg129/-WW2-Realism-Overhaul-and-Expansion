@@ -25,7 +25,7 @@
     suppressed="0" 
     name="M5A1 Stuart cannon" 
     class="0" 
-    projectile_speed="75.0" 
+    projectile_speed="90" 
     slot="2" 
     barrel_offset="2.5" 
     projectiles_per_shot="1"

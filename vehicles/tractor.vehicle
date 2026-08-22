@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Tractor" key="tractor.vehicle" map_view_atlas_index="-1" allow_ai_to_use="0">
 	<tag name="metal_thin" />
 

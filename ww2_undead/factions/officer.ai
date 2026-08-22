@@ -4,10 +4,10 @@
   <parameter class="force_as_leader" value="1.0" />
 
   <parameter class="accuracy_offset" value="0.06" />   <!-- was 0.09 in 1.81 -->
-  <parameter class="grenade_monitor_range" value="15.0" />
+  <parameter class="grenade_monitor_range" value="30" />
   <parameter class="max_sight_range_with_muzzle" value="45.0" />
-  <parameter class="leader_sight_range" value="40.0" />
-  <parameter class="team_member_sight_range" value="35.0" />
-  <parameter class="max_distance_to_throw_grenade" value="30.0" />
+  <parameter class="leader_sight_range" value="45.0" />
+  <parameter class="team_member_sight_range" value="38.0" />
+  <parameter class="max_distance_to_throw_grenade" value="35.0" />
 
 </ai>

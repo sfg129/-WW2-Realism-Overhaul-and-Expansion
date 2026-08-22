@@ -1,15 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="vickers_k_un.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.45" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0" >
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="vickers_k_un.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.45" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0" 
+
+	ai_burst_time="0.75" 
+	ai_burst_time_variance="0.25" 
+	ai_burst_wait_time="0.1" 
+	ai_burst_wait_time_variance="0.05">
 	
 <access_tag name="edelweiss" />
 
 	<specification 
 	retrigger_time="0.063" 
 	accuracy_factor="0.8"
-  	spread_range="0.215"
+  	spread_range="0.2"
    sustained_fire_grow_step="0.0118" 
     sustained_fire_diminish_rate="0.13"  
-	    sight_range_modifier="1.8"
+	    sight_range_modifier="1.25"
     ai_sight_range_modifier="1"
 	stance_accuracy_rate="1.0"	
 	magazine_size="-1" 
@@ -18,10 +23,10 @@
 	suppressed="0" 
 	name="VGO No.2 Mk I - Mobile" 
 	class="0" 
-	barrel_offset="0.8" 
+	barrel_offset="1" 
 	    cooldown_start="0.4"
     cooldown_end="0.0"
-projectile_speed="120.0" 
+projectile_speed="125.0" 
 	/>
 		
 	<!-- former stats: spread range 0.225, recoil 0.215, recovery 1.8, stance 0.75, bipod accuracy 1.05 -->
@@ -48,7 +53,7 @@ projectile_speed="120.0"
 		<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
 		<animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, hip fire" />
 
-
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
 	<stance state_key="standing" accuracy="1" />
 	<stance state_key="crouching" accuracy="1" />
 
@@ -58,7 +63,7 @@ projectile_speed="120.0"
 	
 	<weak_hand_hold offset="0.4" />
 	
-	<sound key="fire" fileref="weapon_mg_vickers_k.wav" volume="0.865"/>
+	<sound key="fire" fileref="weapon_mg_vickers_k.wav" volume="1"/>
 
 	<sound key="magazine_out" fileref="mg_clip_out.wav" />
 	<sound key="magazine_in" fileref="mg_clip_in.wav" />
@@ -80,7 +85,6 @@ projectile_speed="120.0"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" 
 		/>
-		<shield offset="0.0 0.55 0.7" extent="0.75 2 2" />
 	</projectile>
-	<modifier class="speed" value="-0.2" /> 
+<shield offset="0 0 -0.4" extent="0.3 1 2.2" />
 </weapon>

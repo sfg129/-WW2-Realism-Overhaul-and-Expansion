@@ -6,9 +6,10 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.99" 
+	accuracy_factor="1" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="0.6"
+	stance_accuracy_rate="0.8"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -18,7 +19,7 @@
 	projectile_speed="140.0"  
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2"
+
 	/>
 
 	<!-- scope power is 2.75x for the Weaver M330 or M330C scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->

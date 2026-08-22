@@ -17,7 +17,7 @@
 	class="0" 
 	barrel_offset="0.6"
 	projectile_speed="110.0"
-	projectiles_per_shot="2"
+	projectiles_per_shot="0"
 	cooldown_start="0.8"
 	cooldown_end="0.0"/>
 	

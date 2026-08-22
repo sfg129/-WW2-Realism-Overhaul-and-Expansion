@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="M43 Stielhandgranate" key="stielhandgranate.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.3">
+<projectile class="grenade" name="M43 Stielhandgranate" key="stielhandgranate.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
 	<tag name="grenade" />
 
 	<!-- the German stick grenade has now been balanced to have the smallest radius of all grenades (-0.2 smaller than Type 97), and only 4 can be carried like Allied grenades, however it has the shortest fuse. -->
@@ -19,8 +19,8 @@
 	<trigger class="time" time_to_live="4"/>
 	<result
 	class="blast"
-	radius="6"
-	damage="2"
+	radius="5.5"
+	damage="1.6"
 	push="0.3"
 	decal="1"
 	faction_compare="not_equal"
@@ -32,11 +32,11 @@
 	
 	<rotation class="random" />
 	<throwable
-	curve_height="6.0"
+	curve_height="5.5"
 	near_far_distance="5.0"
 	speed_estimation_near="9.0"
 	speed_estimation_far="17.0"
-	max_speed="18.0"
+	max_speed="17.5"
 	randomness="0.07"
 	/>
 	

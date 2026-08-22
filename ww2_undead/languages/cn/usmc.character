@@ -196,7 +196,9 @@
 	
    <!-- reinforcement commander lines -->
 	<comment key="spawn_in_base_call, accepted, key=usmc_inf.call" text="已将步兵队员派往&#37;base_name" />
-	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle.call" text="M3“斯图亚特”轻型坦克将运往在&#37;base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle.call" text="M3“斯图亚特”轻型坦克将运往&#37;base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_stuart.call" text="M5A1“斯图亚特”轻型坦克将运往&#37;base_name" />
+
 	<comment key="spawn_in_base_call, accepted, key=usmc_vehicle1.call" text="LVT-4两栖战车将运往&#37;base_name" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3“谢尔曼”中型坦克已经部署在&#37;base_name" />
 	<comment key="spawn_in_base_call, denied, key=usmc_inf.call" text="无可用部署点，先占领一个基地！" />

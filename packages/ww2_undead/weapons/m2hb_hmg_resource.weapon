@@ -10,7 +10,7 @@
 	can_shoot_crouching="1" 
 	carry_in_two_hands="1" 
 	can_shoot_prone="0" 
-	name="M2HB HMG deploy" 
+	name="M2HB HMG Low Mount deploy" 
 	class="5" 
 	spawn_instance_class="vehicle" 
 	spawn_instance_key="m2hb_hmg.vehicle" 
@@ -19,8 +19,8 @@
 	slot="1"
 	cover_deployment="1"
     deny_ladder_range="3"/>
-	/>
-	
+
+		<next_in_chain key="m2hb_hmg_resource_t.weapon" share_ammo="1" />
 	<animation state_key="running" 		animation_key="walking, carrying load" />
 	<animation state_key="walking" 		animation_key="walking, carrying load" />
 	<animation state_key="hold" 		animation_key="still, carrying load" />
@@ -41,7 +41,7 @@
 	
 	<hud_icon filename="hud_m2hb_hmg_resource.png" />
 	<commonness value="0.01" can_respawn_with="0" in_stock="1"/>
-	<inventory encumbrance="26.0" price="200.0" />
+	<inventory encumbrance="11.0" price="200.0" />
 	
 	<modifier class="speed" value="-0.4" />
 	

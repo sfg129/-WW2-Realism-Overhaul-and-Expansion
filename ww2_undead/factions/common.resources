@@ -91,6 +91,5 @@
 
 	<!-- common calls -->
 
-	<call key="mortar.call" />
-
+<call key="mortar.call" />
 </resources>

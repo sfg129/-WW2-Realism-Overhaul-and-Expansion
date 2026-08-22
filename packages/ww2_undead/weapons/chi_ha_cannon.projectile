@@ -14,10 +14,11 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="4" 
-	damage="12" 
+	radius="4.5" 
+	damage="12.4" 
 	push="1.0" 
 	decal="1" 
+     faction_compare="not_equal"   
         damage_origin_vehicle="0" 
 	/>
 	
@@ -27,41 +28,27 @@
 	
     <commonness value="0.0" />
 	
-    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
-    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
-    <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
-    <effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
-    <effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+	    <effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+       <effect class="result" key="terrain" ref="OstvetHitSparks" />
+    <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
     <effect class="result" key="terrain" ref="Godray" lighting="0" />
-    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
-    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
-    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
-    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
-	
-   	<effect class="result" key="vehicle" ref="HitTank" lighting="0" use_surface_color="0" />
-    <effect class="result" key="vehicle" ref="SmokeBurst" post_processing="1" />  
-    <effect class="result" key="vehicle" ref="BurstShine" lighting="0" />
-    <effect class="result" key="vehicle" ref="Godray" lighting="0" />
-	
-   	<effect class="result" key="vehicle" ref="HitTank" lighting="0" use_surface_color="0" />
-    <effect class="result" key="vehicle" ref="SmokeBurst" post_processing="1" />  
-    <effect class="result" key="vehicle" ref="BurstShine" lighting="0" />
-    <effect class="result" key="vehicle" ref="Godray" lighting="0" />
-	    <effect class="result" key="other" ref="BurstShine" lighting="0" />
-    <effect class="result" key="other" ref="Godray" lighting="0" />
-        <effect class="result" key="terrain" ref="Godray" lighting="0" />
-    <effect class="result" key="terrain" ref="BurstShine" shadow="1" />
-
-    <effect class="result" key="other" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
-    <effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
-    <effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
-    <effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
-    <effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
-    <effect class="result" key="other" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="HitTank" lighting="1" />
+       <effect class="result" key="terrain" ref="HitTankSparks" />
+		    <effect class="result" key="terrain" ref="SmokeBurst" post_processing="1" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="other" ref="HandGrenadeSmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="HandGrenadeSmoke" post_processing="1" />
     <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
-	
+    
     <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
+	
+	<effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+
 	
 
 	

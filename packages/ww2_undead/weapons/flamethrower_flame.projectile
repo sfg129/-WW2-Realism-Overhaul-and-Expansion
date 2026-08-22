@@ -5,8 +5,8 @@
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="1.5"
-	damage="2.2"
+	radius="2"
+	damage="2.4"
 	push="0"  
 	character_state="death"
   make_vehicle_hit_sound="0"

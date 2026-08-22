@@ -9,11 +9,11 @@
 	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
 
 	<!-- retrigger time was 6.5, diminish rate was 0.16 -->
-    <specification retrigger_time="7" 
+    <specification retrigger_time="6" 
     accuracy_factor="0.9" 
 	spread_range="0.3"
     sustained_fire_grow_step="1.0" 
-    sustained_fire_diminish_rate="0.145" 
+    sustained_fire_diminish_rate="0.155" 
     sight_range_modifier="2.3"
     ai_sight_range_modifier="1"
     magazine_size="-1" 
@@ -22,9 +22,9 @@
     suppressed="0" 
     name="King Tiger Cannon" 
     class="0" 
-    projectile_speed="120.0" 
+    projectile_speed="140.0" 
     slot="2" 
-    barrel_offset="4.2" 
+    barrel_offset="3" 
     projectiles_per_shot="1" />
 
     <model mesh_filename="king_tiger_cannon.mesh" texture_filename="king_tiger.png" />
@@ -49,6 +49,6 @@
     <effect class="muzzle" ref="CannonSmokeBig" /> 
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
-    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="3.8"/>
+    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="2.8"/>
 
 </weapon>

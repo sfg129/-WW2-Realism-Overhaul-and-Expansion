@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="m1919_lmg.weapon"	
-ai_burst_time="5" 
-	ai_burst_time_variance="2" 
+ai_burst_time="9" 
+	ai_burst_time_variance="3" 
 	ai_burst_wait_time="0.8" 
 	ai_burst_wait_time_variance="0.4">
 	
@@ -10,9 +10,9 @@ ai_burst_time="5"
 	<specification 
 	retrigger_time="0.108" 
 	accuracy_factor="0.93" 
-	sustained_fire_grow_step="0.24"
-	sustained_fire_diminish_rate="2"
-	stance_accuracy_rate="0.9"
+	sustained_fire_grow_step="0.25"
+	sustained_fire_diminish_rate="1.8"
+	stance_accuracy_rate="0.8"
 	magazine_size="250" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
@@ -22,8 +22,10 @@ ai_burst_time="5"
 	barrel_offset="0.85" 
 	projectile_speed="140.0" 
 	/>
-	<modifier class="speed" value="-0.16" />
-	<next_in_chain key="m1919_lmg_light.weapon" share_ammo="1" />
+	<modifier class="speed" value="-0.20" />
+	<next_in_chain key="m1919_lmg_light.weapon" share_ammo="0" />
+	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />
+<animation state_key="next_in_chain_in" stance_key="prone" animation_key="reloading, m1919, prone" />
 	<!-- former stats more recently: recoil was 0.11, velocity was 100, damage was 0.5 -->
 	<!-- former stats long ago: accuracy was 0.65, grow_step 0.1, diminished_rate default, velocity 110, kill probability 0.57-->
 
@@ -31,11 +33,11 @@ ai_burst_time="5"
 	<!-- However it's accuracy is moderate at best, reloads are slow, and it can only fire while Prone or against Cover. -->
 
 	<!-- Although M1919A4's fire at 0.094 seconds, the M1919A6 is slightly slower (in real life too as far as I can see. -->
-		<stance state_key="running" accuracy="0.4" />
-	<stance state_key="walking" accuracy="0.5" />
-
-	<stance state_key="standing" accuracy="0.6" />		<!-- was 0.75 -->
-	<stance state_key="crouching" accuracy="0.75" />	<!-- was 0.925 -->
+	<stance state_key="running" accuracy="0.1" />
+	<stance state_key="walking" accuracy="0.1" />
+	<stance state_key="standing" accuracy="0.2" />
+	<stance state_key="crouching" accuracy="0.3" />	<!-- was 0.75 -->
+	<!-- was 0.925 -->
 	<stance state_key="prone" accuracy="1.1" />
 	<stance state_key="over_wall" accuracy="1.1" /> 
 
@@ -65,7 +67,7 @@ ai_burst_time="5"
 	<model filename="m1919a6.xml" />
 	<hud_icon filename="hud_m1919a6.png" />
 	
-	<commonness value="0.02" can_respawn_with="1" />
+	<commonness value="0.025" can_respawn_with="1" />
 	<inventory encumbrance="15" price="60" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

@@ -6,9 +6,9 @@
 	<specification
 	retrigger_time="0.55"
 	accuracy_factor="0.95"
-	stance_accuracy_rate="2.9"
-	sustained_fire_grow_step="3.75"
-	sustained_fire_diminish_rate="1.6"
+	stance_accuracy_rate="3"
+	sustained_fire_grow_step="3"
+	sustained_fire_diminish_rate="4"
 	magazine_size="6"
 	carry_in_two_hands="0"
 	can_shoot_standing="1"
@@ -25,9 +25,7 @@
 	<!-- accuracy was 0.965 -->
 
 	<!-- revolvers are less accurate when moving -->
-	<stance state_key="running" accuracy="0.375" />
-	<stance state_key="walking" accuracy="0.425" />
-	<stance state_key="crouch_moving" accuracy="0.425" />
+
 	
 	<weak_hand_hold offset="0.1" />
 	
@@ -51,8 +49,8 @@
 	<projectile file="bullet.projectile">
 		<result class="hit"
 		kill_probability="0.9"
-		kill_decay_start_time="0.35"
-		kill_decay_end_time="0.5" />
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.55" />
 	</projectile>
 	
 </weapon>

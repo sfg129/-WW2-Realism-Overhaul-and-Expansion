@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="hago_base.vehicle" key="hago.vehicle" respawn_time="80">
 	<tag name="light_tank" />
 </vehicle>

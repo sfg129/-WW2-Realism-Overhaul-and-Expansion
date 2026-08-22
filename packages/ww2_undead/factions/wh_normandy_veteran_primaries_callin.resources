@@ -5,11 +5,12 @@
 	<weapon key="kar43.weapon" />
 	<weapon key="mp40.weapon" />
 
-
+	<weapon key="danuvia_43m_b.weapon" />
+	<weapon key="danuvia_43m_folded_b.weapon" />
 	<weapon key="kar98k_rifle_grenade_he.weapon" />
 	
 	<weapon key="mp34_o.weapon" />
-
+<weapon key="stg44.weapon" />
 	<weapon key="kar98k_small_optic.weapon" />
 	<weapon key="wz35_ai.weapon" />
 <weapon key="beretta_m38.weapon" />
@@ -20,7 +21,5 @@
 		<weapon key="svt40_b.weapon" />
 <weapon key="danuvia_43m.weapon" />
 	<weapon key="mg34_assault.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
 		<weapon key="mg42_assault.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
 </resources>

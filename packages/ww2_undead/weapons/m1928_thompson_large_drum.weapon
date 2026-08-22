@@ -6,8 +6,9 @@
 	<specification 
 	retrigger_time="0.066"
 	accuracy_factor="0.95" 
-	sustained_fire_grow_step="0.18" 
-	sustained_fire_diminish_rate="2.1"
+	spread_range="0.33"
+	sustained_fire_grow_step="0.17" 
+	sustained_fire_diminish_rate="2.2"
 	stance_accuracy_rate="0.8"
 	magazine_size="100" 
 	can_shoot_standing="1" 
@@ -21,15 +22,13 @@
 
 	<!-- simple SMG sight ; though technically an aperture, it is often regarded as a horrible one -->
 
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />   
+
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
 
 	<!-- heavy drum SMG; 20lbs but using same value as 15lb'er -->
-	<modifier class="speed" value="-0.12" />   
+	<modifier class="speed" value="-0.1" />   
 	
  	<animation state_key="recoil" animation_key="recoil1, hip fire" />
  	<animation state_key="recoil" animation_key="recoil2, hip fire" />

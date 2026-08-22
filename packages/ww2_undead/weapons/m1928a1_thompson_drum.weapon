@@ -6,9 +6,10 @@
 	<specification 
 	retrigger_time="0.09"
 	accuracy_factor="0.95" 
+
 	sustained_fire_grow_step="0.19" 
-	sustained_fire_diminish_rate="1.9"
-	stance_accuracy_rate="1"
+	sustained_fire_diminish_rate="1.8"
+	stance_accuracy_rate="1.75"
 	magazine_size="50" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -24,9 +25,7 @@
 
 	<!-- simple SMG sight ; though technically an aperture, it is often regarded as a horrible one -->
 
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />    
+ 
 	<modifier class="speed" value="-0.08" />  
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 	
@@ -48,7 +47,7 @@
 	<model filename="m1928a1_thompson_drum.xml" />
 	<hud_icon filename="hud_m1928a1_drum.png" />
 	
-	<commonness value="0.01" can_respawn_with="1" in_stock="0"/>
+	<commonness value="0.015" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="5.0" price="50" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

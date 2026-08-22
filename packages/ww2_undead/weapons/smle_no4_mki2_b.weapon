@@ -4,7 +4,7 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.99" 
+	accuracy_factor="0.98" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="1.2"
 	stance_accuracy_rate="2"
@@ -20,7 +20,7 @@
 	sight_range_modifier="1.1"
 	slot="1"
     stab_enabled="1"
-    stab_range="3.4"
+    stab_range="3.5"
 	/>
 
 	<next_in_chain key="smle_no4_mki2.weapon" share_ammo="1" />
@@ -45,7 +45,7 @@
 	<hud_icon filename="hud_no4_b.png" />
 	
 	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
-	<commonness value="0.176" can_respawn_with="1" in_stock="0"/>
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

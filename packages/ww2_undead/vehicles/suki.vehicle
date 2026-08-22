@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Type 4 Su-Ki Armory" key="suki.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="70" allow_ai_to_use="0" usable_for_cover="0">
 	<tag name="metal_thin" />
 	<tag name="armory" />

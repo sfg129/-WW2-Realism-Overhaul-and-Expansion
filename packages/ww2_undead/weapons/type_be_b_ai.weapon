@@ -10,7 +10,7 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.18" 
 	sustained_fire_diminish_rate="1.5"
-	stance_accuracy_rate="1.5"
+	stance_accuracy_rate="2"
 	magazine_size="50" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -26,9 +26,7 @@
 	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="type_be_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
 
 	<!-- simple SMG sight -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />     
+  
 
 	<!-- the Japanese-contract "MP 18" in 7.63mm Mauser. -->
 	<!-- statistically same as the Type STE (MP 34) since they're very similar in design, and same caliber. -->
@@ -61,7 +59,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.65"
+		kill_probability="0.725"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.8"
 		/>

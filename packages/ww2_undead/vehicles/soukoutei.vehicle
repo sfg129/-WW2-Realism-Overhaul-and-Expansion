@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Soukoutei" key="soukoutei.vehicle" map_view_atlas_index="67" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" soldier_capacity_offset="6">
 	<tag name="metal_thin" />
 	<tag name="pt_boat" />
@@ -10,7 +11,7 @@
 	
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-1.5" />
+	<modifier class="blast_damage" value="-0.9" />
 
 	<physics max_health="36.0" mass="300.0" extent="5.0 0.0 12.0" offset="0 1.0 0" collision_model_pos="0 0.5 -0.5" collision_model_extent="4.7 3.0 19.0" visual_offset="0 1.0 +0.0" /> 
 	

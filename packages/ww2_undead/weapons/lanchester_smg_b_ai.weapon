@@ -9,7 +9,7 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.175" 
 	sustained_fire_diminish_rate="1.5"
-	stance_accuracy_rate="1.35"
+	stance_accuracy_rate="1.5"
 	magazine_size="50" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -49,7 +49,7 @@
 	<model filename="weapon_lanchester_smg_b.xml" />
 	<hud_icon filename="hud_lanchester_b.png" />
 
-	<commonness value="0.04" can_respawn_with="0"/>
+	<commonness value="0.02" can_respawn_with="0"/>
 	<inventory encumbrance="5.0" price="100.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

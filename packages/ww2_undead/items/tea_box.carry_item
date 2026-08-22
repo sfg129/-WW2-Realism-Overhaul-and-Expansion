@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_item file="base_valuable.carry_item" name="Box of Tea" key="tea_box.carry_item">
     <hud_icon filename="hud_tea_box.png" />
-    <inventory encumbrance="0" price="100.0" />
+    <inventory encumbrance="0" price="120.0" />
 
     <model mesh_filename="tea_box.mesh" texture_filename="tea_box.png" />
 

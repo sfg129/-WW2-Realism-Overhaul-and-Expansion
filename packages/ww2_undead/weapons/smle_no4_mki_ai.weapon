@@ -40,7 +40,7 @@
 	<model filename="weapon_smle_no4_mki.xml" />
 	<hud_icon filename="hud_no4.png" />
 	
-	<commonness value="0.14" />
+	<commonness value="0.3" />
 	<inventory encumbrance="8.0" price="2.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

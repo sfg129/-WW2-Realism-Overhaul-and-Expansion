@@ -7,6 +7,7 @@
 	<!--<weapon key="type14_nambu_pistol.weapon" />-->
 	<weapon key="type38_rifle_at_launcher.weapon" />
 	<weapon key="type92_hmg_resource.weapon" />
+	<weapon key="type92_hmg_resource_t.weapon" />
 <weapon key="morphine.weapon" />
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />

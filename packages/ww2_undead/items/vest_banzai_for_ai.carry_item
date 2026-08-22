@@ -18,7 +18,7 @@
 		<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
 
 		<modifier class="speed" value="+0.2" />	<!-- I made this slightly higher for AI so they can keep up with their Officer -->
-		<modifier class="hit_success_probability" value="-0.05" /> <!-- previously +0.35 in v1.80 -->
+		<modifier class="hit_success_probability" value="-0.15" /> <!-- previously +0.35 in v1.80 -->
 		<modifier class="detectability" value="+4" />
 	</carry_item>
 	
@@ -36,8 +36,8 @@
 		<commonness value="0.0" in_stock="0" can_respawn_with="0" />
 		
 		<modifier class="speed" value="+0.2" /> <!-- previously +0.21 in v1.80 -->
-		<modifier class="hit_success_probability" value="-0.05" /> <!-- previously -0.17 in v1.80 -->
-		<modifier class="detectability" value="+4.5" /> <!-- previously +4.5 in v1.80 -->
+		<modifier class="hit_success_probability" value="-0.15" /> <!-- previously -0.17 in v1.80 -->
+		<modifier class="detectability" value="+4" /> <!-- previously +4.5 in v1.80 -->
 	</carry_item>
 
 </carry_items>

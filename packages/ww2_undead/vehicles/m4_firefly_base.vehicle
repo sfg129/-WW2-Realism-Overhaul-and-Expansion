@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Sherman Firefly" time_to_live_unsteerable="60" map_view_atlas_index="59" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank_destroyer" />
@@ -13,10 +14,10 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.3" />
+	<modifier class="blast_damage" value="-3.8" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -61,21 +62,19 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="2 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-2 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.19819 0.7 1" rotation="0" exit_rotation="1.55748" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.26006 0.7 0.19671" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="1" />
 	</character_slot>
-<character_slot type="gunner" position="-1.5 0.7 -1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+<character_slot type="gunner" position="1.02677 0.7 -1" rotation="0" exit_rotation="1.57064" hiding="1" animation_id="37">
 		<turret index="2" />
 	</character_slot>
 	<character_slot type="passenger" hiding="1" allow_weapon="0">
-		<state class="entering" position="-2 0.7 1" rotation="0.0" />
+		<state class="entering" position="-2 0.7 1" rotation="1.60714" />
 		<state class="leaving" position="-2 0.7 1" rotation="-1.57" />
-		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-2 0.7 1" />
+		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-1.15459 0.7 -1.62374" />
 	</character_slot>
-<character_slot type="gunner" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
-<turret index="4" />
-</character_slot>
+
 
 
 	<!-- sound handling -->

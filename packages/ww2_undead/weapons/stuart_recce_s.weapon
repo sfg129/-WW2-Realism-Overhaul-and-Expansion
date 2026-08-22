@@ -38,6 +38,6 @@
 
 
 <!-- front plate -->	
-	<shield offset="0.0 0.55 0.7" extent="0.75 4 4" />
 	
+  <shield offset="0 0 0" extent="0.5 1 1" />
 </weapon>

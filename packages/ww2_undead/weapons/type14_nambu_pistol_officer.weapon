@@ -6,17 +6,17 @@
 	<!-- Type 14 Nambu Officer doesn't drop as often as other Officer Pistols because Banzai Officers are reasonably common -->
 
 	<specification 
-	retrigger_time="0.125" 
+	retrigger_time="0.06" 
 	carry_in_two_hands="0" 
 	accuracy_factor="0.94" 
-	sustained_fire_grow_step="0.565" 
+	sustained_fire_grow_step="0.55" 
 	magazine_size="8" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Officer's Engraved Type 14 Nambu" 
 	class="4" 
 	reload_one_at_a_time="0" 
-	projectile_speed="80.0" 
+	projectile_speed="90" 
 	barrel_offset="-0.2" 
 	projectiles_per_shot="1" 
 	burst_shots="1" 
@@ -50,8 +50,8 @@
 		<result
 		class="hit"
 		kill_probability="0.65"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.6"
+		kill_decay_start_time="0.3"
+		kill_decay_end_time="0.8"
 		/>
 	</projectile>
 	

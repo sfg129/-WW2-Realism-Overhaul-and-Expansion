@@ -6,7 +6,7 @@
 	<specification 
 	retrigger_time="0.0525" 
 	accuracy_factor="0.75"
-  	spread_range="0.24"
+  	spread_range="0.21"
 	sustained_fire_grow_step="1.0"
 	sustained_fire_diminish_rate="2"	
 	magazine_size="75" 
@@ -71,5 +71,5 @@
 		kill_decay_end_time="0.9" 
 		/>
 	</projectile>
-	<modifier class="speed" value="-0.125" /> 
+	<modifier class="speed" value="-0.12" /> 
 </weapon>

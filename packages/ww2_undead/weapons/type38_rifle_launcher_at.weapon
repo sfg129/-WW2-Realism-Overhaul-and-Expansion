@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon key="type38_rifle_launcher_at.weapon">
+<weapon file="base_secondary.weapon" key="type38_rifle_launcher_at.weapon">
 	<tag name="assault" />
 
 <access_tag name="pacific" />
 	
 	<specification 
 	retrigger_time="-1" 
-	spread_range="0.125"
+	spread_range="0.1"
 	accuracy_factor="0.9" 
 	sustained_fire_grow_step="3.0" 
 	sustained_fire_diminish_rate="1.0" 
@@ -16,14 +16,13 @@
 	suppressed="0" 
 	name="Type 2 AT Rifle Grenade" 
 	class="2" 
+	slot="0"
 	projectile_speed="45.0" 
 	sight_range_modifier="1.5" 
 	barrel_offset="1.05" 
 	/>
 	<next_in_chain key="type38_rifle_launcher.weapon" share_ammo="1" />
-		<stance state_key="standing" accuracy="0.85" />
-<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="prone" accuracy="0.95" />
+
 		<animation key="crouching" animation_key="rifle grenade crouch" />
 	<animation key="recoil" animation_key="rifle grenade recoil" />
 	<animation key="recoil" stance_key="over_wall" ref="27" />
@@ -37,8 +36,7 @@
 	
 	<sound key="fire" fileref="rifle_grenade.wav" pitch_variety="0.05" volume="2.44"/>
 	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
-	<sound key="cycle" fileref="sniper_cycle_out.wav"/>
-
+	<sound key="cycle" fileref="rifle_kar98k.wav" pitch_variety="0.05" volume="2.6"/>
 	
 	<model filename="type38_rifle_at_launcher.xml" />
 	<hud_icon filename="hud_type38_rifle_at_launcher.png" />
@@ -60,14 +58,6 @@ near_far_distance="20.0"
 	tweak_factor="1.55"
 	/> 
 			<modifier class="speed" value="-0.05" />
-	<stance state_key="running" accuracy="0.4" />
-	<stance state_key="walking" accuracy="0.5" />
-	<stance state_key="crouch_moving" accuracy="0.4" />
-	<stance state_key="prone_moving" accuracy="0.3" />
-	
-	<stance state_key="standing" accuracy="0.935" />
-	<stance state_key="crouching" accuracy="0.935" />
-	<stance state_key="prone" accuracy="1.0" />
 	
 	<effect class="muzzle" ref="LawMuzzle" />
 	<effect class="muzzle" ref="UpDust" />

@@ -20,9 +20,6 @@
 	<next_in_chain key="type_be_b.weapon" share_ammo="1" />
 
 	<!-- simple SMG sight -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />        
 
 	<!-- the Japanese-contract "MP 18" in 7.63mm Mauser. -->
 	<!-- statistically same as the Type STE (MP 34) since they're very similar in design, and same caliber. -->
@@ -53,7 +50,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.65"
+		kill_probability="0.725"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.8"
 		/>

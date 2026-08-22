@@ -44,7 +44,7 @@
     </projectile>
     
 <!-- front plate  -->    
-    <shield offset="-0.6 -0.4 0" extent="0.3 2.1 3.0" />    
+    <shield offset="0.6 -0.4 0" extent="0.3 2.1 3.0" />    
 
 	<effect class="muzzle" ref="BiggerMuzzle" />
 	<effect class="muzzle" ref="CannonSmokeBig" /> 

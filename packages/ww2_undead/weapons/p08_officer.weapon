@@ -4,10 +4,10 @@
 <access_tag name="edelweiss" />
 
 	<specification 
-	retrigger_time="0.125" 
+	retrigger_time="0.06" 
 	carry_in_two_hands="0" 
 	accuracy_factor="0.95" 
-	sustained_fire_grow_step="0.785" 
+	sustained_fire_grow_step="0.75" 
 	magazine_size="8" 
 	can_shoot_standing="1" 
 	suppressed="0" 

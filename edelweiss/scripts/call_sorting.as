@@ -8,6 +8,7 @@ array<string> getCallSorting() {
 		"mortar2.call",
 		"mortar3.call",
 		"mortar4.call",
+		"mortar5.call",
 		
 
 		// airstrikes
@@ -23,6 +24,7 @@ array<string> getCallSorting() {
 		"airstrike9.call",
 		"airstrike10.call",
 		"airstrike11.call",
+		"airstrike12.call",
 
 		// artillery
 		"artillery2.call",
@@ -63,6 +65,7 @@ array<string> getCallSorting() {
 		"usf_vehicle.call",
 		"usf_vehicle1.call",
 		"usf_vehicle_m3_halftrack.call",
+		"usf_vehicle_stuart.call",
 		"vehicle_m3_mortar.call",
 		"usf_vehicle_armoury_marine.call",
 		"vehicle_stuart_recce.call",
@@ -76,6 +79,7 @@ array<string> getCallSorting() {
 		"ija_vehicle.call",
 		"ija_vehicle2.call",
 		"ija_vehicle_medium_tank_chi_ha.call",
+		"ija_vehicle_medium_tank_chi_ha_early.call",
 
 		
 
@@ -87,9 +91,11 @@ array<string> getCallSorting() {
 		"wh_vehicle_sdkfz251_pak40.call",
 
 		"wh_vehicle.call",
+		"wh_vehicle_panther.call",
 		"wh_vehicle_luchs.call",
 		"wh_vehicle_stug.call",
 		"wh_vehicle_pziv_88.call",
+		"wh_vehicle_tiger.call",
 
 		"rubber_boat.call",
 
@@ -98,9 +104,18 @@ array<string> getCallSorting() {
 		
 
 		"usf_vehicle_m4_sherman.call",
+		"usf_vehicle_m4_sherman_76.call",
 				"vehicle_m4_e4.call",
 		"usf_vehicle_m10.call",
 		"ukf_vehicle_churchill.call",
+
+		// undead calls
+		"ww2_undead_axr_officer_nebelwerfer.call",
+		"ww2_undead_axr_para_large.call",
+		"ww2_undead_axr_para_small.call",
+		"ww2_undead_usf_para_armoury.call",
+		"ww2_undead_zombie_horde_dog.call",
+		"ww2_undead_zombie_horde_small.call",
 
 		// hidden calls
 		"special_inf.call",

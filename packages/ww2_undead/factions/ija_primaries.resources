@@ -18,6 +18,9 @@
 	<weapon key="type99_lmg_b.weapon" />
 	<weapon key="type99_lmg_b.weapon" />
 	<weapon key="type99_rifle_s.weapon" />
+		<weapon key="type99_rifle_is.weapon" />
+		<weapon key="type97_s.weapon" />
+	<weapon key="type97_is.weapon" />
 <weapon key="type38_rifle_launcher.weapon" />
 <weapon key="type38_rifle_launcher_at.weapon" />
 </resources>

@@ -4,7 +4,7 @@
 	name=""
 	key="airstrike9.call"
 	initiation_comment1="Requesting Close Air Support"
-	initiation_comment2="Zero A6M5 strafing run advised"
+	initiation_comment2="strafing run advised"
 	acknowledge_time="3.0"
 	notify_metagame="1"
 	acknowledge_comment="Copy, target in sight"

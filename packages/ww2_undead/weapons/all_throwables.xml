@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
-
+	<projectile file="m4_cannon_76.projectile"/>
+	<projectile file="chi_ha_cannon_early.projectile"/>
 	<projectile file="rg42_grenade.projectile"/>
-
+	<projectile file="mortar_shell_50mm.projectile"/>
 	<projectile file="churchill_75_cannon.projectile"/>
 	<projectile file="soukoutei_cannon.projectile"/>
 	<projectile file="churchill_hull_mg_muzzle.projectile"/>
@@ -23,6 +24,7 @@
 	<projectile file="type99_at_mine.projectile" />
 	<projectile file="satchel.projectile" />
 	<projectile file="democharge.projectile" />
+	<projectile file="mortar_shell_t.projectile" />	
 	<projectile file="mk3_grenade.projectile" />											 
 	
 	<projectile file="m1_garand_grenade.projectile" />

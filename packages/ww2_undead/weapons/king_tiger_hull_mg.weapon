@@ -11,10 +11,10 @@
 
     <specification slot="2" 
     retrigger_time="0.0775" 
-    accuracy_factor="0.75" 
+    accuracy_factor="0.7" 
     sustained_fire_grow_step="0.012" 
     sustained_fire_diminish_rate="0.1"  
-    sight_range_modifier="2.2"
+    sight_range_modifier="1"
     ai_sight_range_modifier="1"
     magazine_size="-1" 
     can_shoot_standing="0" 
@@ -22,7 +22,7 @@
     suppressed="0" 
     name="MG 34 King Tiger MG" 
     class="0" 
-    projectile_speed="120"
+    projectile_speed="130"
     cooldown_start="0.8"
     cooldown_end="0.0"/>
 
@@ -30,7 +30,7 @@
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
     <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
-    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+	<!-- Enemy AT Soldiers are priority for this MG -->
 	
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />

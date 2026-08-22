@@ -17,7 +17,7 @@
 	name="VGO No.2 Mk I - Mobile" 
 	class="0" 
 	barrel_offset="0.8" 
-projectile_speed="120.0" 
+projectile_speed="125.0" 
 	/>
 		
 	<!-- former stats: spread range 0.225, recoil 0.215, recovery 1.8, stance 0.75, bipod accuracy 1.05 -->
@@ -77,5 +77,5 @@ projectile_speed="120.0"
 		kill_decay_end_time="0.9" 
 		/>
 	</projectile>
-	<modifier class="speed" value="-0.2" /> 
+	<modifier class="speed" value="-0.16" /> 
 </weapon>

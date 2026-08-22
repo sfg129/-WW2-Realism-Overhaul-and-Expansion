@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="type92_hmg_t.weapon"
+	ai_burst_time="1.0" 
+	ai_burst_time_variance="0.2" 
+	ai_burst_wait_time="0.2" 
+	ai_burst_wait_time_variance="0.05">
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	<!-- using these as default values for normal vehicle-born machine guns -->
+	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
+
+    <specification
+	retrigger_time="0.12"
+	accuracy_factor="0.9"
+	spread_range="0.21"
+	sustained_fire_grow_step="0.0223" 
+	sustained_fire_diminish_rate="0.12" 
+	sight_range_modifier="2"
+  	ai_sight_range_modifier="0.8"
+	magazine_size="-1"
+	can_shoot_standing="0"
+	an_shoot_crouching="0"
+	suppressed="0"
+	name="Type 92 HMG"
+	class="0"
+projectile_speed="130.0" 
+	slot="2"
+	barrel_offset="0.45"
+	projectiles_per_shot="1"
+	sight_height_offset="1.5"
+	cooldown_start="0.2"
+	cooldown_end="0.0"/>
+
+	<!-- stats prior to 1.87: accuracy 0.82, spread not overwritten, recoil 0.15, recovery 0.7, velocity 120, damage 0.7 -->
+
+	<!-- type 92 rate of fire adjusted for more realism, was formerly 0.12 -->
+	<!-- damage and velocity raised to compensate, was 0.6 kill % 110 velocity.-->
+	<!-- sight range raised as well since most were issued with optics. -->
+
+	<!-- AI sight range is multiplied linearly with the initial mod and then their AI mod too. so 0.5 * 2.0 = 1.0. -->
+
+	<!-- scope power is 4x for the standard scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+
+	
+    <model mesh_filename="type92_hmg.mesh" texture_filename="type92_hmg.png" />
+    <hud_icon filename="hud_type92_hmg.png" />
+	
+    <commonness value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="0.9"
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+
+	<sound key="fire" fileref="mg_07_type_92.wav" volume="1.55"/>
+
+</weapon>

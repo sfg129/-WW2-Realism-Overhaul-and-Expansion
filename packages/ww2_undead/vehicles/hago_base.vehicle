@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Type 95 Ha-Go" key="hago_base.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="34" minimum_fill_requirement="0.5" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="tank_treads" />
    	<tag name="light_armour" />
-
+	<tag name="hago" />
 	<tire_set offset="1.1 0.0 +2.0" radius="0.52" />     
 	<tire_set offset="1.1 0.0 -2.3" radius="0.52" />
 
@@ -11,7 +12,7 @@
 	<modifier class="blast_damage" value="-1.1" />
 
 	<!-- speed was 11, reverse 8 -->
-	<control max_limiter_speed="4.0" max_speed="11.0" acceleration="10.0" max_reverse_speed="11.0" min_health_to_steer="0.6" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"  />
+	<control max_limiter_speed="4.0" max_speed="11" acceleration="10.0" max_reverse_speed="8.0" min_health_to_steer="0.6" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"  />
 	
 	<physics 
     max_health="16.0" 
@@ -30,12 +31,14 @@
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
 	<turret offset="0.17 2.45 0.15" weapon_key="hago_cannon.weapon" weapon_offset="-0.1 0.0 0.85" weapon_recoil="0.0" max_rotation_step="0.000145" />
 	<turret offset="0.235 1.8 1.5" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0004" rotation="0" rotation_range="1.05" />
-	
+		<turret offset="-0.32359 -0.07204 -0.47308" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" rotation="4.1" max_rotation_step="0.0003" rotation_range="0.6" parent_turret_index="0" />
+
 	<visual class="chassis" mesh_filename="hago_chassis.mesh" texture_filename="hago.png" max_tilt="0.06" />
 	<visual class="chassis" key="broken" mesh_filename="hago_damage.mesh" texture_filename="hago_damage.png" />
 	<visual class="turret" key="broken" mesh_filename="hago_turret_damage.mesh" texture_filename="hago_damage.png" />  
 	<visual class="turret" turret_index="0" mesh_filename="hago_turret.mesh" texture_filename="hago.png" />
 	<visual class="turret" turret_index="1" mesh_filename="hago_mg.mesh" texture_filename="hago.png" />
+	<visual class="turret" turret_index="2" mesh_filename="hago_mg.mesh" texture_filename="hago.png" />
 	
 	<visual class="track" mesh_filename="hago_track.mesh" offset="-1.16 0.78 0.05" >
 		<part texture_filename="hago_wheels.png" texture_animation="rotate" tire_binding="1" />
@@ -53,18 +56,19 @@
 
 	<character_slot type="driver" position="1.5 0.5 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
 	<character_slot type="gunner" position="-1.5 0.7 0" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="0" />	<turret index="1" />
+		<turret index="0" />	
 	</character_slot>
-	<character_slot type="passenger" hiding="0">
-		<state class="entering" position="1.5 0.5 -1.5" rotation="-1.57" />
-		<state class="leaving" position="1.5 0.1 -1.5" rotation="1.57" />
-		<state class="idle" animation_key="crouch still" rotation="0.37" position="0.425 2.0 -1.2" />
+
+
+<character_slot type="gunner" position="0 0 2" rotation="0" exit_rotation="0" hiding="1" animation_id="37">
+			<turret index="1" />
 	</character_slot>
-	<character_slot type="passenger" hiding="0">
-		<state class="entering" position="-1.5 0.5 -2.1" rotation="1.57" />
-		<state class="leaving" position="-1.5 0.1 -2.1" rotation="-1.57" />
-		<state class="idle" animation_key="crouch still" rotation="-0.87" position="-0.425 2.0 -1.4" />
+
+	<character_slot type="gunner" position="0 0 -2" rotation="0" exit_rotation="3.14" hiding="1" animation_id="37">
+		<turret index="2" />	
 	</character_slot>
+
+
 	
 	<!-- sound handling -->
 	<rev_sound filename="tank_rev_light_idle1.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="0.8" volume="1.1" />			<!-- vol 1.0-->
@@ -115,7 +119,12 @@
 		<trigger class="destroy" />
 		<result class="reward" rp="50.0" />
 	</event>
-    
+
+
+    <event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="weapon" instance_key="type97_m.weapon" min_amount="1" max_amount="1" offset="0 2.4 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />
+    </event>
 	<event>
 		<trigger class="destroy" />
 		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor1.visual_item" min_amount="1" max_amount="3" offset="0 2.4 0" position_spread="1.5 1.5" direction_spread="0.15 0.3" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="bullet" name="Churchill MK VII cannon" slot="1" pulldown_in_air="0" key="churchill_75_cannon.projectile">
+<projectile class="bullet" name="Churchill MK VII cannon" slot="1" pulldown_in_air="2" key="churchill_75_cannon.projectile">
 	
     <sound class="result" key="other" fileref="light_gun_01.wav" volume="2.40"  pitch_variety="0.1"/>
     <sound class="result" key="other" fileref="light_gun_02.wav" volume="2.40" pitch_variety="0.1"/>
@@ -14,8 +14,8 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="6.5" 
-	damage="14" 
+	radius="6" 
+	damage="15.5" 
 	push="1.0" 
 	decal="1" 
     damage_origin_vehicle="0"   

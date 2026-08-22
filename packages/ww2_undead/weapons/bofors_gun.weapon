@@ -7,15 +7,15 @@
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.155"
 	sustained_fire_diminish_rate="0.4"
-	sight_range_modifier="2.7"
-  ai_sight_range_modifier="1"
+	sight_range_modifier="2.5"
+  ai_sight_range_modifier="0.75"
 	magazine_size="-1"
 	can_shoot_standing="0"
 	can_shoot_crouching="0"
 	suppressed="0"
 	name="Bofors Gun"
 	class="0"
-	projectile_speed="225.0"
+	projectile_speed="145.0"
 	slot="2"
 	barrel_offset="1.90"
 	sight_height_offset="2.0"
@@ -43,8 +43,7 @@
 	</projectile>
 	
 <!-- front plate -->	
-	<shield offset="0.4 -0.25 0" extent="0.2 1.5 2.5" />
+	<shield offset="1 -0.25 0" extent="2.5 1.5 0.5" />
 <!-- center plate -->	
-	<shield offset="1.4 -0.25 0" extent="1.8 1.5 0.2" />
 	
 </weapon>

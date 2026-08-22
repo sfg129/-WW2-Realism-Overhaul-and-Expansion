@@ -19,7 +19,7 @@
 	name="M1919A4 Tank MG" 
 	class="0" 
 	projectile_speed="140"
-	barrel_offset="0.5" 
+	barrel_offset="0.7" 
 	slot="2" 
 	cooldown_start="0.4"
 	cooldown_end="0.0"/>

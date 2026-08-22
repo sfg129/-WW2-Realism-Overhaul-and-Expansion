@@ -6,15 +6,15 @@
 
 	<specification 
 	retrigger_time="0.0725" 
-	accuracy_factor="0.95" 
-	sustained_fire_grow_step="0.16" 
-	sustained_fire_diminish_rate="1.6"
+	accuracy_factor="0.94" 
+	sustained_fire_grow_step="0.15" 
+	sustained_fire_diminish_rate="1.7"
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Type 100/44" 
 	class="0" 
-	projectile_speed="95.0"
+	projectile_speed="100"
 	/>
 
 	<!-- Type 100/44 had simple sights and no bipod; thus base accuracy is inferior to the Type 100/40 and is not boosted in cover/prone -->
@@ -22,9 +22,7 @@
 	<next_in_chain key="type100_44_smg_b.weapon" share_ammo="1" />
 
 	<!-- simple SMG sight ; though technically an aperture -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />   
+
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
@@ -42,7 +40,7 @@
 	<model filename="weapon_type100_44.xml" />
 	<hud_icon filename="hud_type100_44.png" />
 	
-	<commonness value="0.014"/>
+	<commonness value="0.02"/>
 	<inventory encumbrance="5.0" price="60.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -53,8 +51,8 @@
 		<result
 		class="hit"
 		kill_probability="0.65"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.6"
+		kill_decay_start_time="0.3"
+		kill_decay_end_time="0.8"
 		/>
 	</projectile>
 	

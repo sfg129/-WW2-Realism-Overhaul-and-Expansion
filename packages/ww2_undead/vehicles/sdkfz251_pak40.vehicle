@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Sd.Kfz.251/22" key="sdkfz251_pak40.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="55" minimum_fill_requirement="0.2" ai_driver_turns_to_target="1" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="tank_treads" />
@@ -17,7 +18,7 @@
   <visual class="tire" index="5" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-1.4" />
+	<modifier class="blast_damage" value="-1.2" />
 
 	<control 
 	max_limiter_speed="4.0" 
@@ -35,7 +36,7 @@
 	simulated_speed_factor="0.75"/>
 
 	<physics 
-    max_health="18" 
+    max_health="16" 
     mass="50.0"
     broken_mass="5" 
     remove_collision_threshold="0.2"    
@@ -74,7 +75,6 @@
 	</visual>
 
 <visual class="turret" turret_index="0" mesh_filename="pak_40_s.mesh" texture_filename="pak_40.png" />
-	<visual class="turret" key="broken" turret_index="0" mesh_filename="pak_40_damage.mesh" texture_filename="pak_40_damage.png" />
 
 	<visual class="track" mesh_filename="sdkfz251_track.mesh" offset="-1.1 0.0 0.0" >
 		<part texture_filename="sdkfz251_wheel.png" texture_animation="rotate" tire_binding="0" />
@@ -117,11 +117,10 @@
 			<turret index="2" />
 		</character_slot>
 
-<character_slot type="gunner" hiding="0">
+<character_slot type="passenger" hiding="0">
             <state class="entering" position="-1.6 0.5 -2" rotation="0.0" />
             <state class="leaving" position="-1.6 0.5 -2" rotation="-1.57" />
             <state class="idle" animation_key="crouch still, no weapon, 62" rotation="0" position="-0.4 1.2 -2" />
-            <turret index="0" />
         </character_slot>
 	
 	<character_slot type="passenger" hiding="0" allow_weapon="0">
@@ -133,10 +132,6 @@
 
 
 
-
-	<!-- ABSOLUTE PASSENGERS -->
-	<character_slot type="passenger" enter_position="-1.6 0.5 0.5" seat_position="-0.45 0.2 -0.125" leaving_position="-1.6 0.5 0.0" rotation="0" exit_rotation="-1.57" hiding="0" allow_weapon="0" animation_key="sitting, idling" />
-	
 	
 
 	<!-- sound handling -->

@@ -46,7 +46,7 @@
 	<comment key="We surrender!" text="Please, I just want to finish school!" />
 	<comment key="We surrender!" text="Damned Allied schweinehund..." />
 	
-	<comment key="Medic!" text="Sanitäter!" /> 
+	<comment key="Medic!" text="Sanitï¿½ter!" /> 
 	<comment key="Medic!" text="Hilfe, schnell!" />    
 	
 	<comment key="Quickly!" text="Schnell!" />
@@ -131,7 +131,7 @@
 	<!-- WH campaign commander lines -->
 	<comment key="sicily, part 1" text="Achtung, incoming commander briefing" />
 	<comment key="sicily, part 2" text="Good to have you all here at Sicily." />
-	<comment key="sicily, part 3" text="American paratroopers have landed in the nearby area and have taken all of the important ground." />
+	<comment key="sicily, part 3" text="Allies paratroopers have landed in the nearby area and have taken all of the important ground." />
 	<comment key="sicily, part 4" text="It is our job to retake these positions and eradicate the Airborne threat!" />
 
 	<comment key="brecourt, part 1" text="Achtung, incoming commander briefing" />

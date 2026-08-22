@@ -12,11 +12,11 @@
 	<sound class="result" key="character" copy="other" />
 	
 	<!-- time to live was 3.0 -->
-	<trigger class="time" time_to_live="3"/>
+	<trigger class="time" time_to_live="3.5"/>
 	<result
 	class="blast"
-	radius="6"
-	damage="2"
+	radius="7"
+	damage="1.4"
 	push="0.3"
 	decal="1"
 	character_state="death"

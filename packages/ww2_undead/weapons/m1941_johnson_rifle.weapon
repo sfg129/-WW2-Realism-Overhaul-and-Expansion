@@ -8,9 +8,9 @@
 	retrigger_time="0.25" 
 	spread_range="0.285"
 	accuracy_factor="0.975" 
-	sustained_fire_grow_step="1" 
-	sustained_fire_diminish_rate="2.4"	
-	stance_accuracy_rate="3.5"
+	sustained_fire_grow_step="0.95" 
+	sustained_fire_diminish_rate="2.5"	
+
 	magazine_size="10" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -32,11 +32,6 @@
 
 	<next_in_chain key="m1941_johnson_rifle_b.weapon" share_ammo="1" />
 
-	<stance state_key="standing" accuracy="0.92" />
-	<stance state_key="crouching" accuracy="0.94" />
-	<stance state_key="prone" accuracy="1" /> 
-	<stance state_key="over_wall" accuracy="1" />		
-	
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />
 	<animation state_key="reload" animation_key="reloading, johnson rifle" />

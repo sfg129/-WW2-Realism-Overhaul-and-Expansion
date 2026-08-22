@@ -48,7 +48,7 @@
 	<hud_icon filename="hud_kar98k_b.png" />
 	
 	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
-	<commonness value="0.23" can_respawn_with="1" in_stock="0"/>
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

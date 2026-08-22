@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="MG 34 HMG" key="mg34_hmg_t.vehicle" map_view_atlas_index="27" protectors="1" reserves_spawn_point="1" usable_for_cover="0" soldier_capacity_offset="1">
 	<tag name="target" />
 	<!--<tag name="hmg" />-->

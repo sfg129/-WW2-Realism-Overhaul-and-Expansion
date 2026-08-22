@@ -8,6 +8,7 @@
 	accuracy_factor="0.99" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="0.6"
+	stance_accuracy_rate="0.8"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -20,6 +21,7 @@
 	/>
 
 	<!-- scope power is 4x for this Zielsechs scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+	<next_in_chain key="kar98k_is.weapon" share_ammo="1" />
 
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" animation_key="bolt cycle" />

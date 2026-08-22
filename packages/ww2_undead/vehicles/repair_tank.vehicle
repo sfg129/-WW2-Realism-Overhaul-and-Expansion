@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="repair_tank_base.vehicle" key="repair_tank.vehicle" 
     respawn_time="600" 
 
@@ -9,7 +10,7 @@
 	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="11.0" max_reverse_speed="6.5" min_health_to_steer="1.5"/>
 
     	<physics 
-    max_health="30.0" 
+    max_health="48" 
     blast_damage_threshold="1.02"
     mass="400.0" 
     broken_mass="20"    
@@ -19,6 +20,10 @@
     collision_model_pos="0 1.0 0.0" 
     collision_model_extent="5.0 2.2 7.8" 
     visual_offset="0 0.43 0.0" /> 
+
+	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
+	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
+	<modifier class="blast_damage" value="-4" />
 
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->

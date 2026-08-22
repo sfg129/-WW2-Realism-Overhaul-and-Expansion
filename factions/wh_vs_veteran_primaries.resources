@@ -5,13 +5,14 @@
 	<weapon key="kar43.weapon" />
 	<weapon key="mp40.weapon" />
 
-
+	<weapon key="g41w.weapon" />
 	<weapon key="kar98k_rifle_grenade_he.weapon" />
 
 	<weapon key="mp34_o.weapon" />
 
 	<weapon key="stg44.weapon" />
-
+	<weapon key="danuvia_43m_b.weapon" />
+	<weapon key="danuvia_43m_folded_b.weapon" />
 	<weapon key="kar43_large_mag.weapon" />
 	<weapon key="mg26t.weapon" />
 	<weapon key="danuvia_43m.weapon" />

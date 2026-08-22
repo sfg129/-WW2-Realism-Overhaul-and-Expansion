@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Bergetiger" key="repair_tank_base.vehicle" 
 
     time_to_live_unsteerable="60" 
@@ -23,12 +24,12 @@
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-0.9" />
+	<modifier class="blast_damage" value="-4" />
 
 	<!-- immune to Flamethrowers. -->
 
 	<physics 
-    max_health="500.0" 
+    max_health="1000" 
     blast_damage_threshold="1.02"
     mass="4000.0" 
     broken_mass="20"    

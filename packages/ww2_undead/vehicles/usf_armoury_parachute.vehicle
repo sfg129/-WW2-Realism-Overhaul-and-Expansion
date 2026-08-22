@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Airdropped Armory Chute" key="usf_armoury_parachute.vehicle" map_view_atlas_index="22" minimum_fill_requirement="1" respawn_time="0" time_to_live="3.5" usable_for_cover="0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1">
 	<tag name="metal_thin" />
 	<tag name="supply_para" />

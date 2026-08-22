@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="15 CM Naval Gun" key="normandy_turret.vehicle" map_view_atlas_index="61" respawn_time="86400" reserves_spawn_point="1" soldier_capacity_offset="2" protectors="2" usable_for_cover="0" >
 	<tag name="target" />
    	<tag name="at_gun" />

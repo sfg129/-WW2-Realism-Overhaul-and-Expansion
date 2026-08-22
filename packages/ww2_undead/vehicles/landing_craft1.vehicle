@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Daihatsu" key="landing_craft1.vehicle" map_view_atlas_index="38" respawn_time="60" soldier_capacity_offset="3" allow_owner_to_use_only="1" should_be_destroyed="1" minimum_fill_requirement="0.25" ai_use_throwables="0">
 	<tag name="vehicle" />
 	<tag name="landing_craft" />

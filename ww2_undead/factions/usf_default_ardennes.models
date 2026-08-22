@@ -306,5 +306,65 @@
 	<!-- ---- -->
 	<!-- rank -->
 	<!-- ---- -->
+
+	<!-- ----------------- -->
+	<! -- Tank Hunter Vest Handling -->
+	<!-- ----------------- -->
+
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
+		<!-- ----------------- -->
+		<! -- Type 93 Flamer Handling -->
+		<!-- ----------------- -->
+
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="type93_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
+		<!-- ----------------- -->
+		<! -- M2 Flamer Handling -->
+		<!-- ----------------- -->
+
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_usf_paratrooper_ardennes_tank_hunter.xml">
+		<requirement class="weapon" slot="0" key="m2_flamethrower.weapon"/>
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
+
 	
 </models>

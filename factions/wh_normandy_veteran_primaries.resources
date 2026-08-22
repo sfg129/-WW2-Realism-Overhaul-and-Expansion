@@ -17,7 +17,8 @@
 
 	<!--Gew41(w) Large Mag -->
 	<weapon key="svt40.weapon" />
-
+	<weapon key="danuvia_43m_b.weapon" />
+	<weapon key="danuvia_43m_folded_b.weapon" />
 <weapon key="beretta_m38.weapon" />
 <weapon key="ppsh41_stick.weapon" />
 	<weapon key="ppsh41.weapon" />

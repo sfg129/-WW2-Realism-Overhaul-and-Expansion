@@ -6,9 +6,9 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.98" 
-	sustained_fire_grow_step="0.97" 
-	sustained_fire_diminish_rate="0.6"
+	accuracy_factor="0.99" 
+	sustained_fire_grow_step="0.95" 
+	sustained_fire_diminish_rate="0.7"
 	stance_accuracy_rate="0.8"
 	magazine_size="5" 
 	can_shoot_standing="1" 
@@ -16,11 +16,11 @@
 	name="Type 97 Sniper Rifle" 
 	class="2" 
 	reload_one_at_a_time="0" 
-projectile_speed="120.0" 
+projectile_speed="130.0" 
 	barrel_offset="0.65" 
 	projectiles_per_shot="1"
 	/>
-
+<next_in_chain key="type97_is.weapon" share_ammo="1" />
 	<!-- diminish rate unmodified when other snipers were lowered by 10%, slowing all the others down, but this rifle remains -->
 	<!-- however, kill decay start time was 0.6, and was made to be 0.3 when other snipers' recoil recovery was dropped -->	
 	<!-- with stance rates now implemented, type 97 has a pretty quick stance rate compared to other snipers -->

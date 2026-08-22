@@ -34,7 +34,7 @@
     <animation key="hold" ref="32" />
     <animation key="hold_on_wall" ref="1" />
 
-	<sound key="fire" fileref="weapon_willys_mb_recoilless_with_reload.wav" pitch_variety="0.05" volume="2.5"/>
+	<sound key="fire" fileref="weapon_willys_mb_recoilless_with_reload.wav" pitch_variety="0.05" volume="1.5"/>
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -58,4 +58,5 @@
 	<effect class="muzzle" ref="LawMuzzle" />
 	<effect class="muzzle" ref="UpDust" />
     
+  <shield offset="0 0 0" extent="1 0.5 0.2" />
 </weapon>

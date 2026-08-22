@@ -1,19 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Tractor" key="tractor.vehicle" map_view_atlas_index="-1" allow_ai_to_use="0">
 	<tag name="metal_thin" />
 
 	<tire_set offset="1.20 0.0 1.816" radius="0.664" />
 	<tire_set offset="1.08 0.0 -1.28" radius="1.024" />
 
-	<control max_speed="22.0" acceleration="7.0" max_reverse_speed="16.0" min_health_to_steer="0.21" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+	<control max_speed="10" acceleration="7.0" max_reverse_speed="10" min_health_to_steer="0.21" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
 
-	<physics max_health="4.5" mass="20.0" extent="2.88 0.0 4.96" offset="0 0.0 0" top_offset="0 6.4 0" collision_model_pos="0 0.8 0.0" collision_model_extent="2.56 1.92 5.2" visual_offset="0 0.4 0.0" preserve_motion_on_impact_factor="1.0" /> 
+	<physics max_health="6" mass="20.0" extent="2.88 0.0 4.96" offset="0 0.0 0" top_offset="0 6.4 0" collision_model_pos="0 0.8 0.0" collision_model_extent="2.56 1.92 5.2" visual_offset="0 0.4 0.0" preserve_motion_on_impact_factor="1.0" /> 
 
 	<visual class="chassis" mesh_filename="tractor.mesh" texture_filename="tractor.png" max_tilt="0.01" />
 	<visual class="chassis" key="broken" mesh_filename="tractor_broken.mesh" texture_filename="tractor_broken.png" />
  	<visual class="front_tire" mesh_filename="tractor_wheel_small.mesh" texture_filename="tractor_wheel.png" />
 	<visual class="rear_tire" mesh_filename="tractor_wheel_big.mesh" texture_filename="tractor_wheel.png" />
 
-	<!--<character_slot type="driver" position="0.0 1.52 -1.12" enter_position="0.8 0.4 -0.24" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" marker_offset="0 0.45 0.2" /> -->
+	<character_slot type="driver" position="0.0 1.52 -1.12" enter_position="0.8 0.4 -0.24" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36" marker_offset="0 0.45 0.2" /> 
 
 	<!-- sound handling -->
 	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />
@@ -41,13 +42,13 @@
         <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
         <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />  
   
-<!--
-        <effect event_key="drive_chassis" ref="Propulsion" offset="0.4 0.5 -2.3" />
--->
 
-<!--        <effect event_key="destroyed" ref="BurstRepeat" bind="0" />
+        <effect event_key="drive_chassis" ref="Propulsion" offset="0.4 0.5 -2.3" />
+
+
+      <effect event_key="destroyed" ref="BurstRepeat" bind="0" />
         <effect event_key="destroyed" ref="BurstRepeat" bind="1" />
--->
+
 		
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />

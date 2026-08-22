@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Armory Daihatsu" key="armory_daihatsu.vehicle" map_view_atlas_index="51" respawn_time="180" existence="one_per_faction" should_be_destroyed="1" allow_ai_to_use="0" reserves_spawn_point="1" usable_for_cover="0">
 	<tag name="vehicle" />
 	<tag name="armory boat" />  
@@ -9,7 +10,7 @@
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<modifier class="blast_damage" value="-0.9" />
 	
-	<physics max_health="6.0" mass="80.0" extent="1.87 0.0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 0" collision_model_extent="3.8 2.2 14.0" visual_offset="0 0.7 0.0" /> 
+	<physics max_health="8.0" mass="80.0" extent="1.87 0.0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 0" collision_model_extent="3.8 2.2 14.0" visual_offset="0 0.7 0.0" /> 
 	
 	<turret offset="+0.0 +1.8 -3.85" weapon_key="daihatsu_shield.weapon" weapon_offset="0 0 0" weapon_recoil="0" physics_recoil="0." max_rotation_step="0" rotation="0" />
 	

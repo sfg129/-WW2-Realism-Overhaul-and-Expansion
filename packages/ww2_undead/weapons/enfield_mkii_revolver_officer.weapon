@@ -6,7 +6,9 @@
 	<specification
 	retrigger_time="0.2"
 	accuracy_factor="0.95"
-	sustained_fire_grow_step="1.25"
+	sustained_fire_grow_step="0.9"
+	sustained_fire_diminish_rate="4"
+
 	magazine_size="6"
 	carry_in_two_hands="0"
 	can_shoot_standing="1"

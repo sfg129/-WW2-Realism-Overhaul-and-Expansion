@@ -14,7 +14,7 @@
 	name="Type 1 SMG" 
 	class="0" 
 	barrel_offset="-0.1" 
-	projectile_speed="95.0"
+	projectile_speed="100"
 	/>
 
 	<!-- former stats: kill chance 0.47, kill start decay 0.23 -->
@@ -22,10 +22,9 @@
 	<!-- formerly known as Type 2 Model A, more sources pointed towards the nomenclature Type 1 -->
 
 	<!-- simple SMG sight ; though technically an aperture -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
+
 	<stance state_key="over_wall" accuracy="0.95" />   
-	
+		<stance state_key="prone" accuracy="0.95" /> 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
@@ -52,8 +51,8 @@
 		<result
 		class="hit"
 		kill_probability="0.65"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.6"
+		kill_decay_start_time="0.3"
+		kill_decay_end_time="0.8"
 		/>
 	</projectile>
 	

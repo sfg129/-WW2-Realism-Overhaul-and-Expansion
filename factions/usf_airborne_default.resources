@@ -28,7 +28,6 @@
 	<call key="usf_para.call" />
 	<call key="usf_para_armoury.call" />
 	<call key="usf_vehicle.call" />
-	<call key="usf_vehicle_m3_halftrack.call" />
 	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
 

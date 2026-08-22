@@ -9,6 +9,7 @@
 #include "command_handler.as"
 #include "spawn_in_base_call_handler.as"
 #include "call_marker_tracker.as"
+#include "call_marker_configs.as"
 #include "rangefinder.as"
 
 //unlockable lists
@@ -42,26 +43,20 @@ class GameModeQuickMatch : GameMode {
 		addTracker(CommandHandler(this));
         addTracker(RangeFinder(this));
 
-		array<CallMarkerConfig@> configs = {
-			//CallMarkerConfig(string key, int atlasIndex = 0, float size = 2.0, float range = 1.0, string text = "")
-			CallMarkerConfig("mortar.call", 6, 0.5, 45.0),
-			CallMarkerConfig("mortar1.call", 7, 0.5, 45.0),      
-			CallMarkerConfig("mortar2.call", 7, 0.5, 45.0),      
-			CallMarkerConfig("artillery.call", 8, 1.0, 75.0),
-			CallMarkerConfig("artillery1.call", 9, 1.0, 80.0),
-			CallMarkerConfig("artillery2.call", 8, 1.0, 75.0),
-			CallMarkerConfig("artillery3.call", 9, 1.0, 80.0),
-			CallMarkerConfig("airstrike.call", 10, 0.5, 25.0),
-			CallMarkerConfig("airstrike1.call", 11, 0.5, 12.0)                         
-		};
+		array<CallMarkerConfig@> configs = getCallMarkerConfigs();
 
 		addTracker(CallMarkerTracker(this, configs, true));
 		
 		addTracker(SpawnInBaseCallHandler(this, "usmc_inf.call", "usmc_inf_spawn.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "usmc_inf_ai.call", "usmc_inf_spawn_ai.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_armoury_marine.call", "usf_vehicle_armoury_marine_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m3_halftrack.call", "usf_vehicle_m3_halftrack_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "vehicle_m3_mortar.call", "vehicle_m3_mortar_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "vehicle_stuart_recce.call", "vehicle_stuart_recce_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "vehicle_m4_e4.call", "vehicle_m4_e4_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usmc_vehicle.call", "usmc_vehicle_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usmc_vehicle1.call", "usmc_vehicle1_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_inf.call", "ija_inf_spawn.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_inf_ai.call", "ija_inf_spawn_ai.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
@@ -69,6 +64,7 @@ class GameModeQuickMatch : GameMode {
 		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle.call", "ija_vehicle_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle1.call", "ija_vehicle1_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));    
 		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle2.call", "ija_vehicle2_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));    
+		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));    
 
 				

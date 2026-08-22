@@ -6,10 +6,10 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.99" 
+	accuracy_factor="0.98" 
 		sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="0.8"
-	stance_accuracy_rate="2"
+	stance_accuracy_rate="1"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -19,7 +19,7 @@
 	projectile_speed="130.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="1.5"
+	sight_range_modifier="1.8"
     stab_enabled="1"
     stab_range="3.5"
 	/>
@@ -30,10 +30,7 @@
 
 	<next_in_chain key="kar98k_small_optic.weapon" share_ammo="1" />
 
-	<stance state_key="standing" accuracy="0.921" />
-	<stance state_key="crouching" accuracy="0.94" />
-	<stance state_key="prone" accuracy="0.96" /> 
-	<stance state_key="over_wall" accuracy="0.96" />	
+
 	
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" animation_key="bolt cycle" />
@@ -53,8 +50,8 @@
 	<model filename="weapon_kar98k_zf41_b.xml" />
 	<hud_icon filename="hud_kar98k_zf41_b.png" />
 	
-	<commonness value="0.075" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="30.0" />
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="45.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

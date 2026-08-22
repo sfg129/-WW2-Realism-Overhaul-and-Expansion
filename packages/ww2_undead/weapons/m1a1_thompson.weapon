@@ -4,9 +4,10 @@
 
 	<specification 
 	retrigger_time="0.0923" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.94" 
+
 	sustained_fire_grow_step="0.2" 
-	sustained_fire_diminish_rate="2"	
+	sustained_fire_diminish_rate="1.85"	
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -18,9 +19,9 @@
 	<!-- former stats: grow_step 0.33, diminish rate 1.45 -->
 
 	<!-- simple SMG sight ; though technically an aperture -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />   
+	<stance state_key="standing" accuracy="0.92" />
+	<stance state_key="crouching" accuracy="0.97" />
+<modifier class="speed" value="-0.04" />  
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
@@ -41,7 +42,7 @@
 	<model filename="m1a1_thompson.xml" />
 	<hud_icon filename="hud_thompson.png" />
 	
-	<commonness value="0.075" can_respawn_with="1"/>
+	<commonness value="0.06" can_respawn_with="1"/>
 	<inventory encumbrance="5.0" price="30.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

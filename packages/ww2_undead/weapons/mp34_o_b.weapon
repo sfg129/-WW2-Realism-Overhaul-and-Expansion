@@ -9,7 +9,7 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.18" 
 	sustained_fire_diminish_rate="1.5"
-	stance_accuracy_rate="1.5"
+	stance_accuracy_rate="2"
 	magazine_size="32" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -23,9 +23,7 @@
 	<next_in_chain key="mp34_o.weapon" share_ammo="1" />
 
 	<!-- simple SMG sight -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />  
+
 
 	<!-- This is the 9mm MP 34, we couldn't use the old file because people still would have Type STE's in their stash. -->
 	

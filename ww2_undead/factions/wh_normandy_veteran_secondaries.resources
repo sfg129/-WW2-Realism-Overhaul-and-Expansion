@@ -12,7 +12,7 @@
 	<weapon key="reichsrevolver.weapon" />	
 	
 	<carry_item key='vest_veteran.carry_item' enabled="1" />  
-	
+	<projectile key="panzerschreck_ai.weapon" />
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 	

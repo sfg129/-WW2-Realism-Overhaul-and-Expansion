@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="M5 Anti-Tank Gun" key="at_gun_m5.vehicle" map_view_atlas_index="14" respawn_time="240.0" reserves_spawn_point="1" soldier_capacity_offset="3" protectors="3" usable_for_cover="0">
 <tag name="at_gun" />
 
@@ -9,7 +10,7 @@
 	<modifier class="blast_range" value="-4.0" />
 	<modifier class="blast_damage" value="-1.2" />
 
-	<physics max_health="18" mass="10000.0" extent="2.0 0.0 2.0" offset="0 0.0 0" top_offset="0 5 0" collision_model_pos="0 0.2 0" collision_model_extent="1.0 0.4 1.8" visual_offset="0 0 0" /> 
+	<physics max_health="12" mass="10000.0" extent="2.0 0.0 2.0" offset="0 0.0 0" top_offset="0 5 0" collision_model_pos="0 0.2 0" collision_model_extent="1.0 0.4 1.8" visual_offset="0 0 0" /> 
 	
 	<turret offset="0 0.0 0.0" weapon_key="at_gun_m5.weapon" weapon_offset="0.0 1.15 0.0" weapon_recoil="0.3"  max_rotation_step="0.00002" rotation="0" />
 

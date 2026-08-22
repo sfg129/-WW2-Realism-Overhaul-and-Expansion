@@ -3,8 +3,6 @@
 	<call key="mortar4.call" />
 	<vehicle key="m4_V.vehicle" />
 	<vehicle key="m4_firefly.vehicle" />
- 	<vehicle key="stuart.vehicle" />
- 	<vehicle key="stuart_damaged.vehicle" />
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="vickers_hmg.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
@@ -20,7 +18,7 @@
 <vehicle key="universal_carrier_vickers_k.vehicle" />  
 <vehicle key="universal_carrier_boys.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
-
+<vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="churchill_mkvii.vehicle" />    
 	<vehicle key="churchill_crocodile.vehicle" />      
 
@@ -28,18 +26,17 @@
 	<vehicle key="tog2_boss.vehicle" />
 <vehicle key="stuart_recce.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
- 	<call key="airstrike7.call" />
-	<call key="airstrike6.call" />
+		<call key="airstrike6.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="artillery2.call" />
 	<call key="ukf_inf.call" />
+		<call key="usf_vehicle.call" />
+	<call key="ukf_vehicle_un.call" />
 	<call key="ukf_vehicle_un_b.call" />
-	<call key="usf_vehicle_m3_halftrack.call" />
-	<call key="vehicle_stuart_recce.call" />
-	<call key="usmc_vehicle.call" />
+	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
-
 	<call key="ukf_vehicle_m4_sherman_v.call" />
 	<call key="ukf_vehicle_sherman_firefly.call" />
 	<call key="ukf_vehicle_churchill.call" />

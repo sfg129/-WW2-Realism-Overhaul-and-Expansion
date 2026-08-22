@@ -8,11 +8,6 @@
 	<weapon key="m55_reising.weapon" />
 	<weapon key="m12_trench_gun_b.weapon" />	
 	<weapon key="m12_trench_gun.weapon" />
-	<weapon key="m1918_bar.weapon" />
-
-		<weapon key="m1918_bar_heavy_low.weapon" />	
-	<weapon key="m1918_bar_heavy.weapon" />
-	<weapon key="m1918_bar_rapid_fire.weapon" /> 
 	<weapon key="m1928_thompson.weapon" />  
  
 	<weapon key="m1928_thompson_mag.weapon" />

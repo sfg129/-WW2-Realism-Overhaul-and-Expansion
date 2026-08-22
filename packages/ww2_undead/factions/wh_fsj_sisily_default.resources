@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+ 	<!--<vehicle key="hago.vehicle" />-->
+ 	<!--<vehicle key="hago_damaged.vehicle" />-->
+	<!--<vehicle key="pillbox1.vehicle" />-->
+	<!--<vehicle key="type92_hmg.vehicle" />-->
+	<!--<vehicle key="landing_craft1.vehicle" />-->
+	<!--<vehicle key="landing_craft1_noai.vehicle" /> -->
+	<!--<vehicle key="armory_daihatsu.vehicle" />   -->
+	<!--<vehicle key="jeep1.vehicle" />-->
+ 	<!--<vehicle key="hoha.vehicle" />  -->
+<vehicle key="sdkfz251_mortar.vehicle" />
+<vehicle key="sdkfz251_pak40.vehicle" />
+ 	<vehicle key="mg34_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="opel_blitz_1.vehicle" />
+ 	<vehicle key="opel_blitz_2.vehicle" />
+ 	<vehicle key="opel_blitz_armoury.vehicle" />
+ 	<vehicle key="sdkfz251.vehicle" />
+	<vehicle key="king_tiger.vehicle" />
+	<vehicle key="kubelwagen.vehicle" />
+	<vehicle key="panzer_iv.vehicle" />
+	<vehicle key="stug_iii.vehicle" />
+	<vehicle key="tiger.vehicle" />
+	<vehicle key="sdkfz251_flak.vehicle" />
+	<vehicle key="at_gun_pak40.vehicle" />
+	<vehicle key="at_gun_pak40_2.vehicle" />    
+	<vehicle key="lefh18.vehicle" />
+	<vehicle key="cargo_tank.vehicle" />    
+	<vehicle key="maus_boss.vehicle" />
+	<vehicle key="king_tiger_boss.vehicle" />
+	<vehicle key="repair_tank.vehicle" />    
+
+	<vehicle key="flak_88.vehicle" />
+	<vehicle key="luchs.vehicle" />
+	<vehicle key="normandy_turret.vehicle" />
+
+
+	<call key="artillery2.call" />
+	<call key="wh_inf.call" />
+	<call key="wh_vehicle_sdkfz251.call" />
+	<call key="wh_vehicle_sdkfz251_flak.call" />
+	<call key="wh_vehicle_sdkfz251_mortar.call" />
+	<call key="wh_vehicle_sdkfz251_pak40.call" />
+	<call key="wh_vehicle_luchs.call" />
+
+
+	
+</resources>

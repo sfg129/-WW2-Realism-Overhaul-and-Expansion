@@ -2,12 +2,21 @@
 <carry_items>
 
 	<carry_item file="god_vest.carry_item" />
+	<carry_item file="vest_snlf.carry_item" />
 	<carry_item file="ghost_vest.carry_item" />
 <carry_item file="vest_normal.carry_item" />
 <carry_item file="vest_normalw.carry_item" />
 <carry_item file="vest_normale.carry_item" />
 <carry_item file="vest_normals.carry_item" />
 <carry_item file="vest_normala.carry_item" />
+	<carry_item key="fruit_bananas.carry_item" />
+	<carry_item key="fruit_coconut.carry_item" />
+	<carry_item key="fruit_dragonfruit.carry_item" />
+	<carry_item key="fruit_grape.carry_item" />
+	<carry_item key="fruit_mango.carry_item" />
+	<carry_item key="fruit_melon.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
+	<carry_item key="painting_sunflower.carry_item" />
 
 	<carry_item file="ww2_undead_axr_dog.carry_item" />
 	<carry_item file="ww2_undead_axr_nachtjaeger.carry_item" />
@@ -60,8 +69,7 @@
   <carry_item file="chocolate.carry_item" />
   <carry_item file="dollars_300.carry_item" />
   <carry_item file="razor.carry_item" />   
-  <carry_item file="sheaths.carry_item" />
-  <carry_item file="sheaths_xxl.carry_item" />    
+
   <carry_item file="playing_cards.carry_item" /> 
   <carry_item file="record_player.carry_item" />
   <carry_item file="sake.carry_item" />
@@ -92,4 +100,3 @@
   <carry_item file="victoria_cross.carry_item" />
   <carry_item file="iron_cross.carry_item" />
 </carry_items>
-

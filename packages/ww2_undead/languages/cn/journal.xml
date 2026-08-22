@@ -15,14 +15,14 @@
 	<!-- TODO: tag all relevant vehicles with can_not_steal -->
 	<entry key="inspect/cannot_steal/enemy">
 	    <title value="敌方载具"/>
-		<text value="出于游戏平衡和游戏性方面的考虑，在雪绒花和太平洋（二战DLC）中将无法偷取一些敌方的重型载具。不过你仍然可以偷取其他轻型载具！"/>
+		<text value="出于游戏平衡和游戏性方面的考虑，在雪绒花和太平洋（二战DLC）中将无法偷取敌方的重型载具。不过你仍然可以偷取其他轻型和中型载具！"/>
 		<image filename="journal_cannot_steal.png"/>
 	</entry>
 
 	<!-- TODO: tag all relevant weapons with bayonet -->
 	<entry key="inspect/has_bayonet">
 	    <title value="刺刀"/>
-		<text value="在二战DLC中很多武器都可以切换刺刀，这些武器图标底下有两个点。你可以通过使用&#37;control_next_weapon_in_chain键进行切换。装配刺刀将会显著地增加你的近战距离，但是射击精度会有所下降。"/>
+		<text value="在二战DLC中很多武器都可以切换刺刀，这些武器图标底下有两个点。你可以通过使用&#37;control_next_weapon_in_chain键进行切换。装配刺刀将会显著地增加你的近战距离。"/>
 		<image filename="journal_bayonets.png"/>
 	</entry>
 
@@ -46,7 +46,7 @@
 
 	<entry key="inspect/destroy_target/any">
 	    <title value="无线电干扰器，岸防炮，防空炮"/>
-		<text value="敌方无线电干扰器将会在其周围一定范围内阻断你呼叫支援的能力，近身使用爆破炸药将它们摧毁。岸防炮和防空炮会阻止你在地图的任意位置使用特定的支援，摧毁它们以呼叫威力强大的海军炮击和空中力量。"/>
+		<text value="模组删除了无线电干扰器、岸防炮和防空炮，岸防炮和防空炮未来可能被重新加入游戏，但不再具有阻断支援的功能。"/>
 		<image filename="journal_destroy.png"/>
 	</entry>
 	

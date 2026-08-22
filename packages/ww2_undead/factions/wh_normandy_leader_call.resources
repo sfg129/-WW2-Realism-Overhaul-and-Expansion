@@ -4,7 +4,6 @@
 
 	<call key="mortar.call" /> 
 	<call key="mortar2.call" />
-	<call key="artillery2.call" />
 
 	<call key="wh_inf_ai.call" />
 	<call key="wh_vehicle.call" />	<!-- Panzer IV -->
@@ -15,4 +14,5 @@
 	<call key="wh_vehicle_sdkfz251_flak.call" />
 	<call key="wh_vehicle_sdkfz251_mortar.call" />
 		<call key="wh_vehicle_sdkfz251_pak40.call" />
+	<call key="wh_vehicle_tiger.call" />
 </resources>

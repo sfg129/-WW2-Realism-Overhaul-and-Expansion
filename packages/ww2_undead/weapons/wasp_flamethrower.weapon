@@ -8,9 +8,9 @@
 	projectiles_per_shot="1"
 	spread_range="0.05"
 	accuracy_factor="1.5"
-	    sight_range_modifier="1.5"
-    ai_sight_range_modifier="0.9"
-	sustained_fire_grow_step="0.005"
+	    sight_range_modifier="1.25"
+
+	sustained_fire_grow_step="0.0075"
 	sustained_fire_diminish_rate="0.06"
 	magazine_size="-1"
 	suppressed="1"
@@ -26,7 +26,7 @@
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
     <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
-    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
+	<!-- Enemy AT Soldiers are priority for this MG -->
 
 	<sound key="fire" fileref="flamethrower.wav" volume="2.4"/>
 	
@@ -46,7 +46,7 @@ curve_height="2.0"
 	tweak_factor="2.8"
 	/> 
 	<projectile file="flamethrower_flame_tank.projectile" />
-	<shield offset="0.0 0.55 0.7" extent="0.75 2 2" />
+<shield offset="0 0 -0.4" extent="0.3 1 2.2" />
 	
 	
 	<effect class="muzzle" ref="BigMuzzle" />

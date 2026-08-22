@@ -6,20 +6,21 @@
 
 	<specification 
 	retrigger_time="0.109"
-	accuracy_factor="0.96" 
+	accuracy_factor="0.95" 
 	spread_range="0.3"
-	sustained_fire_grow_step="0.255" 
-	sustained_fire_diminish_rate="1.3"
-	stance_accuracy_rate="1.0"
-	magazine_size="30" 
+	sustained_fire_grow_step="0.25" 
+	sustained_fire_diminish_rate="1.4"
+	stance_accuracy_rate="1.25"
+	magazine_size="31" 
+	reload_one_at_a_time="1" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Scoped StG 44" 
 	class="0" 
-	projectile_speed="115.0" 
+	projectile_speed="120" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
-	sight_range_modifier="1.6"
+	sight_range_modifier="1.8"
 	/>
 	<modifier class="speed" value="-0.08" />  
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
@@ -28,25 +29,27 @@
 
 	<!-- scope power is 4x for the ZF4 scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
 
+<next_in_chain key="stg44_is.weapon" share_ammo="1" />
 
-	<stance state_key="standing" accuracy="0.85" />
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.6" />
+	<stance state_key="prone_moving" accuracy="0.6" />
+	<stance state_key="over_wall" accuracy="1" />     
+	<stance state_key="standing" accuracy="0.9" />
 	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="prone" accuracy="1.0" />
+	<stance state_key="over_wall" accuracy="1.0" />   
 
-	<stance state_key="over_wall" accuracy="1.0" />		
-		<stance state_key="prone" accuracy="1" /> 
-	
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
-	<animation key="reload" animation_key="reloading, stg44" />
-	<animation key="reload" stance_key="prone" animation_key="reloading, stg44, prone" />
-	
+	<animation key="reload" animation_key="reloading, stg442" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, stg442, prone" />
 	<weak_hand_hold offset="0.2" />
-	
-        <sound key="fire" fileref="weapon_autorifle_stg44.wav" pitch_variety="0.05" volume="1.2"/>
-	<sound key="cycle" fileref="rifle_chamber.wav" />
-	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
-	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="fire" fileref="weapon_autorifle_stg44.wav" pitch_variety="0.05" volume="1.2"/>
+	<sound key="effect" fileref="stg44_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
 	
 	<model filename="weapon_stg44_ar_s.xml" />
 	<hud_icon filename="hud_stg44_sniper.png" />

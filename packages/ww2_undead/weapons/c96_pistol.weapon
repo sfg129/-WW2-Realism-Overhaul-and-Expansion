@@ -4,10 +4,11 @@
 <access_tag name="edelweiss" />
 
 	<specification
-	retrigger_time="0.135"
+	retrigger_time="0.06"
 	accuracy_factor="0.95"
-	sustained_fire_grow_step="0.54"
+	sustained_fire_grow_step="0.65"
 	magazine_size="10"
+	spread_range="0.36"
 	carry_in_two_hands="0"
 	can_shoot_standing="1"
 	suppressed="0"
@@ -20,14 +21,13 @@
 	burst_shots="1"
 	slot="1"
 	/>
-
+<stance state_key="standing" accuracy="0.89" />
+	<stance state_key="crouching" accuracy="0.94" />
 	<!-- 1.89 recoil was 0.55 but feeling this is now too much --> 
 	<!-- prior to 1.88 recoil was 0.5 and accuracy 0.92 but felt a bit op -->
 
 	<!-- c96 is set to be less accurate when moving, similar to how revolvers are -->
-	<stance state_key="running" accuracy="0.56" />
-	<stance state_key="walking" accuracy="0.58" />
-	<stance state_key="crouch_moving" accuracy="0.58" />
+
 
 	<animation state_key="reload" animation_key="reloading, c96 pistol, 2hand" />
 	<animation state_key="reload" stance_key="prone" animation_key="reloading, c96 pistol, prone" />
@@ -35,7 +35,7 @@
 	<weak_hand_hold offset="0.1" />
 
 	<sound key="fire" fileref="pistol_02_c96.wav" pitch_variety="0.05" volume="2.49"/>
-    	<sound key="reload_one" fileref="park_off.wav" />
+      <sound key="reload_one" fileref="hunter_cycle_in.wav" />
 	<sound key="magazine_in" fileref="park_off.wav" />
 	<sound key="cycle_in" fileref="rifle_clip_in.wav" />
 	
@@ -43,7 +43,7 @@
 	<hud_icon filename="hud_c96_pistol.png" />
 	
 	<commonness value="0.06" can_respawn_with="0"/>
-	<inventory encumbrance="1.0" price="25.0" />
+	<inventory encumbrance="1.0" price="50" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -52,7 +52,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.65"
+		kill_probability="0.725"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.8"
 		/>

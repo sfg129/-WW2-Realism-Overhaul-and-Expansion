@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Universal Carrier Boys" key="universal_carrier_boys.vehicle" respawn_time="60" time_to_live_unsteerable="60" map_view_atlas_index="58" minimum_fill_requirement="0.35" max_character_collision_speed_on_normal="8.0" ai_driver_turns_to_target="1" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
@@ -10,10 +11,10 @@
 	<tire_set offset="0.9 0.0 0.0" radius="0.52" />
 	<tire_set offset="0.9 0.0 -1.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="11.0" acceleration="14.67" max_reverse_speed="9.0" min_health_to_steer="0.3" max_rotation="1" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="12.0" acceleration="14.67" max_reverse_speed="9.0" min_health_to_steer="0.3" max_rotation="1" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-0.9" />
+	<modifier class="blast_damage" value="-1.1" />
 
 	<physics 
     max_health="14" 
@@ -33,7 +34,9 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.40 1.28 1.75" weapon_key="boys_at_rifle_un.weapon" weapon_offset="0.0 0.1 -0.4" weapon_recoil="0.02" max_rotation_step="0.0006" rotation_range="1.2"/>
+	<turret offset="0.4 1.01532 1.51643" weapon_key="boys_at_rifle_un.weapon" weapon_offset="0.0 0.1 -0.4" weapon_recoil="0.02" max_rotation_step="0.0006" rotation_range="1.2"/>
+
+
 
 	<visual class="chassis" mesh_filename="universal_carrier_chassis.mesh" texture_filename="universal_carrier.png" max_tilt="0.02" />
 	<visual class="chassis" key="broken" mesh_filename="universal_carrier_chassis_damage.mesh" texture_filename="universal_carrier_damage.png" />
@@ -68,9 +71,12 @@
 	<character_slot type="gunner" attached_on_turret="1" seat_position="0.4 0.3 0.7" enter_position="1.85 0.45 1.4" leaving_position="1.4 0.3 0.7" rotation="0" exit_rotation="1.57" hiding="0" animation_id="36">
 		<turret index="0" />
 	</character_slot>
-	<character_slot type="passenger"  seat_position="0.7 1.0 -1.2" enter_position="1.85 0.45 -1.95" rotation="-4.14" exit_rotation="1.57" rotation_range="3.14" hiding="0" allow_weapon="1" animation_key="crouch still"/>
-	<character_slot type="passenger"  seat_position="0.85 0.45 0.0" enter_position="1.85 0.45 -0.75" rotation="-1.57" exit_rotation="1.57" hiding="0" allow_weapon="0" animation_key="sitting, idling"/>
-	<character_slot type="passenger"  seat_position="-0.85 0.45 0.0" enter_position="-1.85 0.45 -0.75" rotation="1.57" exit_rotation="-1.57" hiding="0" allow_weapon="0" animation_key="sitting, idling"/>
+
+	<character_slot type="passenger"  seat_position="0.7 1.1 -1.2" enter_position="1.85 0.45 -1.95" rotation="-4.14" exit_rotation="1.57" rotation_range="3.14" hiding="0" allow_weapon="1" animation_key="crouch still"/>
+	<character_slot type="passenger"  seat_position="0.85 0.45 0.0" enter_position="1.85 0.45 -0.29192" rotation="-1.57" exit_rotation="1.57" hiding="0" allow_weapon="0" animation_key="sitting, idling"/>
+
+	<character_slot type="passenger"  seat_position="-0.7 1.1 0.2" enter_position="-1.85 0.45 -0.10144" rotation="-0.7" exit_rotation="-1.57" hiding="0" allow_weapon="1" animation_key="crouch still"/>
+
 	<character_slot type="passenger"  seat_position="-0.85 0.45 -0.8" enter_position="-1.85 0.45 -1.55" rotation="1.57" exit_rotation="-1.57" hiding="0" allow_weapon="0" animation_key="sitting, idling"/>
 
 	<!-- sound handling -->

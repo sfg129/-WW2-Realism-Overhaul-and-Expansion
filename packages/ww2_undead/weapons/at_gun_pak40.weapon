@@ -7,12 +7,12 @@
 
     <specification
         spread_range="0.4"
-	retrigger_time="5"
-	accuracy_factor="0.95"
+	retrigger_time="5.5"
+	accuracy_factor="0.9"
 	sustained_fire_grow_step="1.0"
 	sustained_fire_diminish_rate="0.25"
-	sight_range_modifier="3.5"  
-    	ai_sight_range_modifier="0.7"
+	sight_range_modifier="2.5" 
+	  	ai_sight_range_modifier="0.6"  
 	magazine_size="-1"
 	can_shoot_standing="0"
 	can_shoot_crouching="0"
@@ -44,7 +44,7 @@
     </projectile>
     
 <!-- front plate  -->    
-    <shield offset="0 -0.15 0" extent="0.3 0.9 1.2" />    
+    <shield offset="0 -0.15 0" extent="0.3 0.9 1.4" />    
 
 	<effect class="muzzle" ref="BiggerMuzzle" />
 	<effect class="muzzle" ref="CannonSmokeBig" /> 

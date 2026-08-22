@@ -3,6 +3,6 @@
   
 	<weapon key="smle_no4_mki_s.weapon" />
 	<weapon key="enfield_p14_s.weapon" />
-	<weapon key="boys_at_rifle.weapon" />
+	<weapon key="boys_at_rifle_ai.weapon" />
 
 </resources>

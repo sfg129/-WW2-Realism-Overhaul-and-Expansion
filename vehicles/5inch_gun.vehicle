@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="5-Inch Gun" key="5inch_gun.vehicle" map_view_atlas_index="41" respawn_time="120.0" protectors="1" soldier_capacity_offset="1">
 	<tag name="target" />
    	<tag name="at_gun" />
@@ -5,7 +6,7 @@
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
 	
-	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+	<control max_speed="18.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
 	
 	<modifier class="blast_damage" value="-0.7" />
 

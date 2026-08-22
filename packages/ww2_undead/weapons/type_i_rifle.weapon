@@ -4,13 +4,14 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.98" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="1"
 	stance_accuracy_rate="8.5"
 	magazine_size="5" 
 	can_shoot_standing="1" 
-	suppressed="0" name="Type I Carcano" 
+	suppressed="0" 
+	name="Type I Carcano" 
 	class="2" 
 	reload_one_at_a_time="0" 
 	projectile_speed="130.0" 
@@ -23,8 +24,7 @@
 
 	<next_in_chain key="type_i_rifle_b.weapon" share_ammo="1" />
 
-	<stance state_key="standing" accuracy="0.935" />
-	<stance state_key="crouching" accuracy="0.975" />
+
 	
 	<!-- the Type "I" Carcano was a Japanese-contracted weapon built in Italy, issued primarily to their Naval Troops -->
 	<!-- it is nearly identical to the Type 38, but uses the Carcano action instead -->
@@ -58,7 +58,7 @@
 	<hud_icon filename="hud_type_i_carcano.png" />
 	
 	<commonness value="0.2" />
-	<inventory encumbrance="8.0" price="2.0" />
+	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 

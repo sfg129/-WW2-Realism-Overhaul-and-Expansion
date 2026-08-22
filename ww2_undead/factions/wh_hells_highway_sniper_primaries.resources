@@ -6,5 +6,5 @@
 	<weapon key="kar98k_s_elite.weapon" />
 	<weapon key="stg44_s.weapon" />
 	<weapon key="kar43_s_explosive.weapon" />
-
+	<weapon key="wz35_ai.weapon" />
 </resources>

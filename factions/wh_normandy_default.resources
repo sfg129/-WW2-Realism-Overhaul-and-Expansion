@@ -22,6 +22,7 @@
 	<vehicle key="king_tiger.vehicle" />
 	<vehicle key="kubelwagen.vehicle" />
 	<vehicle key="panzer_iv.vehicle" />
+	<vehicle key="panther.vehicle" />
 	<vehicle key="stug_iii.vehicle" />
 	<vehicle key="tiger.vehicle" />
 	<vehicle key="sdkfz251_flak.vehicle" />
@@ -48,5 +49,7 @@
 	<call key="wh_vehicle_luchs.call" />
 	<call key="wh_vehicle_stug.call" />
 	<call key="wh_vehicle.call" />
+	<call key="wh_vehicle_panther.call" />
+	<call key="wh_vehicle_tiger.call" />
 	
 </resources>

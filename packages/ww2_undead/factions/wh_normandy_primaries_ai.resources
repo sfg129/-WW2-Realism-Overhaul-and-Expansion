@@ -10,8 +10,8 @@
 	<weapon key="kar98k_small_optic.weapon" />
 		<weapon key="g41w.weapon" />
 			<weapon key="mg34_assault.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
+
 		<weapon key="mg42_assault.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
+
 		<weapon key="mp34_o.weapon" />
 </resources>

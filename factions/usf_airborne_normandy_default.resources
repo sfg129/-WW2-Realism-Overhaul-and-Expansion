@@ -27,7 +27,7 @@
 	<vehicle key="dukw.vehicle" />    
 
 	<call key="airstrike4.call" />
-	<call key="airstrike5.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="usf_para.call" />

@@ -13,6 +13,7 @@
 #include "spawn_in_base_call_handler.as"
 #include "command_handler.as"
 #include "call_marker_tracker.as"
+#include "call_marker_configs.as"
 #include "airstrike_strafing_run.as"
 #include "my_unlock_manager.as"
 #include "unlock_customizations.as"
@@ -366,18 +367,7 @@ class MyGameMode : GameModeCampaign {
 	
 	protected void setupCallMarkers() {
 		// if you're adding a call here, make sure it has notify_metagame="1" in it's <call> tag
-		array<CallMarkerConfig@> configs = {
-			//CallMarkerConfig(string key, int atlasIndex = 0, float size = 2.0, float range = 1.0, string text = "")
-			CallMarkerConfig("mortar.call", 6, 0.5, 45.0),
-			CallMarkerConfig("mortar1.call", 7, 0.5, 45.0),      
-			CallMarkerConfig("mortar2.call", 14, 0.5, 55.0),      
-			CallMarkerConfig("artillery.call", 8, 1.0, 75.0),
-			CallMarkerConfig("artillery1.call", 9, 1.0, 80.0),
-			CallMarkerConfig("artillery2.call", 8, 1.0, 75.0),
-			CallMarkerConfig("artillery3.call", 9, 1.0, 80.0),
-			CallMarkerConfig("airstrike.call", 10, 0.5, 25.0),
-			CallMarkerConfig("airstrike1.call", 11, 0.5, 12.0)                         
-			};
+		array<CallMarkerConfig@> configs = getCallMarkerConfigs();
 
 		addTracker(CallMarkerTracker(this, configs));
 	}

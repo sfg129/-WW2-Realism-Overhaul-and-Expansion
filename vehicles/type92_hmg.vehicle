@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Type 92 HMG" key="type92_hmg.vehicle" map_view_atlas_index="49" respawn_time="180.0" protectors="1" reserves_spawn_point="1" usable_for_cover="0" soldier_capacity_offset="0">
 	<tag name="target" />
 	<tag name="hmg" />

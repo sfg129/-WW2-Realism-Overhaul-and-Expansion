@@ -6,5 +6,9 @@
 	<weapon key='wrench.weapon' enabled="0" />			<!-- these are also on Common but need to be disabled -->
 	<weapon key='wrench_small.weapon' enabled="0"/>    
 	<weapon key='cover_resource.weapon' enabled="0"/>
-	
+	<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
 </resources>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Sd.Kfz.251/17 Flak" key="sdkfz251_flak.vehicle" respawn_time="120" time_to_live_unsteerable="60" map_view_atlas_index="54" minimum_fill_requirement="0.7" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
    	<tag name="light_vehicle" />

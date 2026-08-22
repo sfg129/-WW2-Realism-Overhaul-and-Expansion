@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="stg44_is.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0" >
+	<tag name="assault" />
+	
+<access_tag name="edelweiss" />
+
+	<specification 
+	retrigger_time="0.109"
+	accuracy_factor="0.95" 
+	spread_range="0.3"
+	sustained_fire_grow_step="0.25" 
+	sustained_fire_diminish_rate="1.8"
+
+	magazine_size="31" 
+	reload_one_at_a_time="1" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Scoped StG 44 IS" 
+	class="0" 
+	projectile_speed="120" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+sight_range_modifier="1"
+	/>
+	<modifier class="speed" value="-0.08" />  
+	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
+	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
+	<!-- scoped StG 44 is a bit worse than regular in many ways - though generally more accurate / long range in crouch or prone, its worse in the other stances -->
+
+	<!-- scope power is 4x for the ZF4 scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+
+<next_in_chain key="stg44_s.weapon" share_ammo="1" />
+
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.6" />
+	<stance state_key="prone_moving" accuracy="0.6" />
+	<stance state_key="over_wall" accuracy="1" />     
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.95" />
+	<stance state_key="prone" accuracy="1.0" />
+	<stance state_key="over_wall" accuracy="1.0" />   
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+		<animation key="reload" animation_key="reloading, stg442" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, stg442, prone" />
+	<weak_hand_hold offset="0.2" />
+    <sound key="fire" fileref="weapon_autorifle_stg44.wav" pitch_variety="0.05" volume="1.2"/>
+	<sound key="effect" fileref="stg44_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
+	
+	<model filename="weapon_stg44_ar_s.xml" />
+	<hud_icon filename="hud_stg44_sniper.png" />
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="350.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet.projectile">
+		<result 
+		class="hit" 
+		kill_probability="0.85" 
+		kill_decay_start_time="0.4" 
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

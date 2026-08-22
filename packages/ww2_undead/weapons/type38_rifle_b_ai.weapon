@@ -4,7 +4,7 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.96" 
+	accuracy_factor="0.98" 
 	sustained_fire_grow_step="0.9" 
 	sustained_fire_diminish_rate="1"
 	stance_accuracy_rate="2"
@@ -25,10 +25,6 @@
 	<!-- they have lower damage, lower velocity, and lose the mild sight range boost for bolt-actions -->
 	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
 	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="type38_rifle_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
-
-	<stance state_key="running" accuracy="0.25" />
-	<stance state_key="walking" accuracy="0.25" />
-	<stance state_key="crouch_moving" accuracy="0.35" />
 
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" animation_key="bolt cycle" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_carbine_smg.weapon" key="fg42_late_b.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="60.0" >
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="fg42_late_b.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="60.0" >
 	<tag name="assault" />
 	<tag name="has_bayonet" />
 	
@@ -8,15 +8,16 @@
 	<specification 
 	retrigger_time="0.085" 
 	accuracy_factor="0.96" 
-	sustained_fire_grow_step="0.27" 
+	spread_range="0.3"
+	sustained_fire_grow_step="0.245" 
 	sustained_fire_diminish_rate="1.8"
-	stance_accuracy_rate="1.5"
+	stance_accuracy_rate="1.75"
 	magazine_size="20" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="FG 42-G Bayonet" 
 	class="0" 
-	projectile_speed="120.0" 
+	projectile_speed="125.0" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
     stab_enabled="1"
@@ -31,14 +32,16 @@
 	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
 	<!-- standing was 0.75, crouching 0.82, prone / wall 0.975 -->
 
-	<stance state_key="prone" accuracy="1.1" />
-	<stance state_key="over_wall" accuracy="1.1" />       
+	<stance state_key="prone" accuracy="1.15" />
+	<stance state_key="over_wall" accuracy="1.15" />       
 	<stance state_key="running" accuracy="0.45" />
 	<stance state_key="walking" accuracy="0.55" />
-	<stance state_key="standing" accuracy="0.88" />
-	<stance state_key="crouching" accuracy="0.93" />
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.96" />
 
 
+
+	<modifier class="speed" value="-0.06" />
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
@@ -59,7 +62,7 @@
 	<model filename="weapon_fg42_g_b.xml" />
 	<hud_icon filename="hud_fg42_b.png" />
 	
-	<commonness value="0.01" can_respawn_with="1"/>
+	<commonness value="0.02" can_respawn_with="1"/>
 	<inventory encumbrance="8.0" price="300.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

@@ -178,10 +178,7 @@ class DefPhase0Overlord : DefPhaseOverlord {
 			Resource("artillery2.call", "call"),
 			Resource("wh_vehicle_stug.call", "call"),
 			Resource("wh_vehicle.call", "call"),
-			Resource("wh_vehicle_sdkfz251_pak40.call", "call"),
-			Resource("wh_vehicle_sdkfz251_flak.call", "call"),
-			Resource("wh_vehicle_sdkfz251_mortar.call", "call"),
-			Resource("wh_vehicle_sdkfz251.call", "call"),
+			Resource("wh_vehicle_tiger.call", "call"),
 			Resource("wh_vehicle_luchs.call", "call"),
 			Resource("mortar2.call", "call")
 
@@ -815,10 +812,7 @@ class DefPhase7Overlord : DefPhaseOverlord {
 			Resource("artillery2.call", "call"),
 			Resource("wh_vehicle_stug.call", "call"),
 			Resource("wh_vehicle.call", "call"),
-			Resource("wh_vehicle_sdkfz251_pak40.call", "call"),
-			Resource("wh_vehicle_sdkfz251_flak.call", "call"),
-			Resource("wh_vehicle_sdkfz251_mortar.call", "call"),
-			Resource("wh_vehicle_sdkfz251.call", "call"),
+			Resource("wh_vehicle_tiger.call", "call"),
 			Resource("wh_vehicle_luchs.call", "call"),
 			Resource("mortar2.call", "call")
 		};

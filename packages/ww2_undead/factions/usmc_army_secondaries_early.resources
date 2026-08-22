@@ -4,9 +4,13 @@
 	<weapon key="m1903_at_launcher.weapon" />
 	
 	
-
+<carry_item key='vest_normal.carry_item' enabled="1" />  
+<carry_item key='vest_normals.carry_item' enabled="1" />  
+<carry_item key='vest_normalw.carry_item' enabled="1" />  
+<carry_item key='vest_normale.carry_item' enabled="1" />  
+<carry_item key='vest_normala.carry_item' enabled="1" />  
 	<weapon key="morphine.weapon" />
 	<projectile key="mkii_grenade.projectile" />
 	<projectile key="satchel.projectile" />
-
+<projectile key="mk3_grenade.projectile" />
 </resources>

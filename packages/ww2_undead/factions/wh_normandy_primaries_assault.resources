@@ -7,5 +7,5 @@
 	<weapon key="g41w_b.weapon" />
 	<weapon key="mp34_o_b_ai.weapon" />
 	<!--MkB42 bayonet-->
-
+<weapon key="stg44.weapon" />
 </resources>	

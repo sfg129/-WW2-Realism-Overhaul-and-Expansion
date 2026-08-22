@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
-
+<vehicle file="m1919_hmg_t.vehicle" />
+	<vehicle file="mg34_hmg_t.vehicle" />
+	<vehicle file="mg42_hmg_t.vehicle" />
+	<vehicle file="m2hb_hmg_t.vehicle" />
+	<vehicle file="type92_hmg_t.vehicle" />
+	<vehicle file="m1917_hmg_t.vehicle" />
+	<vehicle file="m1917_hmg.vehicle" />
 	<vehicle file="universal_carrier_boys.vehicle" />
 	<vehicle file="sidecar_german.vehicle" />
 		<vehicle file="stuart_recce.vehicle" />
 	<vehicle file="m3_halftrack_mortar.vehicle" />
 	<vehicle file="universal_carrier_vickers_k.vehicle" />
-<!-- 1.98 --><vehicle file="sdkfz251_pak40.vehicle" />
+<vehicle file="sdkfz251_pak40.vehicle" />
 <vehicle file="sdkfz251_mortar.vehicle" />
 <vehicle file="panzer_iv_base_flak88.vehicle" />
 <vehicle file="m4_E4.vehicle" />
@@ -17,15 +23,13 @@
 	<vehicle file="flak_88.vehicle" />
 	<vehicle file="normandy_turret.vehicle" />
 	<vehicle file="quest_overlord.vehicle" />
-
-<!-- Edelweiss vehicles -->
 	<vehicle file="churchill_mkvii.vehicle" />  
 	<vehicle file="churchill_crocodile.vehicle" />  
-
 	<vehicle file="opel_blitz_1.vehicle" />  
 	<vehicle file="opel_blitz_2.vehicle" />  
 	<vehicle file="opel_blitz_armoury.vehicle" />  
 	<vehicle file="m4_75.vehicle" />
+	<vehicle file="m4_76.vehicle" />
 	<vehicle file="lefh18.vehicle" />
 	<vehicle file="mg34_hmg.vehicle" />
 	<vehicle file="mg42_hmg.vehicle" />
@@ -45,6 +49,7 @@
 	<vehicle file="universal_carrier.vehicle" />
 	<vehicle file="universal_carrier_fastrespawn.vehicle" />
 	<vehicle file="vickers_hmg.vehicle" />
+	<vehicle file="vickers_hmg_t.vehicle" />
 	<vehicle file="m2hb_hmg.vehicle" />
 	<vehicle file="at_gun_m5.vehicle" />
 	<vehicle file="at_gun_pak40.vehicle" />
@@ -69,25 +74,21 @@
 	<vehicle file="repair_tank.vehicle" />
 	<vehicle file="m10.vehicle" />
 	<vehicle file="chi_ha.vehicle" />
+	<vehicle file="chi_ha_early.vehicle" />
 	<vehicle file="fortified_turret_chi_ha.vehicle" />
 	<vehicle file="fortified_turret_sherman.vehicle" />
 	<vehicle file="staff_car.vehicle" />
 	<vehicle file="wasp.vehicle" />
 	<vehicle file="mg42_hmg_universal.vehicle" />
-
 	<vehicle file="maus_boss.vehicle" />
 	<vehicle file="tog2_boss.vehicle" />
-
 	<vehicle file="flare_checkpoint.vehicle" />
-
 	<vehicle file="ww2_undead_artillery_flare.vehicle" />
 	<vehicle file="ww2_undead_artillery_flare_despawner.vehicle" />
 	<vehicle file="ww2_undead_fsj_flare.vehicle" />
 	<vehicle file="ww2_undead_fsj_flare_despawner.vehicle" />
-
-
-<!--Pacific Vehicles-->
 	<vehicle file="stuart.vehicle" />
+	<vehicle file="m5a1_stuart.vehicle" />
 	<vehicle file="pillbox.vehicle" />
 	<vehicle file="m1919_hmg.vehicle" />
 	<vehicle file="lvt4.vehicle" />
@@ -104,7 +105,6 @@
 	<vehicle file="jeep1.vehicle" />
 	<vehicle file="armory_daihatsu.vehicle" />
 	<vehicle file="armory_higgins.vehicle" />
-	
 	<vehicle file="heavy_mortar.vehicle" />
 	<vehicle file="aa_gun.vehicle" />
 	<vehicle file="aa_gun2.vehicle" />  
@@ -116,36 +116,23 @@
 	<vehicle file="bofors.vehicle" />
 	<vehicle file="5inch_gun.vehicle" />
 	<vehicle file="pt_boat.vehicle" />
-
  	<vehicle file="submarine.vehicle" />  
 	<vehicle file="submarine2.vehicle" />    
-
 	<vehicle file="b29_turret.vehicle" />
 	<vehicle file="b29_turret_rear.vehicle" />
 	<vehicle file="anticall.vehicle" />
 	<vehicle file="protector.vehicle" />
-	
-<!--RWR Vehicles-->
 	<vehicle file="rubber_boat.vehicle" />
 	<vehicle file="cover1.vehicle" />
 	<vehicle file="para_spawn.vehicle" />
-	
 	<vehicle file="gas_tank.vehicle" />
 	<vehicle file="radar_tower.vehicle" />
 	<vehicle file="water_tower.vehicle" />
 	<vehicle file="mortar_ammunition_crates.vehicle" />
-	
 	<vehicle file="special_crates.xml" />
 	<vehicle file="special_crates2.xml" />  
 	<vehicle file="special_crates_wood.xml" />
-	
 	<vehicle file="deco_vehicles.xml" />
-  
-	<vehicle file="radio_jammer.vehicle" />  
-	<vehicle file="radio_jammer2.vehicle" />
-	<vehicle file="radio_jammer_2.vehicle" />
-	<vehicle file="radio_jammer_3.vehicle" />
-	
 	<vehicle file="tractor.vehicle" />
 	<vehicle file="parachute.vehicle" />
 

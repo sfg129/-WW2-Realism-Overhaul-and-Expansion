@@ -14,8 +14,8 @@
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="11"
-	damage="11"
+	radius="10"
+	damage="12"
 	push="1.5"
 	decal="1"
 	/>

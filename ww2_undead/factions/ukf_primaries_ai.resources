@@ -5,10 +5,8 @@
 	
 	<weapon key="smle_no4_mki_ai.weapon" />
 	<weapon key="sten_mkii.weapon" />
-	<weapon key="bren.weapon" />
-	<weapon key="m1928_thompson.weapon" />
 	<weapon key="m1928a1_thompson.weapon" />
-
-<weapon key="m1928a1_thompson.weapon" />
+	<weapon key="m1928_thompson.weapon" />
+<weapon key="m1928_thompson_mag.weapon" />
 <weapon key="m1928a1_thompson_drum.weapon" />
 </resources>

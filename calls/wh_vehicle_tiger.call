@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<call 
-key="wh_vehicle_tiger.call"
-radio_view_text="Reinforcements - Tiger" 
-initiation_comment="Requesting reinforcements, Tiger" 
+<calls>
+	<call 
+	key="wh_vehicle_tiger.call" 
+	radio_view_text="Reinforcements - Tiger" 
+	initiation_comment="Requesting reinforcements, Tiger" 
 	acknowledge_comment="Copy, loud and clear" 
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	
-	<round
-		instances="1"
-		instance_class="vehicle"
-		instance_tag="tiger" 
-		instance_spread="0 0 0" 
+		<tag name="reinforcements" />
+		<hud_icon filename="hud_tiger.png" />
+		<capacity value="0" source="rank" source_value="0.0" />
+		<capacity value="100" source="rank" source_value="0.4" />
+		<inventory encumbrance="0.0" price="2400" />
+		
+	</call>
+  
+	<call key="wh_vehicle_tiger_spawn.call" acknowledge_time="0.0" launch_comment="Tiger deployed">
+		<round 
+		instances="1" 
+		instance_class="vehicle" 
+		instance_key="tiger.vehicle" 
+		instance_spread="3 0 3" 
 		common_spread="0 0 0" 
-		launch_time="0.0"
-		spawn_time="1.5"
-		horizontal_offset_at_spawn="0.0"
-		vertical_offset_at_spawn="0.0"
+		launch_time="7.5" 
+		spawn_time="10.0" 
+		horizontal_offset_at_spawn="0.0" 
+		vertical_offset_at_spawn="0.0" 
 		initial_speed_to_target="0.0">
-	</round>
+		</round>
+		
+		<inventory encumbrance="0.0" price="2400" />
+		
+	</call>
 	
-	<hud_icon filename="hud_paratroopers2.png" />
-	<capacity value="0" source="rank" source_value="0.0" />
-	<capacity value="100" source="rank" source_value="10.0" />
-	<inventory encumbrance="0.0" price="1800.0" />
-	
-</call>
+</calls>

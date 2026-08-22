@@ -233,9 +233,11 @@ class DefPhase0 : DefPhase {
         //announce("about to begin");
 				
 		array<Resource@> resources = { 
-			Resource("mortar1.call", "call"),
 			Resource("artillery.call", "call"),
-			Resource("artillery1.call", "call") 
+			Resource("artillery1.call", "call"),
+			Resource("airstrike3.call", "call"),
+			Resource("airstrike.call", "call"),
+			Resource("airstrike1.call", "call")
 		};
 		resetFactionCallResources(m_metagame, 0, resources, false, getCallSorting());
 		
@@ -926,11 +928,11 @@ class DefPhase7 : DefPhase {
 		//setVisualTimer(m_metagame, m_timer);	
 		
 		array<Resource@> resources = { 
-			
 			Resource("airstrike3.call", "call"),
+			Resource("airstrike.call", "call"),
+			Resource("airstrike1.call", "call"),
 			Resource("artillery.call", "call"),
-			Resource("artillery1.call", "call") 
-			
+			Resource("artillery1.call", "call")
 		};
 		resetFactionCallResources(m_metagame, 0, resources, true, getCallSorting());
 		

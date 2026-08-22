@@ -6,7 +6,7 @@
 		<hud_icon filename="vest_veteran.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="1" source="rank" source_value="0" />
-		<inventory encumbrance="10" price="0" />
+		<inventory encumbrance="10" price="50" />
 		
 		<model mesh_filename="vest_ija_veteran.xml" />
 		
@@ -27,7 +27,7 @@
 		<hud_icon filename="vest_veteran_2.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="1" source="rank" source_value="0" />
-		<inventory encumbrance="6" price="0" />
+		<inventory encumbrance="6" price="10" />
 		
 		<model mesh_filename="vest_ija_veteran.xml" />
 		
@@ -48,7 +48,7 @@
 		<hud_icon filename="vest_veteran_3.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="1" source="rank" source_value="0" />
-		<inventory encumbrance="3" price="0" />
+		<inventory encumbrance="3" price="10" />
 		
 		<model mesh_filename="vest_ija_veteran.xml" />
 		
@@ -66,7 +66,7 @@
 		<hud_icon filename="vest_veteran_4.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="1" source="rank" source_value="0" />
-		<inventory encumbrance="3" price="0" />
+		<inventory encumbrance="3" price="10" />
 		
 		<model mesh_filename="vest_ija_veteran.xml" />
 		

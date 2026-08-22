@@ -2,7 +2,8 @@
 <resources clear_weapons="1">
   
 	<weapon key="m1903_rifle_s.weapon" />
-	<weapon key="boys_at_rifle.weapon" />
+	<weapon key="boys_at_rifle_ai.weapon" />
+
 	<weapon key="m1941_johnson_rifle_s.weapon" />
 
 </resources>

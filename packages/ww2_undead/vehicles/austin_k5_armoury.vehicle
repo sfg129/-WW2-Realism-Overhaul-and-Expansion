@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Austin K5 Armory" key="austin_k5_armoury.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="57" minimum_fill_requirement="0.4" allow_ai_to_use="0" usable_for_cover="0">
 	<tag name="metal_thin" />
 	<tag name="armory" />
@@ -16,7 +17,7 @@
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<modifier class="blast_damage" value="-0.5" />
 
-	<physics max_health="4.8" mass="7.0" extent="3.3 0.0 7.7" offset="0 0.0 0" top_offset="0 5 0" collision_model_pos="0 1.5 -0.1" collision_model_extent="3.3 3.8 7.7" visual_offset="0.0 0.45 0.5" friction_offset="0.0" drag_offset="-0.05"/> 
+	<physics max_health="8" mass="7.0" extent="3.3 0.0 7.7" offset="0 0.0 0" top_offset="0 5 0" collision_model_pos="0 1.5 -0.1" collision_model_extent="3.3 3.8 7.7" visual_offset="0.0 0.45 0.5" friction_offset="0.0" drag_offset="-0.05"/> 
 
 	<visual class="chassis" mesh_filename="austin_k5_armoury_chassis.mesh" texture_filename="austin_k5_armoury.png" />
 	<visual class="chassis" key="broken" mesh_filename="austin_k5_armoury_chassis_damage.mesh" texture_filename="austin_k5_armoury_damage.png" />

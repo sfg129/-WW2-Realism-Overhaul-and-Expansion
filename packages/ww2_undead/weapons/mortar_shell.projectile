@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name=" light mortar shell" slot="2" key="mortar_shell.projectile" >
+<projectile class="grenade" name="light mortar shell" slot="2" key="mortar_shell.projectile" >
 	
 	<sound class="result" key="other" fileref="mortar_01.wav" volume="2.45" pitch_variety="0.1"/>
 	<sound class="result" key="other" fileref="mortar_02.wav" volume="2.45" pitch_variety="0.1"/>
@@ -15,7 +15,7 @@
 	class="blast"
 	radius="8"
 	damage="2.4"
-	push="1.0"
+	push="1"
 	decal="1"
 	/>
 	

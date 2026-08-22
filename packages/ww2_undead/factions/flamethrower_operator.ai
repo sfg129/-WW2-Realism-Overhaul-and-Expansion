@@ -5,7 +5,7 @@
 
   <parameter class="throw_grenade_time_interval_max" value="1.0" />
   <parameter class="throw_grenade_time_interval_min" value="0.25" />
-  <parameter class="min_distance_to_throw_grenade" value="8.0" />
+  <parameter class="min_distance_to_throw_grenade" value="3.0" />
   <parameter class="max_distance_to_throw_grenade" value="30" />
 
   <parameter class="vehicle_stuck_short_time" value="10.0" />
@@ -14,8 +14,8 @@
   <parameter class="check_vehicles_interval" value="2.0" />
 
   <parameter class="max_sight_range_with_muzzle" value="50" />
-  <parameter class="leader_sight_range" value="40" />
-  <parameter class="team_member_sight_range" value="40" />
+  <parameter class="leader_sight_range" value="45" />
+  <parameter class="team_member_sight_range" value="38" />
 
   <parameter class="prefer_roofs_probability" value="0.0" />
 

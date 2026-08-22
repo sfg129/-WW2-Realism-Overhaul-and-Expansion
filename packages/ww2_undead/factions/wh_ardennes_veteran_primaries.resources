@@ -22,7 +22,5 @@
 	<weapon key="danuvia_43m_folded_ai.weapon" />
 <weapon key="danuvia_43m.weapon" />
 	<weapon key="mg34_assault.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
 		<weapon key="mg42_assault.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
 </resources>

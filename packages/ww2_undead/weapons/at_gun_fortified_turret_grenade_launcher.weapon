@@ -19,7 +19,7 @@
 	accuracy_factor="0.9" 
 	sustained_fire_grow_step="1.0" 
 	sustained_fire_diminish_rate="0.45"   	
-	sight_range_modifier="1.5"
+	sight_range_modifier="2.25"
 	ai_sight_range_modifier="1"      
 	magazine_size="-1" 
 	can_shoot_standing="0" 
@@ -36,11 +36,7 @@
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
-    <target_factors tag="" distance="1.0" direction="1.0" squad_command="1.0" base_score="0.75" />
-    <target_factors tag="at_gun" distance="1.0" direction="1.0" squad_command="1.0" base_score="2.0" />
-    <target_factors tag="light_at_gun" distance="1.0" direction="1.0" squad_command="1.0" base_score="2.0" />
-    <target_factors tag="light_vehicle" distance="1.0" direction="1.0" squad_command="1.0" base_score="2.0" />
-    <target_factors tag="defensive_weapon" distance="1.0" direction="1.0" squad_command="1.0" base_score="4.0" />
+
 	
     <sound class="operation" key="fire" fileref="rifle_grenade.wav" volume="2.5"/>
 	
@@ -54,7 +50,7 @@
 	near_far_distance="0.0"
 	speed_estimation_near="9.0"
 	speed_estimation_far="17.0"
-	max_speed="30.0"
+	max_speed="37.0"
 	randomness="0.0"
 	tweak_factor="1.1"
 	/> 

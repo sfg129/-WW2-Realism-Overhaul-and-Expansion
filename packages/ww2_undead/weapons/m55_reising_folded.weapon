@@ -4,11 +4,13 @@
 <access_tag name="pacific" />
 
 	<specification 
-	retrigger_time="0.075" 
+	retrigger_time="0.08" 
 	accuracy_factor="0.95" 
-	sustained_fire_grow_step="0.2" 	
-	sustained_fire_diminish_rate="1.4"
-	magazine_size="20" 
+	spread_range="0.35"
+	sustained_fire_grow_step="0.175" 	
+	sustained_fire_diminish_rate="1.5"
+	magazine_size="21" 
+	reload_one_at_a_time="1" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="M55 Reising Folded" 
@@ -22,15 +24,14 @@
 	<!-- the M55 Reising is an early-war  US SMG, with only 20 rounds, and a high rate of fire. -->
 
 	<!-- simple SMG sight ; though technically an aperture -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />   
+
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
-	<animation key="reload" animation_key="reloading, m1 carbine" />
-	<animation key="reload" stance_key="prone" animation_key="reloading, m1 carbine, prone" />
+	<animation key="reload" animation_key="reloading, m55" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, m55, prone" />
+	
 	
 	<weak_hand_hold offset="0.2" />
 	
@@ -38,7 +39,8 @@
 	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
-	
+	<sound key="effect" fileref="m1_carbine_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
 	<model filename="weapon_m55_reising_folded.xml" />
 	<hud_icon filename="hud_m55_reising_folded.png" />
 	

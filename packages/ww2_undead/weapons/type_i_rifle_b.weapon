@@ -4,7 +4,7 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.98" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="1"
 	stance_accuracy_rate="2"
@@ -48,7 +48,7 @@
 	
 	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
 	<commonness value="0.26" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="2.0" />
+	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

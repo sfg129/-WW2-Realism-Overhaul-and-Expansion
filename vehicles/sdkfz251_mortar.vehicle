@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Sd.Kfz.251/2" key="sdkfz251_mortar.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="55" minimum_fill_requirement="0.2" ai_driver_turns_to_target="1" ai_use_throwables="1">
 	<tag name="metal_heavy" />
 	<tag name="tank_treads" />

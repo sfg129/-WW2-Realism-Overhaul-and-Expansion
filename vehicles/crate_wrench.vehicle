@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Repair Kit" key="crate_wrench.vehicle" spottable="0" map_view_atlas_index="-1" respawn_time="86400.0" >
 	<tag name="sandbag" />
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />

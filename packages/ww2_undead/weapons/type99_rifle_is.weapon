@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="type99_rifle_is.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
+    <tag name="sniper" />
+	
+<access_tag name="pacific" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.99" 
+	sustained_fire_grow_step="1" 
+	sustained_fire_diminish_rate="1"
+
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Type 99 Sniper Rifle IS" 
+	class="2" 
+	reload_one_at_a_time="0" 
+projectile_speed="125" 
+	barrel_offset="0.65" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1"
+	/>
+<next_in_chain key="type99_rifle_s.weapon" share_ammo="1" />
+	<!-- scope zoom was 2.3 -->
+
+	<!-- the Scoped Type 99 Rifle is somewhat of a rare weapon (less produced in war than Type 97 Sniper.-->
+	<!-- it has a higher-powered scope (4x rather than 2.5x of the Type 97.) -->
+	<!-- it also features a higher rate of fire (just like the Type 99 Rifle itself compared to M1903A3 and Type 38. -->
+	<!-- it is otherwise generally inferior to the Type 97 Sniper Rifle, since its recoil is stronger and kill chance is the same. -->
+	<!-- the extra sight range is its greatest advantage. -->	
+
+	<!-- scope power is 4x for the standard scope, but at the moment sight_range_modifier is based on class/rarity rather than that -->
+
+	<animation key="recoil" ref="27" />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle prone" />
+	<animation key="reload" animation_key="reloading, bolt action" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	
+	<weak_hand_hold offset="0.3" /> 
+	
+	<sound key="fire" fileref="rifle_01.wav" pitch_variety="0.05" volume="2.46"/>
+	<sound key="magazine_out" fileref="sniper_clip_out.wav" />
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="type99_rifle_s.xml" />
+	<hud_icon filename="hud_type99_rifle_s.png" />
+	
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="175.0"/>
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<!-- kill_probability was 1.5, raised for better damage vs. body armour -->
+	<projectile file="bullet.projectile">
+		<result
+		class="hit"
+		kill_probability="1.5"
+		
+		kill_decay_start_time="0.4"
+		kill_decay_end_time="0.9"
+		/>
+	</projectile>
+	
+</weapon>

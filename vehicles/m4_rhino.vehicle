@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="M4A3 Sherman Rhino" key="m4_rhino.vehicle" respawn_time="120" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank_special" />
@@ -5,8 +6,6 @@
 	<tag name="tank_treads" />
    	<tag name="medium_armour" />
 	<tag name="crushes_hedgerows" />
-   	<
-    
     <access_tag name="edelweiss" /> 
 
 	<!-- respawn time was 160, but raised heavily as this vehicle provides the USF a ton of extra firepower on St. Marie du Mont. -->
@@ -30,8 +29,8 @@
     extent="4 0.0 6.6" 
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
-    collision_model_pos="0 1.2 0" 
-    collision_model_extent="3.9 3.0 7.8" 
+    collision_model_pos="0 1.04872 -0.1916" 
+    collision_model_extent="3.9 3.0 6.8" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
 

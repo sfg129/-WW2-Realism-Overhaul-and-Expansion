@@ -10,7 +10,7 @@
 
     <specification slot="0" 
     retrigger_time="0.114" 
-    accuracy_factor="0.95" 
+    accuracy_factor="0.9" 
     spread_range="0.21"
     sustained_fire_grow_step="0.01303" 
     sustained_fire_diminish_rate="0.08"  
@@ -37,7 +37,7 @@
     <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />		<!-- Enemy AT Soldiers are priority for this MG -->
     <target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
     <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
-	<sound class="operation" key="fire" fileref="mg_04_m2hb.wav" pitch_variety="0.05" volume="2.8"/>
+	<sound class="operation" key="fire" fileref="mg_04_m2hb.wav" pitch_variety="0.05" volume="1.8"/>
     <sound key="magazine_out" fileref="mg_clip_out.wav" />
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
@@ -60,7 +60,7 @@
     damage_origin_vehicle="0"  
     faction_compare="not_equal" />
     </projectile>
-       <shield offset="0.0 0.55 0.7" extent="0.75 2 2" />
+
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
     
 </weapon>

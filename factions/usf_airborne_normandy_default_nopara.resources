@@ -21,13 +21,13 @@
 <vehicle key="m3_halftrack_mortar.vehicle" />
 
 	<vehicle key="dukw.vehicle" />    
-<call key="usmc_inf.call" />
+
 	<call key="airstrike4.call" />
-	<call key="airstrike5.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="artillery1.call" />
-
+<call key="usmc_inf.call" />
 	<call key="usf_vehicle.call" />
 	<call key="usf_vehicle_m3_halftrack.call" />
 

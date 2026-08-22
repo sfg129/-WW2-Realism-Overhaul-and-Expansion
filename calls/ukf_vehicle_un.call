@@ -8,7 +8,7 @@
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	
 		<tag name="reinforcements" />
-		<hud_icon filename="hud_ukf.png" />
+		<hud_icon filename="hud_un.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="100" source="rank" source_value="0.1" />
 		<inventory encumbrance="0.0" price="200.0" />

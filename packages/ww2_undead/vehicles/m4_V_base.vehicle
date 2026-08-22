@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="M4A4 Sherman V" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
@@ -13,10 +14,10 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.3" />
+	<modifier class="blast_damage" value="-3.4" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -28,7 +29,7 @@
     extent="4 0.0 6.6" 
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
-    collision_model_pos="0 1.2 0" 
+    collision_model_pos="0.01149 1.2 0" 
     collision_model_extent="3.9 3.0 7.8" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
@@ -65,21 +66,18 @@
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
 
-	<character_slot type="driver" position="2 0.7 1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-2 0.7 1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+	<character_slot type="driver" position="1.26943 0.7 1.80703" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.0609 0.7 -0.19091" rotation="0" exit_rotation="-1.70059" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="3" />
 	</character_slot>
 	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0 -0.8 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="1" />
 	</character_slot>	
-	<character_slot type="gunner" position="-1.0 0.7 3.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
+	<character_slot type="gunner" position="-1 0.7 2.249" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="2" />
 	</character_slot>
-		</character_slot>
-	<character_slot type="gunner" position="-1.5 0.7 0.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
-		<turret index="4" />
-	</character_slot>
-<character_slot type="gunner" position="2 0.7 0" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36">
+		
+<character_slot type="gunner" position="1.14911 0.7 -0.35787" rotation="0" exit_rotation="1.65503" hiding="1" animation_id="36">
 <turret index="4" />
 </character_slot>
 

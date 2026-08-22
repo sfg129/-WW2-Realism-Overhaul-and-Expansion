@@ -6,22 +6,21 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.98" 
+	accuracy_factor="0.99" 
 	sustained_fire_grow_step="1" 
-	sustained_fire_diminish_rate="0.6"
-	stance_accuracy_rate="1.21"
+	sustained_fire_diminish_rate="0.7"
+	stance_accuracy_rate="0.8"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Type 99 Sniper Rifle" 
 	class="2" 
 	reload_one_at_a_time="0" 
-projectile_speed="120.0" 
+projectile_speed="125" 
 	barrel_offset="0.65" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.0"
 	/>
-
+<next_in_chain key="type99_rifle_is.weapon" share_ammo="1" />
 	<!-- scope zoom was 2.3 -->
 
 	<!-- the Scoped Type 99 Rifle is somewhat of a rare weapon (less produced in war than Type 97 Sniper.-->
@@ -49,8 +48,8 @@ projectile_speed="120.0"
 	<model filename="type99_rifle_s.xml" />
 	<hud_icon filename="hud_type99_rifle_s.png" />
 	
-	<commonness value="0.085" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="180.0"/>
+	<commonness value="0.04" can_respawn_with="1" in_stock="1"/>
+	<inventory encumbrance="8.0" price="175.0"/>
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

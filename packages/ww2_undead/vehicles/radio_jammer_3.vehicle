@@ -1,2 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="radio_jammer_base.vehicle" key="radio_jammer_3.vehicle" map_view_atlas_index="-1" existence="one_per_faction" protectors="0"  soldier_capacity_offset="0" >
 </vehicle>

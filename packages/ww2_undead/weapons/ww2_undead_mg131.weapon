@@ -16,9 +16,7 @@
 	name="MG 131 - Mobile" 
 	class="0" 
 	barrel_offset="0.85" 
-
 	projectile_speed="90.0"
-
   	ai_sight_range_modifier="1.1"  
 	/>
 		
@@ -43,7 +41,7 @@
 	<stance state_key="walking" accuracy="0.35" />
 	<stance state_key="standing" accuracy="0.4" />
 	<stance state_key="crouching" accuracy="0.5" />
-	<stance state_key="prone" accuracy="0.6" />
+	<stance state_key="prone" accuracy="1" />
 	<stance state_key="over_wall" accuracy="0.6" />  
 	
 	<weak_hand_hold offset="0.4" />

@@ -10,7 +10,6 @@
 
 
 <call key="vehicle_m3_mortar.call" />
-<call key="vehicle_stuart_recce.call" />
 
 	<call key="usf_para_ai.call" />
 	

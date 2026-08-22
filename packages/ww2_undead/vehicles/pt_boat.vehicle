@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="PT Boat" key="pt_boat.vehicle" map_view_atlas_index="36" respawn_time="300" minimum_fill_requirement="0.5" existence="one_per_faction" soldier_capacity_offset="6">
 	<tag name="metal_thin" />
 	<tag name="pt_boat" />
@@ -20,7 +21,7 @@
   	<turret offset="0.0 1.45 -8.2" weapon_key="bofors_gun.weapon" weapon_offset="0.0 1.43 1.4" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="3.14" rotation_range="4.7" aim_shoot_threshold="0.9" />   
 	<turret offset="-1.4 1.7 +5.25" weapon_key="oerlikon_gun.weapon" weapon_offset="0.0 1.14 0.65" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0002" rotation="-1.57" rotation_range="4.7" />
 	<turret offset="1.4 1.7 5.25" weapon_key="oerlikon_gun.weapon" weapon_offset="0.0 1.14 0.65" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0002" rotation="1.57" rotation_range="4.7" />  
-	<turret offset="-1.10 +2.4 +0.42" weapon_key="pt_boat_mg.weapon" weapon_offset="0.0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="-1.57" />
+	<turret offset="-1.1 2.4 0.42" weapon_key="pt_boat_mg.weapon" weapon_offset="0.0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="-1.57" />
 	<turret offset="+0.8 +2.8 -3.6" weapon_key="pt_boat_mg.weapon" weapon_offset="0.0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="1.57" />
 	<turret offset="+0.55 +1.7 +0.3" weapon_key="pt_boat_shield.weapon" weapon_offset="0 0 0" weapon_recoil="0" physics_recoil="0." max_rotation_step="0" rotation="0" />
 	
@@ -47,7 +48,7 @@
 	<character_slot type="gunner" attached_on_turret="2" enter_position="+2.9 1.0 +5.25" seat_position="0.05 0.1 -1.0" rotation="0" exit_rotation="1.57" hiding="0" animation_key="oerlikon still">
 		<turret index="2" />
 	</character_slot> 
-	<character_slot type="gunner" attached_on_turret="3"  enter_position="-2.9.0 0.0 +0.42" seat_position="0.0 -0.6 -0.25" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+	<character_slot type="gunner" attached_on_turret="3"  enter_position="-3.47923 0 0.42" seat_position="0.0 -0.6 -0.25" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="3" />
 	</character_slot>
 	<character_slot type="gunner" attached_on_turret="4" enter_position="2.9 0.0 -4.4" seat_position="0.0 -0.6 -0.25" rotation="0" exit_rotation="1.57" hiding="0" animation_key="tank mg still">

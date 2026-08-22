@@ -8,7 +8,18 @@
 	<model filename="soldier_fsj_2.xml" />
 	<model filename="soldier_fsj_3.xml" />
 	<model filename="soldier_fsj_4.xml" />
-
+<model filename="soldier_wh_normandy_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_snlf.carry_item"/>
+	</model>
+	<model filename="soldier_wh_normandy_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_2"/>
+	</model>
+	<model filename="soldier_wh_normandy_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_3"/>
+	</model>
+	<model filename="soldier_wh_normandy_tank_hunter.xml">
+		<requirement class="carry_item" slot="1" key="vest_tank_hunter_4"/>
+	</model>
 	<!-- ----- -->
 	<!-- vests -->
 	<!-- ----- -->

@@ -19,7 +19,7 @@
 	projectiles_per_shot="1"
 	sight_range_modifier="1.1"
     stab_enabled="1"
-    stab_range="3.4"
+    stab_range="3.5"
 	/>
 
 	<next_in_chain key="smle_no4_mki.weapon" share_ammo="1" />

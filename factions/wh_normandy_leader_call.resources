@@ -7,6 +7,7 @@
 
 	<call key="wh_inf_ai.call" />
 	<call key="wh_vehicle.call" />	<!-- Panzer IV -->
+	<call key="wh_vehicle_panther.call" />
 	<call key="wh_vehicle_stug.call" />
 	<call key="wh_vehicle_sdkfz251.call" />
 <call key="airstrike10.call" />
@@ -14,4 +15,5 @@
 	<call key="wh_vehicle_sdkfz251_flak.call" />
 	<call key="wh_vehicle_sdkfz251_mortar.call" />
 		<call key="wh_vehicle_sdkfz251_pak40.call" />
+	<call key="wh_vehicle_tiger.call" />
 </resources>

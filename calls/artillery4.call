@@ -287,6 +287,6 @@
     <hud_icon filename="hud_artillery.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.4" />
-    <inventory encumbrance="0.0" price="1800" />
+    <inventory encumbrance="0.0" price="1350" />
 
 </call>

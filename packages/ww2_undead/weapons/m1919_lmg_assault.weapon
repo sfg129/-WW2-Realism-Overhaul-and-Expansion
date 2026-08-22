@@ -26,7 +26,7 @@
 	<stance state_key="prone" accuracy="1" />
 	<stance state_key="over_wall" accuracy="1" />  
 
-	<modifier class="speed" value="-0.15" /> 
+	<modifier class="speed" value="-0.14" /> 
 
  	<animation state_key="recoil" animation_key="recoil1, hip fire" />
  	<animation state_key="recoil" animation_key="recoil2, hip fire" />

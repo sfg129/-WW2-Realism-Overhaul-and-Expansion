@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="" key="occult_seal.vehicle" map_view_atlas_index="-1" protectors="5" usable_for_cover="0" respawn_time="36000.0">
   <tag name="sandbag" />
 <!--	<tag name="target" />   we don't want the sandbags to be processed by fov anymore (1.76) -->

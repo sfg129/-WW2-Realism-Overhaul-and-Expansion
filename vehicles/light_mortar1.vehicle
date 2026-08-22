@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Light Mortar" key="light_mortar1.vehicle" respawn_time="120" map_view_atlas_index="46" protectors="1" soldier_capacity_offset="1" usable_for_cover="0" >
 
 	<tag name="light_mortar" />

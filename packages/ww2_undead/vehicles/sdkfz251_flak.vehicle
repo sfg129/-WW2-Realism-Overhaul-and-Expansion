@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Sd.Kfz.251/17 Flak" key="sdkfz251_flak.vehicle" respawn_time="120" time_to_live_unsteerable="60" map_view_atlas_index="54" minimum_fill_requirement="0.7" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
    	<tag name="light_vehicle" />
@@ -17,7 +18,7 @@
   <visual class="tire" index="5" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-1.4" />
+	<modifier class="blast_damage" value="-1.3" />
 	<!-- 251 Flak is immune to its own weapon's AoE so it can't kill itself, but flamethrowers still get through -->
 	<!-- also, pretty much any vehicle immune to flamethrowers is immune to the flak -->
 	<!-- blast damage threshold operates as an == value is still able to do damage, only < cannot hurt it. -->
@@ -39,7 +40,7 @@
 	simulated_speed_factor="0.75"/>
 
 	<physics 
-    max_health="18.0" 
+    max_health="14.0" 
     blast_damage_threshold="1.01" 
     mass="50.0"
     broken_mass="5"
@@ -97,7 +98,7 @@
 		<turret index="2" />
 	</character_slot>
 	<character_slot type="passenger" hiding="0" allow_weapon="0">
-		<state class="entering" position="-1.6 0.5 0.0" rotation="0.0" />
+		<state class="entering" position="-1.6 0.5 0.0" rotation="1.78739" />
 		<state class="leaving" position="-1.6 0.5 0.0" rotation="-1.57" />
 		<state class="idle" animation_key="sitting, idling" rotation="0" position="-0.45 0.6 0.0" />
 </character_slot>

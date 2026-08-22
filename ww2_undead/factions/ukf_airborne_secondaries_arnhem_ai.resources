@@ -3,6 +3,7 @@
 	
 
 		<weapon key="m2hb_hmg_resource.weapon" />
+	<weapon key="m2hb_hmg_resource_t.weapon" />
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
 <weapon key="light_mortar_resource.weapon" />
@@ -17,8 +18,9 @@
 <carry_item key='vest_normalw.carry_item' enabled="1" />  
 <carry_item key='vest_normale.carry_item' enabled="1" />  
 <carry_item key='vest_normala.carry_item' enabled="1" />  
-	<weapon key="m1919_hmg_resource.weapon" />
 
+		<weapon key="vickers_hmg_resource.weapon" />
+		<weapon key="vickers_hmg_resource_t.weapon" />
 	<!--<projectile key="flare.projectile" />  -->
 	
 </resources>

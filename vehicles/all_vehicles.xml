@@ -42,6 +42,7 @@
 	<vehicle file="willys_mb.vehicle" />
 	<vehicle file="willys_mb_recoilless_rifle.vehicle" />
 	<vehicle file="panzer_iv.vehicle" />
+	<vehicle file="panther.vehicle" />
 	<vehicle file="panzer_iv_fastrespawn.vehicle" />
 	<vehicle file="panzer_iv_damaged.vehicle" />
 	<vehicle file="stug_iii.vehicle" />

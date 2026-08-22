@@ -4,10 +4,11 @@
 <access_tag name="edelweiss" />
 
 	<specification 
-	retrigger_time="0.095" 
+	retrigger_time="0.081" 
 	accuracy_factor="0.95" 
-	sustained_fire_grow_step="0.2" 
-	sustained_fire_diminish_rate="1.7"
+	spread_range="0.36"
+	sustained_fire_grow_step="0.19" 
+	sustained_fire_diminish_rate="1.8"
 	magazine_size="40" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -17,20 +18,19 @@
 	slot="0"
 	barrel_offset="0.3" 
 	/>
-
+		<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
 	<!-- this weapon is very similar to the Beretta 38, except it features a folding stock. -->
 	<!-- this stock can be toggled. -->
 	<!-- folding the weapon will reduce its backpack weight and increase its mobility and moving-accuracy. -->
 
+	<next_in_chain key="danuvia_43m_b.weapon" share_ammo="1" />
 
 		<!-- <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" /> -->
 
 
 	<!-- simple SMG sight -->
-	<stance state_key="standing" accuracy="0.9" />
-	<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="over_wall" accuracy="0.95" />  
-
+ 
 	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
 
 
@@ -50,10 +50,10 @@
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber_mp40.wav" />
 	
-	<model filename="weapon_danuvia_43m_stock_out.xml" />
-	<hud_icon filename="hud_danuvia43m_folding.png" />
+	<model filename="weapon_danuvia_43m.xml" />
+	<hud_icon filename="hud_danuvia43m.png" />
 
-	<commonness value="0.05" can_respawn_with="1"/>
+	<commonness value="0.03" can_respawn_with="1"/>
 	<inventory encumbrance="5.0" price="200.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -62,7 +62,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.775"
+		kill_probability="0.785"
 		kill_decay_start_time="0.35"
 		kill_decay_end_time="0.8"
 		/>

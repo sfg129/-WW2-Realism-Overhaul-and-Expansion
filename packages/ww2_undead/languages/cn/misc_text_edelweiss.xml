@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <translation>
 	<!-- we won't translate the german ranks for now, keep them as is -->	
 	<!-- yes there's a lot of variants for the first couple of ranks -->
@@ -35,14 +35,16 @@
 <text key="Pak 40 deploy" text="Pak40反坦克炮部署包"/>
 <text key="LeFH 18 deploy" text="LeFH 18轻型榴弹炮部署包"/>
 
+	<text key="Tank Hunter" text="坦克猎手"/>
+	<text key="Tank Hunter, Lightly Injured" text="坦克猎手，轻伤"/>
+	<text key="Tank Hunter, Moderately Injured" text="坦克猎手，中伤"/>
+	<text key="Tank Hunter, Severely Injured" text="坦克猎手，重伤"/>
 
-
-
-
-
-
+	<text key="WZ-35 Anti-Tank Rifle" text="WZ-35反坦克步枪"/>
+	<text key="AT Stielhandgranate" text="M43集束反坦克手榴弹"/>
 
 	<!-- absolutely everything else -->
+
 	<text key="M4 Sherman cannon" text="M4 谢尔曼主炮"/>
 	<text key="M1919A4 Sherman Tank MG" text="M1919A4 谢尔曼坦克机枪"/>
 	<text key="M2HB" text="M2HB重机枪"/>
@@ -76,8 +78,13 @@
 	<text key="Gewehr 43 w/ large magazine" text="G43半自动步枪（扩容弹匣）"/>
 	<text key="Scoped Karabiner 98k" text="Kar 98k狙击步枪"/>
 	<text key="Scoped Karabiner 98k - Hi-Grade" text="Kar 98k狙击步枪（高级）"/>
+
+	<text key="Scoped Karabiner 98k IS" text="Kar 98k狙击步枪（机械瞄具）"/>
+	<text key="Scoped Karabiner 98k - Hi-Grade IS" text="Kar 98k狙击步枪（高级|机械瞄具）"/>
+
 	<text key="Scoped Gewehr 98" text="Gew 98狙击步枪"/>
-	<text key="Scoped Gewehr 43" text="Gew 43半自动步枪（瞄镜）"/>
+	<text key="Scoped Gewehr 43" text="Gew 43半自动狙击步枪（瞄镜）"/>
+	<text key="Scoped Gewehr 43 IS" text="Gew 43半自动狙击步枪（机械瞄具）"/>
 	
 	<!-- "ostveteran" in this context means "east veteran", or veteran from fighting on the eastern front -->
 	<text key="Scoped Gew 43 Ostveteran" text="Gew 43半自动步枪（瞄镜|特殊弹药）"/>
@@ -89,19 +96,24 @@
 	<text key="Schiessbecher AT Rifle Grenade" text="Kar 98k枪榴弹-破甲弹"/>
 	<text key="Panzerfaust 60" text="铁拳60"/>
 	<text key="panzerfaust rocket" text="铁拳火箭"/>
-	<text key="Panzerschreck" text="坦克杀手"/>
+	<text key="Panzerschreck" text="RPzB 54“坦克杀手”"/>
 	<text key="panzerschreck rocket" text="坦克杀手火箭"/>
 	<text key="MP 40" text="MP-40冲锋枪"/>
-	<text key="MP 34(o)" text="MP-34（奥地利）冲锋枪"/>
-	<text key="MP 34(o) Bayonet" text="MP-34（奥地利）冲锋枪（刺刀）"/>
+	<text key="MP 34(o)" text="MP-34冲锋枪"/>
+	<text key="MP 34(o) Bayonet" text="MP-34冲锋枪（刺刀）"/>
+	<text key="S1-100" text="S1-100冲锋枪"/>
+	<text key="S1-100 Bayonet" text="S1-100冲锋枪（刺刀）"/>
+
+
 	<text key="MP 717(r)" text="PPSh-41冲锋枪（弹鼓）"/>
-	<text key="Beretta M38" text="M38伯莱塔冲锋枪"/>
+	<text key="Beretta M38" text="伯莱塔M38冲锋枪"/>
 	<text key="MP 40 Folded" text="MP-40冲锋枪（折叠枪托）"/>
 	<text key="M 712 'Schnellfeuer'" text="M712冲锋手枪"/>
 	<text key="StG 44" text="StG-44突击步枪"/>
 	<text key="Scoped StG 44" text="StG-44突击步枪（瞄镜）"/>
-	<text key="Vampir StG 44" text="StG-44突击步枪 （&quot;吸血鬼&quot;夜视系统）"/>
-	<text key="MG 26(t)" text="MG-26（捷克）机枪"/>
+		<text key="Scoped StG 44 IS" text="StG-44突击步枪（机械瞄具）"/>
+		<text key="Vampir StG 44" text="StG-44突击步枪 （&quot;吸血鬼&quot;夜视系统）"/>
+	<text key="MG 26(t)" text="ZB-26轻机枪"/>
 	<text key="MG 34 w/ belt" text="MG-34通用机枪（弹链）"/>
 	<text key="MG 42" text="MG-42通用机枪"/>
 	<text key="MG 42 w/ belt" text="MG-42通用机枪（弹链）"/>
@@ -111,9 +123,9 @@
 	<text key="MG 42 HMG" text="MG-42重机枪"/>
 	<text key="MG 34 HMG deploy" text="MG-34重机枪部署包"/>
 	<text key="MG 42 HMG deploy" text="MG-42重机枪部署包"/>
-	<text key="Luger P 08" text="P08鲁格手枪"/>
-	<text key="Officer's Engraved Luger P 08" text="P08鲁格手枪军官雕花版"/>
-	<text key="Luger LP 08 Carbine" text="LP08鲁格卡宾枪"/>
+	<text key="Luger P 08" text="鲁格P08手枪"/>
+	<text key="Officer's Engraved Luger P 08" text="鲁格P08手枪军官雕花版"/>
+	<text key="Luger LP 08 Carbine" text="鲁格LP08卡宾枪"/>
 	<text key="Enfield No.4 Mk I" text="恩菲尔德 No. 4 Mk I 步枪"/>
 	<text key="Enfield No.4 Mk I Bayonet" text="恩菲尔德 No. 4 Mk I 步枪（刺刀）"/>
 	<text key="Scoped No.4 Mk I(T)" text="恩菲尔德 No. 4 Mk I（T） 狙击步枪"/>
@@ -130,11 +142,13 @@
 	<text key="Lanchester Bayonet" text="兰彻斯特冲锋枪（刺刀）"/>
 	<text key="Austen Mk I Folded" text="奥斯登 Mk I 冲锋枪（折叠枪托）"/>
 	<text key="Bren Mk II LMG" text="布伦 Mk II 轻机枪"/>
+		<text key="Bren Mk III LMG" text="布伦 Mk III 轻机枪"/>
 	<text key="Vickers Mk VI - Bipod" text="维克斯 Mk VI 机枪（脚架）"/>
 	<text key="VGO No.2 Mk I - Mobile" text="维克斯-K 机枪（突击）"/>
 	<text key="Vickers Mk VI - Mobile" text="维克斯 Mk VI 机枪（突击）"/>
 	<text key="Vickers Mk I HMG" text="维克斯 Mk I 重机枪"/>
-	<text key="Vicker Mk I HMG deploy" text="维克斯 Mk I 重机枪部署包"/>
+	<text key="Vickers Mk I HMG Low Mount deploy" text="维克斯 Mk I 重机枪部署包（地面三脚架）"/>
+	<text key="Vickers Mk I HMG High Mount deploy" text="维克斯 Mk I 重机枪部署包（高位三脚架）"/>
 	<text key="Browning Hi-Power" text="勃朗宁大威力手枪"/>
 	<text key="Browning Hi-Power Carbine" text="勃朗宁大威力卡宾枪"/>
 	<text key="M1903A4 Sniper Rifle" text="M1903A4狙击步枪"/>
@@ -154,7 +168,7 @@
 	<text key="M43 Stielhandgranate" text="M43木柄手榴弹"/>
 	<text key="Panzerwurfmine" text="反装甲投掷雷"/>
 	<text key="strafing run" text="扫射攻击"/>
-	<text key="Mills Bomb Grenade" text="米尔斯手雷"/>
+	<text key="Mills Bomb Grenade" text="Mills手榴弹"/>
 	<text key="FG 42-G" text="FG-42 G型伞兵步枪"/>
 	<text key="FG 42-G Bayonet" text="FG-42 G型伞兵步枪（刺刀）"/>
 	<text key="Scoped FG 42-G" text="FG-42 G型伞兵步枪（瞄镜）"/>
@@ -215,14 +229,14 @@
 	<text key="Repair Kit" text="修理箱"/>
 
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
-	<text key="F6F strafing run advised" text="F6F“野猫”俯冲扫射攻击"/>
-	<text key="P47 strafing run advised" text="P47“雷霆”俯冲扫射攻击"/>
-	<text key="P38 strafing run advised" text="P38“闪电”俯冲扫射攻击"/>
-	<text key="Spitfire strafing run advised" text="“喷火”Mk IX俯冲扫射攻击"/>
-	<text key="Tempest strafing run advised" text="浩克“暴风”俯冲扫射攻击"/>
-<text key="Zero A6M2 strafing run advised" text="A6M2俯冲扫射攻击"/>
-<text key="Zero A6M5 strafing run advised" text="A6M5俯冲扫射攻击"/>
-<text key="Fw 190 A-8 strafing run advised" text="Fw 190 A-8俯冲扫射攻击"/>
+	<text key="F6F strafing run advised" text="俯冲扫射攻击"/>
+	<text key="P47 strafing run advised" text="俯冲扫射攻击"/>
+	<text key="P38 strafing run advised" text="俯冲扫射攻击"/>
+	<text key="Spitfire strafing run advised" text="俯冲扫射攻击"/>
+	<text key="Tempest strafing run advised" text="俯冲扫射攻击"/>
+<text key="Zero A6M2 strafing run advised" text="俯冲扫射攻击"/>
+<text key="Zero A6M5 strafing run advised" text="俯冲扫射攻击"/>
+<text key="Fw 190 A-8 strafing run advised" text="俯冲扫射攻击"/>
 	<text key="Nebelwerfer Barrage" text="“喷烟者”弹幕攻击"/>
 	<text key="Nebelwerfers" text="“喷烟者”火箭炮"/>
 	<text key="T34 Calliope Barrage" text="T34“风琴”火箭弹幕攻击"/>
@@ -260,18 +274,24 @@
 
 	<text key="Universal Carrier Boys" text="通用运输车 - 博斯 Mk I 反坦克步枪"/>
 	<text key="Universal Carrier VickersK" text="通用运输车 - 维克斯K机枪"/>
-	<text key="Reinforcements - Universal Carrier" text="增援 - 通用机枪运输车"/>
-	<text key="Requesting reinforcements, Universal Carrier" text="请求增援，通用机枪运输车"/>
-	<text key="Universal Carrier deployed" text="通用机枪运输车已部署"/>
 
-	<text key="M4A3 Sherman E4-5" text="M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
-	<text key="Reinforcements - M4A3 Sherman E4-5" text="增援 - M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
-	<text key="Requesting reinforcements, M4A3 Sherman E4-5" text="请求增援，M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
-	<text key="M4A3 Sherman E4-5 deployed" text="M4A3“谢尔曼”中型坦克 E4-5火焰喷射器已部署"/>
+	<text key="Reinforcements - Universal Carrier" text="增援 - 通用运输车 - 布伦轻机枪"/>
+	<text key="Requesting reinforcements, Universal Carrier" text="请求增援，通用运输车 - 布伦轻机枪"/>
+	<text key="Universal Carrier deployed" text="通用运输车 - 布伦轻机枪已部署"/>
 
-	<text key="Reinforcements - Universal Carrier Boys" text="增援 - 通用反坦克步枪运输车"/>
-<text key="Requesting reinforcements, Universal Carrier Boys" text="请求增援，通用反坦克步枪运输车"/>
-<text key="Universal Carrier Boys deployed" text="通用反坦克步枪运输车已部署"/>
+		
+	<text key="Reinforcements - Universal Carrier VickersK" text="增援 - 通用运输车 - 维克斯K机枪"/>
+	<text key="Requesting reinforcements, Universal Carrier VickersK" text="请求增援，通用运输车 - 维克斯K机枪"/>
+	<text key="Universal Carrier VickersK deployed" text="通用运输车 - 维克斯K机枪已部署"/>
+
+	<text key="M4A3 Sherman Flamethrower" text="M4A3“谢尔曼”中型坦克 火焰喷射器"/>
+	<text key="Reinforcements - M4A3 Sherman Flamethrower" text="增援 - M4A3“谢尔曼”中型坦克 火焰喷射器"/>
+	<text key="Requesting reinforcements, M4A3 Sherman Flamethrower" text="请求增援，M4A3“谢尔曼”中型坦克 火焰喷射器"/>
+	<text key="M4A3 Sherman Flamethrower deployed" text="M4A3“谢尔曼”中型坦克 火焰喷射器已部署"/>
+
+	<text key="Reinforcements - Universal Carrier Boys" text="增援 - 通用运输车 - 博斯 Mk I 反坦克步枪"/>
+<text key="Requesting reinforcements, Universal Carrier Boys" text="请求增援，通用运输车 - 博斯 Mk I 反坦克步枪"/>
+<text key="Universal Carrier Boys deployed" text="通用运输车 - 博斯 Mk I 反坦克步枪已部署"/>
 
 	<text key="Reinforcements - Sherman Firefly" text="增援 - 谢尔曼 “萤火虫”中型坦克"/>
 	<text key="Requesting reinforcements, Sherman Firefly" text="请求增援 ，谢尔曼 “萤火虫”中型坦克"/>
@@ -304,6 +324,9 @@
 	<text key="Reinforcements - Panzer IV" text="增援 - 四号中型坦克"/>
 	<text key="Requesting reinforcements, Panzer IV" text="请求增援，四号中型坦克"/>
 	<text key="Panzer IV deployed" text="四号中型坦克已部署"/>
+	<text key="Reinforcements - Tiger" text="增援 - 虎式重型坦克"/>
+	<text key="Requesting reinforcements, Tiger" text="请求增援，虎式重型坦克"/>
+	<text key="Tiger deployed" text="虎式重型坦克已部署"/>
 
 	<text key="Reinforcements - StuG III" text="增援 - 三号突击炮"/>
 	<text key="Requesting reinforcements, StuG III" text="请求增援，三号突击炮"/>
@@ -323,6 +346,7 @@
 	<text key="M10 GMC" text="M10“狼獾”自行反坦克炮"/>
 
 	<text key="Boys Mk I Anti-Tank Rifle" text="博斯 Mk I 反坦克步枪"/>
+	<text key="Scoped P14 IS" text="恩菲尔德 P14 狙击步枪（机械瞄具）"/>
 	<text key="Scoped P14" text="恩菲尔德 P14 狙击步枪"/>
 	<text key="Beardmore-Farquhar LMG" text="比尔德莫尔-法库阿尔轻机枪"/>
 	<text key="M9A1 Bazooka" text="M9A1“巴祖卡”火箭筒"/>
@@ -379,12 +403,13 @@
     <text key="De Lisle Commando" text="德利尔卡宾枪"/>
 	<text key="DP-27 LMG" text="DP-27轻机枪"/>
 		<text key="Scoped M91/30" text="M91/30狙击步枪"/>
+				<text key="Scoped M91/30 IS" text="M91/30狙击步枪（机械瞄具）"/>
 		<text key="SVT-40" text="SVT-40半自动步枪"/>
 		<text key="SVT-40 Bayonet" text="SVT-40半自动步枪（刺刀）"/>
 				<text key="TT-33" text="TT-33手枪"/>
 	<!-- 1.89 -->
-	<text key="Sauer M30 Luftwaffe" text="M30堑壕枪"/>
-	<text key="Sauer M30 Luftwaffe - Rifle Mode" text="M30堑壕枪（步枪）"/>
+	<text key="Sauer M30 Luftwaffe" text="M30 空军三管猎枪（霰弹枪）"/>
+	<text key="Sauer M30 Luftwaffe - Rifle Mode" text="M30 空军三管猎枪（步枪）"/>
 
 	<!-- 1.95 -->
 	<text key="Flammenwerfer 41" text="FW41火焰喷射器"/>
@@ -393,8 +418,10 @@
     <!-- 1.96 -->
     <text key="Danuvia 43M" text="达努维亚43M冲锋枪"/>
     <text key="Danuvia 43M Folded" text="达努维亚43M冲锋枪（折叠枪托）"/>
+	    <text key="Danuvia 43M Bayonet" text="达努维亚43M冲锋枪（刺刀）"/>
+    <text key="Danuvia 43M Folded Bayonet" text="达努维亚43M冲锋枪（折叠枪托|刺刀）"/>
     <text key="Browning Auto 5 Shorty" text="勃朗宁Auto-5半自动霰弹枪（截短）"/>
-    <text key="Browning Auto 5 (00 Buck)" text="勃朗宁Auto-5半自动霰弹枪（00鹿弹）"/>
+    <text key="Browning Auto 5" text="勃朗宁Auto-5半自动霰弹枪"/>
 	<text key="Browning Auto 5 (#4 Buck)" text="勃朗宁Auto-5半自动霰弹枪（4号鹿弹）"/>
 	<text key="PPSh-41 w/ 35-round Box" text="PPSh-41冲锋枪"/>
 	<text key="PPSh-41" text="PPSh-41冲锋枪"/>
@@ -406,9 +433,30 @@
 	<text key="Requesting reinforcements, Panzer II Luchs" text="请求增援 - 二号“山猫”轻型坦克"/>
 	<text key="Panzer II Luchs deployed" text="二号“山猫”轻型坦克已部署"/>
 
+
+<text key="Churchill Crocodile" text="丘吉尔 喷火坦克"/>
 	<text key="Churchill Mk VII" text="丘吉尔Mk VII"/>
 	<text key="Reinforcements - Churchill Mk VII" text="增援 - 丘吉尔Mk VII"/>
 	<text key="Requesting reinforcements, Churchill Mk VII" text="请求增援 - 丘吉尔Mk VII"/>
 	<text key="Churchill Mk VII deployed" text="丘吉尔Mk VII已部署"/>
 	
+<!-- HMG deploy Low/High Mount -->
+<text key="M1917 HMG Low Mount deploy" text="M1917重机枪部署包（地面三脚架）"/>
+<text key="M1917 HMG High Mount deploy" text="M1917重机枪部署包（高位三脚架）"/>
+<text key="M1919A4 HMG Low Mount deploy" text="M1919A4重机枪部署包（地面三脚架）"/>
+<text key="M1919A4 HMG High Mount deploy" text="M1919A4重机枪部署包（高位三脚架）"/>
+<text key="MG 34 HMG Low Mount deploy" text="MG34重机枪部署包（地面三脚架）"/>
+<text key="MG 34 HMG High Mount deploy" text="MG34重机枪部署包（高位三脚架）"/>
+<text key="MG 42 HMG Low Mount deploy" text="MG42重机枪部署包（地面三脚架）"/>
+<text key="MG 42 HMG High Mount deploy" text="MG42重机枪部署包（高位三脚架）"/>
+<text key="M2HB HMG Low Mount deploy" text="M2HB重机枪部署包（地面三脚架）"/>
+<text key="M2HB HMG High Mount deploy" text="M2HB重机枪部署包（高位三脚架）"/>
+<text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（地面三脚架）"/>
+<text key="Type 92 HMG High Mount deploy" text="92式重机枪部署包（高位三脚架）"/>
+	
+<text key="M4A3(76)W Sherman" text="M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="Reinforcements - M4A3(76)W Sherman" text="增援 - M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="Requesting reinforcements, M4A3(76)W Sherman" text="请求增援，M4A3(76)W“谢尔曼”中型坦克"/>
+<text key="M4A3(76)W Sherman deployed" text="M4A3(76)W“谢尔曼”中型坦克已部署"/>
+
 </translation>

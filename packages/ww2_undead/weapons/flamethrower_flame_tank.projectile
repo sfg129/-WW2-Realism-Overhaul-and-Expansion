@@ -6,7 +6,7 @@
 	<result
 	class="blast"
 	radius="3"
-	damage="3.5"
+	damage="2.4"
 	push="0"  
 	character_state="death"
   make_vehicle_hit_sound="0"

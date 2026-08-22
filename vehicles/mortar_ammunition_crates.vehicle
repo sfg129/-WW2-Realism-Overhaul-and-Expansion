@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Mortar Ammunition" key="mortar_ammunition_crates.vehicle" map_view_atlas_index="-1" respawn_time="120.0" existence="one_per_faction" reserves_spawn_point="1" protectors="5"  soldier_capacity_offset="5" usable_for_cover="0">
 	<tag name="sandbag" />
 	<tag name="target" />
@@ -68,8 +69,11 @@
 
     <event>
         <trigger class="destroy" />
-    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="0" min_amount="8" max_amount="16" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
+    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="0" min_amount="4" max_amount="8" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
   </event>
-    
+        <event>
+        <trigger class="destroy" />
+    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="1" min_amount="4" max_amount="8" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
+  </event>
 
 </vehicle>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<weapon key="m1918_bar_heavy.weapon" />
+	<weapon key="m1918_bar.weapon" />
+	<weapon key="m1919_lmg_light.weapon" />
+	<weapon key="m1919_lmg_ai.weapon" />
+</resources>

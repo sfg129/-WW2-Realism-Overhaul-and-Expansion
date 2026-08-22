@@ -1,62 +1,63 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <intro>
-	<!-- Basic hints and help text -->
-    <text key="Hint" text="Pillboxes can be quickly knocked out with a precision dive bomber strike or Demolition Charges."/>
-    <text key="Hint" text="Carrying too much in your backpack will reduce your weapon's accuracy and your movement speed."/> 
-    <text key="Hint" text="Going prone or diving might save your life from the effects of Explosives."/> 
-    <text key="Hint" text="Killing enemies in melee combat rewards additional experience."/> 
-    <text key="Hint" text="The crosshair gives a good estimate of accuracy, but your weapon's muzzle velocity has an additional impact as range increases."/> 
-    <text key="Hint" text="Capturing a base requires a majority of troops, needing 2 out of 3 bars in the capture progress indicator."/> 
-    <text key="Hint" text="Light Machine Guns are best fired when prone or behind cover, and some of them will force you to fire from these stances."/> 
-    <text key="Hint" text="Selling briefcases at the Armory will unlock rare weapons and equipment, but what you get is random!"/> 
-    <text key="Hint" text="Rifles are deadly and accurate, but fire slowly. Use caution when fighting in close range against better armed enemies - and bayonets can help!"/>
-    <text key="Hint" text="Sniper Rifles are excellent at taking out the heavily-armoured soldiers from a distance."/> 
-    <text key="Hint" text="Valuables that are dropped by dead soldiers can be looted and sold for RP, or even stored in Stashes to sell later."/> 
-    <text key="Hint" text="In general, the heavier the weapon, the lower your movement speed."/>
-    <text key="Hint" text="Landing Craft have spawn points, provided that enemies aren't nearby."/>   
-    <text key="Hint" text="The enemy will often utilize emplaced AA Guns on the map - destroy all of them to gain access to air support calls!"/>
-    <text key="Hint" text="The enemy will often utilize emplaced Coastal Guns - destroy all of them gain access to naval artillery calls!"/>
-    <text key="Hint" text="Armories have changed from Running with Rifles - they now visually resemble half-length 'Quonset Huts.'"/>
-    <text key="Hint" text="Be on the lookout for enemy Specialist soldiers - they're tougher and%EOLcome armed with better weapons. Their appearances will be distinct from regular infantry."/>
-    <text key="Hint" text="When a beach landing gets tough, look for the supporting guns on the Attack Ship - use them to bombard the beach defenses!"/>
-    <text key="Hint" text="There are Armories and Stashes located on the Aircraft Carrier and Attack Ship, be sure to find their locations!"/>
-    <text key="Hint" text="Specialized Assault Troops rush towards their enemy with no regard for cover, firing on the move and trying to get into melee range."/>
-    <text key="Hint" text="Banzai Chargers are ferocious Assault Troops lead by a Katana-wielding Officer, operating as a squad."/>
-    <text key="Hint" text="Enemy Flamethrower Operators are resilient against small arms, but are vulnerable to%EOLgrenades, explosives, melee attacks, and even anti-tank rifles."/> 
-    <text key="Hint" text="Binoculars are a great tool for high-ranking soldiers - allowing them to command troops and call in Artillery on more distant locations."/>       
-    <text key="Hint" text="The PT Boat is excellent in providing supporting fire on a beachhead with its vast array of weapons systems."/>   
-    <text key="Hint" text="Destroy any enemy structures to decrease their fighting capacity and gain rewards."/>
-	<text key="Hint" text="Friendly soldiers and players you accidently kill will not drop their gear.%EOLAnd, if you are accidently teamkilled, you will not lose anything when you respawn!"/>   
-    <text key="Hint" text="Eventually, rare weapons and gear on the ground will vanish - but rare weapons will stay on the field far longer."/>   
-    <text key="Hint" text="Not all weapons have a 100% chance to drop when an enemy soldier is killed."/>   
-    <text key="Hint" text="Sentry soldiers are rare specialist troops that spawn with a hip-fired Machine Gun and a thick set of Body Armour.%EOLThey are highly-resistant to small-arms, and to some extent, explosives."/>   
-    <text key="Hint" text="There are various items available in the 'Vest' category, each offering unique advantages.%EOLHowever if you die wearing a vest, you will not respawn with it!"/>   
-    <text key="Hint" text="The Veteran 'vest' grants additional resilience to enemy fire, and when you run out of 'luck',%EOLyou still might enter a wounded state from which comrades can revive you."/>   
 
-    
-<!-- #EDELWEISS_TRANSLATION --> 
-    <text key="Hint" text="While most Rocket Launchers perform about the same, some trade velocity for a bigger warhead with extra damage and blast radius."/>   
-    <text key="Hint" text="You can repair vehicles with a wrench by equipping it, standing close to the vehicle, and%EOLholding the 'attack' key until done. And you can carry multiple wrenches!"/>   
-	<text key="Hint" text="Stealing Medium and Heavy tanks is not possible in the WW2 DLCs."/>   
-	<text key="Hint" text="Bayonets extend melee range at a slight cost to long-range accuracy, as a result of the extra weight on the front of the gun."/>
-    <text key="Hint" text="Tanks, halftracks, trucks, and some lighter vehicles can crush most fences in the WW2 DLCs maps."/>   
-    <text key="Hint" text="The valued price of a weapon is often a good estimator as to both its rarity and combat effectiveness."/>       
-    <text key="Hint" text="In missions in which your faction is conducting a massive airlanding operation, you can open the map after dying and spawn behind enemy lines."/>   
-    <text key="Hint" text="Anti-Tank Rifle Grenades have infinite ammo but only provide minimal damage.%EOLThey can be used as a long-term anti-armour solution, but do little up front."/>   
-    <text key="Hint" text="Some handheld Anti-Tank Grenades explode on impact, while others stick to the target and explode after a few seconds."/>   
-    <text key="Hint" text="Radio Jammers, Coastal Guns, and Anti-Air Guns block certain call-ins.%EOLDestroy them for a reward and to be able to call in power support fire!"/>   
-    <text key="Hint" text="Certain Missions may prevent calling in Air Support or Paratroopers, such as in the snowy conditions at Bastogne."/> 
-    <text key="Hint" text="Certain enemy assets like Water Towers or docked Submarines offer large XP and RP rewards for destroying them."/>   
-    <text key="Hint" text="Anti-Tank Guns, though only encountered on certain Missions, do what they say on the tin - and excel at it. Be warned!"/>   
-    <text key="Hint" text="Sniper Rifles extend your vision sight while standing still, but recover from recoil more slowly."/> 
-    <text key="Hint" text="Carbines offer decent long-range performance for a sidearm weapon, but often don't pack as much short-range damage as Pistols."/>
-    <text key="Hint" text="Medium MGs usually offer a lot of long-range firepower, but since they can%EOLonly be fired while laying prone or over cover, are better suited for defense."/>
-    <text key="Hint" text="Weapons with two dots at the bottom of their icon have an alternate mode (see controls.) For many weapons, this toggles the Bayonet."/>
-    <text key="Hint" text="Sub-Machine Guns are unparalleled in close-quarters fighting and firing on the move, but suffer at long range."/> 
-    <text key="Hint" text="Flamethrowers excel at clearing out strongpoints and well-defended emplacements, including pillboxes, and can even damage most vehicles."/>
-    <text key="Hint" text="The Banzai and Assault 'vests' grant additional health and a large bonus to movement speed,%EOLbut unlike the Veteran 'vest', you cannot be wounded and revived."/>   
-    <text key="Hint" text="The Sniper 'vest' makes you harder to detect, and slightly harder to hit. These bonuses are of course particularly useful when using a Sniper Rifle."/>   
-    <text key="Hint" text="The Sentry 'vest' is a heavy set of Body Armour. It offers good protection and enables you%EOLto become wounded instead of dying, but impairs movement speed and is markedly expensive."/>   
-    <text key="Hint" text="You can always open the map when you die to select your spawn point."/>   
+	<text key="Hint" text="Explosive charges, airstrikes, and flamethrowers can all quickly destroy fortifications"/>
+	<text key="Hint" text="Using binoculars allows you to safely observe distant battlefields and enemies, making them very useful when calling in support"/>
+	<text key="Hint" text="Using binoculars allows you to safely observe distant battlefields and enemies, making them very useful when calling in support"/>
+	<text key="Hint" text="Using binoculars allows you to safely observe distant battlefields and enemies, making them very useful when calling in support"/>
+	<text key="Hint" text="Going prone or diving can help you avoid grenade damage"/>
 
-</intro> 
+	<text key="Hint" text="Submachine guns are lightweight and easy to aim and control, but have slightly larger spread when firing on full auto, and the pistol ammunition they fire performs poorly at long range"/>
+
+	<text key="Hint" text="Bolt-action rifles and semi-automatic rifles have higher accuracy and greater ammunition power"/>
+	<text key="Hint" text="All types of rifles and light machine guns fire full-power cartridges, with very low damage falloff at long range"/>
+	<text key="Hint" text="Assault rifles and carbines fire intermediate or carbine cartridges, offering good lethality while maintaining low damage falloff"/>
+
+	<text key="Hint" text="Light machine gun recoil is hard to control when standing, but when prone or deployed, they can provide accurate and deadly automatic fire"/>
+	<text key="Hint" text="General-purpose machine guns and medium machine guns are difficult to aim accurately when standing, but when prone or deployed, they can provide extremely powerful firepower"/>
+
+	<text key="Hint" text="Some sniper weapons can switch to iron sights for dealing with close-range enemies in emergencies"/>
+
+	<text key="Hint" text="Among pistol ammunition, .45 ACP has greater close-range stopping power, but damage falls off faster with distance"/>
+	<text key="Hint" text="Among pistol ammunition, 9×19mm offers balanced performance at all ranges"/>
+	<text key="Hint" text="Among pistol ammunition, 7.62mm and 7.63mm rounds have less damage falloff at long range"/>
+	<text key="Hint" text="The Danuvia submachine gun fires special 9×25mm pistol rounds, with greater power and recoil than standard 9mm ammunition"/>
+
+
+
+	<text key="Hint" text="When an assault is bogged down, deploy light mortars to provide sustained fire support on target positions"/>
+	<text key="Hint" text="When facing difficult defensive tasks, properly deploying heavy machine guns and light mortars can effectively handle the pressure"/>
+
+   <text key="Hint" text="Tank main guns and coaxial machine guns can spot and engage infantry from considerable distances - use cover, terrain, and fire support to deal with them"/>   
+	<text key="Hint" text="Flamethrowers can effectively destroy fortifications and armored vehicles, but cannot damage medium tanks or heavier targets"/>
+	<text key="Hint" text="The M2 heavy machine gun fires powerful .50 BMG ammunition, which is not only deadly against infantry but can also destroy fortifications and penetrate armored vehicles and some light tank armor"/>
+	<text key="Hint" text="Anti-tank rifles and HEAT rifle grenades can effectively damage armored vehicles and light tanks, but struggle against medium tanks or heavier armor"/> 
+
+	<text key="Hint" text="Aerial bombing can easily deal with most armored targets"/>   
+	<text key="Hint" text="A medium tank's main gun can typically destroy another medium tank in 2-3 hits"/> 
+    <text key="Hint" text="&quot;Panzerfaust&quot; and &quot;Panzerschreck&quot; rockets are significantly superior to &quot;Bazooka&quot; rockets in both penetration and power"/>  
+
+    <text key="Hint" text="Carrying a wrench allows you to repair vehicle durability; a large wrench repairs 1.5 times faster than a small wrench"/>   
+
+	<text key="Hint" text="Machine gun rounds from strafing runs are effective against personnel and armored vehicles, but cannon-armed strafing attacks are more efficient and can damage light and medium tanks"/>
+	<text key="Hint" text="Lack of air superiority on the battlefield will make air support unavailable or more expensive"/>
+    <text key="Hint" text="Compared to standard weapons, more expensive or rarer guns don't necessarily have better performance"/>     
+	<text key="Hint" text="The Type 95 light tank has very weak armor, only reaching armored car levels of protection"/>   
+	<text key="Hint" text="The Type 97 medium tank's armor thickness is only at light tank level, barely able to stop .50 BMG rounds"/>   
+    <text key="Hint" text="The M18 recoilless rifle has poor anti-armor efficiency, but can load HE shells for anti-personnel use"/>   
+    <text key="Hint" text="When firing anti-tank rocket launchers from high ground at lower targets, aim closer to compensate for height difference, and vice versa"/>
+    <text key="Hint" text="Stick grenades can be thrown farther than other grenades, but have a smaller fragmentation kill radius"/>   
+    <text key="Hint" text="&quot;Rocket Barrage&quot; and &quot;Rocket Launcher&quot; support have a very large kill radius - use with caution!"/> 
+
+    <text key="Hint" text="Due to platform stability differences, heavy machine guns deployed at elevated positions have slightly larger shot dispersion"/> 
+    <text key="Hint" text="All machine guns mounted on armored vehicles can engage targets at longer ranges"/> 
+	<text key="Hint" text="Compared to the vanilla game, AI vision range in this mod is only slightly shorter than the player's - rather than significantly shorter - which increases the difficulty to some extent"/> 
+	<text key="Hint" text="Compared to the vanilla game, RP costs in this mod are significantly higher; it's recommended to set the RP multiplier to 100% or higher"/> 
+
+	<text key="Hint" text="Watch out for enemy machine gunners: they carry the most powerful weapons in their squad and will seek cover to deploy and maximize their firepower"/> 
+
+    <text key="Hint" text="Assault troops are very fast, with additional dodge chance and several defenses against melee attacks"/>   
+    <text key="Hint" text="Snipers have extra speed, stealth, and dodge chance, and can block 1 bullet - only 1"/>   
+    <text key="Hint" text="Sentry equipment is a type of heavy armor that provides limited but the best defense"/>   
+  <text key="Hint" text="Switching mode changes the heavy machine gun's deployment method; high-position deployment allows the weapon to fire over cover or sandbags."/>
+</intro>

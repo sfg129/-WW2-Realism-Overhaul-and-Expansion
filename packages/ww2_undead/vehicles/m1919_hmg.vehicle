@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="M1919A4 HMG" key="m1919_hmg.vehicle" map_view_atlas_index="48" protectors="1" respawn_time="180.0" reserves_spawn_point="1" usable_for_cover="0" soldier_capacity_offset="0">
 	<tag name="target" />
 	<tag name="hmg" />
@@ -16,7 +17,7 @@
 	
 	<!-- rotation step (speed) was 0.00008 prior to 1.87 HMG rebalance -->	
 
-	<turret offset="0 0.68 0" weapon_key="m1919_hmg.weapon" weapon_offset="0 0 0" weapon_recoil="0.035" max_rotation_step="0.00015" rotation="0" rotation_range="3.1416" />
+	<turret offset="0 0.68 0" weapon_key="m1919_hmg.weapon" weapon_offset="0 0 0" weapon_recoil="0.035" max_rotation_step="0.00015" rotation="0" rotation_range="2.7" />
 	
 	<visual class="chassis" mesh_filename="m1919_hmg_tripod.mesh" texture_filename="m1919_hmg.png" />
 <!--	<visual class="chassis" key="broken" mesh_filename="m1919_hmg_tripod.mesh" texture_filename="m1919_hmg.png" />  -->

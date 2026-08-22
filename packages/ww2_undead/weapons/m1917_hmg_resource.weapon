@@ -10,7 +10,7 @@
 	can_shoot_crouching="1" 
 	carry_in_two_hands="1" 
 	can_shoot_prone="0" 
-	name="M1917 HMG deploy" 
+	name="M1917 HMG Low Mount deploy" 
 	class="5" 
 	spawn_instance_class="vehicle" 
 	spawn_instance_key="m1917_hmg.vehicle" 
@@ -20,7 +20,7 @@
 	cover_deployment="1"
     deny_ladder_range="3"/>
 
-	
+		<next_in_chain key="m1917_hmg_resource_t.weapon" share_ammo="1" />
 	<animation state_key="running" 		animation_key="walking, carrying load" />
 	<animation state_key="walking" 		animation_key="walking, carrying load" />
 	<animation state_key="hold" 		animation_key="still, carrying load" />
@@ -37,11 +37,11 @@
 	
 	<model mesh_filename="m1917_hmg.mesh" texture_filename="m1919_hmg.png" />
 	
-	<capacity value="2" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<hud_icon filename="hud_m1917_assault.png" />
 	<commonness value="0.01" can_respawn_with="0" />
-	<inventory encumbrance="26.0" price="110" />
+	<inventory encumbrance="11.0" price="110" />
 	
 	
 	<modifier class="speed" value="-0.4" />

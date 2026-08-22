@@ -125,12 +125,10 @@ class DefPhase0Arnhem : DefPhaseArnhem {
 		}
 		
 		array<Resource@> resources = { 
-			
-			Resource("usmc_vehicle.call", "call"),
+			Resource("usf_vehicle_stuart.call", "call"),
 			Resource("ukf_vehicle_m4_sherman_v.call", "call"),
-
-			Resource("artillery2.call", "call"),
-			Resource("artillery3.call", "call") 
+			Resource("ukf_vehicle_sherman_firefly.call", "call"),
+			Resource("ukf_vehicle_churchill.call", "call")
 		};
 		resetFactionCallResources(m_metagame, 0, resources, false, getCallSorting());
 		
@@ -601,17 +599,11 @@ class DefPhase7Arnhem : DefPhaseArnhem {
 		m_timer = 2.0 * 60.0;
 		//setVisualTimer(m_metagame, m_timer);
         array<Resource@> resources = { 
-      
-            Resource("usmc_vehicle.call", "call"),
+            Resource("usf_vehicle_stuart.call", "call"),
             Resource("ukf_vehicle_m4_sherman_v.call", "call"),
-  
-            Resource("airstrike6.call", "call"),
-            Resource("airstrike7.call", "call"),
-            Resource("ukf_vehicle_un.call", "call"),
-            Resource("ukf_vehicle_un_b.call", "call"),
-            Resource("usf_vehicle_m3_halftrack.call", "call"),
-            Resource("artillery2.call", "call"),
-            Resource("artillery3.call", "call") 
+            Resource("ukf_vehicle_sherman_firefly.call", "call"),
+            Resource("ukf_vehicle_churchill.call", "call"),
+            Resource("artillery2.call", "call")
         };
 
         resetFactionCallResources(m_metagame, 0, resources, true, getCallSorting());

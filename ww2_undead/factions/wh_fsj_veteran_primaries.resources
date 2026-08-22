@@ -17,9 +17,10 @@
 	<!-- Luftwaffe Drilling added, is a 6k weapon for now, 150rp, commonness is slightly higher than most other weapons -->
 	<!-- this extra commonness is because FSJ faction is on very few maps, and so this weapon will be rarer by that too -->
 	<weapon key="luftwaffe_drilling.weapon" />
-
+<weapon key="beretta_m38.weapon" />
 	<weapon key="kar98k_elite.weapon" />
-	<weapon key="kar98k_elite_b.weapon" />
+	<weapon key="danuvia_43m_b.weapon" />
+	<weapon key="danuvia_43m_folded_b.weapon" />
 	<weapon key="kar43_large_mag.weapon" />
 	<weapon key="mg26t.weapon" />
 
@@ -29,7 +30,6 @@
 	<!-- Scoped FG 42 added, bayonet on, is pretty rare but he can occasionally spawn with it -->
 	<weapon key="fg42_late_s_b.weapon" />
 	<weapon key="mg34_assault.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
 		<weapon key="mg42_assault.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
+			<weapon key="wz35_ai.weapon" />
 </resources>

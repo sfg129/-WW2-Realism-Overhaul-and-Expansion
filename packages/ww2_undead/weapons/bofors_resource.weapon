@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="bofors_resource.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.4" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0"
+<weapon key="bofors_resource.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death="1.0" player_death_drop_owner_lock_time="30.0"
         on_ground_up="0 0 1" 
         radius="0.35">
 	<tag name="engineer" />
@@ -21,7 +21,7 @@
 	slot="1"
 	cover_deployment="1"
     deny_ladder_range="3"/>
-	/>
+	
 	
 	<animation state_key="running" 		animation_key="walking, carrying load" />
 	<animation state_key="walking" 		animation_key="walking, carrying load" />
@@ -42,7 +42,7 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<hud_icon filename="hud_bofors_gun.png" />
-	<commonness value="0.005" can_respawn_with="0" in_stock="1"/>
+	<commonness value="0" can_respawn_with="0" in_stock="1"/>
 	<inventory encumbrance="26.0" price="1200.0" />
 	
 	<modifier class="speed" value="-0.6" />

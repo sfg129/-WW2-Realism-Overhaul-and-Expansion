@@ -10,12 +10,12 @@
 
     <specification
 	retrigger_time="0.0775"
-	accuracy_factor="0.87"
+	accuracy_factor="0.85"
 	spread_range="0.21"
     sustained_fire_grow_step="0.012" 
     sustained_fire_diminish_rate="0.1"  
-	sight_range_modifier="1.8"
-  	ai_sight_range_modifier="1"
+	sight_range_modifier="2"
+  	ai_sight_range_modifier="0.7"
 	magazine_size="-1"
 	can_shoot_standing="0"
 	an_shoot_crouching="0"
@@ -41,9 +41,9 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.88"
-		kill_decay_start_time="0.96"
-		kill_decay_end_time="1.34"
+		kill_probability="0.9"
+		kill_decay_start_time="0.59"
+		kill_decay_end_time="0.9"
 		/>
 	</projectile>
 

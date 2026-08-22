@@ -229,14 +229,14 @@
 	<text key="Repair Kit" text="修理箱"/>
 
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
-	<text key="F6F strafing run advised" text="F6F“野猫”俯冲扫射攻击"/>
-	<text key="P47 strafing run advised" text="P47“雷霆”俯冲扫射攻击"/>
-	<text key="P38 strafing run advised" text="P38“闪电”俯冲扫射攻击"/>
-	<text key="Spitfire strafing run advised" text="“喷火”Mk IX俯冲扫射攻击"/>
-	<text key="Tempest strafing run advised" text="浩克“暴风”俯冲扫射攻击"/>
-<text key="Zero A6M2 strafing run advised" text="A6M2俯冲扫射攻击"/>
-<text key="Zero A6M5 strafing run advised" text="A6M5俯冲扫射攻击"/>
-<text key="Fw 190 A-8 strafing run advised" text="Fw 190 A-8俯冲扫射攻击"/>
+	<text key="F6F strafing run advised" text="俯冲扫射攻击"/>
+	<text key="P47 strafing run advised" text="俯冲扫射攻击"/>
+	<text key="P38 strafing run advised" text="俯冲扫射攻击"/>
+	<text key="Spitfire strafing run advised" text="俯冲扫射攻击"/>
+	<text key="Tempest strafing run advised" text="俯冲扫射攻击"/>
+<text key="Zero A6M2 strafing run advised" text="俯冲扫射攻击"/>
+<text key="Zero A6M5 strafing run advised" text="俯冲扫射攻击"/>
+<text key="Fw 190 A-8 strafing run advised" text="俯冲扫射攻击"/>
 	<text key="Nebelwerfer Barrage" text="“喷烟者”弹幕攻击"/>
 	<text key="Nebelwerfers" text="“喷烟者”火箭炮"/>
 	<text key="T34 Calliope Barrage" text="T34“风琴”火箭弹幕攻击"/>
@@ -324,6 +324,13 @@
 	<text key="Reinforcements - Panzer IV" text="增援 - 四号中型坦克"/>
 	<text key="Requesting reinforcements, Panzer IV" text="请求增援，四号中型坦克"/>
 	<text key="Panzer IV deployed" text="四号中型坦克已部署"/>
+	<text key="Reinforcements - Panther" text="增援 - 豹式坦克"/>
+	<text key="Requesting reinforcements, Panther" text="请求增援，豹式中型坦克"/>
+	<text key="Panther deployed" text="豹式中型坦克已部署"/>
+		<text key="Panther" text="豹式中型坦克"/>
+	<text key="Reinforcements - Tiger" text="增援 - 虎式重型坦克"/>
+	<text key="Requesting reinforcements, Tiger" text="请求增援，虎式重型坦克"/>
+	<text key="Tiger deployed" text="虎式重型坦克已部署"/>P
 
 	<text key="Reinforcements - StuG III" text="增援 - 三号突击炮"/>
 	<text key="Requesting reinforcements, StuG III" text="请求增援，三号突击炮"/>
@@ -415,6 +422,8 @@
     <!-- 1.96 -->
     <text key="Danuvia 43M" text="达努维亚43M冲锋枪"/>
     <text key="Danuvia 43M Folded" text="达努维亚43M冲锋枪（折叠枪托）"/>
+	    <text key="Danuvia 43M Bayonet" text="达努维亚43M冲锋枪（刺刀）"/>
+    <text key="Danuvia 43M Folded Bayonet" text="达努维亚43M冲锋枪（折叠枪托|刺刀）"/>
     <text key="Browning Auto 5 Shorty" text="勃朗宁Auto-5半自动霰弹枪（截短）"/>
     <text key="Browning Auto 5" text="勃朗宁Auto-5半自动霰弹枪"/>
 	<text key="Browning Auto 5 (#4 Buck)" text="勃朗宁Auto-5半自动霰弹枪（4号鹿弹）"/>

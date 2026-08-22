@@ -22,5 +22,6 @@
 	<weapon key="type96_lmg_shield_scope.weapon" />
 	<weapon key="type98_lmg_mg15.weapon" />	
 	<weapon key="type_hei_automatic_rifle.weapon" />
-
+<weapon key="type97_m.weapon" />	
+<weapon key="type97.weapon" />	
 </resources>

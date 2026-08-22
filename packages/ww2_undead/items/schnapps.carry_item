@@ -2,7 +2,7 @@
 <carry_item file="base_valuable.carry_item" name="Schnapps" key="schnapps.carry_item">
     <hud_icon filename="schnapps_hud.png" />
     <capacity value="100" source="rank" source_value="0.0" />
-    <inventory encumbrance="0" price="100" />
+    <inventory encumbrance="0" price="120" />
 
     <model mesh_filename="sake.mesh" texture_filename="schnapps.png" />
 

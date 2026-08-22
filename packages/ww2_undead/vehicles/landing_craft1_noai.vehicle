@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="Daihatsu" key="landing_craft1_noai.vehicle" map_view_atlas_index="38" respawn_time="160" allow_ai_to_use="0" allow_owner_to_use_only="1" should_be_destroyed="1">
 	<tag name="vehicle" />
 	<tire_set offset="0.85 0.0 1.55" radius="0.4" />

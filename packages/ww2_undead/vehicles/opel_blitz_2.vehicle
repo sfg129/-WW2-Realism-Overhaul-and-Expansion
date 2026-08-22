@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Opel Blitz" key="opel_blitz_2.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="1" minimum_fill_requirement="0.3">
 	<tag name="metal_thin" />
 	<tag name="truck_open" />
@@ -19,7 +20,7 @@
 	<!-- extent was 4.0 -->
 
 	<physics 
-    max_health="8" 
+    max_health="4.8" 
     mass="7.0" 
     broken_mass="3.5"    
     extent="3.3 0.0 8.0" 

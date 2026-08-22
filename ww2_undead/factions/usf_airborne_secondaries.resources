@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
-	
+
 	<weapon key="m1919_hmg_resource.weapon" />
 	 	<weapon key="light_mortar_resource.weapon" />
 	
@@ -8,7 +8,7 @@
 	<carry_item key='vest_sentry.carry_item' enabled="1" />
 	<carry_item key='vest_assault_webbing.carry_item' enabled="1" />  
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
-
+<carry_item key='vest_snlf.carry_item' enabled="1" />  
 <weapon key="m3_greasegun_folded.weapon" />
 		<weapon key="m5_resource.weapon" />
 		<weapon key="bofors_resource.weapon" />
@@ -27,6 +27,8 @@
 	<weapon key="m18_recoilless_rifle_he.weapon" />
 	<projectile key="flare.projectile" />
 <weapon key='m1917_revolver.weapon' />
+<projectile key="mk3_grenade.projectile" />
+
 	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
 	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->
 	<!-- however the use of that clear_carry_items will clear these out of a *player* armoury... -->
@@ -34,4 +36,6 @@
   	<carry_item key="dollars_300.carry_item" />
   	<carry_item key="gold_bar.carry_item" />
 <weapon key="bandage.weapon" />
+		<weapon key="m1_garand2.weapon" />
+	<weapon key="m1_garand2_b.weapon" />
 </resources>

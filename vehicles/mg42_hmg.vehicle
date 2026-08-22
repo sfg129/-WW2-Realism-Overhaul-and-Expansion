@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="MG 42 HMG" key="mg42_hmg.vehicle" map_view_atlas_index="28" protectors="1" reserves_spawn_point="1" respawn_time="180.0" usable_for_cover="0" soldier_capacity_offset="1">
 	<tag name="target" />
 	<tag name="hmg" />

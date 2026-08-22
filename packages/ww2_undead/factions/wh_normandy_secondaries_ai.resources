@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
 	<weapon key="mg42_hmg_resource.weapon" />
+	<weapon key="mg42_hmg_resource_t.weapon" />
 	<weapon key="mg34_hmg_resource.weapon" />
+	<weapon key="mg34_hmg_resource_t.weapon" />
 	<weapon key="light_mortar_resource.weapon" />
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
 	<weapon key="panzerfaust.weapon" />
 	
 	<!--<weapon key="p08.weapon" />-->
-	
+		<projectile key="panzerschreck_ai.weapon" />
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 <weapon key="morphine.weapon" />

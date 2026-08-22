@@ -29,7 +29,7 @@
 
   <parameter class="willingness_to_guard" value="0.0" />
 
-  <parameter class="accuracy_offset" value="-0.2" /> 
+  <parameter class="accuracy_offset" value="0" /> 
 
   <parameter class="using_cover_min_time" value="0.0" />
   <parameter class="using_cover_max_time" value="0.1" />

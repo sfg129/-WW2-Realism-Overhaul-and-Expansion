@@ -23,4 +23,6 @@
 			<weapon key="g41w_b.weapon" />
 	<weapon key="kar98k_small_optic_b.weapon" />
 	<weapon key="wz35.weapon" />
+	<weapon key="kar98k_is.weapon" />
+					<weapon key="kar43_is.weapon" />
 </resources>

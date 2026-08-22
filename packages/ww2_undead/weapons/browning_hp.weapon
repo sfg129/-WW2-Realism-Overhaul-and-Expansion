@@ -2,16 +2,16 @@
 <weapon file="base_secondary_pistol.weapon" key="browning_hp.weapon">
    
 	<specification 
-	retrigger_time="0.135" 
+	retrigger_time="0.06" 
 	carry_in_two_hands="0" 
-	accuracy_factor="0.9" 
-	sustained_fire_grow_step="0.785" 
-	magazine_size="13" 
+	accuracy_factor="0.95" 
+	sustained_fire_grow_step="0.75" 
+	magazine_size="14" 
+	reload_one_at_a_time="1" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Browning Hi-Power" 
 	class="4" 
-	reload_one_at_a_time="0" 
 	projectile_speed="95.0" 
 	barrel_offset="-0.2" 
 	projectiles_per_shot="1" 
@@ -19,8 +19,8 @@
 	slot="1"
 	/>
 
-	<animation state_key="reload" animation_key="reloading, pistol, 2hand" />
-	<animation state_key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />
+	<animation key="reload" animation_key="reloading, browning" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, browning, prone" />
 
 	<!-- former stats: kill chance 0.8 -->
 
@@ -33,12 +33,15 @@
 	<sound key="magazine_out" fileref="pistol_clip_out.wav" />
 	<sound key="magazine_in" fileref="pistol_clip_in.wav" volume="0.5" />    
 	<sound key="cycle" fileref="pistol_chamber.wav" volume="0.5" />
-	
+
+	<sound key="effect" fileref="pistol_reload.wav" pitch_variety="0" />
+	<control key="effect" value="1" />
+
 	<model filename="weapon_browning_hi_power.xml" />
 	<hud_icon filename="hud_browning_hi_power.png" />
 	
 	<commonness value="0.03" />
-	<inventory encumbrance="1.0" price="2.0" />
+	<inventory encumbrance="1.0" price="15" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

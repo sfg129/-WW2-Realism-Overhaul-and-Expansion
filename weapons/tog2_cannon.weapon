@@ -9,7 +9,7 @@
 	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
 
 	<!-- retrigger time was 5.5, diminish rate was 0.19 -->
-    <specification retrigger_time="5" 
+    <specification retrigger_time="4.5" 
     accuracy_factor="0.95" 
 	spread_range="0.3"
     sustained_fire_grow_step="1.0" 
@@ -49,6 +49,6 @@
     <effect class="muzzle" ref="CannonSmokeBig" /> 
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
-    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="3.4"/>
+    <sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="2.4"/>
 
 </weapon>

@@ -17,9 +17,7 @@
 
 	<weapon key="kar43_large_mag.weapon" />
 	<weapon key="mg34_assault.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
 		<weapon key="mg42_assault.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
 		<weapon key="beretta_m38.weapon" />
 <weapon key="ppsh41_stick.weapon" />
 	<weapon key="ppsh41.weapon" />

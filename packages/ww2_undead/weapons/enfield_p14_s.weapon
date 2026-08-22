@@ -8,18 +8,19 @@
 	retrigger_time="-1.0" 
 	accuracy_factor="0.99" 
 	sustained_fire_grow_step="1" 
-	stance_accuracy_rate="0.6"
+	stance_accuracy_rate="0.85"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Scoped P14" 
 	class="2" 
 	reload_one_at_a_time="1" 
-	projectile_speed="120.0" 
+	projectile_speed="130.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.3"
+
 	/>
+	<next_in_chain key="enfield_p14_is.weapon" share_ammo="1" />
 
 	<!-- scope zoom was 2.3 -->
 
@@ -47,7 +48,7 @@
 	<model filename="weapon_enfield_p14.xml" />
 	<hud_icon filename="hud_p1914_sniper.png" />
 	
-	<commonness value="0.045" can_respawn_with="1"/>
+	<commonness value="0.08" can_respawn_with="1"/>
 	<inventory encumbrance="8.0" price="80.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

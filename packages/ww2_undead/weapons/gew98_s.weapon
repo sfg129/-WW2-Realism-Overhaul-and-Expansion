@@ -15,10 +15,10 @@
 	name="Scoped Gewehr 98" 
 	class="2" 
 	reload_one_at_a_time="1" 
-	projectile_speed="130" 
+	projectile_speed="135" 
 	barrel_offset="0.7" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.3"
+	sight_range_modifier="2.6"
 	/>
 
 	<!-- scope zoom was 2.3 -->
@@ -48,7 +48,7 @@
 	<hud_icon filename="hud_g98_sniper.png" />
 	
 	<commonness value="0.045" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="1125.0" />
+	<inventory encumbrance="8.0" price="1250" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

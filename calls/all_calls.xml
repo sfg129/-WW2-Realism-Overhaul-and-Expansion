@@ -68,11 +68,13 @@
 	<call file="wh_inf_ai.call" />				<!-- AI calls are more expensive for solo play so players aren't overwelmed -->
 	<call file="wh_para_ai.call" />
 	<call file="wh_vehicle.call" />	<!-- Panzer IV -->
+	<call file="wh_vehicle_panther.call" />
 	<call file="wh_vehicle_panzer_hidden.call" />
 	<call file="wh_vehicle_stug.call" />
 	<call file="wh_vehicle_stug_hidden.call" />
 	<call file="wh_vehicle_sdkfz251.call" />
 	<call file="wh_vehicle_sdkfz251_hidden.call" />
+	<call file="wh_vehicle_tiger.call" />
 	<call file="wh_vehicle_tiger_hidden.call" />
 	<call file="wh_vehicle_king_tiger_hidden.call" />
 	<call file="wh_vehicle_luchs.call" />

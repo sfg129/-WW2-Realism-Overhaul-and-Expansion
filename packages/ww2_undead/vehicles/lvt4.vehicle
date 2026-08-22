@@ -1,4 +1,5 @@
-<vehicle name="LVT-4" key="lvt4.vehicle" respawn_time="80" time_to_live_unsteerable="60" map_view_atlas_index="35" minimum_fill_requirement="0.25" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="1" existence="one_per_spawn_point" owner="faction" ai_use_throwables="0">
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="LVT-4" key="lvt4.vehicle" respawn_time="80" time_to_live_unsteerable="60" map_view_atlas_index="35" minimum_fill_requirement="0.25" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="lvt4" />
@@ -12,14 +13,14 @@
 	
 	<!-- speed was 8, reverse 8 -->
 	<!-- due to its immense amount of anti-infantry firepower, reverse speed has been reduced dramatically -->
-	<control max_limiter_speed="4.0" max_speed="7.5" acceleration="8.0" max_reverse_speed="6.0" min_health_to_steer="0.55" max_rotation="1" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.99" tracked="1" gears="1" />
+	<control max_limiter_speed="4.0" max_speed="9.5" acceleration="8.0" max_reverse_speed="6.0" min_health_to_steer="0.55" max_rotation="1" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.99" tracked="1" gears="1" />
 
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-1.3" /> <!-- damage reduced so that it is immune to certain weapons or takes less damage from Flamethrowers -->
+	<modifier class="blast_damage" value="-1.1" /> <!-- damage reduced so that it is immune to certain weapons or takes less damage from Flamethrowers -->
 
 	<!-- collision_model_extent was 4.3 3.0 9.0 -->
-	<physics max_health="18.0" mass="150.0" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0.0 1.0 0.0" collision_model_extent="4.3 3.0 9.0" visual_offset="0 0.17 0.0"     broken_mass="10" 
+	<physics max_health="20" mass="150.0" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0.0 1.0 0.0" collision_model_extent="4.3 3.0 9.0" visual_offset="0 0.17 0.0"     broken_mass="10" 
     remove_collision_threshold="0.2" /> 
 	
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
@@ -69,8 +70,8 @@
 		<turret index="3" />
 	</character_slot>
 
-	</character_slot>
-	<character_slot type="passenger" hiding="0" allow_weapon="0">
+
+	<character_slot type="passenger" hiding="1" allow_weapon="0">
 		<state class="entering" position="-2.1 0.5 2.0" rotation="0.0" />
 		<state class="leaving" position="-2.1 0.5 2.0" rotation="-1.57" />
 		<state class="idle" animation_key="sitting, idling" rotation="0" position="-2.1 0.5 2.0" />

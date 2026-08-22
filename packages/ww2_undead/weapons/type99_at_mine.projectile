@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="Type 99 Magnetic AT" key="type99_at_mine.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.3">
+<projectile class="grenade" name="Type 99 Magnetic AT" key="type99_at_mine.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5">
 	<tag name="antitank_grenade" />
 	
 	<sound class="result" key="other" fileref="at_grenade_01.wav" volume="1.9" pitch_variety="0.1"/>  
@@ -15,7 +15,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="8.5"
+	damage="12"
 	push="0.4"
 	decal="1" 
 	
@@ -31,15 +31,20 @@
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 
-	max_speed="13.0" 
+	max_speed="14" 
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
-    <commonness value="0.35" />
+    <commonness value="0.7" />
     <inventory encumbrance="3.0" price="2.0" />
 	
 
-    <capacity value="4" source="rank" source_value="0" />
+    <capacity value="6" source="rank" source_value="0" />
+		<effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="terrain" ref="OstvetHitSparks" />
+    <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
+	<effect class="result" key="terrain" ref="HitTank" lighting="1" />
+   	<effect class="result" key="terrain" ref="HitTankSparks" />
 	
     	<effect class="result" key="terrain" ref="HandGrenadeSmokeTop" post_processing="1" />
     	<effect class="result" key="terrain" ref="HandGrenadeSmoke" post_processing="1" />

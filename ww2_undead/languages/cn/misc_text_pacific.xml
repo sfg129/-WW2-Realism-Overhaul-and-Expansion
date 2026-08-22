@@ -34,7 +34,7 @@
 	<text key="Roger, guns rotating to target." text="明白，炮塔已指向目标"/>
 	<text key="Barrage under way." text="火炮齐射！"/>
 	<text key="Shots out." text="开火！"/>
-	<text key="Reinforcements - US Army Squad" text="增援 - 陆军步兵小队"/>
+	<text key="Reinforcements - US Army Squad" text="增援 - 陆军步兵队"/>
 	<text key="Reinforcements - Banzai Charge" text="增援 - 敢死队"/>
 	<text key="Requesting reinforcements, Army rifle squad" text="请求增援 - 陆军步兵队"/>
 	<text key="Requesting reinforcements, banzai charge!" text="请求增援 - 敢死队"/>
@@ -42,10 +42,14 @@
 	<text key="US Army rifles deployed" text="陆军步兵队员集结完毕"/>
 	<text key="Banzai charge deployed" text="敢死队员集结完毕"/>
 	<text key="Reinforcements - M3 Stuart Light Tank" text="增援 - M3“斯图亚特”轻型坦克"/>
+
+	<text key="Reinforcements - M5A1 Stuart Light Tank" text="增援 - M5A1“斯图亚特”轻型坦克"/>
+
 	<text key="Reinforcements - Type 95 Ha-Go Light Tank" text="增援 - 95式轻战车"/>
 	<text key="Reinforcements - Type 1 Ho-Ha" text="增援 - 一式装甲运兵车"/>
 	<text key="Reinforcements - LVT-4 Water Buffalo" text="增援 - LVT-4“水牛”两栖战车"/>
 	<text key="Requesting reinforcements, M3 Stuart" text="请求增援M3“斯图亚特”轻型坦克"/>
+	<text key="Requesting reinforcements, M5A1 Stuart!" text="请求增援M5A1“斯图亚特”轻型坦克"/>
 	<text key="Requesting reinforcements, Type 95 Ha-Go" text="请求增援95式轻战车"/>
 	<text key="Requesting reinforcements, Type 1 Ho-Ha" text="请求增援一式装甲运兵车"/>
 	<text key="Requesting reinforcements, LVT-4" text="请求增援LVT-4“水牛”两栖战车"/>
@@ -56,11 +60,17 @@
 	<text key="Type 1 Ho-Ha deployed" text="一式装甲运兵车已部署"/>
 	<text key="Requesting Fire Mission" text="请求火力打击"/>
 	<text key="Light Mortars" text="轻型迫击炮"/>
+	<text key="Grenade discharger" text="掷弹筒"/>
+	<text key="grenade discharger" text="掷弹筒"/>
+
 	<text key="Heavy Rocket-Propelled Mortars" text="重型火箭迫击炮"/>
 	<text key="Roger, wait one." text="明白，1秒倒数"/>
 	<text key="Roger, wait two." text="明白，2秒倒数"/>
-	<text key="Rounds on the way." text="发射！"/>
+	<text key="Rounds on the way." text="开火！"/>
 	
+
+		<text key="Scoped Type 97 Tank MG" text="97式坦克机枪（瞄镜）"/>  
+		<text key="Type 97 Tank MG IS" text="97式坦克机枪（机械瞄具）"/>  
 	<!-- 1.70 -->
 	<text key="Reinforcements - Type 4 Ka-Tsu" text="增援 - 特四式内火艇"/>  
 	<text key="Requesting reinforcements, Type 4 Ka-Tsu" text="请求增援特四式内火艇"/>  
@@ -89,6 +99,7 @@
 	<text key="Prison hatch" text="监狱天窗"/>
 	<text key="PT Boat" text="鱼雷艇"/>
 	<text key="M3 Stuart" text="M3“斯图亚特”轻型坦克"/>
+		<text key="M5A1 Stuart" text="M5A1“斯图亚特”轻型坦克"/>
 	<text key="Submarine" text="潜艇"/>
 	<text key="Type 92 HMG" text="92式重机枪"/>
 	<text key="Type 98 Autocannon" text="98式20mm自动炮"/>
@@ -120,9 +131,10 @@
 	<text key="M1 Carbine" text="M1卡宾枪"/>
 	<text key="M1 Garand" text="M1“加兰德”半自动步枪"/>
 	<text key="M1 Garand Bayonet" text="M1“加兰德”半自动步枪（刺刀）"/>
-	<text key="field-modified rifle grenade" text="魔改枪榴弹"/>
+	<text key="field-modified rifle grenade" text="枪榴弹"/>
 	<text key="M1 Garand Field-Modified Launcher" text="M1加兰德-枪榴弹"/>
 	<text key="Scoped M1D Garand" text="M1C“加兰德”半自动狙击步枪"/>
+	<text key="Scoped M1D Garand IS" text="M1C“加兰德”半自动狙击步枪（机械瞄具）"/>
 	<text key="M1A1 Thompson" text="M1A1“汤普森”冲锋枪"/>
 	<text key="M2 Carbine" text="M2卡宾枪"/>
 	<text key="M2 Flamethrower" text="M2火焰喷射器"/>
@@ -144,10 +156,10 @@
 	<text key="M1928A1 Thompson w/ 50-round Drum" text="M1928A1“汤普森”冲锋枪（50发弹鼓）"/>
 	<text key="M1941 Johnson LMG" text="M1941“约翰逊”轻机枪"/>
 	<text key="M1941 Johnson Rifle" text="M1941“约翰逊”半自动步枪"/>
-	<text key="MkII Grenade" text="马克2型手榴弹"/>
+	<text key="MkII Grenade" text="MkII手榴弹"/>
 	<text key="Morphine" text="吗啡针"/>
 	<text key="light mortar shell" text="轻型迫击炮弹"/>
-	<text key="Type STE" text="MP-34（奥地利）冲锋枪"/>
+	<text key="Type STE" text="S1-100冲锋枪"/>
 	<text key="15-inch battleship shell" text="15英寸舰炮炮弹"/>
 	<text key="PT Boat dual .50 HMG" text="鱼雷艇双联装.50重机枪"/>
 	<text key="rocket mortar shell" text="重型迫击炮弹"/>
@@ -177,6 +189,7 @@
 	<text key="Type 97 Anti-Tank Rifle" text="97式反坦克步枪"/>
 	<text key="Type 97 Grenade" text="97式手榴弹"/>
 	<text key="Type 97 Sniper Rifle" text="97式狙击步枪"/>
+		<text key="Type 97 Sniper Rifle IS" text="97式狙击步枪（机械瞄具）"/>
 	<text key="Type 98 Autocannon" text="98式机关炮"/>
 	<text key="Type 98 AA deploy" text="98式机关炮部署包"/>
 	<text key="Type 99 Magnetic AT" text="99式磁性反坦克雷"/>
@@ -229,6 +242,7 @@
 	<text key="Type BE Bayonet" text="SIG1920冲锋枪（刺刀）"/>
 	<text key="Type 2 SMG" text="2式冲锋枪"/>
 	<text key="Type 99 Sniper Rifle" text="99式狙击步枪"/>
+		<text key="Type 99 Sniper Rifle IS" text="99式狙击步枪（机械瞄具）"/>
 	<text key="Mk3 Concussion Grenade" text="马克3型震撼弹"/>
 	<text key="M55 Reising Folded" text="M55“雷兴”冲锋枪（折叠枪托）"/>
 	<text key="T22 Garand" text="T22“加兰德”自动步枪"/>
@@ -239,6 +253,16 @@
 	<text key="Repair Kit" text="修理箱"/>
 	<text key="M1 Thompson" text="M1“汤普森”冲锋枪"/>
 	
+
+
+	<text key="M1917 HMG deploy" text="M1917重机枪部署包"/>
+	<text key="M1917 HMG" text="M1917重机枪"/>
+
+
+
+
+
+
 	<!-- appended -->
 	<text key="Veteran Durability, Lightly Injured" text="老兵（轻伤）"/>
 	<text key="Veteran Durability, Severely Injured" text="老兵（重伤）"/>
@@ -247,7 +271,7 @@
 	<text key="M1 Thompson" text="M1“汤普森”冲锋枪"/>
 	<text key="M1918A2 BAR Rapid Fire" text="M1918A2“勃朗宁”自动步枪（轻型|低射速）"/>
 	<text key="M1919A6 LMG - Mobile" text="M1919A6“勃朗宁”轻机枪（突击）"/>
-	<text key="Type STE Bayonet" text="MP-34（奥地利）冲锋枪（刺刀）"/>
+	<text key="Type STE Bayonet" text="S1-100冲锋枪（刺刀）"/>
 	<text key="Type 100 Bayonet" text="100式冲锋枪（刺刀）"/>
 	<text key="large wrench" text="大扳手"/>
 	<text key="small wrench" text="小扳手"/>
@@ -269,11 +293,18 @@
 	
 	<!-- 1.87 -->
 	<text key="Reinforcements - Type 97 Chi-Ha Kai" text="增援 - 97式改中战车"/>
-	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="请求增援97式改战车" />
+	<text key="Requesting reinforcements, Type 97 Chi-Ha Kai" text="请求增援97式改中战车" />
 	<text key="Type 97 Chi-Ha Kai deployed" text="97式改中战车已部署" />
 	
 	<text key="Type 97 Chi-Ha Kai" text="97式改中战车"/>
 	<text key="Fortified Turret" text="强化炮塔"/>
+
+
+	<text key="Reinforcements - Type 97 Chi-Ha" text="增援 - 97式中战车"/>
+	<text key="Requesting reinforcements, Type 97 Chi-Ha" text="请求增援97式中战车" />
+	<text key="Type 97 Chi-Ha deployed" text="97式中战车已部署" />
+	
+	<text key="Type 97 Chi-Ha" text="97式中战车"/>
 
 	<text key="M1 Garand w/ 60mm Launcher" text="M1加兰德-枪榴弹（60mm迫击炮弹）"/>
 	<text key="M1 Garand w/ 60mm Launcher - M9 AT" text="M1加兰德-枪榴弹（M9破甲弹）"/>
@@ -282,6 +313,7 @@
     <text key="Type Ko" text="试制甲式半自动步枪" />
     <text key="Type Ko Bayonet" text="试制甲式半自动步枪（刺刀）" />
     <text key="Scoped M1941 Johnson Rifle" text="M1941“约翰逊”半自动步枪（瞄镜）" />
+	<text key="Scoped M1941 Johnson Rifle IS" text="M1941“约翰逊”半自动步枪（机械瞄具）" />
 	<text key="Type 4 Rifle Bayonet" text="4式半自动步枪（刺刀）" />
 	<text key="Type 100 Folding Bayonet" text="100式冲锋枪（折叠枪托）（刺刀）" />
     <text key="Wasp MKII" text="黄蜂 Mk Ⅱ喷火型通用运输车"/>

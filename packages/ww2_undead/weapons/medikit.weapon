@@ -33,9 +33,9 @@
     <capacity value="1" source="rank" source_value="0.0" />
 
     <hud_icon filename="hud_medikit.png" />
-    <commonness value="0.2" />
-    <inventory encumbrance="0.5" price="1.0" />
-        <modifier class="detectability" value="-0.22" />
+    <commonness value="0.24" />
+    <inventory encumbrance="0.25" price="1.0" />
+        <modifier class="detectability" value="-0.12" />
     <modifier class="speed" value="+0.12" />    
 
 </weapon>

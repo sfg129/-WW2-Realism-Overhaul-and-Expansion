@@ -4,10 +4,10 @@
 <access_tag name="pacific" />
 
 	<specification 
-	retrigger_time="0.13" 
+	retrigger_time="0.12" 
 	accuracy_factor="0.85"
-  	spread_range="0.16"
-	sustained_fire_grow_step="3.0"
+  	spread_range="0.19"
+	sustained_fire_grow_step="1.5"
 	sustained_fire_diminish_rate="3.0"	
 	magazine_size="29" 
   	can_shoot_standing="1" 
@@ -20,7 +20,7 @@
 	/>
 
 	<!-- yep a handheld .50 cal HMG -->
-		<modifier class="speed" value="-0.12" />
+		<modifier class="speed" value="-0.18" />
  	<animation state_key="recoil" animation_key="recoil1, hip fire" />
  	<animation state_key="recoil" animation_key="recoil2, hip fire" />
  	<animation state_key="recoil" animation_key="recoil3, hip fire" />
@@ -41,10 +41,10 @@
 
 	<stance state_key="running" accuracy="0.3" />
 	<stance state_key="walking" accuracy="0.35" />
-	<stance state_key="standing" accuracy="0.6" />
-	<stance state_key="crouching" accuracy="0.7" />
-	<stance state_key="prone" accuracy="1" />
-	<stance state_key="over_wall" accuracy="1" />  
+	<stance state_key="standing" accuracy="0.65" />
+	<stance state_key="crouching" accuracy="0.75" />
+	<stance state_key="prone" accuracy="1.2" />
+	<stance state_key="over_wall" accuracy="1.2" />  
 	
 	<weak_hand_hold offset="0.4" />
 	
@@ -73,5 +73,5 @@ class="blast"
 	faction_compare="not_equal" />
 		
 	</projectile>
-	<modifier class="speed" value="-0.2" /> 
+
 </weapon>

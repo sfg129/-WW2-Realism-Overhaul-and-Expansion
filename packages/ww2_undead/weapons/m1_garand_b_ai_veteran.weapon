@@ -5,7 +5,7 @@
 	<specification 
 	retrigger_time="0.2" 
 	accuracy_factor="0.98" 
-	spread_range="0.285"
+
 	sustained_fire_grow_step="1.1" 
 	sustained_fire_diminish_rate="2.5"
 	stance_accuracy_rate="2"
@@ -30,9 +30,7 @@
 
 	<!--recoil recovery was 1.5-->
 	<!--kill probability was 0.75-->
-	
-	<stance state_key="prone" accuracy="0.96" /> 
-	<stance state_key="over_wall" accuracy="0.96" />
+
 	
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />

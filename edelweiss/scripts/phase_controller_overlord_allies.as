@@ -26,7 +26,11 @@ class AlliesOverlordPhase_Land : DefPhaseBase {
 		if (m_loadingFromSave) {
 			// trust that nothing needs to be re-set when loading from save
 			return;
-		}		
+		}
+
+		// Provide one Sherman when Overlord starts for the first time.
+		// Loading a saved match returns above, so this call is not repeated.
+		m_metagame.getComms().send("<command class='create_call' key='usf_vehicle_m4_sherman.call' position='528 3.5 798' faction_id='0' />");
 	}
 
 	protected void handleVehicleDestroyEvent(const XmlElement@ event) {

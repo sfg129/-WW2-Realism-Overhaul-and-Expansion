@@ -73,6 +73,38 @@
 		</attribute_config>
 		
 	</soldier>
+
+		<soldier name="mg" spawn_score="0.125">
+		<character filename="wh.character" />
+		<ai filename="default_mg.ai" />
+		<!-- the Herman Goering Panzergrenadiere do not have the bonus willingness to charge that the SS Panzergrenadiere do -->
+		
+		<models file="pzg_hg_sicily_default.models" />
+		
+		<resources file="common.resources" />
+		<resources file="pzg_hg_sicily_primaries_ai_mg.resources" />
+		<resources file="wh_normandy_secondaries_ai_mg.resources" />
+		<resources file="pzg_hg_sicily_default.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="100.0" max="200.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+		
+	</soldier>
 	
 	<!-- ============= -->
 	<!-- VETERAN GROUP -->

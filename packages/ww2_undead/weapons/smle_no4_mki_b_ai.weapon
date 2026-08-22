@@ -4,7 +4,7 @@
 
 	<specification 
 	retrigger_time="-1.0" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.98" 
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="1.2"
 	stance_accuracy_rate="2"
@@ -18,7 +18,7 @@
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
     stab_enabled="1"
-    stab_range="3.4"
+    stab_range="3.5"
 	/>
 
 	<!-- AI versions of these weapons are worse than player versions to reduce the frustration of getting insta-killed so often -->
@@ -45,7 +45,7 @@
 	<model filename="weapon_smle_no4_mki_bayonet.xml" />
 	<hud_icon filename="hud_no4_b.png" />
 	
-	<commonness value="0.1" can_respawn_with="1" in_stock="0"/>
+	<commonness value="0.08" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="8.0" price="2.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

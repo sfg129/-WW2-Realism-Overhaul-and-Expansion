@@ -7,7 +7,7 @@
 	<carry_item key='vest_sentry.carry_item' enabled="1" />  
 <carry_item key='vest_assault_webbing.carry_item' enabled="1" />  
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
-
+<carry_item key='vest_snlf.carry_item' enabled="1" />  
 	<weapon key="pak40_resource.weapon" />
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
 	<weapon key="panzerfaust.weapon" />

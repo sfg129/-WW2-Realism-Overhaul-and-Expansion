@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_secondary.weapon" key="smle_rifle_grenade_at.weapon">
-	<tag name="bazooka" />
-	
+
 	<specification 
 	retrigger_time="-1" 
-	spread_range="0.15"
+	spread_range="0.1"
 	accuracy_factor="1.0" 
 	sustained_fire_grow_step="3.0" 
 	sustained_fire_diminish_rate="1.0" 
@@ -35,9 +34,7 @@
 
 	<!-- This is a No. 1 Mk I Cup Discharger on a Mk III Rifle (it could not be attached to the No. 4 Rifle) firing a No. 68 AT Rifle Grenade. -->
 			<modifier class="speed" value="-0.05" />
-<stance state_key="standing" accuracy="0.85" />
-<stance state_key="crouching" accuracy="0.95" />
-	<stance state_key="prone" accuracy="0.95" />
+
 		<animation key="crouching" animation_key="rifle grenade crouch" />
 	<animation key="recoil" animation_key="rifle grenade recoil" />
 	<animation key="recoil" stance_key="over_wall" ref="27" />
@@ -57,7 +54,7 @@
 	<model filename="weapon_smle_rifle_grenade_at.xml" />
 	<hud_icon filename="hud_smle_mk3_at.png" />
 	
-	<commonness value="0.22"/>
+	<commonness value="0.2"/>
 	<inventory encumbrance="5.0" price="10" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -75,19 +72,6 @@
 	/>
 
 	
-	<!--
-	<stance state_key="running" accuracy="0.05" />
-	<stance state_key="walking" accuracy="0.2" />
-	<stance state_key="crouch_moving" accuracy="0.05" />
-	<stance state_key="prone_moving" accuracy="0.01" />
 	
-	<stance state_key="standing" accuracy="0.6" />
-	<stance state_key="crouching" accuracy="0.9" />
-	<stance state_key="prone" accuracy="1.0" />
-	<stance state_key="over_wall" accuracy="0.9" /> 
-	
-	<effect class="muzzle" ref="LawMuzzle" />
-	<effect class="muzzle" ref="UpDust" />
-	-->
 	
 </weapon>

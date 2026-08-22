@@ -8,4 +8,5 @@
 	<weapon key="m1928_thompson.weapon" />
 <weapon key="m1928_thompson_mag.weapon" />
 <weapon key="m1928a1_thompson_drum.weapon" />
+<weapon key="m1918.weapon" />
 </resources>

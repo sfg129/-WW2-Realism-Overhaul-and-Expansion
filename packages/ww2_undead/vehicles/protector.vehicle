@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vehicle name="" key="protector.vehicle" map_view_atlas_index="-1" jams_enemy_radio="0" existence="one_per_faction" reserves_spawn_point="1" protectors="8"  soldier_capacity_offset="8" respawn_time="86400.0" usable_for_cover="0" >
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
