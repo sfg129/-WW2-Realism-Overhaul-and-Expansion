@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="bullet" name="Fortified Turret" slot="1" pulldown_in_air="1.0" key="at_gun_fortified_turret_cannon.projectile">
+<projectile class="grenade" name="at gun shell" slot="2" key="at_gun_57mm.projectile" pulldown_in_air="2">
 	
-    <sound class="result" key="other" fileref="light_gun_01.wav" volume="2.40"  pitch_variety="0.1"/>
-    <sound class="result" key="other" fileref="light_gun_02.wav" volume="2.40" pitch_variety="0.1"/>
-    <sound class="result" key="other" fileref="light_gun_03.wav" volume="2.40" pitch_variety="0.1"/>
-    <sound class="result" key="other" fileref="light_gun_04.wav" volume="2.40" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_02.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_03.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="heavy_gun_04.wav" volume="2.45" pitch_variety="0.1"/>
 	
-    <sound class="result" key="terrain" copy="other" />
-    <sound class="result" key="static_object" copy="other" />
-    <sound class="result" key="vehicle" copy="other" />
-    <sound class="result" key="character" copy="other" />
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
 	
-    <trigger class="impact" />
-    <result 
-	class="blast" 
-	radius="4.5" 
-	damage="11.4" 
-	push="1.0" 
-	decal="1" 
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="5.5"
+	damage="13.6"
+	push="0.5"
+	decal="1"
         damage_origin_vehicle="0" 
-        faction_compare="not_equal" 
+		faction_compare="not_equal"
 	/>
 	
-    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+	<model mesh_filename="mortar_shell.xml" />
+	<commonness value="0.0" />
 	
     <rotation class="motion" />
-	
-    <commonness value="0.0" />
 	
     <effect class="result" key="terrain" ref="SmokeBurst" post_processing="1" />  
     <effect class="result" key="terrain" ref="BurstShine" lighting="0" />
@@ -45,6 +44,7 @@
 	<effect class="result" key="static_object" copy="terrain" />
 	<effect class="result" key="vehicle" copy="terrain" />
 	<effect class="result" key="character" copy="terrain" />
+	
 
 	
 </projectile>

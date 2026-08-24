@@ -18,7 +18,6 @@
 	push="1"
 	decal="1"
     faction_compare="not_equal"
-    camera_shake="0.2"
 	/>
 	
 	<model mesh_filename="mortar_shell.xml" />

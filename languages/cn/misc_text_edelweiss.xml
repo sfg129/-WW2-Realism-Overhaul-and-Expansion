@@ -32,7 +32,7 @@
 	<text key="Warrant Officer Class I" text="一级准尉"/>
 <text key="Bofors deploy" text="博福斯防空炮部署包"/>
 <text key="M5 ATgun deploy" text="M5反坦克炮部署包"/>
-<text key="QF 6-pounder deploy" text="QF 6磅反坦克炮部署包"/>
+<text key="QF 6-pounder deploy" text="QF-6 L/50反坦克炮部署包"/>
 <text key="M1 57mm AT gun deploy" text="M1 57毫米反坦克炮部署包"/>
 <text key="Pak 40 deploy" text="Pak40反坦克炮部署包"/>
 <text key="LeFH 18 deploy" text="LeFH 18轻型榴弹炮部署包"/>
@@ -60,9 +60,9 @@
 	<text key="MG 34 Tank MG" text="MG-34 坦克机枪"/>
 	<text key="Panzer IV cannon" text="四号坦克主炮"/>
 	<text key="M5 Anti-Tank Gun" text="M5反坦克炮"/>
-	<text key="QF 6-pounder Anti-Tank Gun" text="QF 6磅反坦克炮"/>
+	<text key="QF 6-pounder Anti-Tank Gun" text="QF-6 L/50反坦克炮"/>
 	<text key="M1 57mm Anti-Tank Gun" text="M1 57毫米反坦克炮"/>
-	<text key="QF 6-pounder Anti-Tank Gun deployed" text="QF 6磅反坦克炮已部署"/>
+	<text key="QF 6-pounder Anti-Tank Gun deployed" text="QF-6 L/50反坦克炮已部署"/>
 	<text key="M1 57mm Anti-Tank Gun deployed" text="M1 57毫米反坦克炮已部署"/>
 	<text key="at gun shell" text="反坦克炮炮弹"/>
 	<text key="Pak 40 Anti-Tank Gun" text="PaK-40反坦克炮"/>
