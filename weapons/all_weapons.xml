@@ -129,6 +129,14 @@
 		<capacity source="rank" source_value="0.0" value="1" />
 
 	</weapon>
+<weapon file="qf6_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
+<weapon file="m1_57mm_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
 <weapon file="pak40_resource.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 
@@ -251,6 +259,8 @@
 	<weapon file="universal_carrier_mg.weapon" />
 	<weapon file="universal_carrier_mg_dummy.weapon" />
 	<weapon file="at_gun_m5.weapon" />
+	<weapon file="at_gun_qf6.weapon" />
+	<weapon file="at_gun_m1_57mm.weapon" />
 	<weapon file="at_gun_pak40.weapon" />
 	<weapon file="at_gun_pak40_2.weapon" />    
 	<weapon file="m3_halftrack_mg.weapon" />

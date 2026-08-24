@@ -22,7 +22,8 @@
 	<!--<weapon key="sw_model10.weapon" />-->
 	<weapon key="morphine.weapon" />
 	<projectile key="mkii_grenade.projectile" />
-	<projectile key="satchel.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
+
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="m18_recoilless_rifle.weapon" />

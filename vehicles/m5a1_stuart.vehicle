@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="M5A1 Stuart" key="m5a1_stuart.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="33" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
+<vehicle name="M5A1 Stuart" key="m5a1_stuart.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="76" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="tank_treads" />

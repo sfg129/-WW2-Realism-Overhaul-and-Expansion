@@ -1,401 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<call
-	name=""
-	key="airstrike10.call"
-	initiation_comment1="Requesting Close Air Support"
-	initiation_comment2="strafing run advised"
-	acknowledge_time="3.0"
-	notify_metagame="1"
-	acknowledge_comment="Copy, target in sight"
-	launch_comment=""
-	show_target_marker="1" >
+<call name="" key="airstrike10.call" initiation_comment1="Requesting Close Air Support" initiation_comment2="strafing run advised" acknowledge_time="3.0" notify_metagame="1" acknowledge_comment="Copy, target in sight" launch_comment="" show_target_marker="0">
 
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="80"
-		launch_time="3.00"
-		spawn_time="5.00">
-	</round>
+	
 
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="80"
-		launch_time="3.00"
-		spawn_time="5.00">
-	</round>
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="77"
-		launch_time="3.05"
-		spawn_time="5.05">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="74"
-		launch_time="3.10"
-		spawn_time="5.10">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="74"
-		launch_time="3.10"
-		spawn_time="5.10">
-	</round>
+	
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="71"
-		launch_time="3.15"
-		spawn_time="5.15">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="68"
-		launch_time="3.20"
-		spawn_time="5.20">
-	</round>
+	
 
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="68"
-		launch_time="3.20"
-		spawn_time="5.20">
-	</round>
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="65"
-		launch_time="3.25"
-		spawn_time="5.25">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="62"
-		launch_time="3.30"
-		spawn_time="5.30">
-	</round>
+	
 
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="62"
-		launch_time="3.30"
-		spawn_time="5.30">
-	</round>
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="59"
-		launch_time="3.35"
-		spawn_time="5.35">
-	</round>
+	
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="56"
-		launch_time="3.40"
-		spawn_time="5.40">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="56"
-		launch_time="3.40"
-		spawn_time="5.40">
-	</round>
+	
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="53"
-		launch_time="3.45"
-		spawn_time="5.45">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="50"
-		launch_time="3.50"
-		spawn_time="5.50">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="50"
-		launch_time="3.50"
-		spawn_time="5.50">
-	</round>
+	
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="47"
-		launch_time="3.55"
-		spawn_time="5.55">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="44"
-		launch_time="3.60"
-		spawn_time="5.60">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="44"
-		launch_time="3.60"
-		spawn_time="5.60">
-	</round>
+	
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="41"
-		launch_time="3.65"
-		spawn_time="5.65">
-	</round>
+	
 
 
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="38"
-		launch_time="3.70"
-		spawn_time="5.70">
-	</round>
+	
 
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="38"
-		launch_time="3.70"
-		spawn_time="5.70">
-	</round>
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="35"
-		launch_time="3.75"
-		spawn_time="5.75">
-	</round>
+	
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="32"
-		launch_time="3.80"
-		spawn_time="5.80">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="32"
-		launch_time="3.80"
-		spawn_time="5.80">
-	</round>
+	
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="29"
-		launch_time="3.85"
-		spawn_time="5.85">
-	</round>
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="26"
-		launch_time="3.90"
-		spawn_time="5.90">
+	
+	
 
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="26"
-		launch_time="3.90"
-		spawn_time="5.90">
-	</round>
+	
 
-	<round
-		instances="1"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="23"
-		launch_time="3.95"
-		spawn_time="5.95">
-	</round>
+	
+	
 
-	<round
-		instances="2"
-		instance_class="grenade"
-		instance_key="strafing_run_50cal.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="20"
-		launch_time="4.00"
-		spawn_time="6.00">
-	</round>
-	<round
-		instances="4"
-		instance_class="grenade"
-		instance_key="strafing_run.projectile"
-		instance_spread="5 0 5"
-		common_spread="5 0 5"
-		horizontal_offset_at_spawn="0"
-		vertical_offset_at_spawn="20"
-		launch_time="4"
-		spawn_time="6">
-	</round>
-
-		<round
-		launch_time="9"
-		spawn_time="9">
-	<sound class="launch" fileref="airstrike_flyby.wav" />
-	</round>
-	<hud_icon filename="hud_airstrike2.png" />
+		
+	<round launch_time="3.10" spawn_time="5.00" /><hud_icon filename="hud_airstrike2.png" />
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="100" source="rank" source_value="0.6" />
 	<inventory encumbrance="0.0" price="650" />

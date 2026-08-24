@@ -54,7 +54,7 @@ stance_accuracy_rate="0.8"
 	<model filename="weapon_m9a1_bazooka.xml" />
 	<hud_icon filename="hud_m9a1_bazooka.png" />
 	
-	<commonness value="0.1" can_respawn_with="1"/>
+	<commonness value="0.16" can_respawn_with="1"/>
 	<inventory encumbrance="11.0" price="100.0" />
 	<capacity source="rank" source_value="0.0" value="1" />
 	<projectile file="m9a1_bazooka_rocket.projectile" />

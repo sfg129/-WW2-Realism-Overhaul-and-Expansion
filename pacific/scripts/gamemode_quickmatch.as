@@ -10,6 +10,7 @@
 #include "spawn_in_base_call_handler.as"
 #include "call_marker_tracker.as"
 #include "call_marker_configs.as"
+#include "airstrike_strafing_run.as"
 #include "rangefinder.as"
 
 //unlockable lists
@@ -41,6 +42,7 @@ class GameModeQuickMatch : GameMode {
 		
 		addTracker(BasicCommandHandler(this));
 		addTracker(CommandHandler(this));
+		addTracker(StrafingRun(this));
         addTracker(RangeFinder(this));
 
 		array<CallMarkerConfig@> configs = getCallMarkerConfigs();

@@ -32,6 +32,8 @@
 	<text key="Warrant Officer Class I" text="一级准尉"/>
 <text key="Bofors deploy" text="博福斯防空炮部署包"/>
 <text key="M5 ATgun deploy" text="M5反坦克炮部署包"/>
+<text key="QF 6-pounder deploy" text="QF 6磅反坦克炮部署包"/>
+<text key="M1 57mm AT gun deploy" text="M1 57毫米反坦克炮部署包"/>
 <text key="Pak 40 deploy" text="Pak40反坦克炮部署包"/>
 <text key="LeFH 18 deploy" text="LeFH 18轻型榴弹炮部署包"/>
 
@@ -58,6 +60,10 @@
 	<text key="MG 34 Tank MG" text="MG-34 坦克机枪"/>
 	<text key="Panzer IV cannon" text="四号坦克主炮"/>
 	<text key="M5 Anti-Tank Gun" text="M5反坦克炮"/>
+	<text key="QF 6-pounder Anti-Tank Gun" text="QF 6磅反坦克炮"/>
+	<text key="M1 57mm Anti-Tank Gun" text="M1 57毫米反坦克炮"/>
+	<text key="QF 6-pounder Anti-Tank Gun deployed" text="QF 6磅反坦克炮已部署"/>
+	<text key="M1 57mm Anti-Tank Gun deployed" text="M1 57毫米反坦克炮已部署"/>
 	<text key="at gun shell" text="反坦克炮炮弹"/>
 	<text key="Pak 40 Anti-Tank Gun" text="PaK-40反坦克炮"/>
 	<text key="M2HB M3 Halftrack" text="M3半履带装甲车 车载M2HB"/>
@@ -227,16 +233,13 @@
 	<text key="Maus" text="鼠式超重型坦克"/>
 	<text key="TOG II*" text="TOG II*重型坦克"/>
 	<text key="Repair Kit" text="修理箱"/>
+	<text key="Gammon bomb" text="加蒙炸弹"/>
+	<text key="Hawkins grenade" text="霍金斯手榴弹"/>
+
 
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
-	<text key="F6F strafing run advised" text="俯冲扫射攻击"/>
-	<text key="P47 strafing run advised" text="俯冲扫射攻击"/>
-	<text key="P38 strafing run advised" text="俯冲扫射攻击"/>
-	<text key="Spitfire strafing run advised" text="俯冲扫射攻击"/>
-	<text key="Tempest strafing run advised" text="俯冲扫射攻击"/>
-<text key="Zero A6M2 strafing run advised" text="俯冲扫射攻击"/>
-<text key="Zero A6M5 strafing run advised" text="俯冲扫射攻击"/>
-<text key="Fw 190 A-8 strafing run advised" text="俯冲扫射攻击"/>
+
+
 	<text key="Nebelwerfer Barrage" text="“喷烟者”弹幕攻击"/>
 	<text key="Nebelwerfers" text="“喷烟者”火箭炮"/>
 	<text key="T34 Calliope Barrage" text="T34“风琴”火箭弹幕攻击"/>
@@ -324,7 +327,7 @@
 	<text key="Reinforcements - Panzer IV" text="增援 - 四号中型坦克"/>
 	<text key="Requesting reinforcements, Panzer IV" text="请求增援，四号中型坦克"/>
 	<text key="Panzer IV deployed" text="四号中型坦克已部署"/>
-	<text key="Reinforcements - Panther" text="增援 - 豹式坦克"/>
+	<text key="Reinforcements - Panther" text="增援 - 豹式中型坦克"/>
 	<text key="Requesting reinforcements, Panther" text="请求增援，豹式中型坦克"/>
 	<text key="Panther deployed" text="豹式中型坦克已部署"/>
 		<text key="Panther" text="豹式中型坦克"/>

@@ -247,32 +247,6 @@ class MyGameMode : GameModeCampaign {
 
 		{
 			array<Resource@> resources = {
-				Resource("airstrike.call", "call"),
-				Resource("airstrike1.call", "call"),
-				Resource("airstrike2.call", "call")				
-			};
-			array<string> targetKeys = {
-				'aa_gun.vehicle',
-				'aa_gun2.vehicle'
-			};
-			addTracker(MultitargetResourceController(this, targetKeys, resources, sorting));
-		}
-		
-		{
-			array<Resource@> resources = {
-				Resource("artillery.call", "call"),
-				Resource("artillery1.call", "call")
-			};
-			array<string> targetKeys = {
-				'coastal_gun.vehicle',
-				'coastal_gun2.vehicle',
-				'coastal_gun3.vehicle'    
-			};
-			addTracker(MultitargetResourceController(this, targetKeys, resources, sorting));
-		}
-
-		{
-			array<Resource@> resources = {
 				Resource("artillery1.call", "call")
 			};
 			array<string> targetKeys = {
@@ -393,9 +367,6 @@ class MyGameMode : GameModeCampaign {
 			};
 		addTracker(GenericDestroyObjectiveInstructor(this, vehicles));
 		*/
-		// aa_gun* and coastal_gun* would need to be handled via MultitargetResourceController
-		// to get hint comment at spot event happen only for one of the targets and
-		// make the congrats comment happen only once all of them are destroyed
 	}
 		
 }

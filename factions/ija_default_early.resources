@@ -15,8 +15,9 @@
 	<vehicle key="soukoutei.vehicle" />
 	<vehicle key="suki.vehicle" />
 
-	<call key="mortar5.call" />
+	
 	<call key="mortar1.call" />
+	<call key="mortar5.call" />
 	<call key="airstrike8.call" />
 
 	<call key="airstrike1.call" />

@@ -25,7 +25,7 @@
 	<vehicle key="m3_halftrack.vehicle" />
 <vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
-<call key="airstrike6.call" />
+	<call key="airstrike6.call" />
 
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />

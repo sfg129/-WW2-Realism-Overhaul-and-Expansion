@@ -40,7 +40,7 @@
 <call key="airstrike11.call" />
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
-	<call key="airstrike2.call" />
+
 	<call key="artillery.call" />
 	<call key="wh_para.call" />
 	<call key="usf_para_armoury.call" />

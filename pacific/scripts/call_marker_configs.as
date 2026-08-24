@@ -19,18 +19,9 @@ array<CallMarkerConfig@> getCallMarkerConfigs() {
 		CallMarkerConfig("artillery3.call", 9, 1.0, 80.0),
 		CallMarkerConfig("artillery4.call", 8, 1.0, 30.0),
 
-		// airstrike2.call is handled by StrafingRun and creates its own marker.
+		// airstrike2.call through airstrike11.call are handled by StrafingRun and create their own markers.
 		CallMarkerConfig("airstrike.call", 10, 0.5, 25.0),
 		CallMarkerConfig("airstrike1.call", 11, 0.5, 12.0),
-		CallMarkerConfig("airstrike3.call", 3, 0.5, 10.0),
-		CallMarkerConfig("airstrike4.call", 3, 0.5, 10.0),
-		CallMarkerConfig("airstrike5.call", 3, 0.5, 3.0),
-		CallMarkerConfig("airstrike6.call", 3, 0.5, 4.0),
-		CallMarkerConfig("airstrike7.call", 3, 0.5, 5.0),
-		CallMarkerConfig("airstrike8.call", 3, 0.5, 4.0),
-		CallMarkerConfig("airstrike9.call", 3, 0.5, 5.0),
-		CallMarkerConfig("airstrike10.call", 3, 0.5, 10.0),
-		CallMarkerConfig("airstrike11.call", 3, 0.5, 10.0),
 		CallMarkerConfig("airstrike12.call", 11, 0.5, 2.0)
 	};
 

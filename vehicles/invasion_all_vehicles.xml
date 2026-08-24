@@ -53,6 +53,8 @@
 	<vehicle file="vickers_hmg.vehicle" />
 	<vehicle file="m2hb_hmg.vehicle" />
 	<vehicle file="at_gun_m5.vehicle" />
+	<vehicle file="at_gun_qf6.vehicle" />
+	<vehicle file="at_gun_m1_57mm.vehicle" />
 	<vehicle file="at_gun_pak40.vehicle" />
 	<vehicle file="at_gun_pak40_2.vehicle" />    
 	<vehicle file="austin_k5.vehicle" />

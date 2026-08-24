@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="qf6_resource_base.weapon" key="qf6_resource.weapon">
+	<specification name="QF 6-pounder deploy" spawn_instance_key="at_gun_qf6.vehicle" />
+</weapon>

@@ -25,6 +25,7 @@
 <vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
 	<call key="airstrike6.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="ukf_para_no_parachuting.call" />

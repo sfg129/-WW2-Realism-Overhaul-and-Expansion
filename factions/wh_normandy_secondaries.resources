@@ -16,7 +16,7 @@
 	<weapon key="p08.weapon" />
 <weapon key="kar98k2.weapon" />
 	<weapon key="kar98k2_b.weapon" />
-<weapon key="lefh18_resource.weapon" />
+
 
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />

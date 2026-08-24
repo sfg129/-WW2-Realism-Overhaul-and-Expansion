@@ -7,12 +7,12 @@
 #include "my_item_delivery_configurator_ija.as"
 #include "my_vehicle_delivery_configurator.as"
 #include "music_tracker.as"
-#include "multitarget_resource_controller.as"
 #include "call_sorting.as"
 #include "spawn_in_base_call_handler.as"
 #include "command_handler.as"
 #include "call_marker_tracker.as"
 #include "call_marker_configs.as"
+#include "airstrike_strafing_run.as"
 #include "rangefinder.as"
 #include "my_unlock_manager.as"
 #include "unlock_customizations.as"
@@ -241,32 +241,6 @@ class MyGameMode : GameModeCampaign {
 		addTracker(m_musicTracker);
 		m_musicTracker.reset();
 
-		array<string> sorting = getCallSorting();
-
-		{
-			array<Resource@> resources = {
-				Resource("airstrike.call", "call"),
-				Resource("airstrike1.call", "call")
-			};
-			array<string> targetKeys = {
-				'aa_gun.vehicle',
-				'aa_gun2.vehicle'
-			};
-			addTracker(MultitargetResourceController(this, targetKeys, resources, sorting));
-		}
-		
-		{
-			array<Resource@> resources = {
-				Resource("artillery.call", "call"),
-				Resource("artillery1.call", "call")
-			};
-			array<string> targetKeys = {
-				'coastal_gun.vehicle',
-				'coastal_gun2.vehicle',
-				'coastal_gun3.vehicle'    
-			};
-			addTracker(MultitargetResourceController(this, targetKeys, resources, sorting));
-		}
 	}
 
 /*
@@ -367,9 +341,6 @@ class MyGameMode : GameModeCampaign {
 			};
 		addTracker(GenericDestroyObjectiveInstructor(this, vehicles));
 		*/
-		// aa_gun* and coastal_gun* would need to be handled via MultitargetResourceController
-		// to get hint comment at spot event happen only for one of the targets and
-		// make the congrats comment happen only once all of them are destroyed
 	}
 		
 	// --------------------------------------------
@@ -379,6 +350,7 @@ class MyGameMode : GameModeCampaign {
 
 	// --------------------------------------------
 	protected void setupExperimentalFeatures() {
+		addTracker(StrafingRun(this));
         	addTracker(RangeFinder(this));
 		addTracker(Emoticons(this));
 	}

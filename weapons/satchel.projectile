@@ -20,7 +20,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="11"
+	damage="8.5"
 	push="0.4"
 	decal="1"
 	faction_compare="not_equal" />
@@ -38,8 +38,8 @@
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
-    <commonness value="0.5" />
-    <inventory encumbrance="3.0" price="4.0" />
+    <commonness value="0.25" />
+    <inventory encumbrance="2.0" price="4.0" />
 	
 
     <capacity value="6" source="rank" source_value="0" />

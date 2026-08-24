@@ -18,15 +18,20 @@ class StrafeRequest {
 	int m_direction;
 	int m_callId;
 	int m_factionId;
+	string m_callKey;
 	float m_shadowTimer = 2.0;
 	bool m_shadowRun = false;
+	bool m_started = false;
+	bool m_flybySoundPending = false;
+	float m_flybyTimer = 0.0;
 	
-	StrafeRequest(int characterId, Vector3 targetPos, int direction, int callId, int factionId){
+	StrafeRequest(int characterId, Vector3 targetPos, int direction, int callId, int factionId, string callKey){
 		m_characterId = characterId;
 		m_targetPos = targetPos;
 		m_direction = direction;
 		m_callId = callId;
 		m_factionId = factionId;
+		m_callKey = callKey;
 	}
 }
 
@@ -46,7 +51,8 @@ protected void handleCallEvent(const XmlElement@ event) {
     // Hey we got a call!
 
     // Check call key
-    if (event.getStringAttribute("call_key") == "airstrike2.call") {
+	string callKey = event.getStringAttribute("call_key");
+    if (callKey == "airstrike2.call" || callKey == "airstrike3.call" || callKey == "airstrike4.call" || callKey == "airstrike5.call" || callKey == "airstrike6.call" || callKey == "airstrike7.call" || callKey == "airstrike8.call" || callKey == "airstrike9.call" || callKey == "airstrike10.call" || callKey == "airstrike11.call") {
 		string phase = event.getStringAttribute("phase");
 		
 		int callId = event.getIntAttribute("id");
@@ -64,7 +70,7 @@ protected void handleCallEvent(const XmlElement@ event) {
 			//determining on which direction out of the 12 the current call fits the most
 			int direction = gunRunDirection(senderPos, targetPos);
 
-			StrafeRequest@ thisCall = StrafeRequest(characterId, targetPos, direction, callId, factionId);
+			StrafeRequest@ thisCall = StrafeRequest(characterId, targetPos, direction, callId, factionId, callKey);
 			
 			//placing ground marker and flag
 			addMarker(thisCall);
@@ -94,10 +100,53 @@ protected void handleCallEvent(const XmlElement@ event) {
 				if (StrafeQueue[i].m_callId == callId){
 					//starting timer for the shadow
 					m_running = true;
-					StrafeQueue[i].m_shadowRun = true;
+					StrafeQueue[i].m_started = true;
 					
 					//launching projectiles and removing the marker
-					gunRunLaunchProjectiles(StrafeQueue[i], 40, "strafing_run.projectile", 4.0);
+					if (StrafeQueue[i].m_callKey == "airstrike3.call") {
+						// Spawn one complete trajectory. The small height step makes all
+						// 126 impacts sweep across the route in roughly half a second.
+						// 0.1977 compensates for the height gradient and reduces the
+						// actual spacing between adjacent impacts by 10%.
+						gunRunLaunchProjectiles(StrafeQueue[i], 126, "strafing_run_50cal.projectile", 4.0, 0.1977, 0.12);
+						StrafeQueue[i].m_flybySoundPending = true;
+						// The calibrated base flight is about 0.66 seconds. A 0.5 second
+						// sweep puts the last impact at about 0.91 seconds; wait 2.8 more.
+						StrafeQueue[i].m_flybyTimer = 3.71;
+					} else if (StrafeQueue[i].m_callKey == "airstrike4.call") {
+						// Original payload: 21 rounds x 8 bullets = 168 bullets.
+						// 0.06185 compensates for the height gradient and reduces the
+						// current actual spacing by another 20% (36% below the original).
+						gunRunLaunchProjectiles(StrafeQueue[i], 168, "strafing_run_50cal.projectile", 4.0, 0.06185, 0.12);
+						StrafeQueue[i].m_flybySoundPending = true;
+						StrafeQueue[i].m_flybyTimer = 3.71;
+					} else if (StrafeQueue[i].m_callKey == "airstrike5.call") {
+						// Spawn the full mixed payload at once; height offsets create a 0.5-second sweep.
+						gunRunLaunchHeightSweep(StrafeQueue[i], "airstrike5.call");
+						StrafeQueue[i].m_flybySoundPending = true;
+						StrafeQueue[i].m_flybyTimer = 3.71;
+					} else if (StrafeQueue[i].m_callKey == "airstrike6.call" || StrafeQueue[i].m_callKey == "airstrike7.call") {
+						gunRunLaunchHeightSweep(StrafeQueue[i], StrafeQueue[i].m_callKey);
+						StrafeQueue[i].m_flybySoundPending = true;
+						if (StrafeQueue[i].m_callKey == "airstrike7.call") {
+							StrafeQueue[i].m_flybyTimer = 5.5;
+						} else {
+							StrafeQueue[i].m_flybyTimer = 3.5;
+						}
+					} else if (StrafeQueue[i].m_callKey == "airstrike8.call" || StrafeQueue[i].m_callKey == "airstrike9.call" || StrafeQueue[i].m_callKey == "airstrike10.call" || StrafeQueue[i].m_callKey == "airstrike11.call") {
+						gunRunLaunchHeightSweep(StrafeQueue[i], StrafeQueue[i].m_callKey);
+						StrafeQueue[i].m_flybySoundPending = true;
+						if (StrafeQueue[i].m_callKey == "airstrike8.call") {
+							StrafeQueue[i].m_flybyTimer = 3.0;
+						} else if (StrafeQueue[i].m_callKey == "airstrike10.call" || StrafeQueue[i].m_callKey == "airstrike11.call") {
+							StrafeQueue[i].m_flybyTimer = 4.0;
+						} else {
+							StrafeQueue[i].m_flybyTimer = 3.5;
+						}
+					} else {
+						StrafeQueue[i].m_shadowRun = true;
+						gunRunLaunchProjectiles(StrafeQueue[i], 40, "strafing_run.projectile", 4.0);
+					}
 					removeMarker(StrafeQueue[i]);
 					break;
 				}
@@ -116,11 +165,21 @@ protected void handleCallEvent(const XmlElement@ event) {
 				if (StrafeQueue[i].m_shadowTimer < 0.0) {
 					//spawning the plane shadow
 					gunRunShadow(StrafeQueue[i]);
-					
-					//removing completed request
-					StrafeQueue.removeAt(i);
-					--i;
+					StrafeQueue[i].m_shadowRun = false;
 				}
+			}
+
+			if (StrafeQueue[i].m_flybySoundPending == true) {
+				StrafeQueue[i].m_flybyTimer -= time;
+				if (StrafeQueue[i].m_flybyTimer < 0.0) {
+					m_metagame.getComms().send("<command class='play_sound' filename='airstrike_flyby.wav' position='" + StrafeQueue[i].m_targetPos.toString() + "' />");
+					StrafeQueue[i].m_flybySoundPending = false;
+				}
+			}
+
+			if (StrafeQueue[i].m_started && !StrafeQueue[i].m_shadowRun && !StrafeQueue[i].m_flybySoundPending) {
+				StrafeQueue.removeAt(i);
+				--i;
 			}
 		}
 		if (StrafeQueue.length() == 0) m_running = false;
@@ -179,7 +238,8 @@ protected void handleCallEvent(const XmlElement@ event) {
 		command.setStringAttribute("class", "set_marker");
 		command.setIntAttribute("id", flagId);
 		command.setIntAttribute("enabled", 0);
-		command.setIntAttribute("faction_id", 0);
+		// A marker is identified within the faction that created it.
+		command.setIntAttribute("faction_id", StrafeRequest.m_factionId);
 	m_metagame.getComms().send(command);
   }
   
@@ -242,7 +302,95 @@ protected void handleCallEvent(const XmlElement@ event) {
       m_metagame.getComms().send(c);
     }
   }
-  
+
+  void gunRunLaunchHeightSweep(StrafeRequest@ StrafeRequest, string callKey) {
+	if (callKey == "airstrike5.call") {
+		gunRunLaunchHeightSeries(StrafeRequest, 66, "strafing_run_50cal.projectile", 2.0);
+		gunRunLaunchHeightBatchSeries(StrafeRequest, 11, 2, false, "strafing_run.projectile", 2.0, 0.0);
+	} else if (callKey == "airstrike6.call") {
+		gunRunLaunchHeightSeries(StrafeRequest, 42, "strafing_run_50cal.projectile", 4.0);
+		gunRunLaunchHeightSeries(StrafeRequest, 22, "strafing_run.projectile", 5.0);
+	} else if (callKey == "airstrike7.call") {
+		gunRunLaunchHeightSeries(StrafeRequest, 42, "strafing_run.projectile", 5.0);
+	} else if (callKey == "airstrike8.call") {
+		gunRunLaunchHeightSeries(StrafeRequest, 84, "strafing_run_mg.projectile", 4.0);
+	} else if (callKey == "airstrike9.call") {
+		gunRunLaunchHeightSeries(StrafeRequest, 42, "strafing_run_mg.projectile", 5.0);
+		gunRunLaunchHeightSeries(StrafeRequest, 16, "strafing_run.projectile", 5.0);
+	} else if (callKey == "airstrike10.call" || callKey == "airstrike11.call") {
+		gunRunLaunchHeightBatchSeries(StrafeRequest, 21, 1, true, "strafing_run_50cal.projectile", 5.0, 5.0);
+		gunRunLaunchHeightBatchSeries(StrafeRequest, 11, 4, false, "strafing_run.projectile", 5.0, 5.0);
+	}
+  }
+
+  void gunRunLaunchHeightSeries(StrafeRequest@ StrafeRequest, int number, string instanceKey, float spread) {
+	int characterId = StrafeRequest.m_characterId;
+	Vector3 targetPos = StrafeRequest.m_targetPos;
+	Vector3 direction = gunRunVector(StrafeRequest.m_direction);
+	int factionId = StrafeRequest.m_factionId;
+	Vector3 projectileSpeed = Vector3(-direction.get_opIndex(0), -1, -direction.get_opIndex(2));
+	float heightStep = 30.303 / float(number - 1);
+	float impactSpacing = 28.52016 / float(number - 1);
+
+	for (int shot = 0; shot < number; shot++) {
+		float j = float(shot) - float(number - 1) / 2.0;
+		float launchHeight = 40.0 + j * heightStep;
+		Vector3 basePos = targetPos.subtract(direction.scale(j * impactSpacing - launchHeight));
+		basePos.m_values[1] += launchHeight;
+		gunRunLaunchProjectileAt(StrafeRequest, basePos, projectileSpeed, factionId, characterId, instanceKey, spread);
+	}
+  }
+
+  void gunRunLaunchHeightBatchSeries(StrafeRequest@ StrafeRequest, int positions, int batchSize, bool alternateOneTwo, string instanceKey, float instanceSpread, float commonSpread) {
+	int characterId = StrafeRequest.m_characterId;
+	Vector3 targetPos = StrafeRequest.m_targetPos;
+	Vector3 direction = gunRunVector(StrafeRequest.m_direction);
+	int factionId = StrafeRequest.m_factionId;
+	Vector3 projectileSpeed = Vector3(-direction.get_opIndex(0), -1, -direction.get_opIndex(2));
+	float heightStep = 30.303 / float(positions - 1);
+	float impactSpacing = 28.52016 / float(positions - 1);
+
+	for (int position = 0; position < positions; position++) {
+		float j = float(position) - float(positions - 1) / 2.0;
+		float launchHeight = 40.0 + j * heightStep;
+		Vector3 basePos = targetPos.subtract(direction.scale(j * impactSpacing - launchHeight));
+		basePos.m_values[1] += launchHeight;
+		int count = batchSize;
+		if (alternateOneTwo) {
+			count = 1;
+			if (position % 2 == 0) count = 2;
+		}
+		gunRunLaunchBatch(StrafeRequest, basePos, projectileSpeed, factionId, characterId, count, instanceKey, instanceSpread, commonSpread);
+	}
+  }
+
+  void gunRunLaunchBatch(StrafeRequest@ StrafeRequest, Vector3 basePos, Vector3 projectileSpeed, int factionId, int characterId, int count, string instanceKey, float instanceSpread, float commonSpread) {
+	Vector3 batchPos = Vector3(
+		basePos.get_opIndex(0) + rand(-commonSpread, commonSpread),
+		basePos.get_opIndex(1),
+		basePos.get_opIndex(2) + rand(-commonSpread, commonSpread));
+	for (int shot = 0; shot < count; shot++) {
+		gunRunLaunchProjectileAt(StrafeRequest, batchPos, projectileSpeed, factionId, characterId, instanceKey, instanceSpread);
+	}
+  }
+
+  void gunRunLaunchProjectileAt(StrafeRequest@ StrafeRequest, Vector3 basePos, Vector3 projectileSpeed, int factionId, int characterId, string instanceKey, float spread) {
+	Vector3 newPos = Vector3(
+		basePos.get_opIndex(0) + rand(-spread, spread),
+		basePos.get_opIndex(1),
+		basePos.get_opIndex(2) + rand(-spread, spread));
+
+	string c =
+		"<command class='create_instance'" +
+		" faction_id='" + factionId + "'" +
+		" instance_class='grenade'" +
+		" instance_key='" + instanceKey + "'" +
+		" position='" + newPos.toString() + "'" +
+		" character_id='" + characterId + "'" +
+		" offset='" + projectileSpeed.toString() + "' />";
+	m_metagame.getComms().send(c);
+  }
+
 	bool hasEnded() const {
 		// always on
 		return false;

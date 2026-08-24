@@ -14,7 +14,7 @@
 	<trigger class="time" time_to_live="4"/>
 	<result
 	class="blast"
-	radius="7"
+	radius="6.6"
 	damage="1.6"
 	push="0.3"
 	decal="1"

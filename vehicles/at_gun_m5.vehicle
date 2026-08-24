@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="M5 Anti-Tank Gun" key="at_gun_m5.vehicle" map_view_atlas_index="14" respawn_time="240.0" reserves_spawn_point="1" soldier_capacity_offset="3" protectors="3" usable_for_cover="0">
+<vehicle name="M5 Anti-Tank Gun" key="at_gun_m5.vehicle" map_view_atlas_index="14" respawn_time="240.0" reserves_spawn_point="1" soldier_capacity_offset="3" protectors="3" usable_for_cover="1">
 <tag name="at_gun" />
 
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />

@@ -75,12 +75,12 @@
         <result
 		class="blast"
     radius="2"
-       damage="4.2"
+       damage="4.8"
     push="0.1"
     decal="1"
 		faction_compare="not_equal"/>
 	</projectile>
 	
-	<modifier class="speed" value="-0.175" />
+	<modifier class="speed" value="-0.16" />
 	
 </weapon>

@@ -7,7 +7,7 @@
 	
 	<projectile key="mk3_grenade.projectile" />
 	<projectile key="mkii_grenade.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
 	<projectile key="satchel.projectile" />
-	
 	
 </resources>

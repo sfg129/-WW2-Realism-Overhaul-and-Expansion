@@ -11,6 +11,7 @@
 <carry_item key='vest_snlf.carry_item' enabled="1" />  
 <weapon key="m3_greasegun_folded.weapon" />
 		<weapon key="m5_resource.weapon" />
+		<weapon key="m1_57mm_resource.weapon" />
 		<weapon key="bofors_resource.weapon" />
 	<weapon key="m1903_at_launcher.weapon" />
 	<weapon key="m1_bazooka.weapon" />
@@ -20,7 +21,8 @@
 	<!--<weapon key="sw_model10.weapon" />-->
 	<weapon key="morphine.weapon" />
 	<projectile key="mkii_grenade.projectile" />
-	<projectile key="satchel.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
+
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="m18_recoilless_rifle.weapon" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="at_gun_qf6_base.weapon" key="at_gun_qf6.weapon">
+	<specification name="QF 6-pounder Anti-Tank Gun" />
+</weapon>

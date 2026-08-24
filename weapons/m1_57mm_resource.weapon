@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="qf6_resource_base.weapon" key="m1_57mm_resource.weapon">
+	<specification name="M1 57mm AT gun deploy" spawn_instance_key="at_gun_m1_57mm.vehicle" />
+</weapon>

@@ -20,7 +20,7 @@
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
-	<modifier class="blast_damage" value="-4.8" />
+	<modifier class="blast_damage" value="-4.4" />
 	<physics max_health="36" blast_damage_threshold="3.7" mass="900.0"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
+<projectile file="hawkins_grenade.projectile"/>
+<projectile file="gammon_bomb.projectile"/>
 	<projectile file="m4_cannon_76.projectile"/>
 	<projectile file="chi_ha_cannon_early.projectile"/>
 	<projectile file="rg42_grenade.projectile"/>
