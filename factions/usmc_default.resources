@@ -5,6 +5,7 @@
  	<vehicle key="lvt4.vehicle" />
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m1919_hmg_t.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
 	<vehicle key="landing_craft_noai.vehicle" />  
 	<vehicle key="armory_higgins.vehicle" />   
@@ -21,8 +22,10 @@
 
 <vehicle key="m5a1_stuart.vehicle" />
 
-<vehicle key="stuart_recce.vehicle" />
+
 <vehicle key="m3_halftrack_mortar.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_m1_57mm.vehicle" />
 <call key="airstrike3.call" />
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />

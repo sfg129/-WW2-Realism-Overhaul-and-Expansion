@@ -7,6 +7,7 @@
  	<vehicle key="stuart_damaged.vehicle" />
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="vickers_hmg.vehicle" />
+	<vehicle key="vickers_hmg_t.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
 	<vehicle key="landing_craft_noai.vehicle" />  
 	<vehicle key="armory_higgins.vehicle" />   
@@ -25,6 +26,8 @@
 
 
 	<vehicle key="m3_halftrack.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_qf6.vehicle" />
 	<call key="airstrike6.call" />
 
 	<call key="airstrike.call" />

@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="at_gun_qf6_base.weapon" key="at_gun_qf6.weapon">
-	<specification name="QF 6-pounder Anti-Tank Gun" />
+<weapon key="at_gun_qf6.weapon">
+	<specification
+		spread_range="0.3"
+		retrigger_time="4.25"
+		accuracy_factor="0.9"
+		sustained_fire_grow_step="1.0"
+		sustained_fire_diminish_rate="0.3"
+		sight_range_modifier="2.5"
+		ai_sight_range_modifier="0.75"
+		magazine_size="-1"
+		can_shoot_standing="0"
+		can_shoot_crouching="0"
+		suppressed="0"
+		name="QF 6-pounder Anti-Tank Gun"
+		class="0"
+		projectile_speed="140.0"
+		slot="2"
+		barrel_offset="4.1"
+		sight_height_offset="3.6"
+		projectiles_per_shot="1" />
+
+	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+	<target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+	<target_factors tag="medium_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+	<target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="4.0" />
+	<target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+
+	<model mesh_filename="qf6_cannon.mesh" texture_filename="qf6.png" />
+	<hud_icon filename="hud_coastal_gun.png" />
+	<!-- extent order used by RWR weapon shields is depth, height, width. -->
+	<shield offset="0 0 0" extent="0.8 1.45 2.0" />
+	<commonness value="0.0" />
+
+	<projectile file="at_gun_57mm.projectile" />
+
+	<effect class="muzzle" ref="BiggerMuzzle" />
+	<effect class="muzzle" ref="CannonSmokeBig" />
+	<effect class="muzzle" ref="CannonSmokeBigSphere" />
+		<sound class="operation" key="fire" fileref="tank_cannon_light.wav" pitch_variety="0.05" volume="2.65"/>
 </weapon>

@@ -11,7 +11,7 @@
 		<hud_icon filename="hud_m3_halftrack.png" />
 		<capacity value="0" source="rank" source_value="0.0" />
 		<capacity value="100" source="rank" source_value="0.15" />
-		<inventory encumbrance="0.0" price="450.0" />
+		<inventory encumbrance="0.0" price="400" />
 		
 	</call>
   
@@ -29,7 +29,7 @@
 		initial_speed_to_target="0.0">
 		</round>
 		
-		<inventory encumbrance="0.0" price="450.0" />
+		<inventory encumbrance="0.0" price="400" />
 		
 	</call>
 	

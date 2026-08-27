@@ -27,7 +27,7 @@ ai_navigation_offset="0.0">
 	<tire_set offset="1.8 0.0 +3.0" radius="0.52" />
 	<tire_set offset="1.8 0.0 -3.0" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="6.5" acceleration="7.5" max_reverse_speed="6.5" min_health_to_steer="0.5" max_rotation="0.0" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5" />
+	<control max_limiter_speed="4.0" max_speed="6.5" acceleration="7.5" max_reverse_speed="6" min_health_to_steer="0.5" max_rotation="0.0" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
@@ -50,7 +50,7 @@ ai_navigation_offset="0.0">
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_cannon.weapon" weapon_offset="-0.08 0.58 2.93" weapon_recoil="0.2" max_rotation_step="0.000015" />
+	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_cannon.weapon" weapon_offset="-0.08 0.68 2.93" weapon_recoil="0.2" max_rotation_step="0.000015" />
 
 	<turret offset="-0.81 2.04 3.2" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.6" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 
@@ -183,4 +183,5 @@ ai_navigation_offset="0.0">
     <result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
   </event>     
   
+  <visual  mesh_filename="king_tiger_20mm_turret.mesh" offset="0.38315 3.64923 -0.4491" texture_filename="king_tiger_elite.png" turret_index="2"/>
 </vehicle>

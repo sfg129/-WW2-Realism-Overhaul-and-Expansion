@@ -311,4 +311,14 @@
 	<text key="Requesting reinforcements, Churchill Mk VII"/>
 	<text key="Churchill Mk VII deployed"/>
 	
+	<text key="M4A3E2 Sherman" />
+	<text key="M4A3E2(76) Sherman" />
+
+	<text key="Reinforcements - M4A3E2 Sherman" />
+	<text key="Requesting reinforcements, M4A3E2 Sherman" />
+	<text key="M4A3E2 Sherman deployed" />
+	<text key="Reinforcements - M4A3E2(76) Sherman" />
+	<text key="Requesting reinforcements, M4A3E2(76) Sherman" />
+	<text key="M4A3E2(76) Sherman deployed" />
+
 </translation>

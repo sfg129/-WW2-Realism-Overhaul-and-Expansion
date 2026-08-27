@@ -28,6 +28,8 @@
 
 	<call key="usf_vehicle_m4_sherman.call" />
 	<call key="usf_vehicle_m4_sherman_76.call" />
+	<call key="usf_vehicle_m4a3e2_75.call" />
+	<call key="usf_vehicle_m4a3e2_76.call" />
 	<call key="usf_vehicle_m10.call" />
 
 	

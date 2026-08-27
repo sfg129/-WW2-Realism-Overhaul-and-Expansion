@@ -10,7 +10,9 @@
  
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m1919_hmg_t.vehicle" />
 	<vehicle key="m2hb_hmg.vehicle" />
+	<vehicle key="m2hb_hmg_t.vehicle" />
 
 	<vehicle key="jeep.vehicle" />
 	<vehicle key="willys_mb.vehicle" />
@@ -21,6 +23,8 @@
 	<vehicle key="at_gun_m5.vehicle" />
 	<vehicle key="usf_armoury_para.vehicle" />    
 <vehicle key="m4_E4.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_m1_57mm.vehicle" />
 	<call key="airstrike4.call" />
 
 	<call key="airstrike.call" />

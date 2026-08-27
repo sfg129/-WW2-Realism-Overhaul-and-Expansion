@@ -2,11 +2,11 @@
 <weapon key="stuart_mg.weapon"
 	ai_burst_time="1" 
 	ai_burst_time_variance="0.5" 
-	ai_burst_wait_time="0.1" 
-	ai_burst_wait_time_variance="0.05">
+	ai_burst_wait_time="0.3" 
+	ai_burst_wait_time_variance="0.15">
 	
 	<specification
-	retrigger_time="0.109" 
+	retrigger_time="0.11" 
 	accuracy_factor="0.8" 
 	sustained_fire_grow_step="0.025" 
 	sustained_fire_diminish_rate="0.2" 

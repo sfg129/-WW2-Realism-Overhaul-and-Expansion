@@ -37,7 +37,7 @@
 	<model filename="weapon_sten_mkii.xml" />
 	<hud_icon filename="hud_sten_mkii.png" />
 
-	<commonness value="0.1"/>
+	<commonness value="0.105"/>
 	<inventory encumbrance="5.0" price="10.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

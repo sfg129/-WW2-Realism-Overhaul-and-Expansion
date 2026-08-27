@@ -460,7 +460,7 @@
 
 
 	<weapon file="panzerfaust.weapon">
-		<capacity source="rank" source_value="0.0" value="3" />
+		<capacity source="rank" source_value="0.0" value="2" />
 	</weapon>
 	<weapon file="panzerschreck.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />

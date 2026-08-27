@@ -18,6 +18,7 @@
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="bofors_resource.weapon" />
+
 	<projectile key="mk3_grenade.projectile" />
 	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
 	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->

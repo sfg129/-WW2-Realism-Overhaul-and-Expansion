@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="at_gun_qf6_base.vehicle" key="at_gun_qf6.vehicle" name="QF 6-pounder Anti-Tank Gun" respawn_time="240.0">
+<vehicle file="at_gun_qf6_base.vehicle" key="at_gun_qf6.vehicle" name="QF 6-pounder Anti-Tank Gun" respawn_time="180.0" map_view_atlas_index="77">
 	<turret offset="0 0 0" weapon_key="at_gun_qf6.weapon" weapon_offset="0 0.998 0" weapon_recoil="0.3" max_rotation_step="0.00002" rotation="0" />
 </vehicle>

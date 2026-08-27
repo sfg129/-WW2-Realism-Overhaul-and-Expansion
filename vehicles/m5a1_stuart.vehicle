@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="M5A1 Stuart" key="m5a1_stuart.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="76" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" >
+<vehicle name="M5A1 Stuart" key="m5a1_stuart.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="76" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly"  respawn_time="90">
 	<tag name="metal_heavy" />
 	<tag name="vehicle" />
 	<tag name="tank_treads" />
@@ -29,7 +29,7 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.44226 -0.1292" weapon_key="m5a1_stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
+	<turret offset="0 2.44226 -0.1292" weapon_key="m5a1_stuart_cannon.weapon" weapon_offset="-0.0 0.15 1.0" weapon_recoil="0.0" max_rotation_step="0.000145" />
 	<turret offset="0.03646 2.49238 0.05007" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.000145" />
 		<!-- 车体前部航向机枪 -->
 			<turret offset="-0.55533 1.35534 1.05041" weapon_key="stuart_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.25" />

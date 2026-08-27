@@ -5,6 +5,7 @@
  	<vehicle key="hago_damaged.vehicle" />
 	<vehicle key="pillbox1.vehicle" />
 	<vehicle key="type92_hmg.vehicle" />
+	<vehicle key="type92_hmg_t.vehicle" />
 	<vehicle key="landing_craft1.vehicle" />
 	<vehicle key="landing_craft1_noai.vehicle" /> 
 	<vehicle key="armory_daihatsu.vehicle" />   
@@ -16,6 +17,7 @@
 <vehicle key="chi_ha_early.vehicle" />  
 	<vehicle key="soukoutei.vehicle" />
 	<vehicle key="suki.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
 	<call key="mortar1.call" />
 	<call key="mortar5.call" />
 	<call key="airstrike9.call" />

@@ -21,6 +21,7 @@
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="bofors_resource.weapon" />
+	<weapon key="m1_57mm_resource.weapon" />
 	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
 	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->
 	<!-- however the use of that clear_carry_items will clear these out of a *player* armoury... -->

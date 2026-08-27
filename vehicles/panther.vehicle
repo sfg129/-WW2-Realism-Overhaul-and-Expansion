@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Panther" key="panther.vehicle"
-	time_to_live_unsteerable="60" respawn_time="240" map_view_atlas_index="61"
+	time_to_live_unsteerable="60" respawn_time="150" map_view_atlas_index="80"
 	minimum_fill_requirement="0.51" max_character_collision_speed="-1"
 	max_character_collision_speed_on_normal="3.5" character_leave_request_mode="friendly"
 	usable_for_cover="0" allow_owner_to_use_only="0" owner="faction">
@@ -14,14 +14,14 @@
 	<!-- Physical contact points scaled with the finalized 1.96 vehicle geometry. -->
 	<tire_set offset="1.58294 0.0 3.332" radius="0.7448" />
 	<tire_set offset="1.58294 0.0 -3.332" radius="0.7448" />
-	<control max_limiter_speed="3.0" max_speed="8" acceleration="7.5"
+	<control max_limiter_speed="3.0" max_speed="8" acceleration="8"
 		max_reverse_speed="6.5" min_health_to_steer="1.5" max_rotation="0.0"
 		max_water_depth="2.744" steer_smoothening="0.99" tracked="1" gears="1"
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
-	<modifier class="blast_damage" value="-4.4" />
-	<physics max_health="36" blast_damage_threshold="3.7" mass="900.0"
+	<modifier class="blast_damage" value="-4.6" />
+	<physics max_health="44" blast_damage_threshold="2.7" mass="900.0"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"
 		collision_model_pos="0 1.058 -0.5" collision_model_extent="4.312 2.616 7.82"
@@ -40,7 +40,9 @@
 	<turret offset="1.8 0.7 0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="panther_chassis.mesh" texture_filename="panther_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="panther_chassis_damage.mesh" texture_filename="panther_chassis_track_damage.png" />
 	<visual class="turret" turret_index="0" mesh_filename="panther_turret.mesh" texture_filename="panther_turret.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="panther_turret_damage.mesh" texture_filename="panther_turret_cannon_damage.png" />
 	<visual class="turret" turret_index="1" mesh_filename="king_tiger_hull_mg.mesh" texture_filename="king_tiger.png" />
 	<visual class="turret" turret_index="2" mesh_filename="king_tiger_hull_mg.mesh" texture_filename="king_tiger.png" />
 

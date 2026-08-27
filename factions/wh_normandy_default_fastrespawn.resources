@@ -11,19 +11,23 @@
 	<!--<vehicle key="jeep1.vehicle" />-->
  	<!--<vehicle key="hoha.vehicle" />  -->
 	 	<vehicle key="sdkfz251_fastrespawn.vehicle" />
+			<vehicle key="panzer_iv_fastrespawn.vehicle" />
+				<vehicle key="stug_iii_fastrespawn.vehicle" />
 <vehicle key="sdkfz251_mortar.vehicle" />
 <vehicle key="sdkfz251_pak40.vehicle" />
  	<vehicle key="mg34_hmg.vehicle" />
+ 	<vehicle key="mg34_hmg_t.vehicle" />
  	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg_t.vehicle" />
  	<vehicle key="opel_blitz_1.vehicle" />
  	<vehicle key="opel_blitz_2.vehicle" />
  	<vehicle key="opel_blitz_armoury.vehicle" />
 
 	<vehicle key="king_tiger.vehicle" />
 	<vehicle key="kubelwagen.vehicle" />
-	<vehicle key="panzer_iv_fastrespawn.vehicle" />
+
 	<vehicle key="panther.vehicle" />
-	<vehicle key="stug_iii_fastrespawn.vehicle" />
+
 	<vehicle key="tiger.vehicle" />
 	<vehicle key="sdkfz251_flak.vehicle" />
 	<vehicle key="at_gun_pak40.vehicle" />
@@ -35,6 +39,7 @@
 	<vehicle key="flak_88.vehicle" />
 	<vehicle key="luchs.vehicle" />
 	<vehicle key="normandy_turret.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
 	<call key="airstrike10.call" />
 	<call key="artillery2.call" />
 	<call key="mortar2.call" />

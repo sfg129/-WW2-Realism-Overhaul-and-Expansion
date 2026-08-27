@@ -17,7 +17,7 @@
 	
 	<!-- rotation step (speed) was 0.00008 prior to 1.87 HMG rebalance -->	
 
-	<turret offset="0 1.6 0.0" weapon_key="m1917_hmg_t.weapon" weapon_offset="0.0 -0.0 0.0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.00015" rotation="0" rotation_range="2.7" />
+	<turret offset="0 1.6 0.0" weapon_key="m1917_hmg_t.weapon" weapon_offset="0 0 -0.23985" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.00015" rotation="0" rotation_range="2.7" />
 
 	<visual class="chassis" mesh_filename="deployable_mg_tripod.mesh" texture_filename="deployable_mg.png" />
 <!--	<visual class="chassis" key="broken" mesh_filename="m1919_hmg_tripod.mesh" texture_filename="m1919_hmg.png" />  -->

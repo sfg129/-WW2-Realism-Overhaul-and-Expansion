@@ -37,5 +37,5 @@
 	<effect class="muzzle" ref="BiggerMuzzle" />
 	<effect class="muzzle" ref="CannonSmokeBig" />
 	<effect class="muzzle" ref="CannonSmokeBigSphere" />
-	<sound class="operation" key="fire" fileref="tank_cannon.wav" pitch_variety="0.05" volume="2" />
+		<sound class="operation" key="fire" fileref="tank_cannon_light.wav" pitch_variety="0.05" volume="2.65"/>
 </weapon>

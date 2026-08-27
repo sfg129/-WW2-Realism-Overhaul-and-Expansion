@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Type 97 Chi-Ha" key="chi_ha_early.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="64" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="Type 97 Chi-Ha" key="chi_ha_early.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="78" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
    	<tag name="vehicle" />
@@ -40,7 +40,7 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="-0.11929 2.01592 0.03687" weapon_key="chi_ha_cannon_early.weapon" weapon_offset="-0.66538 0.35321 0.64612" weapon_recoil="0.1" max_rotation_step="0.00005" />
+	<turret offset="-0.11929 2.01592 0.03687" weapon_key="chi_ha_cannon_early.weapon" weapon_offset="-0.66538 0.45321 0.64612" weapon_recoil="0.1" max_rotation_step="0.00005" />
 	<turret offset="0.44 1.65 1.52" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 1.32" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.4" />
 	<turret offset="-0.0911 0.1669 -1.73016" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" rotation="3.14" max_rotation_step="0.0003" rotation_range="0.6" parent_turret_index="0" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />

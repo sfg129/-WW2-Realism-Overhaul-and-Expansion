@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle name="QF 6-pounder Anti-Tank Gun" map_view_atlas_index="14" reserves_spawn_point="1" soldier_capacity_offset="2" protectors="2" usable_for_cover="1">
-	<tag name="at_gun" />
+
+
 
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
@@ -15,8 +16,8 @@
 	<visual class="chassis" mesh_filename="" />
 	<visual class="chassis" key="broken" mesh_filename="" />
 	<visual class="turret" turret_index="0" mesh_filename="qf6_base.mesh" texture_filename="qf6.png" />
-	<!-- Temporary until a dedicated damaged mesh/texture is made. -->
-	<visual class="turret" key="broken" turret_index="0" mesh_filename="qf6_base.mesh" texture_filename="qf6.png" />
+	<!-- Destroyed state keeps only the wheels, trails, axle and central carriage. -->
+	<visual class="turret" key="broken" turret_index="0" mesh_filename="qf6_base_broken.mesh" texture_filename="qf6.png" />
 
 	<character_slot type="gunner" attached_on_turret="0" hiding="0">
 		<state class="entering" animation_key="crouching forwards short, no weapon" position="0 0 0" rotation="-1.57" />
@@ -56,5 +57,17 @@
 	<event>
 		<trigger class="destroy" />
 		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_truck1.visual_item" min_amount="1" max_amount="2" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" />
+	
+
 	</event>
+
+		<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_truck1.visual_item" min_amount="1" max_amount="2" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" /> 
+	</event>
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_jeep2.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" /> 
+	</event>
+	
 </vehicle>

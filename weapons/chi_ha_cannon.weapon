@@ -47,8 +47,7 @@
     <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.5" />
     <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
 	
-    <sound class="operation" key="fire" fileref="tank_cannon.wav" pitch_variety="0.05" volume="2"/>
-	
+	<sound class="operation" key="fire" fileref="tank_cannon_light.wav" pitch_variety="0.05" volume="2.65"/>
 	<model mesh_filename="chi_ha_cannon.mesh" texture_filename="chi_ha.png" />
 	<hud_icon filename="hud_tank_cannon.png" />
 	

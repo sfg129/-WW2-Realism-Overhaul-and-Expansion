@@ -2,13 +2,13 @@
 <weapon key="bofors_gun.weapon">
 
 	<specification
-	retrigger_time="0.3"
+	retrigger_time="0.43"
 	spread_range="0.4"
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.155"
 	sustained_fire_diminish_rate="0.4"
 	sight_range_modifier="2.5"
-  ai_sight_range_modifier="0.75"
+  ai_sight_range_modifier="0.5"
 	magazine_size="-1"
 	can_shoot_standing="0"
 	can_shoot_crouching="0"
