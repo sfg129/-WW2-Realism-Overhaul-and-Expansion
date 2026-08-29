@@ -219060,8 +219060,8 @@ key = panzer_iv_fastrespawn.vehicle;</desc>
          id="spawn2-5"
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-6-0">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-6-0">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
@@ -219138,8 +219138,8 @@ tag = hmg; </desc>
          inkscape:label=""
          transform="rotate(169.69)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-0-8">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-0-8">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
@@ -219151,8 +219151,8 @@ key = at_gun_m5.vehicle; </desc>
          inkscape:label=""
          transform="rotate(145.72)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
@@ -219177,8 +219177,8 @@ key = m4_firefly_fastrespawn.vehicle;</desc>
          inkscape:label=""
          transform="rotate(-152.04)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-3">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-3">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
@@ -219190,8 +219190,8 @@ key = at_gun_m5.vehicle; </desc>
          inkscape:label=""
          transform="rotate(-39.704)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-30">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-30">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
@@ -219203,8 +219203,8 @@ key = at_gun_m5.vehicle; </desc>
          inkscape:label=""
          transform="rotate(165.38)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-9">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-9">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-40.648)"
@@ -219229,8 +219229,8 @@ tag = hmg; </desc>
          inkscape:label=""
          transform="rotate(3.4507)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-9-5-7">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-9-5-7">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
@@ -219289,13 +219289,13 @@ key = m4_firefly_fastrespawn.vehicle;</desc>
          id="spawn_rwrmap_5"
          width="3.9823"
          height="7.3962"
-         x="1879.1119074551"
-         y="-1741.2847865004"
+         x="1855.98802746"
+         y="-1788.36558272"
          inkscape:label=""
-         transform="matrix(-0.196459566,0.980511927,-0.980511927,-0.196459566,0,0)">
+         transform="matrix(-0.19645957,0.98051193,-0.98051193,-0.19645957,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-6-8-2-5">type = vehicle;
-key = m4_V_fastrespawn.vehicle;</desc>
+key = m4_firefly.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
@@ -219333,8 +219333,8 @@ tag = hmg;</desc>
          id="spawn3-8-7"
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-50-4">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-50-4">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(160.24)"
@@ -219372,8 +219372,8 @@ tag = hmg; </desc>
          id="spawn2-5-8"
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-6-0-2">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-6-0-2">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-81.674)"
@@ -219437,8 +219437,8 @@ tag = jeep;</desc>
          inkscape:label=""
          transform="rotate(69.589)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-3-3">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-3-3">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:7;stroke-opacity:1;enable-background:new"
@@ -219492,8 +219492,8 @@ key = at_gun_m5.vehicle; </desc>
          inkscape:label=""
          transform="rotate(-145.96)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-9-5-7-2-2">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-9-5-7-2-2">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
@@ -219505,8 +219505,8 @@ key = at_gun_m5.vehicle; </desc>
          inkscape:label=""
          transform="rotate(140.11)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-0-8-4">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-0-8-4">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff6600;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:7;stroke-opacity:1;enable-background:new"
@@ -219544,8 +219544,8 @@ tag = cargo_tank;</desc>
          inkscape:label=""
          transform="rotate(-131.35)">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-9-4">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-5-5-9-4">type = vehicle;
+key = at_gun_qf6.vehicle;</desc>
       </rect>
     </g>
     <g

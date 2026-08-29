@@ -93453,7 +93453,7 @@ tag = hmg; </desc>
          transform="matrix(-0.7253635583,-0.6883659698,0.6883659698,-0.7253635583,0,0)">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-4">type = vehicle;
-key = at_gun_m1_57mm.vehicle;</desc>
+key = at_gun_qf6.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"

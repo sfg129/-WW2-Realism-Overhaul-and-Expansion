@@ -153,7 +153,7 @@
 	<text key="VGO No.2 Mk I - Mobile" text="维克斯-K 机枪（突击）"/>
 	<text key="Vickers Mk VI - Mobile" text="维克斯 Mk VI 机枪（突击）"/>
 	<text key="Vickers Mk I HMG" text="维克斯 Mk I 重机枪"/>
-	<text key="Vickers Mk I HMG Low Mount deploy" text="维克斯 Mk I 重机枪部署包（地面三脚架）"/>
+	<text key="Vickers Mk I HMG Low Mount deploy" text="维克斯 Mk I 重机枪部署包（低位三脚架）"/>
 	<text key="Vickers Mk I HMG High Mount deploy" text="维克斯 Mk I 重机枪部署包（高位三脚架）"/>
 	<text key="Browning Hi-Power" text="勃朗宁大威力手枪"/>
 	<text key="Browning Hi-Power Carbine" text="勃朗宁大威力卡宾枪"/>
@@ -448,17 +448,17 @@
 	<text key="Churchill Mk VII deployed" text="丘吉尔Mk VII已部署"/>
 	
 <!-- HMG deploy Low/High Mount -->
-<text key="M1917 HMG Low Mount deploy" text="M1917重机枪部署包（地面三脚架）"/>
+<text key="M1917 HMG Low Mount deploy" text="M1917重机枪部署包（低位三脚架）"/>
 <text key="M1917 HMG High Mount deploy" text="M1917重机枪部署包（高位三脚架）"/>
-<text key="M1919A4 HMG Low Mount deploy" text="M1919A4重机枪部署包（地面三脚架）"/>
+<text key="M1919A4 HMG Low Mount deploy" text="M1919A4重机枪部署包（低位三脚架）"/>
 <text key="M1919A4 HMG High Mount deploy" text="M1919A4重机枪部署包（高位三脚架）"/>
-<text key="MG 34 HMG Low Mount deploy" text="MG34重机枪部署包（地面三脚架）"/>
+<text key="MG 34 HMG Low Mount deploy" text="MG34重机枪部署包（低位三脚架）"/>
 <text key="MG 34 HMG High Mount deploy" text="MG34重机枪部署包（高位三脚架）"/>
-<text key="MG 42 HMG Low Mount deploy" text="MG42重机枪部署包（地面三脚架）"/>
+<text key="MG 42 HMG Low Mount deploy" text="MG42重机枪部署包（低位三脚架）"/>
 <text key="MG 42 HMG High Mount deploy" text="MG42重机枪部署包（高位三脚架）"/>
-<text key="M2HB HMG Low Mount deploy" text="M2HB重机枪部署包（地面三脚架）"/>
+<text key="M2HB HMG Low Mount deploy" text="M2HB重机枪部署包（低位三脚架）"/>
 <text key="M2HB HMG High Mount deploy" text="M2HB重机枪部署包（高位三脚架）"/>
-<text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（地面三脚架）"/>
+<text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（低位三脚架）"/>
 <text key="Type 92 HMG High Mount deploy" text="92式重机枪部署包（高位三脚架）"/>
 	
 <text key="M4A3(76)W Sherman" text="M4A3(76)W“谢尔曼”中型坦克"/>
