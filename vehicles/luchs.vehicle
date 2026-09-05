@@ -25,7 +25,7 @@
 	simulated_speed_factor="0.4"/>
 
 	<modifier class="blast_range" value="0.6" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-2" />
+	<modifier class="blast_damage" value="-2.4" />
 
 	<physics 
     max_health="17.0" 

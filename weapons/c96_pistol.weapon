@@ -8,7 +8,7 @@
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.65"
 	magazine_size="10"
-	spread_range="0.36"
+	spread_range="0.35"
 	carry_in_two_hands="0"
 	can_shoot_standing="1"
 	suppressed="0"
@@ -21,8 +21,7 @@
 	burst_shots="1"
 	slot="1"
 	/>
-<stance state_key="standing" accuracy="0.89" />
-	<stance state_key="crouching" accuracy="0.94" />
+
 	<!-- 1.89 recoil was 0.55 but feeling this is now too much --> 
 	<!-- prior to 1.88 recoil was 0.5 and accuracy 0.92 but felt a bit op -->
 

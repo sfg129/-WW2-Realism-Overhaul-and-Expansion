@@ -2,8 +2,8 @@
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="type96_lmg.weapon"
 	ai_burst_time="1" 
 	ai_burst_time_variance="0.5" 
-	ai_burst_wait_time="0.2" 
-	ai_burst_wait_time_variance="0.1"
+	ai_burst_wait_time="0.3" 
+	ai_burst_wait_time_variance="0.15"
 >
 		<tag name="has_bayonet" />
 

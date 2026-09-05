@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<vehicle key="m4_V_fastrespawn.vehicle" />
+	<vehicle key="m4_firefly_fastrespawn.vehicle" />
+<vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m4_V.vehicle" />
 	<vehicle key="m4_firefly.vehicle" />
- 	<vehicle key="stuart.vehicle" />
- 	<vehicle key="stuart_damaged.vehicle" />
+
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="vickers_hmg.vehicle" />
 	<vehicle key="vickers_hmg_t.vehicle" />
@@ -18,13 +19,14 @@
 	<vehicle key="austin_k5_armoury.vehicle" />
 	<vehicle key="at_gun_m5.vehicle" />    
 	<vehicle key="wasp.vehicle" />
-	<vehicle key="universal_vickers_k.vehicle" />  
+<vehicle key="universal_carrier_vickers_k.vehicle" />  
+<vehicle key="universal_carrier_boys.vehicle" />
 	<vehicle key="churchill_mkvii.vehicle" />    
 	<vehicle key="churchill_crocodile.vehicle" />      
-<vehicle key="universal_carrier_vickers_k.vehicle" />  
+	<vehicle key="universal_carrier_fastrespawn.vehicle" />
 	<vehicle key="tog2_boss.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
-<vehicle key="stuart_recce.vehicle" />
+
 <vehicle key="m3_halftrack_mortar.vehicle" />
 	<vehicle key="light_mortar.vehicle" />
 	<vehicle key="at_gun_qf6.vehicle" />

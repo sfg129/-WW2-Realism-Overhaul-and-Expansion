@@ -4,7 +4,7 @@
 	<tag name="vehicle" />
 	<tag name="tank_treads" />
    	<tag name="light_vehicle" />   
-	<tag name="apc" />
+
 
 
 	<tire_set offset="0.9 0.0 +1.8" radius="0.52" />

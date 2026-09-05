@@ -17,10 +17,11 @@
 	<weapon key="morphine.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
-	<projectile key="gammon_bomb.projectile" />
+
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />
-<weapon key="m5_resource.weapon" />
+	<weapon key="qf6_resource.weapon" />
+
 <weapon key="bofors_resource.weapon" />
 		<weapon key="austen_mki_folded.weapon" />
 		<weapon key="smle_no4_mki2.weapon" />

@@ -26545,18 +26545,7 @@ key = deco_coupe_blue.vehicle;</desc>
            id="desc7082-7-5-4">type = vehicle;
 tag = jeep;</desc>
       </rect>
-      <rect
-         style="fill:#007cff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12.0000011, 12.0000011;stroke-dashoffset:4.60000038;display:inline;enable-background:new"
-         id="spawn1-1"
-         width="3.982286"
-         height="7.3961515"
-         x="-1389.6724"
-         y="1264.203"
-         inkscape:label=""
-         transform="matrix(0.16924646,-0.98557376,0.98557376,0.16924646,0,0)">
-        <desc
-           id="desc7082-7">type = vehicle; tag = jeep;</desc>
-      </rect>
+      
       <rect
          style="fill:#007cff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12.0000011, 12.0000011;stroke-dashoffset:4.60000038;display:inline;enable-background:new"
          id="spawn1-1-5"
@@ -26648,6 +26637,19 @@ tag = pillbox;</desc>
          style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12.00000012, 12.00000012;stroke-dashoffset:2.5999999;display:inline;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-2">type = vehicle;
+key = light_mortar.vehicle;</desc>
+      </rect>
+<rect
+         transform="matrix(-0.99880427,-0.04888795,0.04888795,-0.99880427,0,0)"
+         inkscape:label=""
+         y="-735.4602897"
+         x="-1020.86859321"
+         height="6.6685"
+         width="5.78888"
+         id="spawn_rwrmap_3"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12.00000012, 12.00000012;stroke-dashoffset:2.5999999;display:inline;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_3">type = vehicle;
 key = light_mortar.vehicle;</desc>
       </rect>
       <rect
@@ -26845,18 +26847,7 @@ key = m1917_hmg.vehicle;</desc>
            id="desc14885-8-5-3-3-2-1-8-9-1">type = vehicle;
 key = m1917_hmg.vehicle;</desc>
       </rect>
-<rect
-         style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.00000001, 6.00000001;stroke-dashoffset:0.5;display:inline;enable-background:new"
-         id="spawn_rwrmap_1"
-         width="3.4362"
-         height="3.34781"
-         x="-1093.2964826061"
-         y="-624.834355827"
-         inkscape:label=""
-         transform="matrix(-0.9879867719,-0.1545384697,0.1545384697,-0.9879867719,0,0)">
-        <desc>type = vehicle;
-key = light_mortar.vehicle;</desc>
-      </rect>
+
       <rect
          style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.00000001, 6.00000001;stroke-dashoffset:0.5;display:inline;enable-background:new"
          id="spawn14883-1-4-6-8-2-1-2-8-3"

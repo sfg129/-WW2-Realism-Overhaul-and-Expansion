@@ -14,14 +14,14 @@
 	<!-- Physical contact points scaled with the finalized 1.96 vehicle geometry. -->
 	<tire_set offset="1.58294 0.0 3.332" radius="0.7448" />
 	<tire_set offset="1.58294 0.0 -3.332" radius="0.7448" />
-	<control max_limiter_speed="3.0" max_speed="8" acceleration="8"
-		max_reverse_speed="6.5" min_health_to_steer="1.5" max_rotation="0.0"
+	<control max_limiter_speed="3.0" max_speed="8" acceleration="13"
+		max_reverse_speed="6.5" min_health_to_steer="1.5" max_rotation="1"
 		max_water_depth="2.744" steer_smoothening="0.99" tracked="1" gears="1"
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
 	<modifier class="blast_damage" value="-4.6" />
-	<physics max_health="44" blast_damage_threshold="2.7" mass="900.0"
+	<physics max_health="44" blast_damage_threshold="2.7" mass="400"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"
 		collision_model_pos="0 1.058 -0.5" collision_model_extent="4.312 2.616 7.82"

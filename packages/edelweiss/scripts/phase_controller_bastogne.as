@@ -123,6 +123,7 @@ class DefPhase0 : DefPhase {
 		array<Resource@> resources = { 
 			Resource("airstrike.call", "call"),
 			Resource("airstrike1.call", "call"),
+			Resource("airstrike4.call", "call"),
 			Resource("airstrike5.call", "call"),
 			Resource("usf_para_armoury.call", "call")
 		};
@@ -533,7 +534,7 @@ class DefPhase7 : DefPhase {
 		array<Resource@> resources = { 
 			Resource("airstrike.call", "call"),
 			Resource("airstrike1.call", "call"),
-			Resource("airstrike5.call", "call"),
+			Resource("airstrike4.call", "call"),
 			Resource("usf_para_armoury.call", "call"),
 			Resource("mortar3.call", "call")
 		};

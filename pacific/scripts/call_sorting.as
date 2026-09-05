@@ -11,9 +11,6 @@ array<string> getCallSorting() {
 		
 
 		// airstrikes
-		"airstrike2.call",
-		"airstrike.call",
-		"airstrike1.call",
 		"airstrike3.call",
 		"airstrike4.call",
 		"airstrike5.call",
@@ -23,6 +20,9 @@ array<string> getCallSorting() {
 		"airstrike9.call",
 		"airstrike10.call",
 		"airstrike11.call",
+		"airstrike2.call",
+		"airstrike.call",
+		"airstrike1.call",
 
 		// artillery
 		"artillery2.call",

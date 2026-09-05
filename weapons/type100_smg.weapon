@@ -44,7 +44,7 @@
 	<model filename="weapon_type100_40.xml" />
 	<hud_icon filename="hud_type100.png" />
 	
-	<commonness value="0.06"/>
+	<commonness value="0.04"/>
 	<inventory encumbrance="5.0" price="30"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

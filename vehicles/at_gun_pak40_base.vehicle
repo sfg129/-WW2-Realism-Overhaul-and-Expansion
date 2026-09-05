@@ -25,7 +25,7 @@
 		<state class="idle" animation_key="crouching, at gun" position="0.65 0.0 -1.0" />
 		<turret index="0" />
 	</character_slot>
-		<character_slot type="gunner" attached_on_turret="0" hiding="0" allow_weapon="0">
+		<character_slot type="passenger" attached_on_turret="0" hiding="0" allow_weapon="0">
 		<state class="entering" animation_key="crouching forwards short, no weapon" position="0 0 0" rotation="-1.57" />
 		<state class="leaving" animation_key="crouching forwards short, no weapon" position="0 0 0" rotation="1.57" />
 		<state class="idle" animation_key="crouching, at gun" position="-0.44008 0 -1" />

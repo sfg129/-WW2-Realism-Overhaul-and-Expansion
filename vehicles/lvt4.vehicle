@@ -17,7 +17,7 @@
 
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-1.1" /> <!-- damage reduced so that it is immune to certain weapons or takes less damage from Flamethrowers -->
+	<modifier class="blast_damage" value="-1.2" /> <!-- damage reduced so that it is immune to certain weapons or takes less damage from Flamethrowers -->
 
 	<!-- collision_model_extent was 4.3 3.0 9.0 -->
 	<physics max_health="20" mass="150.0" extent="3.5 0.0 5" offset="0 0.0 0" top_offset="0 3.0 0" collision_model_pos="0.0 1.0 0.0" collision_model_extent="4.3 3.0 9.0" visual_offset="0 0.17 0.0"     broken_mass="10" 

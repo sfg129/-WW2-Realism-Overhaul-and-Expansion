@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="mg34_extended_belt.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" 
-	ai_burst_time="6" 
-	ai_burst_time_variance="2" 
-	ai_burst_wait_time="0.4" 
-	ai_burst_wait_time_variance="0.2"
+	ai_burst_time="8" 
+	ai_burst_time_variance="4" 
+	ai_burst_wait_time="0.6" 
+	ai_burst_wait_time_variance="0.3"
 
 >
 	
@@ -25,7 +25,7 @@ spread_range="0.35"
 	name="MG 34 w/ belt" 
 	class="0" 
 	barrel_offset="0.85" 
-	projectile_speed="130.0"
+	projectile_speed="124.0"
 	/>
 	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />
 <animation state_key="next_in_chain_in" stance_key="prone" animation_key="reloading, m1919, prone" />

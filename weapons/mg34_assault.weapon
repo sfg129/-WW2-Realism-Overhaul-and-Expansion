@@ -16,7 +16,7 @@
 	name="MG 34 - Mobile" 
 	class="0" 
 	barrel_offset="0.85" 
-	projectile_speed="130.0"
+	projectile_speed="124.0"
 	/>
 
 	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />

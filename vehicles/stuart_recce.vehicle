@@ -8,7 +8,7 @@
     <tire_set offset="1.1 0.0 +2.5" radius="0.52" />
     <tire_set offset="1.1 0.0 -2.5" radius="0.52" />
     
-    <control max_limiter_speed="4.0" max_speed="12.5" acceleration="10.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
+    <control max_limiter_speed="4.0" max_speed="12.5" acceleration="11.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
 
     <modifier class="blast_range" value="0.5" />
     <modifier class="blast_damage" value="-2.4" />

@@ -27,7 +27,7 @@ ai_navigation_offset="0.0">
 	<tire_set offset="1.8 0.0 +3.0" radius="0.52" />
 	<tire_set offset="1.8 0.0 -3.0" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="6.5" acceleration="7.5" max_reverse_speed="6.5" min_health_to_steer="0.5" max_rotation="0.0" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5" />
+	<control max_limiter_speed="4.0" max_speed="6.5" acceleration="7.5" max_reverse_speed="6.5" min_health_to_steer="0.5" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->

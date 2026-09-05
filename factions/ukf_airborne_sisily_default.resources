@@ -23,7 +23,7 @@
 <vehicle key="universal_carrier_vickers_k.vehicle" />  
 <vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
-
+	<vehicle key="universal_carrier_fastrespawn.vehicle" />
 
 	<vehicle key="m3_halftrack.vehicle" />
 	<vehicle key="light_mortar.vehicle" />

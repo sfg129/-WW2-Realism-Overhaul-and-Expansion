@@ -40,7 +40,7 @@
 	<model filename="weapon_type_i_carcano.xml" />
 	<hud_icon filename="hud_type_i_carcano.png" />
 	
-	<commonness value="0.2" />
+	<commonness value="0.16" />
 	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />

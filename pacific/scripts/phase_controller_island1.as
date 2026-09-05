@@ -234,10 +234,7 @@ class DefPhase0 : DefPhase {
 				
 		array<Resource@> resources = { 
 			Resource("artillery.call", "call"),
-			Resource("artillery1.call", "call"),
-			Resource("airstrike3.call", "call"),
-			Resource("airstrike.call", "call"),
-			Resource("airstrike1.call", "call")
+			Resource("artillery1.call", "call")
 		};
 		resetFactionCallResources(m_metagame, 0, resources, false, getCallSorting());
 		
@@ -308,9 +305,7 @@ class DefPhase0 : DefPhase {
 	spawn(5, 0, Vector3(492, 5.88, 389), "regular");
 	spawn(5, 0, Vector3(300, 5, 439), "regular");
 	spawn(5, 0, Vector3(296, 5, 439), "regular");
-				 m_metagame.getComms().send("<command class='create_call' key='light_mortar.call' position='489 5.88 389' faction_id='0' rotation='0 90 0' />");
-
-			  	 m_metagame.getComms().send("<command class='create_call' key='light_mortar.call' position='492 5.88 389' faction_id='0' rotation='0 0 0'/>");
+				 
 		m_ch = 1;
 		//setVisualTimer(m_metagame, m_timer);
 		
@@ -928,9 +923,7 @@ class DefPhase7 : DefPhase {
 		//setVisualTimer(m_metagame, m_timer);	
 		
 		array<Resource@> resources = { 
-			Resource("airstrike3.call", "call"),
-			Resource("airstrike.call", "call"),
-			Resource("airstrike1.call", "call"),
+
 			Resource("artillery.call", "call"),
 			Resource("artillery1.call", "call")
 		};
