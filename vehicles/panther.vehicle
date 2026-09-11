@@ -14,14 +14,14 @@
 	<!-- Physical contact points scaled with the finalized 1.96 vehicle geometry. -->
 	<tire_set offset="1.58294 0.0 3.332" radius="0.7448" />
 	<tire_set offset="1.58294 0.0 -3.332" radius="0.7448" />
-	<control max_limiter_speed="3.0" max_speed="8" acceleration="13"
+	<control max_limiter_speed="3.0" max_speed="9" acceleration="10"
 		max_reverse_speed="6.5" min_health_to_steer="1.5" max_rotation="1"
 		max_water_depth="2.744" steer_smoothening="0.99" tracked="1" gears="1"
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
 	<modifier class="blast_damage" value="-4.6" />
-	<physics max_health="44" blast_damage_threshold="2.7" mass="400"
+	<physics max_health="48" blast_damage_threshold="2.7" mass="400"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"
 		collision_model_pos="0 1.058 -0.5" collision_model_extent="4.312 2.616 7.82"
@@ -30,13 +30,13 @@
 	<!-- index 0: main gun; index 1: hull MG; index 2: coaxial MG. -->
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="panther_cannon.weapon"
 		weapon_offset="-0.07391 0.65703 1.56539" weapon_recoil="0.2"
-		max_rotation_step="0.00002" />
+		max_rotation_step="0.000024" />
 	<turret offset="-0.686 1.764 2.646" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="0.0 0.196 0.98" weapon_recoil="0.0" physics_recoil="0.0"
 		max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="-0.392 0.49 1.274" weapon_recoil="0.0" physics_recoil="0.0"
-		max_rotation_step="0.00002"/>
+		max_rotation_step="0.000024"/>
 	<turret offset="1.8 0.7 0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="panther_chassis.mesh" texture_filename="panther_chassis.png" max_tilt="0.02" />
@@ -80,9 +80,9 @@
 	</character_slot>
 
 
-	<rev_sound filename="tank_rev_panzer_idle3.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.6" />	<!-- was 1.8 -->
-	<rev_sound filename="tank_rev_panzer_low_speed1.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="0.9" volume="2.0" /> 	<!-- was 2.3 --> 
-	<rev_sound filename="tank_rev_panzer_high_speed4.wav" low_pitch="0.75" high_pitch="0.975" low_rev="0.7" high_rev="1.0" volume="1.9" />	<!-- was 2.4 -->
+	<rev_sound filename="tank_rev_tiger_idle.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.8" />		<!-- vol 1.8 -->
+	<rev_sound filename="tank_rev_tiger_low_speed5.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="1.0" volume="1.6" />	<!-- vol 1.7 -->
+	<rev_sound filename="tank_rev_tiger_high_speed2.wav" low_pitch="0.75" high_pitch="1.05" low_rev="0.6" high_rev="1.0" volume="2.1" />	<!-- vol 2.8 -->
 
 	<sound key="squeal" filename="tire_squeal.wav" />
 	<sound key="ignition" filename="jeep2_ignition.wav" />

@@ -21,7 +21,7 @@
 	projectile_speed="200" 
 	barrel_offset="1.25" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.25"
+	sight_range_modifier="2"
 
 	/>
 		<stance state_key="walking" accuracy="0.4" />

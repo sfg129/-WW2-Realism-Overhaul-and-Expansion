@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1">
+	<weapon key="mg42_hmg_resource.weapon" />
+	<weapon key="mg34_hmg_resource.weapon" />
+	<weapon key="light_mortar_resource.weapon" />
+	<carry_item key='vest_veteran.carry_item' enabled="1" />  
+	<carry_item key='vest_sentry.carry_item' enabled="1" />  
+<carry_item key='vest_assault_webbing.carry_item' enabled="1" />  
+<carry_item key='camouflage_suit.carry_item' enabled="1" />  
+<carry_item key='vest_snlf.carry_item' enabled="1" />  
+	<weapon key="pak40_resource.weapon" />
+	<weapon key="kar98k_rifle_grenade_at.weapon" />
+
+	<weapon key="p08_carbine.weapon" />
+	<weapon key="mp40_folded.weapon" />
+	<weapon key="p08.weapon" />
+<weapon key="kar98k2.weapon" />
+	<weapon key="kar98k2_b.weapon" />
+
+	<weapon key="panzerfaust_early.weapon" />
+<weapon key="panzerfaust_30_early.weapon" />
+	<weapon key="panzerfaust_30_klein.weapon" />
+	 
+	<projectile key="stielhandgranate.projectile" />
+	<projectile key="panzerwurfmine.projectile" />
+	<projectile key="democharge.projectile" />
+	<weapon key='binoculars.weapon' />
+<weapon key="morphine.weapon" />
+	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
+	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->
+	<!-- however the use of that clear_carry_items will clear these out of a *player* armoury... -->
+      	<carry_item key="dollars.carry_item" />
+  	<carry_item key="dollars_300.carry_item" />
+  	<carry_item key="gold_bar.carry_item" />
+<weapon key="bandage.weapon" />
+</resources>

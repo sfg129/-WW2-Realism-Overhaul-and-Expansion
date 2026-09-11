@@ -5,7 +5,6 @@ can_be_disarmed="1"
 disarm_instance_class="projectile"
 disarm_instance_key="hawkins_grenade.projectile"
 can_be_detected_by_driver="0" 
-time_to_live_out_in_the_open="600.0" 
 use_time_to_live="1" 
 time_to_live="600">
 	<tag name="antitank_grenade" />
@@ -29,7 +28,7 @@ time_to_live="600">
 	<result
 	class="blast"
 	radius="4.5"
-	damage="10"
+	damage="10.5"
 	push="0.4"
 	decal="1" 
 	

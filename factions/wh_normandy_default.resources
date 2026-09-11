@@ -43,8 +43,9 @@
 	 	<vehicle key="sdkfz251_fastrespawn.vehicle" />
 			<vehicle key="panzer_iv_fastrespawn.vehicle" />
 				<vehicle key="stug_iii_fastrespawn.vehicle" />
+				<call key="mortar2.call" />
 	<call key="airstrike10.call" />
-	<call key="mortar2.call" />
+	
 	<call key="artillery2.call" />
 	<call key="wh_inf.call" />
 	<call key="wh_vehicle_sdkfz251.call" />

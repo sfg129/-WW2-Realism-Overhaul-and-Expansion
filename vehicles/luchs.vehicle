@@ -28,7 +28,7 @@
 	<modifier class="blast_damage" value="-2.4" />
 
 	<physics 
-    max_health="17.0" 
+    max_health="18.0" 
     mass="200.0" 
     broken_mass="10" 
     remove_collision_threshold="0.2" 

@@ -20,7 +20,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="8.5"
+	damage="9.5"
 	push="0.4"
 	decal="1"
 	faction_compare="not_equal" />
@@ -30,7 +30,7 @@
 	
 	<rotation class="random" />
     <throwable 
-	curve_height="6" 
+	curve_height="5.5" 
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 

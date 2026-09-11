@@ -17,8 +17,8 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="5.5" 
-	damage="17" 
+	radius="5" 
+	damage="18" 
 	push="1.0" 
 	decal="1" 
     faction_compare="not_equal" 
@@ -67,7 +67,5 @@
 	
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
-	
-    <effect class="activated" ref="Propulsion" />
 	
 </projectile>

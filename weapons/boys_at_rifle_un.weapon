@@ -21,7 +21,7 @@
 	projectile_speed="150.0" 
 	barrel_offset="0.9" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.25"
+	sight_range_modifier="2"
 
 	/>
 

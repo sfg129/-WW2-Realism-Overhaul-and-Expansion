@@ -58,7 +58,7 @@
 	<hud_icon filename="hud_ho104_assault.png" />
 	
 	<commonness value="0.05" can_respawn_with="0"/>
-	<inventory encumbrance="26.0" price="800.0" />
+	<inventory encumbrance="8.0" price="800.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

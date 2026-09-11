@@ -22,7 +22,7 @@
 <vehicle key="stuart_recce.vehicle" />
 
 	<vehicle key="usf_armoury_para.vehicle" />
-<vehicle key="m4_E4.vehicle" />
+
 	<vehicle key="light_mortar.vehicle" />
 	<vehicle key="at_gun_m1_57mm.vehicle" />
 <call key="airstrike4.call" />

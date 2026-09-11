@@ -54,7 +54,7 @@
 	<model filename="weapon_g41.xml" />
 	<hud_icon filename="hud_g41.png" />
 	
-	<commonness value="0.06" can_respawn_with="1" in_stock="1"/>
+	<commonness value="0.02" can_respawn_with="1" in_stock="1"/>
 	<inventory encumbrance="8.0" price="15.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

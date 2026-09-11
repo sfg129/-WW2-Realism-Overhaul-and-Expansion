@@ -17,7 +17,7 @@
 	class="0" 
 	barrel_offset="0.6" 
 projectile_speed="120.0" 
-	sight_range_modifier="1.8"
+	sight_range_modifier="2"
 	/>
 
 	<!-- former stats: accuracy was 0.6, grow_step 0.1, diminished_rate default, velocity 110, kill probability 0.525-->

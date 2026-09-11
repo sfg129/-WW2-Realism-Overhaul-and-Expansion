@@ -24,8 +24,8 @@
 	<!--<control max_limiter_speed="4.0" max_speed="10" acceleration="7.0" max_reverse_speed="7.0" min_health_to_steer="0.5" max_rotation="0.8" max_water_depth="1.6" steer_smoothening="0.8" tracked="0" gears="2" />-->
 	<control 
 	max_limiter_speed="4.0" 
-	max_speed="12" 
-	acceleration="10" 
+	max_speed="11" 
+	acceleration="9" 
 	max_reverse_speed="9.0" 
 	min_health_to_steer="0.5" 
 	max_rotation="0.0" 

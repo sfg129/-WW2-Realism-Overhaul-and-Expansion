@@ -15,7 +15,7 @@
 	<result
 	class="blast"
 	radius="5.5"
-	damage="8.5"
+	damage="9.5"
 	push="0.4"
 	decal="1" 
 		character_state="death"

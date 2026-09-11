@@ -10,7 +10,7 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.4" 
 	sustained_fire_diminish_rate="0.4" 
-	spread_range="0.15"
+	spread_range="0.18"
 	stance_accuracy_rate="1.2"
 	magazine_size="1" 
 	can_shoot_standing="1" 
@@ -54,8 +54,8 @@
 	<model filename="weapon_panzerschreck.xml" />
 	<hud_icon filename="hud_panzerschreck.png" />
 	
-	<commonness value="0.05" can_respawn_with="1"/>
-	<inventory encumbrance="11.0" price="100.0" />
+	<commonness value="0.04" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="100.0" />
 	
 	<projectile file="panzerschreck_rocket.projectile" />
 	<ballistics

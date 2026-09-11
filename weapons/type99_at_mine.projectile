@@ -15,7 +15,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="10"
+	damage="11.4"
 	push="0.4"
 	decal="1" 
 	

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon key="m4_hull_mg.weapon"
-	ai_burst_time="0.65"
+	ai_burst_time="0.8"
 	ai_burst_time_variance="0.15"
-	ai_burst_wait_time="0.3" 
-	ai_burst_wait_time_variance="0.15">
+	ai_burst_wait_time="0.2" 
+	ai_burst_wait_time_variance="0.1">
 	<!-- these parameters are used to control AI burst times in vehicles. -->
 	<!-- using these as default values for normal vehicle-born machine guns -->
 	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
@@ -11,10 +11,10 @@
 
     <specification slot="2" 
     retrigger_time="0.11"   
-    accuracy_factor="0.9" 
+    accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.0203"
 	sustained_fire_diminish_rate="0.16"
-    sight_range_modifier="1"
+    sight_range_modifier="1.25"
     ai_sight_range_modifier="1"
     magazine_size="-1" 
     can_shoot_standing="0" 

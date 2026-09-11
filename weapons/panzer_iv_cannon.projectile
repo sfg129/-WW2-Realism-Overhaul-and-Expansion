@@ -14,8 +14,8 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="5.5" 
-	damage="17" 
+	radius="5" 
+	damage="18" 
 	push="1.0" 
 	decal="1" 
     faction_compare="not_equal" 
@@ -27,7 +27,12 @@
     <rotation class="motion" />
 	
     <commonness value="0.0" />
-	
+		<effect class="result" key="vehicle" ref="BurstShine" lighting="0" />
+    <effect class="result" key="vehicle" ref="Godray" lighting="0" />
+	<effect class="result" key="other" ref="BurstShine" lighting="0" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+     <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="BurstShine" shadow="1" />
     <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
     <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
     <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />

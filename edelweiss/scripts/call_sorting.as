@@ -89,12 +89,10 @@ array<string> getCallSorting() {
 		"wh_vehicle_sdkfz251_mortar.call",
 		"wh_vehicle_sdkfz251_flak.call",
 		"wh_vehicle_sdkfz251_pak40.call",
-
-		"wh_vehicle.call",
-		"wh_vehicle_panther.call",
 		"wh_vehicle_luchs.call",
 		"wh_vehicle_stug.call",
-		"wh_vehicle_pziv_88.call",
+		"wh_vehicle.call",
+		"wh_vehicle_panther.call",
 		"wh_vehicle_tiger.call",
 
 		"rubber_boat.call",

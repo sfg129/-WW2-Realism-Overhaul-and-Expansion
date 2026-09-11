@@ -8,7 +8,7 @@
 <access_tag name="ww2" />
 
 	<specification 
-	retrigger_time="0.1" 
+	retrigger_time="0.095" 
 	accuracy_factor="0.9"
 	spread_range="0.21"
 	sustained_fire_grow_step="0.022"

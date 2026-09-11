@@ -41,7 +41,7 @@
 	
 	<hud_icon filename="hud_m1917_assault.png" />
 	<commonness value="0.01" can_respawn_with="0" />
-	<inventory encumbrance="11.0" price="110" />
+	<inventory encumbrance="8.0" price="110" />
 	
 	
 	<modifier class="speed" value="-0.4" />

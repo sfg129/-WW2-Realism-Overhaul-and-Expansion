@@ -220378,7 +220378,7 @@ tag = apc;</desc>
          style="display:inline;opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-740-7-7-8-6-6-3-3">type = vehicle;
-tag = apc;</desc>
+key = m3_halftrack_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(106.79)"

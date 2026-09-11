@@ -17,7 +17,7 @@
 	class="0" 
 	barrel_offset="0.6" 
 projectile_speed="130.0" 
-	sight_range_modifier="1.6"
+	sight_range_modifier="2"
 	/>
 
 	<!-- damage was 0.525 until patch 1.95 -->

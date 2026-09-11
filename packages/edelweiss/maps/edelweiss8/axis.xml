@@ -47,7 +47,7 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_fsj_primaries_ai.resources" />
-		<resources file="wh_normandy_secondaries_ai.resources" />
+		<resources file="wh_1945_secondaries_ai.resources" />
 		<resources file="wh_fsj_default.resources" />
 		
 		<item_class_existence_config>

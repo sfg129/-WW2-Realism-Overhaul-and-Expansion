@@ -268,7 +268,7 @@
 	<comment key="spawn_in_base_call, denied, key=vehicle_stuart_recce.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="二号“山猫”轻型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="无可用部署点，先占领一个基地！" />
-	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="黑豹中型坦克将部署在%base_name" />
+	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="豹式中型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_panther.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_pziv_88.call" text="四号88毫米自行高射炮将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_pziv_88.call" text="无可用部署点，先占领一个基地！" />

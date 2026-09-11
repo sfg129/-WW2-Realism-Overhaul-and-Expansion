@@ -55,7 +55,7 @@
 	<hud_icon filename="hud_kar98k_he_grenade.png" />
 
 	
-	<commonness value="0.2"/>
+	<commonness value="0.22"/>
 	<inventory encumbrance="5.0" price="10" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

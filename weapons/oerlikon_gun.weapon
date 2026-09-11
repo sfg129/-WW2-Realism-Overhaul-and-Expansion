@@ -45,6 +45,6 @@
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
 	
 <!-- front plate -->	
-	<shield offset="-0.4 -0.25 0" extent="0.2 1.5 1.2" />
+	<shield offset="0.4 -0.25 0" extent="0.2 1.5 1.2" />
 	
 </weapon>

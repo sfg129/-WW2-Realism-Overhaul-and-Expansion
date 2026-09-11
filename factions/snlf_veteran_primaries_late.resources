@@ -6,9 +6,9 @@
 	<weapon key="type44_carbine_b.weapon" />
 	<weapon key="type96_lmg.weapon" />
 	<weapon key="type99_lmg.weapon" />
-
+<weapon key="type38_rifle_b.weapon" />
 	<weapon key="type38_rifle_launcher.weapon" />
-	
+		<weapon key="beretta_m38.weapon" />
   	<weapon key="type2_model_b_machinepistol.weapon" />
 	<weapon key="type4_garand.weapon" />
 	<weapon key="type4_garand_b.weapon" />

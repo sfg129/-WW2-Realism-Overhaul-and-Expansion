@@ -10,6 +10,8 @@
 	<projectile key="satchel.projectile" />
 <weapon key='m1917_revolver.weapon' />
 	<weapon key="m1911.weapon" />
+	<weapon key="m1_garand2.weapon" />
+	<weapon key="m1_garand2_b.weapon" />
 	<weapon key="m1903_at_launcher.weapon" />
 	<weapon key="m18_recoilless_rifle.weapon" />
 	<weapon key="m18_recoilless_rifle_he.weapon" />

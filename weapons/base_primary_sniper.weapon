@@ -6,7 +6,7 @@
 	spread_range="0.28"
 
 	sight_range_modifier="2.4"
-	sustained_fire_diminish_rate="0.7"
+	sustained_fire_diminish_rate="0.8"
 		stance_accuracy_rate="0.8"/> 
 
 	<!-- stance accuracy rate is default 8.0 -->

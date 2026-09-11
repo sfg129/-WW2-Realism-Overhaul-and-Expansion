@@ -66,7 +66,7 @@ spread_range="0.35"
 	<hud_icon filename="hud_mg42_extended_belt.png" />
 	
 	<commonness value="0.01" can_respawn_with="1"/>
-	<inventory encumbrance="10.0" price="50.0" />
+	<inventory encumbrance="8.0" price="50.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

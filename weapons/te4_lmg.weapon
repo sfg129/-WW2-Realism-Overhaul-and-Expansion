@@ -58,7 +58,7 @@
 	<hud_icon filename="hud_te4_assault.png" />
 	
 	<commonness value="0.06" can_respawn_with="0"/>
-	<inventory encumbrance="11.0" price="600.0" />
+	<inventory encumbrance="8.0" price="600.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

@@ -13,8 +13,7 @@
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
 <weapon key="light_mortar_resource.weapon" />
-	<weapon key="browning_hp.weapon" />
-	<weapon key="browning_hp_carbine.weapon" />
+	<weapon key="sw_model10.weapon" />
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 	<weapon key="bofors_resource.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
@@ -32,5 +31,6 @@
   	<carry_item key="dollars_300.carry_item" />
   	<carry_item key="gold_bar.carry_item" />
 	<weapon key="bandage.weapon" />
+	<weapon key="m1911.weapon" />
 	
 </resources>

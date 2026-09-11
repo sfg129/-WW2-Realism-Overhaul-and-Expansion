@@ -13,7 +13,7 @@
 	magazine_size="71"
 	can_shoot_standing="1" 
 	suppressed="0" 
-	name="MP 717(r)" 
+	name="PPSh-41" 
 	class="0" 
 	barrel_offset="0.2" 
 	projectile_speed="105"

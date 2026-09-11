@@ -278,7 +278,7 @@
 	<!-- ============= -->
 	<!-- TANK HUNTER GROUP -->
 	<!-- ============= -->
-	<soldier name="panzerjaeger" spawn_score="0.015" squad_size_xp_cap="0.5">
+	<soldier name="panzerjaeger" spawn_score="0.03" squad_size_xp_cap="0.5">
 		<character filename="wh.character" />
 		<ai filename="tankhunter.ai" />
 		

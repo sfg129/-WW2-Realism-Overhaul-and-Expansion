@@ -10,6 +10,7 @@ dictionary getUnlockCustomizations() {
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
+			{"m1941_johnson_lmg.weapon", "beardmore_farquhar_50cal_assault.weapon"},
 			{"winchester_automatic_rifle.weapon", "charlton_automatic_rifle.weapon"}
 		}},
 		{"edelweiss3", dictionary = {
@@ -18,6 +19,7 @@ dictionary getUnlockCustomizations() {
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
+			{"m1941_johnson_lmg.weapon", "beardmore_farquhar_50cal_assault.weapon"},
 			{"winchester_automatic_rifle.weapon", "charlton_automatic_rifle.weapon"}
 		}},
 		{"edelweiss4", dictionary = {
@@ -26,6 +28,7 @@ dictionary getUnlockCustomizations() {
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
+			{"m1941_johnson_lmg.weapon", "beardmore_farquhar_50cal_assault.weapon"},
 			{"winchester_automatic_rifle.weapon", "charlton_automatic_rifle.weapon"}
 		}},
 		{"edelweiss5", dictionary = {
@@ -34,6 +37,7 @@ dictionary getUnlockCustomizations() {
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
+			{"m1941_johnson_lmg.weapon", "beardmore_farquhar_50cal_assault.weapon"},
 			{"winchester_automatic_rifle.weapon", "charlton_automatic_rifle.weapon"}
 		}},
 		{"edelweiss9", dictionary = {
@@ -42,6 +46,7 @@ dictionary getUnlockCustomizations() {
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
+			{"m1941_johnson_lmg.weapon", "beardmore_farquhar_50cal_assault.weapon"},
 			{"winchester_automatic_rifle.weapon", "charlton_automatic_rifle.weapon"}
 		}}
 	};

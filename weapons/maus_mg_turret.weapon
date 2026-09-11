@@ -10,7 +10,7 @@
 	<specification
 	slot="2" 
     retrigger_time="0.0775" 
-    accuracy_factor="0.7" 
+    accuracy_factor="0.8" 
     sustained_fire_grow_step="0.15" 
     sustained_fire_diminish_rate="1.15" 
     sight_range_modifier="1"

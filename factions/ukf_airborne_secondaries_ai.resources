@@ -7,7 +7,8 @@
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
 <weapon key="light_mortar_resource.weapon" />
-	<weapon key="browning_hp.weapon" />
+		<weapon key="enfield_mkii_revolver.weapon" />
+	<weapon key="m1911.weapon" />
 	<weapon key="bofors_resource.weapon" />
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 		<weapon key="vickers_hmg_resource.weapon" />
@@ -20,6 +21,6 @@
 <carry_item key='vest_normale.carry_item' enabled="1" />  
 <carry_item key='vest_normala.carry_item' enabled="1" />  
 <weapon key="morphine.weapon" />
-
+<weapon key="m1911.weapon" />
 	
 </resources>

@@ -100,7 +100,12 @@
 	<text key="Gewehr 41 Bayonet" text="G41半自动步枪（刺刀）"/>
 	<text key="Schiessbecher HE Rifle Grenade" text="Kar 98k枪榴弹-高爆弹"/>
 	<text key="Schiessbecher AT Rifle Grenade" text="Kar 98k枪榴弹-破甲弹"/>
+
+			<text key="Panzerfaust Klein" text="铁拳“Klein”"/>
+	<text key="Panzerfaust 30" text="铁拳30"/>
 	<text key="Panzerfaust 60" text="铁拳60"/>
+	<text key="Panzerfaust 100" text="铁拳100"/>
+
 	<text key="panzerfaust rocket" text="铁拳火箭"/>
 	<text key="Panzerschreck" text="RPzB 54“坦克杀手”"/>
 	<text key="panzerschreck rocket" text="坦克杀手火箭"/>
@@ -110,7 +115,7 @@
 	<text key="S1-100" text="S1-100冲锋枪"/>
 	<text key="S1-100 Bayonet" text="S1-100冲锋枪（刺刀）"/>
 
-
+	<text key="PPSh-41" text="PPSh-41冲锋枪"/>
 	<text key="MP 717(r)" text="PPSh-41冲锋枪（弹鼓）"/>
 	<text key="Beretta M38" text="伯莱塔M38冲锋枪"/>
 	<text key="MP 40 Folded" text="MP-40冲锋枪（折叠枪托）"/>

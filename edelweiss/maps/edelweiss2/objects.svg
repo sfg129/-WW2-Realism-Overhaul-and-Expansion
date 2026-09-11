@@ -67676,23 +67676,36 @@ tag = jeep; </desc>
          id="spawn1-1-4-2-1-0-9-9-5-4-8"
          width="3.9823"
          height="7.3962"
-         x="1522.1"
-         y="483.57"
+         x="1053.82326977"
+         y="1198.60799488"
          inkscape:label=""
-         transform="rotate(-0.36505)">
+         transform="matrix(0.8540307,-0.5202226,0.5202226,0.8540307,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-2-3-3">type = vehicle;
 key = panzer_iv.vehicle;</desc>
       </rect>
 <rect
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
+         id="spawn_rwrmap_3"
+         width="3.9823"
+         height="7.3962"
+         x="970.53276572"
+         y="-1340.01511223"
+         inkscape:label=""
+         transform="matrix(0.31103772,0.95039757,-0.95039757,0.31103772,0,0)">
+        <desc
+           id="desc_spawn_rwrmap_3">type = vehicle;
+key = stug_iii.vehicle;</desc>
+      </rect>
+<rect
+         style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
          id="spawn_rwrmap_1"
          width="3.9823"
          height="7.3962"
-         x="1555.5722072624"
-         y="518.3109194586"
+         x="648.2339319"
+         y="578.02751289"
          inkscape:label=""
-         transform="matrix(0.9999797032,-0.0063712813,0.0063712813,0.9999797032,0,0)">
+         transform="matrix(0.87213272,-0.48926937,0.48926937,0.87213272,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-2-3-3">type = vehicle;
 key = panther.vehicle;</desc>
@@ -69521,16 +69534,29 @@ key = kublewagon.vehicle; </desc>
 tag = truck;</desc>
       </rect>
       <rect
-         transform="matrix(0.7138496138,-0.7002990282,0.7002990282,0.7138496138,0,0)"
+         transform="matrix(0.71384961,-0.70029903,0.70029903,0.71384961,0,0)"
          inkscape:label=""
-         y="805.8099977905"
-         x="476.5500009708"
+         y="792.85969233"
+         x="475.43874114"
          height="7.3962"
          width="3.9823"
          id="spawn1-1-4-2-1-0-9-9-7"
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5">type = vehicle;
+key = m4_rhino.vehicle;</desc>
+      </rect>
+<rect
+         transform="matrix(0.71384961,-0.70029903,0.70029903,0.71384961,0,0)"
+         inkscape:label=""
+         y="753.29254011"
+         x="476.90738662"
+         height="7.3962"
+         width="3.9823"
+         id="spawn_rwrmap_2"
+         style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_2">type = vehicle;
 key = m4_76.vehicle;</desc>
       </rect>
       <rect

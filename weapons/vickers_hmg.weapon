@@ -9,7 +9,7 @@
 	<!-- they must be placed on cannons too, occasionally, since the 'first weapon' is used to control burst times of all weapons-->
 	
 	<specification
-	retrigger_time="0.12"
+	retrigger_time="0.114"
 	accuracy_factor="0.9"
 	spread_range="0.21"
 	sustained_fire_grow_step="0.0203"

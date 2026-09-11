@@ -93041,19 +93041,7 @@ key = willys_mb.vehicle;</desc>
            id="desc7082-7-40-8-4-2-5-8-5-2">type = vehicle; 
 tag = jeep;</desc>
       </rect>
-      <rect
-         transform="rotate(-56.144521)"
-         inkscape:label=""
-         y="1547.929"
-         x="526.81677"
-         height="7.3962002"
-         width="3.9823"
-         id="spawn1-3-7-5-8-2-5-5-9-0"
-         style="display:inline;opacity:1;fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc7082-7-40-8-4-2-5-8-5-7">type = vehicle;
-key = universal_carrier.vehicle;</desc>
-      </rect>
+      
       <rect
          style="display:inline;opacity:1;fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
          id="spawn1-3-7-5-8-2-5-5-9-0-8"
@@ -93457,31 +93445,19 @@ key = at_gun_qf6.vehicle;</desc>
 tag = hmg; </desc>
       </rect>
       <rect
-         transform="rotate(114.64766)"
+         transform="matrix(-0.41703697,0.90888952,-0.90888952,-0.41703697,0,0)"
          inkscape:label=""
-         y="-1763.7559"
-         x="832.61133"
+         y="-1764.33534635"
+         x="832.34545549"
          height="7.5729957"
          width="1.5113636"
          id="spawn1-3-7-5-8-4-9-9"
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff6600;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
-           id="desc7082-7-40-8-4-4-8-0">type = vehicle; 
+           id="desc7082-7-40-8-4-4-8-0">type = vehicle;
 key = usf_armoury_para.vehicle;</desc>
       </rect>
-<rect
-         transform="matrix(-0.41703697,0.90888952,-0.90888952,-0.41703697,0,0)"
-         inkscape:label=""
-         y="-1735.37578995"
-         x="817.63669022"
-         height="7.573"
-         width="1.51136"
-         id="spawn_rwrmap_1"
-         style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff6600;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc7082-7-40-8-4-4-8-0">type = vehicle;
-key = universal_carrier_fastrespawn.vehicle;</desc>
-      </rect>
+
       <rect
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff6600;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
          id="spawn1-3-7-5-8-4-9-9-2"

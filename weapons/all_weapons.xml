@@ -27,6 +27,24 @@
 <weapon file="m1917_hmg.weapon"/>
 <weapon file="m1917_hmg_t.weapon"/>
 <weapon file="piat_un.weapon"/>
+<weapon file="panzerfaust_100_early.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+<weapon file="panzerfaust_100.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+<weapon file="panzerfaust_30_klein.weapon">
+<capacity source="rank" source_value="0.0" value="3" />
+</weapon>
+<weapon file="panzerfaust_30.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+<weapon file="panzerfaust_early.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+<weapon file="panzerfaust_30_early.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
 
 
 <weapon file="breniii.weapon">

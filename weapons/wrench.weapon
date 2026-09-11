@@ -16,7 +16,7 @@
     slot="1" 
     affect_characters="0"
     affect_vehicles="1"
-    damage="-6"
+    damage="-9"
     range="0.06"
     stab_enabled="1" />
     <animation state_key="recoil" 		animation_key="repairing, large wrench" />
@@ -43,7 +43,7 @@
 
     <hud_icon filename="hud_wrench.png" />
     <commonness value="0.0" />
-    <inventory encumbrance="0.5" price="10" />
+    <inventory encumbrance="0.25" price="3" />
     <modifier class="speed" value="+0.12" />    
 
 </weapon>

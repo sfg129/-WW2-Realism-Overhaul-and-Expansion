@@ -17,7 +17,7 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_normandy_primaries.resources" />
-		<resources file="wh_normandy_secondaries.resources" />
+		<resources file="wh_1944_secondaries.resources" />
 		<resources file="wh_normandy_default.resources" />
 		
 		<item_class_existence_config>
@@ -51,7 +51,7 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_normandy_primaries_ai.resources" />
-		<resources file="wh_normandy_secondaries_ai.resources" />
+		<resources file="wh_1944_secondaries_ai.resources" />
 		<resources file="wh_normandy_default.resources" />
 		
 		<item_class_existence_config>

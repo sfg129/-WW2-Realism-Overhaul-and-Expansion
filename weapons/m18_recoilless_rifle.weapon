@@ -51,7 +51,7 @@
 	<model filename="weapon_m18_recoilless_rifle.xml" />
 	   <hud_icon filename="hud_recoilless_rifle.png" />
 	
-	  <commonness value="0.08" can_respawn_with="1"/>
+	  <commonness value="0.04" can_respawn_with="1"/>
 	 <inventory encumbrance="8.0" price="60.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 

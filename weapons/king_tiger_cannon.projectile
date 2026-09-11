@@ -16,7 +16,7 @@
     <result 
 	class="blast" 
 	radius="6.5" 
-	damage="24" 
+	damage="26" 
 	push="1.0" 
 	decal="1" 
         damage_origin_vehicle="0"
@@ -65,9 +65,6 @@
 	
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
-	
-    <effect class="activated" ref="Propulsion" />
-	
 
 	
 </projectile>

@@ -15,7 +15,7 @@
 	name="Model 10"
 	class="4"
 	reload_one_at_a_time="1"
-	projectile_speed="90.0"
+	projectile_speed="95.0"
 	barrel_offset="0.1"
 	projectiles_per_shot="1"
 	burst_shots="1"
@@ -42,8 +42,8 @@
 	<model filename="weapon_sw_model10.xml" />
 	<hud_icon filename="hud_model10_revolver.png" />
 	
-	<commonness value="0.2" can_respawn_with="0"/>
-	<inventory encumbrance="1.0" price="200.0" />
+	<commonness value="0.03" can_respawn_with="1"/>
+	<inventory encumbrance="1.0" price="100" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

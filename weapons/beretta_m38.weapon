@@ -4,7 +4,7 @@
 <access_tag name="edelweiss" />
 
 	<specification 
-	retrigger_time="0.1" 
+	retrigger_time="0.095" 
 	spread_range="0.35"
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.17" 
@@ -35,7 +35,7 @@
 	<model filename="weapon_beretta_m38.xml" />
 	<hud_icon filename="hud_beretta_m38.png" />
 
-	<commonness value="0.05" can_respawn_with="1"/>
+	<commonness value="0.02" can_respawn_with="1"/>
 	<inventory encumbrance="5.0" price="175.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />

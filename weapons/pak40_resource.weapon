@@ -37,7 +37,7 @@
     <model mesh_filename="pak_40_cannon.mesh" texture_filename="pak_40.png" />
     <hud_icon filename="hud_pak40_d.png" />
 	<commonness value="0" can_respawn_with="0" />
-	<inventory encumbrance="50.0" price="1000" />
+	<inventory encumbrance="8.0" price="1000" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 

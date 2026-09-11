@@ -14,7 +14,10 @@
 <weapon key="pak40_resource.weapon" />
 	<weapon key="p08.weapon" />
 <weapon key="p08_carbine.weapon" />
-
+		<weapon key="panzerfaust_100.weapon" />
+		
+		<weapon key="panzerfaust_30_klein.weapon" />
+		
 <weapon key="mp40_folded.weapon" />
 <weapon key="kar98k2.weapon" />
 	<weapon key="kar98k2_b.weapon" />

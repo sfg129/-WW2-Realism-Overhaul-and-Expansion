@@ -19,7 +19,7 @@
 	<model mesh_filename="qf6_cannon.mesh" texture_filename="qf6.png" />
 	<hud_icon filename="hud_qf6_d.png" />
 	<commonness value="0" can_respawn_with="0" />
-	<inventory encumbrance="26.0" price="600.0" />
+	<inventory encumbrance="8.0" price="600.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	<modifier class="speed" value="-0.4" />
 </weapon>

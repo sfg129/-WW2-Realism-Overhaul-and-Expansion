@@ -38,7 +38,7 @@
 	<hud_icon filename="type98_hud.png" />
 	
 	<commonness value="0.0" can_respawn_with="0" />
-	<inventory encumbrance="26.0" price="500" />
+	<inventory encumbrance="8.0" price="400" />
 	
 	<capacity value="1" source="rank" source_value="0" />
 	

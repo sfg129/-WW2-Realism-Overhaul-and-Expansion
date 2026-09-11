@@ -21,7 +21,7 @@
 	projectile_speed="130.0"  
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.25"
+
 	/>
 	<next_in_chain key="kar43_is.weapon" share_ammo="1" />
 

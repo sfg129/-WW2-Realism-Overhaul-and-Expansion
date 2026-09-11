@@ -22,7 +22,7 @@
 	<!-- immune to Flamethrowers. -->
 
 	<physics 
-    max_health="52" 
+    max_health="54" 
     blast_damage_threshold="1.02" 
     mass="400.0" 
     broken_mass="20"  
@@ -37,9 +37,9 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.12 -0.1" weapon_key="tiger_cannon.weapon" weapon_offset="-0.08 0.65 3.75" weapon_recoil="0.2" max_rotation_step="0.00004" />
+	<turret offset="0 2.12 -0.1" weapon_key="tiger_cannon.weapon" weapon_offset="-0.08 0.65 3.75" weapon_recoil="0.2" max_rotation_step="0.00002" />
 	<turret offset="-0.68 1.9 2.7" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.6" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0004" rotation_range="0.5" />
-	<turret offset="0 2.12 -0.1" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.48 0.55 1.6" weapon_recoil="0.0" max_rotation_step="0.00004" />
+	<turret offset="0 2.12 -0.1" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.48 0.55 1.6" weapon_recoil="0.0" max_rotation_step="0.00002" />
 	<turret offset="0 2.12 -0.1" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="tiger_i_chassis.mesh" texture_filename="tiger_i.png" max_tilt="0.02" />

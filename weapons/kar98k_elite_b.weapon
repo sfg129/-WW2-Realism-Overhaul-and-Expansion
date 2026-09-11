@@ -19,7 +19,7 @@
 	projectile_speed="130.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="1.8"
+	sight_range_modifier="1.6"
     stab_enabled="1"
     stab_range="3.5"
 	/>

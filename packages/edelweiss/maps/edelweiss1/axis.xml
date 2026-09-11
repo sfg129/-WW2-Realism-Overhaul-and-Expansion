@@ -13,14 +13,14 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_fsj_sisily_primaries.resources" />
-		<resources file="wh_normandy_secondaries.resources" />
+		<resources file="wh_1943_secondaries.resources" />
 		<resources file="wh_fsj_sisily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
 			<item_class_existence class="weapon" slot="1" probability="0.4" />
 			<!-- wearables -->
-			<item_class_existence class="carry_item" slot="1" probability="0.0" />	
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />	
 			<!-- backpack -->
 			<item_class_existence class="carry_item" slot="0" probability="0.0" />
 		</item_class_existence_config>
@@ -47,7 +47,7 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_fsj_sisily_primaries_ai.resources" />
-		<resources file="wh_normandy_secondaries_ai.resources" />
+		<resources file="wh_1943_secondaries_ai.resources" />
 		<resources file="wh_fsj_sisily_default.resources" />
 		
 		<item_class_existence_config>

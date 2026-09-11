@@ -18,8 +18,7 @@
 <vehicle key="universal_carrier_boys.vehicle" />
 	<vehicle key="churchill_mkvii.vehicle" />    
 	<vehicle key="churchill_crocodile.vehicle" />      
-	<vehicle key="universal_vickers_k.vehicle" />   
-<vehicle key="universal_carrier_vickers_k.vehicle" />  
+
 	<vehicle key="tog2_boss.vehicle" />
 <vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />

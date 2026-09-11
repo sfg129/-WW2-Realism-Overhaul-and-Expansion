@@ -43,7 +43,7 @@
 	
 	<hud_icon filename="hud_bofors_gun.png" />
 	<commonness value="0" can_respawn_with="0" in_stock="1"/>
-	<inventory encumbrance="26.0" price="1000" />
+	<inventory encumbrance="8.0" price="1000" />
 	
 	<modifier class="speed" value="-0.6" />
 	

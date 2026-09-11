@@ -19,7 +19,7 @@
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
-	<physics max_health="24" 
+	<physics max_health="30" 
     blast_damage_threshold="1.02" 
     mass="200.0" 
     broken_mass="10" 

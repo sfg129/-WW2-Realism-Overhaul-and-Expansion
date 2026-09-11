@@ -22,7 +22,7 @@
 	<turret offset="-1.4 1.7 +5.25" weapon_key="oerlikon_gun.weapon" weapon_offset="0.0 1.14 0.65" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0002" rotation="-1.57" rotation_range="4.7" />
 	<turret offset="1.4 1.7 5.25" weapon_key="oerlikon_gun.weapon" weapon_offset="0.0 1.14 0.65" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0002" rotation="1.57" rotation_range="4.7" />  
 	<turret offset="-1.1 2.4 0.42" weapon_key="pt_boat_mg.weapon" weapon_offset="0.0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="-1.57" />
-	<turret offset="+0.8 +2.8 -3.6" weapon_key="pt_boat_mg.weapon" weapon_offset="0.0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="1.57" />
+	<turret offset="+0.8 +2.8 -3.6" weapon_key="pt_boat_mg.weapon" weapon_offset="0 0.95 0.6" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="1.57" />
 	<turret offset="+0.55 +1.7 +0.3" weapon_key="pt_boat_shield.weapon" weapon_offset="0 0 0" weapon_recoil="0" physics_recoil="0." max_rotation_step="0" rotation="0" />
 	
 	<visual class="chassis" mesh_filename="pt_boat_chassis.mesh" texture_filename="pt_boat.png" />

@@ -12,10 +12,10 @@
 	<modifier class="blast_damage" value="-1.1" />
 
 	<!-- speed was 11, reverse 8 -->
-	<control max_limiter_speed="4.0" max_speed="12" acceleration="10" max_reverse_speed="8.0" min_health_to_steer="0.6" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"  />
+	<control max_limiter_speed="4.0" max_speed="12" acceleration="11" max_reverse_speed="8.0" min_health_to_steer="0.6" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"  />
 	
 	<physics 
-    max_health="16.0" 
+    max_health="17.0" 
     mass="70.0" 
     broken_mass="5"
     remove_collision_threshold="0.2"
