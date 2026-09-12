@@ -67403,19 +67403,19 @@ walkable = 1; </desc>
          id="spawn1-1-4-2-1-0-9-9-7-5"
          width="3.9823"
          height="7.3962"
-         x="-2102.4000043586"
-         y="-368.7599993311"
+         x="-2103.05756489"
+         y="-369.62567572"
          inkscape:label=""
-         transform="matrix(-0.7963188246,-0.6048771194,0.6048771194,-0.7963188246,0,0)">
+         transform="matrix(-0.79631882,-0.60487712,0.60487712,-0.79631882,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5-2">type = vehicle;
-key = m4a3e2_75.vehicle;</desc>
+key = m4_76.vehicle;</desc>
       </rect>
       <rect
-         transform="rotate(39.352)"
+         transform="matrix(0.86234039,-0.506329,0.506329,0.86234039,0,0)"
          inkscape:label=""
-         y="31.433"
-         x="669.09"
+         y="621.19216881"
+         x="646.17708213"
          height="7.3962"
          width="3.9823"
          id="spawn1-1-4-2-1-0-9-9-7-5-7"
@@ -67437,19 +67437,7 @@ key = m4_rhino.vehicle;</desc>
            id="desc7082-740-7-7-8-4-2-1-4-4">type = vehicle;
 tag = apc;</desc>
       </rect>
-      <rect
-         transform="rotate(-82.972)"
-         inkscape:label=""
-         y="1604.5"
-         x="-1339.4"
-         height="7.3962"
-         width="3.9823"
-         id="spawn1-1-1-1-8-7-8-8-2-1-2"
-         style="display:inline;opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc7082-740-7-7-8-4-2-1-4-4-1">type = vehicle;
-tag = apc;</desc>
-      </rect>
+      
       <rect
          style="display:inline;opacity:1;fill:#007cff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
          id="spawn1-1-4-2-1-0-9-9-1-7-4-1-0"
@@ -67481,10 +67469,10 @@ key = opel_blitz_armoury.vehicle;</desc>
          id="spawn1-1-1-1-8-7-8-8-2-1-2-8"
          width="3.9823"
          height="7.3962"
-         x="33.38"
-         y="-1233.1"
+         x="208.2619245"
+         y="-2084.82981327"
          inkscape:label=""
-         transform="rotate(130.77)">
+         transform="matrix(-0.65302415,0.75733708,-0.75733708,-0.65302415,0,0)">
         <desc
            id="desc7082-740-7-7-8-4-2-1-4-4-1-5">type = vehicle;
 tag = apc;</desc>
@@ -67594,17 +67582,17 @@ tag = hmg; </desc>
 tag = hmg; </desc>
       </rect>
       <rect
-         transform="rotate(-142.31)"
+         transform="matrix(-0.79133025,-0.61138894,0.61138894,-0.79133025,0,0)"
          inkscape:label=""
-         y="-462.95"
-         x="-1719.7"
+         y="-462.73608412"
+         x="-1719.97687467"
          height="6.6685"
          width="5.7889"
          id="spawn3-6-13"
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new">
         <desc
-           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8">type = vehicle; 
-key = at_gun_m5.vehicle; </desc>
+           id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8">type = vehicle;
+key = at_gun_m1_57mm.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-83.684)"
@@ -67767,10 +67755,10 @@ key = panzer_iv.vehicle;</desc>
          id="spawn1-1-4-2-1-0-9-0-6-6-6-7"
          width="3.9823"
          height="7.3962"
-         x="-1830.4000022759"
-         y="-2.9118007209"
+         x="-1830.211083"
+         y="-3.20629877"
          inkscape:label=""
-         transform="matrix(-0.5399465449,-0.8416993101,0.8416993101,-0.5399465449,0,0)">
+         transform="matrix(-0.53994654,-0.84169931,0.84169931,-0.53994654,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-8-9-5-8-8">type = vehicle;
 key = m5a1_stuart.vehicle;</desc>

@@ -44265,7 +44265,7 @@
             <position x="1.293325" y="3.767021" z="-42.021435" />
         </frame>
     </animation>
-	<animation loop="0" end="0.450000" speed="1.25000" comment="bolt cycle very fast">
+	<animation loop="0" end="0.450000" speed="1.3000" comment="bolt cycle very fast">
         <frame time="0.000000">
             <position x="1.553612" y="55.665001" z="1.570316" />
             <position x="1.461781" y="48.712612" z="0.760448" />
@@ -44352,7 +44352,7 @@
             <position x="5.159259" y="0.189778" z="4.700242" />
         </frame>
     </animation>
-    <animation loop="0" end="0.450000" speed="1.250000" comment="bolt cycle very fast, prone">
+    <animation loop="0" end="0.450000" speed="1.30000" comment="bolt cycle very fast, prone">
         <frame time="0.000000">
             <position x="-2.659441" y="15.104884" z="8.104493" />
             <position x="-4.716663" y="9.534175" z="4.398411" />

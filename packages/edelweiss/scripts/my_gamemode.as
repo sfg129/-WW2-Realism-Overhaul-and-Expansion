@@ -1,3 +1,4 @@
+#include "hawkins_grenade_test.as"
 #include "gamemode_campaign.as"
 #include "my_stage_configurator_allies.as"
 #include "my_stage_configurator_axis.as"
@@ -237,6 +238,7 @@ class MyGameMode : GameModeCampaign {
 	// --------------------------------------------
 	void postBeginMatch() {
 		GameModeCampaign::postBeginMatch();
+		addTracker(HawkinsGrenadeTracker(this));
 
 		addTracker(CommandHandler(this));
 

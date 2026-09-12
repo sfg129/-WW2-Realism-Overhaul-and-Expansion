@@ -49,7 +49,6 @@
 	<call key="usf_para_armoury.call" />
 	<call key="wh_vehicle_sdkfz251.call" />
 	<call key="wh_vehicle_sdkfz251_mortar.call" />
-	<call key="wh_vehicle_sdkfz251_pak40.call" />
 	<call key="wh_vehicle_luchs.call" />
 	<call key="wh_vehicle_stug.call" />
 	<call key="wh_vehicle.call" />

@@ -12,7 +12,7 @@
 	<specification 
 	retrigger_time="0.108" 
 	accuracy_factor="0.95"
-		spread_range="0.33"
+		spread_range="0.34"
 	sustained_fire_grow_step="0.27"
 	sustained_fire_diminish_rate="2"	
 	stance_accuracy_rate="1.6"
@@ -82,7 +82,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.95" 
+		kill_probability="1.05" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" />
 	</projectile>

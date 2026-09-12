@@ -67,7 +67,7 @@
 	    <result
 class="blast"
     radius="1.5"
-   damage="1.4"
+   damage="1.5"
     push="0.1"
     decal="1"
 	faction_compare="not_equal" />

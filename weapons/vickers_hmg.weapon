@@ -41,7 +41,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.95" 
+		kill_probability="1" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="1.1"
 		/>

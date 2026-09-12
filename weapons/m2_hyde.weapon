@@ -6,9 +6,9 @@
 	<specification 
 	retrigger_time="0.095" 
 	accuracy_factor="0.95" 
-	spread_range="0.35"
+	spread_range="0.33"
 	sustained_fire_grow_step="0.19" 
-	sustained_fire_diminish_rate="1.9"	
+	sustained_fire_diminish_rate="1.85"	
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -50,7 +50,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-	kill_probability="0.85"
+	kill_probability="0.75"
 	kill_decay_start_time="0.25"
 	kill_decay_end_time="0.8"
 		/>

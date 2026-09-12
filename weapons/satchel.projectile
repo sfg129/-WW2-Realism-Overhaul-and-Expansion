@@ -15,12 +15,12 @@
 	<sound class="result" key="vehicle" copy="other" />
 	<sound class="result" key="character" copy="other" />
 	
-	<trigger class="time" time_to_live="3.5"/>
+	<trigger class="time" time_to_live="3"/>
 
 	<result
 	class="blast"
 	radius="4"
-	damage="9.5"
+	damage="10"
 	push="0.4"
 	decal="1"
 	faction_compare="not_equal" />
@@ -30,7 +30,7 @@
 	
 	<rotation class="random" />
     <throwable 
-	curve_height="5.5" 
+	curve_height="5" 
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 

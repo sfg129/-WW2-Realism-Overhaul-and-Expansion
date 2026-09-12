@@ -31,7 +31,7 @@
 	
 	<rotation class="random" />
     <throwable 
-	curve_height="5.5" 
+	curve_height="5" 
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 

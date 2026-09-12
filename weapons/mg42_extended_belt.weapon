@@ -15,7 +15,7 @@
 	accuracy_factor="0.85" 
 	sustained_fire_grow_step="0.014"
 	sustained_fire_diminish_rate="0.1"
-spread_range="0.35"
+spread_range="0.365"
 	stance_accuracy_rate="0.8"
 	magazine_size="250" 
 	can_shoot_standing="1" 
@@ -75,7 +75,7 @@ spread_range="0.35"
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.88"
+		kill_probability="0.95"
 		kill_decay_start_time="0.55"
 		kill_decay_end_time="0.9" 
 		/>

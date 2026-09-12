@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Inactive native disarm resource, NOT a notification bridge.
+     Also harmless if accidentally activated: zero damage and no script event. -->
+<projectile class="grenade" name="" key="hawkins_grenade_disarmed.projectile" slot="0" radius="0" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" time_to_live_out_in_the_open="0">
+  <model />
+  <trigger class="time" time_to_live="0" />
+  <result class="blast" damage="0" radius="0" push="0" decal="0" />
+  <commonness value="0" in_stock="0" can_respawn_with="0" />
+  <capacity value="0" />
+</projectile>

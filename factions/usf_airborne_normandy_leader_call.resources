@@ -21,5 +21,5 @@
 	<call key="usf_vehicle_m4_sherman_76.call" />
 	<call key="usf_vehicle_m4a3e2_75.call" />
 	<call key="usf_vehicle_m10.call" />
-	<call key="vehicle_m4_e4.call" />
+
 </resources>

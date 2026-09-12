@@ -7,7 +7,7 @@
 	retrigger_time="0.0625" 
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.16" 
-	sustained_fire_diminish_rate="2.15"
+	sustained_fire_diminish_rate="2.2"
 	stance_accuracy_rate="1.75"
 
 	magazine_size="71"
@@ -44,7 +44,7 @@
 	<model filename="weapon_ppsh41.xml" />
 	<hud_icon filename="hud_ppsh41.png" />
 	
-	<commonness value="0.05" can_respawn_with="0"/>
+	<commonness value="0.03" can_respawn_with="0"/>
 	<inventory encumbrance="8.0" price="350.0"/>
 	
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -53,7 +53,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.725"
+		kill_probability="0.625"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.8"
 		/>

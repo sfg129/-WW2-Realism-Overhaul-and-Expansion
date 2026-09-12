@@ -67,7 +67,7 @@ projectile_speed="120.0"
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.95"
+		kill_probability="1.05"
 		kill_decay_start_time="0.45"
 		kill_decay_end_time="0.8" />
 	</projectile>

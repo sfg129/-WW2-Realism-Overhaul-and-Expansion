@@ -8,7 +8,7 @@
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.65"
 	magazine_size="10"
-	spread_range="0.35"
+	spread_range="0.33"
 	carry_in_two_hands="0"
 	can_shoot_standing="1"
 	suppressed="0"
@@ -51,7 +51,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.725"
+		kill_probability="0.625"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.8"
 		/>

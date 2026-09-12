@@ -107,4 +107,10 @@
   <projectile file="emoticon_wtf_gray.projectile" /> 
   <projectile file="emoticon_beer_gray.projectile" /> 
 
+
+<!-- Hawkins v3 helper entities -->
+<projectile file="hawkins_grenade_armed.projectile"/>
+<projectile file="hawkins_grenade_remote_proxy.projectile"/>
+<projectile file="hawkins_grenade_blast.projectile"/>
+  <projectile file="hawkins_grenade_disarmed.projectile" />
 </projectiles>
