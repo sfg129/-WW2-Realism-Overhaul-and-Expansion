@@ -1,3 +1,0 @@
-<vehicle file="radio_jammer_base.vehicle" key="quest_overlord.vehicle" existence="one_per_faction">
-	<physics max_health="50.0" mass="10000.0" extent="4.0 0.0 4.0" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 1.0 0" collision_model_extent="1.5 6.0 1.5" visual_offset="0 -1.0 0.0" /> 
-</vehicle>
