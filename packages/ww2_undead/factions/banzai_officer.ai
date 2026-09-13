@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ai filename="banzai.ai">
-  <!--<parameter class="force_as_leader" value="1.0" />-->
-  <parameter class="favor_joining_player_squad_value_increase" value="-110.0" />
-</ai>

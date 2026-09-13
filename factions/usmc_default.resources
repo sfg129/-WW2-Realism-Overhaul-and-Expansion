@@ -26,6 +26,7 @@
 <vehicle key="m3_halftrack_mortar.vehicle" />
 	<vehicle key="light_mortar.vehicle" />
 	<vehicle key="at_gun_m1_57mm.vehicle" />
+	<vehicle key="at_gun_m3_37mm.vehicle" />
 <call key="airstrike3.call" />
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />

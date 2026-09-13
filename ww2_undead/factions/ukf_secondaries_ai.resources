@@ -7,13 +7,15 @@
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
 <weapon key="light_mortar_resource.weapon" />
-	<weapon key="browning_hp.weapon" />
+			<weapon key="enfield_mkii_revolver.weapon" />
+	<weapon key="sw_model10.weapon" />
 	<weapon key="bofors_resource.weapon" />
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 		<weapon key="vickers_hmg_resource.weapon" />
 		<weapon key="vickers_hmg_resource_t.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
-	<projectile key="satchel.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
+<projectile key="satchel.projectile" />
 <carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  
 <carry_item key='vest_normalw.carry_item' enabled="1" />  

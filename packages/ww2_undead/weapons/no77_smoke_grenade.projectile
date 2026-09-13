@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="No.77 Smoke Grenade" key="no77_smoke_grenade.projectile" slot="0" radius="0.15" can_be_detected_by_driver="0" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
+    <tag name="grenade" />
+    <access_tag name="ww2" />
+
+    <!-- Inert placeholder. The experimental No.77 runtime chain is intentionally absent. -->
+    <trigger class="time" time_to_live="0" />
+    <result class="blast" radius="0" damage="0" push="0" decal="0" character_state="none" />
+
+    <model mesh_filename="mk3_grenade.xml" />
+    <hud_icon filename="hud_mk3_concussion.png" />
+    <rotation class="random" />
+    <throwable curve_height="6.5" near_far_distance="5.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="16.25" randomness="0.07" />
+    <commonness value="0.0" can_respawn_with="0" />
+    <inventory encumbrance="1.5" price="3.0" />
+    <capacity value="6" source="rank" source_value="0" />
+</projectile>

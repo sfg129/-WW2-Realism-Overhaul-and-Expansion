@@ -10,6 +10,8 @@
 	<projectile key="satchel.projectile" />
 <weapon key='m1917_revolver.weapon' />
 	<weapon key="m1911.weapon" />
+	<weapon key="m1_garand2.weapon" />
+	<weapon key="m1_garand2_b.weapon" />
 	<weapon key="m1903_at_launcher.weapon" />
 	<weapon key="m18_recoilless_rifle.weapon" />
 	<weapon key="m18_recoilless_rifle_he.weapon" />
@@ -19,8 +21,10 @@
 	<weapon key="morphine.weapon" />
 	<weapon key="m1_carbine.weapon" />
 	<projectile key="democharge.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="bofors_resource.weapon" />
+	<weapon key="m1_57mm_resource.weapon" />
 	<!-- because we clear carry_items so that we can clear vests, we need to re-add these. -->
 	<!-- do not ask me why AI soldier files do not require it as they will still drop ALL possible loot items -->
 	<!-- however the use of that clear_carry_items will clear these out of a *player* armoury... -->

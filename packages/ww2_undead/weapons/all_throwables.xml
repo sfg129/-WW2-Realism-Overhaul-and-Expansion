@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
+<projectile file="at_gun_57mm.projectile"/>
+<projectile file="m3_37mm.projectile"/>
+<projectile file="hawkins_grenade.projectile"/>
+<projectile file="gammon_bomb.projectile"/>
 	<projectile file="m4_cannon_76.projectile"/>
 	<projectile file="chi_ha_cannon_early.projectile"/>
 	<projectile file="rg42_grenade.projectile"/>
@@ -104,4 +108,14 @@
   <projectile file="emoticon_wtf_gray.projectile" /> 
   <projectile file="emoticon_beer_gray.projectile" /> 
 
+
+<!-- Hawkins v3 helper entities -->
+<projectile file="hawkins_grenade_armed.projectile"/>
+<projectile file="hawkins_grenade_remote_proxy.projectile"/>
+<projectile file="hawkins_grenade_blast.projectile"/>
+  <projectile file="hawkins_grenade_disarmed.projectile" />
+    <projectile file="m18_smoke_grenade.projectile" />
+    <projectile file="no77_smoke_grenade.projectile" />
 </projectiles>
+
+

@@ -14,8 +14,10 @@
 
 <vehicle key="sdkfz251_pak40.vehicle" />
 	<vehicle key="mg34_hmg.vehicle" />
- 	<vehicle key="mg34_hmg.vehicle" />
+	<vehicle key="mg34_hmg_t.vehicle" />
+
  	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg_t.vehicle" />
  	<vehicle key="sdkfz251.vehicle" />
 	<vehicle key="kubelwagen.vehicle" />
 	<vehicle key="stug_iii.vehicle" />
@@ -31,6 +33,7 @@
 	<vehicle key="luchs.vehicle" />
 	<vehicle key="normandy_turret.vehicle" />
 <vehicle key="panzer_iv_base_flak88.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
 	<call key="artillery2.call" />
 
 	<call key="wh_inf.call" />

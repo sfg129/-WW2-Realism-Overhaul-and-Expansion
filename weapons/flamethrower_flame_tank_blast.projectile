@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" slot="1" key="flamethrower_flame_tank_blast.projectile">
+	<trigger class="time" time_to_live="0" />
+	<result class="blast" radius="3.5" damage="1.1" push="0" character_state="death" make_vehicle_hit_sound="0" faction_compare="not_equal" damage_origin_vehicle="0" />
+	<commonness value="0.0" can_respawn_with="0" in_stock="0" />
+	<model />
+</projectile>

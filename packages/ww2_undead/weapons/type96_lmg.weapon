@@ -2,8 +2,8 @@
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="type96_lmg.weapon"
 	ai_burst_time="1" 
 	ai_burst_time_variance="0.5" 
-	ai_burst_wait_time="0.2" 
-	ai_burst_wait_time_variance="0.1"
+	ai_burst_wait_time="0.3" 
+	ai_burst_wait_time_variance="0.15"
 >
 		<tag name="has_bayonet" />
 
@@ -13,8 +13,8 @@
 	retrigger_time="0.109" 
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.26" 
-	sustained_fire_diminish_rate="1.7"	
-	stance_accuracy_rate="1.25"
+	sustained_fire_diminish_rate="1.75"	
+	stance_accuracy_rate="1.2"
 	magazine_size="30" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
@@ -66,7 +66,7 @@ projectile_speed="130.0"
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.9"
+		kill_probability="0.95"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.9" />
 	</projectile>

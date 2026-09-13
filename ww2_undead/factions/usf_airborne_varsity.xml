@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries.resources" />
 		<resources file="usf_airborne_secondaries.resources" />
-		<resources file="usf_airborne_default.resources" />
+		<resources file="usf_airborne_default_varsity.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai.resources" />
 		<resources file="usf_airborne_secondaries_ai.resources" />
-		<resources file="usf_airborne_default.resources" />
+		<resources file="usf_airborne_default_varsity.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

@@ -1,4 +1,5 @@
 #include "hawkins_grenade_test.as"
+#include "flame_vehicle_damage.as"
 // internal
 #include "metagame.as"
 #include "gamemode.as"
@@ -41,6 +42,7 @@ class GameModeQuickMatch : GameMode {
 	void postBeginMatch() {
 		GameMode::postBeginMatch();
 		addTracker(HawkinsGrenadeTracker(this));
+		addTracker(FlameVehicleDamage(this));
 		
 		addTracker(BasicCommandHandler(this));
 		addTracker(CommandHandler(this));

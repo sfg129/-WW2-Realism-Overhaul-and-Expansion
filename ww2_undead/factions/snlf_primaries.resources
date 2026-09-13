@@ -3,8 +3,11 @@
 	
 	<weapon key="type_i_rifle.weapon" />
 	<weapon key="type_i_rifle_b.weapon" />
+	<weapon key="type38_rifle.weapon" />
+	<weapon key="type38_rifle_b.weapon" />
 
 	<weapon key="type44_carbine.weapon" />
+		<weapon key="type44_carbine_b.weapon" />
 	<weapon key="type_be.weapon" />
 	<weapon key="mp34.weapon" />  
 	<weapon key="mp34_b.weapon" />  

@@ -45,7 +45,7 @@
 
 	<!-- was visual_offset="0 0.34 0.0" -->	
 	<physics 
-    max_health="18.0" 
+    max_health="14.0" 
     mass="50.0" 
     broken_mass="5"
     remove_collision_threshold="0.2"

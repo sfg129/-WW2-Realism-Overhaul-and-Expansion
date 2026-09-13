@@ -83,8 +83,9 @@ class Metagame {
 
 	// --------------------------------------------
 	void run() {
-		//const float TARGET_CYCLE_TIME = 0.01f;		// --was 0.5
-		const float TARGET_CYCLE_TIME = 0.5f;		// --was 0.5
+		// Keep metagame result events responsive. A 0.5 s cycle made
+		// notify_script -> create_instance effects visibly lag behind impacts.
+		const float TARGET_CYCLE_TIME = 0.05f;
 		const float MINIMUM_SLEEP_TIME = 0.01f;		// --was 0.010
 		float dummy = now();
 		bool processed = false;

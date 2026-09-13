@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	
-	<!--FG42 is considered a LMG/SMG hybrid and is given to dedicated MG soldiers alongside belt-fed MGs.-->
-
-	<weapon key="fg42_late.weapon" />
-	<weapon key="mg34_extended_belt_ai.weapon" />
-	<weapon key="mg42_extended_belt_ai.weapon" />
-</resources>

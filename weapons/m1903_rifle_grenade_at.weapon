@@ -15,12 +15,21 @@
 	suppressed="0" 
 	name="M9 AT Rifle Grenade" 
 	class="2" 
-	slot="0"
+	slot="1"
 	projectile_speed="45.0" 
 	barrel_offset="1.05" 
 	sight_range_modifier="1.5" 
 	/>
 	<next_in_chain key="m1903_rifle_grenade_he.weapon" share_ammo="1" />
+
+	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+	<target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.0" />
+	<target_factors tag="medium_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+	<target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="9.0" />
+	<target_factors tag="at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+	<target_factors tag="light_at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+	<target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+	<target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="1.0" />
 
 		<animation key="crouching" animation_key="rifle grenade crouch" />
 	<animation key="recoil" animation_key="rifle grenade recoil" />
@@ -41,10 +50,10 @@
 	<model filename="m1903_launcher.xml" />
 	<hud_icon filename="hud_m1903_at_launcher.png" />
 	
-	<commonness value="0" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="60.0" />
+	<commonness value="0.2"/>
+	<inventory encumbrance="5.0" price="20" />
 	
-	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<projectile file="m1903_at_grenade.projectile" />
@@ -52,7 +61,7 @@
     near_far_distance="20.0"
     speed_estimation_near="10.0"
     speed_estimation_far="16.0"
-    max_speed="50"
+	max_speed="45.0"
 	curve_height="2" 
     randomness="0.0"
 	tweak_factor="1.55"

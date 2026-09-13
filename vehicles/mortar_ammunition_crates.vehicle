@@ -7,6 +7,8 @@
 
 	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
 
+	<modifier class="blast_damage" value="-0.9" />
+
 	<physics 
 	max_health="0.9" 
 	mass="1000.0" 

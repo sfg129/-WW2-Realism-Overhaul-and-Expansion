@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Sd.Kfz.251/22" key="sdkfz251_pak40.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="55" minimum_fill_requirement="0.2" ai_driver_turns_to_target="1" ai_use_throwables="0">
+<vehicle file="vehicle_base.vehicle" name="Sd.Kfz.251/22" key="sdkfz251_pak40.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="82" minimum_fill_requirement="0.2" ai_driver_turns_to_target="1" ai_use_throwables="0">
 	<tag name="metal_heavy" />
 	<tag name="tank_treads" />
    	<tag name="light_vehicle" />
@@ -23,7 +23,7 @@
 	<control 
 	max_limiter_speed="4.0" 
 	max_speed="7" 
-	acceleration="12.0" 
+	acceleration="10" 
 	max_reverse_speed="5.0" 
 	min_health_to_steer="0.5" 
 	max_rotation="0.0" 

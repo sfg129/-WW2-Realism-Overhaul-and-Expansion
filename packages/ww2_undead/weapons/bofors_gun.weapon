@@ -2,7 +2,7 @@
 <weapon key="bofors_gun.weapon">
 
 	<specification
-	retrigger_time="0.3"
+	retrigger_time="0.43"
 	spread_range="0.4"
 	accuracy_factor="0.95"
 	sustained_fire_grow_step="0.155"

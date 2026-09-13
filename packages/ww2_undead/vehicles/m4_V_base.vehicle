@@ -17,11 +17,11 @@
 	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.4" />
+	<modifier class="blast_damage" value="-3.5" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
-	<physics max_health="24" 
+	<physics max_health="30" 
     blast_damage_threshold="1.02" 
     mass="200.0" 
     broken_mass="10" 
@@ -29,18 +29,18 @@
     extent="4 0.0 6.6" 
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
-    collision_model_pos="0.01149 1.2 0" 
-    collision_model_extent="3.9 3.0 7.8" 
+    collision_model_pos="0 1.04872 -0.1916" 
+    collision_model_extent="3.9 3.0 6.8" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
 
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.35 0.26" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.00005" />
+	<turret offset="0 2.35 0.26" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.000035" />
 	<turret offset="-0.4 0.9 -0.4" weapon_key="m4_m2.weapon" weapon_offset="0 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
 	<turret offset="-0.66 1.76 2.65" weapon_key="m4_hull_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
-	<turret offset="0 2.35 0.26" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.00005" />
+	<turret offset="0 2.35 0.26" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.000035" />
 			<turret offset="0 2.35 0.18" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 

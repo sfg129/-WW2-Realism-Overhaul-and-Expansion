@@ -19,7 +19,7 @@
 	projectile_speed="160" 
 	barrel_offset="0.9" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.25"
+	sight_range_modifier="2"
 
 	/>
 
@@ -66,7 +66,7 @@
 	<hud_icon filename="hud_boys_mki.png" />
 	
 	<commonness value="0.05" can_respawn_with="1"/>
-	<inventory encumbrance="11.0" price="150.0" />
+	<inventory encumbrance="8.0" price="150.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -75,12 +75,12 @@
         <result
 		class="blast"
     radius="2"
-       damage="4.2"
+       damage="5"
     push="0.1"
     decal="1"
 		faction_compare="not_equal"/>
 	</projectile>
 	
-	<modifier class="speed" value="-0.175" />
+	<modifier class="speed" value="-0.16" />
 	
 </weapon>

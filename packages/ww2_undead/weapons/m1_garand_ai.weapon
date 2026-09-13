@@ -5,7 +5,7 @@
 	
 	<specification 
 	retrigger_time="0.2" 
-	accuracy_factor="0.95" 
+	accuracy_factor="0.97" 
 
 	sustained_fire_grow_step="1.1" 
 	sustained_fire_diminish_rate="2.5"
@@ -54,7 +54,7 @@
 	<projectile file="bullet.projectile">
 		<result 
 		class="hit" 
-		kill_probability="1.5" 
+		kill_probability="1.75" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"
 		/>

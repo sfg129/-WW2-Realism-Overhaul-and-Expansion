@@ -10,7 +10,8 @@
 	<weapon key="m1918_bar_heavy.weapon" />
 		<weapon key="m1928_thompson_mag.weapon" />
 	<weapon key="m1928_thompson.weapon" />
-	
+		<weapon key="m1928a1_thompson.weapon" />
+<weapon key="m1928a1_thompson_drum.weapon" />
 	<weapon key="m9a1_bazooka.weapon" />
 	<weapon key="m1903a4_rifle_s.weapon" />
 	<weapon key="m1919_lmg.weapon" />

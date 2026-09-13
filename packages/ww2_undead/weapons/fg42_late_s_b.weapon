@@ -9,8 +9,8 @@
 	retrigger_time="0.085" 
 	accuracy_factor="0.96" 
 	spread_range="0.3"
-	sustained_fire_grow_step="0.245" 
-	sustained_fire_diminish_rate="1.4"
+	sustained_fire_grow_step="0.24" 
+	sustained_fire_diminish_rate="1.75"
 	stance_accuracy_rate="1"
 	magazine_size="20" 
 	can_shoot_standing="1" 
@@ -20,7 +20,7 @@
 	projectile_speed="125.0" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2"
+	sight_range_modifier="2.4"
     stab_enabled="1"
     stab_range="3.4"
 	/>
@@ -74,7 +74,7 @@
 	<projectile file="bullet.projectile">
 		<result 
 		class="hit" 
-		kill_probability="0.95" 
+		kill_probability="1.05" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"
 		/>

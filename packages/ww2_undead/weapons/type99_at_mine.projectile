@@ -15,7 +15,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="12"
+	damage="11"
 	push="0.4"
 	decal="1" 
 	
@@ -31,12 +31,12 @@
 	near_far_distance="5.0" 
 	speed_estimation_near="9.0" 
 	speed_estimation_far="17.0" 
-	max_speed="14" 
+	max_speed="14.5" 
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
-    <commonness value="0.7" />
-    <inventory encumbrance="3.0" price="2.0" />
+    <commonness value="0.6" />
+    <inventory encumbrance="2.0" price="2.0" />
 	
 
     <capacity value="6" source="rank" source_value="0" />

@@ -11,7 +11,7 @@
 	accuracy_factor="0.9"
 	sustained_fire_grow_step="0"
 	sustained_fire_diminish_rate="1.0"
-	magazine_size="175"
+	magazine_size="152"
 	suppressed="1"
 	name="M2 Flamethrower"
 	class="0"
@@ -43,7 +43,7 @@
 	<hud_icon filename="hud_m2_flamethrower.png" />
 	
 	<commonness value="0.02" can_respawn_with="1" />
-	<inventory encumbrance="11.0" price="220.0" />
+	<inventory encumbrance="8.0" price="220.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	
@@ -52,7 +52,7 @@
 	near_far_distance="15.0"
 	speed_estimation_near="60.0"
 	speed_estimation_far="60.0"
-	max_speed="55"
+	max_speed="56"
 	randomness="0.05"
 	tweak_factor="8"
 	/> 

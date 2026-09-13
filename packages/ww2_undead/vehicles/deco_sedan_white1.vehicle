@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="" key="deco_sedan_white1.vehicle" map_view_atlas_index="-1" respawn_time="10000.0">
+<vehicle name="" key="deco_sedan_white1.vehicle" map_view_atlas_index="-1" respawn_time="10000.0" ai_use_throwables="0" allow_ai_to_use="0">
 	<tag name="deco_car" />
-	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
-	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
+	<tire_set offset="0.808 0.0 2.085" radius="0.426" />
+	<tire_set offset="0.808 0.0 -1.572" radius="0.426" />
 
 	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
                         
@@ -10,9 +10,18 @@
                                                                                                                                
 	<physics max_health="3.25" mass="6.5" extent="2.0 0.0 1.5" offset="0 0.0 0" top_offset="0 3 0" collision_model_pos="0 0.8 0" collision_model_extent="2.0 1.45 5.3" visual_offset="0 0.1 -0.1" vehicle_collision_damage_factor="1.0"/> 
 
-	<visual class="chassis" mesh_filename="sedan.mesh" texture_filename="sedan_atlas.png" texture_atlas_cell="1 0 4 4" />
-	<visual class="chassis" key="broken" mesh_filename="sedan_damage.mesh" texture_filename="sedan_atlas.png" texture_atlas_cell="3 1 4 4" />
-  
+	<visual class="chassis" mesh_filename="mod_deco_sedan_drivable_chassis.mesh" texture_filename="mod_deco_sedan_drivable_atlas.png" texture_atlas_cell="1 0 4 4" />
+	<visual class="chassis" key="broken" mesh_filename="mod_deco_sedan_drivable_chassis_damage.mesh" texture_filename="mod_deco_sedan_drivable_atlas.png" texture_atlas_cell="3 1 4 4" />
+	<visual class="tire" mesh_filename="mod_deco_sedan_drivable_wheel.mesh" texture_filename="mod_deco_sedan_drivable_atlas.png" texture_atlas_cell="1 0 4 4" />
+  	<character_slot type="driver" position="0.405 0.55 0.18942" rotation="0" exit_rotation="1.5795" hiding="1" animation_id="36" marker_offset="0 0.35 0.2"/>
+	<character_slot type="passenger" position="-0.4 0.55 0.16554" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" marker_offset="0 0.35 0.2" />
+
+	<character_slot type="passenger" position="0.33 0.7 -0.79772" rotation="1.57" exit_rotation="1.63775" hiding="1" animation_key="travelling car, aiming, left" marker_offset="0 0.35 0.2" />
+	<character_slot type="passenger" position="-0.43851 0.7 -0.80106" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" marker_offset="0 0.35 0.2" />
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.3" volume="0.6" />
+	<rev_sound filename="jeep2_rev2.wav" low_pitch="0.6" high_pitch="1.0" low_rev="0.1" high_rev="0.7" volume="0.45" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.5" high_rev="1.0" volume="0.6" />
+
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="hit" filename="car_hit3.wav" />

@@ -12,6 +12,6 @@
 	<weapon key="mp34.weapon" />  
 	
 	<!--<weapon key="type97_s.weapon" />-->
-	<!--<weapon key="type38_rifle_launcher.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
+	<!--<weapon key="type38_rifle_grenade_he_ai.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
 	
 </resources>

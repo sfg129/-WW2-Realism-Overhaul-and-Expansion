@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+<weapon key="m2_flamethrower.weapon" />
 	<weapon key="m1903_rifle.weapon" />
 	<weapon key="m1903_rifle_b.weapon" />
 	<weapon key="m1_garand.weapon" />
@@ -16,8 +16,6 @@
 	<weapon key="m1919_lmg_light.weapon" />
 <weapon key="m3_greasegun.weapon" />
 	<weapon key="m1903_rifle_s.weapon" />
-<weapon key="m1903_rifle_grenade_he.weapon" />	
-<weapon key="m1903_rifle_grenade_at.weapon" />
 		<weapon key="m1928a1_thompson.weapon" />
 <weapon key="m1928a1_thompson_drum.weapon" />
 <weapon key="boys_at_rifle.weapon" />

@@ -13,15 +13,15 @@
 	<tire_set offset="1.6 0.0 0" radius="0.52" />    
 	<tire_set offset="1.6 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="8" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.85" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.994" tracked="1" gears="1" simulated_speed_factor="0.4"/>
+	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="10" max_reverse_speed="6.5" min_health_to_steer="0.85" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.994" tracked="1" gears="1" simulated_speed_factor="0.4"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.5" />
+	<modifier class="blast_damage" value="-3.6" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
 	<physics 
-    max_health="24" 
+    max_health="30" 
     blast_damage_threshold="1.02" 
     mass="200.0" 
     broken_mass="10" 
@@ -36,7 +36,7 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.09 2.72 0.0" weapon_key="panzer_iv_cannon.weapon" weapon_offset="0.0 -0.28 2.45" weapon_recoil="0.2" max_rotation_step="0.00002" />
+	<turret offset="0.09 2.72 0.0" weapon_key="panzer_iv_cannon.weapon" weapon_offset="0.0 -0.18 2.45" weapon_recoil="0.2" max_rotation_step="0.00003" />
 	<turret offset="-0.73 1.76 2.3" weapon_key="panzer_iv_hull_mg.weapon" weapon_offset="0.0 +0.2 0.9" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0.09 2.72 0.0" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.50 -0.1 1.2" weapon_recoil="0.0" max_rotation_step="0.00003" />
 

@@ -14,9 +14,9 @@
     <trigger class="impact" />
     <result 
 	class="blast" 
-	radius="6.5" 
-	damage="7.5" 
-	push="1.0" 
+	radius="5" 
+	damage="7" 
+	push="0.8" 
 	decal="1" 
      faction_compare="not_equal"   
         damage_origin_vehicle="0" 

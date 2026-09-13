@@ -25,7 +25,7 @@
 	<!-- Inversely, its cannon is also marginally more effective against Infantry as it reloads quicker, though AoE is marginally smaller, it is still overall coming out on top. -->
 	<!-- Result is more of a glass-cannon than other Mediums. -->
 
-	<physics max_health="24"
+	<physics max_health="27"
  	blast_damage_threshold="1.02"
  	mass="200.0"
     	broken_mass="10" 
@@ -40,7 +40,7 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="-0.22 2.00 0.38" weapon_key="chi_ha_cannon.weapon" weapon_offset="0.0 0.48 1.60" weapon_recoil="0.1" max_rotation_step="0.00005" />
+	<turret offset="-0.22 2.00 0.38" weapon_key="chi_ha_cannon.weapon" weapon_offset="0.0 0.48 1.60" weapon_recoil="0.1" max_rotation_step="0.00002" />
 	<turret offset="0.44 1.65 1.52" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 1.32" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.4" />
 	<turret offset="0.31 0.36 -1.35" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" rotation="3.14" max_rotation_step="0.0003" rotation_range="0.6" parent_turret_index="0" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />

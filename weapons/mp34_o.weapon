@@ -7,8 +7,9 @@
 	<specification 
 	retrigger_time="0.095" 
 	accuracy_factor="0.95" 
+	spread_range="0.33"
 	sustained_fire_grow_step="0.175" 
-	sustained_fire_diminish_rate="1.6"
+	sustained_fire_diminish_rate="1.65"
 	magazine_size="32" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -39,8 +40,8 @@
 	<model filename="weapon_mp34_o_smg.xml" />
 	<hud_icon filename="hud_mp34_o.png" />
 
-	<commonness value="0.025" can_respawn_with="1"/>
-	<inventory encumbrance="5.0" price="25.0"/>
+	<commonness value="0.015" can_respawn_with="1"/>
+	<inventory encumbrance="5.0" price="60"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

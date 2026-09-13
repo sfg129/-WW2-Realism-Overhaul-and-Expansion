@@ -28,6 +28,12 @@
 	
     <commonness value="0.0" />
 	
+   	<effect class="result" key="vehicle" ref="BurstShine" lighting="0" />
+    <effect class="result" key="vehicle" ref="Godray" lighting="0" />
+	<effect class="result" key="other" ref="BurstShine" lighting="0" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+     <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="BurstShine" shadow="1" />
     <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
     <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />
     <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" use_surface_color="1" />
@@ -60,6 +66,7 @@
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
 	
+    <effect class="activated" ref="Propulsion" />
 
 	
 </projectile>

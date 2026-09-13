@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources clear_weapons="1">
-  
-	<weapon key="type99_rifle_b_ai.weapon" />
-	<weapon key="type100_44_smg_b.weapon" />
-	<weapon key="type_be_b_ai.weapon" />
-
-</resources>

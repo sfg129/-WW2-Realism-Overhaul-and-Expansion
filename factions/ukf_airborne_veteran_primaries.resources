@@ -5,7 +5,7 @@
 	<weapon key="sten_mkv.weapon" />
 	<weapon key="bren.weapon" />
 
-	<weapon key="smle_rifle_grenade_he.weapon" />
+	<weapon key="smle_rifle_grenade_he_ai.weapon" />
 
 	<weapon key="m1928a1_thompson.weapon" />
 	<weapon key="m1928_thompson.weapon" />

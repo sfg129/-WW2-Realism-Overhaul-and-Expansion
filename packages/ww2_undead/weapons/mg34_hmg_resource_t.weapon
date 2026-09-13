@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="mg34_hmg_resource_t.weapon" on_ground_up="0 0 1" radius="0.25">
+<weapon file="base_secondary.weapon" key="mg34_hmg_resource_t.weapon" on_ground_up="0 0 1" radius="0.25"  time_to_live_out_in_the_open="240.0">
 	<tag name="engineer" />
 	
 <access_tag name="edelweiss" />
@@ -39,7 +39,7 @@
 	<hud_icon filename="hud_mg34_hmg_resource.png" />
 	
 	<commonness value="0.01" can_respawn_with="0" />
-	<inventory encumbrance="11.0" price="250" />
+	<inventory encumbrance="8.0" price="250" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

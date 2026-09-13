@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
 	
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
 	
 	<weapon key="m1911.weapon" />
 

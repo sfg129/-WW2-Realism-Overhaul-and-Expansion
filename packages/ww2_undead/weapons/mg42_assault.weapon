@@ -16,7 +16,7 @@
 	name="MG 42 - Mobile" 
 	class="0" 
 	barrel_offset="0.7" 
-	projectile_speed="130.0"
+	projectile_speed="124.0"
 	/>
 	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />
 <animation state_key="next_in_chain_in" stance_key="prone" animation_key="reloading, m1919, prone" />
@@ -66,7 +66,7 @@
 	<projectile file="bullet.projectile">
 	    <result
 		class="hit"
-		kill_probability="0.88"
+		kill_probability="0.95"
 		kill_decay_start_time="0.42"
 		kill_decay_end_time="0.9" 
 		/>

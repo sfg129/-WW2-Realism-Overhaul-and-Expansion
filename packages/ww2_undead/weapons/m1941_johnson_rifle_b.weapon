@@ -10,7 +10,7 @@
 	accuracy_factor="0.975" 
 	sustained_fire_grow_step="0.95" 
 	sustained_fire_diminish_rate="2.4"	
-	stance_accuracy_rate="2.0"
+	stance_accuracy_rate="3"
 	magazine_size="10" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -61,7 +61,7 @@
 	<projectile file="bullet.projectile">
 		<result 
 		class="hit" 
-		kill_probability="1.5" 
+		kill_probability="1.75" 
 		kill_decay_start_time="0.48" 
 		kill_decay_end_time="0.9" 
 		/>

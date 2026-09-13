@@ -14,7 +14,8 @@
 <weapon key="m3_greasegun_folded.weapon" />
 		<weapon key="m5_resource.weapon" />
 		<weapon key="bofors_resource.weapon" />
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
+	<weapon key="m1903_rifle_grenade_he.weapon" />
 	<weapon key="m1_bazooka.weapon" />
 	<weapon key="m1911.weapon" />
 	<weapon key="m1_carbine.weapon" />

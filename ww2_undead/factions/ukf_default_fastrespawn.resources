@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<call key="mortar4.call" />
+
 	<vehicle key="m4_V_fastrespawn.vehicle" />
 	<vehicle key="m4_firefly_fastrespawn.vehicle" />
 
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="vickers_hmg.vehicle" />
+	<vehicle key="vickers_hmg_t.vehicle" />
 	<vehicle key="landing_craft.vehicle" />
 	<vehicle key="landing_craft_noai.vehicle" />  
 	<vehicle key="armory_higgins.vehicle" />   
@@ -17,14 +18,16 @@
 <vehicle key="universal_carrier_boys.vehicle" />
 	<vehicle key="churchill_mkvii.vehicle" />    
 	<vehicle key="churchill_crocodile.vehicle" />      
-	<vehicle key="universal_vickers_k.vehicle" />   
-<vehicle key="universal_carrier_vickers_k.vehicle" />  
+
 	<vehicle key="tog2_boss.vehicle" />
 <vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
 <vehicle key="m5a1_stuart.vehicle" />
 
 	<vehicle key="m3_halftrack_fastrespawn.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_qf6.vehicle" />
+	<call key="airstrike6.call" />
 
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />

@@ -19,6 +19,7 @@
 	slot="1"
 	name="Schiessbecher AT Rifle Grenade"
 	/>
+	<next_in_chain key="kar98k_rifle_grenade_he.weapon" share_ammo="1" />
 
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
@@ -42,6 +43,7 @@
 	<animation key="cycle" stance_key="prone" animation_key="launcher reload" />
 	<animation key="reload" animation_key="reloading, bolt action" />
 	<animation key="reload" stance_key="prone" animation_key="reloading, bolt action, prone" />
+	<animation state_key="next_in_chain_in" animation_key="reloading, m1 garand grenade launcher" />
 
 	<weak_hand_hold offset="0.4" />
 	
@@ -55,8 +57,8 @@
 	<hud_icon filename="hud_kar98k_he_grenade.png" />
 
 	
-	<commonness value="0.2"/>
-	<inventory encumbrance="5.0" price="10" />
+	<commonness value="0.22"/>
+	<inventory encumbrance="5.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.05" />

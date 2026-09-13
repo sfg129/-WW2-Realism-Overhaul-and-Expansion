@@ -5,7 +5,7 @@
 	<specification 
 	retrigger_time="0.117" 
 	accuracy_factor="0.96" 
-	sustained_fire_grow_step="0.275" 
+	sustained_fire_grow_step="0.3" 
 	sustained_fire_diminish_rate="1.6"
 	magazine_size="16" 
 	spread_range="0.285"

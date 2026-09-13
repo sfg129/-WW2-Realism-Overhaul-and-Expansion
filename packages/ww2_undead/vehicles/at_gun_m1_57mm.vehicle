@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="at_gun_qf6_base.vehicle" key="at_gun_m1_57mm.vehicle" name="M1 57mm Anti-Tank Gun" respawn_time="240.0" map_view_atlas_index="77">
+	<turret offset="0 0 0" weapon_key="at_gun_m1_57mm.weapon" weapon_offset="0 0.998 0" weapon_recoil="0.3" max_rotation_step="0.00002" rotation="0" />
+</vehicle>

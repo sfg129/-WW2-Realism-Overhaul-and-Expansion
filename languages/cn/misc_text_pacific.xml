@@ -166,6 +166,10 @@
 	<text key="Anti-Tank Satchel Charge" text="反坦克炸药包"/>
 	<text key="M3 Stuart cannon" text="M3轻坦主炮"/>
 	<text key="M3 Stuart MG" text="M3轻坦机枪"/>
+	<text key="M3 37mm Anti-Tank Gun" text="M3 37毫米反坦克炮"/>
+	<text key="M3 37mm Anti-Tank Gun deploy" text="M3 37毫米反坦克炮部署包"/>
+	<text key="M3 37mm Anti-Tank Gun deployed" text="M3 37毫米反坦克炮已部署"/>
+	<text key="M3 37mm anti-tank shell" text="M3 37毫米反坦克炮炮弹"/>
 	<text key="Type 1 SMG" text="1式冲锋枪"/>
 	<text key="Type 4 Rifle" text="4式半自动步枪"/>
 	<text key="Type 4 rocket" text="4式火箭弹"/>

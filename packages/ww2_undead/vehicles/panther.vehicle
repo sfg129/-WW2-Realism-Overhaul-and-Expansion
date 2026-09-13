@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Panther Ausf. G" key="panther.vehicle"
-	time_to_live_unsteerable="60" respawn_time="250" map_view_atlas_index="61"
+<vehicle file="vehicle_base.vehicle" name="Panther" key="panther.vehicle"
+	time_to_live_unsteerable="60" respawn_time="150" map_view_atlas_index="80"
 	minimum_fill_requirement="0.51" max_character_collision_speed="-1"
 	max_character_collision_speed_on_normal="3.5" character_leave_request_mode="friendly"
-	usable_for_cover="0" allow_owner_to_use_only="1" owner="faction">
+	usable_for_cover="0" allow_owner_to_use_only="0" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="crushes_hedgerows" />
 	<tag name="heavy_armour" />
@@ -14,49 +14,52 @@
 	<!-- Physical contact points scaled with the finalized 1.96 vehicle geometry. -->
 	<tire_set offset="1.58294 0.0 3.332" radius="0.7448" />
 	<tire_set offset="1.58294 0.0 -3.332" radius="0.7448" />
-	<control max_limiter_speed="3.0" max_speed="7.0" acceleration="14"
+	<control max_limiter_speed="3.0" max_speed="9" acceleration="10"
 		max_reverse_speed="6.5" min_health_to_steer="1.5" max_rotation="1"
 		max_water_depth="2.744" steer_smoothening="0.99" tracked="1" gears="1"
 		simulated_speed_factor="0.5" />
 
-	<modifier class="blast_range" value="1.0" />
-	<modifier class="blast_damage" value="-5.4" />
-	<physics max_health="32" blast_damage_threshold="3.7" mass="400"
+	<modifier class="blast_range" value="0.85" />
+	<modifier class="blast_damage" value="-4.6" />
+	<physics max_health="48" blast_damage_threshold="2.7" mass="400"
 		broken_mass="20" remove_collision_threshold="0.2"
-		extent="4.312 0.0 8.82" offset="0 0.0 0" top_offset="0 3.92 0"
-		collision_model_pos="0 2.058 0" collision_model_extent="4.312 4.116 8.82"
-		visual_offset="0 0 0" />
+		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"
+		collision_model_pos="0 1.058 -0.5" collision_model_extent="4.312 2.616 7.82"
+		visual_offset="0 0.31 0" />
 
 	<!-- index 0: main gun; index 1: hull MG; index 2: coaxial MG. -->
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="panther_cannon.weapon"
 		weapon_offset="-0.07391 0.65703 1.56539" weapon_recoil="0.2"
-		max_rotation_step="0.000015" />
+		max_rotation_step="0.000024" />
 	<turret offset="-0.686 1.764 2.646" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="0.0 0.196 0.98" weapon_recoil="0.0" physics_recoil="0.0"
 		max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="-0.392 0.49 1.274" weapon_recoil="0.0" physics_recoil="0.0"
-		max_rotation_step="0.00005" />
+		max_rotation_step="0.000024"/>
+	<turret offset="1.8 0.7 0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
-	<visual class="chassis" mesh_filename="panther_chassis.mesh" texture_filename="panther.png" max_tilt="0.02" />
-	<visual class="turret" turret_index="0" mesh_filename="panther_turret.mesh" texture_filename="panther.png" />
-	<visual class="turret" turret_index="1" mesh_filename="" texture_filename="" />
-	<visual class="turret" turret_index="2" mesh_filename="" texture_filename="" />
+	<visual class="chassis" mesh_filename="panther_chassis.mesh" texture_filename="panther_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="panther_chassis_damage.mesh" texture_filename="panther_chassis_track_damage.png" />
+	<visual class="turret" turret_index="0" mesh_filename="panther_turret.mesh" texture_filename="panther_turret.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="panther_turret_damage.mesh" texture_filename="panther_turret_cannon_damage.png" />
+	<visual class="turret" turret_index="1" mesh_filename="king_tiger_hull_mg.mesh" texture_filename="king_tiger.png" />
+	<visual class="turret" turret_index="2" mesh_filename="king_tiger_hull_mg.mesh" texture_filename="king_tiger.png" />
 
 	<!-- Optimized static running gear: each side uses a low-poly continuous belt
 	     plus selectively reduced wheels. UV mapping is retained for texture detail. -->
-	<visual class="track" mesh_filename="panther_track_right.mesh" offset="-1.58294 0.0 0.0">
-		<part texture_filename="panther.png" tire_binding="0" />
+	<visual class="track" mesh_filename="panther_track_right.mesh" offset="-1.54622 0 0">
+		<part texture_filename="panther_track.png" tire_binding="0" />
 	</visual>
-	<visual class="track" mesh_filename="panther_track_left.mesh" offset="1.58294 0.0 0.0">
-		<part texture_filename="panther.png" tire_binding="1" />
+	<visual class="track" mesh_filename="panther_track_left.mesh" offset="1.56134 0 0">
+		<part texture_filename="panther_track.png" tire_binding="1" />
 	</visual>
 
 	<!-- XYZ is LeftRight, UpDown, ForwardBack; left is positive. -->
 	<character_slot type="driver" position="1.274 1.372 2.352" rotation="0"
 		exit_rotation="1.57" hiding="1" animation_id="36" />
 	<character_slot type="gunner" position="-1.274 1.372 -0.49" rotation="0"
-		exit_rotation="-1.57" hiding="1" animation_id="37">
+		exit_rotation="-1.0858" hiding="1" animation_id="37">
 		<turret index="0" />
 		<turret index="2" />
 	</character_slot>
@@ -64,10 +67,22 @@
 		exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 		<turret index="1" />
 	</character_slot>
+			<character_slot type="gunner" position="1.8 0.7 -0.69629" rotation="0" exit_rotation="1.95679" hiding="1" animation_key="tank mg still">
+			<turret index="3" />
+		</character_slot>
+				<character_slot type="passenger" hiding="1">
 
-	<rev_sound filename="tank_rev_panzer_idle3.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.6" />	<!-- was 1.8 -->
-	<rev_sound filename="tank_rev_panzer_low_speed1.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="0.9" volume="2.0" /> 	<!-- was 2.3 --> 
-	<rev_sound filename="tank_rev_panzer_high_speed4.wav" low_pitch="0.75" high_pitch="0.975" low_rev="0.7" high_rev="1.0" volume="1.9" />	<!-- was 2.4 -->
+		<state class="entering" position="-2 0.7 -1.5" rotation="0.0" />
+		<state class="leaving" position="-2 0.7 -1.5" rotation="-1.57" />
+		<state class="idle" animation_key="sitting, idling" rotation="0.0" position="-1.5 0.7 -2.65173" />
+
+		
+	</character_slot>
+
+
+	<rev_sound filename="tank_rev_tiger_idle.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.0" high_rev="1.0" volume="1.8" />		<!-- vol 1.8 -->
+	<rev_sound filename="tank_rev_tiger_low_speed5.wav" low_pitch="0.8" high_pitch="1.05" low_rev="0.01" high_rev="1.0" volume="1.6" />	<!-- vol 1.7 -->
+	<rev_sound filename="tank_rev_tiger_high_speed2.wav" low_pitch="0.75" high_pitch="1.05" low_rev="0.6" high_rev="1.0" volume="2.1" />	<!-- vol 2.8 -->
 
 	<sound key="squeal" filename="tire_squeal.wav" />
 	<sound key="ignition" filename="jeep2_ignition.wav" />

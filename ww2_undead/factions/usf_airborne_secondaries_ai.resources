@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
+	<projectile key="hawkins_grenade.projectile" />
 
 				<weapon key="m1919_hmg_resource_t.weapon" />
 	<weapon key="light_mortar_resource.weapon" />
@@ -9,6 +10,7 @@
 	<weapon key="m1903_at_launcher.weapon" />
 	<weapon key="m1_bazooka.weapon" />
 		<weapon key="bofors_resource.weapon" />
+	
 	<weapon key="m1911.weapon" />
 	<carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  

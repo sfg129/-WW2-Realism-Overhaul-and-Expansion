@@ -15,7 +15,7 @@
 	accuracy_factor="0.95" 
     sustained_fire_grow_step="0.00355 " 
     sustained_fire_diminish_rate="0.02"  
-	sight_range_modifier="1.25"
+	sight_range_modifier="1.15"
 	ai_sight_range_modifier="1"
 	magazine_size="-1" 
 	can_shoot_standing="0" 
@@ -50,8 +50,8 @@
 	<projectile file="50cal_bullet.projectile">
         <result
 class="blast"
-    radius="1.5"
-    damage="1.6"
+    radius="2"
+    damage="1.8"
     push="0.1"
     decal="1" 
 	faction_compare="not_equal"

@@ -4,7 +4,7 @@
 <access_tag name="ww2" />
 
 	<specification 
-	retrigger_time="0.1" 
+	retrigger_time="0.095" 
 	accuracy_factor="0.75"
   	spread_range="0.18"
 	sustained_fire_grow_step="1.0"
@@ -63,7 +63,7 @@
 	<projectile file="bullet.projectile">
 	    <result
 		class="hit"
-		kill_probability="0.95"
+		kill_probability="1.05"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" 
 		/>

@@ -13,7 +13,9 @@
 <vehicle key="sdkfz251_mortar.vehicle" />
 <vehicle key="sdkfz251_pak40.vehicle" />
  	<vehicle key="mg34_hmg.vehicle" />
+ 	<vehicle key="mg34_hmg_t.vehicle" />
  	<vehicle key="mg42_hmg.vehicle" />
+ 	<vehicle key="mg42_hmg_t.vehicle" />
  	<vehicle key="opel_blitz_1.vehicle" />
  	<vehicle key="opel_blitz_2.vehicle" />
  	<vehicle key="opel_blitz_armoury.vehicle" />
@@ -35,6 +37,7 @@
 	<vehicle key="flak_88.vehicle" />
 	<vehicle key="luchs.vehicle" />
 	<vehicle key="normandy_turret.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
 
 
 	<call key="artillery2.call" />

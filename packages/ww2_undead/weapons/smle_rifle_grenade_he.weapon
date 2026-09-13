@@ -16,14 +16,14 @@
 	suppressed="0" 
 	name="No. 1 Mk I HE Rifle Grenade" 
 	class="2"
-	slot="0"
+	slot="1"
 	reload_one_at_a_time="1" 
-	projectile_speed="37.0" 
+	projectile_speed="40" 
 	ai_sight_range_modifier="0.7" 
 	barrel_offset="1.05" 
 		sight_range_modifier="1.5" 
 	/>
-<next_in_chain key="smle_rifle_grenade_launcher_at.weapon" share_ammo="1" />
+<next_in_chain key="smle_rifle_grenade_at.weapon" share_ammo="1" />
 	<!-- This is a No. 1 Mk I Cup Discharger on a Mk III Rifle (it could not be attached to the No. 4 Rifle) firing a Mills Bomb Rifle Grenade. -->	<animation state_key="next_in_chain_in" animation_key="reloading, m1 garand grenade launcher" />
 		<modifier class="speed" value="-0.05" />
 
@@ -45,8 +45,8 @@
 	<model filename="weapon_smle_rifle_grenade_he.xml" />
 	<hud_icon filename="hud_smle_mk3_he.png" />
 	
-	<commonness value="0.06" can_respawn_with="1"/>
-	<inventory encumbrance="8.0" price="60.0" />
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -57,7 +57,7 @@
 	near_far_distance="0.0"
 	speed_estimation_near="9.0"
 	speed_estimation_far="17.0"
-	max_speed="37.0"
+	max_speed="40"
 	randomness="0.0"
 	tweak_factor="1.1"
 	/> 

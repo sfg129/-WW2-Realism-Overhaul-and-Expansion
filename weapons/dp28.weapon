@@ -25,8 +25,8 @@
 	<stance state_key="prone_moving" accuracy="0.6" />
 	<!-- was 0.925 -->
 
-	<stance state_key="standing" accuracy="0.87" />
-	<stance state_key="crouching" accuracy="0.92" />
+	<stance state_key="standing" accuracy="0.89" />
+	<stance state_key="crouching" accuracy="0.94" />
 	<stance state_key="prone" accuracy="1.2" />
 	<stance state_key="over_wall" accuracy="1.2" />     
 	

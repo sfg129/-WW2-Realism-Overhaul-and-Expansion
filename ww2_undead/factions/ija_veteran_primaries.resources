@@ -6,7 +6,7 @@
 	<weapon key="type44_carbine_b.weapon" />
 	<weapon key="type96_lmg.weapon" />
 	<weapon key="type99_lmg.weapon" />
-
+<weapon key="type38_rifle_b.weapon" />
 	<weapon key="type38_rifle_launcher.weapon" />
 	
   	<weapon key="type2_model_b_machinepistol.weapon" />
@@ -14,7 +14,7 @@
 	<weapon key="type_ko_rifle_b.weapon" />
 	<weapon key="type_be.weapon" />
   	<weapon key="type_be_b.weapon" />
-	
+	<weapon key="beretta_m38.weapon" />
 	<weapon key="type11_lmg.weapon" />
 	<weapon key="type2_machinepistol.weapon" />
 	<weapon key="type99_rifle_elite.weapon" />

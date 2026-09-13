@@ -24,7 +24,7 @@ dictionary getUnlockFiremodes() {
 		{"type100_folding.weapon", "type100_folding_b.weapon"},
 {"browning_auto5_ext.weapon", "browning_auto5_ext_4.weapon"},
 {"ppsh41.weapon", "ppsh41_stick.weapon"},
-{"m1_garand_launcher.weapon", "m1_garand_launcher_at_mode.weapon"},
+{"m1_garand_rifle_grenade_he.weapon", "m1_garand_rifle_grenade_at.weapon"},
 {"m2_carbine.weapon", "m2_carbine_b.weapon"},
 {"svt40.weapon", "svt40_b.weapon"},
 {"m1_garand_s.weapon", "m1_garand_is.weapon"},

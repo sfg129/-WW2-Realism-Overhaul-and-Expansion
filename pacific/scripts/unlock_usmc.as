@@ -7,8 +7,7 @@ array<Resource@>@ getUnlockItemListUsmc() {
 	//primary weapon unlocks
 	
 	list.push_back(Resource("browning_auto5_ext.weapon", "weapon")); //respawnable 25rp
-	list.push_back(Resource("m1_garand_launcher.weapon", "weapon")); 
-	list.push_back(Resource("m2_flamethrower.weapon", "weapon")); //non-respawnable
+	list.push_back(Resource("m1_garand_rifle_grenade_he.weapon", "weapon")); 
 	list.push_back(Resource("m1941_johnson_lmg.weapon", "weapon"));
 	list.push_back(Resource("m1928_thompson_large_drum.weapon", "weapon"));
 	list.push_back(Resource("browning_auto5_cut_down.weapon", "weapon"));

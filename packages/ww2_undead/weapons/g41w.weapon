@@ -6,7 +6,7 @@
 
 	<specification 
 	retrigger_time="0.25"
-	accuracy_factor="0.975" 
+	accuracy_factor="0.97" 
 
 	sustained_fire_grow_step="1.2" 
 	sustained_fire_diminish_rate="2.5"
@@ -54,7 +54,7 @@
 	<model filename="weapon_g41.xml" />
 	<hud_icon filename="hud_g41.png" />
 	
-	<commonness value="0.06" can_respawn_with="1" in_stock="1"/>
+	<commonness value="0.02" can_respawn_with="1" in_stock="1"/>
 	<inventory encumbrance="8.0" price="15.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -63,7 +63,7 @@
 	<projectile file="bullet.projectile">
 		<result 
 		class="hit" 
-		kill_probability="1.5"
+		kill_probability="1.7"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"
 		/>

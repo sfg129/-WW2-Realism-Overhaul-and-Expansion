@@ -10,6 +10,7 @@
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
 <carry_item key='vest_snlf.carry_item' enabled="1" />  
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
+	<weapon key="kar98k_rifle_grenade_he.weapon" />
 	<weapon key="panzerfaust.weapon" />
 <weapon key="pak40_resource.weapon" />
 	<weapon key="p08.weapon" />

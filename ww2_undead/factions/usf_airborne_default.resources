@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<call key="mortar3.call" />
+
 	<vehicle key="m4_75.vehicle" />
 	<vehicle key="m4_76.vehicle" />
+	<vehicle key="m4a3e2_76.vehicle" />
 	<vehicle key="m4_rhino.vehicle" />
 <vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
@@ -10,7 +11,9 @@
  
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m1919_hmg_t.vehicle" />
 	<vehicle key="m2hb_hmg.vehicle" />
+	<vehicle key="m2hb_hmg_t.vehicle" />
 
 	<vehicle key="jeep.vehicle" />
 	<vehicle key="willys_mb.vehicle" />
@@ -20,19 +23,23 @@
 
 	<vehicle key="at_gun_m5.vehicle" />
 	<vehicle key="usf_armoury_para.vehicle" />    
-<vehicle key="m4_E4.vehicle" />
+
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_m1_57mm.vehicle" />
 	<call key="airstrike4.call" />
-	<call key="airstrike5.call" />
+
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="usf_para.call" />
 	<call key="usf_para_armoury.call" />
 	<call key="usf_vehicle.call" />
-	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
+	<call key="usf_vehicle_stuart.call" />
+	
 
 	<call key="usf_vehicle_m4_sherman.call" />
 	<call key="usf_vehicle_m4_sherman_76.call" />
+	<call key="usf_vehicle_m4a3e2_76.call" />
 	<call key="usf_vehicle_m10.call" />
 
 </resources>

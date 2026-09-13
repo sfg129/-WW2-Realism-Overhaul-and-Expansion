@@ -10,7 +10,7 @@
 
 	<specification 
 	retrigger_time="0.063" 
-	accuracy_factor="0.8"
+	accuracy_factor="0.85"
   	spread_range="0.2"
    sustained_fire_grow_step="0.0118" 
     sustained_fire_diminish_rate="0.13"  
@@ -81,10 +81,10 @@ projectile_speed="125.0"
 	<projectile file="bullet.projectile">
 	    <result
 		class="hit"
-		kill_probability="0.95" 
+		kill_probability="1" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" 
 		/>
 	</projectile>
-<shield offset="0 0 -0.4" extent="0.3 1 2.2" />
+<shield offset="0.2 0.2 -0.4" extent="0.7 0.6 2.2" />
 </weapon>

@@ -6,7 +6,7 @@
 
 	<specification 
 	retrigger_time="0.25" 
-	accuracy_factor="0.955" 
+	accuracy_factor="0.96" 
 	spread_range="0.28"
 	sustained_fire_grow_step="1" 
 	sustained_fire_diminish_rate="0.8"
@@ -21,7 +21,7 @@
 	projectile_speed="130.0"  
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2.25"
+
 	/>
 	<next_in_chain key="kar43_is.weapon" share_ammo="1" />
 
@@ -58,7 +58,7 @@
 	<projectile file="bullet.projectile">
 		<result 
 		class="hit" 
-		kill_probability="1.5"
+		kill_probability="1.7"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"
 		/>

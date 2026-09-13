@@ -465,7 +465,47 @@
 	</soldier>
 	
 
-	<rank xp="0.0" name="Airtrooper">
+	<!-- FLAMETHROWER GROUP -->
+	<soldier name="flamethrower_operator" spawn_score="0.0016" squad_size_xp_cap="0.5">
+		<character filename="ukf.character" />
+		<ai filename="flamethrower_operator.ai" />
+		<model filename="soldier_ukf_paratrooper_assault.xml" />
+		<resources file="ukf_flamethrower_primaries.resources" />
+		<resources file="ukf_flamethrower_secondaries.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.41" max="0.8" />
+		</attribute_config>
+	</soldier>
+
+	<!-- FLAMETHROWER VETERAN GROUP -->
+	<soldier name="flamethrower_operator_veteran" spawn_score="0.0025" squad_size_xp_cap="0.5">
+		<character filename="ukf.character" />
+		<ai filename="flamethrower_operator.ai" />
+		<model filename="soldier_ukf_paratrooper_veteran.xml" />
+		<resources file="ukf_flamethrower_primaries.resources" />
+		<resources file="ukf_flamethrower_veteran_secondaries.resources" />
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.7" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.41" max="0.8" />
+		</attribute_config>
+	</soldier>
+
++	<rank xp="0.0" name="Airtrooper">
 		<hud_icon filename="hud_rank0_uk.png" />
 	</rank>
 	<rank xp="0.05" name="Lance Corporal">

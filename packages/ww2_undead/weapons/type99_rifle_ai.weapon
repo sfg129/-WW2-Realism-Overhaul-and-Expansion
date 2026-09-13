@@ -40,7 +40,7 @@ projectile_speed="125.0"
 	<model filename="type99_rifle.xml" />
 	<hud_icon filename="hud_type99_rifle.png" />
 	
-	<commonness value="0.3" />
+	<commonness value="0.16" />
 	<inventory encumbrance="8.0" price="2.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -49,7 +49,7 @@ projectile_speed="125.0"
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="1.5"
+		kill_probability="1.7"
 		kill_decay_start_time="0.4"
 		kill_decay_end_time="0.9"
 		/>

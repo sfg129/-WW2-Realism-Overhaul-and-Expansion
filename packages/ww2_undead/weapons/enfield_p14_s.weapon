@@ -8,7 +8,8 @@
 	retrigger_time="-1.0" 
 	accuracy_factor="0.99" 
 	sustained_fire_grow_step="1" 
-	stance_accuracy_rate="0.85"
+	stance_accuracy_rate="0.95"
+	sustained_fire_diminish_rate="0.95"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -18,7 +19,7 @@
 	projectile_speed="130.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-
+	sight_range_modifier="2.15"
 	/>
 	<next_in_chain key="enfield_p14_is.weapon" share_ammo="1" />
 
@@ -58,7 +59,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="1.5"
+		kill_probability="1.75"
 		kill_decay_start_time="0.66"
 		kill_decay_end_time="0.9"
 		/>

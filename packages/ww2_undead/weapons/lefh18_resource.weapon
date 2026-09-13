@@ -19,7 +19,7 @@
 	slot="1"
 	cover_deployment="1"
     deny_ladder_range="3"/>
-	/>
+	
 	
 	<animation state_key="running" 		animation_key="walking, carrying load" />
 	<animation state_key="walking" 		animation_key="walking, carrying load" />

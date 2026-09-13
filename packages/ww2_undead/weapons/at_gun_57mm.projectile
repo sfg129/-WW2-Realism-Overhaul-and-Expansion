@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="at gun shell" slot="2" key="at_gun_57mm.projectile" pulldown_in_air="2">
+	
+    <sound class="result" key="other" fileref="light_gun_01.wav" volume="2.40"  pitch_variety="0.1"/>
+    <sound class="result" key="other" fileref="light_gun_02.wav" volume="2.40" pitch_variety="0.1"/>
+    <sound class="result" key="other" fileref="light_gun_03.wav" volume="2.40" pitch_variety="0.1"/>
+    <sound class="result" key="other" fileref="light_gun_04.wav" volume="2.40" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="5.5"
+	damage="13.6"
+	push="1"
+	decal="1"
+        damage_origin_vehicle="0" 
+		faction_compare="not_equal"
+	/>
+	
+	<model mesh_filename="mortar_shell.xml" />
+	<commonness value="0.0" />
+	
+    <rotation class="motion" />
+	<effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+   	<effect class="result" key="terrain" ref="OstvetHitSparks" />
+    <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
+	<effect class="result" key="terrain" ref="HitTank" lighting="1" />
+   	<effect class="result" key="terrain" ref="HitTankSparks" />
+	
+    	<effect class="result" key="terrain" ref="HandGrenadeSmokeTop" post_processing="1" />
+    	<effect class="result" key="terrain" ref="HandGrenadeSmoke" post_processing="1" />
+    	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+   	<effect class="result" key="other" ref="HandGrenadeSmokeTop" post_processing="1" />
+    	<effect class="result" key="other" ref="HandGrenadeSmoke" post_processing="1" />
+    	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+	
+
+	
+</projectile>

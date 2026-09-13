@@ -7,7 +7,7 @@
 	<weapon key="type96_lmg.weapon" />
 	<weapon key="type99_lmg.weapon" />
 <weapon key="type38_rifle_b.weapon" />
-	<weapon key="type38_rifle_launcher.weapon" />
+	<weapon key="type38_rifle_grenade_he_ai.weapon" />
 	
   	<weapon key="type2_model_b_machinepistol.weapon" />
 	<weapon key="type4_garand.weapon" />

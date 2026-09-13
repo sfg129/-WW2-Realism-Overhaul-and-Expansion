@@ -12,7 +12,8 @@
 	<weapon key="m1911.weapon" />
 	<weapon key="m1_garand2.weapon" />
 	<weapon key="m1_garand2_b.weapon" />
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
+	<weapon key="m1903_rifle_grenade_he.weapon" />
 	<weapon key="m18_recoilless_rifle.weapon" />
 	<weapon key="m18_recoilless_rifle_he.weapon" />
 	<weapon key="m1_bazooka.weapon" />
@@ -21,6 +22,7 @@
 	<weapon key="morphine.weapon" />
 	<weapon key="m1_carbine.weapon" />
 	<projectile key="democharge.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
 	<weapon key='binoculars.weapon' />
 	<weapon key="bofors_resource.weapon" />
 	<weapon key="m1_57mm_resource.weapon" />

@@ -13,7 +13,7 @@
 	<control max_limiter_speed="8.0" max_speed="22.0" acceleration="8.5" max_reverse_speed="7.0" min_health_to_steer="0.12" max_rotation="0.6" max_water_depth="1.0" steer_smoothening="0.8" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-0.5" />
+	<modifier class="blast_damage" value="-0.9" />
 
 	<physics max_health="1.6" mass="1.0" extent="2.4 0.0 4.2" offset="0 0.0 0" top_offset="0 4 0" collision_model_pos="0 0.5 -0.2" collision_model_extent="1.8 1.0 2.5" visual_offset="0 0.3 -0" gravity="-40" preserve_motion_on_impact_factor="1.0" friction_offset="0.0" drag_offset="-0.15" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6"/> 
 

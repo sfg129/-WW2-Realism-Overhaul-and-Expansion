@@ -369,7 +369,64 @@
 		</attribute_config>
 		
 	</soldier>
-	
+		<soldier name="flamethrower_operator" spawn_score="0.00675" squad_size_xp_cap="0.5">
+		<character filename="usmc.character" />
+		<ai filename="flamethrower_operator.ai" />
+		
+		<models file="us_army_default_normandy.models" />
+		
+		<resources file="usmc_flamethrower_primaries.resources" />
+		<resources file="usmc_flamethrower_secondaries.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.41" max="0.8" />
+		</attribute_config>
+		
+	</soldier>
+
+	<!-- ================== -->
+	<!-- FLAMETHROWER VETERAN GROUP -->
+	<!-- ================== -->
+	<soldier name="flamethrower_operator_veteran" spawn_score="0.0025" squad_size_xp_cap="0.5">
+		<character filename="usmc.character" />
+		<ai filename="flamethrower_operator.ai" />
+		
+		<models file="us_army_default_normandy.models" />
+		
+		<resources file="usmc_flamethrower_primaries.resources" />
+		<resources file="usmc_flamethrower_veteran_secondaries.resources" />
+		
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+		
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.41" max="0.8" />
+		</attribute_config>
+		
+	</soldier>
 	<!-- ===== -->
 	<!-- RANKS -->
 	<!-- ===== -->

@@ -13,6 +13,10 @@
 	<visual class="chassis" mesh_filename="allied_truck.mesh" texture_filename="allied_truck.png" />
 	<visual class="chassis" key="broken" mesh_filename="allied_truck_damage.mesh" texture_filename="allied_truck_damage.png" />
   
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.3" volume="0.6" />
+	<rev_sound filename="jeep2_rev2.wav" low_pitch="0.6" high_pitch="1.0" low_rev="0.1" high_rev="0.7" volume="0.45" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.5" high_rev="1.0" volume="0.6" />
+
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="hit" filename="car_hit3.wav" />

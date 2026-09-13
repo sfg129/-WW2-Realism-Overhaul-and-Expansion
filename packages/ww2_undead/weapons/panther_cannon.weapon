@@ -20,12 +20,12 @@
 		suppressed="0"
 		name="Panther Cannon"
 		class="0"
-		projectile_speed="120.0"
+		projectile_speed="140.0"
 		slot="2"
 		barrel_offset="5.2136"
 		projectiles_per_shot="1" />
 
-	<model mesh_filename="panther_cannon.mesh" texture_filename="panther.png" />
+	<model mesh_filename="panther_cannon.mesh" texture_filename="panther_cannon.png" />
 	<hud_icon filename="hud_tank_cannon.png" />
 	<commonness value="0.0" />
 	<projectile file="king_tiger_cannon.projectile" />
@@ -42,5 +42,5 @@
 	<effect class="muzzle" ref="BiggerMuzzle" />
 	<effect class="muzzle" ref="CannonSmokeBig" />
 	<effect class="muzzle" ref="CannonSmokeBigSphere" />
-	<sound class="operation" key="fire" fileref="tank_cannon_heavy.wav" pitch_variety="0.05" volume="3.8" />
+	<sound class="operation" key="fire" fileref="tank_cannon.wav" pitch_variety="0.05" volume="2.5" />
 </weapon>

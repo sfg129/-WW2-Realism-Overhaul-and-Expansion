@@ -10,7 +10,7 @@
 	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="11.0" max_reverse_speed="6.5" min_health_to_steer="1.5"/>
 
     	<physics 
-    max_health="48" 
+    max_health="44" 
     blast_damage_threshold="1.02"
     mass="400.0" 
     broken_mass="20"    

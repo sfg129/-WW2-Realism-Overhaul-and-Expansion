@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="breniii.weapon"
-	ai_burst_time="1" 
+	ai_burst_time="1.5" 
 	ai_burst_time_variance="0.5" 
 	ai_burst_wait_time="0.2" 
 	ai_burst_wait_time_variance="0.1"
@@ -11,9 +11,10 @@
 
 	<specification 
 	retrigger_time="0.108" 
-	accuracy_factor="0.945"
+	accuracy_factor="0.95"
+		spread_range="0.34"
 	sustained_fire_grow_step="0.27"
-	sustained_fire_diminish_rate="1.8"	
+	sustained_fire_diminish_rate="2"	
 	stance_accuracy_rate="1.6"
 	magazine_size="30" 
 	can_shoot_standing="1" 
@@ -22,7 +23,7 @@
 	name="Bren Mk III LMG" 
 	class="0" 
 	barrel_offset="0.6" 
-	projectile_speed="120.0"
+	projectile_speed="125.0"
 	/>
 
 	<!-- RoF was formerly 0.1175 -->
@@ -64,7 +65,7 @@
 	
 	<weak_hand_hold offset="0.4" />
 	
-	<sound key="fire" fileref="weapon_mg_bren3.wav" pitch_variety="0.05" volume="0.5"/>
+	<sound key="fire" fileref="weapon_mg_bren.wav" pitch_variety="0.07" volume="1.73"/>
 	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
 	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
 	<sound key="cycle" fileref="rifle_chamber.wav" />
@@ -72,7 +73,7 @@
 	<model filename="weapon_bren_mkiii.xml" />
 	<hud_icon filename="hud_bren_mkiii.png" />
 	
-	<commonness value="0.02" in_stock="0"/>
+	<commonness value="0.012" in_stock="0"/>
 	<inventory encumbrance="8.0" price="30" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -81,7 +82,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.95" 
+		kill_probability="1.05" 
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" />
 	</projectile>

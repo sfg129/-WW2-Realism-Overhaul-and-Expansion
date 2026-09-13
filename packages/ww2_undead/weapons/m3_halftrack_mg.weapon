@@ -50,8 +50,8 @@
 	<projectile file="50cal_bullet.projectile">
         <result
 class="blast"
-    radius="1.5"
-    damage="1.6"
+    radius="2"
+    damage="1.8"
     push="0.1"
     decal="1" 
 	faction_compare="not_equal"

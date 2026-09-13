@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Willys MB" key="willys_mb.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="10" minimum_fill_requirement="0.67" ai_driver_turns_to_target="1" ai_use_throwables="0">
+<vehicle file="vehicle_base.vehicle" name="Willys MB" key="willys_mb.vehicle" time_to_live_unsteerable="60" map_view_atlas_index="10" minimum_fill_requirement="0.67" ai_driver_turns_to_target="1" ai_use_throwables="1">
 	<tag name="metal_thin" />
 	<tag name="jeep" />  
    	<tag name="light_vehicle" />
@@ -7,7 +7,7 @@
 	<tire_set offset="0.82 0.0 1.28" radius="0.47" />
 	<tire_set offset="0.82 0.0 -1.28" radius="0.47" />
 
-	<control max_limiter_speed="8.0" max_speed="24.0" acceleration="6.5" max_reverse_speed="10" min_health_to_steer="0.12" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+	<control max_limiter_speed="8.0" max_speed="24.0" acceleration="7" max_reverse_speed="10" min_health_to_steer="0.12" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<modifier class="blast_damage" value="-0.5" />

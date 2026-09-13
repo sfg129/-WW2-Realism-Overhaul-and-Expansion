@@ -17,13 +17,12 @@
 	class="2" 
 	projectile_speed="39.0" 
 	barrel_offset="1.05" 
-	slot="0"
+	slot="1"
 	sight_range_modifier="1.5" 
 	ai_sight_range_modifier="0.7" 
 	/>
-		<next_in_chain key="m1903_rifle_grenade_at.weapon" share_ammo="1" />
+	<next_in_chain key="m1903_rifle_grenade_at.weapon" share_ammo="1" />
 		<modifier class="speed" value="-0.05" />
-	<next_in_chain key="m1903_rifle_grenade_he.weapon" share_ammo="1" />
 
 		<animation key="crouching" animation_key="rifle grenade crouch" />
 	<animation key="recoil" animation_key="rifle grenade recoil" />
@@ -42,8 +41,8 @@
 	<model filename="weapon_m1903_rifle_grenade_he.xml" />
 	<hud_icon filename="hud_m1903_he_launcher.png" />
 	
-	<commonness value="0.07" can_respawn_with="1" in_stock="1"/>
-	<inventory encumbrance="8.0" price="60.0" />
+	<commonness value="0" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

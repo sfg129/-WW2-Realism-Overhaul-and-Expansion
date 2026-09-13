@@ -19,10 +19,8 @@
 	<weapon key="m1918_bar.weapon" />			
 <weapon key="m12_trench_gun_b.weapon" />	
 <weapon key="m12_trench_gun.weapon" />	
-<weapon key="m1903_rifle_grenade_he.weapon" />	
-<weapon key="m1903_rifle_grenade_at.weapon" />
-
 <weapon key="m1a1_carbine_p.weapon" />
 <weapon key="m1_garand_s.weapon" />
 <weapon key="m1_garand_is.weapon" />
+<weapon key="m2_flamethrower.weapon" />
 </resources>

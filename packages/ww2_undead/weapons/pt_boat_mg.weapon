@@ -36,8 +36,8 @@
 	<projectile file="50cal_bullet.projectile">
 		<result
 		class="blast"
-    radius="1.5"
-    damage="1.6"
+    radius="2"
+    damage="1.8"
     push="0.1"
     decal="1" 
 	faction_compare="not_equal"
@@ -51,8 +51,8 @@
 <!-- rear plate -->	
 	<shield offset="0 -1 0" extent="0.2 1.5 1.4" />
 <!-- left plate -->	
-	<shield offset="-0.5 -0.6 0.6" extent="1.0 1.5 0.2" />
+	<shield offset="0.5 -0.6 0.6" extent="1.0 1.5 0.2" />
 <!-- right plate -->	
-	<shield offset="-0.5 -0.6 -0.6" extent="1.0 1.5 0.2" />
+	<shield offset="0.5 -0.6 -0.6" extent="1.0 1.5 0.2" />
 	
 </weapon>

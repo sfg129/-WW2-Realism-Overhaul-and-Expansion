@@ -2,13 +2,13 @@
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="m1917_hmg.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.5" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0" 
 	ai_burst_time="1" 
 	ai_burst_time_variance="0.5" 
-	ai_burst_wait_time="0.05" 
-	ai_burst_wait_time_variance="0.03">
+	ai_burst_wait_time="0.3" 
+	ai_burst_wait_time_variance="0.15">
 	
 <access_tag name="ww2" />
 
 	<specification 
-	retrigger_time="0.1" 
+	retrigger_time="0.095" 
 	accuracy_factor="0.9"
 	spread_range="0.21"
 	sustained_fire_grow_step="0.022"
@@ -53,7 +53,7 @@ projectile_speed="140.0"
 	<projectile file="bullet.projectile">
 	    <result
 		class="hit"
-		kill_probability="0.95"
+		kill_probability="1"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9" 
 		/>

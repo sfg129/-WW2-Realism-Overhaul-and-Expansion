@@ -16,5 +16,6 @@
 	<call key="vehicle_stuart_recce.call" />
 	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
+	<call key="usf_vehicle_m4a3e2_75.call" />
 
 </resources>

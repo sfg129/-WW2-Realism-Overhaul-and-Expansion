@@ -6,7 +6,7 @@
 
 	<specification 
 	retrigger_time="0.133" 
-	accuracy_factor="0.94" 
+	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.16"
 			sustained_fire_diminish_rate="1.6"
 	magazine_size="30" 
@@ -44,7 +44,7 @@
 	<model filename="weapon_type100_40.xml" />
 	<hud_icon filename="hud_type100.png" />
 	
-	<commonness value="0.06"/>
+	<commonness value="0.03"/>
 	<inventory encumbrance="5.0" price="30"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -54,7 +54,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.65"
+		kill_probability="0.55"
 		kill_decay_start_time="0.3"
 		kill_decay_end_time="0.8"
 		/>

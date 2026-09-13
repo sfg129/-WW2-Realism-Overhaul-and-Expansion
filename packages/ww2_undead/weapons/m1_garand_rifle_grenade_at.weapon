@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="m1_garand_rifle_grenade_at.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.35" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
+
+
+<access_tag name="pacific" />
+	
+	<specification 
+	retrigger_time="-1" 
+	spread_range="0.1"
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="3.0" 
+	sustained_fire_diminish_rate="1.0" 
+	magazine_size="8" 
+	can_shoot_standing="1" 
+	can_shoot_prone="1"
+	suppressed="0"
+	name="M1 Garand w/ 60mm Launcher - M9 AT"
+	class="2"
+	sight_range_modifier="1.5" 
+	projectile_speed="45.0" 
+	barrel_offset="1.05" 
+	slot="1"
+	/>
+	<next_in_chain key="m1_garand_rifle_grenade_he.weapon" share_ammo="1" />
+	<animation state_key="next_in_chain_in" animation_key="reloading, m1 garand grenade launcher" />
+	<!-- this has now been made to fire the M9A1 AT grenade (in English translation), and is slightly more powerful as result -->
+
+
+
+
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.0" />	<!-- Heavy Armour is low because Rifle Grenades can't hurt them much at all -->
+    <target_factors tag="medium_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />  <!-- Medium Armour is low because Rifle Grenades can't hurt them much at all -->
+    <target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="9.0" />	<!-- barely below Medium Armour so that it becomes higher priority in short range if medium armour is far away. -->
+    <target_factors tag="at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+    <target_factors tag="light_at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
+    <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+    <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="1.0" />
+	
+	<animation key="recoil" ref="27" />
+		<animation key="cycle" animation_key="launcher reload" />
+	<animation key="cycle" stance_key="prone" animation_key="launcher reload" />
+	<animation state_key="reload" animation_key="reloading, m1 garand" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, m1 garand, prone" />
+	<weak_hand_hold offset="0.4" />
+	
+	<sound key="fire" fileref="rifle_grenade.wav" pitch_variety="0.05" volume="2.44"/>
+
+	<sound key="magazine_out" fileref="rifle_02_m1_garand_ping.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="last_ammo" fileref="rifle_02_m1_garand_ping.wav" />
+	<sound key="cycle" fileref="pistol2_chamber.wav" />
+	
+
+	<model filename="weapon_m1_garand_m9a1_at.xml" />
+	<hud_icon filename="hud_m1_garand_launcher.png" />
+	
+	<commonness value="0.02" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="8.0" price="20" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="m1_garand_launcher_at_mode.projectile" />
+    <ballistics 
+    near_far_distance="20.0"
+    speed_estimation_near="10.0"
+    speed_estimation_far="16.0"
+    max_speed="45.0"
+	curve_height="2" 
+    randomness="0.0"
+	tweak_factor="1.55"
+	/>
+		<modifier class="speed" value="-0.05" />
+	
+	
+	
+</weapon>

@@ -6,7 +6,7 @@ dictionary getUnlockCustomizations() {
 	return dictionary = {
 				{"edelweiss1", dictionary = {
 			{"browning_auto5_ext.weapon", "browning_auto5_ext.weapon"},
-			{"m1_garand_launcher.weapon", "beardmore_farquhar_lmg.weapon"},
+			{"m1_garand_rifle_grenade_he.weapon", "beardmore_farquhar_lmg.weapon"},
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
@@ -15,7 +15,7 @@ dictionary getUnlockCustomizations() {
 		}},
 		{"edelweiss3", dictionary = {
 			{"browning_auto5_ext.weapon", "browning_auto5_ext.weapon"},
-			{"m1_garand_launcher.weapon", "beardmore_farquhar_lmg.weapon"},
+			{"m1_garand_rifle_grenade_he.weapon", "beardmore_farquhar_lmg.weapon"},
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
@@ -24,7 +24,7 @@ dictionary getUnlockCustomizations() {
 		}},
 		{"edelweiss4", dictionary = {
 			{"browning_auto5_ext.weapon", "browning_auto5_ext.weapon"},
-			{"m1_garand_launcher.weapon", "beardmore_farquhar_lmg.weapon"},
+			{"m1_garand_rifle_grenade_he.weapon", "beardmore_farquhar_lmg.weapon"},
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
@@ -33,7 +33,7 @@ dictionary getUnlockCustomizations() {
 		}},
 		{"edelweiss5", dictionary = {
 			{"browning_auto5_ext.weapon", "browning_auto5_ext.weapon"},
-			{"m1_garand_launcher.weapon", "beardmore_farquhar_lmg.weapon"},
+			{"m1_garand_rifle_grenade_he.weapon", "beardmore_farquhar_lmg.weapon"},
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},
@@ -42,7 +42,7 @@ dictionary getUnlockCustomizations() {
 		}},
 		{"edelweiss9", dictionary = {
 			{"browning_auto5_ext.weapon", "browning_auto5_ext.weapon"},
-			{"m1_garand_launcher.weapon", "beardmore_farquhar_lmg.weapon"},
+			{"m1_garand_rifle_grenade_he.weapon", "beardmore_farquhar_lmg.weapon"},
 			{"m2_carbine.weapon", "sterling_smg.weapon"},
 			{"m2_hyde.weapon", "de_lisle_carbine.weapon"},
 			{"browning_auto5_cut_down.weapon", "browning_auto5_cut_down.weapon"},

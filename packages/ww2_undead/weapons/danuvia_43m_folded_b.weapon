@@ -6,10 +6,11 @@
 
 	<specification 
 	retrigger_time="0.081" 
-	accuracy_factor="0.95" 
-	spread_range="0.36"
+	accuracy_factor="0.95"
+	stance_accuracy_rate="4"
+	spread_range="0.335"
 	sustained_fire_grow_step="0.19" 
-	sustained_fire_diminish_rate="1.5"
+	sustained_fire_diminish_rate="1.85"
 		
 	magazine_size="40" 
 	can_shoot_standing="1" 
@@ -62,7 +63,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.785"
+		kill_probability="0.7"
 		kill_decay_start_time="0.35"
 		kill_decay_end_time="0.8"
 		/>

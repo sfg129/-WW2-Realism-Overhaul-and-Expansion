@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="Hawkins grenade" key="hawkins_grenade_blast.projectile" slot="0" radius="0" drop_count_factor_on_death="0.5" can_be_disarmed="0" can_be_detected_by_driver="0">
+  <tag name="antitank_grenade" />
+  <sound class="result" key="other" fileref="at_grenade_01.wav" volume="1.9" pitch_variety="0.1" />
+  <sound class="result" key="other" fileref="at_grenade_02.wav" volume="1.9" pitch_variety="0.1" />
+  <sound class="result" key="terrain" copy="other" />
+  <sound class="result" key="static_object" copy="other" />
+  <sound class="result" key="vehicle" copy="other" />
+  <sound class="result" key="character" copy="other" />
+  <result class="blast" radius="4" damage="9.5" push="0.4" decal="1" faction_compare="not_equal" />
+  <hud_icon filename="hawkins_grenade.png" />
+  <rotation class="random" />
+  <effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
+  <effect class="result" key="terrain" ref="OstvetHitSparks" />
+  <effect class="result" key="terrain" ref="OstvetBurstShine" lighting="0" />
+  <effect class="result" key="terrain" ref="HitTank" lighting="1" />
+  <effect class="result" key="terrain" ref="HitTankSparks" />
+  <effect class="result" key="terrain" ref="HandGrenadeSmokeTop" post_processing="1" />
+  <effect class="result" key="terrain" ref="HandGrenadeSmoke" post_processing="1" />
+  <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+  <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+  <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="4" layer="0" />
+  <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" />
+  <!-- remove top snow everywhere -->
+  <effect class="result" key="other" ref="HandGrenadeSmokeTop" post_processing="1" />
+  <effect class="result" key="other" ref="HandGrenadeSmoke" post_processing="1" />
+  <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+  <effect class="result" key="static_object" copy="terrain" />
+  <effect class="result" key="vehicle" copy="terrain" />
+  <effect class="result" key="character" copy="terrain" />
+  <commonness can_respawn_with="0" value="0" in_stock="0" />
+  <trigger class="time" time_to_live="0" />
+  <model />
+</projectile>

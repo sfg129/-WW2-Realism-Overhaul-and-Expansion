@@ -31,6 +31,8 @@
 	<vehicle file="opel_blitz_armoury.vehicle" />  
 	<vehicle file="m4_75.vehicle" />
 	<vehicle file="m4_76.vehicle" />
+	<vehicle file="m4a3e2_75.vehicle" />
+	<vehicle file="m4a3e2_76.vehicle" />
 	<vehicle file="lefh18.vehicle" />
 	<vehicle file="mg34_hmg.vehicle" />
 	<vehicle file="mg42_hmg.vehicle" />
@@ -43,6 +45,7 @@
 	<vehicle file="willys_mb.vehicle" />
 	<vehicle file="willys_mb_recoilless_rifle.vehicle" />
 	<vehicle file="panzer_iv.vehicle" />
+	<vehicle file="panther.vehicle" />
 	<vehicle file="panzer_iv_damaged.vehicle" />
 	<vehicle file="panzer_iv_fastrespawn.vehicle" />
 	<vehicle file="stug_iii.vehicle" />
@@ -52,6 +55,9 @@
 	<vehicle file="vickers_hmg.vehicle" />
 	<vehicle file="m2hb_hmg.vehicle" />
 	<vehicle file="at_gun_m5.vehicle" />
+	<vehicle file="at_gun_qf6.vehicle" />
+	<vehicle file="at_gun_m1_57mm.vehicle" />
+	<vehicle file="at_gun_m3_37mm.vehicle" />
 	<vehicle file="at_gun_pak40.vehicle" />
 	<vehicle file="at_gun_pak40_2.vehicle" />    
 	<vehicle file="austin_k5.vehicle" />

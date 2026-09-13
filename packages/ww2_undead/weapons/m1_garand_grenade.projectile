@@ -13,8 +13,8 @@
     <trigger class="impact" />
 	<result
 	class="blast"
-	radius="8"
-	damage="2.4"
+	radius="7.5"
+	damage="1.9"
 	push="0.5"
 	decal="1" 
 	character_state="death"

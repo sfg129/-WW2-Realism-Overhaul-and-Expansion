@@ -6,10 +6,10 @@
 	<specification 
 	retrigger_time="0.081" 
 	accuracy_factor="0.95" 
-	spread_range="0.36"
+	spread_range="0.335"
 	sustained_fire_grow_step="0.19" 
-	sustained_fire_diminish_rate="1.8"
-	stance_accuracy_rate="2"
+	sustained_fire_diminish_rate="2"
+	stance_accuracy_rate="4"
 	magazine_size="40" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -37,6 +37,7 @@
 		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 	<next_in_chain key="danuvia_43m.weapon" share_ammo="1" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
 
 
 	<animation key="recoil" ref="12" />
@@ -64,7 +65,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="0.785"
+		kill_probability="0.7"
 		kill_decay_start_time="0.35"
 		kill_decay_end_time="0.8"
 		/>

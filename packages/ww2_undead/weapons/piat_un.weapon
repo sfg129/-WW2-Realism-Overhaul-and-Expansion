@@ -3,9 +3,9 @@
 
 	<specification
 		magazine_size="-1" 
-	retrigger_time="4.5" 
+	retrigger_time="4.25" 
 	spread_range="0.1"
-		sight_range_modifier="1.4" 
+		sight_range_modifier="1.5" 
 
 		
 	/>

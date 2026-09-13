@@ -3,16 +3,7 @@
 	<tag name="flamethrower_flame"/>
 	
 	<trigger class="impact" />
-	<result
-	class="blast"
-	radius="3"
-	damage="2.4"
-	push="0"  
-	character_state="death"
-  make_vehicle_hit_sound="0"
-  	faction_compare="not_equal"
-    damage_origin_vehicle="0" 
-	/>
+	<result class="notify_script" key="flame_vehicle_contact_tank" />
 
 	<rotation class="motion" />
 	

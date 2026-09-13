@@ -6,7 +6,7 @@
 	<projectile key="satchel.projectile" />
 <weapon key="light_mortar_resource.weapon" />
 	<weapon key="bofors_resource.weapon" />
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
 	<weapon key="m1_bazooka.weapon" />
 	<weapon key="m1919_hmg_resource.weapon" />
 			<weapon key="m1919_hmg_resource_t.weapon" />

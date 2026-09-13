@@ -32,6 +32,8 @@
 	<text key="Warrant Officer Class I" text="一级准尉"/>
 <text key="Bofors deploy" text="博福斯防空炮部署包"/>
 <text key="M5 ATgun deploy" text="M5反坦克炮部署包"/>
+<text key="QF 6-pounder L/50 deploy" text="QF-6 L/50反坦克炮部署包"/>
+<text key="M1 57mm AT gun deploy" text="M1 57毫米反坦克炮部署包"/>
 <text key="Pak 40 deploy" text="Pak40反坦克炮部署包"/>
 <text key="LeFH 18 deploy" text="LeFH 18轻型榴弹炮部署包"/>
 
@@ -58,6 +60,10 @@
 	<text key="MG 34 Tank MG" text="MG-34 坦克机枪"/>
 	<text key="Panzer IV cannon" text="四号坦克主炮"/>
 	<text key="M5 Anti-Tank Gun" text="M5反坦克炮"/>
+	<text key="QF 6-pounder Anti-Tank Gun" text="QF-6 L/50反坦克炮"/>
+	<text key="M1 57mm Anti-Tank Gun" text="M1 57毫米反坦克炮"/>
+	<text key="QF 6-pounder Anti-Tank Gun deployed" text="QF-6 L/50反坦克炮已部署"/>
+	<text key="M1 57mm Anti-Tank Gun deployed" text="M1 57毫米反坦克炮已部署"/>
 	<text key="at gun shell" text="反坦克炮炮弹"/>
 	<text key="Pak 40 Anti-Tank Gun" text="PaK-40反坦克炮"/>
 	<text key="M2HB M3 Halftrack" text="M3半履带装甲车 车载M2HB"/>
@@ -94,7 +100,12 @@
 	<text key="Gewehr 41 Bayonet" text="G41半自动步枪（刺刀）"/>
 	<text key="Schiessbecher HE Rifle Grenade" text="Kar 98k枪榴弹-高爆弹"/>
 	<text key="Schiessbecher AT Rifle Grenade" text="Kar 98k枪榴弹-破甲弹"/>
+
+			<text key="Panzerfaust Klein" text="铁拳“Klein”"/>
+	<text key="Panzerfaust 30" text="铁拳30"/>
 	<text key="Panzerfaust 60" text="铁拳60"/>
+	<text key="Panzerfaust 100" text="铁拳100"/>
+
 	<text key="panzerfaust rocket" text="铁拳火箭"/>
 	<text key="Panzerschreck" text="RPzB 54“坦克杀手”"/>
 	<text key="panzerschreck rocket" text="坦克杀手火箭"/>
@@ -104,7 +115,7 @@
 	<text key="S1-100" text="S1-100冲锋枪"/>
 	<text key="S1-100 Bayonet" text="S1-100冲锋枪（刺刀）"/>
 
-
+	<text key="PPSh-41" text="PPSh-41冲锋枪"/>
 	<text key="MP 717(r)" text="PPSh-41冲锋枪（弹鼓）"/>
 	<text key="Beretta M38" text="伯莱塔M38冲锋枪"/>
 	<text key="MP 40 Folded" text="MP-40冲锋枪（折叠枪托）"/>
@@ -147,7 +158,7 @@
 	<text key="VGO No.2 Mk I - Mobile" text="维克斯-K 机枪（突击）"/>
 	<text key="Vickers Mk VI - Mobile" text="维克斯 Mk VI 机枪（突击）"/>
 	<text key="Vickers Mk I HMG" text="维克斯 Mk I 重机枪"/>
-	<text key="Vickers Mk I HMG Low Mount deploy" text="维克斯 Mk I 重机枪部署包（地面三脚架）"/>
+	<text key="Vickers Mk I HMG Low Mount deploy" text="维克斯 Mk I 重机枪部署包（低位三脚架）"/>
 	<text key="Vickers Mk I HMG High Mount deploy" text="维克斯 Mk I 重机枪部署包（高位三脚架）"/>
 	<text key="Browning Hi-Power" text="勃朗宁大威力手枪"/>
 	<text key="Browning Hi-Power Carbine" text="勃朗宁大威力卡宾枪"/>
@@ -227,16 +238,13 @@
 	<text key="Maus" text="鼠式超重型坦克"/>
 	<text key="TOG II*" text="TOG II*重型坦克"/>
 	<text key="Repair Kit" text="修理箱"/>
+	<text key="Gammon bomb" text="加蒙炸弹"/>
+	<text key="Hawkins grenade" text="霍金斯手榴弹"/>
+
 
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
-	<text key="F6F strafing run advised" text="俯冲扫射攻击"/>
-	<text key="P47 strafing run advised" text="俯冲扫射攻击"/>
-	<text key="P38 strafing run advised" text="俯冲扫射攻击"/>
-	<text key="Spitfire strafing run advised" text="俯冲扫射攻击"/>
-	<text key="Tempest strafing run advised" text="俯冲扫射攻击"/>
-<text key="Zero A6M2 strafing run advised" text="俯冲扫射攻击"/>
-<text key="Zero A6M5 strafing run advised" text="俯冲扫射攻击"/>
-<text key="Fw 190 A-8 strafing run advised" text="俯冲扫射攻击"/>
+
+
 	<text key="Nebelwerfer Barrage" text="“喷烟者”弹幕攻击"/>
 	<text key="Nebelwerfers" text="“喷烟者”火箭炮"/>
 	<text key="T34 Calliope Barrage" text="T34“风琴”火箭弹幕攻击"/>
@@ -324,9 +332,13 @@
 	<text key="Reinforcements - Panzer IV" text="增援 - 四号中型坦克"/>
 	<text key="Requesting reinforcements, Panzer IV" text="请求增援，四号中型坦克"/>
 	<text key="Panzer IV deployed" text="四号中型坦克已部署"/>
+	<text key="Reinforcements - Panther" text="增援 - 豹式中型坦克"/>
+	<text key="Requesting reinforcements, Panther" text="请求增援，豹式中型坦克"/>
+	<text key="Panther deployed" text="豹式中型坦克已部署"/>
+		<text key="Panther" text="豹式中型坦克"/>
 	<text key="Reinforcements - Tiger" text="增援 - 虎式重型坦克"/>
 	<text key="Requesting reinforcements, Tiger" text="请求增援，虎式重型坦克"/>
-	<text key="Tiger deployed" text="虎式重型坦克已部署"/>
+	<text key="Tiger deployed" text="虎式重型坦克已部署"/>P
 
 	<text key="Reinforcements - StuG III" text="增援 - 三号突击炮"/>
 	<text key="Requesting reinforcements, StuG III" text="请求增援，三号突击炮"/>
@@ -441,22 +453,32 @@
 	<text key="Churchill Mk VII deployed" text="丘吉尔Mk VII已部署"/>
 	
 <!-- HMG deploy Low/High Mount -->
-<text key="M1917 HMG Low Mount deploy" text="M1917重机枪部署包（地面三脚架）"/>
+<text key="M1917 HMG Low Mount deploy" text="M1917重机枪部署包（低位三脚架）"/>
 <text key="M1917 HMG High Mount deploy" text="M1917重机枪部署包（高位三脚架）"/>
-<text key="M1919A4 HMG Low Mount deploy" text="M1919A4重机枪部署包（地面三脚架）"/>
+<text key="M1919A4 HMG Low Mount deploy" text="M1919A4重机枪部署包（低位三脚架）"/>
 <text key="M1919A4 HMG High Mount deploy" text="M1919A4重机枪部署包（高位三脚架）"/>
-<text key="MG 34 HMG Low Mount deploy" text="MG34重机枪部署包（地面三脚架）"/>
+<text key="MG 34 HMG Low Mount deploy" text="MG34重机枪部署包（低位三脚架）"/>
 <text key="MG 34 HMG High Mount deploy" text="MG34重机枪部署包（高位三脚架）"/>
-<text key="MG 42 HMG Low Mount deploy" text="MG42重机枪部署包（地面三脚架）"/>
+<text key="MG 42 HMG Low Mount deploy" text="MG42重机枪部署包（低位三脚架）"/>
 <text key="MG 42 HMG High Mount deploy" text="MG42重机枪部署包（高位三脚架）"/>
-<text key="M2HB HMG Low Mount deploy" text="M2HB重机枪部署包（地面三脚架）"/>
+<text key="M2HB HMG Low Mount deploy" text="M2HB重机枪部署包（低位三脚架）"/>
 <text key="M2HB HMG High Mount deploy" text="M2HB重机枪部署包（高位三脚架）"/>
-<text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（地面三脚架）"/>
+<text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（低位三脚架）"/>
 <text key="Type 92 HMG High Mount deploy" text="92式重机枪部署包（高位三脚架）"/>
 	
 <text key="M4A3(76)W Sherman" text="M4A3(76)W“谢尔曼”中型坦克"/>
 <text key="Reinforcements - M4A3(76)W Sherman" text="增援 - M4A3(76)W“谢尔曼”中型坦克"/>
 <text key="Requesting reinforcements, M4A3(76)W Sherman" text="请求增援，M4A3(76)W“谢尔曼”中型坦克"/>
 <text key="M4A3(76)W Sherman deployed" text="M4A3(76)W“谢尔曼”中型坦克已部署"/>
+
+	<text key="M4A3E2 Sherman" text="M4A3E2“谢尔曼”中型坦克"/>
+	<text key="M4A3E2(76) Sherman" text="M4A3E2(76)“谢尔曼”中型坦克"/>
+
+	<text key="Reinforcements - M4A3E2 Sherman" text="增援 - M4A3E2“谢尔曼”中型坦克" />
+	<text key="Requesting reinforcements, M4A3E2 Sherman" text="请求增援，M4A3E2“谢尔曼”中型坦克" />
+	<text key="M4A3E2 Sherman deployed" text="M4A3E2“谢尔曼”中型坦克已部署" />
+	<text key="Reinforcements - M4A3E2(76) Sherman" text="增援 - M4A3E2(76)“谢尔曼”中型坦克" />
+	<text key="Requesting reinforcements, M4A3E2(76) Sherman" text="请求增援，M4A3E2(76)“谢尔曼”中型坦克" />
+	<text key="M4A3E2(76) Sherman deployed" text="M4A3E2(76)“谢尔曼”中型坦克已部署" />
 
 </translation>

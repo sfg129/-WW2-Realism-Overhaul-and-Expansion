@@ -40,7 +40,7 @@
 	<model filename="weapon_type_i_carcano.xml" />
 	<hud_icon filename="hud_type_i_carcano.png" />
 	
-	<commonness value="0.2" />
+	<commonness value="0.16" />
 	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -48,7 +48,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="1.3" 
+		kill_probability="1.5" 
 		kill_decay_start_time="0.4" 
 		kill_decay_end_time="0.94"
 		/>

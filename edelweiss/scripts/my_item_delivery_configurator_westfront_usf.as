@@ -45,7 +45,7 @@ class MyItemDeliveryConfigurator_USF : MyItemDeliveryConfigurator {
 		//list.push_back(Resource("m1903a4_s.weapon", "weapon"));
 		
 		//list.push_back(Resource("m1919_hmg_resource.weapon", "weapon"));
-		//list.push_back(Resource("m1903_at_launcher.weapon", "weapon"));
+		//list.push_back(Resource("m1903_rifle_grenade_at.weapon", "weapon"));
 		//list.push_back(Resource("m1_bazooka.weapon", "weapon"));
 		//list.push_back(Resource("m1911.weapon", "weapon"));
 		
@@ -55,7 +55,7 @@ class MyItemDeliveryConfigurator_USF : MyItemDeliveryConfigurator {
 		// IJA weapons
 		//list.push_back(Resource("type38_rifle.weapon", "weapon"));
 		//list.push_back(Resource("type38_rifle_b.weapon", "weapon"));
-		//list.push_back(Resource("type38_rifle_launcher.weapon", "weapon"));
+		//list.push_back(Resource("type38_rifle_grenade_he.weapon", "weapon"));
 		//list.push_back(Resource("type99_rifle.weapon", "weapon"));
 		//list.push_back(Resource("type99_rifle_b.weapon", "weapon"));
 		//list.push_back(Resource("type44_carbine.weapon", "weapon"));
@@ -70,7 +70,7 @@ class MyItemDeliveryConfigurator_USF : MyItemDeliveryConfigurator {
 		//list.push_back(Resource("type97_s.weapon", "weapon"));
 		
 		//list.push_back(Resource("type92_hmg_resource.weapon", "weapon"));
-		//list.push_back(Resource("type38_rifle_at_launcher.weapon", "weapon"));
+		//list.push_back(Resource("type38_rifle_grenade_at.weapon", "weapon"));
 		//list.push_back(Resource("type4_rocket_launcher.weapon", "weapon"));
 		//list.push_back(Resource("type14_nambu_pistol.weapon", "weapon"));     
 		

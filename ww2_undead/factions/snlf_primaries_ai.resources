@@ -4,7 +4,8 @@
 	<!--This is a special file so that regular AI don't spawn with Sniper Rifles or other uniques, only the dedicated soldiers do.-->
 	
 	<weapon key="type_i_rifle_ai.weapon" />
-
+	<weapon key="type38_rifle.weapon" />
+ 
 	<weapon key="type44_carbine_ai.weapon" />
 		<weapon key="type_be.weapon" />
   	<weapon key="type_be_b.weapon" />

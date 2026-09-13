@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources clear_weapons="1">
-	
-	<weapon key="p08_carbine_ai.weapon" />
-	<weapon key="mp40_folded_ai.weapon" />
-	
-</resources>

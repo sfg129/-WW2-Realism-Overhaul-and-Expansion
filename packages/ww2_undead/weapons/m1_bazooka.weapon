@@ -7,8 +7,8 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.4" 
 	sustained_fire_diminish_rate="0.4" 
-	spread_range="0.15"
-stance_accuracy_rate="1.2"
+	spread_range="0.2"
+stance_accuracy_rate="1.75"
 	magazine_size="1" 
 	can_shoot_standing="1" 
 	can_shoot_prone="1"
@@ -49,7 +49,7 @@ stance_accuracy_rate="1.2"
 	<model filename="bazooka.xml" />
 	   <hud_icon filename="hud_bazooka.png" />
 	
-	  <commonness value="0.24" can_respawn_with="1"/>
+	  <commonness value="0.3" can_respawn_with="1"/>
 	 <inventory encumbrance="8.0" price="30.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	

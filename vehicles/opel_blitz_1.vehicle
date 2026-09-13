@@ -15,7 +15,7 @@
 	<control max_limiter_speed="4.0" max_speed="18.0" acceleration="6.0" max_reverse_speed="5.0" min_health_to_steer="0.24" max_rotation="0.9" max_water_depth="1.5" steer_smoothening="0.7" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-0.5" />
+	<modifier class="blast_damage" value="-0.9" />
 
 	<!-- extent was 4.0 -->
 

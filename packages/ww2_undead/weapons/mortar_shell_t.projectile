@@ -13,8 +13,8 @@
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="8"
-	damage="2.4"
+	radius="7.5"
+	damage="1.7"
 	push="1"
 	decal="1"
 	character_state="death"
@@ -23,17 +23,17 @@
 
 		<rotation class="motion" />
 	<throwable
-	curve_height="5.0"
+	curve_height="5.5"
 	near_far_distance="5.0"
 	speed_estimation_near="9.0"
 	speed_estimation_far="17.0"
-	max_speed="12"
+	max_speed="14"
 	randomness="0.07"
 	/>
 		<commonness value="0" />
-	<inventory encumbrance="3" price="24" />
+	<inventory encumbrance="2" price="24" />
 	
-	<capacity value="4" source="rank" source_value="0.0" />
+	<capacity value="6" source="rank" source_value="0.0" />
 
 	<model mesh_filename="mortar_shell.xml" />
 		<hud_icon filename="hud_mortarshell.png" />

@@ -155,6 +155,10 @@
 		<capacity source="rank" source_value="0.0" value="1" />
 
 	</weapon>
+<weapon file="m3_37mm_resource.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+
+	</weapon>
 <weapon file="pak40_resource.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 
@@ -279,6 +283,7 @@
 	<weapon file="at_gun_m5.weapon" />
 	<weapon file="at_gun_qf6.weapon" />
 	<weapon file="at_gun_m1_57mm.weapon" />
+	<weapon file="at_gun_m3_37mm.weapon" />
 	<weapon file="at_gun_pak40.weapon" />
 	<weapon file="at_gun_pak40_2.weapon" />    
 	<weapon file="m3_halftrack_mg.weapon" />
@@ -456,24 +461,12 @@
 	<weapon file="kar98k_rifle_grenade_at.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 	</weapon>
-	<weapon file="m1903_rifle_grenade_at.weapon">
+	<weapon file="kar98k_rifle_grenade_he_ai.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
-
-
-			</weapon>
-			<weapon file="smle_rifle_grenade_launcher_at.weapon">
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="kar98k_rifle_grenade_at_ai.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
-
-			</weapon>
-			<weapon file="type38_rifle_launcher_at.weapon">
-		<capacity source="rank" source_value="0.0" value="1" />
-
-			</weapon>
-			<weapon file="kar98k_rifle_grenade_launcher_at.weapon">
-		<capacity source="rank" source_value="0.0" value="1" />
-
-		
-	
 	</weapon>
 
 
@@ -744,6 +737,13 @@
 		<capacity source="rank" source_value="0.4" value="1" />
 	</weapon>
 	<weapon file="smle_rifle_grenade_at.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="smle_rifle_grenade_he_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="smle_rifle_grenade_at_ai.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 	</weapon>
 
@@ -1119,6 +1119,10 @@
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.4" value="1" />
 	</weapon>
+	<weapon file="no2_flamethrower.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
 
 
 	<weapon file="m1918_bar.weapon">
@@ -1160,26 +1164,51 @@
 	</weapon>
 
 
-	<weapon file="m1903_at_launcher.weapon">
+	<!-- M1903 player secondary rifle-grenade modes -->
+	<weapon file="m1903_rifle_grenade_at.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 	</weapon>
 	<weapon file="m1903_rifle_grenade_he.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+
+	<!-- M1903 AI primary rifle-grenade modes -->
+	<weapon file="m1903_rifle_grenade_at_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+	</weapon>
+	<weapon file="m1903_rifle_grenade_he_ai.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.4" value="1" />
 
 	</weapon>
 
 
-	<weapon file="m1_garand_launcher.weapon">
+	<!-- M1 Garand player secondary rifle-grenade modes (unlock-only) -->
+	<weapon file="m1_garand_rifle_grenade_he.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.8" value="1" />
-		<next_in_chain key="m1_garand_launcher_at_mode.weapon" share_ammo="1" />
+		<next_in_chain key="m1_garand_rifle_grenade_at.weapon" share_ammo="1" />
 
 	</weapon>
-	<weapon file="m1_garand_launcher_at_mode.weapon">
+	<weapon file="m1_garand_rifle_grenade_at.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.8" value="1" />
-		<next_in_chain key="m1_garand_launcher.weapon" share_ammo="1" />
+		<next_in_chain key="m1_garand_rifle_grenade_he.weapon" share_ammo="1" />
+
+	</weapon>
+
+	<!-- M1 Garand AI/veteran primary rifle-grenade modes -->
+	<weapon file="m1_garand_rifle_grenade_he_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+		<next_in_chain key="m1_garand_rifle_grenade_at_ai.weapon" share_ammo="1" />
+
+	</weapon>
+	<weapon file="m1_garand_rifle_grenade_at_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.8" value="1" />
+		<next_in_chain key="m1_garand_rifle_grenade_he_ai.weapon" share_ammo="1" />
 
 	</weapon>
 
@@ -1584,12 +1613,19 @@
 	</weapon>
 
 
-	<weapon file="type38_rifle_at_launcher.weapon">
+	<weapon file="type38_rifle_grenade_at.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 	</weapon>
-	<weapon file="type38_rifle_launcher.weapon">
+	<weapon file="type38_rifle_grenade_he.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="type38_rifle_grenade_he_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="type38_rifle_grenade_at_ai.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
 	</weapon>
 
 	<weapon file="type4_rocket_launcher.weapon">

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	
-	<weapon key="m1918_bar.weapon" />
-	<weapon key="m1918_bar_heavy.weapon" />
-</resources>

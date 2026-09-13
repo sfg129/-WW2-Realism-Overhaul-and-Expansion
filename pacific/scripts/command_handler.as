@@ -74,7 +74,7 @@ class CommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "type99_rifle_b.weapon", "weapon", 0);
 			spawnInstanceNearPlayer(senderId, "type99_rifle_b.weapon", "weapon", 0);
 		} else if (checkCommand(message, "fieldmodified")) {
-			spawnInstanceNearPlayer(senderId, "m1_garand_launcher.weapon", "weapon", 0);
+			spawnInstanceNearPlayer(senderId, "m1_garand_rifle_grenade_he.weapon", "weapon", 0);
 		
 		}
           else if (checkCommand(message, "kastu")) {

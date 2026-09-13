@@ -11,7 +11,7 @@
 	<tire_set offset="1.3 0.0 -2.5" radius="0.52" />
 	
 	<!-- speed was 8, reverse 8 -->
-	<control max_limiter_speed="4.0" max_speed="7.0" acceleration="8.5" max_reverse_speed="6.0" min_health_to_steer="0.875" max_rotation="1" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.99" tracked="1" gears="1"     broken_mass="10" 
+	<control max_limiter_speed="4.0" max_speed="7.5" acceleration="8.5" max_reverse_speed="6.0" min_health_to_steer="0.875" max_rotation="1" max_water_depth="3.0" can_steer_in_water="0" steer_smoothening="0.99" tracked="1" gears="1"     broken_mass="10" 
     remove_collision_threshold="0.2" />
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->

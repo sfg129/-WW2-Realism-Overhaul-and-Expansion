@@ -9,7 +9,9 @@
  
 	<vehicle key="pillbox.vehicle" />
 	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m1919_hmg_t.vehicle" />
 	<vehicle key="m2hb_hmg.vehicle" />
+	<vehicle key="m2hb_hmg_t.vehicle" />
 
 	<vehicle key="jeep.vehicle" />
 	<vehicle key="willys_mb.vehicle" />
@@ -21,18 +23,18 @@
 <vehicle key="m3_halftrack_mortar.vehicle" />
 
 	<vehicle key="dukw.vehicle" />    
-
-	<call key="airstrike4.call" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_m1_57mm.vehicle" />
+<call key="airstrike4.call" />
 
 	<call key="airstrike.call" />
 	<call key="airstrike1.call" />
 	<call key="artillery1.call" />
 <call key="usmc_inf.call" />
 	<call key="usf_vehicle.call" />
-	<call key="usf_vehicle_m3_halftrack.call" />
-
-	<call key="usf_vehicle_stuart.call" />
 	<call key="vehicle_m3_mortar.call" />
+	<call key="usf_vehicle_stuart.call" />
+	
 	<call key="usf_vehicle_m4_sherman.call" />
 	<call key="usf_vehicle_m10.call" />
 

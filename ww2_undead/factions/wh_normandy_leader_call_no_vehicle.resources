@@ -7,7 +7,5 @@
 
 <call key="airstrike10.call" />
 	<call key="wh_inf_ai.call" />
-	<call key="wh_vehicle_sdkfz251_pak40.call" />
-	<call key="wh_vehicle_sdkfz251_flak.call" />
-	<call key="wh_vehicle_sdkfz251_mortar.call" />
+
 </resources>

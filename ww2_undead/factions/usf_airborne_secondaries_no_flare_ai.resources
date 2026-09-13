@@ -9,6 +9,7 @@
 	<weapon key="m1_bazooka.weapon" />
 		<weapon key="bofors_resource.weapon" />
 	<weapon key="m1911.weapon" />
+
 <carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  
 <carry_item key='vest_normalw.carry_item' enabled="1" />  
@@ -18,6 +19,7 @@
 <weapon key="morphine.weapon" />
 <projectile key="mk3_grenade.projectile" />
 	<projectile key="mkii_grenade.projectile" />
+	<projectile key="hawkins_grenade.projectile" />
 	<projectile key="satchel.projectile" />
 	<weapon key="m9a1_bazooka_ai.weapon" />
 </resources>

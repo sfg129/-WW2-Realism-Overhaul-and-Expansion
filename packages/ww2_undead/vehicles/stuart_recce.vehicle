@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle name="Stuart Recce" time_to_live_unsteerable="60" respawn_time="80" key="stuart_recce.vehicle" map_view_atlas_index="33" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" ai_driver_turns_to_target="1" character_leave_request_mode="friendly" >
+<vehicle name="Stuart Recce" time_to_live_unsteerable="60" respawn_time="80" key="stuart_recce.vehicle" map_view_atlas_index="89" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" ai_driver_turns_to_target="1" character_leave_request_mode="friendly" >
     <tag name="metal_heavy" />
     <tag name="vehicle" />
     <tag name="tank_treads" />
@@ -8,7 +8,7 @@
     <tire_set offset="1.1 0.0 +2.5" radius="0.52" />
     <tire_set offset="1.1 0.0 -2.5" radius="0.52" />
     
-    <control max_limiter_speed="4.0" max_speed="12.5" acceleration="10.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
+    <control max_limiter_speed="4.0" max_speed="12.5" acceleration="11.0" max_reverse_speed="12.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
 
     <modifier class="blast_range" value="0.5" />
     <modifier class="blast_damage" value="-2.4" />
@@ -119,4 +119,3 @@
         <result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
     </event>     
     
-</vehicle>

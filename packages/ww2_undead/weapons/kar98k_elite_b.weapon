@@ -19,7 +19,7 @@
 	projectile_speed="130.0" 
 	barrel_offset="0.5" 
 	projectiles_per_shot="1"
-	sight_range_modifier="1.8"
+	sight_range_modifier="1.6"
     stab_enabled="1"
     stab_range="3.5"
 	/>
@@ -68,7 +68,7 @@
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-	kill_probability="1.5"
+	kill_probability="1.7"
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"
 		/>
