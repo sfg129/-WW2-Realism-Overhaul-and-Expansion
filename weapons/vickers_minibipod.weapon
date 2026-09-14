@@ -30,8 +30,8 @@ projectile_speed="120.0"
 
 	<stance state_key="standing" accuracy="0.65" />		<!-- was 0.75 -->
 	<stance state_key="crouching" accuracy="0.75" />	<!-- was 0.925 -->
-	<stance state_key="prone" accuracy="1.1" />
-	<stance state_key="over_wall" accuracy="1.1" /> 
+	<stance state_key="prone" accuracy="1.2" />
+	<stance state_key="over_wall" accuracy="1.2" /> 
  
 
 	<animation key="recoil" ref="12" />
@@ -58,7 +58,7 @@ projectile_speed="120.0"
 	<model filename="weapon_vickers_minibipod.xml" />
 	<hud_icon filename="hud_vickers_bipod.png" />
 	
-	<commonness value="0.02" can_respawn_with="0"/>
+	<commonness value="0.03" can_respawn_with="0"/>
 	<inventory encumbrance="8.0" price="250" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

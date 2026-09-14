@@ -43,8 +43,8 @@ projectile_speed="130.0"
 	<stance state_key="walking" accuracy="0.6" />
 	<stance state_key="standing" accuracy="0.75" />
 	<stance state_key="crouching" accuracy="0.85" />
-	<stance state_key="prone" accuracy="1" />
-	<stance state_key="over_wall" accuracy="1" />  
+	<stance state_key="prone" accuracy="1.1" />
+	<stance state_key="over_wall" accuracy="1.1" />  
 	
 	<weak_hand_hold offset="0.4" />
 
