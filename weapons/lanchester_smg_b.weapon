@@ -9,6 +9,7 @@
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.175" 
 	sustained_fire_diminish_rate="1.65"
+	spread_range="0.33"
 	stance_accuracy_rate="4"
 	magazine_size="50" 
 	can_shoot_standing="1" 
