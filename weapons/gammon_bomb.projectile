@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="Gammon bomb" key="gammon_bomb.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5">
+<projectile class="grenade" name="No. 82 Gammon bomb" key="gammon_bomb.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5">
 	<tag name="antitank_grenade" />
 		<tag name="grenade" />
 	<sound class="result" key="other" fileref="mortar_01.wav" volume="2.0" pitch_variety="0.1"/>
