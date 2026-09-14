@@ -116,8 +116,12 @@
 	<projectile file="flamethrower_flame_blast.projectile" />
 	<projectile file="flamethrower_flame_tank_blast.projectile" />
   <projectile file="hawkins_grenade_disarmed.projectile" />
-    <projectile file="m18_smoke_grenade.projectile" />
+    <projectile file="an_m8_smoke_grenade.projectile" />
+    <projectile file="an_m8_smoke_active.projectile" />
+    <projectile file="an_m8_smoke_wait_for_landing.projectile" />
     <projectile file="no77_smoke_grenade.projectile" />
+    <projectile file="no77_smoke_effect.projectile" />
+    <projectile file="no77_smoke_burst.projectile" />
 </projectiles>
 
 

@@ -18,6 +18,7 @@
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 	<weapon key="bofors_resource.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
+	<projectile key="no77_smoke_grenade.projectile" />
 <projectile key="democharge.projectile" />
 <weapon key='enfield_mkii_revolver.weapon' />
 	<weapon key="morphine.weapon" />

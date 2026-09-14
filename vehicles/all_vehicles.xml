@@ -141,6 +141,18 @@
 	<vehicle file="deco_vehicles.xml" />
 	<vehicle file="tractor.vehicle" />
 	<vehicle file="parachute.vehicle" />
+	<vehicle file="no77_smoke_spawner.vehicle" />
+	<vehicle file="no77_smoke_blocker_delay.vehicle" />
+	<vehicle file="no77_smoke_blocker_center.vehicle" />
+	<vehicle file="no77_smoke_blocker_x.vehicle" />
+	<vehicle file="no77_smoke_blocker_z.vehicle" />
+	<vehicle file="an_m8_smoke_landed_spawner.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_spawner.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_mid_delay.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_far_delay.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_near.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_mid.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_far.vehicle" />
 
 <!-- disabled in single player / PvP, requires Invasion scripts to function properly
 	<vehicle file="cargo_truck.vehicle" />

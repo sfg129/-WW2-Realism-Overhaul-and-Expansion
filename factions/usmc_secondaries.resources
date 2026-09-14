@@ -23,6 +23,7 @@
 	<weapon key="m1_carbine.weapon" />
 	<projectile key="democharge.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
+
 	<weapon key='binoculars.weapon' />
 	<weapon key="bofors_resource.weapon" />
 	<weapon key="m1_57mm_resource.weapon" />

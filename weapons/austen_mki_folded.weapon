@@ -36,7 +36,7 @@
 	<hud_icon filename="hud_austen_mki.png" />
 
 	<commonness value="0.04" can_respawn_with="1"/>
-	<inventory encumbrance="3.0" price="20.0"/>
+	<inventory encumbrance="3.0" price="15"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

@@ -11,6 +11,18 @@
 
 	<vehicle key="para_spawn.vehicle" />     
 	<vehicle key="flare_checkpoint.vehicle" />
+	<vehicle key="no77_smoke_spawner.vehicle" />
+	<vehicle key="no77_smoke_blocker_delay.vehicle" />
+	<vehicle key="no77_smoke_blocker_center.vehicle" />
+	<vehicle key="no77_smoke_blocker_x.vehicle" />
+	<vehicle key="no77_smoke_blocker_z.vehicle" />
+	<vehicle key="an_m8_smoke_landed_spawner.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_spawner.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_mid_delay.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_far_delay.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_near.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_mid.vehicle" />
+	<vehicle key="an_m8_smoke_blocker_far.vehicle" />
 
 	<vehicle key="opel_blitz_armoury.vehicle" />
 	<vehicle key="opel_blitz_1.vehicle" />

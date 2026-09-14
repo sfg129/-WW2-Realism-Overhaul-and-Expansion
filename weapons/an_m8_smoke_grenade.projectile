@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="AN-M8 smoke grenade" key="an_m8_smoke_grenade.projectile" slot="0" radius="0.15" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
+    <tag name="grenade" />
+    <access_tag name="ww2" />
+
+    <!-- At two seconds the tracker replaces this body with a visible inert
+         continuation projectile.  Smoke does not begin until that body makes
+         its first impact. -->
+    <trigger class="time" time_to_live="2.0" />
+    <result class="notify_script" key="an_m8_smoke_activate" />
+
+    <model mesh_filename="mk3_grenade.xml" />
+    <hud_icon filename="hud_mk3_concussion.png" />
+    <rotation class="random" />
+    <throwable curve_height="5" near_far_distance="5.0" speed_estimation_near="12.0" speed_estimation_far="17.0" max_speed="17" randomness="0.07" />
+    <commonness value="0.0" can_respawn_with="0" />
+    <inventory encumbrance="1.5" price="3.0" />
+    <capacity value="6" source="rank" source_value="0" />
+</projectile>

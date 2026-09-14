@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One projectile result can spawn only one instance type reliably. This
+     zero-lifetime vehicle fans the impact out into the visual carrier, a
+     short-lived burst carrier, and a delayed sight-blocker carrier. -->
+<vehicle name="" key="no77_smoke_spawner.vehicle" map_view_atlas_index="-1" time_to_live="0.0" respawn_time="0" allow_ai_to_use="0" usable_for_cover="0">
+    <tire_set offset="0 0 0" radius="0" />
+    <tire_set offset="0 0 0" radius="0" />
+    <control max_speed="0" acceleration="0" max_reverse_speed="0" max_rotation="0" max_water_depth="0" steer_smoothening="0" />
+    <physics max_health="10000" mass="0" extent="0 0 0" offset="0 0 0" top_offset="0 0 0" collision_model_pos="0 0 0" collision_model_extent="0 0 0" visual_offset="0 0 0" gravity="0" />
+
+    <event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="projectile" instance_key="no77_smoke_effect.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    </event>
+    <event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="projectile" instance_key="no77_smoke_burst.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    </event>
+    <event>
+        <trigger class="destroy" />
+        <result class="spawn" instance_class="vehicle" instance_key="no77_smoke_blocker_delay.vehicle" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    </event>
+</vehicle>

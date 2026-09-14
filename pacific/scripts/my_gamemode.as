@@ -1,5 +1,6 @@
 #include "hawkins_grenade_test.as"
 #include "flame_vehicle_damage.as"
+#include "an_m8_smoke.as"
 #include "gamemode_campaign.as"
 #include "my_stage_configurator_usmc.as"
 #include "my_stage_configurator_ija.as"
@@ -239,6 +240,7 @@ class MyGameMode : GameModeCampaign {
 		GameModeCampaign::postBeginMatch();
 		addTracker(HawkinsGrenadeTracker(this));
 		addTracker(FlameVehicleDamage(this));
+		addTracker(AnM8SmokeTracker(this));
 
 		addTracker(CommandHandler(this));
 

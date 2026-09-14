@@ -16,6 +16,7 @@
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 	<weapon key="morphine.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
+	<projectile key="no77_smoke_grenade.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
 			<weapon key="enfield_mkii_revolver.weapon" />
 	<weapon key="sw_model10.weapon" />

@@ -1,0 +1,65 @@
+// No.77 persistent smoke test.
+// RWR shares a particle template's quota between all live users of that template.
+// 4096 therefore leaves headroom for later, denser smoke variants. This emitter
+// keeps roughly 120 particles alive per grenade (30/sec * 4 sec).
+// FlareSmoke uses smoke.png: a complete soft smoke puff rather than the
+// explosion-oriented, visibly cut-away smoke2.png used by SmokeNormal.
+particle_system No77SmokeTest24
+{
+    quota 4096
+    material FlareSmoke
+    particle_width 3.0
+    particle_height 3.0
+    cull_each false
+    renderer billboard
+    billboard_type point
+
+    emitter Ellipsoid
+    {
+        angle 25
+        colour 0.90 0.92 0.90 0
+        colour_range_start 0.82 0.85 0.82 0
+        colour_range_end 0.98 0.98 0.94 0
+        direction 0 1 0
+        emission_rate 30
+        position 0 1.2 0
+        velocity_min 0.15
+        velocity_max 0.35
+        time_to_live_min 4.0
+        time_to_live_max 4.0
+        duration 26.0
+        duration_min 26.0
+        duration_max 26.0
+        // The 10 x 4 x 10 emission ellipsoid plus the 3.0 -> 4.4 growing
+        // billboards and their slow rise gives an approximately 14 x 7
+        // visible envelope.
+        width 10
+        height 4.0
+        depth 10
+    }
+
+    affector Scaler
+    {
+        rate 0.35
+    }
+
+    affector Rotator
+    {
+        rotation_speed_range_start -12
+        rotation_speed_range_end 12
+        rotation_range_start 0
+        rotation_range_end 360
+    }
+
+    affector ColourInterpolator
+    {
+        colour0 1 1 1 0
+        time0 0
+        colour1 0.90 0.92 0.90 0.65
+        time1 0.15
+        colour2 0.82 0.85 0.82 0.58
+        time2 0.72
+        colour3 0.72 0.75 0.72 0
+        time3 1
+    }
+}
