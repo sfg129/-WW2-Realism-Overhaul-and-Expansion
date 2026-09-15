@@ -14,7 +14,7 @@
     <sound class="result" key="vehicle" copy="other" />
     <sound class="result" key="character" copy="other" />
 
-    <model mesh_filename="mk3_grenade.xml" />
+    <model mesh_filename="an_m8.xml" />
     <rotation class="random" />
     <collision class="sticky" />
     <commonness value="0" can_respawn_with="0" />

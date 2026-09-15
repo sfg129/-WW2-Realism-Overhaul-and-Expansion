@@ -240,7 +240,7 @@
 	<text key="Repair Kit" text="修理箱"/>
 	<text key="No. 82 Gammon bomb" text="No. 82 加蒙手榴弹"/>
 	<text key="Hawkins grenade" text="霍金斯手榴弹"/>
-
+<text key="AN-M8 smoke grenade" text="AN-M8烟雾弹"/>
 	<text key="No.77 Smoke Grenade" text="No. 77 烟雾弹"/>
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
 
@@ -425,7 +425,7 @@
 
 	<!-- 1.95 -->
 	<text key="Flammenwerfer 41" text="FW41火焰喷射器"/>
-	<text key="Flamethrower, Portable, No 2" text="便携式火焰喷射器No. 2"/>
+	<text key="Flamethrower, Portable, No 2" text="便携式火焰喷射器 No. 2"/>
 	<text key="Beardmore-Farquhar .50 - Mobile" text="比尔德莫尔-法库阿尔.50机炮"/>
 
     <!-- 1.96 -->

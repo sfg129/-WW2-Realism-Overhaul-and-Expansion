@@ -8,7 +8,7 @@
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
 
 	
-	<!--<weapon key="p08.weapon" />-->
+	<weapon key="p08.weapon" />
 
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
