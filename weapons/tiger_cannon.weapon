@@ -10,7 +10,7 @@
 
 
 	<!-- retrigger time was 6, diminish rate 0.18 -->
-    <specification retrigger_time="6" 
+    <specification retrigger_time="6.5" 
     accuracy_factor="0.9" 
 	spread_range="0.3"
     sustained_fire_grow_step="1.0" 

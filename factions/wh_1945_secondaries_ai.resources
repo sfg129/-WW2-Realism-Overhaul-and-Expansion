@@ -12,8 +12,9 @@
 <weapon key="panzerfaust_100.weapon" />
 	<weapon key="panzerfaust_30.weapon" />
 	<weapon key="panzerfaust_30_klein.weapon" />
+	<weapon key="panzerschreck_ai.weapon" />
 	<!--<weapon key="p08.weapon" />-->
-		<projectile key="panzerschreck_ai.weapon" />
+	
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 <weapon key="morphine.weapon" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="panzerfaust_100.weapon">
+<weapon file="base_secondary.weapon" key="panzerfaust_100_early.weapon">
 	<tag name="bazooka" />
 
 <access_tag name="edelweiss" />

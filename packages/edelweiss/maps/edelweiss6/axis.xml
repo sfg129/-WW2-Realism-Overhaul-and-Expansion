@@ -13,7 +13,7 @@
 		
 		<resources file="common.resources" />
 		<resources file="wh_normandy_primaries.resources" />
-		<resources file="wh_1944_secondaries.resources" />
+		<resources file="wh_1944_bas_secondaries.resources" />
 		<resources file="wh_ardennes_default.resources" />
 		
 		<item_class_existence_config>

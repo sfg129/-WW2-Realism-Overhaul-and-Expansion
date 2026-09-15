@@ -46,6 +46,12 @@
 <capacity source="rank" source_value="0.0" value="2" />
 </weapon>
 
+<weapon file="panzerfaust_late.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+
+
+
 
 <weapon file="breniii.weapon">
 <capacity source="rank" source_value="0.0" value="1" />

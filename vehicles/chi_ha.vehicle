@@ -25,7 +25,7 @@
 	<!-- Inversely, its cannon is also marginally more effective against Infantry as it reloads quicker, though AoE is marginally smaller, it is still overall coming out on top. -->
 	<!-- Result is more of a glass-cannon than other Mediums. -->
 
-	<physics max_health="27"
+	<physics max_health="30"
  	blast_damage_threshold="1.02"
  	mass="200.0"
     	broken_mass="10" 

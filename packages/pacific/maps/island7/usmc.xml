@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_army_primaries_ai.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -45,7 +45,7 @@
 
 		<resources file="usmc_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usmc_default_early.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -75,7 +75,7 @@
 
 		<resources file="usmc_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usmc_default_early.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -107,7 +107,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries_ai.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -136,7 +136,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries_ai.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -166,7 +166,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai_mg.resources" />
 		<resources file="usf_airborne_secondaries_ai_mg.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_default_late.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

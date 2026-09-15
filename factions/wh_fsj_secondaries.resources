@@ -11,7 +11,7 @@
 <carry_item key='vest_snlf.carry_item' enabled="1" />  
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
 	<weapon key="kar98k_rifle_grenade_he.weapon" />
-	<weapon key="panzerfaust.weapon" />
+	<weapon key="panzerfaust_late.weapon" />
 <weapon key="pak40_resource.weapon" />
 	<weapon key="p08.weapon" />
 <weapon key="p08_carbine.weapon" />
@@ -22,7 +22,7 @@
 <weapon key="mp40_folded.weapon" />
 <weapon key="kar98k2.weapon" />
 	<weapon key="kar98k2_b.weapon" />
-	<weapon key="lefh18_resource.weapon" />
+
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 	<projectile key="democharge.projectile" />
