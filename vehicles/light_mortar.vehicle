@@ -55,9 +55,13 @@
 		<trigger class="destroy" />		
 		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor4.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" /> 
 	</event>   
-	    <event>
+    <event>
         <trigger class="destroy" />
-    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="0" min_amount="8" max_amount="16" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
+    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="0" min_amount="0" max_amount="10" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
   </event>
-	
+        <event>
+        <trigger class="destroy" />
+    <result class="spawn" instance_class="projectile" instance_key="mortar_shell_t.projectile" activated="1" min_amount="0" max_amount="10" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2"  />
+  </event>
+
 </vehicle>

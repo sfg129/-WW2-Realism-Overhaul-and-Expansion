@@ -17,7 +17,7 @@
 	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.5" />
+	<modifier class="blast_damage" value="-3.8" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -30,7 +30,7 @@
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
     collision_model_pos="0 1.04872 -0.1916" 
-    collision_model_extent="3.9 3.0 6.8" 
+    collision_model_extent="3.4 3.0 6.8" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
 

@@ -162705,7 +162705,7 @@ separator_at_end = 0; </desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-8">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(11.780542)"
@@ -162731,7 +162731,7 @@ key = at_gun_pak40.vehicle; </desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-9-7">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-29.822108)"
@@ -162796,7 +162796,7 @@ key = mg42_hmg_universal.vehicle; </desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-9-8-7">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(0.20717128)"
@@ -162809,7 +162809,7 @@ key = heavy_mortar.vehicle;</desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-9-8-9-8">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#737373;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"
@@ -163231,7 +163231,7 @@ key = at_gun_pak40.vehicle; </desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-8-6">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-23.964815)"
@@ -163244,7 +163244,7 @@ key = heavy_mortar.vehicle;</desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-8-65">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(48.570193)"
@@ -163257,7 +163257,7 @@ key = heavy_mortar.vehicle;</desc>
          style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.5999999;stroke-opacity:1;enable-background:new">
         <desc
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-8-1-8-40-0-8-3-2-1-5-4-0-5-1-5-5-0-2-8-4-3-6-4-6-9-7-5-3-2-0-4-8-8-0-5-3-2-2-8-3">type = vehicle;
-key = heavy_mortar.vehicle;</desc>
+key = light_mortar.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(-61.933615)"
@@ -164258,8 +164258,8 @@ tag = hmg; </desc>
       <rect
          transform="matrix(0.96138875,0.27519387,-0.27519387,0.96138875,0,0)"
          inkscape:label=""
-         y="814.10963786"
-         x="789.79711996"
+         y="813.91182206"
+         x="790.48817907"
          height="6.6684999"
          width="5.7888999"
          id="spawn1-70-3-2-9-2-82-7-5-2-5-30-9-4-8-7-7-4-1-2-5-9-6-5-2-4-5-91-1"
@@ -164320,19 +164320,7 @@ key = stug_iii.vehicle; </desc>
            id="desc7082-7-0-45-7-94-8-8-9-5-82-4-3">type = vehicle;
 key = sdkfz251_flak.vehicle; </desc>
       </rect>
-      <rect
-         style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.5999999;stroke-opacity:1;enable-background:new"
-         id="spawn1-1-4-2-1-0-9-0-6-6-6-1-4-9"
-         width="3.9823"
-         height="7.3962002"
-         x="158.72951"
-         y="-2036.9713"
-         inkscape:label=""
-         transform="rotate(116.88811)">
-        <desc
-           id="desc7082-7-0-45-7-94-8-8-9-5-8-0-2-7">type = vehicle;
-key = panzer_iv.vehicle; </desc>
-      </rect>
+      
       <rect
          transform="rotate(-12.589307)"
          inkscape:label=""

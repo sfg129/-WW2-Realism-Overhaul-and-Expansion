@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Tiger II" key="king_tiger_player.vehicle" time_to_live_unsteerable="60" respawn_time="360" map_view_atlas_index="61" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="3.5" character_leave_request_mode="friendly" usable_for_cover="0" allow_owner_to_use_only="1" allow_ai_to_use="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="Tiger II" key="king_tiger_player.vehicle" time_to_live_unsteerable="60" respawn_time="420" map_view_atlas_index="61" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="3.5" character_leave_request_mode="friendly" usable_for_cover="0" allow_owner_to_use_only="1" allow_ai_to_use="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="crushes_hedgerows" />
    	<tag name="heavy_armour" />
@@ -16,7 +16,7 @@
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-6.4" />
+	<modifier class="blast_damage" value="-8.1" />
 
 	<!-- the King Tiger is invulnerable to many weapons, up to and including Light Tanks who only have 37mm guns. -->
 

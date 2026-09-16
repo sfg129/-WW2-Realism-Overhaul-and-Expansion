@@ -16,7 +16,7 @@
     <result 
 	class="blast" 
 	radius="7.5" 
-	damage="24" 
+	damage="27" 
 	push="1.0" 
 	decal="1" 
 	faction_compare="not_equal" 

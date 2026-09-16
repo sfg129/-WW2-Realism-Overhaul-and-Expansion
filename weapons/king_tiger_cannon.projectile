@@ -16,7 +16,7 @@
     <result 
 	class="blast" 
 	radius="8" 
-	damage="26" 
+	damage="27" 
 	push="1.0" 
 	decal="1" 
         damage_origin_vehicle="0"

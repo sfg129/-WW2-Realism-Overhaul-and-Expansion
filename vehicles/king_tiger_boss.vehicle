@@ -31,12 +31,12 @@ ai_navigation_offset="0.0">
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-6.4" />
+	<modifier class="blast_damage" value="-8.1" />
 
 	<!-- the King Tiger is invulnerable to many weapons, up to and including Light Tanks who only have 37mm guns. -->
 
 	<physics 
-    max_health="64" 
+    max_health="72" 
     blast_damage_threshold="3.91" 
     mass="1000.0"    
     broken_mass="20"    
@@ -54,7 +54,7 @@ ai_navigation_offset="0.0">
 
 	<turret offset="-0.81 2.04 3.2" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.6" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 
-	<turret offset="0.55 1.22 -0.27" weapon_key="king_tiger_cupola_mg_20mm.weapon" weapon_offset="-0.23 +0.31 0.75" weapon_recoil="0.05" physics_recoil="0.0" max_rotation_step="0.0004" parent_turret_index="0" />
+	<turret offset="0.55 1.22 -0.27" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.23 +0.31 0.75" weapon_recoil="0.05" physics_recoil="0.0" max_rotation_step="0.0004" parent_turret_index="0" />
 
 	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.45 0.55 1.6" weapon_recoil="0.0" max_rotation_step="0.000015" />
 	

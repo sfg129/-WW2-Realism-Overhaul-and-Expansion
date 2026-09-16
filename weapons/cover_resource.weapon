@@ -16,7 +16,7 @@
 	sight_range_modifier="1" 
 	slot="1"
 	cover_deployment="1"
-    deny_ladder_range="3"/>
+    deny_ladder_range="1"/>
 	
 	
 	<animation state_key="running" 		animation_key="walking, carrying load" />

@@ -59,8 +59,8 @@ class="blast"
 <!-- front plate-mid -->    
     <shield offset="0.3 -0.3 0" extent="0.2 0.8 0.3" />    
 <!-- front plate-L -->    
-    <shield offset="0.3 -0.15 0.3" extent="0.2 1.0 0.3" />
+    <shield offset="0.3 -0.15 0.2" extent="0.2 1.0 0.3" />
 <!-- front plate-R -->    
-    <shield offset="0.3 -0.15 -0.3" extent="0.2 1.0 0.3" />
+    <shield offset="0.3 -0.15 -0.2" extent="0.2 1.0 0.3" />
 	
 </weapon>

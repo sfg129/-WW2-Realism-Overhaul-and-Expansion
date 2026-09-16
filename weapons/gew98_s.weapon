@@ -48,7 +48,7 @@ sustained_fire_diminish_rate="0.8"
 	<model filename="weapon_gewehr98_s.xml" />
 	<hud_icon filename="hud_g98_sniper.png" />
 	
-	<commonness value="0.045" can_respawn_with="0"/>
+	<commonness value="0.025" can_respawn_with="0"/>
 	<inventory encumbrance="8.0" price="1250" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
@@ -58,7 +58,7 @@ sustained_fire_diminish_rate="0.8"
 	<projectile file="bullet.projectile">
 		<result
 		class="hit"
-		kill_probability="1.8"
+		kill_probability="1.2"
 		
 		kill_decay_start_time="0.59"
 		kill_decay_end_time="0.9"

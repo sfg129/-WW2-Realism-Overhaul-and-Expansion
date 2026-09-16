@@ -32,7 +32,7 @@ ai_navigation_offset="0.0">
 	<control max_limiter_speed="4.0" max_speed="6.5" acceleration="6.5" max_reverse_speed="6.5" min_health_to_steer="0.5" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-8.5" />
+	<modifier class="blast_damage" value="-10" />
 
 	<!-- the King Tiger is invulnerable to many weapons, up to and including Light Tanks who only have 37mm guns. -->
 

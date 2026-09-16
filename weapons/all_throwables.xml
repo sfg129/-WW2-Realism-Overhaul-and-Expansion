@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
+<projectile file="panzerfaust_rocket_late.projectile"/>
 <projectile file="at_gun_57mm.projectile"/>
 <projectile file="m3_37mm.projectile"/>
 <projectile file="hawkins_grenade.projectile"/>

@@ -20,7 +20,10 @@
 		<trigger class="receive_damage" />
 		<result class="reward" xp="0.0" />
 	</event>
-
+	<event>
+		<trigger class="destroy" />
+		<result class="spawn" instance_class="weapon" min_amount="0" max_amount="4" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
 	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
 	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
 </vehicle>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="M4A3E2(76) Sherman" key="m4a3e2_76.vehicle" respawn_time="180" time_to_live_unsteerable="60" map_view_atlas_index="87" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="M4A3E2(76) Sherman" key="m4a3e2_76.vehicle" respawn_time="240" time_to_live_unsteerable="60" map_view_atlas_index="87" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
    	<tag name="vehicle" />
@@ -15,12 +15,12 @@
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-5.4" />
+	<modifier class="blast_damage" value="-6.7" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
-	<physics max_health="46" 
-    blast_damage_threshold="3.2" 
+	<physics max_health="48" 
+    blast_damage_threshold="3.8" 
     mass="200.0" 
     broken_mass="10" 
     remove_collision_threshold="0.2" 
@@ -28,7 +28,7 @@
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
     collision_model_pos="0 1.04872 -0.1916" 
-    collision_model_extent="3.9 3.0 6.8" 
+    collision_model_extent="3.5 3.0 6.8" 
     visual_offset="0 0.37 0.0" /> 
 
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
