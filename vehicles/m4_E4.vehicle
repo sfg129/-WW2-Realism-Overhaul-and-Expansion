@@ -11,7 +11,7 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="0.875" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="12.0" max_reverse_speed="6.5" min_health_to_steer="3" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
@@ -35,12 +35,12 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.35 0.18" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.00005" />
+	<turret offset="0 2.35 0.18" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.0000467" />
 	<turret offset="-0.4 0.9 -0.4" weapon_key="m4_m2.weapon" weapon_offset="0 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
 	<!-- 喷火器本体 (index 2) -->
 		<turret offset="-0.66 1.76 2.65" weapon_key="churchill_crocodile_flamedrive.weapon" weapon_offset="0.0 0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 		<!-- 同轴机枪 (index 3) 保留 -->
-		<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.00005" />
+		<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.0000467" />
 		<!-- 喷火器枪口效果 (index 4) -->
 		<turret offset="-0.66 1.76 2.65" weapon_key="churchill_crocodile_flamedrive_muzzle.weapon" weapon_offset="0.0 0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />

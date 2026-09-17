@@ -36,10 +36,10 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_cannon.weapon" weapon_offset="-0.08 0.68 2.93" weapon_recoil="0.2" max_rotation_step="0.000015" />
+	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_cannon.weapon" weapon_offset="-0.08 0.68 2.93" weapon_recoil="0.2" max_rotation_step="0.0000263" />
 	<turret offset="-0.81 2.04 3.2" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.0 +0.2 0.6" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0.60 1.48 -0.27" weapon_key="king_tiger_cupola_mg.weapon" weapon_offset="0.0 +0.32 0.75" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" parent_turret_index="0" />
-	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.45 0.55 1.6" weapon_recoil="0.0" max_rotation_step="0.000015" />
+	<turret offset="0 2.43 -0.25" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="-0.45 0.55 1.6" weapon_recoil="0.0" max_rotation_step="0.0000263" />
 		<!-- 观察望远镜 (index 4) -->
 	<turret offset="1.8 0.7 0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 

@@ -18,7 +18,7 @@
         <!-- M2车顶机枪（暴露式） (index 0) -->
     <turret offset="0 1.98244 0.015" weapon_key="m4_m2.weapon" weapon_offset="0.0 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.78"/>
     <!-- 车体前部航向机枪 (index 1) -->
-    <turret offset="-0.56339 1.15519 0.60091" weapon_key="stuart_mg.weapon" weapon_offset="0.0 0.2 1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
+    <turret offset="-0.56339 1.15519 1.49224" weapon_key="stuart_mg.weapon" weapon_offset="0 0.2 -0.20686" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
     <!-- 护盾（挡板，无乘员） (index 2) -->
     <turret offset="0 2.32872 0.45" weapon_key="stuart_recce_s.weapon" weapon_recoil="0.0" physics_recoil="0.0" />
     
@@ -28,7 +28,7 @@
     <visual class="chassis" key="broken" mesh_filename="stuart_damage.mesh" texture_filename="stuart_damage.png" />
         <visual class="turret" turret_index="0" mesh_filename="m4_75_cupola.mesh" texture_filename="stuart.png" />
     <visual class="turret" turret_index="0" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="stuart_damage.png" />
-    <visual class="turret" turret_index="1" mesh_filename="m4_hull_mg.mesh" texture_filename="stuart.png" />
+    <visual class="turret" turret_index="1" mesh_filename="m4_hull_mg.mesh" texture_filename="stuart.png"  offset="0 0 -0.89133"/>
         <visual class="turret" turret_index="2" mesh_filename="sdkfz251_turret.mesh" texture_filename="stuart.png" />
         <visual class="turret" turret_index="2" key="broken" mesh_filename="sdkfz251_turret_damage.mesh" texture_filename="stuart_damage.png" />
     
