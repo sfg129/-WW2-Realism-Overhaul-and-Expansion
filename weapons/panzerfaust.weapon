@@ -55,7 +55,7 @@
 	<model filename="weapon_panzerfaust.xml" />
 	<hud_icon filename="hud_panzerfaust.png" />
 	
-	<commonness value="0.1" />
+	<commonness value="0.125" />
 	<inventory encumbrance="3" price="8" />
 	
 	<capacity value="2" source="rank" source_value="0.0" />

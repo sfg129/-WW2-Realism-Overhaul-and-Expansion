@@ -29,7 +29,7 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.17 2.45 0.15" weapon_key="hago_cannon.weapon" weapon_offset="-0.1 0.0 0.85" weapon_recoil="0.0" max_rotation_step="0.000033" />
+	<turret offset="0.17 2.45 0.15" weapon_key="hago_cannon.weapon" weapon_offset="-0.1 0.0 0.85" weapon_recoil="0.0" max_rotation_step="0.0000155" />
 	<turret offset="0.235 1.8 1.5" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0004" rotation="0" rotation_range="1.05" />
 		<turret offset="-0.32359 -0.07204 -0.47308" weapon_key="hago_mg.weapon" weapon_offset="0.0 0.0 0.0" weapon_recoil="0.0" physics_recoil="0.0" rotation="4.1" max_rotation_step="0.0003" rotation_range="0.6" parent_turret_index="0" />
 

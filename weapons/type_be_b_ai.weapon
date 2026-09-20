@@ -25,7 +25,7 @@
 	<!-- AI version only to affect commonness on an Assault soldier -->
 	<!-- when the AI dies with them they must transform into their normal version, handled below. a requirement with this is drop-count factor on death be 0 -->
 	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="type_be_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
-
+<modifier class="speed" value="-0.085" />
 	<!-- simple SMG sight -->
   
 
@@ -57,13 +57,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.675"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_762.projectile" />
 	
 </weapon>

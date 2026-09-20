@@ -10,7 +10,7 @@
 	<call key="ukf_vehicle_unk.call" />
 	<call key="ukf_para_no_parachuting_ai.call" />
 	<call key="ukf_vehicle_un.call" />
-	<call key="ukf_vehicle_un_b.call" />
+
 		<call key="ukf_vehicle_unk.call" />
 <call key="vehicle_m3_mortar.call" />
 </resources>

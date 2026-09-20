@@ -43,13 +43,6 @@
 	<commonness value="0.05" />
 	<inventory encumbrance="8.0" price="5" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.15"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_rifle.projectile" />
 	
 </weapon>

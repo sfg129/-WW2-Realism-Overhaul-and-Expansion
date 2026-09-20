@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" key="no79_smoke_delay.projectile" slot="0" radius="0.01" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0" time_to_live_out_in_the_open="60.0">
+    <trigger class="time" time_to_live="5.0" />
+    <result class="spawn" instance_class="vehicle" instance_key="no79_smoke_spawner.vehicle" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+
+    <sound class="result" key="other" fileref="smoke_m8.wav" volume="1.0" />
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+    <model mesh_filename="no79.xml" />
+    <rotation class="random" />
+    <commonness value="0" can_respawn_with="0" />
+    <capacity value="0" source="rank" source_value="0" />
+</projectile>

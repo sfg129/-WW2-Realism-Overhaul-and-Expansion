@@ -8,6 +8,8 @@
 
 		<weapon key="morphine.weapon" />
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="nebelhandgranate_39.projectile" />
+	<projectile key="nebeleihandgranate_42.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 <carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  

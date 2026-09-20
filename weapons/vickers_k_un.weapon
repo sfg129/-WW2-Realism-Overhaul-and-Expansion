@@ -78,13 +78,6 @@ projectile_speed="125.0"
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="1" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_303_mg.projectile" />
 <shield offset="0.2 0.2 -0.4" extent="0.7 0.6 2.2" />
 </weapon>

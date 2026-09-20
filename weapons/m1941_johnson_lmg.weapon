@@ -19,7 +19,7 @@ reload_one_at_a_time="1"
 	barrel_offset="0.55" 
 	projectile_speed="140.0" 
 	/>
-		<modifier class="speed" value="-0.055" />  
+		<modifier class="speed" value="-0.1" />  
 	<!-- former stats: accuracy was 0.92, grow_step 0.2, diminished_rate default, velocity 110, kill probability 0.55-->
 
 	<!-- The Johnson LMG pairs a high rate of fire with a small capacity magazine. -->
@@ -67,13 +67,6 @@ reload_one_at_a_time="1"
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

@@ -73,16 +73,7 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 <shield offset="0.2 0.2 -0.4" extent="0.7 0.6 2.2" />
-	<projectile file="50cal_bullet.projectile">
-        <result
-		class="blast"
-    radius="3"
-       damage="5"
-    push="0.1"
-    decal="1"
-		faction_compare="not_equal"
-		damage_origin_vehicle="0"  />
-	</projectile>
+	<projectile file="bullet_atrifle_13999b.projectile" />
 	
 
 </weapon>

@@ -26,7 +26,6 @@ array<Resource@>@ getUnlockItemListAxis() {
 	
 	//utility unlocks
 	//list.push_back(Resource("", "weapon"));
-	list.push_back(Resource("mk3_grenade.projectile", "projectile"));   
 
 	list.push_back(Resource("wrench.weapon", "weapon"));   
 	

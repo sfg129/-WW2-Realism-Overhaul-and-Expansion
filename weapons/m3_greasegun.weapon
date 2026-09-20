@@ -22,7 +22,7 @@
 
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 
-
+ <modifier class="speed" value="-0.08" />
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
@@ -47,13 +47,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- start decay was 0.22 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.8"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_45.projectile" />
 	
 </weapon>

@@ -9,14 +9,13 @@
 <carry_item file="vest_normale.carry_item" />
 <carry_item file="vest_normals.carry_item" />
 <carry_item file="vest_normala.carry_item" />
-	<carry_item key="fruit_bananas.carry_item" />
-	<carry_item key="fruit_coconut.carry_item" />
-	<carry_item key="fruit_dragonfruit.carry_item" />
-	<carry_item key="fruit_grape.carry_item" />
-	<carry_item key="fruit_mango.carry_item" />
-	<carry_item key="fruit_melon.carry_item" />
-	<carry_item key="painting_sunflower.carry_item" />
-	<carry_item key="painting_sunflower.carry_item" />
+	<carry_item file="fruit_bananas.carry_item" />
+	<carry_item file="fruit_coconut.carry_item" />
+	<carry_item file="fruit_dragonfruit.carry_item" />
+	<carry_item file="fruit_grape.carry_item" />
+	<carry_item file="fruit_mango.carry_item" />
+	<carry_item file="fruit_melon.carry_item" />
+	<carry_item file="painting_sunflower.carry_item" />
 	<carry_item file="ww2_undead_axr_dog.carry_item" />
 	<carry_item file="ww2_undead_axr_nachtjaeger.carry_item" />
 	<carry_item file="ww2_undead_axr_officer.carry_item" />
@@ -99,8 +98,4 @@
   <carry_item file="iron_cross.carry_item" />
 
   <carry_item file="gold_bar.carry_item" />
-
-
-  <carry_item file="god_vest.carry_item" />
-
 </carry_items>

@@ -12,7 +12,7 @@
 	
 	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
 	
-	<modifier class="speed" value="-0.05" />
+	<modifier class="speed" value="-0.04" />
 
 	<sound class="impact" fileref="rifle_drop.wav" />
 	

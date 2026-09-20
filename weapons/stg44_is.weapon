@@ -22,7 +22,7 @@
 	projectiles_per_shot="1"
 sight_range_modifier="1"
 	/>
-	<modifier class="speed" value="-0.08" />  
+	<modifier class="speed" value="-0.095" />  
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
 	<!-- scoped StG 44 is a bit worse than regular in many ways - though generally more accurate / long range in crouch or prone, its worse in the other stances -->
@@ -59,13 +59,6 @@ sight_range_modifier="1"
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="0.85" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_carbine_79233.projectile" />
 	
 </weapon>

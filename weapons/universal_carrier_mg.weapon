@@ -40,14 +40,7 @@ sustained_fire_diminish_rate="0.16"
 	<inventory encumbrance="11.0" price="2.0" />
 	<commonness value="0.0" />
 <shield offset="0.4 0 -0.4" extent="0.7 0.6 2.2" />
-	<projectile file="bullet.projectile">
-        <result
-		class="hit"
-		kill_probability="1" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_303_mg.projectile" />
 
 
         

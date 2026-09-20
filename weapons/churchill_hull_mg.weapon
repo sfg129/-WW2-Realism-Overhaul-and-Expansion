@@ -42,13 +42,7 @@
     <inventory encumbrance="11.0" price="2.0" />
 
     <weak_hand_hold offset="0.4" />
-    <projectile file="bullet.projectile">
-        <result
-	class="hit"
-	kill_probability="1"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" />
-    </projectile>
+    <projectile file="bullet_rifle_79257_mg.projectile" />
     
     <effect class="muzzle" ref="sawsnone" />	
 	

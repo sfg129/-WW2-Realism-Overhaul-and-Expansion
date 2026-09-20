@@ -1,0 +1,54 @@
+// A single high-rate emitter avoids RWR's unreliable accumulation of several
+// same-type emitters. It retains the ground plume's +X wind drift while the
+// shorter lifetime and smaller particles keep it below full landed density.
+particle_system Nebeleihandgranate42PreSmoke
+{
+    quota 4096
+    material FlareSmoke
+    particle_width 0.90
+    particle_height 0.90
+    local_space false
+    cull_each false
+    renderer billboard
+    billboard_type point
+
+    emitter Point
+    {
+        angle 14
+        colour 0.90 0.92 0.90 0
+        colour_range_start 0.82 0.85 0.82 0
+        colour_range_end 0.98 0.98 0.94 0
+        direction 1 0.10 0
+        emission_rate 60
+        position 0 0 0
+        velocity_min 1.414
+        velocity_max 1.804
+        time_to_live_min 3.0
+        time_to_live_max 4.0
+    }
+
+    affector Scaler
+    {
+        rate 0.18
+    }
+
+    affector Rotator
+    {
+        rotation_speed_range_start -12
+        rotation_speed_range_end 12
+        rotation_range_start 0
+        rotation_range_end 360
+    }
+
+    affector ColourInterpolator
+    {
+        colour0 1 1 1 0
+        time0 0
+        colour1 0.90 0.92 0.90 0.50
+        time1 0.18
+        colour2 0.82 0.85 0.82 0.44
+        time2 0.72
+        colour3 0.72 0.75 0.72 0
+        time3 1
+    }
+}

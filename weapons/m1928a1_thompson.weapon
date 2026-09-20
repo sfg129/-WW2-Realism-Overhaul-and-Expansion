@@ -24,7 +24,7 @@
 
 	<!-- simple SMG sight ; though technically an aperture, it is often regarded as a horrible one -->
 
-	<modifier class="speed" value="-0.04" />  
+	<modifier class="speed" value="-0.09" />  
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 	
 	
@@ -51,13 +51,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-	kill_probability="0.8"
-	kill_decay_start_time="0.25"
-	kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_45.projectile" />
 	
 </weapon>

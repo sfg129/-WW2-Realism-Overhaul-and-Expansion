@@ -42,14 +42,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- decay start was 0.3, end was 0.425, damage more recently was 0.6-->
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit"
-	
-		kill_probability="0.7"
-		kill_decay_start_time="0.2"
-		kill_decay_end_time="0.7"
-		/>
-	</projectile>
+	<projectile file="bullet_shotgun_12g.projectile" />
 	
 </weapon>

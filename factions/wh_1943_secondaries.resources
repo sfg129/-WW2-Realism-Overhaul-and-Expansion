@@ -19,6 +19,7 @@
 	<weapon key="kar98k2_b.weapon" />
 
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="nebelhandgranate_39.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />

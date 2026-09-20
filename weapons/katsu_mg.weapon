@@ -49,16 +49,7 @@
 	<inventory encumbrance="11.0" price="2.0" />
 	<commonness value="0.0" />
 	
-	<projectile file="50cal_bullet.projectile">
-        <result
-class="blast"
-    radius="1.5"
-   damage="1.4"
-    push="0.1"
-    decal="1" 
-	damage_origin_vehicle="0"  
-	faction_compare="not_equal"	/>
-	</projectile>
+	<projectile file="bullet_hmg_13299.projectile" />
 	
 	<shield offset="1.4 -0.4 0" extent="0.7 1.4 1.0" />
 	

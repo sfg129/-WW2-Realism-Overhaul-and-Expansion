@@ -41,14 +41,7 @@
 	<inventory encumbrance="11.0" price="2.0" />
 	<commonness value="0.0" />
 
-	<projectile file="bullet.projectile">
-        <result
-		class="hit"
-		kill_probability="0.95" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_303_mg.projectile" />
 
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
         

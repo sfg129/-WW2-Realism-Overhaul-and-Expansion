@@ -1,0 +1,56 @@
+// AN-M8-derived directional smoke with 125 percent range and drift speed.
+particle_system No79SmokeGround
+{
+    quota 24576
+    material FlareSmoke
+    particle_width 2.25
+    particle_height 2.25
+    local_space false
+    cull_each false
+    renderer billboard
+    billboard_type point
+
+    emitter Point
+    {
+        angle 14
+        colour 0.90 0.92 0.90 0
+        colour_range_start 0.82 0.85 0.82 0
+        colour_range_end 0.98 0.98 0.94 0
+        direction 1 0.10 0
+        emission_rate 59
+        position 0 0.25 0
+        velocity_min 2.356
+        velocity_max 3.006
+        time_to_live_min 7.5
+        time_to_live_max 8.0
+        // 37 seconds of emission plus the final eight-second particle tail.
+        duration 37.0
+        duration_min 37.0
+        duration_max 37.0
+    }
+
+    affector Scaler
+    {
+        rate 0.45
+    }
+
+    affector Rotator
+    {
+        rotation_speed_range_start -12
+        rotation_speed_range_end 12
+        rotation_range_start 0
+        rotation_range_end 360
+    }
+
+    affector ColourInterpolator
+    {
+        colour0 1 1 1 0
+        time0 0
+        colour1 0.90 0.92 0.90 0.66
+        time1 0.12
+        colour2 0.82 0.85 0.82 0.60
+        time2 0.76
+        colour3 0.72 0.75 0.72 0
+        time3 1
+    }
+}

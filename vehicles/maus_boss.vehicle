@@ -50,12 +50,12 @@ ai_navigation_offset="0.0">
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.0 2.79 -1.35" weapon_key="maus_main_cannon.weapon" weapon_offset="0.0 1.05 3.54" weapon_recoil="0.2" max_rotation_step="0.000006" />
+	<turret offset="0.0 2.79 -1.35" weapon_key="maus_main_cannon.weapon" weapon_offset="0.0 1.05 3.54" weapon_recoil="0.2" max_rotation_step="0.0000125" />
 	<turret offset="1.45 1.1 -0.6" weapon_key="maus_mg_turret.weapon" weapon_offset="0.0 +0.0 0.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation="1.57" rotation_range="1.57" parent_turret_index="0" />
 	<turret offset="-1.45 1.1 -0.6" weapon_key="maus_mg_turret.weapon" weapon_offset="0.0 +0.0 0.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation="-1.57" rotation_range="1.57" parent_turret_index="0" />
 	<turret offset="0.0 0.83 -3.3" weapon_key="maus_mg_turret.weapon" weapon_offset="0.0 +0.0 0.2" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation="3.14" rotation_range="1.57" parent_turret_index="0" />
-	<turret offset="0.0 2.79 -1.35" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.8 1.0 2.4" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.000006" />
-	<turret offset="0.0 2.79 -1.35" weapon_key="maus_secondary_cannon.weapon" weapon_offset="-0.64 0.99 3.28" weapon_recoil="0.2" max_rotation_step="0.00001" />
+	<turret offset="0.0 2.79 -1.35" weapon_key="king_tiger_hull_mg.weapon" weapon_offset="0.8 1.0 2.4" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0000125" />
+	<turret offset="0.0 2.79 -1.35" weapon_key="maus_secondary_cannon.weapon" weapon_offset="-0.64 0.99 3.28" weapon_recoil="0.2" max_rotation_step="0.0000125" />
 
 	<visual class="chassis" mesh_filename="maus_chassis.mesh" texture_filename="maus_chassis.png" max_tilt="0.02" />
 	<visual class="chassis" key="broken" mesh_filename="maus_chassis_damage.mesh" texture_filename="maus_chassis_damage.png" />

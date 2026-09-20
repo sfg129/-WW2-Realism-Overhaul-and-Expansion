@@ -35,13 +35,6 @@
 	<hud_icon filename="hud_type92_hmg.png" />
 	<commonness value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.85"
-		kill_decay_start_time="0.65"
-		kill_decay_end_time="0.91"
-		/>
-	</projectile>	  
+	<projectile file="bullet_rifle_6550_mg.projectile" />	  
 	
 </weapon>

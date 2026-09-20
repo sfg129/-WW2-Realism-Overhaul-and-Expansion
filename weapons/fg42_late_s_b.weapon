@@ -43,7 +43,7 @@
 	<stance state_key="crouching" accuracy="0.96" />
 
 
-	<modifier class="speed" value="-0.08" />
+	<modifier class="speed" value="-0.11" />
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
@@ -71,13 +71,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="1.05" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_79257_mg.projectile" />
 	
 </weapon>

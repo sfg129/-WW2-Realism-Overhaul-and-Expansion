@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- +X cone section: approximately x=5.5..12.5, width 5. -->
-<vehicle name="" key="an_m8_smoke_blocker_mid.vehicle" map_view_atlas_index="-1" time_to_live="26.5" respawn_time="0" allow_ai_to_use="0" usable_for_cover="0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1">
+<vehicle name="" key="an_m8_smoke_blocker_mid.vehicle" map_view_atlas_index="-1" time_to_live="41.5" respawn_time="0" allow_ai_to_use="0" usable_for_cover="0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1">
     <tire_set offset="0 0 0" radius="0" />
     <tire_set offset="0 0 0" radius="0" />
     <control max_speed="0" acceleration="0" max_reverse_speed="0" max_rotation="0" max_water_depth="0" steer_smoothening="0" />

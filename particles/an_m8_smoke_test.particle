@@ -25,9 +25,11 @@ particle_system ANM8SmokeGroundTest
         velocity_max 2.405
         time_to_live_min 7.5
         time_to_live_max 8.0
-        duration 22.0
-        duration_min 22.0
-        duration_max 22.0
+        // 37 seconds of emission plus the final 8-second particle tail gives
+        // a complete visual lifetime of approximately 45 seconds.
+        duration 37.0
+        duration_min 37.0
+        duration_max 37.0
     }
 
     affector Scaler

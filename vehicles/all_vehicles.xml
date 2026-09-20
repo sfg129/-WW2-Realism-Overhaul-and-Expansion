@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
+<vehicle file="type97_at.vehicle" />
 <vehicle file="m1919_hmg_t.vehicle" />
 	<vehicle file="mg34_hmg_t.vehicle" />
 	<vehicle file="mg42_hmg_t.vehicle" />
@@ -147,6 +148,20 @@
 	<vehicle file="no77_smoke_blocker_x.vehicle" />
 	<vehicle file="no77_smoke_blocker_z.vehicle" />
 	<vehicle file="an_m8_smoke_landed_spawner.vehicle" />
+	<vehicle file="nebelhandgranate_39_smoke_spawner.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_spawner.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_blocker_mid_delay.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_blocker_far_delay.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_blocker_near.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_blocker_mid.vehicle" />
+	<vehicle file="nebeleihandgranate_42_smoke_blocker_far.vehicle" />
+	<vehicle file="no79_smoke_spawner.vehicle" />
+	<vehicle file="no79_smoke_blocker_mid_delay.vehicle" />
+	<vehicle file="no79_smoke_blocker_far_delay.vehicle" />
+	<vehicle file="no79_smoke_blocker_near.vehicle" />
+	<vehicle file="no79_smoke_blocker_mid.vehicle" />
+	<vehicle file="no79_smoke_blocker_far.vehicle" />
+	<vehicle file="type_94_smoke_candle_smoke_spawner.vehicle" />
 	<vehicle file="an_m8_smoke_blocker_spawner.vehicle" />
 	<vehicle file="an_m8_smoke_blocker_mid_delay.vehicle" />
 	<vehicle file="an_m8_smoke_blocker_far_delay.vehicle" />

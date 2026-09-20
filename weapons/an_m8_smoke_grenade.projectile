@@ -3,17 +3,17 @@
     <tag name="grenade" />
     <access_tag name="ww2" />
 
-    <!-- At two seconds the tracker replaces this body with a visible inert
-         continuation projectile.  Smoke does not begin until that body makes
-         its first impact. -->
-    <trigger class="time" time_to_live="2.0" />
-    <result class="notify_script" key="an_m8_smoke_activate" />
+    <!-- Keep the native projectile untouched for its entire flight. Its first
+         impact creates a motionless visible delay body; only that body owns
+         the two-second smoke fuze. -->
+    <trigger class="impact" />
+    <result class="spawn" instance_class="projectile" instance_key="an_m8_smoke_wait_for_landing.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
 
     <model mesh_filename="an_m8.xml" />
     <hud_icon filename="hud_an_m8.png" />
     <rotation class="random" />
     <throwable curve_height="5" near_far_distance="5.0" speed_estimation_near="12.0" speed_estimation_far="17.0" max_speed="17" randomness="0.07" />
     <commonness value="0.0" can_respawn_with="1" />
-    <inventory encumbrance="1.5" price="3.0" />
-    <capacity value="6" source="rank" source_value="0" />
+    <inventory encumbrance="1" price="3.0" />
+    <capacity value="4" source="rank" source_value="0" />
 </projectile>

@@ -52,7 +52,7 @@
 	<sound key="fire" fileref="weapon_rocket_launcher_piat.wav" pitch_variety="0.05" volume="1.6"/>
 	
 	<model filename="weapon_panzerfaust_100_late.xml" />
-	<hud_icon filename="hud_panzerfaust_100_late.png" />
+	<hud_icon filename="hud_panzerfaust_late.png" />
 	
 	<commonness value="0.08" />
 	<inventory encumbrance="3" price="10" />

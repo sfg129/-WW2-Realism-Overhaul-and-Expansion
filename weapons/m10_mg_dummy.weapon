@@ -52,15 +52,7 @@
     <inventory encumbrance="11.0" price="2.0" />
 
     <weak_hand_hold offset="0.4" />
-	<projectile file="50cal_bullet.projectile">
-        <result 
-	class="blast"
-    radius="2"
-      damage="1.8"
-    push="0.1"
-    decal="1" 
-    damage_origin_vehicle="0" />
-    </projectile>
+	<projectile file="bullet_hmg_12799.projectile" />
        <shield offset="0.0 0.55 0.7" extent="0.75 2 2" />
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
     

@@ -10,10 +10,10 @@
   <model mesh_filename="hawkins_grenade.xml" />
   <hud_icon filename="hawkins_grenade.png" />
   <rotation class="random" />
-  <throwable curve_height="5.5" near_far_distance="5.0" speed_estimation_near="12.0" speed_estimation_far="17.0" max_speed="15.5" randomness="0.06" tweak_factor="1.1" />
-  <commonness value="0.1" />
-  <inventory encumbrance="2.0" price="6.0" />
-  <capacity value="6" source="rank" source_value="0" />
+  <throwable curve_height="5" near_far_distance="5.0" speed_estimation_near="12.0" speed_estimation_far="17.0" max_speed="15.5" randomness="0.06" tweak_factor="1.1" />
+  <commonness value="0.2" />
+  <inventory encumbrance="1.5" price="6.0" />
+  <capacity value="4" source="rank" source_value="0" />
   <!-- remove top snow everywhere -->
   <result class="notify_script" key="hawkins_v3_arm" />
 </projectile>

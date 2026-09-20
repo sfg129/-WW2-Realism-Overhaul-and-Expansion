@@ -62,8 +62,8 @@ sustained_fire_grow_step="1.25"
 	<projectile file="50cal_bullet.projectile">
         <result
 class="blast"
-    radius="1.2"
-    damage="1.2"
+    radius="2"
+    damage="1.1"
     push="0.1"
     decal="1"  
 	faction_compare="not_equal"	/>

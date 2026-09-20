@@ -20,7 +20,7 @@
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
 	/>
-
+<modifier class="speed" value="-0.125" />
 	<!-- larger assault rifle weapons have reduced walking accuracy compared to SMGs -->
 	<stance state_key="running" accuracy="0.4" />
 
@@ -52,13 +52,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="0.95" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.94"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_6550.projectile" />
 	
 </weapon>

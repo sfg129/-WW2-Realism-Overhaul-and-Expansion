@@ -28,7 +28,7 @@
 	<model mesh_filename="panther_cannon.mesh" texture_filename="panther_cannon.png" />
 	<hud_icon filename="hud_tank_cannon.png" />
 	<commonness value="0.0" />
-	<projectile file="king_tiger_cannon.projectile" />
+	<projectile file="panther_cannon.projectile" />
 
 	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
 	<target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />

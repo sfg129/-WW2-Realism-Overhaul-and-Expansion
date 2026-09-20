@@ -39,7 +39,7 @@
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<hud_icon filename="hud_m1917_assault.png" />
+	<hud_icon filename="hud_m1917_hmg_resource.png" />
 	<commonness value="0.01" can_respawn_with="0" />
 	<inventory encumbrance="8.0" price="110" />
 	

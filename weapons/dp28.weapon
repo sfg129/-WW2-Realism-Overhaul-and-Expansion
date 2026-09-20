@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="dp28.weapon">
 
 <!--<access_tag name="easternfront" />-->
@@ -18,7 +18,7 @@
 	barrel_offset="0.7" 
 	projectile_speed="130"
 	/>
-
+<modifier class="speed" value="-0.14" />
 	<stance state_key="running" accuracy="0.4" />
 	<stance state_key="walking" accuracy="0.5" />
 	<stance state_key="crouch_moving" accuracy="0.6" />
@@ -55,13 +55,7 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.1"
-		kill_decay_start_time="0.5"
-		kill_decay_end_time="0.9" />
-	</projectile>
+	<projectile file="bullet_rifle_76254_mg.projectile" />
 	
-			<modifier class="speed" value="-0.13" />
+
 </weapon>

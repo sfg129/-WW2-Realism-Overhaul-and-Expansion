@@ -43,7 +43,7 @@
 	<text key="Tank Hunter, Severely Injured" text="坦克猎手，重伤"/>
 
 	<text key="WZ-35 Anti-Tank Rifle" text="WZ-35反坦克步枪"/>
-	<text key="AT Stielhandgranate" text="M43集束反坦克手榴弹"/>
+	<text key="AT Stielhandgranate" text="M24集束反坦克手榴弹"/>
 
 	<!-- absolutely everything else -->
 
@@ -176,7 +176,7 @@
 	<text key="M1A1 Carbine" text="M1A1卡宾枪"/>
 	<text key="M2HB HMG deploy" text="M2HB重机枪部署包"/>
 	<text key="M17 HE Rifle Grenade" text="M1903枪榴弹-M17高爆弹"/>
-	<text key="M43 Stielhandgranate" text="M43木柄手榴弹"/>
+	<text key="M24 Stielhandgranate" text="M24木柄手榴弹"/>
 	<text key="Panzerwurfmine" text="反装甲投掷雷"/>
 	<text key="strafing run" text="扫射攻击"/>
 	<text key="Mills Bomb Grenade" text="Mills手榴弹"/>
@@ -242,6 +242,9 @@
 	<text key="Hawkins grenade" text="霍金斯手榴弹"/>
 <text key="AN-M8 smoke grenade" text="AN-M8烟雾弹"/>
 	<text key="No.77 Smoke Grenade" text="No. 77 烟雾弹"/>
+	<text key="Nebelhandgranate 39" text="Nebelhandgranate 39烟雾弹"/>
+	<text key="Nebeleihandgranate 42" text="Nebeleihandgranate 42烟雾弹"/>
+	<text key="No.79 Smoke Grenade" text="No.79烟雾弹"/>
 	<text key="strafing run advised" text="俯冲扫射攻击"/>
 
 

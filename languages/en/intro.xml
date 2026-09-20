@@ -9,7 +9,6 @@
 
 	<text key="Hint" text="Submachine guns are lightweight and easy to aim and control, but performs poorly at long range"/>
 
-	<text key="Hint" text="Bolt-action rifles and semi-automatic rifles have higher accuracy and greater ammunition power"/>
 	<text key="Hint" text="All types of rifles and light machine guns fire full-power cartridges, with very low damage falloff at long range"/>
 
 	<text key="Hint" text="Light machine gun recoil is hard to control when standing, but when prone or deployed, they can provide accurate and deadly automatic fire"/>

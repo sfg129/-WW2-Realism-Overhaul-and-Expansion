@@ -21,6 +21,8 @@
 <weapon key="panzerfaust_100_early.weapon" />
 	<weapon key="panzerfaust_30_klein.weapon" />
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="nebelhandgranate_39.projectile" />
+	<projectile key="nebeleihandgranate_42.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />

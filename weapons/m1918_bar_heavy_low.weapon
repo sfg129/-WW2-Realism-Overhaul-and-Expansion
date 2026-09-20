@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="m1918_bar_heavy_low.weapon">
-	
+	<!-- nolonger use -->
 <access_tag name="edelweiss" />
 
 	<specification 
@@ -59,13 +59,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill decay start was 0.225, then 0.39, then 0.3 -->
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

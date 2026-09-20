@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_rifle.weapon" key="kar98k_is.weapon">
 	<tag name="sniper" />
 <access_tag name="edelweiss" />
@@ -46,13 +46,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill_probability was 1.5, raised for better damage vs. body armour -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.1"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_79257.projectile" />
 	
 </weapon>

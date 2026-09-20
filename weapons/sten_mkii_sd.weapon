@@ -23,7 +23,7 @@
 	<!-- Sten Mk II sights are absolutely atrocious, accuracy while standing, crouched, and prone have been reduced (but not while moving.) -->
 	<!-- base accuracy is boosted because velocity is so low -->
 
-
+	 <modifier class="speed" value="-0.06" />
 	
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
@@ -51,14 +51,7 @@
 	<!-- kill_probability_offset_on_successful_hit adds on top of this, raising damage further -->
 
 	<!-- total sten kill% on a successful hit is  1.0, no bonus, it's pretty powerful as a fully automatic weapon with low recoil -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.7"
-		kill_decay_start_time="0.35"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_919.projectile" />
 
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.3"/>
 	

@@ -23,6 +23,19 @@
 	<vehicle key="an_m8_smoke_blocker_near.vehicle" />
 	<vehicle key="an_m8_smoke_blocker_mid.vehicle" />
 	<vehicle key="an_m8_smoke_blocker_far.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_spawner.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_blocker_mid_delay.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_blocker_far_delay.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_blocker_near.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_blocker_mid.vehicle" />
+	<vehicle key="nebeleihandgranate_42_smoke_blocker_far.vehicle" />
+	<vehicle key="no79_smoke_spawner.vehicle" />
+	<vehicle key="no79_smoke_blocker_mid_delay.vehicle" />
+	<vehicle key="no79_smoke_blocker_far_delay.vehicle" />
+	<vehicle key="no79_smoke_blocker_near.vehicle" />
+	<vehicle key="no79_smoke_blocker_mid.vehicle" />
+	<vehicle key="no79_smoke_blocker_far.vehicle" />
+	<vehicle key="type_94_smoke_candle_smoke_spawner.vehicle" />
 
 	<vehicle key="opel_blitz_armoury.vehicle" />
 	<vehicle key="opel_blitz_1.vehicle" />

@@ -29,8 +29,8 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.0000467" />
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.0000467" />
+	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.00004" />
+	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.00004" />
 		<!-- 车体前部航向机枪 -->
 			<turret offset="-0.57568 1.45694 1.57769" weapon_key="stuart_mg.weapon" weapon_offset="0 -0.09084 -0.27048" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
 

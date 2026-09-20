@@ -21,7 +21,7 @@
 	<!-- due to its lighter bolt, it fires much quicker than the later M1A1. -->
 
 	<!-- simple SMG sight ; though technically an aperture -->
-<modifier class="speed" value="-0.04" />  
+ <modifier class="speed" value="-0.085" />
 	<stance state_key="standing" accuracy="0.92" />
 	<stance state_key="crouching" accuracy="0.97" />
 	<animation key="recoil" ref="12" />
@@ -46,13 +46,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-	kill_probability="0.8"
-	kill_decay_start_time="0.25"
-	kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_45.projectile" />
 	
 </weapon>

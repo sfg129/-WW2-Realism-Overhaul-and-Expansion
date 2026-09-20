@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="type98_lmg_mg15.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" >
 	
 <access_tag name="pacific" />
@@ -18,7 +18,7 @@
 	barrel_offset="0.7" 
 projectile_speed="120.0" 
 	/>
-	<modifier class="speed" value="-0.13" />
+	<modifier class="speed" value="-0.155" />
 	<!-- velocity was 114 -->
 	
 	<!-- Type 98 LMG is a licensed copy of the German MG 15 (note: not the actual WW1-era MG 15) used in aircraft. -->
@@ -61,13 +61,6 @@ projectile_speed="120.0"
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- damage was 0.55, start decay was 0.4 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.95"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_79257_mg_2.projectile" />
 	
 </weapon>

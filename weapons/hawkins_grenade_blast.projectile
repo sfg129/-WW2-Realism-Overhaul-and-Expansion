@@ -7,7 +7,7 @@
   <sound class="result" key="static_object" copy="other" />
   <sound class="result" key="vehicle" copy="other" />
   <sound class="result" key="character" copy="other" />
-  <result class="blast" radius="4" damage="10.5" push="0.4" decal="1" faction_compare="not_equal" />
+  <result class="blast" radius="4" damage="11" push="0.4" decal="1" faction_compare="not_equal" />
   <hud_icon filename="hawkins_grenade.png" />
   <rotation class="random" />
   <effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />
