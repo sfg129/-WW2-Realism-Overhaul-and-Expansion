@@ -24,6 +24,7 @@
 	<weapon file="m1917_hmg_resource.weapon" />
 <weapon file="m1917_hmg_resource_t.weapon"/>
 <weapon file="m4_76_cannon.weapon"/>
+	<weapon file="m4_76_late.weapon"/>
 <weapon file="m1917_hmg.weapon"/>
 <weapon file="m1917_hmg_t.weapon"/>
 <weapon file="piat_un.weapon"/>

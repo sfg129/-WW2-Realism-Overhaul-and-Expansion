@@ -70,6 +70,7 @@ class GameModeQuickMatch : GameMode {
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_armoury_marine.call", "usf_vehicle_armoury_marine_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e8.call", "usf_vehicle_m4a3e8_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e2_75.call", "usf_vehicle_m4a3e2_75_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e2_76.call", "usf_vehicle_m4a3e2_76_spawn.call", array<string> = {"point_262","Woods","Docks","Lighthouse","Power plant"}, true, "vehicle"));
 	

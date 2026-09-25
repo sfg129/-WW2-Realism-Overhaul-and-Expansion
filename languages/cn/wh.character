@@ -289,4 +289,7 @@
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_76.call" text="M4A3E2(76)“谢尔曼”中型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_76.call" text="无可用部署点，先占领一个基地！" />
 
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e8.call" text="M4A3E8“谢尔曼”中型坦克将部署在%base_name" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e8.call" text="无可用部署点，先占领一个基地！" />
+
 </character>

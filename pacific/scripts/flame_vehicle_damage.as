@@ -125,13 +125,13 @@ class FlameVehicleDamage : Tracker {
 		addRuleGroup(array<string> = {"m4a3e2_75.vehicle", "m4a3e2_76.vehicle"}, 0.065f, 0.0f, -0.1916f, 3.9f, 6.8f);
 
 		// 8.25%/s: non-E2 76 mm Shermans, Firefly, Panther and Panzer IVs.
-		addRule("m4_76.vehicle", 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4_76.vehicle", "m4_76_late.vehicle", "m4a3e8.vehicle"}, 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRuleGroup(array<string> = {"m4_firefly.vehicle", "m4_firefly_fastrespawn.vehicle"}, 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRule("panther.vehicle", 0.0825f, 0.0f, -0.5f, 4.312f, 7.82f);
 		addRuleGroup(array<string> = {"panzer_iv.vehicle", "panzer_iv_fastrespawn.vehicle", "panzer_iv_damaged.vehicle", "panzer_iv_base_flak88.vehicle"}, 0.0825f, 0.0f, 0.0f, 4.2f, 7.2f);
 
 		// 9.25%/s: non-E2 75 mm Shermans and StuG III.
-		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_rhino.vehicle", "m4_E4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_75_late.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_rhino.vehicle", "m4_E4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRuleGroup(array<string> = {"stug_iii.vehicle", "stug_iii_fastrespawn.vehicle"}, 0.0925f, 0.0f, 0.0f, 4.2f, 7.4f);
 
 		// 7.5%/s: armed patrol boats.

@@ -103,6 +103,7 @@ array<string> getCallSorting() {
 
 		"usf_vehicle_m4_sherman.call",
 		"usf_vehicle_m4_sherman_76.call",
+		"usf_vehicle_m4a3e8.call",
 		"usf_vehicle_m4a3e2_75.call",
 		"usf_vehicle_m4a3e2_76.call",
 				"vehicle_m4_e4.call",

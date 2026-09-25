@@ -221,4 +221,7 @@
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_76.call" text="M4A3E2(76) Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_76.call" text="No valid deployment points found, capture a base!" />
 
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e8.call" text="M4A3E8 Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e8.call" text="No valid deployment points found, capture a base!" />
+
 </character>
