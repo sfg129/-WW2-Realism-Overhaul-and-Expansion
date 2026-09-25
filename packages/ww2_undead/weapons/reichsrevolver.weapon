@@ -16,7 +16,7 @@
 	name="Reichsrevolver M1879"
 	class="4"
 	reload_one_at_a_time="1"
-	projectile_speed="100.0"
+	projectile_speed="80"
 	barrel_offset="0.1"
 	projectiles_per_shot="1"
 	burst_shots="1"
@@ -40,17 +40,12 @@
 	<model filename="weapon_reichsrevolver.xml" />
 	<hud_icon filename="hud_reichsrevolver.png" />
 	
-	<commonness value="0.2" can_respawn_with="0"/>
-	<inventory encumbrance="1.0" price="200.0" />
+	<commonness value="0.06" can_respawn_with="0"/>
+	<inventory encumbrance="1.0" price="300.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result class="hit"
-		kill_probability="0.8"
-		kill_decay_start_time="0.25"
-		kill_decay_end_time="0.55" />
-	</projectile>
+	<projectile file="bullet_pistol_106.projectile" />
 	
 </weapon>

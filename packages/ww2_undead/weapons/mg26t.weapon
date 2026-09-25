@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="mg26t.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0">
 	
 <access_tag name="edelweiss" />
@@ -23,7 +23,7 @@
 	<stance state_key="crouching" accuracy="0.95" />
 	<stance state_key="prone" accuracy="1.2" />
 	<stance state_key="over_wall" accuracy="1.2" />     
- 
+ <modifier class="speed" value="-0.135" />
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
@@ -35,7 +35,7 @@
 		
 	
 	<weak_hand_hold offset="0.4" />
-		<modifier class="speed" value="-0.1" /> 
+
 
 	<sound key="fire" fileref="weapon_mg_mg26t.wav" pitch_variety="0.05" volume="1.55"/>
 	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
@@ -51,12 +51,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9"  />
-	</projectile>
+	<projectile file="bullet_rifle_79257_mg.projectile" />
 	
 </weapon>

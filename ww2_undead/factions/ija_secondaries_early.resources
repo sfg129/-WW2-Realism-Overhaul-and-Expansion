@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
 	
+
+	<weapon key="type97_at_rifle_m_resource.weapon" />
 	<carry_item key='vest_banzai.carry_item' enabled="1"/>
 	<carry_item key='vest_veteran.carry_item' enabled="1" />  
 	<carry_item key='vest_sentry.carry_item' enabled="1" />
@@ -8,10 +10,12 @@
 
 	<weapon key="light_mortar_resource.weapon" />
 	<projectile key="type97_grenade.projectile" />
+	<projectile key="type_94_smoke_candle.projectile" />
 	<projectile key="type99_at_mine.projectile" />
 <weapon key="morphine.weapon" />
 	<weapon key="type14_nambu_pistol.weapon" />
-	<weapon key="type38_rifle_at_launcher.weapon" />
+	<weapon key="type38_rifle_grenade_at.weapon" />
+	<weapon key="type38_rifle_grenade_he.weapon" />
 	<weapon key="type92_hmg_resource.weapon" />
 <weapon key='type100_folding.weapon' />
 	<projectile key="democharge.projectile" />

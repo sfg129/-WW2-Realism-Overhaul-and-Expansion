@@ -2,7 +2,7 @@
 <resources clear_grenades="1" clear_carry_items="1">
 	
 	<weapon key="type4_rocket_launcher.weapon" />
-	<weapon key="type38_rifle_at_launcher.weapon" />
+	<weapon key="type38_rifle_grenade_at.weapon" />
 	
 	<weapon key="type14_nambu_pistol.weapon" />
 	<weapon key="type100_folding.weapon" />

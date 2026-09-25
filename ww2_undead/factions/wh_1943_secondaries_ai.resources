@@ -8,9 +8,10 @@
 	<weapon key="kar98k_rifle_grenade_at.weapon" />
 
 	
-	<!--<weapon key="p08.weapon" />-->
+	<weapon key="p08.weapon" />
 
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 <weapon key="morphine.weapon" />
 <carry_item key='vest_normal.carry_item' enabled="1" />  

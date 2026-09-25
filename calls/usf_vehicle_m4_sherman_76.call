@@ -2,8 +2,8 @@
 <calls>
 	<call 
 	key="usf_vehicle_m4_sherman_76.call" 
-	radio_view_text="Reinforcements - M4A3(76)W Sherman" 
-	initiation_comment="Requesting reinforcements, M4A3(76)W Sherman" 
+	radio_view_text="Reinforcements - M4A3(76) Sherman" 
+	initiation_comment="Requesting reinforcements, M4A3(76) Sherman" 
 	acknowledge_comment="Copy, loud and clear" 
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	
@@ -15,7 +15,7 @@
 		
 	</call>
   
-	<call key="usf_vehicle_m4_sherman_76_spawn.call" acknowledge_time="0.0" launch_comment="M4A3(76)W Sherman deployed">
+	<call key="usf_vehicle_m4_sherman_76_spawn.call" acknowledge_time="0.0" launch_comment="M4A3(76) Sherman deployed">
 		<round 
 		instances="1" 
 		instance_class="vehicle" 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Sherman Firefly" time_to_live_unsteerable="60" map_view_atlas_index="59" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="Sherman Firefly VC" time_to_live_unsteerable="60" map_view_atlas_index="59" minimum_fill_requirement="1.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank_destroyer" />
    	<tag name="vehicle" />
@@ -14,10 +14,10 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="13.0" max_reverse_speed="6.5" min_health_to_steer="3" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="8.5" acceleration="13.0" max_reverse_speed="6.5" min_health_to_steer="4" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
 
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.8" />
+	<modifier class="blast_damage" value="-4" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -37,27 +37,27 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.35 0.26" weapon_key="m4_firefly_cannon.weapon" weapon_offset="0.0 0.52 1.25" weapon_recoil="0.2" max_rotation_step="0.0000467" />
-	<turret offset="0 2.35 0.26" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.75" weapon_recoil="0.2" max_rotation_step="0.0000467" />
+	<turret offset="0 2.35 0.26" weapon_key="m4_firefly_cannon.weapon" weapon_offset="0 0.56488 1.25351" weapon_recoil="0.2" max_rotation_step="0.0000427" />
+	<turret offset="0 2.35 0.26" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.75" weapon_recoil="0.2" max_rotation_step="0.0000427" />
 		<turret offset="0 2.35 0.18" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 			
 
-	<visual class="chassis" mesh_filename="m4_firefly_chassis.mesh" texture_filename="m4_75_V.png" max_tilt="0.02" />
-	<visual class="chassis" key="broken" mesh_filename="m4_firefly_chassis_damage.mesh" texture_filename="m4_75_V_damage.png" />
-	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_firefly_turret_damage.mesh" texture_filename="m4_firefly_turret_damage.png" />  
-	<visual class="turret" turret_index="0" mesh_filename="m4_firefly_turret.mesh" texture_filename="m4_firefly_turret.png" />
+	<visual class="chassis" mesh_filename="m4_74_chassis.mesh" texture_filename="m4_74_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="m4_74_chassis_damage.mesh" texture_filename="m4_74_chassis_damage.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_74_turret.mesh" texture_filename="m4_74_turret_damage.png" />  
+	<visual class="turret" turret_index="0" mesh_filename="m4_74_turret.mesh" texture_filename="m4_74_turret.png" />
 	<visual class="turret" turret_index="2" mesh_filename="m4_hull_mg.mesh" texture_filename="m4_75_V.png" />
 
-	<visual class="track" mesh_filename="m4a4_track.mesh" offset="-1.34 0.0 0.0" >
-		<part texture_filename="m4_wheel.png" texture_animation="rotate" tire_binding="0" />
-		<part texture_filename="m4_75.png" />
-		<part texture_filename="m4_75_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
+	<visual class="track" mesh_filename="m4v_72_running_r.mesh" offset="0 0 0" >
+		<part texture_filename="m4v_72_running_gear.png" />
+		<part texture_filename="m4v_72_running_gear.png" />
+		<part texture_filename="m4v_72_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="m4a4_track.mesh" offset="+1.34 0.0 0.0" >
-		<part texture_filename="m4_wheel.png" texture_animation="rotate" tire_binding="1" />
-		<part texture_filename="m4_75.png" />
-		<part texture_filename="m4_75_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
+	<visual class="track" mesh_filename="m4v_72_running_l.mesh" offset="0 0 0" >
+		<part texture_filename="m4v_72_running_gear.png" />
+		<part texture_filename="m4v_72_running_gear.png" />
+		<part texture_filename="m4v_72_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
 	</visual>
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->

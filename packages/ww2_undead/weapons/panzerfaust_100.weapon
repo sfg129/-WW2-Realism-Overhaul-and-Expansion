@@ -23,7 +23,7 @@
 	slot="1" 
 	projectiles_per_shot="1"
 	/>
-
+<addon_model filename="panzerfaust_100_late_addon.xml" />
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
@@ -51,10 +51,10 @@
 	
 	<sound key="fire" fileref="weapon_rocket_launcher_piat.wav" pitch_variety="0.05" volume="1.6"/>
 	
-	<model filename="weapon_panzerfaust.xml" />
-	<hud_icon filename="hud_panzerfaust_100.png" />
+	<model filename="weapon_panzerfaust_100_late.xml" />
+	<hud_icon filename="hud_panzerfaust_late.png" />
 	
-	<commonness value="0.1" />
+	<commonness value="0.08" />
 	<inventory encumbrance="3" price="10" />
 	
 	<capacity value="2" source="rank" source_value="0.0" />

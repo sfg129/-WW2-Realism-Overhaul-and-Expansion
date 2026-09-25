@@ -11,8 +11,8 @@
 	accuracy_factor="0.9"
 	sustained_fire_grow_step="1.0"
 	sustained_fire_diminish_rate="0.25"
-	sight_range_modifier="2.75" 
-	  	ai_sight_range_modifier="0.75"  
+	sight_range_modifier="3" 
+	  	ai_sight_range_modifier="0.7"  
 	magazine_size="-1"
 	can_shoot_standing="0"
 	can_shoot_crouching="0"
@@ -37,7 +37,7 @@
 	
     <model mesh_filename="m5_gun_cannon.mesh" texture_filename="m5_gun.png" />
     <hud_icon filename="hud_coastal_gun.png" />
-	    <shield offset="0 -0.15 0" extent="0.5 1.2 2" />    
+	    <shield offset="0 -0.2 0" extent="0.5 1.4 2" />    
     <commonness value="0.0" />
 
     <projectile file="at_gun.projectile">

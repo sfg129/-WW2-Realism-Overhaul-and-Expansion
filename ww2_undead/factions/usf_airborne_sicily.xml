@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries.resources" />
 		<resources file="usf_airborne_secondaries.resources" />
-		<resources file="usf_airborne_sicily_default.resources" />
+		<resources file="usf_1_airborne_sicily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai.resources" />
 		<resources file="usf_airborne_secondaries_ai.resources" />
-		<resources file="usf_airborne_sicily_default.resources" />
+		<resources file="usf_1_airborne_sicily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -81,7 +81,7 @@
 		
 		<resources file="usf_airborne_veteran_primaries.resources" />
 		<resources file="usf_airborne_veteran_secondaries.resources" />
-		<resources file="usf_airborne_sicily_leader_call.resources" />
+		<resources file="usf_1_airborne_sicily_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -117,7 +117,7 @@
 		<!-- has some weapons cut out to prevent call-in spam -->
 		<resources file="usf_airborne_veteran_primaries_callin.resources" />
 		<resources file="usf_airborne_veteran_secondaries.resources" />
-		<resources file="usf_airborne_sicily_leader_call.resources" />
+		<resources file="usf_1_airborne_sicily_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -152,7 +152,7 @@
 		
 		<resources file="usf_airborne_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usf_airborne_sicily_default.resources" />
+		<resources file="usf_1_airborne_sicily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -187,7 +187,7 @@
 		<!-- has some weapons cut out to prevent call-in spam -->
 		<resources file="usf_airborne_primaries_assault_callin.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usf_airborne_sicily_default.resources" />
+		<resources file="usf_1_airborne_sicily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -220,7 +220,7 @@
 		<model filename="soldier_usf_paratrooper_body_armour.xml" />
 		
 		<resources file="usf_airborne_sentry.resources" />
-		<resources file="usf_airborne_leader_call_no_vehicle.resources" />
+		<resources file="usf_1_airborne_sicily_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -253,7 +253,7 @@
 		
 		<resources file="usf_airborne_sniper_primaries.resources" />
 		<resources file="usf_airborne_sniper_secondaries.resources" />
-		<resources file="usf_airborne_leader_call_no_vehicle.resources" />
+		<resources file="usf_1_airborne_sicily_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -287,7 +287,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai.resources" />
 		<resources file="common_secondaries_medic.resources" />
-		<resources file="usf_airborne_default.resources" />
+		<resources file="usf_1_airborne_sicily_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

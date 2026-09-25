@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="wh_fsj_primaries.resources" />
 		<resources file="wh_fsj_secondaries.resources" />
-		<resources file="wh_fsj_default.resources" />
+		<resources file="wh_8_fsj_sealion_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="wh_fsj_primaries_ai.resources" />
 		<resources file="wh_normandy_secondaries_ai.resources" />
-		<resources file="wh_fsj_default.resources" />
+		<resources file="wh_8_fsj_sealion_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -81,7 +81,7 @@
 		
 		<resources file="wh_fsj_veteran_primaries.resources" />
 		<resources file="pzg_normandy_veteran_secondaries.resources" />
-		<resources file="wh_fsj_leader_call.resources" />
+		<resources file="wh_8_fsj_sealion_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -117,7 +117,7 @@
 		<!-- has some weapons cut out to prevent call-in spam -->
 		<resources file="wh_fsj_veteran_primaries_callin.resources" />
 		<resources file="pzg_normandy_veteran_secondaries.resources" />
-		<resources file="wh_fsj_leader_call.resources" />
+		<resources file="wh_8_fsj_sealion_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -182,7 +182,7 @@
 		
 		<resources file="wh_fsj_primaries_assault.resources" />
 		<resources file="wh_normandy_secondaries_assault.resources" />
-		<resources file="wh_fsj_default.resources" />
+		<resources file="wh_8_fsj_sealion_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -216,7 +216,7 @@
 		
 		<resources file="wh_fsj_primaries_assault_callin.resources" /> 
 		<resources file="wh_normandy_secondaries_assault.resources" />
-		<resources file="wh_fsj_default.resources" />
+		<resources file="wh_8_fsj_sealion_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -249,7 +249,7 @@
 		<model filename="soldier_fsj_body_armour.xml" />
 		
 		<resources file="pzg_normandy_sentry.resources" />
-		<resources file="wh_fsj_leader_call_no_vehicle.resources" />
+		<resources file="wh_8_fsj_sealion_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -282,7 +282,7 @@
 		
 		<resources file="wh_fsj_sniper_primaries.resources" />
 		<resources file="pzg_normandy_sniper_secondaries.resources" />
-		<resources file="wh_fsj_leader_call_no_vehicle.resources" />
+		<resources file="wh_8_fsj_sealion_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -316,7 +316,7 @@
 		<resources file="common.resources" />
 		<resources file="wh_fsj_primaries_ai.resources" />
 		<resources file="common_secondaries_medic.resources" />
-		<resources file="wh_fsj_default.resources" />
+		<resources file="wh_8_fsj_sealion_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

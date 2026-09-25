@@ -20,7 +20,6 @@
 	<vehicle key="churchill_crocodile.vehicle" />      
 
 	<vehicle key="tog2_boss.vehicle" />
-<vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
 <vehicle key="m5a1_stuart.vehicle" />
 

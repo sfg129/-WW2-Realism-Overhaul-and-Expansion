@@ -38,11 +38,9 @@ retrigger_time="0.25"
 	<!-- essentially in game balance it is mostly a downgrade from the G 43, but unlike it, can attach a bayonet -->
 
 	<!-- standing accuracy inferior due to heavier muzzle trap and overall greater weight -->
-	<stance state_key="standing" accuracy="0.95" />
 
 	<next_in_chain key="g41w.weapon" share_ammo="1" />
-	<stance state_key="prone" accuracy="0.96" /> 
-	<stance state_key="over_wall" accuracy="0.96" />
+
 
 	<animation key="recoil" ref="27" />
 	<animation key="cycle" ref="30" />
@@ -68,13 +66,6 @@ retrigger_time="0.25"
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="1.7"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_79257.projectile" />
 	
 </weapon>

@@ -7,7 +7,7 @@
 	<weapon key="m1919_lmg.weapon" />  
 	<weapon key="m1918_bar_heavy.weapon" />
 <weapon key="m1919_lmg_light.weapon" />
-	<weapon key="m1903_rifle_grenade_he.weapon" />
+	<weapon key="m1903_rifle_grenade_he_ai.weapon" />
 	
 	<weapon key="m1_thompson.weapon" />
 

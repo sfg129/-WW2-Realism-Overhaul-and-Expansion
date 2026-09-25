@@ -20,7 +20,7 @@
 	<result
 	class="blast"
 	radius="4"
-	damage="10"
+	damage="11"
 	push="0.4"
 	decal="1"
 	faction_compare="not_equal" />
@@ -32,17 +32,17 @@
     <throwable 
 	curve_height="5" 
 	near_far_distance="5.0" 
-	speed_estimation_near="9.0" 
+	speed_estimation_near="12.0" 
 	speed_estimation_far="17.0" 
 	max_speed="15" 
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
-    <commonness value="0.25" />
-    <inventory encumbrance="2.0" price="4.0" />
+    <commonness value="0.2" />
+    <inventory encumbrance="1.5" price="2.0" />
 	
 
-    <capacity value="6" source="rank" source_value="0" />
+    <capacity value="4" source="rank" source_value="0" />
 	
 	<effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" use_surface_color="1" />
 	<effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" use_surface_color="1" />

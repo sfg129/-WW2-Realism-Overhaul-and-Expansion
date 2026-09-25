@@ -57,13 +57,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="1.7" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.94"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_7758.projectile" />
 	
 </weapon>

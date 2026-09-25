@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="mg42_assault.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.4" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0" >
 	
 <access_tag name="edelweiss" />
@@ -41,8 +41,8 @@
 
 	<stance state_key="running" accuracy="0.3" />
 	<stance state_key="walking" accuracy="0.35" />
-	<stance state_key="standing" accuracy="0.6" />
-	<stance state_key="crouching" accuracy="0.75" />
+	<stance state_key="standing" accuracy="0.65" />
+	<stance state_key="crouching" accuracy="0.8" />
 	<stance state_key="prone" accuracy="1" />
 	<stance state_key="over_wall" accuracy="1" />  
 	
@@ -63,13 +63,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="0.95"
-		kill_decay_start_time="0.42"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
-	<modifier class="speed" value="-0.12" /> 
+	<projectile file="bullet_rifle_79257_mg_2.projectile" />
+	<modifier class="speed" value="-0.16" /> 
 </weapon>

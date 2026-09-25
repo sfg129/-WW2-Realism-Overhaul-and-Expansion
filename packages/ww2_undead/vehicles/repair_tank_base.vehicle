@@ -24,7 +24,7 @@
 
 	<modifier class="blast_range" value="1.0" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
 	<!-- radius has to be higher on really big tanks, such as this, and 1.0 seems to work instead of 0.5 -->
-	<modifier class="blast_damage" value="-4" />
+	<modifier class="blast_damage" value="-6" />
 
 	<!-- immune to Flamethrowers. -->
 

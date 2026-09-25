@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" key="an_m8_smoke_wait_for_landing.projectile" slot="0" radius="0.01" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0" time_to_live_out_in_the_open="60.0">
+    <!-- Created at the original body's first impact with no inherited motion.
+         It remains visible and motionless while the two-second fuze runs. -->
+    <trigger class="time" time_to_live="2.0" />
+    <result class="spawn" instance_class="vehicle" instance_key="an_m8_smoke_landed_spawner.vehicle" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+
+    <!-- A result sound is used because activated sounds on the persistent
+         smoke carrier were not reliably played. This starts exactly when
+         the delay result starts the smoke and lasts for the full 45 seconds. -->
+    <sound class="result" key="other" fileref="smoke_m8.wav" volume="1.0" />
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+    <model mesh_filename="an_m8.xml" />
+    <rotation class="random" />
+    <commonness value="0" can_respawn_with="0" />
+    <capacity value="0" source="rank" source_value="0" />
+</projectile>

@@ -8,6 +8,7 @@
 
 	
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 	
 </resources>

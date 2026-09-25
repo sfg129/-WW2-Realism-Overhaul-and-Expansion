@@ -14,12 +14,12 @@
 
 	<!-- unlike most AT grenades, the Panzerwurfmine uses an impact detonation instead of timed, but has a smaller radius -->
 	<!-- this is primarily to balance it weaker against Infantry, but not having an impact on its performance against tanks. -->
-	<trigger class="time" time_to_live="4"/>
+	<trigger class="time" time_to_live="4.5"/>
 
 	<result
 	class="blast"
-	radius="7"
-	damage="8.5"
+	radius="6.5"
+	damage="9"
 	push="0.6"
 	decal="1.5"
 	faction_compare="not_equal"
@@ -33,17 +33,17 @@
     <throwable 
 	curve_height="5" 
 	near_far_distance="5.0" 
-	speed_estimation_near="9.0" 
+	speed_estimation_near="12.0" 
 	speed_estimation_far="17.0" 
 	max_speed="15" 
 	randomness="0.06" 
 	tweak_factor="1.1" />
 	
     <commonness value="0.25" />
-    <inventory encumbrance="2.0" price="6.0" />
+    <inventory encumbrance="1.5" price="6.0" />
 	
 
-    <capacity value="6" source="rank" source_value="0" />
+    <capacity value="4" source="rank" source_value="0" />
 	
 
   <effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />

@@ -28,7 +28,7 @@
 	<!-- this stock can be toggled. -->
 	<!-- folding the weapon will reduce its backpack weight and increase its mobility. -->
 
-
+<modifier class="speed" value="-0.085" />
 		<!-- <animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" /> -->
 
 	<animation state_key="stabbing"	animation_key="melee, bayonet" />
@@ -63,13 +63,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.7"
-		kill_decay_start_time="0.35"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_925.projectile" />
 	
 </weapon>

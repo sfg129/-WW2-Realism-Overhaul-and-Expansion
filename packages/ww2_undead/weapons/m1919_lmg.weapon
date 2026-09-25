@@ -22,7 +22,7 @@ ai_burst_time="9"
 	barrel_offset="0.85" 
 	projectile_speed="140.0" 
 	/>
-	<modifier class="speed" value="-0.20" />
+	<modifier class="speed" value="-0.18" />
 	<next_in_chain key="m1919_lmg_light.weapon" share_ammo="0" />
 	<animation state_key="next_in_chain_in" animation_key="reloading, m1919" />
 <animation state_key="next_in_chain_in" stance_key="prone" animation_key="reloading, m1919, prone" />
@@ -74,13 +74,6 @@ ai_burst_time="9"
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- damage was 0.5 and decay was 0.4 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

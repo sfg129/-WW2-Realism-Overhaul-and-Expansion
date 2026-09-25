@@ -42,7 +42,7 @@
     <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.5" />
     <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />
 
-    <model mesh_filename="m4_firefly_cannon.mesh" texture_filename="m4_firefly_turret.png" />
+    <model mesh_filename="m4_74_cannon.mesh" texture_filename="m4_74_turret.png" />
     <hud_icon filename="hud_tank_cannon.png" />
 
     <commonness value="0.0" />

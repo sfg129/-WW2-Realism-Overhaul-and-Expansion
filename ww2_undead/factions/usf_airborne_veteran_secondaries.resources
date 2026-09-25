@@ -2,7 +2,7 @@
 <resources clear_grenades="1" clear_carry_items="1">
 	
 	<weapon key="m18_recoilless_rifle.weapon" />
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
 
 	<weapon key="m1911.weapon" />
 

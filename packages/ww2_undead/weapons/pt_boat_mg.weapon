@@ -33,17 +33,7 @@
 	<hud_icon filename="hud_pt_boat_mg.png" />
 	<commonness value="0.0" />
 	
-	<projectile file="50cal_bullet.projectile">
-		<result
-		class="blast"
-    radius="2"
-    damage="1.8"
-    push="0.1"
-    decal="1" 
-	faction_compare="not_equal"
-	damage_origin_vehicle="0"  
-		/>
-	</projectile>
+	<projectile file="bullet_hmg_12799.projectile" />
 
 	<sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
 	

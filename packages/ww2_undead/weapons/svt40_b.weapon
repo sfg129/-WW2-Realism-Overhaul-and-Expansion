@@ -56,13 +56,6 @@
 	<commonness value="0.0275" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="8.0" price="30.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="1.9" 
-		kill_decay_start_time="0.5" 
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_76254.projectile" />
 	
 </weapon>

@@ -12,7 +12,7 @@
 	<control max_limiter_speed="4.0" max_speed="11.0" acceleration="10.5" max_reverse_speed="10.0"  min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1" />
 
 	<modifier class="blast_range" value="0.5" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-2.6" />
+	<modifier class="blast_damage" value="-2.4" />
 
 	<physics 
     max_health="20" 
@@ -23,16 +23,16 @@
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
     collision_model_pos="0 0.5 -0.15" 
-    collision_model_extent="3.5 2.2 5.4" 
+    collision_model_extent="3.2 2 5" 
     visual_offset="0 0.28 0.0" /> 
 	
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.0001" />
-	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.0001" />
+	<turret offset="0.0 2.5 0.015" weapon_key="stuart_cannon.weapon" weapon_offset="-0.0 0.05 1.0" weapon_recoil="0.0" max_rotation_step="0.00004" />
+	<turret offset="0.0 2.5 0.015" weapon_key="stuart_mg.weapon" weapon_offset="-0.2 0 0.8" weapon_recoil="0.0" max_rotation_step="0.00004" />
 		<!-- 车体前部航向机枪 -->
-			<turret offset="-0.57568 1.15583 0.68427" weapon_key="stuart_mg.weapon" weapon_offset="0 0.27585 1" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
+			<turret offset="-0.57568 1.45694 1.57769" weapon_key="stuart_mg.weapon" weapon_offset="0 -0.09084 -0.27048" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0005" rotation_range="0.5" />
 
 			<turret offset="-0.75 0.30 -0.2" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 

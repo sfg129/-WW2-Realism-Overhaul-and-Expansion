@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="ukf_primaries.resources" />
 		<resources file="ukf_secondaries.resources" />
-		<resources file="ukf_default.resources" />
+		<resources file="ukf_4_army_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="ukf_primaries_ai.resources" />
 		<resources file="ukf_secondaries_ai.resources" />
-		<resources file="ukf_default.resources" />
+		<resources file="ukf_4_army_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -81,7 +81,7 @@
 		
 		<resources file="ukf_veteran_primaries.resources" />
 		<resources file="ukf_veteran_secondaries.resources" />
-		<resources file="ukf_leader_call.resources" />
+		<resources file="ukf_4_army_hells_highway_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -116,7 +116,7 @@
 		
 		<resources file="ukf_veteran_primaries_callin.resources" />
 		<resources file="ukf_veteran_secondaries.resources" />
-		<resources file="ukf_leader_call.resources" />
+		<resources file="ukf_4_army_hells_highway_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -151,7 +151,7 @@
 		
 		<resources file="ukf_primaries_assault.resources" />
 		<resources file="ukf_secondaries_assault.resources" />
-		<resources file="ukf_default.resources" />
+		<resources file="ukf_4_army_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -185,7 +185,7 @@
 		
 		<resources file="ukf_primaries_assault_callin.resources" />
 		<resources file="ukf_secondaries_assault.resources" />
-		<resources file="ukf_default.resources" />
+		<resources file="ukf_4_army_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -218,7 +218,7 @@
 		<model filename="soldier_ukf_infantry_body_armour.xml" />
 		
 		<resources file="ukf_sentry.resources" />
-		<resources file="ukf_leader_call_no_vehicle.resources" />
+		<resources file="ukf_4_army_hells_highway_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -251,7 +251,7 @@
 		
 		<resources file="ukf_sniper_primaries.resources" />
 		<resources file="ukf_sniper_secondaries.resources" />
-		<resources file="ukf_leader_call_no_vehicle.resources" />
+		<resources file="ukf_4_army_hells_highway_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

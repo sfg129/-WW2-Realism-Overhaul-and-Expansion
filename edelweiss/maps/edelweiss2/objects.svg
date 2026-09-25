@@ -67409,7 +67409,7 @@ walkable = 1; </desc>
          transform="matrix(-0.79631882,-0.60487712,0.60487712,-0.79631882,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5-2">type = vehicle;
-key = m4_76.vehicle;</desc>
+key = m4a3e2_75.vehicle;</desc>
       </rect>
       <rect
          transform="matrix(0.86234039,-0.506329,0.506329,0.86234039,0,0)"
@@ -67422,7 +67422,7 @@ key = m4_76.vehicle;</desc>
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5-2-9">type = vehicle;
-key = m4_rhino.vehicle;</desc>
+key = m4_75.vehicle;</desc>
       </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
@@ -69532,7 +69532,7 @@ tag = truck;</desc>
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5">type = vehicle;
-key = m4_rhino.vehicle;</desc>
+key = m4_75.vehicle;</desc>
       </rect>
 <rect
          transform="matrix(0.71384961,-0.70029903,0.70029903,0.71384961,0,0)"
@@ -69723,7 +69723,7 @@ key = sdkfz251_flak.vehicle;</desc>
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5-4">type = vehicle;
-key = m4_75.vehicle;</desc>
+key = m4a3e2_75.vehicle;</desc>
       </rect>
     </g>
     <g

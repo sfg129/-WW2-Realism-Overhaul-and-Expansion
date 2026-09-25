@@ -24,7 +24,7 @@
 	<!-- former stats: kill chance 0.6 -->
 
 	<!-- compared to M1 Carbine, the artillery luger holds more than twice as much ammo, but a bit less accurate, earlier kill-decay start -->
-	
+	<modifier class="speed" value="-0.03" />
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
 	<animation key="recoil" ref="14" />
@@ -51,13 +51,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- dmg start decay was 0.285 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.65"
-		kill_decay_start_time="0.35"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_919.projectile" />
 	
 </weapon>

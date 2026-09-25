@@ -23,7 +23,7 @@
 	slot="1" 
 	projectiles_per_shot="1"
 	/>
-
+<addon_model filename="panzerfaust30_addon.xml" />
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
 	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
 	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
@@ -54,7 +54,7 @@
 	<model filename="weapon_panzerfaust_30.xml" />
 	<hud_icon filename="hud_panzerfaust_30.png" />
 	
-	<commonness value="0.06" />
+	<commonness value="0.04" />
 	<inventory encumbrance="3" price="6.0" />
 	
 	<capacity value="3" source="rank" source_value="0.0" />

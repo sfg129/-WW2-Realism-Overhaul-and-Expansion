@@ -2,8 +2,8 @@
 <calls>
 	<call 
 	key="ukf_vehicle_sherman_firefly.call" 
-	radio_view_text="Reinforcements - Sherman Firefly" 
-	initiation_comment="Requesting reinforcements, Sherman Firefly" 
+	radio_view_text="Reinforcements - Sherman Firefly VC" 
+	initiation_comment="Requesting reinforcements, Sherman Firefly VC" 
 	acknowledge_comment="Copy, loud and clear" 
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	
@@ -15,7 +15,7 @@
 		
 	</call>
   
-	<call key="ukf_vehicle_sherman_firefly_spawn.call" acknowledge_time="0.0" launch_comment="Sherman Firefly deployed">
+	<call key="ukf_vehicle_sherman_firefly_spawn.call" acknowledge_time="0.0" launch_comment="Sherman Firefly VC deployed">
 		<round 
 		instances="1" 
 		instance_class="vehicle" 

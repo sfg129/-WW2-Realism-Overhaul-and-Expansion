@@ -22,6 +22,7 @@
 
 
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 	<projectile key="nebelhandgranate_39.projectile" />
 	<projectile key="nebeleihandgranate_42.projectile" />
 	<projectile key="panzerwurfmine.projectile" />

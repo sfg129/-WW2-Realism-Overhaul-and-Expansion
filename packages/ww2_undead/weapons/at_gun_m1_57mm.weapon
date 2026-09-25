@@ -7,7 +7,7 @@
 		sustained_fire_grow_step="1.0"
 		sustained_fire_diminish_rate="0.3"
 		sight_range_modifier="3"
-		ai_sight_range_modifier="0.7"
+		ai_sight_range_modifier="0.75"
 		magazine_size="-1"
 		can_shoot_standing="0"
 		can_shoot_crouching="0"
@@ -29,7 +29,7 @@
 	<model mesh_filename="qf6_cannon.mesh" texture_filename="qf6.png" />
 	<hud_icon filename="hud_coastal_gun.png" />
 	<!-- extent order used by RWR weapon shields is depth, height, width. -->
-	<shield offset="0 0 0" extent="0.8 1.45 2.0" />
+	<shield offset="0 -0.3 0" extent="0.8 1.45 2.0" />
 	<commonness value="0.0" />
 
 	<projectile file="at_gun_57mm.projectile" />

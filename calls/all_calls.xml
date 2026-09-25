@@ -5,7 +5,6 @@
 <call file="ija_vehicle_medium_tank_chi_ha_early.call" />
 <call file="usf_vehicle_stuart.call" />
 <call file="ukf_vehicle_unk.call" />
-	<call file="vehicle_stuart_recce.call" />
 	<call file="vehicle_m3_mortar.call" />
 	<call file="ukf_vehicle_un.call" />
 	<call file="vehicle_m4_e4.call" />
@@ -60,10 +59,13 @@
 	<call file="usf_vehicle_m3_halftrack.call" />
 	<call file="usf_vehicle_m10.call" />
 	<call file="usf_vehicle_m4_sherman.call" />
+	<call file="usf_vehicle_m4_sherman_75_late.call" />
 	<call file="usf_vehicle_m4_sherman_76.call" />
+	<call file="usf_vehicle_m4_sherman_76_late.call" />
 	<call file="usf_vehicle_m4a3e8.call" />
 	<call file="usf_vehicle_m4a3e2_75.call" />
 	<call file="usf_vehicle_m4a3e2_76.call" />
+	<call file="usf_vehicle_m4a3e2_76_late.call" />
 	<call file="usf_vehicle_armoury_marine.call" />
 
 	<call file="wh_inf.call" />

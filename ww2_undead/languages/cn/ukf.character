@@ -218,8 +218,6 @@
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3“谢尔曼”火焰喷射坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="无可用部署点，先占领一个基地！" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_stuart_recce.call" text="“斯图亚特”侦察坦克将部署在%base_name" />
-	<comment key="spawn_in_base_call, denied, key=vehicle_stuart_recce.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="二号“山猫”轻型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="豹式中型坦克将部署在%base_name" />
@@ -245,5 +243,8 @@
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_75.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_76.call" text="M4A3E2(76)“谢尔曼”中型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_76.call" text="无可用部署点，先占领一个基地！" />
+
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e8.call" text="M4A3E8“谢尔曼”中型坦克将部署在%base_name" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e8.call" text="无可用部署点，先占领一个基地！" />
 
 </character>

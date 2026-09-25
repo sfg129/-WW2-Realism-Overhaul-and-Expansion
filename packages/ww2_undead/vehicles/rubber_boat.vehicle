@@ -6,6 +6,8 @@
 
 	<control max_speed="70.0" acceleration="9.0" max_reverse_speed="10.0" max_rotation="1.628" max_water_depth="0.3" can_steer_in_water="1" can_steer_on_ground="0" gears="1" />
 
+	<modifier class="blast_damage" value="-0.9" />
+
 	<physics max_health="1" mass="1.0" extent="1.87 0.0 3.41" offset="0 0.2 0" collision_model_pos="0 0.5 -0.2" collision_model_extent="3.4 1.0 5.3" visual_offset="0 0.7 0.0" vehicle_collision_damage_factor="2.0"/> 
 
 	<visual class="chassis" mesh_filename="rubber_boat.mesh" texture_filename="rubber_boat.png" />

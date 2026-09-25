@@ -7,7 +7,7 @@
 
 	<weapon key="danuvia_43m_b.weapon" />
 	<weapon key="danuvia_43m_folded_b.weapon" />
-	<weapon key="kar98k_rifle_grenade_he.weapon" />
+	<weapon key="kar98k_rifle_grenade_he_ai.weapon" />
 	
 	<weapon key="mp34_o.weapon" />
 <weapon key="stg44.weapon" />

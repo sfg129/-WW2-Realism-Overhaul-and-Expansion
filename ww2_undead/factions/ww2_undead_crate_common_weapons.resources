@@ -15,5 +15,6 @@
 	<weapon key="mp40_folded.weapon" />
 
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 
 </resources>

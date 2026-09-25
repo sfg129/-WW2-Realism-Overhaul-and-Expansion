@@ -24,20 +24,20 @@
 	<model mesh_filename="democharge.xml"/>
 	<hud_icon filename="hud_democharge.png" />
 	
-	<capacity value="4" source="rank" source_value="0.0" />
+	<capacity value="2" source="rank" source_value="0.0" />
 	
 	<rotation class="random" />
 	<throwable
 	curve_height="5.0"
 	near_far_distance="2.0"
-	speed_estimation_near="5.0"
-	speed_estimation_far="5.0"
+	speed_estimation_near="9.0"
+	speed_estimation_far="9.0"
 	max_speed="9.0"
 	randomness="0.01"
 	/>
 	
 	<commonness value="0.0" can_respawn_with="1"/>
-	<inventory encumbrance="3.0" price="16.0" />
+	<inventory encumbrance="2.0" price="16.0" />
 	
 	<effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
 	<effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />

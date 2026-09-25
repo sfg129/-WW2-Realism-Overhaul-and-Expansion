@@ -5,7 +5,9 @@
 	<tire_set offset="1.20 0.0 1.816" radius="0.664" />
 	<tire_set offset="1.08 0.0 -1.28" radius="1.024" />
 
-	<control max_speed="12" acceleration="6.0" max_reverse_speed="10" min_health_to_steer="0.21" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+	<control max_speed="16" acceleration="6.0" max_reverse_speed="10" min_health_to_steer="0.21" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+
+	<modifier class="blast_damage" value="-0.9" />
 
 	<physics max_health="6" mass="20.0" extent="2.88 0.0 4.96" offset="0 0.0 0" top_offset="0 6.4 0" collision_model_pos="0 0.8 0.0" collision_model_extent="2.56 1.92 5.2" visual_offset="0 0.4 0.0" preserve_motion_on_impact_factor="1.0" /> 
 

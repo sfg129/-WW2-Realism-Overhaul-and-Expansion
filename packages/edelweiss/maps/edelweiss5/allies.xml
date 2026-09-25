@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="ukf_airborne_primaries.resources" />
 		<resources file="ukf_airborne_secondaries_arnhem.resources" />
-		<resources file="ukf_airborne_default.resources" />
+		<resources file="ukf_5_airborne_arnhem_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="ukf_airborne_primaries_ai.resources" />
 		<resources file="ukf_secondaries_ai.resources" />
-		<resources file="ukf_airborne_default.resources" />
+		<resources file="ukf_5_airborne_arnhem_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -79,7 +79,7 @@
 		<resources file="common.resources" />
 		<resources file="ukf_airborne_primaries_ai_mg.resources" />
 		<resources file="ukf_secondaries_ai_mg.resources" />
-		<resources file="ukf_airborne_default.resources" />
+		<resources file="ukf_5_airborne_arnhem_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -112,7 +112,7 @@
 		
 		<resources file="ukf_airborne_arnhem_veteran_primaries.resources" />
 		<resources file="ukf_veteran_secondaries.resources" />
-		<resources file="ukf_airborne_leader_call.resources" />
+		<resources file="ukf_5_airborne_arnhem_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -147,7 +147,7 @@
 		
 		<resources file="ukf_airborne_veteran_primaries_callin.resources" />
 		<resources file="ukf_veteran_secondaries.resources" />
-		<resources file="ukf_airborne_leader_call.resources" />
+		<resources file="ukf_5_airborne_arnhem_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -182,7 +182,7 @@
 		
 		<resources file="ukf_airborne_arnhem_primaries_assault.resources" />
 		<resources file="ukf_secondaries_assault.resources" />
-		<resources file="ukf_airborne_default.resources" />
+		<resources file="ukf_5_airborne_arnhem_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -216,7 +216,7 @@
 		
 		<resources file="ukf_airborne_primaries_assault_callin.resources" />
 		<resources file="ukf_secondaries_assault.resources" />
-		<resources file="ukf_airborne_default.resources" />
+		<resources file="ukf_5_airborne_arnhem_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -249,7 +249,7 @@
 		<model filename="soldier_ukf_paratrooper_body_armour.xml" />
 		
 		<resources file="ukf_sentry.resources" />
-		<resources file="ukf_airborne_leader_call_no_vehicle.resources" />
+		<resources file="ukf_5_airborne_arnhem_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -282,7 +282,7 @@
 		
 		<resources file="ukf_sniper_primaries.resources" />
 		<resources file="ukf_sniper_secondaries.resources" />
-		<resources file="ukf_airborne_leader_call_no_vehicle.resources" />
+		<resources file="ukf_5_airborne_arnhem_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

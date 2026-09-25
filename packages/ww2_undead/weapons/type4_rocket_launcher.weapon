@@ -16,7 +16,7 @@
  name="Type 4 Rocket Launcher" 
 	class="4"
 	 reload_one_at_a_time="0" 
-	sight_range_modifier="1.5" 
+	sight_range_modifier="1.65" 
 	projectile_speed="140" 
 	barrel_offset="1.05" 
 	slot="1"

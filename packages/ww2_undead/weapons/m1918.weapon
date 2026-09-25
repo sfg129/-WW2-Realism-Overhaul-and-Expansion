@@ -21,7 +21,7 @@ projectile_speed="140.0"
 	<!-- The Lightweight version has a few things removed such as the bipod, flash hider, and stock rest to provide a more mobile platform; this was commonly done in the Pacific theatre. -->
 	<!-- consequentially movement speed is a bit better as is standing accuracy, but without the bipod, accuracy while prone or behind cover is not as excellent. -->
     <next_in_chain key="m1918_s.weapon" share_ammo="1" />
-	<modifier class="speed" value="-0.06" />
+	<modifier class="speed" value="-0.1" />
 
 				<stance state_key="running" accuracy="0.5" />
 	<stance state_key="walking" accuracy="0.75" />
@@ -57,13 +57,6 @@ projectile_speed="140.0"
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill decay start was 0.225, then 0.39, then 0.3 -->
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

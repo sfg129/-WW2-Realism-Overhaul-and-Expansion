@@ -66,7 +66,7 @@ near_far_distance="16.0"
     speed_estimation_near="10.0"
     speed_estimation_far="16.0"
     max_speed="45.0"
-	curve_height="2" 
+	curve_height="3.5" 
     randomness="0.0"
 	tweak_factor="1.55"
 	/>

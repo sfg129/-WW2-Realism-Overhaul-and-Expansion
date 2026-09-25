@@ -4,7 +4,6 @@
 	<!-- ======    for the time being, no vehicles at all   =======  -->
 	<!--	===============================
 	<vehicle key="m4_75.vehicle" />
-	<vehicle key="m4_rhino.vehicle" />
  	<vehicle key="stuart.vehicle" />
   	<vehicle key="stuart_damaged.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />

@@ -122,16 +122,17 @@ class FlameVehicleDamage : Tracker {
 		addRuleGroup(array<string> = {"churchill_mkvii.vehicle", "churchill_crocodile.vehicle"}, 0.065f, 0.0f, -0.35f, 4.2f, 8.3f);
 		addRuleGroup(array<string> = {"tiger.vehicle", "tiger_sicily.vehicle"}, 0.065f, 0.0f, 0.0f, 5.0f, 7.6f);
 		addRuleGroup(array<string> = {"king_tiger.vehicle", "king_tiger_player.vehicle", "king_tiger_boss.vehicle"}, 0.065f, 0.0f, -0.3f, 5.3f, 8.9f);
-		addRuleGroup(array<string> = {"m4a3e2_75.vehicle", "m4a3e2_76.vehicle"}, 0.065f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4a3e2_75.vehicle", "m4a3e2_76.vehicle", "m4a3e2_76_late.vehicle"}, 0.065f, 0.0f, -0.1916f, 3.9f, 6.8f);
 
 		// 8.25%/s: non-E2 76 mm Shermans, Firefly, Panther and Panzer IVs.
-		addRuleGroup(array<string> = {"m4_76.vehicle", "m4_76_late.vehicle", "m4a3e8.vehicle"}, 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4_76.vehicle", "m4_76_late.vehicle"}, 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRule("m4a3e8.vehicle", 0.0825f, 0.0f, 0.0855f, 3.9f, 6.8f);
 		addRuleGroup(array<string> = {"m4_firefly.vehicle", "m4_firefly_fastrespawn.vehicle"}, 0.0825f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRule("panther.vehicle", 0.0825f, 0.0f, -0.5f, 4.312f, 7.82f);
 		addRuleGroup(array<string> = {"panzer_iv.vehicle", "panzer_iv_fastrespawn.vehicle", "panzer_iv_damaged.vehicle", "panzer_iv_base_flak88.vehicle"}, 0.0825f, 0.0f, 0.0f, 4.2f, 7.2f);
 
 		// 9.25%/s: non-E2 75 mm Shermans and StuG III.
-		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_75_late.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_rhino.vehicle", "m4_E4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_75_late.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_e4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRuleGroup(array<string> = {"stug_iii.vehicle", "stug_iii_fastrespawn.vehicle"}, 0.0925f, 0.0f, 0.0f, 4.2f, 7.4f);
 
 		// 7.5%/s: armed patrol boats.
@@ -147,7 +148,7 @@ class FlameVehicleDamage : Tracker {
 		addRule("luchs.vehicle", 0.12f, 0.0f, -0.1f, 3.6f, 6.0f);
 
 		// 15%/s: M3 Stuart, Chi-Ha variants and Sherman fortified turret.
-		addRuleGroup(array<string> = {"stuart.vehicle", "stuart_damaged.vehicle", "stuart_recce.vehicle"}, 0.15f, 0.0f, -0.15f, 3.5f, 5.4f);
+		addRuleGroup(array<string> = {"stuart.vehicle", "stuart_damaged.vehicle"}, 0.15f, 0.0f, -0.15f, 3.5f, 5.4f);
 		addRuleGroup(array<string> = {"chi_ha.vehicle", "chi_ha_early.vehicle"}, 0.15f, 0.0f, -0.1f, 3.35f, 7.0f);
 		addRule("fortified_turret_sherman.vehicle", 0.15f, 0.0f, 0.0f, 3.6f, 3.2f);
 
@@ -189,8 +190,9 @@ class FlameVehicleDamage : Tracker {
 		}, 0.40f, 0.0f, 0.0f, 1.2f, 1.5f);
 
 		// 40%/s: AT guns, mortars, AA guns and other emplaced guns.
+		addRuleGroup(array<string> = {"at_gun_m1_57mm.vehicle", "at_gun_qf6.vehicle"}, 0.40f, 0.0f, -0.2f, 1.5f, 2.0f);
 		addRuleGroup(array<string> = {
-			"at_gun_m1_57mm.vehicle", "at_gun_qf6.vehicle", "at_gun_m3_37mm.vehicle", "at_gun_m5.vehicle",
+			"at_gun_m3_37mm.vehicle", "at_gun_m5.vehicle",
 			"at_gun_pak40.vehicle", "at_gun_pak40_2.vehicle", "light_mortar.vehicle", "light_mortar1.vehicle",
 			"heavy_mortar.vehicle", "5inch_gun.vehicle", "aa_gun.vehicle", "aa_gun2.vehicle", "bofors.vehicle",
 			"coastal_gun.vehicle", "coastal_gun2.vehicle", "coastal_gun3.vehicle", "flak_88.vehicle", "lefh18.vehicle",
@@ -224,9 +226,11 @@ class FlameVehicleDamage : Tracker {
 		// 50%/s: all colour variants of the drivable decoration-car models.
 		addRuleGroup(array<string> = {
 			"deco_coupe_beige.vehicle", "deco_coupe_blue.vehicle", "deco_coupe_broken.vehicle", "deco_coupe_green.vehicle", "deco_coupe_grey.vehicle", "deco_coupe_red.vehicle",
-			"deco_sedan_black.vehicle", "deco_sedan_blue.vehicle", "deco_sedan_broken.vehicle", "deco_sedan_green.vehicle", "deco_sedan_red.vehicle", "deco_sedan_white1.vehicle", "deco_sedan_white2.vehicle",
+			"deco_sedan_black.vehicle", "deco_sedan_blue.vehicle", "deco_sedan_broken.vehicle", "deco_sedan_green.vehicle", "deco_sedan_red.vehicle", "deco_sedan_white1.vehicle", "deco_sedan_white2.vehicle"
+		}, 0.50f, 0.0f, 0.0f, 2.5f, 5.3f);
+		addRuleGroup(array<string> = {
 			"deco_pickup_blue.vehicle", "deco_pickup_broken.vehicle", "deco_pickup_brown.vehicle", "deco_pickup_green.vehicle", "deco_pickup_grey.vehicle", "deco_pickup_khaki.vehicle", "deco_pickup_red.vehicle", "deco_pickup_yellow.vehicle"
-		}, 0.50f, 0.0f, 0.0f, 2.5f, 5.0f);
+		}, 0.50f, 0.0f, 0.0f, 2.5f, 5.2f);
 		addRuleGroup(array<string> = {
 			"deco_car1_black.vehicle", "deco_car1_blue.vehicle", "deco_car1_broken.vehicle", "deco_car1_brown.vehicle", "deco_car1_green.vehicle", "deco_car1_pink.vehicle", "deco_car1_red.vehicle", "deco_car1_white.vehicle", "deco_car1_yellow.vehicle",
 			"deco_car2_black.vehicle", "deco_car2_blue.vehicle", "deco_car2_broken.vehicle", "deco_car2_brown.vehicle", "deco_car2_green.vehicle", "deco_car2_grey.vehicle", "deco_car2_red.vehicle", "deco_car2_silver.vehicle", "deco_car2_white.vehicle", "deco_car2_yellow.vehicle",

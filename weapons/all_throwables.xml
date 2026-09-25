@@ -50,6 +50,7 @@
 	<!-- rather awkward place for this definition, but for now, that's the way it is -->
 	<!-- projectile itself defines its slot, 0 being actual throwables that can also equipped, thrown, bought and found -->
 	<projectile file="stielhandgranate.projectile"/>
+	<projectile file="eierhandgranate.projectile"/>
 	<projectile file="panzerwurfmine.projectile"/>
 	<projectile file="strafing_run_shadow.projectile"/>
 	<projectile file="strafing_run.projectile"/>

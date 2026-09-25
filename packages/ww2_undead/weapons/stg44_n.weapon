@@ -23,7 +23,7 @@
 	sight_range_modifier="1.5"
   
 	/>
-	<modifier class="speed" value="-0.1" />  
+	<modifier class="speed" value="-0.125" />  
 	<!-- former stats: drop chance 0.05 -->
 	<!-- formerly had stance accuracy rate but i cut it -->
 	<!-- scope zoom was 1.45 -->
@@ -44,7 +44,7 @@
 	<stance state_key="prone" accuracy="1.0" />
 	<stance state_key="over_wall" accuracy="0.75" />   
 
-	<modifier class="speed" value="-0.12" />
+
 
 	<animation key="recoil" ref="12" />
 	<animation key="recoil" ref="13" />
@@ -68,13 +68,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- gave it bonus damage for more of an edge; let's explain it away with how the IR optics make hitting targets easier -->
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="0.85" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_carbine_79233.projectile" />
 	
 </weapon>

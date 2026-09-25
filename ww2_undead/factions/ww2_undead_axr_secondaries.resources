@@ -11,5 +11,6 @@
 	<weapon key="p08.weapon" />
 	
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 
 </resources>

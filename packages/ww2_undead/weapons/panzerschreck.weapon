@@ -54,7 +54,7 @@
 	<model filename="weapon_panzerschreck.xml" />
 	<hud_icon filename="hud_panzerschreck.png" />
 	
-	<commonness value="0.04" can_respawn_with="1"/>
+	<commonness value="0.02" can_respawn_with="1"/>
 	<inventory encumbrance="8.0" price="100.0" />
 	
 	<projectile file="panzerschreck_rocket.projectile" />

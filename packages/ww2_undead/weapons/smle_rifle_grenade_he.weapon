@@ -46,7 +46,7 @@
 	<hud_icon filename="hud_smle_mk3_he.png" />
 	
 	<commonness value="0" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="20" />
+	<inventory encumbrance="5.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

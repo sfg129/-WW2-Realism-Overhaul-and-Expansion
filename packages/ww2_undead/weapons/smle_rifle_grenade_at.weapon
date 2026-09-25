@@ -56,7 +56,7 @@
 	<model filename="weapon_smle_rifle_grenade_at.xml" />
 	<hud_icon filename="hud_smle_mk3_at.png" />
 	
-	<commonness value="0.2"/>
+	<commonness value="0.16"/>
 	<inventory encumbrance="5.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

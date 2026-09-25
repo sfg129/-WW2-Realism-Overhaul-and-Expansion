@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_sniper.weapon" key="mn9130_s.weapon">
 	<tag name="sniper" />
 
@@ -47,13 +47,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill_probability was 1.5, raised for better damage vs. body armour -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.9"
-		kill_decay_start_time="0.53"
-		kill_decay_end_time="1"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_76254.projectile" />
 	
 </weapon>

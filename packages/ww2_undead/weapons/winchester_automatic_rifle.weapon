@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="winchester_automatic_rifle.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
 	
 <access_tag name="edelweiss" />
@@ -31,7 +31,7 @@
 	<stance state_key="prone" accuracy="1.2" />
 	<stance state_key="over_wall" accuracy="1.2" />   
 
-	<modifier class="speed" value="-0.07" />
+	<modifier class="speed" value="-0.11" />
 	
 
 	
@@ -67,13 +67,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="1.05" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

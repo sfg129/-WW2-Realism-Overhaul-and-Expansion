@@ -13,12 +13,10 @@
 <weapon key="type11_lmg.weapon" />
 	<weapon key="type96_lmg.weapon" />
 	<weapon key="type96_lmg_b.weapon" />
-	<weapon key="type38_rifle_launcher.weapon" />
-<weapon key="type38_rifle_launcher_at.weapon" />
 	<weapon key="type97_s.weapon" />
 
 	<weapon key="type97_is.weapon" />
 	<weapon key="type97_at_rifle.weapon" />
-	<!--<weapon key="type38_rifle_launcher.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
+	<!--<weapon key="type38_rifle_grenade_he_ai.weapon" />-->	<!-- moved to briefcase unlock and is carried by Veterans -->
 	
 </resources>

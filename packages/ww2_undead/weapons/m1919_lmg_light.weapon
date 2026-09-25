@@ -32,7 +32,7 @@
 	<!-- However it's accuracy is moderate at best, reloads are slow, and it can only fire while Prone or against Cover. -->
 	<!-- This lightweight variant has the carry handle, stock, and flash hider removed; this slightly raises recoil but also increases movement speed and speeds up stance rate. -->
 
-	<modifier class="speed" value="-0.16" />
+	<modifier class="speed" value="-0.145" />
 
 	<!-- Although M1919A4's fire at 0.094 seconds, the M1919A6 is slightly slower (in real life too as far as I can see. -->
 	<stance state_key="running" accuracy="0.4" />
@@ -73,13 +73,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- damage was 0.5 and decay was 0.4 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

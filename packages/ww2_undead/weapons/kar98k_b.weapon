@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_rifle.weapon" key="kar98k_b.weapon" >
 		<tag name="has_bayonet" />
 
@@ -46,19 +46,12 @@
 	<hud_icon filename="hud_kar98k_b.png" />
 	
 	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
-	<commonness value="0.23" can_respawn_with="1" in_stock="0"/>
+	<commonness value="0.1" can_respawn_with="1" in_stock="0"/>
 	<inventory encumbrance="8.0" price="5.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.7"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_79257.projectile" />
 	
 </weapon>

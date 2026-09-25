@@ -20,7 +20,7 @@
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
 	/>
-		<modifier class="speed" value="-0.06" />  
+		<modifier class="speed" value="-0.095" />  
 	<!-- certain weapons like the MP 40 and StG 44 have reduced prone accuracy, due to the height of the weapon with magazine colliding with the ground. -->
 	<stance state_key="running" accuracy="0.4" />
 	<stance state_key="walking" accuracy="0.65" />
@@ -53,13 +53,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="0.85" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_carbine_79233.projectile" />
 	
 </weapon>

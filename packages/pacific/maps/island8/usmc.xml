@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries_ai.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -78,7 +78,7 @@
 		<model filename="soldier_usmc_assault_2.xml" /> 
 		<resources file="usmc_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usmc_default_early.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -107,7 +107,7 @@
 
 		<resources file="usmc_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -137,7 +137,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai_mg.resources" />
 		<resources file="usf_airborne_secondaries_ai_mg.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -170,7 +170,7 @@
 		
 		<resources file="usmc_veteran_primaries.resources" />
 		<resources file="usmc_veteran_secondaries.resources" />
-		<resources file="usmc_leader_call.resources" />
+		<resources file="usmc_8_peleliu_airfield_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -204,7 +204,7 @@
 		<models file="usmc_sentry.models" />
 		
 		<resources file="usmc_sentry.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -299,7 +299,7 @@
 		
 		<resources file="usmc_sniper_primaries.resources" />
 		<resources file="usmc_sniper_secondaries.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -425,7 +425,7 @@
 		
 		<resources file="usmc_army_leader_primaries.resources" />
 		<resources file="usmc_army_leader_secondaries.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -467,7 +467,7 @@
 		<resources file="usmc_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

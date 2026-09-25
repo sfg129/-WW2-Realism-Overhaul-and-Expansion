@@ -21,7 +21,7 @@
 	<!-- the King Tiger is invulnerable to many weapons, up to and including Light Tanks who only have 37mm guns. -->
 
 	<physics 
-    max_health="60" 
+    max_health="64" 
     blast_damage_threshold="3.91" 
     mass="1000.0" 
     broken_mass="20"  

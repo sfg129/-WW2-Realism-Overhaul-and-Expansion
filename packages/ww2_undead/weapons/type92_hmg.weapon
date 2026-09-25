@@ -46,14 +46,7 @@ projectile_speed="130.0"
 	
     <commonness value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.95"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_7758_mg.projectile" />
 
 	<sound key="fire" fileref="mg_07_type_92.wav" volume="1.55"/>
 

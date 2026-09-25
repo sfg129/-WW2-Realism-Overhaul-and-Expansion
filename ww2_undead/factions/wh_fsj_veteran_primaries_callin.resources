@@ -6,8 +6,8 @@
 	<weapon key="mp40.weapon" />
 
 
-	<weapon key="kar98k_rifle_grenade_he.weapon" />
-<weapon key="g41w.weapon" />
+	<weapon key="kar98k_rifle_grenade_he_ai.weapon" />
+
 	
 	<weapon key="kar98k_small_optic.weapon" />
 	<weapon key="stg44.weapon" />

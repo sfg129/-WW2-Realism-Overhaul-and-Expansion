@@ -12,11 +12,11 @@
 
 	<specification 
 	retrigger_time="0.0525" 
-	accuracy_factor="0.85" 
+	accuracy_factor="0.9" 
 	sustained_fire_grow_step="0.014"
 	sustained_fire_diminish_rate="0.1"
-spread_range="0.365"
-	stance_accuracy_rate="0.8"
+spread_range="0.375"
+	stance_accuracy_rate="1"
 	magazine_size="250" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 

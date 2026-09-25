@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="M43 Stielhandgranate" key="stielhandgranate.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
+<projectile class="grenade" name="M24 Stielhandgranate" key="stielhandgranate.projectile" slot="0" radius="0.15" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
 	<tag name="grenade" />
 
 	<!-- the German stick grenade has now been balanced to have the smallest radius of all grenades (-0.2 smaller than Type 97), and only 4 can be carried like Allied grenades, however it has the shortest fuse. -->
@@ -16,10 +16,10 @@
 	<sound class="result" key="vehicle" copy="other" />
 	<sound class="result" key="character" copy="other" />
 	
-	<trigger class="time" time_to_live="4"/>
+	<trigger class="time" time_to_live="4.5"/>
 	<result
 	class="blast"
-	radius="5.2"
+	radius="5"
 	damage="1.6"
 	push="0.3"
 	decal="1"
@@ -34,16 +34,16 @@
 	<throwable
 	curve_height="5.5"
 	near_far_distance="5.0"
-	speed_estimation_near="9.0"
+	speed_estimation_near="12.0"
 	speed_estimation_far="17.0"
 	max_speed="17.5"
 	randomness="0.07"
 	/>
 	
 	<commonness value="1.0" />
-	<inventory encumbrance="1.0" price="2.0" />
+	<inventory encumbrance="1" price="2.0" />
 	
-	<capacity value="8" source="rank" source_value="0.0" />
+	<capacity value="6" source="rank" source_value="0.0" />
 
 	
 	  	<effect class="result" key="terrain" ref="OstvetSmokeBigSphere" />

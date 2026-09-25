@@ -10,7 +10,7 @@
 		
 		<resources file="usmc_primaries_assault_early.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usmc_default_early.resources" />
+		<resources file="usmc_1_guadalcanal_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -45,7 +45,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -79,7 +79,7 @@
 		<resources file="common.resources" />
 		<resources file="usmc_primaries_ai.resources" />
 		<resources file="usmc_secondaries_ai.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -112,7 +112,7 @@
 		
 		<resources file="usmc_veteran_primaries.resources" />
 		<resources file="usmc_veteran_secondaries.resources" />
-		<resources file="usmc_leader_call.resources" />
+		<resources file="usmc_4_tarawa_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -146,7 +146,7 @@
 		<models file="usmc_sentry.models" />
 		
 		<resources file="usmc_sentry.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -241,7 +241,7 @@
 		
 		<resources file="usmc_sniper_primaries.resources" />
 		<resources file="usmc_sniper_secondaries.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -367,7 +367,7 @@
 		
 		<resources file="usmc_army_leader_primaries.resources" />
 		<resources file="usmc_army_leader_secondaries.resources" />
-		<resources file="usmc_leader_call_no_vehicle.resources" />
+		<resources file="usmc_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -409,7 +409,7 @@
 		<resources file="usmc_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="usmc_default.resources" />
+		<resources file="usmc_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

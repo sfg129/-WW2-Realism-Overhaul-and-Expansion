@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1">
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+<call key="mortar5.call" />
+	<call key="mortar.call" />
+	<call key="mortar1.call" />
+<call key="airstrike9.call" />
+<call key="airstrike12.call" />
+	<call key="ija_inf_ai.call" />
+
+</resources>

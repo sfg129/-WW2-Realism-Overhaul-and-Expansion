@@ -7,7 +7,7 @@
 
 	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
                    
-	<modifier class="blast_damage" value="-0.7" />
+	<modifier class="blast_damage" value="-0.9" />
                                                                                                                                     
 	<physics max_health="100" mass="3.5" extent="2.0 0.0 1.5" offset="0 0.0 0" top_offset="0 3 0" collision_model_pos="0 0.8 0" collision_model_extent="2.0 1.45 5.3" visual_offset="0 0.1 -0.1" vehicle_collision_damage_factor="1.0" destroy_on_top_hit="0"/> 
 	<character_slot type="driver" position="0.405 0.55 0.18942" rotation="0" exit_rotation="1.5795" hiding="1" animation_id="36" marker_offset="0 0.35 0.2"/>

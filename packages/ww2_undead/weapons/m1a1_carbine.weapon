@@ -24,7 +24,7 @@
 	/>
 	 	<stance state_key="running" accuracy="0.45" />
 	<!-- former stats: kill chance 0.6 -->
-	<modifier class="speed" value="-0.05" />  
+	<modifier class="speed" value="-0.035" />  
 	<!-- The M1A1 Carbine has slightly more recoil, but better moving spread, than the regular M1 Carbine. -->
 
 
@@ -50,13 +50,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result 
-		class="hit" 
-		kill_probability="0.85" 
-		kill_decay_start_time="0.4" 
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_carbine_30.projectile" />
 	
 </weapon>

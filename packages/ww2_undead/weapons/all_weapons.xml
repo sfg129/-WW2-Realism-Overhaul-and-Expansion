@@ -4,7 +4,6 @@
 	<!-- October 2025 -->
 	<weapon file="m3m_s.weapon" /> 
 
-<weapon file="stuart_recce_s.weapon" /> 
 	<weapon file="sidecar_german_mg.weapon" /> 
 	<weapon file="sidecar_german_mg_dummy.weapon" /> 
 <weapon file="boys_at_rifle_un.weapon" /> 
@@ -24,9 +23,15 @@
 	<weapon file="m1917_hmg_resource.weapon" />
 <weapon file="m1917_hmg_resource_t.weapon"/>
 <weapon file="m4_76_cannon.weapon"/>
+	<weapon file="m4_76_late.weapon"/>
 <weapon file="m1917_hmg.weapon"/>
 <weapon file="m1917_hmg_t.weapon"/>
 <weapon file="piat_un.weapon"/>
+
+<weapon file="type97_at_rifle_m_resource.weapon"/>
+<weapon file="type97_at_rifle_m.weapon"/>
+
+
 <weapon file="panzerfaust_100_early.weapon">
 <capacity source="rank" source_value="0.0" value="2" />
 </weapon>
@@ -45,6 +50,12 @@
 <weapon file="panzerfaust_30_early.weapon">
 <capacity source="rank" source_value="0.0" value="2" />
 </weapon>
+
+<weapon file="panzerfaust_late.weapon">
+<capacity source="rank" source_value="0.0" value="2" />
+</weapon>
+
+
 
 
 <weapon file="breniii.weapon">
@@ -1116,6 +1127,10 @@
 
 
 	<weapon file="m2_flamethrower.weapon">
+		<capacity source="rank" source_value="0.0" value="1" />
+		<capacity source="rank" source_value="0.4" value="1" />
+	</weapon>
+	<weapon file="no2_flamethrower.weapon">
 		<capacity source="rank" source_value="0.0" value="1" />
 		<capacity source="rank" source_value="0.4" value="1" />
 	</weapon>

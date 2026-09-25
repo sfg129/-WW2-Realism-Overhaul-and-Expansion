@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_lmg_crouch_fire.weapon" key="beardmore_farquhar_50cal_assault.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="30.0" >
 	
 <access_tag name="pacific" />
@@ -20,7 +20,7 @@
 	/>
 
 	<!-- yep a handheld .50 cal HMG -->
-		<modifier class="speed" value="-0.18" />
+		<modifier class="speed" value="-0.15" />
  	<animation state_key="recoil" animation_key="recoil1, hip fire" />
  	<animation state_key="recoil" animation_key="recoil2, hip fire" />
  	<animation state_key="recoil" animation_key="recoil3, hip fire" />
@@ -63,15 +63,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="50cal_bullet.projectile">
-	    <result
-class="blast"
-    radius="1.5"
-   damage="1.5"
-    push="0.1"
-    decal="1"
-	faction_compare="not_equal" />
-		
-	</projectile>
+	<projectile file="bullet_hmg_12781.projectile" />
 
 </weapon>

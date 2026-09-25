@@ -28,7 +28,7 @@ projectile_speed="140.0"
     <next_in_chain key="m1918_bar_heavy.weapon" share_ammo="1" />
 			<animation state_key="next_in_chain_in" animation_key="sheath bayonet part 2" />
 		<animation state_key="next_in_chain_out" animation_key="mount bayonet part 1" />
-	<modifier class="speed" value="-0.07" />
+	<modifier class="speed" value="-0.105" />
 
 				<stance state_key="running" accuracy="0.4" />
 	<stance state_key="walking" accuracy="0.5" />
@@ -64,13 +64,6 @@ projectile_speed="140.0"
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill decay start was 0.225, then 0.39, then 0.3 -->
-	<projectile file="bullet.projectile">
-	    <result
-		class="hit"
-		kill_probability="1.05"
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_3006_mg.projectile" />
 	
 </weapon>

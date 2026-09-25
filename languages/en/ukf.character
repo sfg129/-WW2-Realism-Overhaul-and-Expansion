@@ -181,7 +181,7 @@
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_m3_halftrack.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_m4_sherman_v.call" text="M4A4 Sherman V deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_m4_sherman_v.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_sherman_firefly.call" text="Sherman Firefly deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_sherman_firefly.call" text="Sherman Firefly VC deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_sherman_firefly.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=ukf_vehicle_un_b.call" text="Universal Carrier Boys deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_un_b.call" text="No valid deployment points found, capture a base!" />
@@ -195,10 +195,14 @@
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 Halftrack deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76.call" text="M4A3(76)W Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76.call" text="M4A3(76) Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76_late.call" text="M4A3(76)W Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman_76.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman_76_late.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman.call" text="M4A3 Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_75_late.call" text="M4A3 Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4_sherman_75_late.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_stuart.call" text="M5A1 Stuart Light Tank deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_stuart.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle.call" text=".50 cal Jeep deploying at %base_name" />
@@ -213,8 +217,6 @@
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman Flamethrower deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_stuart_recce.call" text="Stuart Recce deploying at %base_name" />
-	<comment key="spawn_in_base_call, denied, key=vehicle_stuart_recce.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="Panther deploying at %base_name" />
@@ -239,7 +241,9 @@
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_75.call" text="M4A3E2 Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_75.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_76.call" text="M4A3E2(76) Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e2_76_late.call" text="M4A3E2(76) Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_76.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e2_76_late.call" text="No valid deployment points found, capture a base!" />
 
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4a3e8.call" text="M4A3E8 Sherman deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m4a3e8.call" text="No valid deployment points found, capture a base!" />

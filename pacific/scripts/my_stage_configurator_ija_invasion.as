@@ -33,7 +33,6 @@ class MyStageConfiguratorIJAInvasion : MyStageConfiguratorIJA {
 					stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehicle_m4_e4_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.call", "usf_vehicle_m3_halftrack_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(PeacefulLastBase(m_metagame, 0));
-						stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_stuart_recce.call", "vehicle_stuart_recce_spawn.call", array<string> = {"Carrie"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m3_mortar.call", "vehicle_m3_mortar_spawn.call", array<string> = {"Carrie"}, true, "vehicle"));
 		
 		// required by UncapturableLastBaseEndTimer 
@@ -56,7 +55,6 @@ class MyStageConfiguratorIJAInvasion : MyStageConfiguratorIJA {
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha.call", "ija_vehicle_medium_tank_chi_ha_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 
 		stage.addTracker(DamagedVehicle(m_metagame, "stuart_damaged.vehicle", 0.6));
 		stage.addTracker(DamagedVehicle(m_metagame, "hago_damaged.vehicle", 0.6));

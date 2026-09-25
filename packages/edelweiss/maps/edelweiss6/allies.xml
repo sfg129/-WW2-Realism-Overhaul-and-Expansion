@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries.resources" />
 		<resources file="usf_airborne_secondaries_no_flare.resources" />
-		<resources file="usf_airborne_ardennes_default.resources" />
+		<resources file="usf_6_airborne_bastogne_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai.resources" />
 		<resources file="usf_airborne_secondaries_no_flare_ai.resources" />
-		<resources file="usf_airborne_ardennes_default.resources" />
+		<resources file="usf_6_airborne_bastogne_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -79,7 +79,7 @@
 		<resources file="common.resources" />
 		<resources file="usf_airborne_primaries_ai_mg.resources" />
 		<resources file="usf_airborne_secondaries_ai_mg.resources" />
-		<resources file="usf_airborne_ardennes_default.resources" />
+		<resources file="usf_6_airborne_bastogne_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -112,7 +112,7 @@
 		
 		<resources file="usf_airborne_veteran_primaries.resources" />
 		<resources file="usf_airborne_veteran_secondaries.resources" />
-		<resources file="usf_airborne_ardennes_leader_call.resources" />
+		<resources file="usf_6_airborne_bastogne_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -148,7 +148,7 @@
 		<!-- has some weapons cut out to prevent call-in spam -->
 		<resources file="usf_airborne_veteran_primaries_callin.resources" />
 		<resources file="usf_airborne_veteran_secondaries.resources" />
-		<resources file="usf_airborne_ardennes_leader_call.resources" />
+		<resources file="usf_6_airborne_bastogne_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -183,7 +183,7 @@
 		
 		<resources file="usf_airborne_primaries_assault.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usf_airborne_ardennes_default.resources" />
+		<resources file="usf_6_airborne_bastogne_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -217,7 +217,7 @@
 		
 		<resources file="usf_airborne_primaries_assault_callin.resources" />
 		<resources file="usf_airborne_secondaries_assault.resources" />
-		<resources file="usf_airborne_ardennes_default.resources" />
+		<resources file="usf_6_airborne_bastogne_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -250,7 +250,7 @@
 		<model filename="soldier_usf_paratrooper_ardennes_body_armour.xml" />
 		
 		<resources file="usf_airborne_sentry.resources" />
-		<resources file="usf_airborne_ardennes_leader_call_no_vehicle.resources" />
+		<resources file="usf_6_airborne_bastogne_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -315,7 +315,7 @@
 		
 		<resources file="usf_airborne_sniper_primaries.resources" />
 		<resources file="usf_airborne_sniper_secondaries.resources" />
-		<resources file="usf_airborne_ardennes_leader_call_no_vehicle.resources" />
+		<resources file="usf_6_airborne_bastogne_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

@@ -12,6 +12,7 @@
 	<!--<weapon key="p08.weapon" />-->
 	<weapon key="panzerschreck_ai.weapon" />
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 	<projectile key="panzerwurfmine.projectile" />
 <weapon key="morphine.weapon" />
 <carry_item key='vest_normal.carry_item' enabled="1" />  

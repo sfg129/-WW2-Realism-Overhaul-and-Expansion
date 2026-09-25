@@ -5,7 +5,7 @@
 	<projectile key="type99_at_mine.projectile" />
 <weapon key="light_mortar_resource.weapon" />
 	<!--<weapon key="type14_nambu_pistol.weapon" />-->
-	<weapon key="type38_rifle_at_launcher.weapon" />
+	<weapon key="type38_rifle_grenade_at.weapon" />
 	<weapon key="type92_hmg_resource.weapon" />
 	<weapon key="type92_hmg_resource_t.weapon" />
 <weapon key="morphine.weapon" />

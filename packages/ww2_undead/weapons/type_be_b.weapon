@@ -9,7 +9,8 @@
 	retrigger_time="0.095" 
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.17" 
-	sustained_fire_diminish_rate="1.55"
+	sustained_fire_diminish_rate="1.6"
+	spread_range="0.33"
 	stance_accuracy_rate="4"
 	magazine_size="50" 
 	can_shoot_standing="1" 
@@ -22,7 +23,7 @@
 	/>
 
 	<next_in_chain key="type_be.weapon" share_ammo="1" />
-
+<modifier class="speed" value="-0.085" />
 	<!-- simple SMG sight -->
   
 
@@ -54,13 +55,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.625"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_762.projectile" />
 	
 </weapon>

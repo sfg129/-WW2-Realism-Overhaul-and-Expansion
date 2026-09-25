@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_heavy_bipod.weapon" key="type97_at_rifle_m.weapon" 
+	ai_burst_time="0.1" 
+	ai_burst_time_variance="0.05" 
+	ai_burst_wait_time="0.75" 
+	ai_burst_wait_time_variance="0.1"
+>
+
+	
+<access_tag name="pacific" />
+
+	<specification  
+	retrigger_time="0.8"  
+	accuracy_factor="0.92" 
+	sustained_fire_grow_step="5" 
+		sustained_fire_diminish_rate="1.25"
+
+	magazine_size="-1" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="Type 97 Anti-Tank Rifle" 
+	class="4" 
+	burst_shots="1" 
+	reload_one_at_a_time="0" 
+	projectile_speed="130.0" 
+	barrel_offset="0.9" 
+	projectiles_per_shot="1"
+	sight_range_modifier="2"
+
+	/>
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.6" />
+	<stance state_key="crouching" accuracy="0.7" />
+	<stance state_key="prone" accuracy="1.1" />
+	<stance state_key="over_wall" accuracy="1.1" />  
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.0" />	<!-- Heavy Armour is low because Rifle Grenades can't hurt them much at all -->
+    <target_factors tag="medium_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="2.0" />  <!-- Medium Armour is low because Rifle Grenades can't hurt them much at all -->
+    <target_factors tag="light_armour" distance="1.0" direction="0.0" squad_command="1.0" base_score="9.0" />	<!-- barely below Medium Armour so that it becomes higher priority in short range if medium armour is far away. -->
+    <target_factors tag="at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="4.0" />
+    <target_factors tag="light_at_gun" distance="1.0" direction="0.0" squad_command="1.0" base_score="4.0" />
+    <target_factors tag="light_vehicle" distance="1.0" direction="0.0" squad_command="1.0" base_score="10.0" />
+    <target_factors tag="defensive_weapon" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />
+
+	
+    <animation key="recoil" ref="27" />
+    <animation key="reload" animation_key="reloading, type 97 at rifle" />
+    <animation key="reload" stance_key="prone" animation_key="reloading, type 97 at rifle, prone" />
+    <animation key="running" animation_key="running, lahti_l39" />
+		<animation state_key="hold_on_wall" animation_key="still" />
+    	<animation state_key="hold" animation_key="hold, lmg" />
+		<animation state_key="walking" animation_key="walking, heavy weapon" />
+		<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+		<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+		<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+		<animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire" />
+	
+	<weak_hand_hold offset="0.4" />
+
+    <sound key="fire" fileref="anti_tank_rifle.wav" volume="6.75" pitch_variety="0.05" />
+	<sound key="cycle_out" fileref="m79_cycle.wav" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	
+	<model filename="type97_antitank.xml" />
+	<hud_icon filename="hud_type97_at.png" />
+	
+	<commonness value="0" can_respawn_with="1"/>
+	<inventory encumbrance="8.0" price="220" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+<projectile file="bullet_atrifle_20124.projectile" />
+	
+	<modifier class="speed" value="-0.24" />
+	
+</weapon>

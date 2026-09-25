@@ -177,6 +177,7 @@
 	<text key="M2HB HMG deploy" text="M2HB重机枪部署包"/>
 	<text key="M17 HE Rifle Grenade" text="M1903枪榴弹-M17高爆弹"/>
 	<text key="M24 Stielhandgranate" text="M24木柄手榴弹"/>
+	<text key="Model 39 Eihandgranate" text="M39蛋形手榴弹"/>
 	<text key="Panzerwurfmine" text="反装甲投掷雷"/>
 	<text key="strafing run" text="扫射攻击"/>
 	<text key="Mills Bomb Grenade" text="Mills手榴弹"/>
@@ -470,6 +471,12 @@
 <text key="Type 92 HMG Low Mount deploy" text="92式重机枪部署包（低位三脚架）"/>
 <text key="Type 92 HMG High Mount deploy" text="92式重机枪部署包（高位三脚架）"/>
 	
+<text key="M4A3(76) Sherman" text="M4A3(76)“谢尔曼”中型坦克"/>
+<text key="Reinforcements - M4A3(76) Sherman" text="增援 - M4A3(76)“谢尔曼”中型坦克"/>
+<text key="Requesting reinforcements, M4A3(76) Sherman" text="请求增援，M4A3(76)“谢尔曼”中型坦克"/>
+<text key="M4A3(76) Sherman deployed" text="M4A3(76)“谢尔曼”中型坦克已部署"/>
+
+
 <text key="M4A3(76)W Sherman" text="M4A3(76)W“谢尔曼”中型坦克"/>
 <text key="Reinforcements - M4A3(76)W Sherman" text="增援 - M4A3(76)W“谢尔曼”中型坦克"/>
 <text key="Requesting reinforcements, M4A3(76)W Sherman" text="请求增援，M4A3(76)W“谢尔曼”中型坦克"/>
@@ -485,10 +492,12 @@
 	<text key="Requesting reinforcements, M4A3E2(76) Sherman" text="请求增援，M4A3E2(76)“谢尔曼”中型坦克" />
 	<text key="M4A3E2(76) Sherman deployed" text="M4A3E2(76)“谢尔曼”中型坦克已部署" />
 
-	<text key="M4A3(75)W Sherman Late" text="M4A3(75)W“谢尔曼”后期型中型坦克" />
-	<text key="M4A3(76)W Sherman Late" text="M4A3(76)W“谢尔曼”后期型中型坦克" />
 	<text key="M4A3E8 Sherman" text="M4A3E8“谢尔曼”中型坦克" />
 	<text key="Reinforcements - M4A3E8 Sherman" text="增援 - M4A3E8“谢尔曼”中型坦克" />
 	<text key="Requesting reinforcements, M4A3E8 Sherman" text="请求增援，M4A3E8“谢尔曼”中型坦克" />
 	<text key="M4A3E8 Sherman deployed" text="M4A3E8“谢尔曼”中型坦克已部署" />
+	<text key="Sherman Firefly VC" text="谢尔曼“萤火虫”中型坦克" />
+	<text key="Reinforcements - Sherman Firefly VC" text="增援 - 谢尔曼“萤火虫”中型坦克" />
+	<text key="Requesting reinforcements, Sherman Firefly VC" text="请求增援，谢尔曼“萤火虫”中型坦克" />
+	<text key="Sherman Firefly VC deployed" text="谢尔曼“萤火虫”中型坦克已部署" />
 </translation>

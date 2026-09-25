@@ -18,7 +18,7 @@
 	/>
 
 	<!-- Type 100/44 had simple sights and no bipod; thus base accuracy is inferior to the Type 100/40 and is not boosted in cover/prone -->
-	
+	<modifier class="speed" value="-0.055" />
 	<next_in_chain key="type100_44_smg_b.weapon" share_ammo="1" />
 
 	<!-- simple SMG sight ; though technically an aperture -->
@@ -47,13 +47,6 @@
 	<capacity value="1" source="rank" source_value="0.0" />
 
 	<!-- start decay was 0.263 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.55"
-		kill_decay_start_time="0.3"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_822.projectile" />
 	
 </weapon>

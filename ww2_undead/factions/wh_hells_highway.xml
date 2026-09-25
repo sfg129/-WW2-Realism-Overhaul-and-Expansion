@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="wh_normandy_primaries.resources" />
 		<resources file="wh_normandy_secondaries.resources" />
-		<resources file="wh_normandy_default.resources" />
+		<resources file="wh_4_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="wh_normandy_primaries_ai.resources" />
 		<resources file="wh_normandy_secondaries_ai.resources" />
-		<resources file="wh_normandy_default.resources" />
+		<resources file="wh_4_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -108,7 +108,7 @@
 		
 		<resources file="wh_hells_highway_veteran_primaries.resources" />
 		<resources file="wh_normandy_veteran_secondaries.resources" />
-		<resources file="wh_normandy_leader_call.resources" />
+		<resources file="wh_4_hells_highway_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -144,7 +144,7 @@
 		
 		<resources file="wh_hells_highway_veteran_primaries_callin.resources" />
 		<resources file="wh_normandy_veteran_secondaries.resources" />
-		<resources file="wh_normandy_leader_call.resources" />
+		<resources file="wh_4_hells_highway_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -180,7 +180,7 @@
 		
 		<resources file="wh_hells_highway_primaries_assault.resources" />
 		<resources file="wh_normandy_secondaries_assault.resources" />
-		<resources file="wh_normandy_default.resources" />
+		<resources file="wh_4_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -215,7 +215,7 @@
 		
 		<resources file="wh_hells_highway_primaries_assault_callin.resources" />
 		<resources file="wh_normandy_secondaries_assault.resources" />
-		<resources file="wh_normandy_default.resources" />
+		<resources file="wh_4_hells_highway_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -248,7 +248,7 @@
 		<model filename="soldier_wh_normandy_body_armour.xml" />
 		
 		<resources file="wh_normandy_sentry.resources" />
-		<resources file="wh_normandy_leader_call_no_vehicle.resources" />
+		<resources file="wh_4_hells_highway_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -313,7 +313,7 @@
 		
 		<resources file="wh_hells_highway_sniper_primaries.resources" />
 		<resources file="wh_normandy_sniper_secondaries.resources" />
-		<resources file="wh_normandy_leader_call_no_vehicle.resources" />
+		<resources file="wh_4_hells_highway_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

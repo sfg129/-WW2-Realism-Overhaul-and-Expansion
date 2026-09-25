@@ -46,7 +46,8 @@
 	<animation key="reload" ref="35" />
 	<animation key="hold" ref="39" />
 	<animation key="hold_on_wall" ref="39" />
-	
+		<addon_model filename="panzerfaust_addon.xml" />
+
 	<weak_hand_hold offset="0.3" />
 	
 	<sound key="fire" fileref="weapon_rocket_launcher_piat.wav" pitch_variety="0.05" volume="1.4"/>
@@ -66,7 +67,7 @@ near_far_distance="16.0"
     speed_estimation_near="10.0"
     speed_estimation_far="16.0"
     max_speed="45.0"
-	curve_height="2" 
+	curve_height="3.5" 
     randomness="0.0"
 	tweak_factor="1.55"
 	/>

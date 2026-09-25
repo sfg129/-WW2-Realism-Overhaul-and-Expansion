@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicles>
+<vehicle file="type97_at.vehicle" />
 <vehicle file="m1919_hmg_t.vehicle" />
 	<vehicle file="mg34_hmg_t.vehicle" />
 	<vehicle file="mg42_hmg_t.vehicle" />
@@ -10,13 +11,12 @@
 	<vehicle file="m1917_hmg.vehicle" />
 	<vehicle file="universal_carrier_boys.vehicle" />
 	<vehicle file="sidecar_german.vehicle" />
-		<vehicle file="stuart_recce.vehicle" />
 			<vehicle file="m3_halftrack_mortar.vehicle" />
 			<vehicle file="sdkfz251_mortar.vehicle" />
 			<vehicle file="universal_carrier_vickers_k.vehicle" />
 <vehicle file="panzer_iv_base_flak88.vehicle" />
 <vehicle file="sdkfz251_pak40.vehicle" />
-<vehicle file="m4_E4.vehicle" />
+<vehicle file="m4_e4.vehicle" />
 	<vehicle file="luchs.vehicle" />
 	<vehicle file="dukw.vehicle" />
 	<vehicle file="soukoutei.vehicle" />
@@ -31,6 +31,9 @@
 	<vehicle file="opel_blitz_armoury.vehicle" />  
 	<vehicle file="m4_75.vehicle" />
 	<vehicle file="m4_76.vehicle" />
+	<vehicle file="m4_75_late.vehicle" />
+	<vehicle file="m4_76_late.vehicle" />
+	<vehicle file="m4a3e8.vehicle" />
 	<vehicle file="m4a3e2_75.vehicle" />
 	<vehicle file="m4a3e2_76.vehicle" />
 	<vehicle file="lefh18.vehicle" />
@@ -68,7 +71,6 @@
 	<vehicle file="m3_halftrack_fastrespawn.vehicle" />
 	<vehicle file="m4_V.vehicle" />
 	<vehicle file="m4_V_fastrespawn.vehicle" />
-	<vehicle file="m4_rhino.vehicle" />
 	<vehicle file="m4_firefly.vehicle" />
 	<vehicle file="m4_firefly_fastrespawn.vehicle" />
 	<vehicle file="tiger.vehicle" />
@@ -145,6 +147,19 @@
 	<vehicle file="special_crates_wood.xml" />
 	<vehicle file="deco_vehicles.xml" />										   
 	<vehicle file="parachute.vehicle" />
+	<vehicle file="no77_smoke_spawner.vehicle" />
+	<vehicle file="no77_smoke_blocker_delay.vehicle" />
+	<vehicle file="no77_smoke_blocker_center.vehicle" />
+	<vehicle file="no77_smoke_blocker_x.vehicle" />
+	<vehicle file="no77_smoke_blocker_z.vehicle" />
+	<vehicle file="an_m8_smoke_landed_spawner.vehicle" />
+	<vehicle file="nebelhandgranate_39_smoke_spawner.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_spawner.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_mid_delay.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_far_delay.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_near.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_mid.vehicle" />
+	<vehicle file="an_m8_smoke_blocker_far.vehicle" />
 	<vehicle file="vehicle_tweaks.xml" />
 	<vehicle file="occult_seal.vehicle" />
 	<vehicle file="ww2_undead_occult_seal_spawner.vehicle" />

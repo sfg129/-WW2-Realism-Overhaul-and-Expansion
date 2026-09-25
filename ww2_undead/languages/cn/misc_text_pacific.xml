@@ -123,6 +123,7 @@
 	<text key="Heavy Mortar shell" text="重型迫击炮弹"/>
 	<text key="Higgins Boat MG" text="“希金斯”登陆艇机枪"/>
 	<text key="Type 94 shin gunto" text="94式军刀"/>
+	<text key="Type 94 small smoke candle" text="94式小型发烟筒"/>
 	<text key="LVT-4 .50 HMG" text="LVT-4 .50重机枪"/>
 	<text key="LVT-4 .30 HMG" text="LVT-4 .30重机枪"/>
 	<text key="M1 Bazooka" text="M1“巴祖卡”火箭筒"/>
@@ -191,6 +192,9 @@
 	<text key="Type 96 LMG Trench" text="96式轻机枪（枪盾|瞄镜）"/>
 	<text key="Type 96 Trench" text="96式轻机枪（枪盾|瞄镜）" />
 	<text key="Type 97 Anti-Tank Rifle" text="97式反坦克步枪"/>
+	<text key="Type 97 Anti-Tank Rifle deploy" text="97式反坦克步枪部署包"/>
+
+
 	<text key="Type 97 Grenade" text="97式手榴弹"/>
 	<text key="Type 97 Sniper Rifle" text="97式狙击步枪"/>
 		<text key="Type 97 Sniper Rifle IS" text="97式狙击步枪（机械瞄具）"/>

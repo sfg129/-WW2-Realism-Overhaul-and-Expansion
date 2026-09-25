@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="type11_lmg.weapon">
 	
 <access_tag name="pacific" />
@@ -21,7 +21,7 @@
 	/>
 	
 	<!-- former stats: grow_step 0.182 -->
-
+	 <modifier class="speed" value="-0.125" />
 	<!-- The Type 11 LMG can only be fired Prone or against Cover, and suffers a slow reload. -->
 	<!-- However it's high velocity, damage, and low recoil enable it to be very effective at long ranges. --> 
 	<stance state_key="running" accuracy="0.3" />
@@ -61,13 +61,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.95"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_6550_mg.projectile" />
 	
 </weapon>

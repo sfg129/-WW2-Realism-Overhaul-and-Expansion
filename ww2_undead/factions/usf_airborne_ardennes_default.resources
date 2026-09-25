@@ -3,7 +3,6 @@
 	<vehicle key="m4_75.vehicle" />
 	<vehicle key="m4_76.vehicle" />
 	<vehicle key="m4a3e2_76.vehicle" />
-	<vehicle key="m4_rhino.vehicle" />
 <vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
 	<vehicle key="m10.vehicle" />
@@ -19,7 +18,6 @@
 	<vehicle key="willys_mb_recoilless_rifle.vehicle" />
 
 	<vehicle key="at_gun_m5.vehicle" />
-<vehicle key="stuart_recce.vehicle" />
 
 	<vehicle key="usf_armoury_para.vehicle" />
 

@@ -19,7 +19,7 @@
 		<round 
 		instances="1" 
 		instance_class="vehicle" 
-		instance_key="m4_E4.vehicle" 
+		instance_key="m4_e4.vehicle" 
 		instance_spread="3 0 3" 
 		common_spread="0 0 0" 
 		launch_time="7.5" 

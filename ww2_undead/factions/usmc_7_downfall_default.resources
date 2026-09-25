@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+<vehicle key="m10.vehicle" />
+ 	<vehicle key="lvt4.vehicle" />
+	<vehicle key="pillbox.vehicle" />
+	<vehicle key="m1919_hmg.vehicle" />
+	<vehicle key="m1919_hmg_t.vehicle" />
+	<vehicle key="landing_craft.vehicle" />
+	<vehicle key="landing_craft_noai.vehicle" />  
+	<vehicle key="armory_higgins.vehicle" />   
+	<vehicle key="willys_mb.vehicle" />
+	<vehicle key="m4_75.vehicle" />
+	<vehicle key="fortified_turret_sherman.vehicle" />
+	<vehicle key="pt_boat.vehicle" />
+<vehicle key="m3_halftrack_base.vehicle" />
+	<vehicle key="dukw.vehicle" />    
+	<vehicle key="m4_76.vehicle" />
+	<vehicle key="m3_halftrack.vehicle" />
+
+<vehicle key="m4_e4.vehicle" />
+
+<vehicle key="m5a1_stuart.vehicle" />
+
+
+<vehicle key="m3_halftrack_mortar.vehicle" />
+	<vehicle key="light_mortar.vehicle" />
+	<vehicle key="at_gun_m1_57mm.vehicle" />
+	<vehicle key="at_gun_m3_37mm.vehicle" />
+<call key="airstrike3.call" />
+	<call key="airstrike.call" />
+	<call key="airstrike1.call" />
+
+	<call key="artillery.call" />
+	<call key="artillery1.call" />
+
+	<call key="usmc_inf.call" />
+	<call key="usf_vehicle.call" />
+	<call key="usf_vehicle_armoury_marine.call" />
+	<call key="usf_vehicle_m3_halftrack.call" />
+	<call key="vehicle_m3_mortar.call" />
+	<call key="usf_vehicle_stuart.call" />
+	<call key="usf_vehicle_m4_sherman.call" />
+	<call key="vehicle_m4_e4.call" />
+	<call key="usf_vehicle_m4_sherman_76.call" />
+<call key="usf_vehicle_m10.call" />
+</resources>

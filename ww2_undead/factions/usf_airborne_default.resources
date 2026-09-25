@@ -4,7 +4,6 @@
 	<vehicle key="m4_75.vehicle" />
 	<vehicle key="m4_76.vehicle" />
 	<vehicle key="m4a3e2_76.vehicle" />
-	<vehicle key="m4_rhino.vehicle" />
 <vehicle key="m5a1_stuart.vehicle" />
 	<vehicle key="m3_halftrack.vehicle" />
 	<vehicle key="m10.vehicle" />
@@ -18,7 +17,6 @@
 	<vehicle key="jeep.vehicle" />
 	<vehicle key="willys_mb.vehicle" />
 	<vehicle key="willys_mb_recoilless_rifle.vehicle" />
-<vehicle key="stuart_recce.vehicle" />
 <vehicle key="m3_halftrack_mortar.vehicle" />
 
 	<vehicle key="at_gun_m5.vehicle" />

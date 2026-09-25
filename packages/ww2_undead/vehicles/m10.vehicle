@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="M10 GMC" key="m10.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="63" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="M10 GMC" key="m10.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="63" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" ai_driver_turns_to_target="1" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
    	<tag name="vehicle" />
@@ -14,11 +14,11 @@
 	<tire_set offset="1.4 0.0 0" radius="0.52" />    
 	<tire_set offset="1.4 0.0 -2.8" radius="0.52" />
 
-	<control max_limiter_speed="4.0" max_speed="9" acceleration="10" max_reverse_speed="9.0" min_health_to_steer="0.65" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.99" tracked="1" gears="1"/>
+	<control max_limiter_speed="4.0" max_speed="9" acceleration="12" max_reverse_speed="9.0" min_health_to_steer="3" max_rotation="1" max_water_depth="1.7" steer_smoothening="0.992" tracked="1" gears="1"/>
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3" />
+	<modifier class="blast_damage" value="-3.5" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -32,15 +32,15 @@
     offset="0 0.0 0" 
     top_offset="0 3.0 0" 
     collision_model_pos="0 1.2 0" 
-    collision_model_extent="3.9 3.0 7.8" 
+    collision_model_extent="3.6 2.7 7.2" 
     visual_offset="0 0.37 0.0" /> 
 	<!-- visual offset was 0 0.28 0.0 but the treads slipped the ground -->
 
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.33 0.08" weapon_key="m10_cannon.weapon" weapon_offset="0.0 0.52 0.0" weapon_recoil="0.13" max_rotation_step="0.0001" />
-	<turret offset="-0.57 0.7 0.6" weapon_key="m4_m2.weapon" weapon_offset="0 0.55 0.0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" rotation_range="0.5" />
+	<turret offset="0 2.33 0.08" weapon_key="m10_cannon.weapon" weapon_offset="0.0 0.52 0.0" weapon_recoil="0.13" max_rotation_step="0.0000125" />
+	<turret offset="-0.57 0.7 0.6" weapon_key="m4_m2.weapon" weapon_offset="0 0.55 0.0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" rotation_range="0.75" />
 		<turret offset="0 2.35 0.18" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="m10_chassis.mesh" texture_filename="m10.png" max_tilt="0.02" />

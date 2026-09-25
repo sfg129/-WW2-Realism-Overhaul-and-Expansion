@@ -68,7 +68,6 @@ array<string> getCallSorting() {
 		"usf_vehicle_stuart.call",
 		"vehicle_m3_mortar.call",
 		"usf_vehicle_armoury_marine.call",
-		"vehicle_stuart_recce.call",
 	"usmc_vehicle1.call",
 		"usmc_vehicle.call",
 		"usmc_vehicle2.call",
@@ -102,10 +101,13 @@ array<string> getCallSorting() {
 		
 
 		"usf_vehicle_m4_sherman.call",
+		"usf_vehicle_m4_sherman_75_late.call",
 		"usf_vehicle_m4_sherman_76.call",
+		"usf_vehicle_m4_sherman_76_late.call",
 		"usf_vehicle_m4a3e8.call",
 		"usf_vehicle_m4a3e2_75.call",
 		"usf_vehicle_m4a3e2_76.call",
+		"usf_vehicle_m4a3e2_76_late.call",
 				"vehicle_m4_e4.call",
 		"usf_vehicle_m10.call",
 		"ukf_vehicle_churchill.call",

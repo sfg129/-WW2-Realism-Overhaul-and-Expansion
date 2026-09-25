@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="ija_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="ija_primaries_ai.resources" />
 		<resources file="ija_secondaries_ai.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -81,7 +81,7 @@
 		
 		<resources file="ija_veteran_primaries.resources" />
 		<resources file="ija_veteran_secondaries.resources" />
-		<resources file="ija_leader_call.resources" />
+		<resources file="ija_8_peleliu_airfield_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -115,7 +115,7 @@
 		<models file="ija_sentry.models" />
 		
 		<resources file="ija_sentry.resources" />
-		<resources file="ija_leader_call_no_vehicle.resources" />
+		<resources file="ija_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -210,7 +210,7 @@
 		
 		<resources file="ija_sniper_primaries.resources" />
 		<resources file="ija_sniper_secondaries.resources" />
-		<resources file="ija_leader_call_no_vehicle.resources" />
+		<resources file="ija_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -308,7 +308,7 @@
 		
 		<resources file="ija_banzai_officer_primaries.resources" />
 		<resources file="ija_banzai_officer_secondaries.resources" />
-		<resources file="ija_leader_call_no_vehicle.resources" />
+		<resources file="ija_8_peleliu_airfield_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -342,7 +342,7 @@
 		<resources file="usmc_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="ija_default.resources" />
+		<resources file="ija_8_peleliu_airfield_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

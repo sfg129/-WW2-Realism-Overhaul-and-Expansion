@@ -17,7 +17,7 @@
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-5.8" />
+	<modifier class="blast_damage" value="-7.2" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -37,9 +37,9 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.46 -0.11" weapon_key="churchill_75_cannon.weapon" weapon_offset="0.0 0.41 3.9" weapon_recoil="0.125" max_rotation_step="0.00005" />
+	<turret offset="0 2.46 -0.11" weapon_key="churchill_75_cannon.weapon" weapon_offset="0.0 0.41 3.9" weapon_recoil="0.125" max_rotation_step="0.0000427" />
 	<turret offset="0.48 1.9 2.65" weapon_key="churchill_hull_mg.weapon" weapon_offset="0.0 +0.1 1.9" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
-	<turret offset="0 2.46 -0.11" weapon_key="churchill_coax_mg.weapon" weapon_offset="0.20 0.52 1.45" max_rotation_step="0.00005" />
+	<turret offset="0 2.46 -0.11" weapon_key="churchill_coax_mg.weapon" weapon_offset="0.20 0.52 1.45" max_rotation_step="0.0000427" />
 	<turret offset="0.48 1.9 2.65" weapon_key="churchill_hull_mg_muzzle.weapon" weapon_offset="0.0 +0.1 0.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 
 	<turret offset="0 2.46 -0.11" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />

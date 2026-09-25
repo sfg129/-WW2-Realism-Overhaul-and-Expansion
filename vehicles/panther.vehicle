@@ -20,7 +20,7 @@
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
-	<modifier class="blast_damage" value="-5.4" />
+	<modifier class="blast_damage" value="-5.6" />
 	<physics max_health="48" blast_damage_threshold="2.7" mass="400"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"
@@ -30,13 +30,13 @@
 	<!-- index 0: main gun; index 1: hull MG; index 2: coaxial MG. -->
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="panther_cannon.weapon"
 		weapon_offset="-0.07391 0.65703 1.56539" weapon_recoil="0.2"
-		max_rotation_step="0.000042" />
+		max_rotation_step="0.000032" />
 	<turret offset="-0.686 1.764 2.646" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="0.0 0.196 0.98" weapon_recoil="0.0" physics_recoil="0.0"
 		max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0.04259 2.18660 -0.49065" weapon_key="king_tiger_hull_mg.weapon"
 		weapon_offset="-0.392 0.49 1.274" weapon_recoil="0.0" physics_recoil="0.0"
-		max_rotation_step="0.000042"/>
+		max_rotation_step="0.000032"/>
 	<turret offset="1.8 0.7 0" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="panther_chassis.mesh" texture_filename="panther_chassis.png" max_tilt="0.02" />

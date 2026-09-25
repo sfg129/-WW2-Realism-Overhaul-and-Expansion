@@ -6,7 +6,7 @@
 	ai_burst_wait_time_variance="0.05">
 	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="m1_carbine_p.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
 	<specification
-retrigger_time="0.12"
+retrigger_time="0.18"
 	accuracy_factor="1" 
 	 slot="0"
 	class="0" 

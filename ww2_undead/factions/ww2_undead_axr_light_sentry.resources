@@ -19,6 +19,7 @@
 	<!--<weapon key="reichsrevolver.weapon" />-->		<!-- 0.4 -->		<!-- too common -->
 
 	<projectile key="stielhandgranate.projectile" />
+	<projectile key="eierhandgranate.projectile" />
 
 	<carry_item key='ww2_undead_axr_sentry.carry_item' enabled="1" />
 

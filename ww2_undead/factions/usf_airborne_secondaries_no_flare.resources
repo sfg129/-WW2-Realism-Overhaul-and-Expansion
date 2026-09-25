@@ -9,7 +9,8 @@
 	<carry_item key='vest_assault_webbing.carry_item' enabled="1" />  
 <carry_item key='camouflage_suit.carry_item' enabled="1" />  
 <weapon key="m3_greasegun_folded.weapon" />
-	<weapon key="m1903_at_launcher.weapon" />
+	<weapon key="m1903_rifle_grenade_at.weapon" />
+	<weapon key="m1903_rifle_grenade_he.weapon" />
 	<weapon key="m1_bazooka.weapon" />
 	<weapon key="m5_resource.weapon" />
 	<weapon key="m1_57mm_resource.weapon" />
@@ -20,6 +21,8 @@
 	<weapon key="morphine.weapon" />
 	<projectile key="mkii_grenade.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
+	<projectile key="an_m8_smoke_grenade.projectile" />
+
 	<projectile key="satchel.projectile" />
 	<projectile key="democharge.projectile" />
 	<weapon key='binoculars.weapon' />

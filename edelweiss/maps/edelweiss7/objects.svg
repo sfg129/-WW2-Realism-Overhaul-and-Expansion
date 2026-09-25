@@ -70414,20 +70414,20 @@ can_go_around_start=0; can_go_around_end=0; </desc>
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_75.vehicle;</desc>
+key = m4a3e8.vehicle;</desc>
       </rect>
 <rect
          transform="matrix(0.68862039,-0.72512203,0.72512203,0.68862039,0,0)"
          inkscape:label=""
-         y="748.20869982"
-         x="-147.60778966"
+         y="720.02028672"
+         x="-152.41225907"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_4"
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_75.vehicle;</desc>
+key = m4_75_late.vehicle;</desc>
       </rect>
 <rect
          transform="matrix(0.688620393,-0.7251220272,0.7251220272,0.688620393,0,0)"
@@ -70440,34 +70440,36 @@ key = m4_75.vehicle;</desc>
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_76.vehicle;</desc>
+key = m4_76_late.vehicle;</desc>
       </rect>
-<rect
-         transform="matrix(0.99472427,0.10258473,-0.10258473,0.99472427,0,0)"
-         inkscape:label=""
-         y="297.91814292"
-         x="995.85723704"
-         height="7.3962"
-         width="3.9823"
-         id="spawn_rwrmap_2"
-         style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_75.vehicle;</desc>
-      </rect>
+
 <rect
          transform="matrix(0.99594646,0.08994805,-0.08994805,0.99594646,0,0)"
          inkscape:label=""
-         y="141.91857496"
-         x="1219.56449642"
+         y="136.86120488"
+         x="1216.83678099"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_6"
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc_spawn_rwrmap_6">type = vehicle;
-key = m4_76.vehicle;</desc>
+key = m4a3e2_76_late.vehicle;</desc>
       </rect>
+<rect
+         transform="matrix(0.99594646,0.08994805,-0.08994805,0.99594646,0,0)"
+         inkscape:label=""
+         y="110.32080887"
+         x="1222.51445633"
+         height="7.3962"
+         width="3.9823"
+         id="spawn_rwrmap_8"
+         style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_8">type = vehicle;
+key = m10.vehicle;</desc>
+      </rect>
+
       <rect
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:2.6;stroke-opacity:1;enable-background:new"
          id="spawn3-6-13"
@@ -70495,10 +70497,10 @@ key = at_gun_pak40.vehicle; </desc>
 key = at_gun_pak40.vehicle; </desc>
       </rect>
       <rect
-         transform="rotate(22.509)"
+         transform="matrix(0.96810728,-0.25053602,0.25053602,0.96810728,0,0)"
          inkscape:label=""
-         y="25.125999"
-         x="1887.9"
+         y="1159.54325051"
+         x="1486.15810208"
          height="7.3962002"
          width="3.9823"
          id="spawn1-1-4-2-1-0-9-4-8"
@@ -70508,10 +70510,10 @@ key = at_gun_pak40.vehicle; </desc>
 key = stug_iii.vehicle;</desc>
       </rect>
       <rect
-         transform="matrix(-0.370395324,-0.9288742132,0.9288742132,-0.370395324,0,0)"
+         transform="matrix(-0.70030244,0.71384627,-0.71384627,-0.70030244,0,0)"
          inkscape:label=""
-         y="431.4500131501"
-         x="-2140.5000009737"
+         y="-2174.07756694"
+         x="539.85596751"
          height="7.3962"
          width="3.9823"
          id="spawn1-1-4-2-1-0-9-4-8-6"
@@ -70519,6 +70521,32 @@ key = stug_iii.vehicle;</desc>
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1">type = vehicle;
 key = panther.vehicle;</desc>
+      </rect>
+<rect
+         transform="matrix(0.98469858,-0.1742662,0.1742662,0.98469858,0,0)"
+         inkscape:label=""
+         y="2026.12309315"
+         x="851.89931806"
+         height="7.3962"
+         width="3.9823"
+         id="spawn_rwrmap_9"
+         style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_9">type = vehicle;
+key = stug_iii.vehicle;</desc>
+      </rect>
+<rect
+         transform="matrix(0.02689295,0.99963832,-0.99963832,0.02689295,0,0)"
+         inkscape:label=""
+         y="-1342.75602567"
+         x="1822.02781345"
+         height="7.3962"
+         width="3.9823"
+         id="spawn_rwrmap_10"
+         style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_10">type = vehicle;
+key = stug_iii.vehicle;</desc>
       </rect>
       <rect
          transform="matrix(-0.9357521396,-0.3526583804,0.3526583804,-0.9357521396,0,0)"
@@ -70865,7 +70893,7 @@ key = panzer_iv.vehicle;</desc>
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5">type = vehicle;
-key = panther.vehicle;</desc>
+key = panzer_iv.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(97.362)"
@@ -70932,8 +70960,8 @@ tag = apc; </desc>
       <rect
          transform="matrix(0.68862039,-0.72512203,0.72512203,0.68862039,0,0)"
          inkscape:label=""
-         y="701.75027081"
-         x="-148.31503713"
+         y="752.12821283"
+         x="-149.6327635"
          height="7.3962"
          width="3.9823"
          id="spawn1-1-4-2-1-0-9-4-8-6-9-7"
@@ -70945,15 +70973,15 @@ key = m5a1_stuart.vehicle;</desc>
 <rect
          transform="matrix(0.9989583,-0.04563236,0.04563236,0.9989583,0,0)"
          inkscape:label=""
-         y="406.22202833"
-         x="938.02638317"
+         y="420.66902594"
+         x="938.49850385"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_5"
          style="display:inline;opacity:1;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2-0">type = vehicle;
-key = m4a3e2_76.vehicle;</desc>
+key = m4_75_late.vehicle;</desc>
       </rect>
       <rect
          transform="rotate(94.162)"

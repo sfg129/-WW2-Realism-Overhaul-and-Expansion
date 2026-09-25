@@ -10,8 +10,8 @@
 
     <specification
 	retrigger_time="0.0775"
-	accuracy_factor="0.875"
-	spread_range="0.325"
+	accuracy_factor="0.9"
+	spread_range="0.3"
     sustained_fire_grow_step="0.012" 
     sustained_fire_diminish_rate="0.1"  
 	sight_range_modifier="2"

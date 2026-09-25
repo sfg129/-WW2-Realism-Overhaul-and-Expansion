@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="M4A3 Sherman Flamethrower" key="m4_E4.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="M4A3 Sherman Flamethrower" key="m4_e4.vehicle" respawn_time="100" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
    	<tag name="vehicle" />
@@ -15,7 +15,7 @@
 
 	<!-- max speed was 6.75, accel 10, reverse 6.75 -->
 	<modifier class="blast_range" value="0.65" /> <!-- radius raised to help with issues from AT Rifle Grenades - but not dramatically make other AT weapons overpowered -->
-	<modifier class="blast_damage" value="-3.8" />
+	<modifier class="blast_damage" value="-4" />
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
@@ -35,34 +35,32 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.35 0.18" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.0000467" />
-	<turret offset="-0.4 0.9 -0.4" weapon_key="m4_m2.weapon" weapon_offset="0 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
+	<turret offset="0 2.35 0.18" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.0000427" />
+		<turret offset="-0.59408 0.9 -0.41395" weapon_key="m4_m2.weapon" weapon_offset="0.00186 0.55 0.71395" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
 	<!-- 喷火器本体 (index 2) -->
 		<turret offset="-0.66 1.76 2.65" weapon_key="churchill_crocodile_flamedrive.weapon" weapon_offset="0.0 0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 		<!-- 同轴机枪 (index 3) 保留 -->
-		<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.0000467" />
+		<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.0000427" />
 		<!-- 喷火器枪口效果 (index 4) -->
 		<turret offset="-0.66 1.76 2.65" weapon_key="churchill_crocodile_flamedrive_muzzle.weapon" weapon_offset="0.0 0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
-	<visual class="chassis" mesh_filename="m4_75_chassis.mesh" texture_filename="m4_75.png" max_tilt="0.02" />
-	<visual class="chassis" key="broken" mesh_filename="m4_75_chassis_damage.mesh" texture_filename="m4_75_damage.png" />
-	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_75_turret_damage.mesh" texture_filename="m4_75_damage.png" />  
-	<visual class="turret" turret_index="0" mesh_filename="m4_75_turret.mesh" texture_filename="m4_75.png" />
-	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75.png" />
-	<visual class="turret" turret_index="1" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="m4_75_damage.png" />
+	<visual class="chassis" mesh_filename="m4_71_chassis.mesh" texture_filename="m4_71_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="m4_71_chassis_damage.mesh" texture_filename="m4_71_chassis_damage.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_damage.png" />
+	<visual class="turret" turret_index="0" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret.png" />
+	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75_V.png" offset="-0.00317 -0.05806 0.00349" />
+	<visual class="turret" turret_index="1" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="m4_75_V_damage.png"  offset="-0.04099 -0.04196 -0.01495"/>
 	<visual class="turret" turret_index="2" mesh_filename="churchill_crocodile_flamedrive.mesh" texture_filename="churchill_crocodile.png"  offset="0 -0.21349 -0.34533"/>
 
-	<visual class="track" mesh_filename="m4_75_track.mesh" offset="-1.34 0.0 0.0" >
-		<part texture_filename="m4_wheel.png" texture_animation="rotate" tire_binding="0" />
-		<part texture_filename="m4_75.png" />
-		<part texture_filename="m4_75_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
+	<visual class="track" mesh_filename="m4_71_running_neg.mesh" offset="0 0 0" >
+		<part texture_filename="m4_71_running.png" />
+		<part texture_filename="m4_71_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="m4_75_track.mesh" offset="+1.34 0.0 0.0" >
-		<part texture_filename="m4_wheel.png" texture_animation="rotate" tire_binding="1" />
-		<part texture_filename="m4_75.png" />
-		<part texture_filename="m4_75_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
+	<visual class="track" mesh_filename="m4_71_running_pos.mesh" offset="0 0 0" >
+		<part texture_filename="m4_71_running.png" />
+		<part texture_filename="m4_71_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
 	</visual>
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->
@@ -74,7 +72,7 @@
 		<character_slot type="gunner" position="-1 0.7 2.14605" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">
 			<turret index="2" /> <turret index="4" />
 		</character_slot>
-		<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0 -0.8 0" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+		<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="-0.0026 -0.95614 -0.03258" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 			<turret index="1" />
 		</character_slot>	
 

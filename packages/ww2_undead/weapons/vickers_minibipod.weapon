@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="vickers_minibipod.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="30.0"	
 ai_burst_time="7" 
 	ai_burst_time_variance="2" 
@@ -30,8 +30,8 @@ projectile_speed="120.0"
 
 	<stance state_key="standing" accuracy="0.65" />		<!-- was 0.75 -->
 	<stance state_key="crouching" accuracy="0.75" />	<!-- was 0.925 -->
-	<stance state_key="prone" accuracy="1.1" />
-	<stance state_key="over_wall" accuracy="1.1" /> 
+	<stance state_key="prone" accuracy="1.2" />
+	<stance state_key="over_wall" accuracy="1.2" /> 
  
 
 	<animation key="recoil" ref="12" />
@@ -58,20 +58,13 @@ projectile_speed="120.0"
 	<model filename="weapon_vickers_minibipod.xml" />
 	<hud_icon filename="hud_vickers_bipod.png" />
 	
-	<commonness value="0.02" can_respawn_with="0"/>
+	<commonness value="0.03" can_respawn_with="0"/>
 	<inventory encumbrance="8.0" price="250" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
-	<modifier class="speed" value="-0.18" /> 
+	<modifier class="speed" value="-0.16" /> 
 	<!-- damage was 0.525, decay start 0.65 -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1" 
-		kill_decay_start_time="0.59"
-		kill_decay_end_time="0.9" 
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_303_mg.projectile" />
 	
 </weapon>

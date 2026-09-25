@@ -14,7 +14,7 @@
 		<resources file="common.resources" />
 		<resources file="snlf_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
-		<resources file="snlf_default.resources" />
+		<resources file="snlf_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -48,7 +48,7 @@
 		<resources file="common.resources" />
 		<resources file="snlf_primaries_ai.resources" />
 		<resources file="ija_secondaries_ai.resources" />
-		<resources file="snlf_default.resources" />
+		<resources file="snlf_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -79,7 +79,7 @@
 		<resources file="common.resources" />
 		<resources file="ija_primaries_ai_mg.resources" />
 		<resources file="ija_secondaries_ai_mg.resources" />
-		<resources file="snlf_default.resources" />
+		<resources file="snlf_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -112,7 +112,7 @@
 		
 		<resources file="snlf_veteran_primaries.resources" />
 		<resources file="ija_veteran_secondaries.resources" />
-		<resources file="snlf_leader_call.resources" />
+		<resources file="snlf_4_tarawa_leader_call.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -146,7 +146,7 @@
 		<model filename="soldier_snlf_body_armour.xml" />
 
 		<resources file="ija_sentry.resources" />
-		<resources file="snlf_leader_call_no_vehicle.resources" />
+		<resources file="snlf_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -241,7 +241,7 @@
 		
 		<resources file="ija_sniper_primaries.resources" />
 		<resources file="ija_sniper_secondaries.resources" />
-		<resources file="snlf_leader_call_no_vehicle.resources" />
+		<resources file="snlf_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -341,7 +341,7 @@
 		
 		<resources file="ija_banzai_officer_primaries.resources" />
 		<resources file="ija_banzai_officer_secondaries.resources" />
-		<resources file="snlf_leader_call_no_vehicle.resources" />
+		<resources file="snlf_4_tarawa_leader_call_no_vehicle.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->
@@ -375,7 +375,7 @@
 		<resources file="usmc_primaries.resources" />
 		<resources file="ija_secondaries.resources" />
 		<resources file="usmc_secondaries.resources" />
-		<resources file="snlf_default.resources" />
+		<resources file="snlf_4_tarawa_default.resources" />
 		
 		<item_class_existence_config>
 			<!-- secondaries -->

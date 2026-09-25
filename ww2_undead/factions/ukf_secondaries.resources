@@ -10,11 +10,14 @@
 	<weapon key="light_mortar_resource.weapon" />
 	<weapon key="piat.weapon" />
 	<weapon key="smle_rifle_grenade_at.weapon" />
+	<weapon key="smle_rifle_grenade_he.weapon" />
 		<weapon key="vickers_hmg_resource.weapon" />
 
 	<!--<weapon key="enfield_mkii_revolver.weapon" />-->
 	<weapon key="morphine.weapon" />
 	<projectile key="mills_bomb_grenade.projectile" />
+	<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
 			<weapon key="enfield_mkii_revolver.weapon" />
 	<weapon key="sw_model10.weapon" />

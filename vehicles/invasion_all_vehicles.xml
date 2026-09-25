@@ -11,13 +11,12 @@
 	<vehicle file="m1917_hmg.vehicle" />
 	<vehicle file="universal_carrier_boys.vehicle" />
 	<vehicle file="sidecar_german.vehicle" />
-		<vehicle file="stuart_recce.vehicle" />
 			<vehicle file="m3_halftrack_mortar.vehicle" />
 			<vehicle file="sdkfz251_mortar.vehicle" />
 			<vehicle file="universal_carrier_vickers_k.vehicle" />
 <vehicle file="panzer_iv_base_flak88.vehicle" />
 <vehicle file="sdkfz251_pak40.vehicle" />
-<vehicle file="m4_E4.vehicle" />
+<vehicle file="m4_e4.vehicle" />
 	<vehicle file="luchs.vehicle" />
 	<vehicle file="dukw.vehicle" />
 	<vehicle file="soukoutei.vehicle" />
@@ -37,6 +36,7 @@
 	<vehicle file="m4a3e8.vehicle" />
 	<vehicle file="m4a3e2_75.vehicle" />
 	<vehicle file="m4a3e2_76.vehicle" />
+	<vehicle file="m4a3e2_76_late.vehicle" />
 	<vehicle file="lefh18.vehicle" />
 	<vehicle file="mg34_hmg.vehicle" />
 	<vehicle file="mg42_hmg.vehicle" />
@@ -72,7 +72,6 @@
 	<vehicle file="m3_halftrack_fastrespawn.vehicle" />
 	<vehicle file="m4_V.vehicle" />
 	<vehicle file="m4_V_fastrespawn.vehicle" />
-	<vehicle file="m4_rhino.vehicle" />
 	<vehicle file="m4_firefly.vehicle" />
 	<vehicle file="m4_firefly_fastrespawn.vehicle" />
 	<vehicle file="tiger.vehicle" />

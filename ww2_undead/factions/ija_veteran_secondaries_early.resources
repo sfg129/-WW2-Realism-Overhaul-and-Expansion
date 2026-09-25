@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_grenades="1" clear_carry_items="1">
 
-	<weapon key="type38_rifle_at_launcher.weapon" />
+	<weapon key="type38_rifle_grenade_at.weapon" />
 
 	<projectile key="type97_grenade.projectile" />
 	<projectile key="type99_at_mine.projectile" />

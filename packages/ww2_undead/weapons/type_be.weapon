@@ -8,7 +8,8 @@
 	retrigger_time="0.095" 
 	accuracy_factor="0.95" 
 	sustained_fire_grow_step="0.17" 
-	sustained_fire_diminish_rate="1.55"
+	sustained_fire_diminish_rate="1.6"
+	spread_range="0.33"
 	magazine_size="50" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -20,7 +21,7 @@
 	<next_in_chain key="type_be_b.weapon" share_ammo="1" />
 
 	<!-- simple SMG sight -->
-
+<modifier class="speed" value="-0.085" />
 	<!-- the Japanese-contract "MP 18" in 7.63mm Mauser. -->
 	<!-- statistically same as the Type STE (MP 34) since they're very similar in design, and same caliber. -->
 	<!-- magazine capacity is 50 rounds though. -->
@@ -47,13 +48,6 @@
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="0.625"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.8"
-		/>
-	</projectile>
+	<projectile file="bullet_pistol_762.projectile" />
 
 </weapon>

@@ -50,13 +50,6 @@ projectile_speed="130.0"
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	<!-- kill_probability was 1.25, raised for better damage vs. body armour -->
-	<projectile file="bullet.projectile">
-		<result
-		class="hit"
-		kill_probability="1.5"
-		kill_decay_start_time="0.4"
-		kill_decay_end_time="0.9"
-		/>
-	</projectile>
+	<projectile file="bullet_rifle_6550.projectile" />
 	
 </weapon>

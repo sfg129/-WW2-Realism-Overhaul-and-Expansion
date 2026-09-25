@@ -137,6 +137,7 @@
 	<text key="M2HB HMG deploy" />
 	<text key="M17 HE Rifle Grenade" />
 	<text key="M24 Stielhandgranate" />
+	<text key="Model 39 Eihandgranate" />
 	<text key="Panzerwurfmine" />
 	<text key="strafing run" />
 	<text key="Mills Bomb Grenade" />
@@ -320,5 +321,25 @@
 	<text key="Reinforcements - M4A3E2(76) Sherman" />
 	<text key="Requesting reinforcements, M4A3E2(76) Sherman" />
 	<text key="M4A3E2(76) Sherman deployed" />
+	<text key="M4A3(76) Sherman" />
+	<text key="Reinforcements - M4A3(76) Sherman" />
+	<text key="Requesting reinforcements, M4A3(76) Sherman" />
+	<text key="M4A3(76) Sherman deployed" />
+	<text key="M4A3(76)W Sherman" />
+	<text key="Reinforcements - M4A3(76)W Sherman" />
+	<text key="Requesting reinforcements, M4A3(76)W Sherman" />
+	<text key="M4A3(76)W Sherman deployed" />
+	<text key="M4A3E8 Sherman" />
+	<text key="Reinforcements - M4A3E8 Sherman" />
+	<text key="Requesting reinforcements, M4A3E8 Sherman" />
+	<text key="M4A3E8 Sherman deployed" />
+	<text key="M4A3 Sherman Flamethrower" />
+	<text key="Reinforcements - M4A3 Sherman Flamethrower" />
+	<text key="Requesting reinforcements, M4A3 Sherman Flamethrower" />
+	<text key="M4A3 Sherman Flamethrower deployed" />
+	<text key="Sherman Firefly VC" />
+	<text key="Reinforcements - Sherman Firefly VC" />
+	<text key="Requesting reinforcements, Sherman Firefly VC" />
+	<text key="Sherman Firefly VC deployed" />
 
 </translation>
