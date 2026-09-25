@@ -55,13 +55,13 @@
 	<model filename="weapon_panzerfaust_late.xml" />
 	<hud_icon filename="hud_panzerfaust_late.png" />
 	
-	<commonness value="0.1" />
+	<commonness value="0.08" />
 	<inventory encumbrance="3" price="8" />
 	
 	<capacity value="2" source="rank" source_value="0.0" />
 
 	
-	<projectile file="panzerfaust_rocket.projectile" />
+	<projectile file="panzerfaust_rocket_late.projectile" />
 	<ballistics
 near_far_distance="16.0"
     speed_estimation_near="10.0"

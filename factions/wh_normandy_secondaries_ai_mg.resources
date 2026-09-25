@@ -5,6 +5,9 @@
 
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="eierhandgranate.projectile" />
+	<projectile key="nebelhandgranate_39.projectile" />
+	<projectile key="nebeleihandgranate_42.projectile" />
+
 
 <carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  

@@ -18,7 +18,7 @@
     <hud_icon filename="hud_no79.png" />
     <rotation class="random" />
     <throwable curve_height="5" near_far_distance="12.0" speed_estimation_near="17.0" speed_estimation_far="17.0" max_speed="16.5" randomness="0.07" />
-    <commonness value="0.0" can_respawn_with="1" />
-    <inventory encumbrance="1.5" price="4.0" />
+    <commonness value="0.1" can_respawn_with="1" />
+    <inventory encumbrance="1.5" price="5.0" />
     <capacity value="4" source="rank" source_value="0" />
 </projectile>

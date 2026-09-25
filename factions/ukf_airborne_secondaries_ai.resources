@@ -22,5 +22,6 @@
 <carry_item key='vest_normala.carry_item' enabled="1" />  
 <weapon key="morphine.weapon" />
 <weapon key="m1911.weapon" />
-	
+		<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 </resources>

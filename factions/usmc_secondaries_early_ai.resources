@@ -15,6 +15,8 @@
 	<weapon key="m2hb_hmg_resource_t.weapon" />
 	<weapon key="bofors_resource.weapon" />
 	<projectile key="mk3_grenade.projectile" />
+		<projectile key="an_m8_smoke_grenade.projectile" />
+
 	<carry_item key='vest_normal.carry_item' enabled="1" />  
 <carry_item key='vest_normals.carry_item' enabled="1" />  
 <carry_item key='vest_normalw.carry_item' enabled="1" />  

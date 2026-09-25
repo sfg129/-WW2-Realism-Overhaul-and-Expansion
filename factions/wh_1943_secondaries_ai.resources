@@ -9,6 +9,7 @@
 
 	
 	<weapon key="p08.weapon" />
+	<projectile key="nebelhandgranate_39.projectile" />
 
 	<projectile key="stielhandgranate.projectile" />
 	<projectile key="eierhandgranate.projectile" />

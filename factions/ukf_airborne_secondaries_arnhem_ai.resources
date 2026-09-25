@@ -24,5 +24,6 @@
 		<weapon key="vickers_hmg_resource.weapon" />
 		<weapon key="vickers_hmg_resource_t.weapon" />
 	<!--<projectile key="flare.projectile" />  -->
-	
+		<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 </resources>

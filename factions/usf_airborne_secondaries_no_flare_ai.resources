@@ -17,9 +17,11 @@
 <carry_item key='vest_normala.carry_item' enabled="1" />  
 	<weapon key="m18_recoilless_rifle.weapon" />
 <weapon key="morphine.weapon" />
-<projectile key="mk3_grenade.projectile" />
+
 	<projectile key="mkii_grenade.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
 	<projectile key="satchel.projectile" />
 	<weapon key="m9a1_bazooka_ai.weapon" />
+		<projectile key="an_m8_smoke_grenade.projectile" />
+
 </resources>

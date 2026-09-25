@@ -4,10 +4,9 @@
 	<weapon key="type38_rifle_grenade_at.weapon" />
 
 	<projectile key="type97_grenade.projectile" />
-	<projectile key="type99_at_mine.projectile" />
 
 	<carry_item key='vest_veteran.carry_item' enabled="1" />  
-
+<projectile key="type_94_smoke_candle.projectile" />
 	<weapon key="type14_nambu_pistol.weapon" />
 	<weapon key="type100_folding.weapon" />
 	<weapon key="c96.weapon" />

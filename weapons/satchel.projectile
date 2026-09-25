@@ -39,7 +39,7 @@
 	tweak_factor="1.1" />
 	
     <commonness value="0.2" />
-    <inventory encumbrance="2" price="5.0" />
+    <inventory encumbrance="2" price="3.0" />
 	
 
     <capacity value="4" source="rank" source_value="0" />

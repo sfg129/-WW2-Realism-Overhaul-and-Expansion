@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="M4A3 Sherman" key="m4_75_late.vehicle" respawn_time="90" time_to_live_unsteerable="60" map_view_atlas_index="60" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
+<vehicle file="vehicle_base.vehicle" name="M4A3 Sherman" key="m4_75_late.vehicle" respawn_time="90" time_to_live_unsteerable="60" map_view_atlas_index="93" minimum_fill_requirement="0.51" max_character_collision_speed="-1" max_character_collision_speed_on_normal="4.5" character_leave_request_mode="friendly" allow_owner_to_use_only="0" existence="one_per_spawn_point" owner="faction">
 	<tag name="metal_heavy" />
 	<tag name="tank" />
    	<tag name="vehicle" />
@@ -45,7 +45,7 @@
 	<visual class="chassis" key="broken" mesh_filename="m4_76_70_chassis_damage.mesh" texture_filename="m4_76_70_chassis_running_damage.png" />
 	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_damage.png"  offset="0 0.10832 0"/>
 	<visual class="turret" turret_index="0" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_late.png"  offset="0 0.10721 0"/>
-	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75_V.png" offset="-0.01156 0.01188 -0.01027" />
+	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75_V.png" offset="-0.01156 0.07239 -0.01027" />
 	<visual class="turret" turret_index="1" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="m4_75_V_damage.png"  offset="-0.01173 -0.05015 -0.01013"/>
 	<visual class="turret" turret_index="2" mesh_filename="m4_hull_mg.mesh" texture_filename="m4_75.png" />
 
@@ -65,7 +65,7 @@
 	<character_slot type="gunner" position="-1.13643 0.7 0.2074" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" /> <turret index="3" />
 	</character_slot>
-	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0.0332 -0.9926 -0.10856" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
+	<character_slot type="gunner" attached_on_turret="1" enter_position="0 0.7 -4.5" seat_position="0.0332 -0.97166 -0.10856" rotation="0" exit_rotation="-1.57" hiding="0" animation_key="tank mg still">
 		<turret index="1" />
 	</character_slot>	
 	<character_slot type="gunner" position="-1 0.7 2.25263" rotation="0" exit_rotation="-1.57" hiding="1" animation_key="tank mg still">

@@ -8,9 +8,11 @@
 	<weapon key="browning_hp_carbine.weapon" />
 	<weapon key="austen_mki_folded.weapon" />
 	<weapon key="enfield_mkii_revolver.weapon" />
-	
+		<projectile key="gammon_bomb.projectile" />
+
 	<projectile key="mills_bomb_grenade.projectile" />
-	<projectile key="satchel.projectile" />
+	<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 
 
 	

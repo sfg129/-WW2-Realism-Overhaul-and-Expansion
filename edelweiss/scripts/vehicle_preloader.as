@@ -25,6 +25,11 @@ class HighDetailVehiclePreloader : Tracker {
 	protected float m_elapsed = 0.0f;
 	protected float m_vehicleStartElapsed = 0.0f;
 	protected bool m_completed = false;
+	protected bool m_batchStarted = false;
+	protected array<bool> m_batchPending;
+	protected uint m_batchRemaining = 0;
+	protected float m_batchPollDelay = 0.25f;
+	protected bool m_batchDelayWarned = false;
 
 	HighDetailVehiclePreloader(Metagame@ metagame, string explicitMapId = "") {
 		@m_metagame = @metagame;
@@ -52,7 +57,9 @@ class HighDetailVehiclePreloader : Tracker {
 		addVehicle("deco_pickup_blue.vehicle", 0);
 		// The high-detail 71 chassis/turret/running gear is used by M4(75)
 		// variants and is distinct from the 70, E2, E8 and Sherman V assets.
-		addVehicle("m4_75.vehicle", 0);
+		if (mapId == "edelweiss1" || mapId == "edelweiss2" || mapId == "edelweiss6" ||
+			mapId == "edelweiss7" || mapId == "edelweiss8" || mapId == "edelweiss11")
+			addVehicle("m4_75.vehicle", 0);
 		if (mapId == "edelweiss1" || mapId == "edelweiss3" || mapId == "edelweiss4" ||
 			mapId == "edelweiss5" || mapId == "edelweiss8" || mapId == "edelweiss9" ||
 			mapId == "edelweiss11") addVehicle("m4_V.vehicle", 0);
@@ -91,6 +98,66 @@ class HighDetailVehiclePreloader : Tracker {
 		}
 	}
 
+	// Issue all representative spawns in one update for every configured map.
+	// Keep them separated and only remove instances at these private positions.
+	protected bool useBatchWarmup() const {
+		return m_vehicleKeys.length() > 0;
+	}
+
+	protected Vector3 getBatchPosition(uint index) const {
+		return Vector3(m_originX + 40.0f + float(index % 4) * 8.0f,
+			-100.0f, m_originZ + 40.0f + float(index / 4) * 8.0f);
+	}
+
+	protected void startBatch() {
+		m_batchStarted = true;
+		m_batchPending = array<bool>(m_vehicleKeys.length(), true);
+		m_batchRemaining = m_vehicleKeys.length();
+		for (uint i = 0; i < m_vehicleKeys.length(); ++i) {
+			XmlElement command("command");
+			command.setStringAttribute("class", "create_instance");
+			command.setStringAttribute("instance_class", "vehicle");
+			command.setStringAttribute("instance_key", m_vehicleKeys[i]);
+			command.setStringAttribute("position", getBatchPosition(i).toString());
+			command.setIntAttribute("instances", 1);
+			command.setIntAttribute("faction_id", m_factionIds[i]);
+			m_metagame.getComms().send(command);
+		}
+		_log("HighDetailVehiclePreloader[" + m_mapId + "]: requested all " +
+			m_batchRemaining + " representative vehicles in one update", 1);
+	}
+
+	protected bool removeBatchVehicle(uint index, int vehicleId) {
+		if (!m_batchPending[index]) return false;
+		const XmlElement@ info = getVehicleInfo(m_metagame, vehicleId);
+		if (info is null || !info.hasAttribute("position")) return false;
+		Vector3 position = stringToVector3(info.getStringAttribute("position"));
+		Vector3 expected = getBatchPosition(index);
+		if (abs(position.m_values[0] - expected.m_values[0]) >= 1.0f ||
+			abs(position.m_values[2] - expected.m_values[2]) >= 1.0f) return false;
+		removeVehicle(m_metagame, vehicleId);
+		m_batchPending[index] = false;
+		m_batchRemaining--;
+		_log("HighDetailVehiclePreloader[" + m_mapId + "]: warmed and removed " +
+			m_vehicleKeys[index] + ", remaining " + m_batchRemaining, 1);
+		if (m_batchRemaining == 0) {
+			m_completed = true;
+			_log("HighDetailVehiclePreloader[" + m_mapId + "]: batch complete, approximate preload window " +
+				m_elapsed + " s", 1);
+		}
+		return true;
+	}
+
+	protected void pollBatch() {
+		for (uint i = 0; i < m_vehicleKeys.length(); ++i) {
+			if (!m_batchPending[i]) continue;
+			array<const XmlElement@>@ vehicles = getVehicles(m_metagame, m_factionIds[i], m_vehicleKeys[i]);
+			for (uint j = 0; j < vehicles.length(); ++j) {
+				if (removeBatchVehicle(i, vehicles[j].getIntAttribute("id"))) break;
+			}
+		}
+	}
+
 	protected void spawnNext() {
 		if (m_nextIndex >= m_vehicleKeys.length()) {
 			m_completed = true;
@@ -118,6 +185,23 @@ class HighDetailVehiclePreloader : Tracker {
 	void update(float time) {
 		if (m_completed) return;
 		m_elapsed += time;
+		if (useBatchWarmup()) {
+			if (!m_batchStarted) {
+				startBatch();
+				return;
+			}
+			if (!m_batchDelayWarned && m_elapsed >= 30.0f && m_batchRemaining > 0) {
+				m_batchDelayWarned = true;
+				_log("HighDetailVehiclePreloader[" + m_mapId + "]: still waiting for " +
+					m_batchRemaining + " test vehicles; continuing cleanup checks", -1);
+			}
+			m_batchPollDelay -= time;
+			if (m_batchPollDelay <= 0.0f) {
+				m_batchPollDelay = m_elapsed < 30.0f ? 0.25f : 5.0f;
+				pollBatch();
+			}
+			return;
+		}
 
 		if (m_waitingKey != "") {
 			m_spawnTimeout -= time;
@@ -135,6 +219,15 @@ class HighDetailVehiclePreloader : Tracker {
 	}
 
 	protected void handleVehicleSpawnEvent(const XmlElement@ event) {
+		if (useBatchWarmup()) {
+			if (!m_batchStarted) return;
+			string key = event.getStringAttribute("vehicle_key");
+			for (uint i = 0; i < m_vehicleKeys.length(); ++i) {
+				if (m_batchPending[i] && m_vehicleKeys[i] == key &&
+					removeBatchVehicle(i, event.getIntAttribute("vehicle_id"))) break;
+			}
+			return;
+		}
 		if (m_waitingKey == "" || event.getStringAttribute("vehicle_key") != m_waitingKey) return;
 
 		int vehicleId = event.getIntAttribute("vehicle_id");

@@ -15,5 +15,6 @@
 	
 	<projectile key="mills_bomb_grenade.projectile" />
 	<projectile key="satchel.projectile" />
-	
+		<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 </resources>

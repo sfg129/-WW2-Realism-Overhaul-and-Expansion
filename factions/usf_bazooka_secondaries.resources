@@ -4,7 +4,7 @@
 	<weapon key="m9a1_bazooka_ai.weapon" />
 	
 	<carry_item key='vest_snlf_for_ai.carry_item' enabled="1" />	<!-- this vest was repurposed to be the Tank Hunter vest since it already existed in all the lists, and was unused.-->
-	
+		<projectile key="an_m8_smoke_grenade.projectile" />
 	<projectile key="hawkins_grenade.projectile" />
 
 </resources>

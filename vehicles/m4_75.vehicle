@@ -35,16 +35,16 @@
 	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
 	<!-- similarly, a controllable turret can only exist if it has a weapon -->
 	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
-	<turret offset="0 2.35 0.18" weapon_key="m4_75_cannon.weapon" weapon_offset="0.0 0.52 1.2" weapon_recoil="0.2" max_rotation_step="0.0000427" />
-	<turret offset="-0.61118 0.9 -0.4" weapon_key="m4_m2.weapon" weapon_offset="0.01896 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
+	<turret offset="0 2.35 0.17377" weapon_key="m4_75_cannon.weapon" weapon_offset="0 0.52 1.20623" weapon_recoil="0.2" max_rotation_step="0.0000427" />
+	<turret offset="-0.61118 0.9 -0.39377" weapon_key="m4_m2.weapon" weapon_offset="0.01896 0.55 0.7" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" parent_turret_index="0" />
 	<turret offset="-0.66 1.76 2.65" weapon_key="m4_hull_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.0000427" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
 	<visual class="chassis" mesh_filename="m4_71_chassis.mesh" texture_filename="m4_71_chassis.png" max_tilt="0.02" />
 	<visual class="chassis" key="broken" mesh_filename="m4_71_chassis_damage.mesh" texture_filename="m4_71_chassis_damage.png" />
-	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_damage.png"  offset="0 0.02841 0"/>
-	<visual class="turret" turret_index="0" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret.png"  offset="0 0.01202 0"/>
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_damage.png"  offset="0 0.02841 0.00623"/>
+	<visual class="turret" turret_index="0" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret.png"  offset="0 0.01717 0.00623"/>
 	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75_V.png" offset="0.01393 -0.05806 -0.01046" />
 	<visual class="turret" turret_index="1" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="m4_75_V_damage.png"  offset="-0.02389 -0.04196 -0.0289"/>
 	<visual class="turret" turret_index="2" mesh_filename="m4_hull_mg.mesh" texture_filename="m4_75.png" />

@@ -7,5 +7,6 @@
 	<weapon key="austen_mki_folded.weapon" />
 	
 	<carry_item key='camouflage_suit_for_ai.carry_item' enabled="1" />  
-	
+
+	<projectile key="no79.projectile" />
 </resources>

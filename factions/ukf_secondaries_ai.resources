@@ -23,4 +23,6 @@
 <carry_item key='vest_normala.carry_item' enabled="1" />  
 	<weapon key='binoculars.weapon' />
 	<weapon key="morphine.weapon" />
+		<projectile key="no77_smoke_grenade.projectile" />
+	<projectile key="no79.projectile" />
 </resources>

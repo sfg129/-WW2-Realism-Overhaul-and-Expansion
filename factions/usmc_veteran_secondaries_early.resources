@@ -8,11 +8,12 @@
 	<weapon key="m1911_officer.weapon" />
 
 	<weapon key="m1917_revolver.weapon" />
+	<projectile key="an_m8_smoke_grenade.projectile" />
 
 	
 	<carry_item key='vest_veteran.carry_item' enabled="1" />  
 	
 	<projectile key="mkii_grenade.projectile" />
-	<projectile key="satchel.projectile" />
+
 	<projectile key="mk3_grenade.projectile" />
 </resources>

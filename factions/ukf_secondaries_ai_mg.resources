@@ -11,4 +11,5 @@
 	<weapon key='medikit.weapon' enabled="0"/>
 	<weapon key='morphine.weapon' enabled="0"/>
 
+	<projectile key="no79.projectile" />
 </resources>

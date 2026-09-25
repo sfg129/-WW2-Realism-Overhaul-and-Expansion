@@ -6,8 +6,9 @@
 	<weapon key="sw_model10.weapon" />
 	<projectile key="mk3_grenade.projectile" />
 	<projectile key="mills_bomb_grenade.projectile" />
-	<projectile key="hawkins_grenade.projectile" />
+
+	<projectile key="no77_smoke_grenade.projectile" />
 
 	<projectile key="gammon_bomb.projectile" />
-	<projectile key="satchel.projectile" />
+
 </resources>

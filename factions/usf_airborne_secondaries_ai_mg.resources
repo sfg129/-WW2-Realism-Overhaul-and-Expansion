@@ -10,5 +10,7 @@
 <carry_item key='vest_normala.carry_item' enabled="1" />  
 	<weapon key='medikit.weapon' enabled="0"/>
 	<weapon key='morphine.weapon' enabled="0"/>
+		<projectile key="an_m8_smoke_grenade.projectile" />
+
 	<weapon key='cover_resource.weapon' enabled="0"/>
 </resources>

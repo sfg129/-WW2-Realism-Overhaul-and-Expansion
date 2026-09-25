@@ -55,6 +55,6 @@
 	<call key="wh_vehicle_stug.call" />
 	<call key="wh_vehicle.call" />
 	<call key="wh_vehicle_panther.call" />
-	<call key="wh_vehicle_tiger.call" />
+
 	
 </resources>

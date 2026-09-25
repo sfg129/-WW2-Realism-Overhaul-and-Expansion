@@ -36,7 +36,7 @@
 	/>
 	
 	<commonness value="0.2" />
-	<inventory encumbrance="1.5" price="4.0" />
+	<inventory encumbrance="1.5" price="6.0" />
 	
 	<capacity value="4" source="rank" source_value="0" />
 
