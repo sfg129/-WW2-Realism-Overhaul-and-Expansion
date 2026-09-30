@@ -296,10 +296,10 @@
 	<text key="Requesting reinforcements, Universal Carrier VickersK" text="请求增援，通用运输车 - 维克斯K机枪"/>
 	<text key="Universal Carrier VickersK deployed" text="通用运输车 - 维克斯K机枪已部署"/>
 
-	<text key="M4A3 Sherman Flamethrower" text="M4A3“谢尔曼”中型坦克 火焰喷射器"/>
-	<text key="Reinforcements - M4A3 Sherman Flamethrower" text="增援 - M4A3“谢尔曼”中型坦克 火焰喷射器"/>
-	<text key="Requesting reinforcements, M4A3 Sherman Flamethrower" text="请求增援，M4A3“谢尔曼”中型坦克 火焰喷射器"/>
-	<text key="M4A3 Sherman Flamethrower deployed" text="M4A3“谢尔曼”中型坦克 火焰喷射器已部署"/>
+	<text key="M4A3 Sherman E4-5 Flamethrower" text="M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
+	<text key="Reinforcements - M4A3 Sherman E4-5 Flamethrower" text="增援 - M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
+	<text key="Requesting reinforcements, M4A3 Sherman E4-5 Flamethrower" text="请求增援，M4A3“谢尔曼”中型坦克 E4-5火焰喷射器"/>
+	<text key="M4A3 Sherman E4-5 Flamethrower deployed" text="M4A3“谢尔曼”中型坦克 E4-5火焰喷射器已部署"/>
 
 	<text key="Reinforcements - Universal Carrier Boys" text="增援 - 通用运输车 - 博斯 Mk I 反坦克步枪"/>
 <text key="Requesting reinforcements, Universal Carrier Boys" text="请求增援，通用运输车 - 博斯 Mk I 反坦克步枪"/>
@@ -329,9 +329,9 @@
 	<text key="Requesting reinforcements, M3 Halftrack" text="请求增援，M3 半履带装甲车"/>
 	<text key="M3 Halftrack deployed" text="M3 半履带装甲车已部署"/>
 	<text key="Light Mortar Deploy" text="轻型迫击炮部署包"/>
-	<text key="Reinforcements - M10 GMC" text="增援 - M10“狼獾”自行反坦克炮"/>
-	<text key="Requesting reinforcements, M10 GMC" text="请求增援，M10“狼獾”自行反坦克炮"/>
-	<text key="M10 GMC deployed" text="M10“狼獾”自行反坦克炮已部署"/>
+	<text key="Reinforcements - M10 GMC" text="增援 - M10“狼獾”坦克歼击车"/>
+	<text key="Requesting reinforcements, M10 GMC" text="请求增援，M10“狼獾”坦克歼击车"/>
+	<text key="M10 GMC deployed" text="M10“狼獾”坦克歼击车已部署"/>
 	
 	<text key="Reinforcements - Panzer IV" text="增援 - 四号中型坦克"/>
 	<text key="Requesting reinforcements, Panzer IV" text="请求增援，四号中型坦克"/>
@@ -359,7 +359,7 @@
 	<text key="Sd.Kfz.251/2 deployed" text="Sd.Kfz.251/2 半履带迫击炮运载车已部署"/>
 
 	<!-- Edel May 2021 Update -->
-	<text key="M10 GMC" text="M10“狼獾”自行反坦克炮"/>
+	<text key="M10 GMC" text="M10“狼獾”坦克歼击车"/>
 
 	<text key="Boys Mk I Anti-Tank Rifle" text="博斯 Mk I 反坦克步枪"/>
 	<text key="Scoped P14 IS" text="恩菲尔德 P14 狙击步枪（机械瞄具）"/>
@@ -374,9 +374,9 @@
 	<text key="Requesting reinforcements, M4A3 Sherman" text="请求增援，M4A3“谢尔曼”中型坦克"/>
 	<text key="M4A3 Sherman deployed" text="M4A3“谢尔曼”中型坦克已部署"/>
 
-	<text key="Reinforcements - M10 GMC" text="增援 - M10“狼獾”自行反坦克炮"/>
-	<text key="Requesting reinforcements, M10 GMC" text="请求增援 - M10“狼獾”自行反坦克炮"/>
-	<text key="M10 GMC deployed" text="M10“狼獾”自行反坦克炮已部署"/>
+	<text key="Reinforcements - M10 GMC" text="增援 - M10“狼獾”坦克歼击车"/>
+	<text key="Requesting reinforcements, M10 GMC" text="请求增援 - M10“狼獾”坦克歼击车"/>
+	<text key="M10 GMC deployed" text="M10“狼獾”坦克歼击车已部署"/>
 
 	<text key="Sd.Kfz.251/22" text="Sd.Kfz.251/22 半履带反坦克炮运载车"/>
 	<text key="Reinforcements - Sd.Kfz.251/22" text="增援 - Sd.Kfz.251/22 半履带反坦克炮运载车"/>
@@ -498,4 +498,6 @@
 	<text key="Reinforcements - M4A3E8 Sherman" text="增援 - M4A3E8“谢尔曼”中型坦克" />
 	<text key="Requesting reinforcements, M4A3E8 Sherman" text="请求增援，M4A3E8“谢尔曼”中型坦克" />
 	<text key="M4A3E8 Sherman deployed" text="M4A3E8“谢尔曼”中型坦克已部署" />
+	<text key="Memory Sunrise" text="记忆中的日出"/>
+	<text key="Turnsoles" text="向日葵"/>
 </translation>

@@ -27,6 +27,8 @@ class MyStageConfiguratorAlliesInvasion : MyStageConfiguratorAllies {
 		stage.m_mapInfo.m_name = "Swan River";
 		stage.m_mapInfo.m_path = "media/packages/edelweiss/maps/edelweiss9";
 		stage.m_mapInfo.m_id = "edelweiss9";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_un_b.call", "ukf_vehicle_un_b_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_un.call", "ukf_vehicle_un_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.allies"); 
 		stage.m_includeLayers.insertLast("layer.allies"); 
 

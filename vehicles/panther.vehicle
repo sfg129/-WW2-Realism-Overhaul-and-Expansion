@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle file="vehicle_base.vehicle" name="Panther" key="panther.vehicle"
-	time_to_live_unsteerable="60" respawn_time="150" map_view_atlas_index="80"
+	time_to_live_unsteerable="60" respawn_time="180" map_view_atlas_index="80"
 	minimum_fill_requirement="0.51" max_character_collision_speed="-1"
 	max_character_collision_speed_on_normal="3.5" character_leave_request_mode="friendly"
 	usable_for_cover="0" allow_owner_to_use_only="0" owner="faction">
@@ -14,13 +14,13 @@
 	<!-- Physical contact points scaled with the finalized 1.96 vehicle geometry. -->
 	<tire_set offset="1.58294 0.0 3.332" radius="0.7448" />
 	<tire_set offset="1.58294 0.0 -3.332" radius="0.7448" />
-	<control max_limiter_speed="3.0" max_speed="8.5" acceleration="12"
+	<control max_limiter_speed="3.0" max_speed="8.75" acceleration="12"
 		max_reverse_speed="6.5" min_health_to_steer="6" max_rotation="1"
 		max_water_depth="2.744" steer_smoothening="0.99" tracked="1" gears="1"
 		simulated_speed_factor="0.5" />
 
 	<modifier class="blast_range" value="0.85" />
-	<modifier class="blast_damage" value="-5.6" />
+	<modifier class="blast_damage" value="-6.4" />
 	<physics max_health="48" blast_damage_threshold="2.7" mass="400"
 		broken_mass="20" remove_collision_threshold="0.2"
 		extent="4.312 0.0 7.82" offset="0 0.0 0" top_offset="0 3.92 0"

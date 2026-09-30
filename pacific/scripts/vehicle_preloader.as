@@ -61,8 +61,15 @@ class HighDetailVehiclePreloader : Tracker {
 			mapId == "island6" || mapId == "island7" || mapId == "island8" ||
 			mapId == "island10") addVehicle("m5a1_stuart.vehicle", 0);
 		if (mapId == "island5") addVehicle("m4_75_late.vehicle", 0);
-		if (mapId == "island6" || mapId == "island7") addVehicle("m4_76.vehicle", 0);
-		if (mapId == "island7") addVehicle("m4a3e8.vehicle", 0);
+		if (mapId == "island6" || mapId == "island7")
+			addVehicle("m4_75_late_cb_h1.vehicle", 0);
+		if (mapId == "island6" || mapId == "island7" || mapId == "island8" ||
+			mapId == "island10") addVehicle("m4_76.vehicle", 0);
+		if (mapId == "island7") {
+			addVehicle("m4a3e8.vehicle", 0);
+			addVehicle("m4a3e2_75.vehicle", 0);
+			addVehicle("m36.vehicle", 0);
+		}
 		if (mapId == "island9") addVehicle("deco_sedan_black.vehicle", 0);
 	}
 

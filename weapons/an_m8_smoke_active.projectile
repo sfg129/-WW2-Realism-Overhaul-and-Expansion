@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="" key="an_m8_smoke_active.projectile" slot="0" radius="0.01" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0">
+<projectile class="grenade" name="" key="an_m8_smoke_active.projectile" slot="0" radius="0.01" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="1">
     <!-- Spawned with zero velocity at the actual impact point. It remains a
          normal physical canister, so external forces may still move it. -->
     <trigger class="time" time_to_live="45.0" />

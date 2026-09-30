@@ -58,7 +58,7 @@ projectile_speed="140.0"
 	<hud_icon filename="hud_bar_light.png" />
 	
 	<commonness value="0.03" in_stock="0"/>
-	<inventory encumbrance="8.0" price="20" />
+	<inventory encumbrance="5.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

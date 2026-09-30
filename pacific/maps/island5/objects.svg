@@ -31707,19 +31707,7 @@ key = radio_jammer.vehicle;
            id="desc9788-45-3-6-1-6-7-2-09-4-7-2-82-2-4-2-6-4-0-7-0-5-93-4-7-6-3-0-9-4-1-9-0-8-3-6-5-7-0-1">type = vehicle; 
 key = pt_boat.vehicle;</desc>
       </rect>
-      <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:26.4, 26.4;stroke-dashoffset:0;stroke-opacity:1;enable-background:accumulate"
-         id="spawn18552-6-1"
-         width="8.625"
-         height="26.5"
-         x="336.85999"
-         y="-1720.2"
-         inkscape:label=""
-         transform="rotate(97.73)">
-        <desc
-           id="desc18554-6-5">type = vehicle;
-key = landing_craft1.vehicle;</desc>
-      </rect>
+      
       <rect
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:26.4, 26.4;stroke-dashoffset:0;stroke-opacity:1;enable-background:accumulate"
          id="spawn18552-6-4-2"
@@ -34221,13 +34209,13 @@ tag = hmg; </desc>
          id="spawn14883-1-4-6-8-5-9"
          width="3.4362"
          height="3.3478"
-         x="1356.2"
-         y="-662.87"
+         x="1355.77539425"
+         y="-663.28911299"
          inkscape:label=""
-         transform="rotate(45.373)">
+         transform="matrix(0.70248851,0.71169509,-0.71169509,0.70248851,0,0)">
         <desc
-           id="desc14885-8-5-3-3-5-6">type = vehicle; 
-tag = hmg; </desc>
+           id="desc14885-8-5-3-3-5-6">type = vehicle;
+tag = hmg;</desc>
       </rect>
       <rect
          style="display:inline;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0.5;stroke-opacity:1;enable-background:new"

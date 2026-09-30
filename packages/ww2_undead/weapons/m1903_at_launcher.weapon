@@ -52,7 +52,7 @@ sight_range_modifier="1.5"
 	<hud_icon filename="hud_m1903_at_launcher.png" />
 	
 	<commonness value="0.2"/>
-	<inventory encumbrance="5.0" price="10" />
+	<inventory encumbrance="3.0" price="10" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.05" />

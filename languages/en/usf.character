@@ -172,7 +172,9 @@
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW Armory deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10 GMC deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m36.call" text="M36 Jackson deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m36.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 Halftrack deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76.call" text="M4A3(76) Sherman deploying at %base_name" />
@@ -195,8 +197,10 @@
 	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m3_mortar.call" text="M3 81mm MMC deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman Flamethrower deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman E4-5 Flamethrower deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_75_late_cb_h1.call" text="M4A3 CB-H1 Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=vehicle_m4_75_late_cb_h1.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="Panther deploying at %base_name" />

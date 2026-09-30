@@ -260,6 +260,7 @@
 	
 	<!-- Edel May 2021 Update -->
 	<text key="M10 GMC" />
+	<text key="M36 GMC" />
 	
 	<text key="Boys Mk I Anti-Tank Rifle" />
 	<text key="Scoped P14" />
@@ -276,6 +277,9 @@
 	<text key="Reinforcements - M10 GMC" />
 	<text key="Requesting reinforcements, M10 GMC" />
 	<text key="M10 GMC deployed" />
+	<text key="Reinforcements - M36 Jackson" />
+	<text key="Requesting reinforcements, M36 Jackson" />
+	<text key="M36 Jackson deployed" />
 	
 	<!-- 1.87 -->
 	<text key="Type 26 Revolver" />
@@ -333,13 +337,21 @@
 	<text key="Reinforcements - M4A3E8 Sherman" />
 	<text key="Requesting reinforcements, M4A3E8 Sherman" />
 	<text key="M4A3E8 Sherman deployed" />
-	<text key="M4A3 Sherman Flamethrower" />
-	<text key="Reinforcements - M4A3 Sherman Flamethrower" />
-	<text key="Requesting reinforcements, M4A3 Sherman Flamethrower" />
-	<text key="M4A3 Sherman Flamethrower deployed" />
+	<text key="M4A3 Sherman E4-5 Flamethrower" />
+	<text key="Reinforcements - M4A3 Sherman E4-5 Flamethrower" />
+	<text key="Requesting reinforcements, M4A3 Sherman E4-5 Flamethrower" />
+	<text key="M4A3 Sherman E4-5 Flamethrower deployed" />
+	<text key="M4A3 CB-H1 Sherman" />
+	<text key="Reinforcements - M4A3 CB-H1 Sherman" />
+	<text key="Requesting reinforcements, M4A3 CB-H1 Sherman" />
+	<text key="M4A3 CB-H1 Sherman deployed" />
 	<text key="Sherman Firefly VC" />
 	<text key="Reinforcements - Sherman Firefly VC" />
 	<text key="Requesting reinforcements, Sherman Firefly VC" />
 	<text key="Sherman Firefly VC deployed" />
 
+	<text key="Light Mortar Barrage - Smoke" />
+	<text key="Light Mortars, Smoke" />
+	<text key="Light Naval Guns - Smoke" />
+	<text key="Light Naval Guns, Smoke" />
 </translation>

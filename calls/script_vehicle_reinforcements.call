@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calls>
+    <!-- Script-only vehicle calls, using the native defense-mission spawn path. -->
+    <call key="script_vehicle_higgins.call" acknowledge_time="0">
+        <round instances="1" instance_class="vehicle" instance_key="landing_craft.vehicle"
+            instance_spread="0 0 0" common_spread="0 0 0" launch_time="0" spawn_time="1.5"
+            horizontal_offset_at_spawn="0" vertical_offset_at_spawn="0" initial_speed_to_target="0" />
+    </call>
+    <call key="script_vehicle_lvt4.call" acknowledge_time="0">
+        <round instances="1" instance_class="vehicle" instance_key="lvt4.vehicle"
+            instance_spread="0 0 0" common_spread="0 0 0" launch_time="0" spawn_time="1.5"
+            horizontal_offset_at_spawn="0" vertical_offset_at_spawn="0" initial_speed_to_target="0" />
+    </call>
+    <!-- Ordinary support request: the mission handler refuses Carrier and
+         requires an available safe friendly land base, just like player calls. -->
+    <call key="script_vehicle_m3_stuart.call" notify_metagame="1" consume_rp="0" show_target_marker="0"
+        radio_view_text="Reinforcements - M3 Stuart Light Tank"
+        initiation_comment="Requesting reinforcements, M3 Stuart!" acknowledge_comment="Copy, loud and clear">
+        <hud_icon filename="hud_tank_stuart.png" />
+        <inventory encumbrance="0.0" price="800.0" />
+    </call>
+    <!-- Explicit vehicle key; same deployment timing as player M3 support. -->
+    <call key="script_vehicle_m3_stuart_spawn.call" acknowledge_time="0.0" launch_comment="M3 Stuart deployed">
+        <round instances="1" instance_class="vehicle" instance_key="stuart.vehicle"
+            instance_spread="3 0 3" common_spread="0 0 0" launch_time="7.5" spawn_time="10.0"
+            horizontal_offset_at_spawn="0.0" vertical_offset_at_spawn="0.0" initial_speed_to_target="0.0" />
+        <inventory encumbrance="0.0" price="800.0" />
+    </call>
+</calls>

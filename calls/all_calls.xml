@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <calls>
+    <call file="script_vehicle_reinforcements.call" />
 <call file="mortar5.call" />
 
 <call file="ija_vehicle_medium_tank_chi_ha_early.call" />
@@ -8,6 +9,7 @@
 	<call file="vehicle_m3_mortar.call" />
 	<call file="ukf_vehicle_un.call" />
 	<call file="vehicle_m4_e4.call" />
+	<call file="vehicle_m4_75_late_cb_h1.call" />
 <call file="wh_vehicle_sdkfz251_mortar.call" />
 	<call file="wh_vehicle_pziv_88.call" />
 	<call file="wh_vehicle_sdkfz251_flak.call" />
@@ -27,11 +29,14 @@
 		<call file="airstrike11.call" />
 	<call file="airstrike12.call" />
 	<call file="mortar.call" />
+	<call file="mortar_smoke_1.call" />
+	<call file="mortar_smoke_2.call" />
 	<call file="mortar1.call" />
 	<call file="mortar2.call" />
 	<call file="mortar3.call" />
 <call file="mortar4.call" />
 	<call file="artillery.call" />
+	<call file="artillery_smoke.call" />
 	<call file="artillery1.call" />
 	<call file="artillery2.call" />
 	<call file="artillery3.call" />
@@ -67,6 +72,7 @@
 	<call file="usf_vehicle_m4a3e2_76.call" />
 	<call file="usf_vehicle_m4a3e2_76_late.call" />
 	<call file="usf_vehicle_armoury_marine.call" />
+<call file="usf_vehicle_m36.call" />
 
 	<call file="wh_inf.call" />
 	<call file="wh_para.call" />

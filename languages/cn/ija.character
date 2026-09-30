@@ -168,6 +168,20 @@
 	<comment key="defense timer to go" text="还有&#37;time_left秒！" />
 	
    <!-- adventure mode -->
+    <!-- Russell Islands: Japanese campaign defense briefing. -->
+    <comment key="russell ija defense, prepare 1" text="立正！指挥官有话要讲。" />
+    <comment key="russell ija defense, prepare 2" text="美国人正在准备登陆，企图从我们手中夺走这些岛屿。" />
+    <comment key="russell ija defense, prepare 3" text="敌军将在两分钟后进攻。各部进入阵地，做好防御准备！" />
+    <comment key="russell ija defense, prepare 4" text="海军炮火暂时无法支援。坚守阵地，不要浪费弹药！" />
+    <comment key="russell ija defense, landing 1" text="各部注意！美军开始登陆，敌方登陆艇正在靠岸！" />
+    <comment key="russell ija defense, landing 2" text="守住阵地，在海滩上阻止他们，不要让敌军突破防线！" />
+    <comment key="russell ija defense, armor 1" text="敌军装甲部队正在上岸！他们的步兵也得到了增援。" />
+    <comment key="russell ija defense, armor 2" text="准备反坦克武器，守住防线，等待海军支援！" />
+    <comment key="russell ija defense, naval approaching 1" text="各部注意！海军支援即将到达，美军的进攻正在放缓。" />
+    <comment key="russell ija defense, naval approaching 2" text="继续坚守，做好反攻准备，等海军炮火到来就夺回阵地！" />
+    <comment key="russell ija defense, naval support 1" text="各部注意！海军已经回应了我们的支援请求。" />
+    <comment key="russell ija defense, naval support 2" text="现在可以呼叫海军炮火了，把美国人赶出我们的阵地！" />
+    <comment key="russell ija defense, naval support 3" text="夺回岛上所有阵地！敌军航母不是此次任务的目标。前进！" />
 	<comment key="guadalcanal, part 1" text="立正！指挥官有话要讲" />
 	<comment key="guadalcanal, part 2" text="我们把敌人困在了&#37;map_name的机场" />
 	<comment key="guadalcanal, part 3" text="他们懦弱的海军抛弃了他们，现在他们只有很少的增援部队" />
@@ -242,8 +256,10 @@
 	<comment key="spawn_in_base_call, denied, key=ukf_vehicle_unk.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW军械车将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="无可用部署点，先占领一个基地！" />
-	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10“狼獾”自行反坦克炮将部署在%base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10“狼獾”坦克歼击车将部署在%base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m36.call" text="M36“杰克逊”坦克歼击车将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m36.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3半履带装甲车将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76.call" text="M4A3(76)“谢尔曼”中型坦克将部署在%base_name" />
@@ -266,8 +282,10 @@
 	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m3_mortar.call" text="M3 81毫米迫击炮运载车将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="无可用部署点，先占领一个基地！" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3“谢尔曼”火焰喷射坦克将部署在%base_name" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3“谢尔曼”中型坦克 E4-5火焰喷射器将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="无可用部署点，先占领一个基地！" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_75_late_cb_h1.call" text="M4A3“谢尔曼” CB-H1喷火坦克将部署在%base_name" />
+	<comment key="spawn_in_base_call, denied, key=vehicle_m4_75_late_cb_h1.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="二号“山猫”轻型坦克将部署在%base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="无可用部署点，先占领一个基地！" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="豹式中型坦克将部署在%base_name" />

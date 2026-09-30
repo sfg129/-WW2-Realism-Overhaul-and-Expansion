@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ai filename="default.ai">
-  <parameter class="using_cover_min_time" value="10" />
-  <parameter class="using_cover_max_time" value="20" />
+  <parameter class="using_cover_min_time" value="12" />
+  <parameter class="using_cover_max_time" value="24" />
   <parameter class="ai_stand_manually_to_shoot_over_wall" value="1"/>	
-  <parameter class="burst_time" value="1.2" />
+  <parameter class="burst_time" value="2" />
   <parameter class="burst_time_variance" value="0.5" />
-  <parameter class="longer_burst_time" value="2.5" />
-  <parameter class="longer_burst_time_variance" value="0.5" />
-   <parameter class="max_sight_range_with_muzzle" value="54" />
-     <parameter class="leader_sight_range" value="48" />
-  <parameter class="team_member_sight_range" value="42" />
-
+  <parameter class="longer_burst_time" value="4" />
+  <parameter class="longer_burst_time_variance" value="1.5" />
+<parameter class="accuracy_penalty_range" value="0" />
+ <parameter class="shooting_accuracy_ratio_requirement" value="0.8" /> 
+<parameter class="fire_open_min_time" value="20" />
+<parameter class="fighting_regular_move_radius" value="2.0" />
 </ai>

@@ -39,7 +39,7 @@
 	<!-- ====================== -->
 	<!-- REGULAR INFANTRY GROUP -->
 	<!-- ====================== -->
-	<soldier name="regular" spawn_score="0.85">
+	<soldier name="regular" spawn_score="0.9">
 		<character filename="wh.character" />
 		<ai filename="default.ai" />
 		

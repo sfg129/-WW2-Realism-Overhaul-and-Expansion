@@ -41,7 +41,7 @@
 	<hud_icon filename="hud_m1903.png" />
 	
 	<commonness value="0.05" />
-	<inventory encumbrance="8.0" price="5" />
+	<inventory encumbrance="5.0" price="5" />
 	
 	<projectile file="bullet_rifle_3006_rifle.projectile" />
 	

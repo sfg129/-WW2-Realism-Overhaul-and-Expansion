@@ -2,6 +2,7 @@
 #include "helpers.as"
 #include "query_helpers.as"
 #include "log.as"
+#include "mod_safe_queries.as"
 
 // Centralized percentage-damage rules. The current flamethrower contact cadence
 // is 0.06 seconds; the global 2x damage pass makes each accepted contact apply
@@ -86,13 +87,13 @@ class FlameVehicleDamage : Tracker {
 	protected array<FlameShooterFaction@> m_shooterFactions;
 	protected array<FlameBlastEmitter@> m_blastEmitters;
 	protected float m_refreshTimer = 0.0f;
-	protected float m_refreshInterval = 0.25f;
+	protected float m_refreshInterval = 0.10f;
 	protected int m_nextFactionId = 0;
 	protected float m_classificationTimer = 0.0f;
 	protected float m_classificationInterval = 0.10f;
 	protected float m_damageTimer = 0.0f;
-	protected float m_damageInterval = 0.25f;
-	protected float m_helperBlastInterval = 0.12f;
+	protected float m_damageInterval = 0.20f;
+	protected float m_helperBlastInterval = 0.05f;
 	protected bool m_loggedFirstResult = false;
 	protected bool m_loggedFirstDamage = false;
 
@@ -132,7 +133,7 @@ class FlameVehicleDamage : Tracker {
 		addRuleGroup(array<string> = {"panzer_iv.vehicle", "panzer_iv_fastrespawn.vehicle", "panzer_iv_damaged.vehicle", "panzer_iv_base_flak88.vehicle"}, 0.0825f, 0.0f, 0.0f, 4.2f, 7.2f);
 
 		// 9.25%/s: non-E2 75 mm Shermans and StuG III.
-		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_75_late.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_e4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
+		addRuleGroup(array<string> = {"m4_75.vehicle", "m4_75_late.vehicle", "m4_75_late_cb_h1.vehicle", "m4_V.vehicle", "m4_V_fastrespawn.vehicle", "m4_75_e4.vehicle"}, 0.0925f, 0.0f, -0.1916f, 3.9f, 6.8f);
 		addRuleGroup(array<string> = {"stug_iii.vehicle", "stug_iii_fastrespawn.vehicle"}, 0.0925f, 0.0f, 0.0f, 4.2f, 7.4f);
 
 		// 7.5%/s: armed patrol boats.
@@ -309,14 +310,16 @@ class FlameVehicleDamage : Tracker {
 			if (m_shooterFactions[i].m_characterId == characterId) return m_shooterFactions[i].m_factionId;
 		}
 		const XmlElement@ info = getCharacterInfo(m_metagame, characterId);
-		if (info is null) return -1;
+		if (modIntAttribute(info, "id") != characterId ||
+			modIntAttribute(info, "faction_id") < 0) return -1;
 		int factionId = info.getIntAttribute("faction_id");
 		m_shooterFactions.insertLast(FlameShooterFaction(characterId, factionId));
 		return factionId;
 	}
 
 	protected void handleVehicleSpawnEvent(const XmlElement@ event) {
-		int id = event.getIntAttribute("vehicle_id");
+		int id = modIntAttribute(event, "vehicle_id");
+		if (id < 0) return;
 		forgetIgnoredVehicle(id);
 		forgetPendingClassification(id);
 		FlameVehicleRule@ rule = findRule(event.getStringAttribute("vehicle_key"));
@@ -328,7 +331,8 @@ class FlameVehicleDamage : Tracker {
 	}
 
 	protected void handleVehicleDestroyEvent(const XmlElement@ event) {
-		int id = event.getIntAttribute("vehicle_id");
+		int id = modIntAttribute(event, "vehicle_id");
+		if (id < 0) return;
 		int index = findTarget(id);
 		if (index >= 0) m_targets.removeAt(index);
 		forgetIgnoredVehicle(id);
@@ -417,6 +421,7 @@ class FlameVehicleDamage : Tracker {
 	}
 
 	protected void handleResultEvent(const XmlElement@ event) {
+		if (event is null) return;
 		string key = event.getStringAttribute("key");
 		float blastRadius = 0.0f;
 		string helperProjectileKey;
@@ -428,8 +433,9 @@ class FlameVehicleDamage : Tracker {
 			helperProjectileKey = "flamethrower_flame_tank_blast.projectile";
 		} else return;
 
-		Vector3 hitPosition = stringToVector3(event.getStringAttribute("position"));
-		int sourceCharacterId = event.getIntAttribute("character_id");
+		Vector3 hitPosition;
+		if (!modTryVectorAttribute(event, "position", hitPosition)) return;
+		int sourceCharacterId = modIntAttribute(event, "character_id");
 		queueNativeFlameBlast(helperProjectileKey, hitPosition, sourceCharacterId, getShooterFaction(sourceCharacterId));
 		if (!m_loggedFirstResult) {
 			_log("FlameVehicleDamage: first flame contact received: " + key, 1);
@@ -452,21 +458,30 @@ class FlameVehicleDamage : Tracker {
 	}
 
 	protected void updateTargetFromInfo(FlameVehicleTarget@ target, const XmlElement@ info) {
+		if (target is null) return;
 		const XmlElement@ sourceInfo = info;
-		if (info.getStringAttribute("position") == "" || info.getStringAttribute("forward") == "" || info.getStringAttribute("right") == "") {
-			const XmlElement@ detailedInfo = getVehicleInfo(m_metagame, target.m_id);
-			if (detailedInfo is null) {
-				target.m_valid = false;
-				return;
-			}
-			@sourceInfo = detailedInfo;
+		Vector3 position, forward, right;
+		bool hasPosition = modTryVectorAttribute(info, "position", position);
+		bool hasOrientation = modTryVectorAttribute(info, "forward", forward) &&
+			modTryVectorAttribute(info, "right", right);
+		if (!hasPosition || !hasOrientation) {
+			@sourceInfo = getVehicleInfo(m_metagame, target.m_id);
+			hasPosition = modTryVectorAttribute(sourceInfo, "position", position);
+			hasOrientation = modTryVectorAttribute(sourceInfo, "forward", forward) &&
+				modTryVectorAttribute(sourceInfo, "right", right);
 		}
-		target.m_position = stringToVector3(sourceInfo.getStringAttribute("position"));
-		target.m_forward = stringToVector3(sourceInfo.getStringAttribute("forward"));
-		target.m_right = stringToVector3(sourceInfo.getStringAttribute("right"));
+		if (modIntAttribute(sourceInfo, "id") != target.m_id || !hasPosition) {
+			target.m_valid = false;
+			return;
+		}
+		target.m_position = position;
+		target.m_hasOrientation = hasOrientation;
+		if (hasOrientation) {
+			target.m_forward = forward;
+			target.m_right = right;
+		}
 		target.m_valid = true;
 		target.m_seen = true;
-		target.m_hasOrientation = true;
 		if (target.m_pendingHits == 0) return;
 
 		float health = sourceInfo.getFloatAttribute("health");
@@ -496,14 +511,18 @@ class FlameVehicleDamage : Tracker {
 			for (uint i = 0; i < m_targets.length(); ++i) m_targets[i].m_seen = false;
 		}
 		array<const XmlElement@>@ vehicles = getFactionVehicles(m_nextFactionId);
+		if (vehicles is null) return;
 		for (uint i = 0; i < vehicles.length(); ++i) {
-			int id = vehicles[i].getIntAttribute("id");
+			int id = modIntAttribute(vehicles[i], "id");
+			if (id < 0) continue;
 			int index = findTarget(id);
 			if (index < 0) queueVehicleForClassification(id);
 			if (index >= 0) {
-				m_targets[index].m_position = stringToVector3(vehicles[i].getStringAttribute("position"));
-				m_targets[index].m_valid = true;
+				Vector3 position;
 				m_targets[index].m_seen = true;
+				m_targets[index].m_valid =
+					modTryVectorAttribute(vehicles[i], "position", position);
+				if (m_targets[index].m_valid) m_targets[index].m_position = position;
 			}
 		}
 		m_nextFactionId++;
@@ -521,7 +540,7 @@ class FlameVehicleDamage : Tracker {
 		m_pendingClassificationIds.removeAt(0);
 		if (findTarget(id) >= 0 || findIgnoredVehicle(id) >= 0) return;
 		const XmlElement@ info = getVehicleInfo(m_metagame, id);
-		if (info is null || info.getIntAttribute("id") < 0) return;
+		if (modIntAttribute(info, "id") != id) return;
 		FlameVehicleRule@ rule = findRule(info.getStringAttribute("key"));
 		if (rule is null) {
 			m_ignoredVehicleIds.insertLast(id);
@@ -536,7 +555,9 @@ class FlameVehicleDamage : Tracker {
 		for (uint i = 0; i < m_targets.length(); ++i) {
 			if (m_targets[i].m_pendingHits == 0) continue;
 			const XmlElement@ info = getVehicleInfo(m_metagame, m_targets[i].m_id);
-			if (info !is null && info.getIntAttribute("id") >= 0) updateTargetFromInfo(m_targets[i], info);
+			if (modIntAttribute(info, "id") == m_targets[i].m_id)
+				updateTargetFromInfo(m_targets[i], info);
+			else m_targets[i].m_valid = false;
 		}
 	}
 

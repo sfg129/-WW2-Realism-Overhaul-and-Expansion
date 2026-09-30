@@ -42,22 +42,22 @@
 		<turret offset="0 2.35 0.18" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 			
 
-	<visual class="chassis" mesh_filename="m4_74_chassis.mesh" texture_filename="m4_74_chassis.png" max_tilt="0.02" />
-	<visual class="chassis" key="broken" mesh_filename="m4_74_chassis_damage.mesh" texture_filename="m4_74_chassis_damage.png" />
-	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_74_turret.mesh" texture_filename="m4_74_turret_damage.png" />  
-	<visual class="turret" turret_index="0" mesh_filename="m4_74_turret.mesh" texture_filename="m4_74_turret.png" />
+	<visual class="chassis" mesh_filename="m4a4_vc_firefly_chassis.mesh" texture_filename="m4a4_vc_firefly_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="m4a4_vc_firefly_chassis_damage.mesh" texture_filename="m4a4_vc_firefly_chassis_damage.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4a4_vc_firefly_turret.mesh" texture_filename="m4a4_vc_firefly_turret_damage.png" />  
+	<visual class="turret" turret_index="0" mesh_filename="m4a4_vc_firefly_turret.mesh" texture_filename="m4a4_vc_firefly_turret.png" />
 	<visual class="turret" turret_index="2" mesh_filename="m4_hull_mg.mesh" texture_filename="m4_75_V.png" />
 
-	<visual class="track" mesh_filename="m4v_72_running_r.mesh" offset="0 0 0" >
-		<part texture_filename="m4v_72_running_gear.png" />
-		<part texture_filename="m4v_72_running_gear.png" />
-		<part texture_filename="m4v_72_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
+	<visual class="track" mesh_filename="m4a4_v_running_r.mesh" offset="0 0 0" >
+		<part texture_filename="m4a4_v_running_gear.png" />
+		<part texture_filename="m4a4_v_running_gear.png" />
+		<part texture_filename="m4a4_v_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="m4v_72_running_l.mesh" offset="0 0 0" >
-		<part texture_filename="m4v_72_running_gear.png" />
-		<part texture_filename="m4v_72_running_gear.png" />
-		<part texture_filename="m4v_72_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
+	<visual class="track" mesh_filename="m4a4_v_running_l.mesh" offset="0 0 0" >
+		<part texture_filename="m4a4_v_running_gear.png" />
+		<part texture_filename="m4a4_v_running_gear.png" />
+		<part texture_filename="m4a4_v_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
 	</visual>
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->

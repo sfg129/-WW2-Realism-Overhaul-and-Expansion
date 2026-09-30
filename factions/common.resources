@@ -12,6 +12,12 @@
 	<vehicle key="para_spawn.vehicle" />     
 	<vehicle key="flare_checkpoint.vehicle" />
 	<vehicle key="no77_smoke_spawner.vehicle" />
+	<vehicle key="mortar_smoke_1_spawner.vehicle" />
+	<vehicle key="mortar_smoke_2_spawner.vehicle" />
+	<vehicle key="mortar_smoke_blocker_delay.vehicle" />
+	<vehicle key="mortar_smoke_blocker_center.vehicle" />
+	<vehicle key="mortar_smoke_blocker_x.vehicle" />
+	<vehicle key="mortar_smoke_blocker_z.vehicle" />
 	<vehicle key="no77_smoke_blocker_delay.vehicle" />
 	<vehicle key="no77_smoke_blocker_center.vehicle" />
 	<vehicle key="no77_smoke_blocker_x.vehicle" />

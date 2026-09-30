@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_lmg_crouch_fire.weapon" key="vickers_k_un.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.45" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0" 
+<weapon file="base_primary_lmg_crouch_fire.weapon" key="vickers_k_un.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0" 
 
 	ai_burst_time="0.75" 
 	ai_burst_time_variance="0.25" 

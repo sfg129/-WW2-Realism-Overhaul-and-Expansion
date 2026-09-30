@@ -70427,7 +70427,7 @@ key = m4a3e8.vehicle;</desc>
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_75_late.vehicle;</desc>
+key = m10.vehicle;</desc>
       </rect>
 <rect
          transform="matrix(0.688620393,-0.7251220272,0.7251220272,0.688620393,0,0)"
@@ -70440,14 +70440,14 @@ key = m4_75_late.vehicle;</desc>
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-5-5-1-2">type = vehicle;
-key = m4_76_late.vehicle;</desc>
+key = m36.vehicle;</desc>
       </rect>
 
 <rect
          transform="matrix(0.99594646,0.08994805,-0.08994805,0.99594646,0,0)"
          inkscape:label=""
-         y="136.86120488"
-         x="1216.83678099"
+         y="136.63182596"
+         x="1219.37657457"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_6"
@@ -70457,17 +70457,17 @@ key = m4_76_late.vehicle;</desc>
 key = m4a3e2_76_late.vehicle;</desc>
       </rect>
 <rect
-         transform="matrix(0.99594646,0.08994805,-0.08994805,0.99594646,0,0)"
+         transform="matrix(0.9587675,-0.28419164,0.28419164,0.9587675,0,0)"
          inkscape:label=""
-         y="110.32080887"
-         x="1222.51445633"
+         y="508.24133368"
+         x="462.55430863"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_8"
          style="display:inline;opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc_spawn_rwrmap_8">type = vehicle;
-key = m10.vehicle;</desc>
+key = m4_76_late.vehicle;</desc>
       </rect>
 
       <rect
@@ -70973,8 +70973,8 @@ key = m5a1_stuart.vehicle;</desc>
 <rect
          transform="matrix(0.9989583,-0.04563236,0.04563236,0.9989583,0,0)"
          inkscape:label=""
-         y="420.66902594"
-         x="938.49850385"
+         y="403.40946097"
+         x="935.45773517"
          height="7.3962"
          width="3.9823"
          id="spawn_rwrmap_5"

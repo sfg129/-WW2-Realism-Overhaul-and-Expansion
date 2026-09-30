@@ -1,4 +1,5 @@
 #include "hawkins_grenade_test.as"
+#include "tactical_smoke_ai.as"
 #include "flame_vehicle_damage.as"
 #include "vehicle_preloader.as"
 #include "gamemode_campaign.as"
@@ -241,6 +242,7 @@ class MyGameMode : GameModeCampaign {
 	void postBeginMatch() {
 		GameModeCampaign::postBeginMatch();
 		addTracker(HawkinsGrenadeTracker(this));
+		addTracker(TacticalSmokeAI(this));
 		addTracker(FlameVehicleDamage(this));
 		addTracker(HighDetailVehiclePreloader(this));
 

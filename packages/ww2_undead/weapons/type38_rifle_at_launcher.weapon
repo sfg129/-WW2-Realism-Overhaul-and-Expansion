@@ -52,7 +52,7 @@
 	<hud_icon filename="hud_type38_rifle_at_launcher.png" />
 	
 	<commonness value="0.24"/>
-	<inventory encumbrance="5.0" price="10" />
+	<inventory encumbrance="3.0" price="10" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.05" />

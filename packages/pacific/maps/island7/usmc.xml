@@ -191,7 +191,7 @@
 	<!-- ============= -->
 	<!-- VETERAN GROUP -->
 	<!-- ============= -->
-	<soldier name="veteran" spawn_score="0.06">
+	<soldier name="veteran" spawn_score="0.1">
 		<character filename="usmc.character" />
 		<ai filename="elite.ai" />
 		

@@ -5,5 +5,5 @@
 
     <model mesh_filename="medal_of_honor.mesh" texture_filename="medal.png" />
 
-    <commonness value="2.0" in_stock="0" />
+    <commonness value="1.0" in_stock="0" />
 </carry_item>

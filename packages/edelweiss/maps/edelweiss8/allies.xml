@@ -73,7 +73,7 @@
 	<!-- ============= -->
 	<!-- VETERAN GROUP -->
 	<!-- ============= -->
-	<soldier name="veteran" spawn_score="0.12">
+	<soldier name="veteran" spawn_score="0.1">
 		<character filename="ukf.character" />
 		<ai filename="elite.ai" />
 		
@@ -144,7 +144,7 @@
 	<!-- ===================== -->
 	<!-- ASSAULT CLASS GROUP -->
 	<!-- ===================== -->
-	<soldier name="assault" spawn_score="0.1" squad_size_xp_cap="0.5">
+	<soldier name="assault" spawn_score="0.12" squad_size_xp_cap="0.5">
 		<character filename="ukf.character" />
 		<ai filename="banzai.ai" />
 		

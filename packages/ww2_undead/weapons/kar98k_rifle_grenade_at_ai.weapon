@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="kar98k_rifle_grenade_at_ai.weapon" drop_count_factor_on_death="0.0">
+<weapon file="base_secondary.weapon" key="kar98k_rifle_grenade_at_ai.weapon" drop_count_factor_on_death="1">
 	<tag name="assault" />
 	
 <access_tag name="edelweiss" />

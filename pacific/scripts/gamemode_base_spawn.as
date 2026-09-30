@@ -1,4 +1,5 @@
 #include "hawkins_grenade_test.as"
+#include "tactical_smoke_ai.as"
 // internal
 #include "metagame.as"
 #include "gamemode.as"
@@ -28,6 +29,7 @@ class GameModeBaseSpawn : GameMode {
 	void postBeginMatch() {
 		GameMode::postBeginMatch();
 		addTracker(HawkinsGrenadeTracker(this));
+		addTracker(TacticalSmokeAI(this));
 
 		addTracker(BasicCommandHandler(this));
 		addTracker(CommandHandler(this));
@@ -37,6 +39,12 @@ class GameModeBaseSpawn : GameMode {
 		addTracker(SpawnInBaseCallHandler(this, "usmc_vehicle.call", "usmc_vehicle_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usmc_vehicle1.call", "usmc_vehicle1_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e8.call", "usf_vehicle_m4a3e8_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e2_75.call", "usf_vehicle_m4a3e2_75_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4a3e2_76.call", "usf_vehicle_m4a3e2_76_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_inf.call", "ija_inf_spawn.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_inf_ai.call", "ija_inf_spawn_ai.call", array<string> = {"Carrier","Attack Ship"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "ija_vehicle_armoury_marine.call", "ija_vehicle_armoury_marine_spawn.call", array<string> = {"Carrier","Attack Ship","Mt. Suribachi","The Armory","Submarine Pens","Warehouses","The Heights"}, true, "vehicle"));

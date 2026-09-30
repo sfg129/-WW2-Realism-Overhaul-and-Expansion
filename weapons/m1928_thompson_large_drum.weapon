@@ -57,8 +57,8 @@
 	<model filename="m1928_thompson_hundo_drum.xml" />	<!-- I called it a 'hundo-drum' mostly cuz I'm an idiot :p-->
 	<hud_icon filename="hud_thompson_hundo_drum.png" />
 	
-	<commonness value="0.05" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="500.0" />
+	<commonness value="0.04" can_respawn_with="0"/>
+	<inventory encumbrance="5.0" price="500.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

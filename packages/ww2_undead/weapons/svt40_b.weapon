@@ -54,7 +54,7 @@
 	<hud_icon filename="hud_svt40_b.png" />
 	
 	<commonness value="0.0275" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="30.0" />
+	<inventory encumbrance="5.0" price="30.0" />
 	
 	<projectile file="bullet_rifle_76254.projectile" />
 	

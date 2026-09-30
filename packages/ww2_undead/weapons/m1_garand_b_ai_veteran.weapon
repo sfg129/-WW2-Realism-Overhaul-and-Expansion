@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rifle.weapon" key="m1_garand_b_ai_veteran.weapon" drop_count_factor_on_death="0.0">
+<weapon file="base_primary_rifle.weapon" key="m1_garand_b_ai_veteran.weapon" drop_count_factor_on_death="1">
 		<tag name="has_bayonet" />
 
 	<specification 
@@ -51,7 +51,7 @@
 	<hud_icon filename="hud_m1_garand_b.png" />
 	
 	<commonness value="0.1" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="5.0" price="5.0" />
+	<inventory encumbrance="3.0" price="5.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

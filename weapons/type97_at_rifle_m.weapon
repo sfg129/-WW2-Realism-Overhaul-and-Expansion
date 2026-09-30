@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_heavy_bipod.weapon" key="type97_at_rifle_m.weapon" 
-	ai_burst_time="0.1" 
-	ai_burst_time_variance="0.05" 
-	ai_burst_wait_time="0.75" 
-	ai_burst_wait_time_variance="0.1"
+	ai_burst_time="0.35" 
+	ai_burst_time_variance="0.15" 
+	ai_burst_wait_time="0.5" 
+	ai_burst_wait_time_variance="0.25"
 >
 
 	
 <access_tag name="pacific" />
 
 	<specification  
-	retrigger_time="0.8"  
-	accuracy_factor="0.92" 
-	sustained_fire_grow_step="5" 
-		sustained_fire_diminish_rate="1.25"
-
+	retrigger_time="0.4"  
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="0.024" 
+	sustained_fire_diminish_rate="0.025"
 	magazine_size="-1" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
@@ -26,7 +25,9 @@
 	projectile_speed="130.0" 
 	barrel_offset="0.9" 
 	projectiles_per_shot="1"
-	sight_range_modifier="2"
+	sight_range_modifier="2.25"
+	cooldown_start="0.1"
+	cooldown_end="0.0"
 
 	/>
 	<stance state_key="running" accuracy="0.4" />
@@ -62,7 +63,7 @@
 	
 	<weak_hand_hold offset="0.4" />
 
-    <sound key="fire" fileref="anti_tank_rifle.wav" volume="6.75" pitch_variety="0.05" />
+    <sound key="fire" fileref="anti_tank_rifle.wav" volume="4" pitch_variety="0.05" />
 	<sound key="cycle_out" fileref="m79_cycle.wav" />
     <sound key="magazine_out" fileref="rifle_clip_out.wav" />
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
@@ -71,7 +72,7 @@
 	<hud_icon filename="hud_type97_at.png" />
 	
 	<commonness value="0" can_respawn_with="1"/>
-	<inventory encumbrance="8.0" price="220" />
+	<inventory encumbrance="5.0" price="220" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

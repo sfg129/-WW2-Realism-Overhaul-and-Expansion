@@ -51,7 +51,7 @@
 	<hud_icon filename="hud_m2_carbine_b.png" />
 	
 	<commonness value="0.02" can_respawn_with="0" in_stock="0"/>
-	<inventory encumbrance="8.0" price="230" />
+	<inventory encumbrance="5.0" price="230" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

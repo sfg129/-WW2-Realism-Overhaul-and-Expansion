@@ -10,7 +10,7 @@
 	accuracy_factor="0.975" 
 	sustained_fire_grow_step="0.95" 
 	sustained_fire_diminish_rate="2.4"	
-	stance_accuracy_rate="3"
+	stance_accuracy_rate="4"
 	magazine_size="10" 
 	can_shoot_standing="1" 
 	suppressed="0" 
@@ -53,7 +53,7 @@
 	<hud_icon filename="hud_johnson_rifle_b.png" />
 	
 	<commonness value="0.02" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="120" />
+	<inventory encumbrance="5.0" price="120" />
    
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

@@ -44,7 +44,7 @@ sight_range_modifier="1"
 	<hud_icon filename="hud_kar98k_sniper_6x.png" />
 	
 	<commonness value="0.05" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="550.0" />
+	<inventory encumbrance="5.0" price="550.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

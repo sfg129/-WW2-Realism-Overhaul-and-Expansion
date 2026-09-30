@@ -2,8 +2,8 @@
 <calls>
 	<call 
 	key="vehicle_m4_e4.call" 
-	radio_view_text="Reinforcements - M4A3 Sherman Flamethrower" 
-	initiation_comment="Requesting reinforcements, M4A3 Sherman Flamethrower" 
+	radio_view_text="Reinforcements - M4A3 Sherman E4-5 Flamethrower" 
+	initiation_comment="Requesting reinforcements, M4A3 Sherman E4-5 Flamethrower" 
 	acknowledge_comment="Copy, loud and clear" 
 	notify_metagame="1" consume_rp="0" show_target_marker="0">
 	
@@ -15,11 +15,11 @@
 		
 	</call>
   
-	<call key="vehicle_m4_e4_spawn.call" acknowledge_time="0.0" launch_comment="M4A3 Sherman Flamethrower deployed">
+	<call key="vehicle_m4_e4_spawn.call" acknowledge_time="0.0" launch_comment="M4A3 Sherman E4-5 Flamethrower deployed">
 		<round 
 		instances="1" 
 		instance_class="vehicle" 
-		instance_key="m4_e4.vehicle" 
+		instance_key="m4_75_e4.vehicle" 
 		instance_spread="3 0 3" 
 		common_spread="0 0 0" 
 		launch_time="7.5" 

@@ -35,7 +35,7 @@
 	<hud_icon filename="hud_browningauto5.png" />
 	
 	<commonness value="0.02" in_stock="1" can_respawn_with="1"/>
-	<inventory encumbrance="8.0" price="200" />
+	<inventory encumbrance="5.0" price="200" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

@@ -5,5 +5,5 @@
 
     <model mesh_filename="victoria_cross.mesh" texture_filename="medal2.png" />
 
-    <commonness value="2.0" in_stock="0" />
+    <commonness value="1.0" in_stock="0" />
 </carry_item>

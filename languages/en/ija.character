@@ -141,6 +141,20 @@
 	<comment key="defense timer started" text="%faction_name hold all the bases, %time_left seconds to go!" />
 	
    <!-- adventure mode -->
+    <!-- Russell Islands: Japanese campaign defense briefing. -->
+    <comment key="russell ija defense, prepare 1" text="Attention soldiers! The commander wishes to speak." />
+    <comment key="russell ija defense, prepare 2" text="The Americans are preparing a landing. They mean to take these islands from us." />
+    <comment key="russell ija defense, prepare 3" text="We have two minutes before their assault. Take your positions and prepare our defenses!" />
+    <comment key="russell ija defense, prepare 4" text="Naval gunfire is not available yet. Hold your ground and make every shot count!" />
+    <comment key="russell ija defense, landing 1" text="The Americans are landing! Enemy boats are approaching the shore." />
+    <comment key="russell ija defense, landing 2" text="Hold your positions and stop them at the beach. Do not let them break through!" />
+    <comment key="russell ija defense, armor 1" text="Enemy armor is coming ashore! Their infantry has received more reinforcements." />
+    <comment key="russell ija defense, armor 2" text="Prepare your anti-tank weapons. Keep our defenses intact until naval support arrives!" />
+    <comment key="russell ija defense, naval approaching 1" text="Our naval support is approaching. The American assault is beginning to slow." />
+    <comment key="russell ija defense, naval approaching 2" text="Hold the line a little longer. Prepare to counterattack when our navy opens fire!" />
+    <comment key="russell ija defense, naval support 1" text="Attention soldiers! Our navy has answered the call." />
+    <comment key="russell ija defense, naval support 2" text="Naval gunfire support is now available. Drive the Americans from our positions!" />
+    <comment key="russell ija defense, naval support 3" text="Retake every position on the islands. Their carrier is not our objective. Forward!" />
 	<comment key="guadalcanal, part 1" text="Attention soldiers! The commander wishes to speak." />
 	<comment key="guadalcanal, part 2" text="We've pinned the enemy at their ill-acquired airfield here at %map_name." />
 	<comment key="guadalcanal, part 3" text="Their cowardly navy has abandoned them and they have few reinforcements." />
@@ -208,7 +222,9 @@
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_armoury_marine.call" text="DUKW Armory deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_armoury_marine.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m10.call" text="M10 GMC deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m36.call" text="M36 Jackson deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m10.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m36.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m3_halftrack.call" text="M3 Halftrack deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=usf_vehicle_m3_halftrack.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=usf_vehicle_m4_sherman_76.call" text="M4A3(76) Sherman deploying at %base_name" />
@@ -231,8 +247,10 @@
 	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m3_mortar.call" text="M3 81mm MMC deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman Flamethrower deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman E4-5 Flamethrower deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="No valid deployment points found, capture a base!" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_75_late_cb_h1.call" text="M4A3 CB-H1 Sherman deploying at %base_name" />
+	<comment key="spawn_in_base_call, denied, key=vehicle_m4_75_late_cb_h1.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_panther.call" text="Panther deploying at %base_name" />

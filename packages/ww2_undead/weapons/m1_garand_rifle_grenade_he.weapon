@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="m1_garand_rifle_grenade_he.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.35" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
+<weapon file="base_secondary.weapon" key="m1_garand_rifle_grenade_he.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death ="1.0" player_death_drop_owner_lock_time="45.0">
 	<tag name="assault" />
 
 <access_tag name="pacific" />
@@ -59,7 +59,7 @@
 
 
 	<commonness value="0.1" can_respawn_with="1"/>
-	<inventory encumbrance="8.0" price="20" />
+	<inventory encumbrance="5.0" price="20" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

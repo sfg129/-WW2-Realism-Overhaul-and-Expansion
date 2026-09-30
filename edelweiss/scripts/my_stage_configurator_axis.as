@@ -555,6 +555,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_unk.call", "ukf
 		stage.m_mapInfo.m_name = "Hell's Highway";
 		stage.m_mapInfo.m_path = "media/packages/edelweiss/maps/edelweiss4";
 		stage.m_mapInfo.m_id = "edelweiss4";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.axis"); 
 		stage.m_includeLayers.insertLast("layer.axis"); 
         
@@ -848,6 +849,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_mortar.
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting.call", "usf_para_no_parachuting_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting_ai.call", "usf_para_no_parachuting_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {""}, true, "vehicle"));
 
@@ -932,6 +934,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_mortar.
 		stage.m_mapInfo.m_name = "Operation Sealion";
 		stage.m_mapInfo.m_path = "media/packages/edelweiss/maps/edelweiss8";
 		stage.m_mapInfo.m_id = "edelweiss8";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {""}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.call", "usf_vehicle_m3_halftrack_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.axis"); 
 		stage.m_includeLayers.insertLast("layer.axis");
         
@@ -949,7 +953,6 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "wh_vehicle_sdkfz251_mortar.
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_m4_sherman_v.call", "ukf_vehicle_m4_sherman_v_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_sherman_firefly.call", "ukf_vehicle_sherman_firefly_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_churchill.call", "ukf_vehicle_churchill_spawn.call", array<string> = {""}, true, "vehicle"));
-		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_m3_halftrack.call", "ukf_vehicle_m3_halftrack_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_inf.call", "ukf_inf_spawn.call", array<string> = {""}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_inf_ai.call", "ukf_inf_spawn_ai.call", array<string> = {""}, true, "infantry"));
 		

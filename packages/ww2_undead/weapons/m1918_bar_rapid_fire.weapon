@@ -53,7 +53,7 @@
 	<hud_icon filename="hud_bar_light.png" />
 	
 	<commonness value="0.01" can_respawn_with="1" in_stock="1"/>
-	<inventory encumbrance="8.0" price="15.0" />
+	<inventory encumbrance="5.0" price="15.0" />
 	
 
 	

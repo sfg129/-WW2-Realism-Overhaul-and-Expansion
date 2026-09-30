@@ -67424,6 +67424,19 @@ key = m4a3e2_75.vehicle;</desc>
            id="desc7082-7-0-45-7-94-8-7-5-2-9">type = vehicle;
 key = m4_75.vehicle;</desc>
       </rect>
+<rect
+         transform="matrix(0.99995478,-0.00951012,0.00951012,0.99995478,0,0)"
+         inkscape:label=""
+         y="1289.62497573"
+         x="438.22804568"
+         height="7.3962"
+         width="3.9823"
+         id="spawn_rwrmap_4"
+         style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
+        <desc
+           id="desc_spawn_rwrmap_4">type = vehicle;
+key = m4_75.vehicle;</desc>
+      </rect>
       <rect
          style="display:inline;opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new"
          id="spawn1-1-1-1-8-7-8-8-2-1"
@@ -67742,10 +67755,10 @@ key = sdkfz251_flak.vehicle;</desc>
          id="spawn1-1-4-2-1-0-9-9-5-4"
          width="3.9823"
          height="7.3962"
-         x="1484.9"
-         y="1472.1"
+         x="1484.33457112"
+         y="1472.09639742"
          inkscape:label=""
-         transform="rotate(-0.36505)">
+         transform="matrix(0.9999797,-0.00637128,0.00637128,0.9999797,0,0)">
         <desc
            id="desc7082-7-0-45-7-94-8-7-2-3">type = vehicle;
 key = panzer_iv.vehicle;</desc>
@@ -69532,21 +69545,9 @@ tag = truck;</desc>
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5">type = vehicle;
-key = m4_75.vehicle;</desc>
+key = m4a3e2_75.vehicle;</desc>
       </rect>
-<rect
-         transform="matrix(0.71384961,-0.70029903,0.70029903,0.71384961,0,0)"
-         inkscape:label=""
-         y="753.29254011"
-         x="476.90738662"
-         height="7.3962"
-         width="3.9823"
-         id="spawn_rwrmap_2"
-         style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
-        <desc
-           id="desc_spawn_rwrmap_2">type = vehicle;
-key = m4_76.vehicle;</desc>
-      </rect>
+
       <rect
          transform="rotate(1.6239)"
          inkscape:label=""
@@ -69723,7 +69724,7 @@ key = sdkfz251_flak.vehicle;</desc>
          style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:4.6;stroke-opacity:1;enable-background:new">
         <desc
            id="desc7082-7-0-45-7-94-8-7-5-4">type = vehicle;
-key = m4a3e2_75.vehicle;</desc>
+key = m4_75.vehicle;</desc>
       </rect>
     </g>
     <g

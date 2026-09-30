@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="Hawkins grenade" key="hawkins_grenade_blast.projectile" slot="0" radius="0" drop_count_factor_on_death="0.5" can_be_disarmed="0" can_be_detected_by_driver="0">
+<projectile class="grenade" name="Hawkins grenade" key="hawkins_grenade_blast.projectile" slot="0" radius="0" drop_count_factor_on_death="1" can_be_disarmed="0" can_be_detected_by_driver="0">
   <tag name="antitank_grenade" />
   <sound class="result" key="other" fileref="at_grenade_01.wav" volume="1.9" pitch_variety="0.1" />
   <sound class="result" key="other" fileref="at_grenade_02.wav" volume="1.9" pitch_variety="0.1" />

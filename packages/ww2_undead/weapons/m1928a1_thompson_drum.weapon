@@ -48,7 +48,7 @@
 	<hud_icon filename="hud_m1928a1_drum.png" />
 	
 	<commonness value="0.015" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="5.0" price="50" />
+	<inventory encumbrance="3.0" price="50" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

@@ -65,6 +65,6 @@
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />
 	
-    <effect class="activated" ref="Propulsion" />
+
 	
 </projectile>

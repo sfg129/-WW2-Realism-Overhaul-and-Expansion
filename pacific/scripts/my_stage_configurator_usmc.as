@@ -466,6 +466,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_mapInfo.m_name = "Saipan";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island5";
 		stage.m_mapInfo.m_id = "island5";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.usmc"); 
 		stage.m_includeLayers.insertLast("layer.usmc");     
 		
@@ -548,6 +549,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.m_mapInfo.m_name = "Iwo Jima";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island6";
 		stage.m_mapInfo.m_id = "island6";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_75_late_cb_h1.call", "vehicle_m4_75_late_cb_h1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
     
 		stage.m_fogOffset = 20.0;    
 		stage.m_fogRange = 50.0;     
@@ -633,6 +636,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.m_mapInfo.m_name = "Peleliu Airfield";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island8";
 		stage.m_mapInfo.m_id = "island8";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
     
 		//stage.m_fogOffset = 20.0;    
 		//stage.m_fogRange = 50.0;     
@@ -726,6 +733,11 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.ca
 		stage.m_mapInfo.m_name = "Downfall";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island7";
 		stage.m_mapInfo.m_id = "island7";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_75_late_cb_h1.call", "vehicle_m4_75_late_cb_h1_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4a3e2_75.call", "usf_vehicle_m4a3e2_75_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4a3e2_76.call", "usf_vehicle_m4a3e2_76_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
 		stage.m_hidden = true;    
 		stage.m_includeLayers.insertLast("bases.campaign"); 
 		stage.m_includeLayers.insertLast("layer.usmc");     

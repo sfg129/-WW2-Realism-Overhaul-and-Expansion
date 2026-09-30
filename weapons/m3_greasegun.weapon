@@ -40,8 +40,8 @@
 	<model filename="weapon_m3_greasegun.xml" />
 	<hud_icon filename="hud_m3_smg.png" />
 	
-	<commonness value="0.1" />
-	<inventory encumbrance="5.0" price="10.0" />
+	<commonness value="0.08" />
+	<inventory encumbrance="3.0" price="10.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

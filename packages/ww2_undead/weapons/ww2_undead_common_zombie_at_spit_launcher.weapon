@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="ww2_undead_common_zombie_at_spit_launcher.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="0.0">
+<weapon file="base_secondary.weapon" key="ww2_undead_common_zombie_at_spit_launcher.weapon" time_to_live_out_in_the_open="0.0" drop_count_factor_on_death="1">
 	<tag name="bazooka" />
 	
 	<specification 

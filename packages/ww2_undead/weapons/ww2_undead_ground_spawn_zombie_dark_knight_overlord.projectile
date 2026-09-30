@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="" slot="0" key="ww2_undead_ground_spawn_zombie_dark_knight_overlord.projectile" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death ="0.0">
+<projectile class="grenade" name="" slot="0" key="ww2_undead_ground_spawn_zombie_dark_knight_overlord.projectile" drop_count_factor_on_death="1" drop_count_factor_on_player_death ="0.0">
 	
 	<sound class="result" key="other" fileref="thunder.wav" volume="2.0" pitch_variety="0.1"/>
 

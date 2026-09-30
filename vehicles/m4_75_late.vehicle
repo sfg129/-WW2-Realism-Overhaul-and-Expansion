@@ -19,7 +19,7 @@
 
 	<!-- Medium Tanks are immune to Flamethrowers. -->
 
-	<physics max_health="30" 
+	<physics max_health="32" 
     blast_damage_threshold="1.02" 
     mass="200.0" 
     broken_mass="10" 
@@ -41,22 +41,22 @@
 	<turret offset="0 2.35 0.18" weapon_key="m4_hull_mg.weapon" weapon_offset="0.5 0.7 1.5" weapon_recoil="0.2" max_rotation_step="0.0000427" />
 	<turret offset="-0.7 0.73 -0.125" weapon_key="binoculars.weapon" weapon_recoil="0.0" physics_recoil="0.0" rotation_range="0" />
 
-	<visual class="chassis" mesh_filename="m4_76_70_chassis.mesh" texture_filename="m4_76_70_chassis.png" max_tilt="0.02" />
-	<visual class="chassis" key="broken" mesh_filename="m4_76_70_chassis_damage.mesh" texture_filename="m4_76_70_chassis_running_damage.png" />
-	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_damage.png"  offset="0 0.10832 0"/>
-	<visual class="turret" turret_index="0" mesh_filename="m4_71_turret.mesh" texture_filename="m4_71_turret_late.png"  offset="0 0.10721 0"/>
+	<visual class="chassis" mesh_filename="m4_76_late_chassis.mesh" texture_filename="m4_76_late_chassis.png" max_tilt="0.02" />
+	<visual class="chassis" key="broken" mesh_filename="m4_76_late_chassis_damage.mesh" texture_filename="m4_76_late_chassis_running_damage.png" />
+	<visual class="turret" turret_index="0" key="broken" mesh_filename="m4_75_turret_early.mesh" texture_filename="m4_75_turret_early_damage.png"  offset="0 0.10832 0"/>
+	<visual class="turret" turret_index="0" mesh_filename="m4_75_turret_early.mesh" texture_filename="m4_75_turret_late.png"  offset="0 0.10721 0"/>
 	<visual class="turret" turret_index="1" mesh_filename="m4_75_cupola.mesh" texture_filename="m4_75_V.png" offset="-0.01156 0.07239 -0.01027" />
 	<visual class="turret" turret_index="1" key="broken" mesh_filename="m4_75_cupola_damage.mesh" texture_filename="m4_75_V_damage.png"  offset="-0.01173 -0.05015 -0.01013"/>
 	<visual class="turret" turret_index="2" mesh_filename="m4_hull_mg.mesh" texture_filename="m4_75.png" />
 
-	<visual class="track" mesh_filename="m4_76_70_running_right.mesh" offset="0 0 0">
-		<part texture_filename="m4_76_70_wheels.png" texture_animation="rotate" tire_binding="0" />
-		<part texture_filename="m4_76_70_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
+	<visual class="track" mesh_filename="m4_76_late_running_right.mesh" offset="0 0 0">
+		<part texture_filename="m4_76_late_wheels.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="m4_76_late_track.png" texture_animation="translate" factor="0.7" tire_binding="0" />
 	</visual>
 
-	<visual class="track" mesh_filename="m4_76_70_running_left.mesh" offset="0 0 0">
-		<part texture_filename="m4_76_70_wheels.png" texture_animation="rotate" tire_binding="1" />
-		<part texture_filename="m4_76_70_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
+	<visual class="track" mesh_filename="m4_76_late_running_left.mesh" offset="0 0 0">
+		<part texture_filename="m4_76_late_wheels.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="m4_76_late_track.png" texture_animation="translate" factor="0.7" tire_binding="1" />
 	</visual>
 
 	<!-- just so you don't forget - XYZ is Leftright,Updown,Forwardback (left is a positive value) -->

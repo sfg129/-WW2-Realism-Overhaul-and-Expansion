@@ -48,8 +48,8 @@
     <sound key="magazine_in" fileref="pf98_cycle_out.wav" volume="0.3"/>
     <model filename="type4_rocket_launcher.xml" />
     <hud_icon filename="hud_type4_rocket_launcher.png" />
-	  <commonness value="0.2" can_respawn_with="1"/>
-	 <inventory encumbrance="8.0" price="60.0" />
+	  <commonness value="0.24" can_respawn_with="1"/>
+	 <inventory encumbrance="5.0" price="60.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	

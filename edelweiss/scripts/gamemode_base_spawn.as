@@ -1,4 +1,5 @@
 #include "hawkins_grenade_test.as"
+#include "tactical_smoke_ai.as"
 // internal
 #include "metagame.as"
 #include "gamemode.as"
@@ -28,6 +29,7 @@ class GameModeBaseSpawn : GameMode {
 	void postBeginMatch() {
 		GameMode::postBeginMatch();
 		addTracker(HawkinsGrenadeTracker(this));
+		addTracker(TacticalSmokeAI(this));
 		
 		addTracker(BasicCommandHandler(this));
 		addTracker(CommandHandler(this));
@@ -38,6 +40,7 @@ class GameModeBaseSpawn : GameMode {
 		addTracker(SpawnInBaseCallHandler(this, "usf_para_no_parachuting.call", "usf_para_no_parachuting_spawn.call", array<string> = {"point_262"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_para_no_parachuting_ai.call", "usf_para_no_parachuting_spawn_ai.call", array<string> = {"point_262"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_armoury_marine.call", "usf_vehicle_armoury_marine_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
@@ -45,6 +48,10 @@ class GameModeBaseSpawn : GameMode {
 		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_m4_sherman_v.call", "ukf_vehicle_m4_sherman_v_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_sherman_firefly.call", "ukf_vehicle_sherman_firefly_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_churchill.call", "ukf_vehicle_churchill_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_un_b.call", "ukf_vehicle_un_b_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_un.call", "ukf_vehicle_un_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "ukf_vehicle_unk.call", "ukf_vehicle_unk_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
+		addTracker(SpawnInBaseCallHandler(this, "usmc_vehicle.call", "usmc_vehicle_spawn.call", array<string> = {"point_262"}, true, "vehicle"));
 
 		addTracker(SpawnInBaseCallHandler(this, "ukf_inf.call", "ukf_inf_spawn.call", array<string> = {"point_262"}, true, "infantry"));
 		addTracker(SpawnInBaseCallHandler(this, "ukf_pl_inf.call", "ukf_pl_inf_spawn.call", array<string> = {"point_262"}, true, "infantry"));

@@ -6,6 +6,8 @@ array<CallMarkerConfig@> getCallMarkerConfigs() {
 	array<CallMarkerConfig@> configs = {
 		// Mortar and rocket barrages. light_mortar.call is intentionally excluded.
 		CallMarkerConfig("mortar.call", 6, 0.5, 45.0),
+		CallMarkerConfig("mortar_smoke_1.call", 6, 0.5, 45.0),
+		CallMarkerConfig("mortar_smoke_2.call", 6, 0.5, 45.0),
 		CallMarkerConfig("mortar1.call", 7, 0.5, 45.0),
 		CallMarkerConfig("mortar2.call", 7, 0.5, 45.0),
 		CallMarkerConfig("mortar3.call", 7, 0.5, 40.0),
@@ -14,6 +16,7 @@ array<CallMarkerConfig@> getCallMarkerConfigs() {
 
 		// Artillery barrages.
 		CallMarkerConfig("artillery.call", 8, 1.0, 75.0),
+		CallMarkerConfig("artillery_smoke.call", 8, 1.0, 75.0),
 		CallMarkerConfig("artillery1.call", 9, 1.0, 80.0),
 		CallMarkerConfig("artillery2.call", 8, 1.0, 75.0),
 		CallMarkerConfig("artillery3.call", 9, 1.0, 80.0),

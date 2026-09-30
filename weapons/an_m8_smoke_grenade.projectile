@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="AN-M8 smoke grenade" key="an_m8_smoke_grenade.projectile" slot="0" radius="0.15" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="0.5" time_to_live_out_in_the_open="60.0">
-    <tag name="grenade" />
+<projectile class="grenade" name="AN-M8 smoke grenade" key="an_m8_smoke_grenade.projectile" slot="0" radius="0.15" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="1" time_to_live_out_in_the_open="60.0">
     <access_tag name="ww2" />
 
     <!-- Keep the native projectile untouched for its entire flight. Its first
@@ -13,7 +12,7 @@
     <hud_icon filename="hud_an_m8.png" />
     <rotation class="random" />
     <throwable curve_height="5.5" near_far_distance="5.0" speed_estimation_near="12.0" speed_estimation_far="17.0" max_speed="17" randomness="0.07" />
-    <commonness value="0.1" can_respawn_with="1" />
+    <commonness value="0.25" can_respawn_with="1" />
     <inventory encumbrance="1" price="4.0" />
     <capacity value="4" source="rank" source_value="0" />
 </projectile>

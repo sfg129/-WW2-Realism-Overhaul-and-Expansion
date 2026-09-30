@@ -283,4 +283,8 @@
 	<text key="Requesting reinforcements, DUKW Armory"/>
 	<text key="DUKW Armory deployed"/>
 		
+	<text key="Light Mortar Barrage - Smoke" />
+	<text key="Light Mortars, Smoke" />
+	<text key="Light Naval Guns - Smoke" />
+	<text key="Light Naval Guns, Smoke" />
 </translation>

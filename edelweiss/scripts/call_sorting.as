@@ -4,6 +4,8 @@ array<string> getCallSorting() {
 		// mortars
 		"light_mortar.call",
 		"mortar.call",
+		"mortar_smoke_1.call",
+		"mortar_smoke_2.call",
 		"mortar1.call",
 		"mortar2.call",
 		"mortar3.call",
@@ -32,6 +34,7 @@ array<string> getCallSorting() {
 		"artillery.call",
 		"artillery1.call",
 		"artillery4.call",
+		"artillery_smoke.call",
 
 		// infantry
 		"usmc_inf.call",
@@ -110,6 +113,7 @@ array<string> getCallSorting() {
 		"usf_vehicle_m4a3e2_76_late.call",
 				"vehicle_m4_e4.call",
 		"usf_vehicle_m10.call",
+		"usf_vehicle_m36.call",
 		"ukf_vehicle_churchill.call",
 
 		// undead calls

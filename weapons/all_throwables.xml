@@ -84,6 +84,7 @@
 	<projectile file="m4_cannon.projectile" />
 	<projectile file="m4_firefly_cannon.projectile" />
 	<projectile file="m10_cannon.projectile" />
+	<projectile file="m36_cannon.projectile" />
 	<projectile file="tog2_cannon.projectile" />
 	<projectile file="stuart_cannon.projectile" />
 	<projectile file="hago_cannon.projectile" />
@@ -165,6 +166,14 @@
     <projectile file="no77_smoke_grenade.projectile" />
     <projectile file="no77_smoke_effect.projectile" />
     <projectile file="no77_smoke_burst.projectile" />
+    <projectile file="mortar_smoke_1.projectile" />
+    <projectile file="mortar_smoke_2.projectile" />
+    <projectile file="mortar_smoke_1_burst.projectile" />
+    <projectile file="mortar_smoke_2_burst.projectile" />
+    <projectile file="mortar_smoke_effect.projectile" />
+    <projectile file="artillery_smoke.projectile" />
+    <projectile file="artillery_smoke_effect.projectile" />
+    <projectile file="artillery_smoke_burst.projectile" />
 </projectiles>
 
 

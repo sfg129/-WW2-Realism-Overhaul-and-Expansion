@@ -62,7 +62,7 @@ projectile_speed="120.0"
 	<hud_icon filename="hud_type44_carbine_b.png" />
 	
 	<commonness value="0.0" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="10.0" />
+	<inventory encumbrance="5.0" price="10.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

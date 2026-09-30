@@ -38,7 +38,7 @@
 	<hud_icon filename="hud_luftwaffe_m30_shotgun.png" />
 	
 	<commonness value="0.01" can_respawn_with="0" />
-	<inventory encumbrance="8.0" price="150.0" />
+	<inventory encumbrance="5.0" price="150.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
 	

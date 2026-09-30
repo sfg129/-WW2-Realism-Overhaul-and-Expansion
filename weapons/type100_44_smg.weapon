@@ -41,7 +41,7 @@
 	<hud_icon filename="hud_type100_44.png" />
 	
 	<commonness value="0.02"/>
-	<inventory encumbrance="5.0" price="60.0"/>
+	<inventory encumbrance="3.0" price="60.0"/>
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

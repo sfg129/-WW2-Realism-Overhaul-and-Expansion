@@ -630,6 +630,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ukf_vehicle_unk.call", "ukf
 		stage.m_mapInfo.m_name = "Hell's Highway";
 		stage.m_mapInfo.m_path = "media/packages/edelweiss/maps/edelweiss4";
 		stage.m_mapInfo.m_id = "edelweiss4";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {""}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.allies"); 
 		stage.m_includeLayers.insertLast("layer.allies"); 
         stage.m_includeLayers.insertLast("offroad.allies");    
@@ -869,6 +870,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usmc_vehicle.call", "usmc_v
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting.call", "usf_para_no_parachuting_spawn.call", array<string> = {"foy_north"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting_ai.call", "usf_para_no_parachuting_spawn_ai.call", array<string> = {"foy_north"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"foy_north"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {"foy_north"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"foy_north"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"foy_north"}, true, "vehicle"));
 
@@ -980,6 +982,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usmc_vehicle.call", "usmc_v
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting.call", "usf_para_no_parachuting_spawn.call", array<string> = {"castle"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_para_no_parachuting_ai.call", "usf_para_no_parachuting_spawn_ai.call", array<string> = {"castle"}, true, "infantry"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"castle"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {"castle"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman.call", "usf_vehicle_m4_sherman_spawn.call", array<string> = {"castle"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"castle"}, true, "vehicle"));
 

@@ -51,7 +51,7 @@
 	<hud_icon filename="type97_hmg_bipod.png" />
 	
 	<commonness value="0.01" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="150" />
+	<inventory encumbrance="5.0" price="150" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

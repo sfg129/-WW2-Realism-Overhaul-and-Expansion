@@ -16,7 +16,7 @@
 			<vehicle file="universal_carrier_vickers_k.vehicle" />
 <vehicle file="panzer_iv_base_flak88.vehicle" />
 <vehicle file="sdkfz251_pak40.vehicle" />
-<vehicle file="m4_e4.vehicle" />
+<vehicle file="m4_75_e4.vehicle" />
 	<vehicle file="luchs.vehicle" />
 	<vehicle file="dukw.vehicle" />
 	<vehicle file="soukoutei.vehicle" />

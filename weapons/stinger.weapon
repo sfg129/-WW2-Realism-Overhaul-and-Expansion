@@ -57,7 +57,7 @@
 	<hud_icon filename="hud_stinger.png" />
 	
 	<commonness value="0.1" can_respawn_with="0" />
-	<inventory encumbrance="11.0" price="1500.0" />
+	<inventory encumbrance="5.0" price="1500.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

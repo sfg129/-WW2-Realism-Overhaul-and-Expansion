@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="m4_cb_h1_flamethrower.weapon"
+
+	ai_burst_time="1.6"
+	ai_burst_time_variance="0.6"
+	ai_burst_wait_time="0.15" 
+	ai_burst_wait_time_variance="0.05"
+>
+	<!-- these parameters are used to control AI burst times in vehicles. -->
+	
+	<specification
+	retrigger_time="0.06"
+	projectiles_per_shot="1"
+	spread_range="0.05"
+	accuracy_factor="1.5"
+	sustained_fire_grow_step="0.0075"
+	sustained_fire_diminish_rate="0.1"
+	magazine_size="-1"
+	suppressed="0"
+	sight_range_modifier="2.1"
+    ai_sight_range_modifier="1"
+	name="Churchill Crocodile Flame Drive"
+	class="0"
+	barrel_offset="2.0"
+	projectile_speed="120.0"
+	cooldown_start="0.2"
+	cooldown_end="0.0"
+	/>
+	
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+	<!-- Enemy AT Soldiers are priority for this MG -->
+
+	<sound key="fire" fileref="flamethrower.wav" volume="2.4"/>
+	
+    <model mesh_filename="m4_75_cannon.mesh" texture_filename="m4_75.png" />
+    <hud_icon filename="hud_tank_cannon.png" />
+	
+	<inventory encumbrance="11.0" price="2.0" />
+	<commonness value="0.0" />
+	
+	<ballistics
+	curve_height="0"
+	near_far_distance="15.0"
+	speed_estimation_near="60.0"
+	speed_estimation_far="60.0"
+	max_speed="80"
+	randomness="0.05"
+	tweak_factor="8"
+	/> 
+	<projectile file="flamethrower_flame_tank.projectile" /> 
+	
+	<!--
+	<effect class="muzzle" ref="BigMuzzle" />
+    <effect class="muzzle" ref="CannonSmokeBig" /> 
+    -->
+	
+</weapon>

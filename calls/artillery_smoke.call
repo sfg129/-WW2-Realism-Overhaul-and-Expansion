@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Light Naval Guns - Smoke" key="artillery_smoke.call"
+	initiation_comment1="Requesting Fire Support"
+	initiation_comment2="Light Naval Guns, Smoke"
+	acknowledge_comment="Roger, wait three."
+	acknowledge_time="3.0"
+	launch_comment="Barrage under way."
+        notify_metagame="1">
+
+    <!-- Volley 1: 3 groups x 3 smoke shells; corresponding groups repeat every 4 seconds. -->
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="6.0"
+	spawn_time="10.0">
+	<sound class="launch" fileref="light_gun_barrage_distant.wav" volume="2.3" /> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="7.0"
+	spawn_time="11.0">   
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="8.0"
+	spawn_time="12.0"> 
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+
+    <!-- Volley 2: 3 groups x 3 smoke shells; corresponding groups repeat every 4 seconds. -->
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="20 0 20" 
+	launch_time="10.0"
+	spawn_time="14.0">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="15 12 12" 
+	common_spread="20 0 20" 
+	launch_time="11.0"
+	spawn_time="15.0"> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="20 0 20" 
+	launch_time="12.0"
+	spawn_time="16.0">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+
+    <!-- Volley 3: 3 groups x 3 smoke shells; corresponding groups repeat every 4 seconds. -->
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="5 15 5" 
+	common_spread="15 0 15" 
+	launch_time="14.0"
+	spawn_time="18.0">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="15 12 12" 
+	common_spread="15 0 15" 
+	launch_time="15.0"
+	spawn_time="19.0"> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="artillery_smoke.projectile" 
+	instance_spread="10 15 10" 
+	common_spread="15 0 15" 
+	launch_time="16.0"
+	spawn_time="20.0">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+
+    <hud_icon filename="hud_artillery.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="600.0" />
+
+</call>

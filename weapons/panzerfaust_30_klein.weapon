@@ -19,7 +19,7 @@
 	class="3" 
 	reload_one_at_a_time="1" 
 	sight_range_modifier="1" 
-	projectile_speed="30" 
+	projectile_speed="28" 
 	slot="1" 
 	projectiles_per_shot="1"
 	/>
@@ -65,7 +65,7 @@
 near_far_distance="16.0"
     speed_estimation_near="10.0"
     speed_estimation_far="16.0"
-    max_speed="30"
+    max_speed="28"
 	curve_height="3.5" 
     randomness="0.0"
 	tweak_factor="1.55"

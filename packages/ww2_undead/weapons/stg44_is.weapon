@@ -54,7 +54,7 @@ sight_range_modifier="1"
 	<model filename="weapon_stg44_ar_s.xml" />
 	<hud_icon filename="hud_stg44_sniper.png" />
 	<commonness value="0" can_respawn_with="1" in_stock="0"/>
-	<inventory encumbrance="8.0" price="350.0" />
+	<inventory encumbrance="5.0" price="350.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

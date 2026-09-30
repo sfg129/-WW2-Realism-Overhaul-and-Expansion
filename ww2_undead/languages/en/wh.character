@@ -253,7 +253,7 @@
 	<comment key="spawn_in_base_call, denied, key=usmc_vehicle1.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=vehicle_m3_mortar.call" text="M3 81mm MMC deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m3_mortar.call" text="No valid deployment points found, capture a base!" />
-	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman Flamethrower deploying at %base_name" />
+	<comment key="spawn_in_base_call, accepted, key=vehicle_m4_e4.call" text="M4A3 Sherman E4-5 Flamethrower deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=vehicle_m4_e4.call" text="No valid deployment points found, capture a base!" />
 	<comment key="spawn_in_base_call, accepted, key=wh_vehicle_luchs.call" text="Panzer II Luchs deploying at %base_name" />
 	<comment key="spawn_in_base_call, denied, key=wh_vehicle_luchs.call" text="No valid deployment points found, capture a base!" />

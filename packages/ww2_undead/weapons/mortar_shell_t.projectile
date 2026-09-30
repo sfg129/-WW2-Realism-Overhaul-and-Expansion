@@ -31,7 +31,7 @@
 	randomness="0.07"
 	/>
 		<commonness value="0" />
-	<inventory encumbrance="1.5" price="24" />
+	<inventory encumbrance="1" price="24" />
 	
 	<capacity value="4" source="rank" source_value="0.0" />
 

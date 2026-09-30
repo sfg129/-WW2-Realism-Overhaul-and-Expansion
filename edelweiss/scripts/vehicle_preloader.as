@@ -78,6 +78,8 @@ class HighDetailVehiclePreloader : Tracker {
 			addVehicle("m4a3e2_75.vehicle", 0);
 		}
 		if (mapId == "edelweiss6" || mapId == "edelweiss7") addVehicle("m4a3e8.vehicle", 0);
+		// M36 has its own hull, turret, running gear and cannon meshes.
+		if (mapId == "edelweiss6" || mapId == "edelweiss7") addVehicle("m36.vehicle", 0);
 		if (mapId == "edelweiss7" || mapId == "edelweiss8" || mapId == "edelweiss9" ||
 			mapId == "edelweiss11") addVehicle("deco_sedan_black.vehicle", 0);
 	}

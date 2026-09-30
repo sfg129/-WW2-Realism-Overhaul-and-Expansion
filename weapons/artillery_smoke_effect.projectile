@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="" key="artillery_smoke_effect.projectile" slot="0" radius="0.01" can_be_disarmed="0" can_be_detected_by_driver="0" can_be_detected_by_footmen="0" drop_count_factor_on_death="1">
+    <trigger class="time" time_to_live="25" />
+   <result class="blast" radius="0" damage="0" push="0" decal="0" character_state="none" />
+    <!-- This invisible, already-impacted helper must settle once, not keep
+         bouncing against terrain for the entire smoke duration. Sticky is
+         confined to this carrier; the incoming mortar shell is unchanged. -->
+    <collision class="sticky" />
+    <commonness value="0" can_respawn_with="0" />
+    <capacity value="0" source="rank" source_value="0" />
+
+    <!-- Activated, rather than a one-frame result/vehicle event, so the emitter
+         remains alive and begins every particle at age zero. -->
+    <effect class="activated" ref="MymodNavalArtillerySmokeCloud" post_processing="1" />
+</projectile>

@@ -28,6 +28,10 @@ class MyStageConfiguratorUSMCInvasion : MyStageConfiguratorUSMC {
 		stage.m_mapInfo.m_name = "Elk Island";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island10";
 		stage.m_mapInfo.m_id = "island10";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.usmc"); 
 		stage.m_includeLayers.insertLast("layer.usmc");     
 		

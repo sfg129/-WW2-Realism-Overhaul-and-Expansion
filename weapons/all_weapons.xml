@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapons>
-
+	<weapon file="m4_cb_h1_flamethrower.weapon" /> 
 	<!-- October 2025 -->
 	<weapon file="m3m_s.weapon" /> 
-
+<weapon file="m4_e4_5_flamethrower.weapon" /> 
 	<weapon file="sidecar_german_mg.weapon" /> 
 	<weapon file="sidecar_german_mg_dummy.weapon" /> 
 <weapon file="boys_at_rifle_un.weapon" /> 
@@ -309,6 +309,7 @@
 	<weapon file="tog2_mg.weapon" />
 	<weapon file="maus_mg_turret.weapon" />
 	<weapon file="m10_cannon.weapon" />
+	<weapon file="m36_cannon.weapon" />
 	<weapon file="m10_mg_dummy.weapon" />
 	<weapon file="at_gun_fortified_turret_cannon_chi_ha.weapon" />
 	<weapon file="at_gun_fortified_turret_cannon_sherman.weapon" />

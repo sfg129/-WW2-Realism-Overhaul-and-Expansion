@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="arty flare" slot="0" key="ww2_undead_artillery_flare.projectile" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0">
+<projectile class="grenade" name="arty flare" slot="0" key="ww2_undead_artillery_flare.projectile" radius="0.15" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1" drop_count_factor_on_player_death="0.0">
 	
     <result class="spawn" instance_class="vehicle" instance_key="ww2_undead_artillery_flare_despawner.vehicle" min_amount="1" max_amount="1" offset="0 0.5 0" position_spread="0 0" direction_spread="0 0" />
 

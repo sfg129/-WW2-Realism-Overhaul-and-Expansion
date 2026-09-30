@@ -50,7 +50,7 @@ stance_accuracy_rate="1.75"
 	   <hud_icon filename="hud_bazooka.png" />
 	
 	  <commonness value="0.35" can_respawn_with="1"/>
-	 <inventory encumbrance="8.0" price="30.0" />
+	 <inventory encumbrance="5.0" price="30.0" />
 	<capacity value="1" source="rank" source_value="0.0" />
 	
 	

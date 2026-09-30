@@ -22,7 +22,9 @@ particle_system No77SmokeTest24
         colour_range_end 0.98 0.98 0.94 0
         direction 0 1 0
         emission_rate 60
-        position 0 4 0
+        // Center the ellipsoid on the impact point. Its lower half goes below
+        // the terrain, leaving a hemispherical cloud above the ground.
+        position 0 0 0
         velocity_min 0.15
         velocity_max 0.35
         time_to_live_min 4.0
@@ -31,11 +33,12 @@ particle_system No77SmokeTest24
         duration_min 26.0
         duration_max 26.0
         // Direction is upward, so Ogre aligns depth with world height;
-        // width and height form the two ground-plane axes. Growing
-        // billboards extend beyond the 12 x 12 x 8 emission ellipsoid.
+        // width and height form the two ground-plane axes. The horizontal
+        // radius remains 6; depth 12 gives a vertical radius of 6.
+        // Growing billboards can extend slightly outside this ellipsoid.
         width 12
         height 12
-        depth 8
+        depth 12
     }
 
     affector Scaler

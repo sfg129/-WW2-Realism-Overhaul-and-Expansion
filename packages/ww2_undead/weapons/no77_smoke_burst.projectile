@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- A separate, briefly persistent carrier is used because the impact grenade
      itself is removed while its impact result is being resolved. -->
-<projectile class="grenade" name="" key="no77_smoke_burst.projectile" slot="0" radius="0.01" pulldown_in_air="100" can_be_disarmed="0" can_be_detected_by_driver="0" drop_count_factor_on_death="0">
+<projectile class="grenade" name="" key="no77_smoke_burst.projectile" slot="0" radius="0.01" pulldown_in_air="100" can_be_disarmed="0" can_be_detected_by_driver="0" drop_count_factor_on_death="1">
     <trigger class="time" time_to_live="0.1" />
     
      <result class="blast" radius="3" damage="0.9" push="0" decal="0" character_state="death" />

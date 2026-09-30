@@ -9,8 +9,8 @@
         spread_range="0.22"
 	retrigger_time="4.5" 
 	accuracy_factor="0.9" 
-	sight_range_modifier="4.75"
-  	ai_sight_range_modifier="0.5"  
+	sight_range_modifier="5"
+  	ai_sight_range_modifier="0.6"  
 	sustained_fire_grow_step="1.0" 
 	sustained_fire_diminish_rate="0.175" 
 	magazine_size="-1" 
@@ -23,7 +23,7 @@
 	projectile_speed="100.0"  
 	barrel_offset="0" 
 	barrel_offset_3d="0 2.0 1"
-	sight_height_offset="5.0"
+	sight_height_offset="6.4"
 	/>
 
 	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->

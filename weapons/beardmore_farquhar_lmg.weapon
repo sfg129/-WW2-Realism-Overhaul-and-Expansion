@@ -62,8 +62,8 @@ ai_burst_time="0.85"
 	<model filename="weapon_beardmore_farquhar.xml" />
 	<hud_icon filename="hud_beardmore_farquhar.png" />
 	
-	<commonness value="0.1" can_respawn_with="0"/>
-	<inventory encumbrance="8.0" price="500.0" />
+	<commonness value="0.08" can_respawn_with="0"/>
+	<inventory encumbrance="5.0" price="500.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="1" source="rank" source_value="0.0" />

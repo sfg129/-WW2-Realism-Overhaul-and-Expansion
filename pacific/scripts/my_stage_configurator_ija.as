@@ -2,6 +2,7 @@
 #include "spawn_in_base_call_handler.as"
 #include "damaged_vehicle.as"
 #include "uncapturable_last_base_end_timer.as"
+#include "phase_controller_island2_ija.as"
 
 // ------------------------------------------------------------------------------------------------
 class MyStageConfiguratorIJA : MyStageConfigurator {
@@ -105,21 +106,21 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 	
 	// ------------------------------------------------------------------------------------------------
 	protected Stage@ setupStage12() {
-		MyStage@ stage = createStage();
+		MyPhasedStage@ stage = createPhasedStage();
 		stage.m_mapInfo.m_name = "Russell Islands";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island2";
 		stage.m_mapInfo.m_id = "island2";
-		stage.m_includeLayers.insertLast("bases.ija"); 
+		stage.m_includeLayers.insertLast("bases.ija_defense");
 		stage.m_includeLayers.insertLast("layer.ija");     
 		
-		// required by UncapturableLastBaseEndTimer 
-		stage.m_useCustomTimerMode = true;
-		stage.m_defenseWinTime = 300.0; // any positive value is ok, UncapturableLastBaseEndTimer will handle
-//  timer to win, enemy capacity offset (default is 20)  
-    stage.addTracker(UncapturableLastBaseEndTimer(m_metagame, 300.0, 20));	
+		// Script phases, not the old last-base victory timer, control this battle.
+		// Enable the HUD countdown without letting its expiration end the match.
+		stage.m_defenseWinTime = 120;
+		stage.m_defenseWinTimeMode = "custom_ignore_end";
+		stage.setPhaseController(PhaseControllerIsland2IJA(m_metagame));
+		stage.addTracker(ScriptVehicleCallHandler(m_metagame, "script_vehicle_m3_stuart.call", "script_vehicle_m3_stuart_spawn.call", 1, array<string> = {"Carrier", "Attack Ship"}));
 	stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehicle_m4_e4_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 
-		stage.addTracker(PeacefulLastBase(m_metagame, 0));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m3_halftrack.call", "usf_vehicle_m3_halftrack_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m3_mortar.call", "vehicle_m3_mortar_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usmc_inf.call", "usmc_inf_spawn.call", array<string> = {"Carrier"}, true, "infantry"));
@@ -136,33 +137,38 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "ija_vehicle_medium_tank_chi_ha_early.call", "ija_vehicle_medium_tank_chi_ha_early_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_stuart.call", "usf_vehicle_stuart_spawn.call", array<string> = {"Carrier"}, true, "vehicle"));
 		
-		stage.addStartComment(Comment("map start with 1 base, part 1", 5.0));
-		stage.addStartComment(Comment("map start with 1 base, part 2", 5.0));
-		stage.addStartComment(Comment("map start with 1 base, part 3", 5.0));
-		stage.addStartComment(Comment("map start with 1 base, part 4", 5.0));
+		// Briefings belong to the controller so their progress is saved as well.
 		
-		stage.m_maxSoldiers = 9 * 15;       // 135 units
+		stage.m_maxSoldiers = 140;
 	// 	stage.m_playerAiCompensation = 3;
     // stage.m_playerAiReduction = 2; 
-		stage.m_soldierCapacityVariance = 0.55;
+		stage.m_soldierCapacityVariance = 0.2;
 
-    stage.addTracker(Spawner(m_metagame, 1, Vector3(736,15,346), 15, "regular"));        // prison hatch protector filler
-    stage.addTracker(Spawner(m_metagame, 1, Vector3(337,15,812), 15, "regular"));        // first base filler to avoid rush   
-    stage.addTracker(Spawner(m_metagame, 1, Vector3(336,15,850), 10, "regular"));        // sub protectors       
+		// Do not create the old American island garrisons inside Japanese bases.
 		
 		{ 				
-			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.35, 0.2));
+			Faction f(getFactionConfigs()[0], createFellowCommanderAiCommand(0, 0.9, 0.1));
+			// Stored defaults are not automatically sent. Apply the defense order
+			// before start_game as well as through the phase controller on resume.
+			f.m_defaultCommanderAiCommand.setStringAttribute("attack_target_base_key", "");
+			f.m_defaultCommanderAiCommand.setBoolAttribute("reduce_defense_for_final_attack", false);
+			f.m_defaultCommanderAiCommand.setBoolAttribute("reduce_border_soldier_count_for_attack_boost", false);
+			stage.m_extraCommands.insertLast(f.m_defaultCommanderAiCommand);
 			f.m_overCapacity = 0;
-			f.m_capacityOffset = 5;  // was 0 
-			f.m_capacityMultiplier = 0.85;         // was 0.8
-			f.m_bases = 1;
+			f.m_capacityOffset = 0;
+			f.m_capacityMultiplier = 0.75;
+			f.m_winWithAllBases = false;
 			stage.m_factions.insertLast(f);
 		}
 		{
-      Faction f(getFactionConfigs()[1], createCommanderAiCommand(1, 0.5, 0.25));
-			f.m_overCapacity = 50;
-			f.m_capacityOffset = 10;
-			f.m_capacityMultiplier = 1.0;
+			Faction f(getFactionConfigs()[1], createCommanderAiCommand(1, 1.0, 0.0, false));
+			// Send before start_game, not just when the phase tracker starts:
+			// the native default match may already have selected an attack target.
+			stage.m_extraCommands.insertLast(f.m_defaultCommanderAiCommand);
+			f.m_overCapacity = 0;
+			f.m_capacityOffset = 20;
+			f.m_capacityMultiplier = 1.2;
+			f.m_winWithAllBases = false;
 			stage.m_factions.insertLast(f);
 		}
 		
@@ -463,6 +469,7 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_mapInfo.m_name = "Saipan";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island5";
 		stage.m_mapInfo.m_id = "island5";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 		stage.m_includeLayers.insertLast("bases.ija"); 
 		stage.m_includeLayers.insertLast("layer.ija");    
 
@@ -545,6 +552,8 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_mapInfo.m_name = "Iwo Jima";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island6";
 		stage.m_mapInfo.m_id = "island6";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_75_late_cb_h1.call", "vehicle_m4_75_late_cb_h1_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 
     stage.m_fogOffset = 20.0;    
     stage.m_fogRange = 50.0;    
@@ -635,6 +644,10 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_mapInfo.m_name = "Peleliu Airfield";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island8";
 		stage.m_mapInfo.m_id = "island8";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle.call", "usf_vehicle_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m10.call", "usf_vehicle_m10_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_76.call", "usf_vehicle_m4_sherman_76_spawn.call", array<string> = {"Attack Ship"}, true, "vehicle"));
 
 		//stage.m_fogOffset = 20.0;    
 		//stage.m_fogRange = 50.0;    
@@ -731,6 +744,11 @@ stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_e4.call", "vehic
 		stage.m_mapInfo.m_name = "Downfall";
 		stage.m_mapInfo.m_path = "media/packages/pacific/maps/island7";
 		stage.m_mapInfo.m_id = "island7";
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4_sherman_75_late.call", "usf_vehicle_m4_sherman_75_late_spawn.call", array<string> = {}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "vehicle_m4_75_late_cb_h1.call", "vehicle_m4_75_late_cb_h1_spawn.call", array<string> = {"the_armory","submarine_pens","warehouses","the_heights"}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4a3e2_75.call", "usf_vehicle_m4a3e2_75_spawn.call", array<string> = {}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m4a3e2_76.call", "usf_vehicle_m4a3e2_76_spawn.call", array<string> = {}, true, "vehicle"));
+		stage.addTracker(SpawnInBaseCallHandler(m_metagame, "usf_vehicle_m36.call", "usf_vehicle_m36_spawn.call", array<string> = {}, true, "vehicle"));
 		stage.m_hidden = true;
 		stage.m_includeLayers.insertLast("bases.campaign");
 		stage.m_includeLayers.insertLast("layer.ija");      
